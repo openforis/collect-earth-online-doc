@@ -94,6 +94,50 @@ Have questions? Encounter bugs? Get the help you need here.
 
         Other questions or bugs? Get in touch.
 
+
+>>>>>>>>>>>>>>>>>>>>>>>>integrate
+   C. Report an issue and request new features
+
+When you click on the **[Support]** page on the menu bar, there is a
+link to the GitHub issues page. This page is also available at:
+https://github.com/openforis/collect-earth-online/issues.
+
+If you discover any of the Collect Earth Online functions are not
+working properly or would like to suggest an additional feature, you can
+use this page to log an issue or suggestion. Once logged, these messages
+go directly to the Collect Earth Online developer team.
+
+You will have to either log in or set up a GitHub account in order to
+log an issue. By logging in, the development team can contact you in
+case they need additional information to provide a solution to the issue
+or feature suggestion. Alternatively, if you are unable to register an
+account with GitHub, you can ask questions on the OpenForis forum, which
+is available here http://www.openforis.org/support.
+
+1. When you have a GitHub account, `navigate to the CEO GitHub
+   Page <https://github.com/openforis/collect-earth-online/issues>`__.
+
+2. To log an issue or request a new CEO feature, simply click on the
+   green **[New issue]** button in the upper right-hand portion of the
+   screen.
+
+3. Type in a title that conveys the topic of the issue or request.
+
+4. Then below, type in a detailed message summarizing the issue you have
+   encountered or the additional functionality you would like to see in
+   CEO.
+
+5. Once you have finished providing the details, click the green
+   **[Submit new issue]** button. This will log your request.
+
+.. |image1| image:: media/image3.png
+   :width: 0.36458in
+   :height: 0.36458in
+
+
+
+
+
 Supporting Institutions
 -----------------------
 
