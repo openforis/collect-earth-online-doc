@@ -1,50 +1,73 @@
 Familiarize yourself with satellite imagery & photo identification
+==================================================================
 
-   1. The landscape looks very different from above than it does from
-      the ground! If you have been on a plane, think about how the world
-      looks from that height. If not, imagine yourself slowly rising
-      higher and higher above the ground. Each person soon becomes a
-      spot, you can only see the shape of the roof of each building,
-      trees turn into circular green blobs (or spindly brown, depending
-      on the season). Consider looking at where you live with satellite
-      imagery first. Use your local knowledge to see what roads,
-      buildings, lakes, trees, and more look like.
+The landscape looks very different from above than it does from the ground! If you have been on a plane, think about how the world looks from that height. If not, imagine yourself slowly rising higher and higher above the ground. Each person soon becomes a spot, you can only see the shape of the roof of each building, trees turn into circular green blobs (or spindly brown, depending on the season). Consider looking at where you live with satellite imagery first. Use your local knowledge to see what roads, buildings, lakes, trees, and more look like.
 
-   2. Here are some sample images illustrating different land uses. All
-      images are courtesy of Bing Maps.
+Here are some sample images illustrating different land uses. All images are courtesy of Bing Maps.
 
-      i.   Forest
+Forest
+------
 
-           a. Conifer forest
+Conifer forest:
 
-           b. Deciduous Forest (Temperate)
+.. thumbnail:: ../images/interp1.png
+   :title: Conifer forest.
+   :group: interpretation
 
-      ii.  Pasture
+Deciduous Forest (Temperate):
 
-           a. Canada
+.. thumbnail:: ../images/interp2.png
+   :title: Temperate deciduous forest.
+   :group: interpretation
 
-      iii. Agriculture
+Pasture
+-------
 
-           a. Western US (arid)
+Canada:
 
-           b. Midwestern US (temperate)
+.. thumbnail:: ../images/interp3.png
+   :title: Pasture in Canada.
+   :group: interpretation
 
-      iv.  Water-Lake
+Agriculture
+-----------
 
-           a. Myanmar
+Western United States (arid):
 
-      v.   Water-River
+.. thumbnail:: ../images/interp4.png
+   :title: Irrigated agriculture in the arid Western United States.
+   :group: interpretation
 
-           a. Guatemala
+Midwestern United States (temperate):
 
-   3. Remember that depending on the study region, seasons may change
-      how the landscape looks.
+.. thumbnail:: ../images/interp5.png
+   :title: Agriculture in the temperate Midwestern United States.
+   :group: interpretation
 
-   4. Here are some additional resources to help you learn how to
-      visually interpret forests, grasslands, buildings, and more.
+Water-Lake
+----------
 
-      i.   https://earthobservatory.nasa.gov/features/ColorImage
+Myanmar:
 
-      ii.  https://www.amnh.org/research/center-for-biodiversity-conservation/capacity-development/biodiversity-informatics/remote-sensing-guides
+.. thumbnail:: ../images/interp6.png
+   :title: A lake in Myanmar.
+   :group: interpretation
 
-      iii. https://www.amnh.org/research/center-for-biodiversity-conservation/capacity-development/biodiversity-informatics/remote-sensing-interactives
+Water-River
+-----------
+
+Guatemala:
+
+.. thumbnail:: ../images/interp7.png
+   :title: A river in Guatemala.
+   :group: interpretation
+
+Remember that depending on the study region, seasons may change how the landscape looks. If your project has an Interpretation Key you should always use it as your primary reference.
+
+Here are some additional resources to help you learn how to visually interpret forests, grasslands, buildings, and more.
+
+1.   `https://earthobservatory.nasa.gov/features/ColorImage`__
+
+2.   `https://www.amnh.org/research/center-for-biodiversity-conservation/capacity-development/biodiversity-informatics/remote-sensing-guides`__
+
+3.   `https://www.amnh.org/research/center-for-biodiversity-conservation/capacity-development/biodiversity-informatics/remote-sensing-interactives`__
