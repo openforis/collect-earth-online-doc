@@ -82,27 +82,16 @@ The normalized difference vegetation index (NDVI) is used to determine if an are
 
 The enhanced vegetation index (EVI) and two-band EVI (EVI 2) are optimized vegetation indexes. They are designed to have higher sensitivity in high biomass regions (e.g. along the equator). As with NDVI, dead plants and inanimate objects are represented in one color, while live healthy plants are represented as another color. Which colors these are depends on how your institution has set up the project you’re working on. You can use the slider on the EVI widget to compare the EVI values with satellite imagery. The index varies between 0-1, with 0 representing dead plants and 1 representing very healthy plants.
 
-The normalized difference moisture index (NDMI) is used to determine the
-water content of vegetation. Values near -1 indicate plants with low
-moisture while values near 1 indicate plants with high moisture.
+The normalized difference moisture index (NDMI) is used to determine the water content of vegetation. Values near -1 indicate plants with low moisture while values near 1 indicate plants with high moisture.
 
-The normalized difference water index (NDWI) is also related to plant
-water content and plant water stress. Values near -1 indicate low water
-content and vegetation cover and values near 1 indicate high water
-content and vegetation cover.
+The normalized difference water index (NDWI) is also related to plant water content and plant water stress. Values near -1 indicate low water content and vegetation cover and values near 1 indicate high water content and vegetation cover.
 
-Some projects may set up imagery from two time periods, so you can
-easily view them side by side.
+Some projects may set up imagery from two time periods, so you can easily view them side by side.
 
-D. Geo-Dash degradation tool
+Geo-Dash degradation tool
+-------------------------
 
-Your institution may have set up the forest degradation tool in the
-Geo-Dash interface. This tool provides time series information on forest
-degradation from selective logging, fire, and other large and small
-disturbances. Broadly, you can use this tool to observe sharp and
-gradual changes in the NDFI metric (shown in the bottom panel) and click
-between the date points to visually confirm the change via imagery
-(shown in the top panel).
+Your institution may have set up the forest degradation tool in the Geo-Dash interface. This tool provides time series information on forest degradation from selective logging, fire, and other large and small disturbances. Broadly, you can use this tool to observe sharp and gradual changes in the NDFI metric (shown in the bottom panel) and click between the date points to visually confirm the change via imagery (shown in the top panel).
 
 More specifically, the **top panel** is the imagery panel. Imagery will
 display here over the OpenStreetMap data when you select a specific date
