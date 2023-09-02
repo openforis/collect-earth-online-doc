@@ -1,0 +1,32 @@
+{
+    "servirglobal": {
+      "html": "https://www.servirglobal.net/",
+      "dark": "dark/servir.png",
+      "light": "light/servir.png",
+      "size": "xl"
+    },
+    "openforis": {
+      "html": "http://www.openforis.org",
+      "light": "light/openforis.png",
+      "dark": "dark/openforis.png",
+      "size": "xl"
+    },
+    "fao": {
+      "html": "https://www.fao.org/home/en/",
+      "light": "light/openforis.png",
+      "dark": "dark/openforis.png",
+      "size": "xl"
+    },
+    "nasa": {
+      "html": "https://www.nasa.gov/",
+      "dark": "dark/nasa.png",
+      "light": "light/nasa.png",
+      "size": "xl"
+    },
+    "usaid": {
+      "html": "https://www.usaid.gov/",
+      "light": "light/nicfi.png",
+      "dark": "dark/nicfi.png",
+      "size": "xl"
+    }
+  }

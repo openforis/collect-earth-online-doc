@@ -1,89 +1,69 @@
-4. Start Collecting Data!
+Start Collecting Data!
+======================
 
-   A. Analyze some plots!
+Analyze some plots!
+-------------------
 
-      1. Now it is time to contribute to the project.
+Now it is time to contribute to a project. Make sure you have clicked on **Go to first plot**
 
-      2. Read the first Survey Question and the possible answers.
+1. Read the first Survey Question and the possible answers.
 
-      3. If you want to assign the same class or answer to ALL points in
-         the plot (prior to having applied an answer to any of the
-         points), you can just click on the answer without first needing
-         to select the points.
+2. If you want to assign the same class or answer to ALL points in the plot (prior to having applied an answer to any of the points), you can just click on the answer without first needing to select the points.
 
-      4. If you want to assign different classes or answers to points in
-         the plot, you will first select your sample points. When sample
-         points are selected, they turn blue.
+3. If you want to assign different classes or answers to points in the plot, you will first select your sample points. When sample points are selected, they turn blue.
 
-         i.   To select a *single* sample point, click on it with the
-              left mouse key.
+   i.   To select a *single* sample point, click on it with the left mouse key.
 
-         ii.  To select *several* sample points, click on them while
-              keeping the Shift key pressed down.
+   ii.  To select *several* sample points, click on them while keeping the Shift key pressed down.
 
-         iii. To select *all* points in the sample or all points in a
-              rectangle, hold down Ctrl, then click, hold, and drag in
-              the map window to draw your rectangle.
+   iii. To select *all* points in the sample or all points in a rectangle, hold down Ctrl, then click, hold, and drag in the map window to draw your rectangle.
 
-      5. When your sample points are marked in blue, you can assign them
-         a sample value by clicking on the suitable value in the legend
-         to the right of the map window. The sample points are then
-         marked in the color of the value class. Here, these sample
-         points are not forest (shrubland), so we select Other.
+4. When your sample points are marked in blue, you can assign them a sample value by clicking on the suitable value in the legend to the right of the map window. The sample points are then marked in the color of the value class. Here, these sample points are not forest (shrubland), so we select Other.
 
-         i.   If it is hard to answer the question because the basemap
-              imagery does not provide enough detail, try changing the
-              imagery as described in Part 3 D.2.ii above.
+   .. thumbnail:: ../images/collect1.png
+      :title: Selecting an answer.
+      :group: collect-data
 
-         ii.  You may also want to change the basemap to check for
-              seasonal effects (See also Part 4 B.2 below).
+   i.   If it is hard to answer the question because the basemap imagery does not provide enough detail, try changing the imagery as described in >>Part 3 D.2.ii above.
 
-         iii. Try zooming out to gather context clues from the landscape
-              (See also Part 4 B.3 below).
+   ii.  You may also want to change the basemap to check for seasonal effects (See also Part 4 B.2 below).
 
-         iv.  If you make a mistake and assign the wrong value to a
-              point or points, you can reselect the points & change the
-              assigned sample value.
+   iii. Try zooming out to gather context clues from the landscape (See also Part 4 B.3 below).
 
-      6. If there is a second survey question, click on “\ **2**\ ” or
-         press the **Right arrow**. Read this question & the answers,
-         reselect the points and assign them the correct secondary
-         attributes.
+   iv.  If you make a mistake and assign the wrong value to a point or points, you can reselect the points & change the assigned sample value.
 
-..
+5. If there is a second survey question, click on “\ **2**\ ” or press the **Right arrow**. Read this question & the answers, reselect the points and assign them the correct secondary attributes.
 
-   Your project may have “rules,” which help ensure that all answers are
-   logically consistent.
+6. Your project may have “rules,” which help ensure that all answers are logically consistent.
 
-i.   If your project has rules for a survey question, there will be a
-     clipboard icon next to the question text.
+   i.   If your project has rules for a survey question, there will be a clipboard icon next to the question text.
 
-ii.  You can hover over the clipboard icon to see the rules.
+   ii.  You can hover over the clipboard icon to see the rules.
 
-iii. If you violate the rules, there will be a popup explaining what is
-     wrong with your answer.
+   .. thumbnail:: ../images/collect2.png
+      :title: Mouseover the clipboard icon to see the rules.
+      :group: collect-data
 
-7.  Your project may have a confidence slider. If this feature is
-    enabled, simply choose the percentage value that best represents
-    your confidence in your answers, where 100 is totally confident.
+   iii. If you violate the rules, there will be a popup explaining what is wrong with your answer.
 
-8.  Continue until all sample points have been assigned a value for all
-    survey questions.
+   .. thumbnail:: ../images/collect3.png
+      :title: A rule pop-up.
+      :group: collect-data
 
-9.  Then, click on **SAVE**. You will receive an error message if you
-    have not answered all of the questions.
+7.  Your project may have a confidence slider. If this feature is enabled, simply choose the percentage value that best represents your confidence in your answers, where 100 is totally confident.
+
+8.  Continue until all sample points have been assigned a value for all survey questions.
+
+9.  Then, click on **SAVE**. You will receive an error message if you have not answered all of the questions.
 
 10. The next plot for analysis shows up automatically.
 
-11. When all plots are classified, a pop-up window appears to inform you
-    that all sample plots of your project are analyzed.
+11. When all plots are classified, a pop-up window appears to inform you that all sample plots of your project are analyzed.
 
-B. User-drawn samples
+User-drawn samples
+------------------
 
-For projects with user-drawn samples, you will need to first draw your
-samples before you can answer questions about them. Note that your
-project administrator may have limited the types of geometries (e.g.
-points, lines, or polygons) you can draw.
+For projects with user-drawn samples, you will need to first draw yoursamples before you can answer questions about them. Note that your project administrator may have limited the types of geometries (e.g. points, lines, or polygons) you can draw.
 
 1. First, select the pencil icon.
 
@@ -93,126 +73,87 @@ points, lines, or polygons) you can draw.
 
    i.   For points, click once for each point you would like to add.
 
-   ii.  For lines, click once for each vertex you would like to draw. To
-        complete the line, right click or double click.
+   ii.  For lines, click once for each vertex you would like to draw. To complete the line, right click or double click.
 
-   iii. For polygons, click once for each vertex you would like to draw.
-        To complete the shape, click on your first vertex or double
-        click.
+   iii. For polygons, click once for each vertex you would like to draw. To complete the shape, click on your first vertex or double        click.
 
-4. To modify an existing feature, hold CTRL and click to drag
+4. To modify an existing feature, hold CTRL and click to drag.
 
-5. To delete a feature, hold CTRL and right click on it
+5. To delete a feature, hold CTRL and right click on it.
 
 6. To save your drawn shapes, switch back to the question mode.
 
-C. Geo-Dash interface
+   .. thumbnail:: ../images/collect4.png
+      :title: User drawn shapes example.
+      :group: collect-data
 
-For some projects, a second page or tab will open automatically when you
-go to your first plot. This is the **Geo-Dash interface**. Many
-different elements can be displayed on this interface, depending on what
-the Institution has set up.
+Geo-Dash interface
+------------------
 
-Some of the most commonly used indexes are described here. If your
-Institution has set up the project with a more complicated **Geo-Dash
-interface**, contact them for more information on how to use the
-information provided to assist data collection and photo interpretation.
+For some projects, a second page or tab will open automatically when you go to your first plot. This is the **Geo-Dash interface**. Many different elements can be displayed on this interface, depending on what the Institution has set up.
 
-The normalized difference vegetation index (NDVI) is used to determine
-if an area contains live green vegetation. In map based representations,
-dead plants and inanimate objects are represented in one color, while
-live healthy plants are represented as another color. Which colors these
-are depends on how your institution has set up the project you’re
-working on. You can use the slider on the NDVI widget to compare the
-NDVI values with satellite imagery. In numerical representations (e.g.
-time series graphs) of most natural environments, values below 0
-represent dead plants or inanimate objects, 0-0.33 represents unhealthy
-plants, 0.33-0.66 represents moderately healthy plants, and 0.66-1
-represents very healthy plants.
+Some of the most commonly used indexes are described here. If your Institution has set up the project with a more complicated **Geo-Dash interface**, contact them for more information on how to use the information provided to assist data collection and photo interpretation.
 
-The enhanced vegetation index (EVI) and two-band EVI (EVI 2) are
-optimized vegetation indexes. They are designed to have higher
-sensitivity in high biomass regions (e.g. along the equator). As with
-NDVI, dead plants and inanimate objects are represented in one color,
-while live healthy plants are represented as another color. Which colors
-these are depends on how your institution has set up the project you’re
-working on. You can use the slider on the EVI widget to compare the EVI
-values with satellite imagery. The index varies between 0-1, with 0
-representing dead plants and 1 representing very healthy plants.
+The normalized difference vegetation index (NDVI) is used to determine if an area contains live green vegetation. In map based representations, dead plants and inanimate objects are represented in one color, while live healthy plants are represented as another color. Which colors these are depends on how your institution has set up the project you’re working on. You can use the slider on the NDVI widget to compare the NDVI values with satellite imagery. In numerical representations (e.g. time series graphs) of most natural environments, values below 0 represent dead plants or inanimate objects, 0-0.33 represents unhealthy plants, 0.33-0.66 represents moderately healthy plants, and 0.66-1 represents very healthy plants.
 
-The normalized difference moisture index (NDMI) is used to determine the
-water content of vegetation. Values near -1 indicate plants with low
-moisture while values near 1 indicate plants with high moisture.
+The enhanced vegetation index (EVI) and two-band EVI (EVI 2) are optimized vegetation indexes. They are designed to have higher sensitivity in high biomass regions (e.g. along the equator). As with NDVI, dead plants and inanimate objects are represented in one color, while live healthy plants are represented as another color. Which colors these are depends on how your institution has set up the project you’re working on. You can use the slider on the EVI widget to compare the EVI values with satellite imagery. The index varies between 0-1, with 0 representing dead plants and 1 representing very healthy plants.
 
-The normalized difference water index (NDWI) is also related to plant
-water content and plant water stress. Values near -1 indicate low water
-content and vegetation cover and values near 1 indicate high water
-content and vegetation cover.
+The normalized difference moisture index (NDMI) is used to determine the water content of vegetation. Values near -1 indicate plants with low moisture while values near 1 indicate plants with high moisture.
 
-Some projects may set up imagery from two time periods, so you can
-easily view them side by side.
+The normalized difference water index (NDWI) is also related to plant water content and plant water stress. Values near -1 indicate low water content and vegetation cover and values near 1 indicate high water content and vegetation cover.
 
-D. Geo-Dash degradation tool
+Some projects may set up imagery from two time periods, so you can easily view them side by side.
 
-Your institution may have set up the forest degradation tool in the
-Geo-Dash interface. This tool provides time series information on forest
-degradation from selective logging, fire, and other large and small
-disturbances. Broadly, you can use this tool to observe sharp and
-gradual changes in the NDFI metric (shown in the bottom panel) and click
-between the date points to visually confirm the change via imagery
-(shown in the top panel).
+Geo-Dash degradation tool
+-------------------------
 
-More specifically, the **top panel** is the imagery panel. Imagery will
-display here over the OpenStreetMap data when you select a specific date
-in the **bottom panel**. The **slider bar** allows you to choose the
-opacity of your imagery. Under **Band Combination**, 321 stands for true
-color composite (R,G,B) and 543 stands for false color composite (SWIR,
-NIR, R). Using the **Data** toggle, you can choose between Landsat or
-SAR data.
+Your institution may have set up the forest degradation tool in the Geo-Dash interface. This tool provides time series information on forest degradation from selective logging, fire, and other large and small disturbances. Broadly, you can use this tool to observe sharp and gradual changes in the NDFI metric (shown in the bottom panel) and click between the date points to visually confirm the change via imagery (shown in the top panel).
 
-The **bottom panel** shows a time series graph of NDFI (most common) or
-another metric. Values of NDFI between -1 and 0 generally indicate areas
-that have been logged (and burned, most likely). Values of NDFI near +1
-indicate intact forest. Values near .5 suggest selective logging or
-diffuse canopy damage. Each dot represents one time period where there
-are data for your sample plot.
+.. thumbnail:: ../images/collect5.png
+   :title: The Geo-Dash degradation tool.
+   :group: collect-data
+
+More specifically, the **top panel** is the imagery panel. Imagery will display here over the OpenStreetMap data when you select a specific date in the **bottom panel**. The **slider bar** allows you to choose the opacity of your imagery. Under **Band Combination**, 321 stands for true color composite (R,G,B) and 543 stands for false color composite (SWIR, NIR, R). Using the **Data** toggle, you can choose between Landsat or SAR data.
+
+The **bottom panel** shows a time series graph of NDFI (most common) or another metric. Values of NDFI between -1 and 0 generally indicate areas that have been logged (and burned, most likely). Values of NDFI near +1 indicate intact forest. Values near .5 suggest selective logging or diffuse canopy damage. Each dot represents one time period where there are data for your sample plot.
 
 To use this tool:
 
-1. Move the toggle to the imagery **Data** you would like to see:
-   LANDSAT or SAR.
+1. Move the toggle to the imagery **Data** you would like to see: LANDSAT or SAR.
 
-2. If you have chosen LANDSAT, choose the **Band Combination** you would
-   like.
+2. If you have chosen LANDSAT, choose the **Band Combination** you would like.
 
 3. Pause while the time series graph loads.
 
-4. Examine the time series graph for any cyclical patterns (indicating
-   seasonal changes). These are present in deciduous forests, but might
-   not be present (e.g. in the Amazon rainforest).
+4. Examine the time series graph for any cyclical patterns (indicating seasonal changes). These are present in deciduous forests, but might not be present (e.g. in the Amazon rainforest).
 
-5. Then, look for any abrupt changes (usually sharp degreases) or
-   gradual changes (usually gradual increases). These indicate potential
-   degradation & recovery events.
+5. Then, look for any abrupt changes (usually sharp degreases) or gradual changes (usually gradual increases). These indicate potential degradation & recovery events.
 
-6. Click on an individual date (blue circle) on the graph in order to
-   bring up imagery for that time period. You may have to wait for the
-   imagery to load.
+6. Click on an individual date (blue circle) on the graph in order to bring up imagery for that time period. You may have to wait for the imagery to load.
 
-7. Click between different dates on and around your suspected event to
-   visually confirm that an event happened and determine the type of
-   event. Here are some examples:
+7. Click between different dates on and around your suspected event to visually confirm that an event happened and determine the type of event. Here are some examples:
 
-A sharp decrease in NDFI (often accompanied by a gradual recovery) may
-indicate selective logging. The left panel shows the landscape before;
-the right panel is after the event. We can see that at our sample plot,
-a road has been created. This would be a degradation event around 2009
-with a recovery lasting 2-3 years.
+   i.   A sharp decrease in NDFI (often accompanied by a gradual recovery) may indicate selective logging. The left panel shows the landscape before; the right panel is after the event. We can see that at our sample plot, a road has been created. This would be a degradation event around 2009 with a recovery lasting 2-3 years.
 
-A sharp decrease in NDFI might also indicate a fire.
+   .. thumbnail:: ../images/collect6.png
+      :title: Example of selective logging.
+      :group: collect-data
 
-An abrupt shift down with no recovery might indicate the migration of a
-river canal:
+   ii.  A sharp decrease in NDFI might also indicate a fire.
 
-An abrupt shift down followed by a strong seasonal pattern (regular
-increase/decrease) may be forest clearing for agriculture.
+   .. thumbnail:: ../images/collect7.png
+      :title: Example of fire.
+      :group: collect-data
+
+   iii. An abrupt shift down with no recovery might indicate the migration of a river canal:
+
+   .. thumbnail:: ../images/collect8.png
+      :title: Example of river canal migration.
+      :group: collect-data
+
+   iv.  An abrupt shift down followed by a strong seasonal pattern (regular increase/decrease) may be forest clearing for agriculture.
+   
+   .. thumbnail:: ../images/collect9.png
+      :title: Example of change to agriculture.
+      :group: collect-data
+

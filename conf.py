@@ -30,7 +30,7 @@ extensions = [
 #    "notfound.extension",
     "_extentions.line_break",
 #    "_extentions.custom_edit",
-    "_extentions.logos",
+    "_extentions.logos"
 ]
 
 templates_path = ['_templates']

@@ -1,283 +1,237 @@
 Preparing for Data Collection
 =============================
 
-
 Allow pop-ups
 -------------
 
-   1. If it is your first-time collecting data with Collect Earth
-      Online, or you have switched computers, you may need to allow
-      pop-ups from the CEO site. CEO uses pop-up windows to display
-      additional, relevant information about each plot through the
-      Geo-Dash interface.
+If it is your first-time collecting data with Collect Earth Online, or you have switched computers, you may need to allow pop-ups from the CEO site. CEO uses pop-up windows to display additional, relevant information about each plot through the Geo-Dash interface.
 
-   2. How to enable pop-ups varies based on the browser you are using.
-      The most used browsers are discussed below. However, if your
-      browser is not covered, simply search online for your browser name
-      + “allow pop-ups” and the search engine should return relevant
-      results.
+How to enable pop-ups varies based on the browser you are using. The most used browsers are discussed below. However, if your browser is not covered, simply search online for your browser name + “allow pop-ups” and the search engine should return relevant results.
 
-   3. For Google Chrome:
+1. For Google Chrome:
 
-      i.   Check the address bar. If it is marked with a Pop-up blocked
-           icon (see image below), click on the **[popup blocked]**
-           warning.
+   i.   Check the address bar. If it is marked with a pop-up blocked icon (see image below), click on the **[popup blocked]** warning.
 
-      ii.  In the popup window that appears, select **Always allow
-           pop-ups from https://collect.earth/.** Then click **[Done]**.
+   ii.  In the popup window that appears, select **Always allow pop-ups from https://collect.earth/.** Then click **[Done]**.
 
-      iii. If there is no icon, follow the directions here:
-           https://support.google.com/chrome/answer/95472
+   iii. If there is no icon, follow the directions here: `https://support.google.com/chrome/answer/95472`__.
 
-   4. For Mozilla Firefox:
+.. thumbnail:: ../images/prepare1.png
+   :title: The pop-up blocked icon for Chrome.
+   :group: preparing
 
-      i.   Check for a yellow bar below the address bar (see image
-           below). If there, click on the **[Options]** button.
+2. For Mozilla Firefox:
 
-      ii.  In the popup window that appears, select **Allow pop-ups
-           for** collect.earth.
+   i.   Check for a yellow bar below the address bar (see image below). If there, click on the **[Options]** button.
 
-      iii. If there is no icon, follow the directions here:
-           https://support.mozilla.org/en-US/kb/pop-blocker-settings-exceptions-troubleshooting#w_pop-up-blocker-settings.
+   ii.  In the popup window that appears, select **Allow pop-ups for** collect.earth.
+
+   iii. If there is no icon, follow the directions here: `https://support.mozilla.org/en-US/kb/pop-blocker-settings-exceptions-troubleshooting#w_pop-up-blocker-settings`__.
+
+.. thumbnail:: ../images/prepare2.png
+   :title: The pop-up blocked icon for Firefox.
+   :group: preparing
+
 
 Option 1: Work on a public project
 ----------------------------------
 
-   1. From the **Home** page, you can begin collecting data on public
-      projects. There are map pins representing each project at the
-      project location.
+1. From the **Home** page, you can begin collecting data on public projects. There are map pins representing each project at the project location.
 
-   2. Select a project by first clicking on a map pin. Then from the
-      pop-up **Project info** menu, click on the name of one of the
-      projects in the pop-up window.
+2. Select a project by first clicking on a map pin. Then from the pop-up **Project info** menu, click on the name of one of the projects in the pop-up window.
 
-   3. This will take you to the **project’s homepage**, a screen that
-      shows a **Map** of the whole study region on the left & the **Data
-      Collection Toolbar** on the right.
+.. thumbnail:: ../images/prepare3.png
+   :title: Joining a public project.
+   :group: preparing
 
-   4. Under **Plot Navigation**, Click the green **[Go to first plot]**
-      button to begin collecting information.
+3. This will take you to the **project’s homepage**, a screen that shows a **Map** of the whole study region on the left & the **Data Collection Toolbar** on the right.
+
+4. Under **Plot Navigation**, Click the green **[Go to first plot]** button to begin collecting information.
+
+.. thumbnail:: ../images/prepare4.png
+   :title: The project's homepage.
+   :group: preparing
+
 
 Option 2: Select a project from an institution
 ----------------------------------------------
 
-   1. If your institution has a specific project you want to work on,
-      make sure you are logged in and then click on your institution’s
-      name on the left-hand side of the **Home** page. You may want to
-      use the **Enter text to filter** box to find your institution.
+1. If your institution has a specific project you want to work on, make sure you are logged in and then click on your institution’s name on the left-hand side of the **Home** page. You may want to use the **Enter text to filter** box to find your institution.
 
-   2. A drop-down list of the institution’s available projects will
-      open. Select the project of interest by clicking on the project’s
-      name.
+2. A drop-down list of the institution’s available projects will open. Select the project of interest by clicking on the project’s name.
 
-   3. This will take you to the project’s home screen as described in
-      B.3 above.
+.. thumbnail:: ../images/prepare5.png
+   :title: Navigating to a project from an institution.
+   :group: preparing
 
-   4. Click the **[Go to first plot]** button to begin collecting
-      information.
+3. This will take you to the project’s home screen as described above.
 
-   5. You can also go to a project through the **Institution’s** page
-      via the **info button** described in A.2-4 above.
+4. Click the **[Go to first plot]** button to begin collecting information.
 
-      i.   There are three colors of projects on the **Institution**
-           page. Blue-green highlighted project names have completed
-           data collection.
+5. You can also go to a project through the **Institution’s** page via the **info button** described in A.2-4 above.
 
-      ii.  Yellow project names are partly collected.
+   i.   There are three colors of projects on the **Institution** page. Blue-green highlighted project names have completed data collection.
 
-      iii. Red project names have no data collected.
+   ii.  Yellow project names are partly collected.
+
+   iii. Red project names have no data collected.
 
 The analysis screen
 -------------------
 
-   1. You can access help for the analysis screen at any time by
-      clicking on the purple ? in the top right hand corner of the
-      screen. The help function will point out important features of the
-      data collection page.
+.. tip::
+   
+   You can access help for the analysis screen at any time by clicking on the purple ? in the top right hand corner of the screen. The help function will point out important features of the data collection page.
+   
+   .. thumbnail:: ../images/prepare6.png
+      :title: The help for the analysis screen.
+      :group: preparing
 
-   2. First, make sure you clicked the **[Go to first plot]** button.
+First, make sure you clicked the **[Go to first plot]** button.
 
-   3. Familiarize yourself with the analysis screen. On the left hand
-      side is the map window:
+Now we will familiarize ourselves with the analysis screen. 
 
-      i.  Your **sample plot** will show up as a yellow circle or square
-          in the map window. The sample shape is dependent on how the
-          project has been designed.
+Map window
+++++++++++
 
-      ii. |image1|\ Each **sample point** is identified with a black
-          circle until it is assigned a label.
+On the left hand side is the map window:
 
-You can change the color of the unassigned sample points from black to
-white by selecting the corresponding color radio button next to
-“Unanswered Color” on the right-hand panel.
+1.   Your **sample plot** will show up as a yellow circle or square in the map window. The sample shape is dependent on how the project has been designed.
 
-    iii. You can zoom in and out using the blue + and – buttons in the upper
-        left-hand corner of the map window, or by scrolling your mouse
-        wheel.
+2.   Each **sample point** is identified with a black circle until it is assigned a label. 
 
-    iv.  Information about the imagery source is shown at the top of the
-        screen.
+.. tip::
+   
+   You can change the color of the unassigned sample points from black to white by selecting the corresponding color radio button next to “Unanswered Color” on the right-hand panel.
 
-4. On the right-hand side are all of the navigation, imagery, and survey
-   options.
+3.   You can zoom in and out using the blue + and – buttons in the upper left-hand corner of the map window, or by scrolling your mouse wheel.
 
-5. **Navigation** options:
+4.   Information about the imagery source is shown at the top of the screen.
 
-   i.   As an institution Member, the **Navigate Through** dropdown menu
-        allows you to choose between:
+Options and Survey Questions
+++++++++++++++++++++++++++++
 
-        a. **Default**: This will navigate through plots assigned to you
-           and any available unanalyzed plots. In general, you will not
-           need to switch the navigation mode from this option.
+On the right-hand side are all of the navigation, external tool options, imagery options, and survey questions.
 
-        b. **Unanalyzed Plots**: This option allows you to collect data
-           on unanalyzed plots to contribute to your project.
+1. **Navigation** options:
 
-        c. **Analyzed plots**: Review your previously analyzed plots.
-           This option will allow you to correct mistakes etc. for
-           previously analyzed plots.
+   i.   As an institution Member, the **Navigate Through** dropdown menu allows you to choose between:
 
-        d. **Flagged plots**: Review plots you have flagged (see Part4 A
-           below).
+        a. **Default**: This will navigate through plots assigned to you and any available unanalyzed plots. In general, you will not need to switch the navigation mode from this option.
 
-   ii.  As an institution Administrator, the **Navigate Through**
-        dropdown menu ALSO allows you to choose between:
+        b. **Unanalyzed Plots**: This option allows you to collect data on unanalyzed plots to contribute to your project.
+
+        c. **Analyzed plots**: Review your previously analyzed plots. This option will allow you to correct mistakes etc. for previously analyzed plots.
+
+        d. **Flagged plots**: Review plots you have flagged. >>Link to flagged
+
+   .. thumbnail:: ../images/prepare7.png
+      :title: Institution member navigation options.
+      :group: preparing
+
+
+   ii.  As an institution Administrator, the **Navigate Through** dropdown menu ALSO allows you to choose between:
 
         a. **Analyzed plots**: Examine plots analyzed by any user.
 
-        b. **Flagged plots**: Examine plots flagged by any user.
+        b. **Flagged plots**: Examine plots flagged by any user. >>Link to flagged
 
         c. **Low Confidence**: Examine plots with low plot confidence.
 
-        d. **User:** Examine plots collected by any user. A dropdown
-           menu allows you to choose which user.
+        d. **User:** Examine plots collected by any user. A dropdown menu allows you to choose which user.
 
-        e. **QA/QC:** Examine plots where the collected answers have
-           more than a specified level of disagreement. You can also
-           click the **View Disagreements** button to examine user’s
-           responses side by side in a separate window. See the
-           Institution and Project Creation manual for more information.
+        e. **QA/QC:** Examine plots where the collected answers have more than a specified level of disagreement. You can also click the **View Disagreements** button to examine user’s responses side by side in a separate window. See the Institution and Project Creation manual for more information.
+   
+   .. thumbnail:: ../images/prepare8.png
+      :title: Navigation options for Institution administrators.
+      :group: preparing
 
    iii. Under this dropdown menu is the **Plot ID number**.
 
-   iv.  The navigation menu contains blue **forward** and **backward**
-        buttons to navigate to different plots, as well as a text box
-        where you can enter a plot ID number and then click **[Go to
-        plot]** to navigate to a specific plot.
+   iv.  The navigation menu contains blue **forward** and **backward** buttons to navigate to different plots, as well as a text box where you can enter a plot ID number and then click **[Go to plot]** to navigate to a specific plot.
 
-6. External Tools options
+2. External Tools options
 
    i.   Click **[Re-Zoom]** to return your focus to the focus plot
 
-   ii.  **Click [Geodash]**\ to open the **GeoDash** pane with
-        additional information about the plot (described in Part 4).
+   ii.  **Click [Geodash]**\ to open the **GeoDash** pane with additional information about the plot >>(described in Part 4).
 
-   iii. You can click **[Download Plot KML]** to download a KML file
-        with the plot information. . Downloading the KML allows you to
-        transfer the plot information to another program, such as Google
-        Earth. Importantly, the KML functionality allows users to
-        determine the coordinates (latitude and longitude) at which
-        points of interest are located.
+   iii. You can click **[Download Plot KML]** to download a KML file with the plot information. . Downloading the KML allows you to transfer the plot information to another program, such as Google Earth Desktop. Importantly, the KML functionality allows users to determine the coordinates (latitude and longitude) at which points of interest are located.
 
-   iv.  The **Go to GEE Script** button may or may not be present on
-        your dashboard. If it is present, it will take you to an Earth
-        Engine Apps website displaying additional data about the plot.
+.. thumbnail:: ../images/prepare9.png
+   :title: External tools option.
+   :group: preparing
 
-        a. This screen will have 6 panels. On the far left, there is a
-           Sentinel 2 composite of the last 12 months. They are colored
-           as infrared color composite (near infrared, mid infrared,
-           red). Reddish brown is forest, agriculture, grass, and shrubs
-           are a lighter shade of orange. Water is purple, and urban
-           areas are shades of blue and green.
+   iv.  The **Go to GEE Script** button may or may not be present on your dashboard. If it is present, it will take you to an Earth Engine Apps website displaying additional data about the plot.
 
-        b. In the center are Landsat 8 and Landsat 7 Color Yearly
-           mosaics, with a slider so you can choose between years.
+        a. This screen will have 6 panels. On the far left, there is a Sentinel 2 composite of the last 12 months. They are colored as infrared color composite (near infrared, mid infrared, red). Reddish brown is forest, agriculture, grass, and shrubs are a lighter shade of orange. Water is purple, and urban areas are shades of blue and green.
 
-        c. On the right are NDVI graphs of the plot from MODIS, Landsat
-           7/8, and Sentinel 2. For the Landsat 7/8 and Sentinel graphs,
-           you can click a point on the graphs to load specific images
-           in the left and center panels.
+        b. In the center are Landsat 8 and Landsat 7 Color Yearly mosaics, with a slider so you can choose between years.
 
-7. Imagery Options
+        c. On the right are NDVI graphs of the plot from MODIS, Landsat 7/8, and Sentinel 2. For the Landsat 7/8 and Sentinel graphs, you can click a point on the graphs to load specific images in the left and center panels.
 
-   i.   Using the dropdown under **Imagery Options**, you can change the
-        background image by selecting between different imagery on the
-        drop-down list.
+3. Imagery Options
 
-   ii.  Different images are helpful for comparing different points in
-        time and/or where one imagery source does not have enough detail
-        to answer the **Survey Questions**. Some imagery options also
-        include the names of towns, villages, etc.
+   i.   Using the dropdown under **Imagery Options**, you can change the background image by selecting between different imagery on the        drop-down list.
+   
+   .. thumbnail:: ../images/prepare10.png
+      :title: Imagery options drop down menu.
+      :group: preparing
 
-   iii. You may need to click **[Update Imagery]** to update the imagery
-        when you select a new imagery source.
+   ii.  Different images are helpful for comparing different points in time and/or where one imagery source does not have enough detail to answer the **Survey Questions**. Some imagery options also include the names of towns, villages, etc.
 
-Some imagery servers are slow. Please be patient when switching to
-sources like Planet Daily, since their servers take about 30 seconds to
-respond to queries sent by the CEO platform.
+   iii. You may need to click **[Update Imagery]** to update the imagery when you select a new imagery source.
 
-8. Survey Questions
+   .. note::
+      
+      Some imagery servers are slow. Please be patient when switching to sources like Planet Daily, since their servers take about 30 seconds to respond to queries sent by the CEO platform.
+
+4. Survey Questions
 
    i.    This is the area to answer the project’s **Survey Questions**.
 
-   ii.   Each project has a different set of numbered survey questions
-         (in the example below only “1” question is in the project).
+   .. thumbnail:: ../images/prepare11.png
+      :title: The panel to answer survey questions.
+      :group: preparing
 
-   iii.  You can navigate between questions using the forward and back
-         arrows or the numbers.
+   ii.   Each project has a different set of numbered survey questions (in the example below only “1” question is in the project).
 
-   iv.   The **Unanswered Color** radio button changes the color of the
-         survey points.
+   iii.  You can navigate between questions using the forward and back arrows or the numbers.
+
+   iv.   The **Unanswered Color** radio button changes the color of the survey points.
 
    v.    Your project may have a **confidence slider**.
 
-   vi.   The **Save** button will save your survey answers and move on
-         to the next point (it only becomes active when all points have
-         been interpreted).
+   vi.   The **Save** button will save your survey answers and move on to the next point (it only becomes active when all points have been interpreted).
 
-   vii.  **Flag Plot** is used when a survey question cannot be
-         answered, either because the imagery is not of high enough
-         quality or there is another problem; this will advance to the
-         next plot. When you flag a plot, a text box will appear so that
-         you can type in why you flagged the plot. For example, you
-         might write “Cloud” if there is a cloud in the imagery over the
-         plot.
+   vii.  **Flag Plot** is used when a survey question cannot be answered, either because the imagery is not of high enough quality or there is another problem; this will advance to the next plot. When you flag a plot, a text box will appear so that you can type in why you flagged the plot. For example, you might write “Cloud” if there is a cloud in the imagery over the plot.
 
-   viii. **Clear All** erases all your survey question answers for this
-         plot.
+   viii. **Clear All** erases all your survey question answers for this plot.
 
-   ix.   **Quit** will return you to CEO’s **Home** page. If you try to
-         leave the page without saving your answers, you will receive a
-         warning and reminder to save your answers if appropriate.
+   ix.   **Quit** will return you to CEO’s **Home** page. If you try to leave the page without saving your answers, you will receive a warning and reminder to save your answers if appropriate.
 
-9. Survey questions with user-drawn samples
+5. Survey questions with user-drawn samples
 
-   i.   Your project may have been set up to allow for user drawn
-        samples.
+   i.   Your project may have been set up to allow for user drawn samples.
 
-   ii.  If so, you will see two icons under **Survey Questions**, a
-        question mark and a pencil.
+   ii.  If so, you will see two icons under **Survey Questions**, a question mark and a pencil.
 
-   iii. When you have the question mark selected, the Survey Question
-        interface will work as we just discussed.
+   iii. When you have the question mark selected, the Survey Question interface will work as we just discussed.
 
-   iv.  However, if you select the pencil icon, you will see the options
-        that allow you to draw different points, lines, and polygons on
-        the map.
+   .. thumbnail:: ../images/prepare12.png
+      :title: Survey question pane with the option of user-drawn samples.
+      :group: preparing
 
-   v.   You can switch between the different shapes by clicking on their
-        respective icons. Note that your project administrator may have
-        restricted the types of geometries (point, line, polygon) that
-        you can create.
+   iv.  However, if you select the pencil icon, you will see the options that allow you to draw different points, lines, and polygons on the map.
 
-.. image:: media/image1.png
-   :width: 0.33659in
-   :height: 0.33659in
+   .. thumbnail:: ../images/prepare13.png
+      :title: Adding user-drawn samples.
+      :group: preparing
 
-10. The **GeoDash** pop-up window will also open with information about
-    the plot if it has been configured for the project. This window
-    contains information to help identify land cover and land use
-    attributes compiled from Google Earth Engine. Depending on the
-    project, Geo-Dash can include plots of time series data (such as how
-    NDVI values have varied over time), Landsat image chips, and more.
-    See Part 4 for more information.
+   v.   You can switch between the different shapes by clicking on their respective icons. Note that your project administrator may have restricted the types of geometries (point, line, polygon) that you can create.
+
+
+Geo-Dash
+++++++++
+
+The **GeoDash** pop-up window will also open with information about the plot if it has been configured for the project. This window contains information to help identify land cover and land use attributes compiled from Google Earth Engine. Depending on the project, Geo-Dash can include plots of time series data (such as how NDVI values have varied over time), Landsat image chips, and more. >>See Part 4 for more information.
