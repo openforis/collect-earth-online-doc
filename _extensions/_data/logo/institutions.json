@@ -1,0 +1,44 @@
+{
+    "sivacarbon": {
+      "html": "https://www.silvacarbon.org",
+      "dark": "dark/silvacarbon.png",
+      "light": "light/silvacarbon.png",
+      "size": "md"
+    },
+    "sig": {
+      "html": "https://sig-gis.com",
+      "dark": "dark/sig.png",
+      "light": "light/sig.png",
+      "size": "sm"
+    },
+    "servir-sea": {
+      "html": "https://servir.adpc.net/",
+      "dark": "dark/servirsea.png",
+      "light": "light/servirsea.png",
+      "size": "md"
+    },
+    "servir-amazonia": {
+      "html": "https://servir.ciat.cgiar.org/",
+      "dark": "dark/samz.png",
+      "light": "light/samz.png",
+      "size": "sm"
+    },
+    "usfs": {
+      "html": "https://www.fs.usda.gov/",
+      "dark": "dark/usfs.png",
+      "light": "light/usfs.png",
+      "size": "xs"
+    },
+    "gtac": {
+      "html": "https://www.fs.usda.gov/about-agency/gtac",
+      "dark": "dark/gtac.png",
+      "light": "light/gtac.png",
+      "size": "lg"
+    },
+    "google": {
+      "html": "https://about.google/intl/en-US/",
+      "dark": "dark/google.png",
+      "light": "light/google.png",
+      "size": "sm"
+    }
+  }
