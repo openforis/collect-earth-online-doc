@@ -1,89 +1,57 @@
-4. Start Collecting Data!
+Start Collecting Data!
+======================
 
-   A. Analyze some plots!
+Analyze some plots!
+-------------------
 
-      1. Now it is time to contribute to the project.
+Now it is time to contribute to a project. Make sure you have clicked on **Go to first plot**
 
-      2. Read the first Survey Question and the possible answers.
+1. Read the first Survey Question and the possible answers.
 
-      3. If you want to assign the same class or answer to ALL points in
-         the plot (prior to having applied an answer to any of the
-         points), you can just click on the answer without first needing
-         to select the points.
+2. If you want to assign the same class or answer to ALL points in   the plot (prior to having applied an answer to any of the   points), you can just click on the answer without first needing   to select the points.
 
-      4. If you want to assign different classes or answers to points in
-         the plot, you will first select your sample points. When sample
-         points are selected, they turn blue.
+3. If you want to assign different classes or answers to points in   the plot, you will first select your sample points. When sample   points are selected, they turn blue.
 
-         i.   To select a *single* sample point, click on it with the
-              left mouse key.
+   i.   To select a *single* sample point, click on it with the         left mouse key.
 
-         ii.  To select *several* sample points, click on them while
-              keeping the Shift key pressed down.
+   ii.  To select *several* sample points, click on them while         keeping the Shift key pressed down.
 
-         iii. To select *all* points in the sample or all points in a
-              rectangle, hold down Ctrl, then click, hold, and drag in
-              the map window to draw your rectangle.
+   iii. To select *all* points in the sample or all points in a         rectangle, hold down Ctrl, then click, hold, and drag in         the map window to draw your rectangle.
 
-      5. When your sample points are marked in blue, you can assign them
-         a sample value by clicking on the suitable value in the legend
-         to the right of the map window. The sample points are then
-         marked in the color of the value class. Here, these sample
-         points are not forest (shrubland), so we select Other.
+5. When your sample points are marked in blue, you can assign them   a sample value by clicking on the suitable value in the legend   to the right of the map window. The sample points are then   marked in the color of the value class. Here, these sample   points are not forest (shrubland), so we select Other.
 
-         i.   If it is hard to answer the question because the basemap
-              imagery does not provide enough detail, try changing the
-              imagery as described in Part 3 D.2.ii above.
+   i.   If it is hard to answer the question because the basemap         imagery does not provide enough detail, try changing the         imagery as described in Part 3 D.2.ii above.
 
-         ii.  You may also want to change the basemap to check for
-              seasonal effects (See also Part 4 B.2 below).
+   ii.  You may also want to change the basemap to check for         seasonal effects (See also Part 4 B.2 below).
 
-         iii. Try zooming out to gather context clues from the landscape
-              (See also Part 4 B.3 below).
+   iii. Try zooming out to gather context clues from the landscape         (See also Part 4 B.3 below).
 
-         iv.  If you make a mistake and assign the wrong value to a
-              point or points, you can reselect the points & change the
-              assigned sample value.
+   iv.  If you make a mistake and assign the wrong value to a         point or points, you can reselect the points & change the         assigned sample value.
 
-      6. If there is a second survey question, click on “\ **2**\ ” or
-         press the **Right arrow**. Read this question & the answers,
-         reselect the points and assign them the correct secondary
-         attributes.
+6. If there is a second survey question, click on “\ **2**\ ” or   press the **Right arrow**. Read this question & the answers,   reselect the points and assign them the correct secondary   attributes.
 
-..
+7. Your project may have “rules,” which help ensure that all answers are   logically consistent.
 
-   Your project may have “rules,” which help ensure that all answers are
-   logically consistent.
-
-i.   If your project has rules for a survey question, there will be a
-     clipboard icon next to the question text.
+i.   If your project has rules for a survey question, there will be a     clipboard icon next to the question text.
 
 ii.  You can hover over the clipboard icon to see the rules.
 
-iii. If you violate the rules, there will be a popup explaining what is
-     wrong with your answer.
+iii. If you violate the rules, there will be a popup explaining what is     wrong with your answer.
 
-7.  Your project may have a confidence slider. If this feature is
-    enabled, simply choose the percentage value that best represents
-    your confidence in your answers, where 100 is totally confident.
+7.  Your project may have a confidence slider. If this feature is    enabled, simply choose the percentage value that best represents    your confidence in your answers, where 100 is totally confident.
 
-8.  Continue until all sample points have been assigned a value for all
-    survey questions.
+8.  Continue until all sample points have been assigned a value for all    survey questions.
 
-9.  Then, click on **SAVE**. You will receive an error message if you
-    have not answered all of the questions.
+9.  Then, click on **SAVE**. You will receive an error message if you    have not answered all of the questions.
 
 10. The next plot for analysis shows up automatically.
 
-11. When all plots are classified, a pop-up window appears to inform you
-    that all sample plots of your project are analyzed.
+11. When all plots are classified, a pop-up window appears to inform you    that all sample plots of your project are analyzed.
 
-B. User-drawn samples
+User-drawn samples
+------------------
 
-For projects with user-drawn samples, you will need to first draw your
-samples before you can answer questions about them. Note that your
-project administrator may have limited the types of geometries (e.g.
-points, lines, or polygons) you can draw.
+For projects with user-drawn samples, you will need to first draw yoursamples before you can answer questions about them. Note that your project administrator may have limited the types of geometries (e.g. points, lines, or polygons) you can draw.
 
 1. First, select the pencil icon.
 
@@ -93,52 +61,26 @@ points, lines, or polygons) you can draw.
 
    i.   For points, click once for each point you would like to add.
 
-   ii.  For lines, click once for each vertex you would like to draw. To
-        complete the line, right click or double click.
+   ii.  For lines, click once for each vertex you would like to draw. To        complete the line, right click or double click.
 
-   iii. For polygons, click once for each vertex you would like to draw.
-        To complete the shape, click on your first vertex or double
-        click.
+   iii. For polygons, click once for each vertex you would like to draw.        To complete the shape, click on your first vertex or double        click.
 
-4. To modify an existing feature, hold CTRL and click to drag
+4. To modify an existing feature, hold CTRL and click to drag.
 
-5. To delete a feature, hold CTRL and right click on it
+5. To delete a feature, hold CTRL and right click on it.
 
 6. To save your drawn shapes, switch back to the question mode.
 
-C. Geo-Dash interface
+Geo-Dash interface
+------------------
 
-For some projects, a second page or tab will open automatically when you
-go to your first plot. This is the **Geo-Dash interface**. Many
-different elements can be displayed on this interface, depending on what
-the Institution has set up.
+For some projects, a second page or tab will open automatically when you go to your first plot. This is the **Geo-Dash interface**. Many different elements can be displayed on this interface, depending on what the Institution has set up.
 
-Some of the most commonly used indexes are described here. If your
-Institution has set up the project with a more complicated **Geo-Dash
-interface**, contact them for more information on how to use the
-information provided to assist data collection and photo interpretation.
+Some of the most commonly used indexes are described here. If your Institution has set up the project with a more complicated **Geo-Dash interface**, contact them for more information on how to use the information provided to assist data collection and photo interpretation.
 
-The normalized difference vegetation index (NDVI) is used to determine
-if an area contains live green vegetation. In map based representations,
-dead plants and inanimate objects are represented in one color, while
-live healthy plants are represented as another color. Which colors these
-are depends on how your institution has set up the project you’re
-working on. You can use the slider on the NDVI widget to compare the
-NDVI values with satellite imagery. In numerical representations (e.g.
-time series graphs) of most natural environments, values below 0
-represent dead plants or inanimate objects, 0-0.33 represents unhealthy
-plants, 0.33-0.66 represents moderately healthy plants, and 0.66-1
-represents very healthy plants.
+The normalized difference vegetation index (NDVI) is used to determine if an area contains live green vegetation. In map based representations, dead plants and inanimate objects are represented in one color, while live healthy plants are represented as another color. Which colors these are depends on how your institution has set up the project you’re working on. You can use the slider on the NDVI widget to compare the NDVI values with satellite imagery. In numerical representations (e.g. time series graphs) of most natural environments, values below 0 represent dead plants or inanimate objects, 0-0.33 represents unhealthy plants, 0.33-0.66 represents moderately healthy plants, and 0.66-1 represents very healthy plants.
 
-The enhanced vegetation index (EVI) and two-band EVI (EVI 2) are
-optimized vegetation indexes. They are designed to have higher
-sensitivity in high biomass regions (e.g. along the equator). As with
-NDVI, dead plants and inanimate objects are represented in one color,
-while live healthy plants are represented as another color. Which colors
-these are depends on how your institution has set up the project you’re
-working on. You can use the slider on the EVI widget to compare the EVI
-values with satellite imagery. The index varies between 0-1, with 0
-representing dead plants and 1 representing very healthy plants.
+The enhanced vegetation index (EVI) and two-band EVI (EVI 2) are optimized vegetation indexes. They are designed to have higher sensitivity in high biomass regions (e.g. along the equator). As with NDVI, dead plants and inanimate objects are represented in one color, while live healthy plants are represented as another color. Which colors these are depends on how your institution has set up the project you’re working on. You can use the slider on the EVI widget to compare the EVI values with satellite imagery. The index varies between 0-1, with 0 representing dead plants and 1 representing very healthy plants.
 
 The normalized difference moisture index (NDMI) is used to determine the
 water content of vegetation. Values near -1 indicate plants with low

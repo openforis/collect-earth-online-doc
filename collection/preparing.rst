@@ -91,18 +91,27 @@ First, make sure you clicked the **[Go to first plot]** button.
 
 Now we will familiarize ourselves with the analysis screen. 
 
-The left hand side is the map window
-++++++++++++++++++++++++++++++++++++
+Map window
+++++++++++
+
+On the left hand side is the map window:
 
 1.   Your **sample plot** will show up as a yellow circle or square in the map window. The sample shape is dependent on how the project has been designed.
 
-2.   Each **sample point** is identified with a black circle until it is assigned a label. You can change the color of the unassigned sample points from black to white by selecting the corresponding color radio button next to “Unanswered Color” on the right-hand panel.
+2.   Each **sample point** is identified with a black circle until it is assigned a label. 
+
+.. tip::
+   
+   You can change the color of the unassigned sample points from black to white by selecting the corresponding color radio button next to “Unanswered Color” on the right-hand panel.
 
 3.   You can zoom in and out using the blue + and – buttons in the upper left-hand corner of the map window, or by scrolling your mouse wheel.
 
 4.   Information about the imagery source is shown at the top of the screen.
 
-On the right-hand side are all of the navigation, external tool options, imagery, and survey options.
+Options and Survey Questions
+++++++++++++++++++++++++++++
+
+On the right-hand side are all of the navigation, external tool options, imagery options, and survey questions.
 
 1. **Navigation** options:
 
@@ -116,6 +125,11 @@ On the right-hand side are all of the navigation, external tool options, imagery
 
         d. **Flagged plots**: Review plots you have flagged. >>Link to flagged
 
+   .. thumbnail:: ../images/prepare7.png
+      :title: Institution member navigation options.
+      :group: preparing
+
+
    ii.  As an institution Administrator, the **Navigate Through** dropdown menu ALSO allows you to choose between:
 
         a. **Analyzed plots**: Examine plots analyzed by any user.
@@ -127,6 +141,10 @@ On the right-hand side are all of the navigation, external tool options, imagery
         d. **User:** Examine plots collected by any user. A dropdown menu allows you to choose which user.
 
         e. **QA/QC:** Examine plots where the collected answers have more than a specified level of disagreement. You can also click the **View Disagreements** button to examine user’s responses side by side in a separate window. See the Institution and Project Creation manual for more information.
+   
+   .. thumbnail:: ../images/prepare8.png
+      :title: Navigation options for Institution administrators.
+      :group: preparing
 
    iii. Under this dropdown menu is the **Plot ID number**.
 
@@ -140,6 +158,10 @@ On the right-hand side are all of the navigation, external tool options, imagery
 
    iii. You can click **[Download Plot KML]** to download a KML file with the plot information. . Downloading the KML allows you to transfer the plot information to another program, such as Google Earth Desktop. Importantly, the KML functionality allows users to determine the coordinates (latitude and longitude) at which points of interest are located.
 
+.. thumbnail:: ../images/prepare9.png
+   :title: External tools option.
+   :group: preparing
+
    iv.  The **Go to GEE Script** button may or may not be present on your dashboard. If it is present, it will take you to an Earth Engine Apps website displaying additional data about the plot.
 
         a. This screen will have 6 panels. On the far left, there is a Sentinel 2 composite of the last 12 months. They are colored as infrared color composite (near infrared, mid infrared, red). Reddish brown is forest, agriculture, grass, and shrubs are a lighter shade of orange. Water is purple, and urban areas are shades of blue and green.
@@ -151,6 +173,10 @@ On the right-hand side are all of the navigation, external tool options, imagery
 3. Imagery Options
 
    i.   Using the dropdown under **Imagery Options**, you can change the background image by selecting between different imagery on the        drop-down list.
+   
+   .. thumbnail:: ../images/prepare10.png
+      :title: Imagery options drop down menu.
+      :group: preparing
 
    ii.  Different images are helpful for comparing different points in time and/or where one imagery source does not have enough detail to answer the **Survey Questions**. Some imagery options also include the names of towns, villages, etc.
 
@@ -163,6 +189,10 @@ On the right-hand side are all of the navigation, external tool options, imagery
 4. Survey Questions
 
    i.    This is the area to answer the project’s **Survey Questions**.
+
+   .. thumbnail:: ../images/prepare11.png
+      :title: The panel to answer survey questions.
+      :group: preparing
 
    ii.   Each project has a different set of numbered survey questions (in the example below only “1” question is in the project).
 
@@ -188,15 +218,20 @@ On the right-hand side are all of the navigation, external tool options, imagery
 
    iii. When you have the question mark selected, the Survey Question interface will work as we just discussed.
 
+   .. thumbnail:: ../images/prepare12.png
+      :title: Survey question pane with the option of user-drawn samples.
+      :group: preparing
+
    iv.  However, if you select the pencil icon, you will see the options that allow you to draw different points, lines, and polygons on the map.
+
+   .. thumbnail:: ../images/prepare13.png
+      :title: Adding user-drawn samples.
+      :group: preparing
 
    v.   You can switch between the different shapes by clicking on their respective icons. Note that your project administrator may have restricted the types of geometries (point, line, polygon) that you can create.
 
-.. thumbnail:: ../images/interp1.png
-   :title: Conifer forest.
-   :group: interpretation
 
 Geo-Dash
---------
+++++++++
 
-10. The **GeoDash** pop-up window will also open with information about the plot if it has been configured for the project. This window contains information to help identify land cover and land use attributes compiled from Google Earth Engine. Depending on the project, Geo-Dash can include plots of time series data (such as how NDVI values have varied over time), Landsat image chips, and more. See Part 4 for more information.
+The **GeoDash** pop-up window will also open with information about the plot if it has been configured for the project. This window contains information to help identify land cover and land use attributes compiled from Google Earth Engine. Depending on the project, Geo-Dash can include plots of time series data (such as how NDVI values have varied over time), Landsat image chips, and more. >>See Part 4 for more information.
