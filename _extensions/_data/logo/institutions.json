@@ -33,7 +33,7 @@
       "html": "https://www.fs.usda.gov/about-agency/gtac",
       "dark": "dark/gtac.png",
       "light": "light/gtac.png",
-      "size": "lg"
+      "size": "md"
     },
     "google": {
       "html": "https://about.google/intl/en-US/",

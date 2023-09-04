@@ -13,5 +13,3 @@ sphinxcontrib-email
 sphinx-last-updated-by-git
 sphinxcontrib-bibtex
 sphinxcontrib-youtube
-sphinxcontrib-icon
-sphinxcontrib

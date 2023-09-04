@@ -13,8 +13,8 @@
     },
     "fao": {
       "html": "https://www.fao.org/home/en/",
-      "light": "light/openforis.png",
-      "dark": "dark/openforis.png",
+      "light": "light/fao.png",
+      "dark": "dark/fao.png",
       "size": "xl"
     },
     "nasa": {
@@ -25,8 +25,8 @@
     },
     "usaid": {
       "html": "https://www.usaid.gov/",
-      "light": "light/nicfi.png",
-      "dark": "dark/nicfi.png",
+      "light": "light/usaid.png",
+      "dark": "dark/usaid.png",
       "size": "xl"
     }
   }
