@@ -11,12 +11,20 @@ copyright = '2023, Collect Earth Online team'
 author = 'Collect Earth Online team'
 release = 'v 0.5'
 
+# -- Path setup ----------------------------------------------------------------
+
+import sys
+from datetime import datetime
+from pathlib import Path
+
+sys.path.append(str(Path(".").resolve()))
+
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-#    "sphinx.ext.napoleon",
-#    "sphinx.ext.graphviz",
+    "sphinx.ext.napoleon",
+    "sphinx.ext.graphviz",
     "sphinxcontrib.images",
     "sphinxcontrib.icon",
     "sphinxcontrib.btn",
@@ -24,18 +32,21 @@ extensions = [
     "sphinxcontrib.youtube",
     "sphinxcontrib.bibtex",
     "sphinx_design",
-#    "sphinx_togglebutton",
-#    "sphinx_favicon",
-#    "sphinx_last_updated_by_git",
-#    "notfound.extension",
-    "_extentions.line_break",
+    "sphinx_togglebutton",
+    "sphinx_favicon",
+    "sphinx_last_updated_by_git",
+    "notfound.extension",
+#    "_extentions.line_break",
 #    "_extentions.custom_edit",
-    "_extentions.logos"
+#    "_extentions.logos"
 ]
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-email_automode = True
+locale_dirs = ["_locale/"]
+gettext_compact = False
+language = "en"
+
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -52,6 +63,21 @@ html_context = {
     "default_mode": "auto",
 }
 html_static_path = ['_static']
+html_css_files = ["css/custom.css", "https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"]
+html_js_files = ["https://unpkg.com/leaflet@1.7.1/dist/leaflet.js", "js/custom.js"]
+
+# -- Option for Latex output ---------------------------------------------------
+
+youtube_cmd = (
+    r"\newcommand{\sphinxcontribyoutube}[3]{\begin{figure}\sphinxincludegraphics{{#2}.jpg}\caption{\url{#1#2#3}}\end{figure}}"
+    + "\n"
+)
+vimeo_cmd = (
+    r"\newcommand{\sphinxcontribvimeo}[3]{\begin{figure}\sphinxincludegraphics{{#2}.jpg}\caption{\url{#1#2#3}}\end{figure}}"
+    + "\n"
+)
+
+latex_elements = {"preamble": youtube_cmd + vimeo_cmd}
 
 
 # -- Option for the pydata-sphinx-theme ----------------------------------------
@@ -92,3 +118,16 @@ html_theme_options = {
     "footer_start": ["copyright", "map", "sphinx-version", "licence"],
     "footer_end": ["community", "issue-tracker", "e-learning", "stackexchange"],
 }
+
+# -- option for the favicon extention ------------------------------------------
+
+favicons = [
+    {"rel": "apple-touch-icon", "href": "apple-touch-icon.png"},
+    {"href": "favicon-32x32.png"},
+    {"href": "favicon-16x16.png"},
+    {"rel": "mask-icon", "href": "safari-pinned-tab.svg", "color": "#186691"},
+]
+
+# -- Options for images --------------------------------------------------------
+
+images_config = {"download": False}
