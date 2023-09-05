@@ -131,3 +131,9 @@ favicons = [
 # -- Options for images --------------------------------------------------------
 
 images_config = {"download": False}
+
+
+# -- Options for bibtex --------------------------------------------------------
+
+bibtex_bibfiles = ["_bib/ceobib.bib"]
+bibtex_reference_style = "author_year"
