@@ -11,6 +11,14 @@ copyright = '2023, Collect Earth Online team'
 author = 'Collect Earth Online team'
 release = 'v 0.5'
 
+# -- Path setup ----------------------------------------------------------------
+
+import sys
+from datetime import datetime
+from pathlib import Path
+
+sys.path.append(str(Path(".").resolve()))
+
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
