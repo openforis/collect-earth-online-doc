@@ -8,19 +8,17 @@ Other projects require users be a member of either an institution or a project. 
 Navigating the list of institutions & institution pages
 -------------------------------------------------------
 
-1. A list of all institutions is displayed on the **Home** page.
+A list of all institutions is displayed on the **Home** page. If you are logged in, this list is broken into two: **Your Affiliations** and **Other Institutions**. **Your Affiliations** are institutions to which you belong.
 
-2. If you are logged in, this list is broken into two: **Your Affiliations** and **Other Institutions**. **Your Affiliations** are institutions to which you belong.
-
-3. Clicking on an institutions’ name expands a list of all active **Projects** for the Institution. Clicking on these projects will take you to the project’s Data Collection page (see Part 4).
+1. Clicking on an institutions' name expands a list of all active **Projects** for the Institution. Clicking on these projects will take you to the project's Data Collection page (see >>Part 4).
 
 .. thumbnail:: ../images/joining1.png
    :title: Clicking on an institution's name.
    :group: joining_institution
 
-4. Next to each institution’s name is a **[VISIT]** button. Clicking on this will open the **Institution** page.
+2. Next to each institution’s name is a **[VISIT]** button. Clicking on this will open the **Institution** page.
 
-5. On any Institution info page, you can find:
+3. On any Institution info page, you can find:
 
     i.   The institution’s logo, which when clicked will take you to the institution’s website link,
 
