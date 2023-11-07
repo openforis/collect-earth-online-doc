@@ -20,6 +20,10 @@ If your institution already has an account on CEO and you would like to request 
 
 4. You will need to ask one of the existing administrators of the Institution to make you and administrator outside of CEO.
 
+.. thumbnail:: ../images/joining1.png
+   :title: Clicking on an institution's name.
+   :group: joining_institution
+
 Creating a new institution
 --------------------------
 
