@@ -8,73 +8,63 @@ If it is your first-time collecting data with Collect Earth Online, or you have 
 
 How to enable pop-ups varies based on the browser you are using. The most used browsers are discussed below. However, if your browser is not covered, simply search online for your browser name + “allow pop-ups” and the search engine should return relevant results.
 
-1. For Google Chrome:
+**For Google Chrome:**
 
-   i.   Check the address bar. If it is marked with a pop-up blocked icon (see image below), click on the **[popup blocked]** warning.
+#. Check the address bar. If it is marked with a pop-up blocked icon (see image below), click on the **[popup blocked]** warning.
+#. In the popup window that appears, select **Always allow pop-ups from https://collect.earth/.** Then click **[Done]**.
+#. If there is no icon, follow the directions here: `Chrome Support <https://support.google.com/chrome/answer/95472>`__.
 
-   ii.  In the popup window that appears, select **Always allow pop-ups from https://collect.earth/.** Then click **[Done]**.
-
-   iii. If there is no icon, follow the directions here: `https://support.google.com/chrome/answer/95472`__.
-
-.. thumbnail:: ../images/prepare1.png
+.. thumbnail:: ../_images/preparing1.png
    :title: The pop-up blocked icon for Chrome.
    :group: preparing
 
-2. For Mozilla Firefox:
+**For Mozilla Firefox:**
 
-   i.   Check for a yellow bar below the address bar (see image below). If there, click on the **[Options]** button.
+#. Check for a yellow bar below the address bar (see image below). If there, click on the **[Options]** button.
+#. In the popup window that appears, select **Allow pop-ups for** collect.earth.
+#. If there is no icon, follow the directions here: `Mozilla Support <https://support.mozilla.org/en-US/kb/pop-blocker-settings-exceptions-troubleshooting#w_pop-up-blocker-settings>`__.
 
-   ii.  In the popup window that appears, select **Allow pop-ups for** collect.earth.
-
-   iii. If there is no icon, follow the directions here: `https://support.mozilla.org/en-US/kb/pop-blocker-settings-exceptions-troubleshooting#w_pop-up-blocker-settings`__.
-
-.. thumbnail:: ../images/prepare2.png
+.. thumbnail:: ../_images/preparing2.png
    :title: The pop-up blocked icon for Firefox.
    :group: preparing
-
+   :align: center
 
 Option 1: Work on a public project
 ----------------------------------
 
 1. From the **Home** page, you can begin collecting data on public projects. There are map pins representing each project at the project location.
-
 2. Select a project by first clicking on a map pin. Then from the pop-up **Project info** menu, click on the name of one of the projects in the pop-up window.
 
-.. thumbnail:: ../images/prepare3.png
+.. thumbnail:: ../_images/preparing3.png
    :title: Joining a public project.
    :group: preparing
+   :align: center
 
 3. This will take you to the **project’s homepage**, a screen that shows a **Map** of the whole study region on the left & the **Data Collection Toolbar** on the right.
-
 4. Under **Plot Navigation**, Click the green **[Go to first plot]** button to begin collecting information.
 
-.. thumbnail:: ../images/prepare4.png
+.. thumbnail:: ../_images/preparing4.png
    :title: The project's homepage.
    :group: preparing
-
+   :align: center
 
 Option 2: Select a project from an institution
 ----------------------------------------------
 
 1. If your institution has a specific project you want to work on, make sure you are logged in and then click on your institution’s name on the left-hand side of the **Home** page. You may want to use the **Enter text to filter** box to find your institution.
-
 2. A drop-down list of the institution’s available projects will open. Select the project of interest by clicking on the project’s name.
 
-.. thumbnail:: ../images/prepare5.png
+.. thumbnail:: ../_images/preparing5.png
    :title: Navigating to a project from an institution.
    :group: preparing
 
 3. This will take you to the project’s home screen as described above.
-
 4. Click the **[Go to first plot]** button to begin collecting information.
+5. You can also go to a project through the **Institution’s** page via the **info button**.
 
-5. You can also go to a project through the **Institution’s** page via the **info button** described in A.2-4 above.
-
-   i.   There are three colors of projects on the **Institution** page. Blue-green highlighted project names have completed data collection.
-
-   ii.  Yellow project names are partly collected.
-
-   iii. Red project names have no data collected.
+   - There are three colors of projects on the **Institution** page. Blue-green highlighted project names have completed data collection.
+   - Yellow project names are partly collected.
+   - Red project names have no data collected.
 
 The analysis screen
 -------------------
@@ -83,21 +73,21 @@ The analysis screen
    
    You can access help for the analysis screen at any time by clicking on the purple ? in the top right hand corner of the screen. The help function will point out important features of the data collection page.
    
-   .. thumbnail:: ../images/prepare6.png
+   .. thumbnail:: ../_images/preparing6.png
       :title: The help for the analysis screen.
       :group: preparing
+      :align: center
 
 First, make sure you clicked the **[Go to first plot]** button.
 
 Now we will familiarize ourselves with the analysis screen. 
 
 Map window
-++++++++++
+^^^^^^^^^^
 
 On the left hand side is the map window:
 
 1.   Your **sample plot** will show up as a yellow circle or square in the map window. The sample shape is dependent on how the project has been designed.
-
 2.   Each **sample point** is identified with a black circle until it is assigned a label. 
 
 .. tip::
@@ -105,58 +95,46 @@ On the left hand side is the map window:
    You can change the color of the unassigned sample points from black to white by selecting the corresponding color radio button next to “Unanswered Color” on the right-hand panel.
 
 3.   You can zoom in and out using the blue + and – buttons in the upper left-hand corner of the map window, or by scrolling your mouse wheel.
-
 4.   Information about the imagery source is shown at the top of the screen.
 
 Options and Survey Questions
-++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 On the right-hand side are all of the navigation, external tool options, imagery options, and survey questions.
 
 1. **Navigation** options:
 
-   i.   As an institution Member, the **Navigate Through** dropdown menu allows you to choose between:
+   #. As an institution Member, the **Navigate Through** dropdown menu allows you to choose between:
 
-        a. **Default**: This will navigate through plots assigned to you and any available unanalyzed plots. In general, you will not need to switch the navigation mode from this option.
+        - **Default**: This will navigate through plots assigned to you and any available unanalyzed plots. In general, you will not need to switch the navigation mode from this option.
+        - **Unanalyzed Plots**: This option allows you to collect data on unanalyzed plots to contribute to your project.
+        - **Analyzed plots**: Review your previously analyzed plots. This option will allow you to correct mistakes etc. for previously analyzed plots.
+        - **Flagged plots**: Review plots you have flagged. 
 
-        b. **Unanalyzed Plots**: This option allows you to collect data on unanalyzed plots to contribute to your project.
-
-        c. **Analyzed plots**: Review your previously analyzed plots. This option will allow you to correct mistakes etc. for previously analyzed plots.
-
-        d. **Flagged plots**: Review plots you have flagged. >>Link to flagged
-
-   .. thumbnail:: ../images/prepare7.png
+   .. thumbnail:: ../_images/preparing7.png
       :title: Institution member navigation options.
       :group: preparing
 
+   #. As an institution Administrator, the **Navigate Through** dropdown menu ALSO allows you to choose between:
 
-   ii.  As an institution Administrator, the **Navigate Through** dropdown menu ALSO allows you to choose between:
-
-        a. **Analyzed plots**: Examine plots analyzed by any user.
-
-        b. **Flagged plots**: Examine plots flagged by any user. >>Link to flagged
-
-        c. **Low Confidence**: Examine plots with low plot confidence.
-
-        d. **User:** Examine plots collected by any user. A dropdown menu allows you to choose which user.
-
-        e. **QA/QC:** Examine plots where the collected answers have more than a specified level of disagreement. You can also click the **View Disagreements** button to examine user’s responses side by side in a separate window. See the Institution and Project Creation manual for more information.
+        - **Analyzed plots**: Examine plots analyzed by any user.
+        - **Flagged plots**: Examine plots flagged by any user. 
+        - **Low Confidence**: Examine plots with low plot confidence.
+        - **User:** Examine plots collected by any user. A dropdown menu allows you to choose which user.
+        - **QA/QC:** Examine plots where the collected answers have more than a specified level of disagreement. You can also click the **View Disagreements** button to examine user’s responses side by side in a separate window. See the Institution and Project Creation manual for more information.
    
-   .. thumbnail:: ../images/prepare8.png
+   .. thumbnail:: ../_images/preparing8.png
       :title: Navigation options for Institution administrators.
       :group: preparing
 
-   iii. Under this dropdown menu is the **Plot ID number**.
-
-   iv.  The navigation menu contains blue **forward** and **backward** buttons to navigate to different plots, as well as a text box where you can enter a plot ID number and then click **[Go to plot]** to navigate to a specific plot.
+   #. Under this dropdown menu is the **Plot ID number**.
+   #.  The navigation menu contains blue **forward** and **backward** buttons to navigate to different plots, as well as a text box where you can enter a plot ID number and then click **[Go to plot]** to navigate to a specific plot.
 
 2. External Tools options
 
-   i.   Click **[Re-Zoom]** to return your focus to the focus plot
-
-   ii.  **Click [Geodash]**\ to open the **GeoDash** pane with additional information about the plot >>(described in Part 4).
-
-   iii. You can click **[Download Plot KML]** to download a KML file with the plot information. . Downloading the KML allows you to transfer the plot information to another program, such as Google Earth Desktop. Importantly, the KML functionality allows users to determine the coordinates (latitude and longitude) at which points of interest are located.
+   #. Click **[Re-Zoom]** to return your focus to the focus plot
+   #. **Click [Geodash]** to open the **GeoDash** pane with additional information about the plot >>(described in Part 4).
+   #. You can click **[Download Plot KML]** to download a KML file with the plot information. . Downloading the KML allows you to transfer the plot information to another program, such as Google Earth Desktop. Importantly, the KML functionality allows users to determine the coordinates (latitude and longitude) at which points of interest are located.
 
 .. thumbnail:: ../images/prepare9.png
    :title: External tools option.

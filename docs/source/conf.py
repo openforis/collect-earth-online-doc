@@ -12,12 +12,11 @@ author = 'Collect Earth Online team'
 release = 'v 0.5'
 
 # -- Path setup ----------------------------------------------------------------
-
-import sys
-from datetime import datetime
+import sys, os
 from pathlib import Path
 
 sys.path.append(str(Path(".").resolve()))
+sys.path.append(os.path.abspath('_extensions'))
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -35,10 +34,10 @@ extensions = [
     "sphinx_togglebutton",
     "sphinx_favicon",
     "sphinx_last_updated_by_git",
-    "notfound.extension",
+#    "notfound.extension",
 #    "_extentions.line_break",
 #    "_extentions.custom_edit",
-#    "_extentions.logos"
+    "logos"
 ]
 
 templates_path = ['_templates']

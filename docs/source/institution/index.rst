@@ -3,7 +3,7 @@ Getting started with your Institution in CEO
 
 In Collect Earth Online you can create your own Institution. Institutions allow you to create tailor made proects, add custom imagery, and invite specific people to your institution in order to collect data.
 
-Collect Earth Online (CEO) is available at `https://collect.earth/`__.
+Collect Earth Online (CEO) is available at https://collect.earth/.
 
 Overview of the INSTITUTION section
 -----------------------------------

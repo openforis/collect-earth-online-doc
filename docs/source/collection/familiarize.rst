@@ -10,64 +10,70 @@ Forest
 
 Conifer forest:
 
-.. thumbnail:: ../images/interp1.png
+.. thumbnail:: ../_images/interp1.png
    :title: Conifer forest.
-   :group: interpretation
+   :group: interpretation-familiarize
+   :align: center
 
 Deciduous Forest (Temperate):
 
-.. thumbnail:: ../images/interp2.png
+.. thumbnail:: ../_images/interp2.png
    :title: Temperate deciduous forest.
-   :group: interpretation
+   :group: interpretation-familiarize
+   :align: center
 
 Pasture
 -------
 
 Canada:
 
-.. thumbnail:: ../images/interp3.png
+.. thumbnail:: ../_images/interp3.png
    :title: Pasture in Canada.
-   :group: interpretation
+   :group: interpretation-familiarize
+   :align: center
 
 Agriculture
 -----------
 
 Western United States (arid):
 
-.. thumbnail:: ../images/interp4.png
+.. thumbnail:: ../_images/interp4.png
    :title: Irrigated agriculture in the arid Western United States.
-   :group: interpretation
+   :group: interpretation-familiarize
+   :align: center
 
 Midwestern United States (temperate):
 
-.. thumbnail:: ../images/interp5.png
+.. thumbnail:: ../_images/interp5.png
    :title: Agriculture in the temperate Midwestern United States.
-   :group: interpretation
+   :group: interpretation-familiarize
+   :align: center
 
 Water-Lake
 ----------
 
 Myanmar:
 
-.. thumbnail:: ../images/interp6.png
+.. thumbnail:: ../_images/interp6.png
    :title: A lake in Myanmar.
-   :group: interpretation
+   :group: interpretation-familiarize
+   :align: center
 
 Water-River
 -----------
 
 Guatemala:
 
-.. thumbnail:: ../images/interp7.png
+.. thumbnail:: ../_images/interp7.png
    :title: A river in Guatemala.
-   :group: interpretation
+   :group: interpretation-familiarize
+   :align: center
 
 Remember that depending on the study region, seasons may change how the landscape looks. If your project has an Interpretation Key you should always use it as your primary reference.
 
 Here are some additional resources to help you learn how to visually interpret forests, grasslands, buildings, and more.
 
-1.   `https://earthobservatory.nasa.gov/features/ColorImage`__
-
-2.   `https://www.amnh.org/research/center-for-biodiversity-conservation/capacity-development/biodiversity-informatics/remote-sensing-guides`__
-
-3.   `https://www.amnh.org/research/center-for-biodiversity-conservation/capacity-development/biodiversity-informatics/remote-sensing-interactives`__
+1. `How to Interpret a Satellite Image:
+Five Tips and Strategies <https://earthobservatory.nasa.gov/features/ColorImage>`__
+2. `Remote Sensing Guides <https://www.amnh.org/research/center-for-biodiversity-conservation/capacity-development/biodiversity-informatics/remote-sensing-guides>`__
+3. `Remote Sensing Interactives <https://www.amnh.org/research/center-for-biodiversity-conservation/capacity-development/biodiversity-informatics/remote-sensing-interactives>`__
