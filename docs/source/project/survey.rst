@@ -8,8 +8,6 @@ This is where you design the questions that your data collectors/photo interpret
 
 For the **Survey Question** tab, the left panel allows you to enter questions while the right panel provides a preview of how these questions will appear to your data collectors.
 
-|image6|
-
 We will now go into more detail about how to add a question and answers, the types of questions that can be asked and when these questions might
 be useful.
 
@@ -22,8 +20,10 @@ CEO provides a straightforward way to ask multiple-choice questions. As the most
    
    Questions of this type are useful for land use and land cover surveys, or anywhere where you want the user to choose between a limited set of mutually exclusive options. 
 
-
-|image7|
+.. thumbnail:: ../_images/project27.png
+    :title: 
+    :align: center
+    :width: 50%
 
 1. To start, type your first question into the **Question Text** box. Since it is your first question, you cannot assign a **Parent Question** or **Parent Answers** for the question.
 

@@ -25,7 +25,8 @@ MapBox Satellite and Mapbox Satellite w/Labels are thus composite satellite imag
 CEO uses Mapbox's satellite layer as well as one with place and landmark labels.
 
 .. note::
-     Maxar has eliminated multiple data products that were previously available on CEO, including: DigitalGlobeRecentIMagery; DigitalGlobeRecentImagery+Streets; DigitalGlobeWMSImagery; and EarthWatch.
+    
+    Maxar has eliminated multiple data products that were previously available on CEO, including: DigitalGlobeRecentIMagery; DigitalGlobeRecentImagery+Streets; DigitalGlobeWMSImagery; and EarthWatch.
 
 Planet NICFI Public
 ^^^^^^^^^^^^^^^^^^^
@@ -35,7 +36,7 @@ Planet NICFI Public is imagery available through a partnership between Norway's 
 More information can be found `on Planet's website
 <https://www.planet.com/pulse/planet-ksat-and-airbus-awarded-first-ever-global-contract-to-combat-deforestation/>`__.
 
-.. thumbnail:: ../images/nicfimap.png
+.. thumbnail:: ../_images/nicfimap.png
     :title: Planet NICFI imagery
     :align: center
     :width: 75%
@@ -53,7 +54,7 @@ For Bing Maps, Planet Monthly, Planet Daily, Planet NICFI, SecureWatch, and the 
 
 We will now talk about how to add imagery for each of these options.
 
-.. thumbnail:: ../images/imagery1.png
+.. thumbnail:: ../_images/imagery1.png
     :title: Dropdown to add basemap imagery.
     :align: center
     :width: 50%
@@ -69,16 +70,16 @@ The information needed to set up the WMS server will differ based on the specifi
 
 1. The first step of preparing to connect to your WMS with CEO is checking that your WMS is compatible with CEO.
 
-   i. CEO requests data in EPSG:3857. Your WMS server is responsible for reprojecting the imagery it hosts into this requested projection.
-   ii. CEO requires the servers to use the https protocol.
+   - CEO requests data in EPSG:3857. Your WMS server is responsible for reprojecting the imagery it hosts into this requested projection.
+   - CEO requires the servers to use the https protocol.
 
 2. Second, to connect your web map service (WMS) to CEO, you need to gather three pieces of information: the base URL for your WMS, the layer name that you want, and any parameters your WMS requires to serve imagery.
 
-   i. **Title:** This will be the displayed name of the imagery.
-   ii. **Attribution**: This is the displayed attribution for your imagery. It will appear at the top of the map while users perform data collection tasks.
-   iii. **URL**: This should be the URL of your WMS/WTMS. It should be preceeded by https://
-   iv. **Layer Name**: This is the layer name from your server that you want to display.
-   v. **Params (as JSON object)**: If there are any parameters for the layer you want to specify, put them here as a JSON object. Documentation for the WMS getMapService is available online `here <https://docs.geoserver.org/stable/en/user/services/wms/reference.html#getmap>`__. These work only if they are parsed by the target WMS. Here are some examples::
+   - **Title:** This will be the displayed name of the imagery.
+   - **Attribution**: This is the displayed attribution for your imagery. It will appear at the top of the map while users perform data collection tasks.
+   - **URL**: This should be the URL of your WMS/WTMS. It should be preceeded by https://
+   - **Layer Name**: This is the layer name from your server that you want to display.
+   - **Params (as JSON object)**: If there are any parameters for the layer you want to specify, put them here as a JSON object. Documentation for the WMS getMapService is available online `here <https://docs.geoserver.org/stable/en/user/services/wms/reference.html#getmap>`__. These work only if they are parsed by the target WMS. Here are some examples::
 
       {"TILED": true}
      
@@ -86,15 +87,14 @@ The information needed to set up the WMS server will differ based on the specifi
 
    .. note::
      
-     Quotes **MUST BE** "" ASCII/neutral/vertical quotation marks. Using “” smart/typographic/curved quotation marks will cause errors. Use only Unicode U+0022 and U+0027.
+       Quotes **MUST BE** "" ASCII/neutral/vertical quotation marks. Using “” smart/typographic/curved quotation marks will cause errors. Use only Unicode U+0022 and U+0027.
 
-   vi. If you need to proxy your imagery for your WMS, please check **Proxy Imagery**. You may need this option if you need to obfuscate a key for your WMS or WTMS.
-   vii.  If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When
-     Saving.**
+   - If you need to proxy your imagery for your WMS, please check **Proxy Imagery**. You may need this option if you need to obfuscate a key for your WMS or WTMS.
+   - If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
 
 3. When all fields are filled out, click on **[Add New Imagery]**.
 
-.. thumbnail:: ../images/imagery2.png
+.. thumbnail:: ../_images/imagery2.png
     :title: Adding WMS imagery
     :align: center
     :width: 50%
@@ -106,23 +106,24 @@ XYZ Tiles
 
 XYZ Tiles is a flexible way of adding imagery. Services you can now add includes any of the adaptations of Open Street Maps, Yandex, and any other service using XYZ.
 
-1. **Title:** This will be the displayed name of the imagery.
-2. **Attribution** for the XYZ Imagery. This will be shown to your users in the data collection pane.
-3. Add the **XYZ URL**.
+- **Title:** This will be the displayed name of the imagery.
+- **Attribution** for the XYZ Imagery. This will be shown to your users in the data collection pane.
+- Add the **XYZ URL**.
 
-   i. By default, XYZ uses the widely-used Google grid, where (x,y) (0,0) are in the top left.
-   ii. In general, it should have the format: <URL>?x={x}&y={y}&z={z} . For example, `https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z} <https://mt1.google.com/vt/lyrs=y&x=%7bx%7d&y=%7by%7d&z=%7bz%7d>`__
-   iii. You can also use grids where (x,y) (0,0) are in the bottom left. To do so, you will need to use the following format: <URL>?x={x}&y={-y}&z={z}
+  - By default, XYZ uses the widely-used Google grid, where (x,y) (0,0) are in the top left.
+  - In general, it should have the format: <URL>?x={x}&y={y}&z={z} . For example, `https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z} <https://mt1.google.com/vt/lyrs=y&x=%7bx%7d&y=%7by%7d&z=%7bz%7d>`__
+  - You can also use grids where (x,y) (0,0) are in the bottom left. To do so, you will need to use the following format: <URL>?x={x}&y={-y}&z={z}
 
-.. note::
-     Sometimes you will need to edit a provided URL to make it compatible with CEO. For example, the Open Street Map WIKI provides the following URL for the German version of Open Street Maps: `https://a.tile.openstreetmap.de/${z}/${x}/${y}.png <https://a.tile.openstreetmap.de/$%7bz%7d/$%7bx%7d/$%7by%7d.png>`__. As provided this will not work. To make it work, you will need to delete the “a.” subdomain and the “$” characters.
+  .. note::
      
-     The edited URL does work in CEO: `https://tile.openstreetmap.de/{z}/{x}/{y}.png <https://tile.openstreetmap.de/%7bz%7d/%7bx%7d/%7by%7d.png>`__
+      Sometimes you will need to edit a provided URL to make it compatible with CEO. For example, the Open Street Map WIKI provides the following URL for the German version of Open Street Maps: `https://a.tile.openstreetmap.de/${z}/${x}/${y}.png <https://a.tile.openstreetmap.de/$%7bz%7d/$%7bx%7d/$%7by%7d.png>`__. As provided this will not work. To make it work, you will need to delete the “a.” subdomain and the “$” characters.
+      
+      The edited URL does work in CEO: `https://tile.openstreetmap.de/{z}/{x}/{y}.png <https://tile.openstreetmap.de/%7bz%7d/%7bx%7d/%7by%7d.png>`__
 
-4. If you want to add this imagery source to all your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
-5. When all fields are filled out, click on **[Add New Imagery]**.
+- If you want to add this imagery source to all your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
+- When all fields are filled out, click on **[Add New Imagery]**.
 
-.. thumbnail:: ../images/imagery3.png
+.. thumbnail:: ../_images/imagery3.png
     :title: Adding XYZ imagery
     :align: center
     :width: 50%
@@ -132,52 +133,54 @@ Bing Maps
 
 This imagery option allows you to add Bing Maps with your own API key. The Bing tile system uses the Mercator projection and has 23 levels of zoom (though not all levels are available in all locations). Commonly, the resolution at max zoom is about 0.3 m per pixel. For more information, see  https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system.
 
-.. Note:: 
-     *The imagery provided by Bing Maps is composite satellite imagery. This means that each map tile is stitched together from imagery acquired on multiple dates. There is not a single date for an imagery tile*. Some map tiles contain imagery collected over a  multi-day window while other tiles contain imagery collected over a multi-year window. As there is not a single date for an imagery tile, CEO cannot provide the exact date of the imagery used. If you're interested in learning more, the Bing Maps API can be found here:  https://docs.microsoft.com/en-us/bingmaps/rest-services/imagery/imagery-metadata.
+.. Note::
 
-1. **Title:** This will be the displayed name of the imagery.
-2. **Imagery Id:** Only Aerial and AerialWithLabels are currently implemented. Note that the AerialWithLabels imagery uses the legacy static tile service, which is deprecated, and current data will not be refreshed. It therefore may have older imagery than the Bing Aerial dataset.
-3. **Access Token:** Your BingMaps key. For more information or to obtain your own key, see https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key.
-4. If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
-5.  When all fields are filled out, click on **[Add New Imagery]**.
+    *The imagery provided by Bing Maps is composite satellite imagery. This means that each map tile is stitched together from imagery acquired on multiple dates. There is not a single date for an imagery tile*. Some map tiles contain imagery collected over a  multi-day window while other tiles contain imagery collected over a multi-year window. As there is not a single date for an imagery tile, CEO cannot provide the exact date of the imagery used. If you're interested in learning more, the Bing Maps API can be found here:  https://docs.microsoft.com/en-us/bingmaps/rest-services/imagery/imagery-metadata.
+
+- **Title:** This will be the displayed name of the imagery.
+- **Imagery Id:** Only Aerial and AerialWithLabels are currently implemented. Note that the AerialWithLabels imagery uses the legacy static tile service, which is deprecated, and current data will not be refreshed. It therefore may have older imagery than the Bing Aerial dataset.
+- **Access Token:** Your BingMaps key. For more information or to obtain your own key, see https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key.
+- If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
+- When all fields are filled out, click on **[Add New Imagery]**.
 
 **Directions for requesting a Bing maps key:**
 
 - To use Bing Maps imagery for your projects, you can create your own FREE Bing maps key to connect your institution's projects to your Bing Maps account. The full directions for creating a key are here: https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key.
--  Visit https://www.bingmapsportal.com/ to request a Bing key or copy your existing key.
--  Sign in. You will need a Bing maps account or Microsoft account  (https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/creating-a-bing-maps-account)
--  Once you have logged in, click on **My account**, then click on **My Keys**.
--  If you already have a key, click **Show key** or **Copy key**.
--  If you do not have a key, click on **Click here to create a new key**.
--  Fill out the information. Application URL is optional, but if you do use it, use https://app.collect.earth as your Application URL
--  You will create a **Basic** key. If you need more imagery, you will need to talk to Microsoft and request an **Enterprise key** (https://www.microsoft.com/en-us/maps/  create-a-bing-maps-key#enterprise).
+- Visit https://www.bingmapsportal.com/ to request a Bing key or copy your existing key.
+- Sign in. You will need a Bing maps account or Microsoft account  (https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/creating-a-bing-maps-account)
+- Once you have logged in, click on **My account**, then click on **My Keys**.
+- If you already have a key, click **Show key** or **Copy key**.
+- If you do not have a key, click on **Click here to create a new key**.
+- Fill out the information. Application URL is optional, but if you do use it, use https://app.collect.earth as your Application URL
+- You will create a **Basic** key. If you need more imagery, you will need to talk to Microsoft and request an **Enterprise key** (https://www.microsoft.com/en-us/maps/create-a-bing-maps-key#enterprise).
 
 Planet Monthly
 ^^^^^^^^^^^^^^
 
 Planet offers multiple data products (product specification here: https://support.planet.com/hc/en-us/articles/360022233473-Planet-Imagery-Product-Specifications). This option pulls from the Planet Monthly mosaic product, which allows you to display imagery from a specific month. User help is available here: https://developers.planet.com/docs/apps/explorer/.
 
-1. **Title:** This will be the displayed name of the imagery.
-2. **Default Year**: The default year that will be displayed when the map loads.
-3. **Default Month**: The default month that will be displayed when the map loads. Use integer format 1-12.
-4. **Access Token**: Your Planet access token. This can be accessed through your My Account page on the Planet website.
-5. If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.** 
-6. When all fields are filled out, click on **[Add New Imagery]**.
+- **Title:** This will be the displayed name of the imagery.
+- **Default Year**: The default year that will be displayed when the map loads.
+- **Default Month**: The default month that will be displayed when the map loads. Use integer format 1-12.
+- **Access Token**: Your Planet access token. This can be accessed through your My Account page on the Planet website.
+- If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.** 
+- When all fields are filled out, click on **[Add New Imagery]**.
 
 .. tip::
-     Default Year & Default Month will let you put in any integer, positive or negative. The up and down arrow keys start at 0. Please type year in the YYYY format and month as an integer between 1-12.
+    
+    Default Year & Default Month will let you put in any integer, positive or negative. The up and down arrow keys start at 0. Please type year in the YYYY format and month as an integer between 1-12.
 
 PlanetDaily
 ^^^^^^^^^^^
 
 PlanetDaily is another imagery product available from Planet. It allows users to detect land use and land cover change in near real time. This data source allows you to select a start and end date, with up to daily imagery resolution. Your study area might not have full coverage every day.
 
-1.  **Title:** This will be the displayed name of the imagery.
-2. **Access Token:** Your PlanetDaily API key. This can be accessed through your My Account page on the Planet website.
-3.  **Start Date:** Starting date for the imagery you are interested in; you can input the date using numeric keys or with the calendar widget on the right side.
-4.   **End Date:** Ending date for the imagery you are interested in.
-5.  If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
-6. When all fields are filled out, click on **[Add New Imagery]**.
+- **Title:** This will be the displayed name of the imagery.
+- **Access Token:** Your PlanetDaily API key. This can be accessed through your My Account page on the Planet website.
+- **Start Date:** Starting date for the imagery you are interested in; you can input the date using numeric keys or with the calendar widget on the right side.
+- **End Date:** Ending date for the imagery you are interested in.
+- If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
+- When all fields are filled out, click on **[Add New Imagery]**.
 
 Planet NICFI
 ^^^^^^^^^^^^
@@ -186,76 +189,76 @@ This allows you to add your own Planet NICFI key, instead of using CEO's.
 
 .. note::
      
-     You will need an account from the Planet NICFI program: https://www.planet.com/nicfi/. This is separate from your 'normal' Planet account.
+    You will need an account from the Planet NICFI program: https://www.planet.com/nicfi/. This is separate from your 'normal' Planet account.
 
-1. **Title:** This will be the displayed name of the imagery.
-2. **Access Token:** Your Planet NICFI API key. This can be accessed through your My Account page on the Planet website.
-3. **Default Time:** Choose the default time period of imagery to display. Note that the time periods available from NICFI are actively being changed. THESE ARE SUBJECT TO CHANGE BASED ON PLANET AND NICFI's DECISIONS.
-4. **Default Band**: Choice between Visible (RGB) and Infrared false color.
-5.  If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
-6. When all fields are filled out, click on **[Add New Imagery]**.
+- **Title:** This will be the displayed name of the imagery.
+- **Access Token:** Your Planet NICFI API key. This can be accessed through your My Account page on the Planet website.
+- **Default Time:** Choose the default time period of imagery to display. Note that the time periods available from NICFI are actively being changed. THESE ARE SUBJECT TO CHANGE BASED ON PLANET AND NICFI's DECISIONS.
+- **Default Band**: Choice between Visible (RGB) and Infrared false color.
+- If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
+- When all fields are filled out, click on **[Add New Imagery]**.
 
 SecureWatch Imagery
 ^^^^^^^^^^^^^^^^^^^
 
 SecureWatch is a service from Maxar focused on monitoring for new land use/land cover changes and comparing current land use/land cover with over 20 years of historic images. For more information see: https://www.digitalglobe.com/products/securewatch.
 
-1. **Title:** This will be the displayed name of the imagery.
-2. **Connect ID:** This is your API key. You need to use a no-auth key here, which should be a string of letters and numbers separated by dashes.
-3. **Start Date:** Starting date for the imagery you are interested in; you can input the date using numeric keys or with the calendar widget on the right side.
-4. **End Date:** Ending date for the imagery you are interested in.
-5.  If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
-6. When all fields are filled out, click on **[Add New Imagery]**.
+- **Title:** This will be the displayed name of the imagery.
+- **Connect ID:** This is your API key. You need to use a no-auth key here, which should be a string of letters and numbers separated by dashes.
+- **Start Date:** Starting date for the imagery you are interested in; you can input the date using numeric keys or with the calendar widget on the right side.
+- **End Date:** Ending date for the imagery you are interested in.
+- If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
+- When all fields are filled out, click on **[Add New Imagery]**.
 
 Sentinel 1 Imagery
 ^^^^^^^^^^^^^^^^^^
 
 Sentinel 1 information is only available from April 2014 to present (Sentinel 1A launch). Sentinel data is available in CEO through GEE. If multiple images are available for the region and dates selected, the median reducer is used to produce a single image.
 
-1. **Title:** This will be the displayed name of the imagery.
-2. **Default Year**: The default year that will be displayed when the map loads.
-3. **Default Month**: The default month that will be displayed when the map loads. Use integer format 1-12.
-4. **Band Combination**: Preset combinations of bands for most uses. VH and VV are single polarization, VH/VV and HH/HV are dual polarization. More info https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar/acquisition-modes.
-5. **Min:** Minimum value for bands that will get mapped to 0 for visualization. This can be one value for all bands, or a value for each of the three bands. This should be one number. Acceptable values for each band's minimum are the same as for Sentinel imagery available through GEE generally; see https://developers.google.com/earth-engine/datasets/catalog/sentinel\ *.* Min can be as low as -50, but 0 is frequently used.
-6. **Max:** Maximum value for bands that will get mapped to 255 for visualization. This can be one value for all bands, or a value for each of the three bands. This should be one number. Acceptable values for each band's maximum are the same as for Sentinel imagery available through GEE generally. See link above. Max can be as high as 1, but .3 is frequently used.
-7. If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
-8. When all fields are filled out, click on **[Add New Imagery]**.
+- **Title:** This will be the displayed name of the imagery.
+- **Default Year**: The default year that will be displayed when the map loads.
+- **Default Month**: The default month that will be displayed when the map loads. Use integer format 1-12.
+- **Band Combination**: Preset combinations of bands for most uses. VH and VV are single polarization, VH/VV and HH/HV are dual polarization. More info https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar/acquisition-modes.
+- **Min:** Minimum value for bands that will get mapped to 0 for visualization. This can be one value for all bands, or a value for each of the three bands. This should be one number. Acceptable values for each band's minimum are the same as for Sentinel imagery available through GEE generally; see https://developers.google.com/earth-engine/datasets/catalog/sentinel\ *.* Min can be as low as -50, but 0 is frequently used.
+- **Max:** Maximum value for bands that will get mapped to 255 for visualization. This can be one value for all bands, or a value for each of the three bands. This should be one number. Acceptable values for each band's maximum are the same as for Sentinel imagery available through GEE generally. See link above. Max can be as high as 1, but .3 is frequently used.
+- If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
+- When all fields are filled out, click on **[Add New Imagery]**.
 
 Sentinel 2 Imagery
 ^^^^^^^^^^^^^^^^^^
 
 Sentinel 2 imagery is available from June 2015-present. Sentinel 2 imagery is displayed in CEO from GEE. If multiple images are available for the region and dates selected, the median reducer is used to produce a single image.
 
-1.  **Title:** This will be the displayed name of the imagery.
-2. **Default Year**: The default year that will be displayed when the map loads.
-3. **Default Month**: The default month that will be displayed when the map loads. Use integer format 1-12.
-4. **Band Combination**: Select one of the options available, including True Color, False Color Infrared, False Color Urban, Agriculture, Healthy Vegetation, and Short Wave Infrared.
+- **Title:** This will be the displayed name of the imagery.
+- **Default Year**: The default year that will be displayed when the map loads.
+- **Default Month**: The default month that will be displayed when the map loads. Use integer format 1-12.
+- **Band Combination**: Select one of the options available, including True Color, False Color Infrared, False Color Urban, Agriculture, Healthy Vegetation, and Short Wave Infrared.
 
-   - **True Color**: The True color band combination uses the red (B4), green (B3), and blue (B2) channels. Its purpose is to display imagery the same way our eyes see the world. Just like how we see, healthy vegetation is green, urban features often appear white and grey and water is a shade of dark blue depending on how clean it is.
-   - **False Color**: The False-color infrared band combination is meant to emphasize healthy and unhealthy vegetation. By using the near-infrared (B8) band, it's especially good at reflecting chlorophyll. It is most commonly used to assess plant density and health, as plants reflect near-infrared and green light while absorbing red. Since they reflect more near-infrared than green, plant-covered land appears deep red. Denser plant growth is darker red. Cities and exposed ground are gray or tan, and water appears blue or black.
-   - **False Color Urban**: The false color urban band combination uses SWIR (B12), near-infrared (B8), and blue (B2). This composite is used to visualize urbanized areas more clearly. Vegetation is visible in shades of green, while urbanized areas are represented by white, grey, or purple. Soils, sand, and minerals are shown in a variety of colors.
-   - **Agriculture:** The agriculture band combination uses SWIR-1 (B11), near-infrared (B8), and blue (B2). It's mostly used to monitor the health of crops because of how it uses short-wave and near-infrared. Both these bands are particularly good at  highlighting dense vegetation that appears as dark green.
-   - **Healthy Vegetation:** Because near-infrared (which vegetation strongly reflects) and red light (which vegetation absorbs), the vegetation index is good for quantifying the amount of vegetation. The formula for the normalized difference vegetation index is (B8-B4)/(B8+B4). While high values suggest dense canopy, low or negative values indicate urban and water features.
-   - **Short-wave Infrared:** The short-wave infrared band combination uses SWIR (B12), NIR (B8A), and red (B4). This can help to estimate how much water is present in plants and soil, as water reflects SWIR wavelengths. Shortwave-infrared bands are also useful for distinguishing between cloud types (water clouds versus ice clouds), snow and ice, all of which appear white in visible light.
+  - **True Color**: The True color band combination uses the red (B4), green (B3), and blue (B2) channels. Its purpose is to display imagery the same way our eyes see the world. Just like how we see, healthy vegetation is green, urban features often appear white and grey and water is a shade of dark blue depending on how clean it is.
+  - **False Color**: The False-color infrared band combination is meant to emphasize healthy and unhealthy vegetation. By using the near-infrared (B8) band, it's especially good at reflecting chlorophyll. It is most commonly used to assess plant density and health, as plants reflect near-infrared and green light while absorbing red. Since they reflect more near-infrared than green, plant-covered land appears deep red. Denser plant growth is darker red. Cities and exposed ground are gray or tan, and water appears blue or black.
+  - **False Color Urban**: The false color urban band combination uses SWIR (B12), near-infrared (B8), and blue (B2). This composite is used to visualize urbanized areas more clearly. Vegetation is visible in shades of green, while urbanized areas are represented by white, grey, or purple. Soils, sand, and minerals are shown in a variety of colors.
+  - **Agriculture:** The agriculture band combination uses SWIR-1 (B11), near-infrared (B8), and blue (B2). It's mostly used to monitor the health of crops because of how it uses short-wave and near-infrared. Both these bands are particularly good at  highlighting dense vegetation that appears as dark green.
+  - **Healthy Vegetation:** Because near-infrared (which vegetation strongly reflects) and red light (which vegetation absorbs), the vegetation index is good for quantifying the amount of vegetation. The formula for the normalized difference vegetation index is (B8-B4)/(B8+B4). While high values suggest dense canopy, low or negative values indicate urban and water features.
+  - **Short-wave Infrared:** The short-wave infrared band combination uses SWIR (B12), NIR (B8A), and red (B4). This can help to estimate how much water is present in plants and soil, as water reflects SWIR wavelengths. Shortwave-infrared bands are also useful for distinguishing between cloud types (water clouds versus ice clouds), snow and ice, all of which appear white in visible light.
 
-5. **Min:** Minimum value for bands that will get mapped to 0 for visualization. This can be one value for all bands, or a value for each of the three bands. This should be a single number. Acceptable values for each band's minimum are the same as for Sentinel imagery available through GEE generally; see https://developers.google.com/earth-engine/datasets/catalog/sentinel For example, 0 could be used.
-6. **Max:** Maximum value for bands that will get mapped to 255 for visualization. This should be a single number. Acceptable values for each band's maximum are the same as for Sentinel imagery available through GEE generally. See link above. For example, values of 2800-4000 are frequently used.
-7. **Cloud Score**: Allowable cloud cover. Values can be 0-100.
-8. If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
-9.  When all fields are filled out, click on **[Add New Imagery]**.
+- **Min:** Minimum value for bands that will get mapped to 0 for visualization. This can be one value for all bands, or a value for each of the three bands. This should be a single number. Acceptable values for each band's minimum are the same as for Sentinel imagery available through GEE generally; see https://developers.google.com/earth-engine/datasets/catalog/sentinel For example, 0 could be used.
+- **Max:** Maximum value for bands that will get mapped to 255 for visualization. This should be a single number. Acceptable values for each band's maximum are the same as for Sentinel imagery available through GEE generally. See link above. For example, values of 2800-4000 are frequently used.
+- **Cloud Score**: Allowable cloud cover. Values can be 0-100.
+- If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
+- When all fields are filled out, click on **[Add New Imagery]**.
 
 GEE Image Asset
 ^^^^^^^^^^^^^^^
 
 Google Earth Engine (GEE) Assets include user's uploaded assets along with assets provided by other users and GEE. Information on Assets can be found here: https://developers.google.com/earth-engine/guides/asset_manager. More detail on uploading your own assets is below. Note that Image Asset refers to a single image (e.g. a GeoTIFF layer) while ImageCollection Asset refers to a stack of images (e.g. GeoTiff layers of the same location over different dates).
 
-1. **Title:** This will be the displayed name of the imagery.
-2. **Asset ID:** The Asset ID for your image asset. Will have a format similar to: USDA/NAIP/DOQQ/n_4207309_se_18_1_20090525
-3. **Visualization Parameters (JSON format)**: Any visualization parameters for your layer. For example, {"bands":["R","G","B"],"min":90,"max":210}
-4. If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
-5. When all fields are filled out, click on **[Add New Imagery]**.
+- **Title:** This will be the displayed name of the imagery.
+- **Asset ID:** The Asset ID for your image asset. Will have a format similar to: USDA/NAIP/DOQQ/n_4207309_se_18_1_20090525
+- **Visualization Parameters (JSON format)**: Any visualization parameters for your layer. For example, {"bands":["R","G","B"],"min":90,"max":210}
+- If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
+- When all fields are filled out, click on **[Add New Imagery]**.
 
-.. thumbnail:: ../images/imagery4.png
+.. thumbnail:: ../_images/imagery4.png
     :title: Adding a GEE Image Asset
     :align: center
     :width: 50%
@@ -267,13 +270,13 @@ GEE ImageCollection Asset
 
 Google Earth Engine (GEE) Assets include user's uploaded assets along with assets provided by other users and GEE. Information on Assets can be found here: https://developers.google.com/earth-engine/guides/asset_manager. More detail on uploading your own assets is below. Note that Image Asset refers to a single image (e.g. a GeoTIFF layer) while ImageCollection Asset refers to a stack of images (e.g. GeoTiff layers of the same location over different dates).
 
-1. **Title:** This will be the displayed name of the imagery.
-2. **Asset ID:** The Asset ID for your image asset. Will have a format similar to: LANDSAT/LC08/C01/T1_SR.
-3. **Start Date**: The default start date of imagery to display.
-4. **End Date**: The default end date of imagery to display.
-5. **Visualization Parameters (JSON format)**: Any visualization parameters for your layer. For example, {"bands":["B4","B3","B2"],"min":0,"max":2000}
-6.  If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
-7. When all fields are filled out, click on **[Add New Imagery]**.
+- **Title:** This will be the displayed name of the imagery.
+- **Asset ID:** The Asset ID for your image asset. Will have a format similar to: LANDSAT/LC08/C01/T1_SR.
+- **Start Date**: The default start date of imagery to display.
+- **End Date**: The default end date of imagery to display.
+- **Visualization Parameters (JSON format)**: Any visualization parameters for your layer. For example, {"bands":["B4","B3","B2"],"min":0,"max":2000}
+- If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
+- When all fields are filled out, click on **[Add New Imagery]**.
 
 .. note::
      To display the GEEImageCollection, CEO uses the 'mean' reducer in Earth Engine. This takes the mean of any images in the image collection during the time period specified.
@@ -282,65 +285,65 @@ We have created an extensive how-to and troubleshooting guide for adding GEE Ima
 
 **Uploading GeoTIFF images to GEE:**
 
--  Visit https://code.earthengine.google.com/|
--  Navigate to **Assets**
--  Click **New**, then under **Image Upload** click **GeoTIFF**.
+- Visit https://code.earthengine.google.com/|
+- Navigate to **Assets**
+- Click **New**, then under **Image Upload** click **GeoTIFF**.
 
-.. thumbnail:: ../images/imagery5.png
-    :title: Upload a GeoTIFF
-    :align: center
-    :width: 50%
+  .. thumbnail:: ../_images/imagery5.png
+      :title: Upload a GeoTIFF
+      :align: center
+      :width: 50%
 
--  A new window will pop up. Click **Select** and navigate to the GeoTIFF asset.
--  Alter the **Asset ID** name if you would like.  
--  Check the default settings, e.g. if your data has a start/end time then add those.
--  Click **Upload.**
+- A new window will pop up. Click **Select** and navigate to the GeoTIFF asset.
+- Alter the **Asset ID** name if you would like.  
+- Check the default settings, e.g. if your data has a start/end time then add those.
+- Click **Upload.**
 
-.. thumbnail:: ../images/imagery6.png
-    :title: Uploading a new image asset
-    :align: center
-    :width: 50%
+  .. thumbnail:: ../_images/imagery6.png
+      :title: Uploading a new image asset
+      :align: center
+      :width: 50%
 
--  Wait for your asset to upload. When it does, click on the asset name and a new window will pop up.
--  Next to ImageID there are two interlocking squares.
--  Click on this to copy your ImageID to the clipboard (you'll need this to connect to CEO).
+- Wait for your asset to upload. When it does, click on the asset name and a new window will pop up.
+- Next to ImageID there are two interlocking squares.
+- Click on this to copy your ImageID to the clipboard (you'll need this to connect to CEO).
    
-   -   You can also click on the “Bands” tab to get more information about your image. This is very useful for specifying your visualization parameters in CEO.
-   - Can also add gamma etc. information, see  https://developers.google.com/earth-engine/guides/image_visualization.
+  - You can also click on the “Bands” tab to get more information about your image. This is very useful for specifying your visualization parameters in CEO.
+  - Can also add gamma etc. information, see  https://developers.google.com/earth-engine/guides/image_visualization.
 
 MapBox Raster
 ^^^^^^^^^^^^^
 
 MapBox Raster serves raster tiles including Mapbox Satellite. For more information see: https://docs.mapbox.com/help/glossary/raster-tiles-api/.
 
-1. **Title:** This will be the displayed name of the imagery.
-2. **Layer Name** is the desired layer name from MapBox.
-3. **Access Token** will be your no-auth key from MapBox. For more information, see https://docs.mapbox.com/help/glossary/raster-tiles-api/.
-4. If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
-5.  When all fields are filled out, click on **[Add New Imagery]**.
+- **Title:** This will be the displayed name of the imagery.
+- **Layer Name** is the desired layer name from MapBox.
+- **Access Token** will be your no-auth key from MapBox. For more information, see https://docs.mapbox.com/help/glossary/raster-tiles-api/.
+- If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
+- When all fields are filled out, click on **[Add New Imagery]**.
 
 MapBox Static
 ^^^^^^^^^^^^^
 
 Mapbox Static serves raster tiles generated from a `Mapbox GL <https://docs.mapbox.com/help/glossary/mapbox-gl/>`__-based style. This API has additional parameters that can be used to refine the results of a request. More information see: https://docs.mapbox.com/help/glossary/static-tiles-api/.
 
-1.  **Title:** This will be the displayed name of the imagery.
-2. **User Name** will be your MapBox user name.
-3. **Map Style ID** will be the id from MapBox.
-4. **Access Token** will be your MapBox no-auth key. For more information see https://docs.mapbox.com/help/glossary/static-tiles-api/.
-5.  If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
-6. When all fields are filled out, click on **[Add New Imagery]**.
+- **Title:** This will be the displayed name of the imagery.
+- **User Name** will be your MapBox user name.
+- **Map Style ID** will be the id from MapBox.
+- **Access Token** will be your MapBox no-auth key. For more information see https://docs.mapbox.com/help/glossary/static-tiles-api/.
+- If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
+- When all fields are filled out, click on **[Add New Imagery]**.
 
 Open Street Maps
 ^^^^^^^^^^^^^^^^
 
 Open streets Maps is an open source mapping product. This provides Open Street Map's Standard Tile Layer. This product is useful for orienting users, since it has street and place names.
 
-1. **Title:** This will be the displayed name of the imagery.
-2. If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
-3.  When all fields are filled out, click on **[Add New Imagery]**.
+- **Title:** This will be the displayed name of the imagery.
+- If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
+- When all fields are filled out, click on **[Add New Imagery]**.
 
-.. thumbnail:: ../images/imagery7.png
+.. thumbnail:: ../_images/imagery7.png
     :title: Open Street Map imagery
     :align: center
     :width: 50%
@@ -372,7 +375,7 @@ Once you have decided the best approach for your server, repeat the steps in :re
 
 .. note::
 
-     Some years may not contain any imagery, due to the sparseness of the data within the database. If no imagery for the selected time range appears, you will need to change your parameters field, possibly to change the feature profile or date ranges.
+    Some years may not contain any imagery, due to the sparseness of the data within the database. If no imagery for the selected time range appears, you will need to change your parameters field, possibly to change the feature profile or date ranges.
 
 Planet Monthly, Planet Daily, and Planet NICFI
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -381,7 +384,7 @@ For all Planet products, you simply need to change the time period fields to add
 
 .. tip::
      
-     Be sure to change the Title field to reflect the correct default Year, Month, and Day for each new layer that you add.
+    Be sure to change the Title field to reflect the correct default Year, Month, and Day for each new layer that you add.
 
 Secure Watch
 ^^^^^^^^^^^^
@@ -390,7 +393,7 @@ For this Maxar product, you simply need to change the time period fields to add 
 
 .. tip:: 
      
-     Be sure to change the Title field to reflect the correct default Year, Month, and Day for each new layer that you add.
+    Be sure to change the Title field to reflect the correct default Year, Month, and Day for each new layer that you add.
 
 Sentinel 1 & 2
 ^^^^^^^^^^^^^^
@@ -399,7 +402,7 @@ Users will be able to change the default Year and Month during data collection. 
 
 .. tip::
      
-     Be sure to change the Title field to reflect the correct default Year, Month, and Day for each new layer that you add.
+    Be sure to change the Title field to reflect the correct default Year, Month, and Day for each new layer that you add.
 
 GEE Image Asset
 ^^^^^^^^^^^^^^^
@@ -409,11 +412,11 @@ Different Image Assets that cover different periods of time can be added using t
 GEE ImageCollection Asset
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Users will be able to change the default Year and Month during data collection. However, additional layers with different default years and months      can be added based on user preference.
+Users will be able to change the default Year and Month during data collection. However, additional layers with different default years and months can be added based on user preference.
 
 .. tip::
 
-     Be sure to change the Title field to reflect the correct default Year, Month, and Day for each new layer that you add.
+    Be sure to change the Title field to reflect the correct default Year, Month, and Day for each new layer that you add.
 
 Editing and deleting imagery
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -423,7 +426,7 @@ After you have added imagery you may need to change the default dates of the Vis
 1. Navigate to your **Institution** page.
 2. Next to the imagery you would like to edit, there is an editing hand button.
 
-   .. thumbnail:: ../images/imagery8.png
+   .. thumbnail:: ../_images/imagery8.png
        :title: Hand button
        :align: center
        :width: 50%
@@ -434,18 +437,18 @@ After you have added imagery you may need to change the default dates of the Vis
 6. When you are done, click **Save Imagery Changes**.
 7. You can delete imagery by clicking the trash can icon next to the imagery name.
 
-   .. thumbnail:: ../images/imagery9.png
-    :title: Delete button
-    :align: center
-    :width: 50%
+   .. thumbnail:: ../_images/imagery9.png
+       :title: Delete button
+       :align: center
+       :width: 50%
 
 .. tip::
      
-     There is currently no way to 'preview' what imagery will be visible in your new layer in the 'Add Imagery' workflow. There are two ways to work around this. 
+    There is currently no way to 'preview' what imagery will be visible in your new layer in the 'Add Imagery' workflow. There are two ways to work around this. 
      
-     First, if your data source has a data viewing portal, you can use this to explore the imagery and determine what is available for the time periods you are interested in. 
+    First, if your data source has a data viewing portal, you can use this to explore the imagery and determine what is available for the time periods you are interested in. 
      
-     Second, you can add the imagery layer, then open an existing project from your institution. The imagery will be available in the dropdown menu (if you are switching between a project **Data Collection** window and an **Institution** window, you may need to refresh the project window to get    the new layer to appear). You can then check if the imagery is displaying correctly and go back to the **Institution** page to edit the imagery based on what you see.
+    Second, you can add the imagery layer, then open an existing project from your institution. The imagery will be available in the dropdown menu (if you are switching between a project **Data Collection** window and an **Institution** window, you may need to refresh the project window to get    the new layer to appear). You can then check if the imagery is displaying correctly and go back to the **Institution** page to edit the imagery based on what you see.
 
 Estimating imagery costs
 ------------------------
@@ -457,17 +460,17 @@ When is imagery used?
 
 Imagery data is used whenever there is a map on the page. This means that on CEO, all these pages can use data:
 
-* Home
-* Data Collection
-* Create Project
-* Review Project
-* Project Dashboard
-* GeoDash (specific options or modules)
+- Home
+- Data Collection
+- Create Project
+- Review Project
+- Project Dashboard
+- GeoDash (specific options or modules)
 
 On these pages, when the map first loads, imagery data is used. Every time a user zooms or pans the map window, imagery is used. The largest amount of use will probably be with Data Collection.
 
 Estimating imagery use for a project
-++++++++++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Each organization that provides imagery sets their own rules for how many tiles you can download per year given the kind of account that you have with them. Therefore, it is important to estimate this before setting up a project.
 
@@ -483,7 +486,7 @@ Once you have a sense of how many map images you will need for your project, you
 
 .. tip::
      
-     To reduce imagery use, consider setting your default background imagery to a cheaper source and only switching to more expensive paid imagery when you are at the correct zoom level.
+    To reduce imagery use, consider setting your default background imagery to a cheaper source and only switching to more expensive paid imagery when you are at the correct zoom level.
 
 Synthetic Aperture Radar (SAR) data in CEO for forest degradation
 -----------------------------------------------------------------

@@ -6,9 +6,10 @@ List of institutions & Institution pages
 
 A list of all institutions is displayed on the Home page. If you are logged in, this list is broken into two: **Your Affiliations** and **Other Institutions**. **Your Affiliations** are institutions to which you belong. Next to each institution's name is a **[VISIT]** button. Clicking on this will open the Institution page.
 
-.. thumbnail:: ../source/_images/joining1.png
+.. thumbnail:: ../_images/joining1.png
     :title: The VISIT button
     :width: 75%
+    :align: center
 
 Request to join an institution
 ------------------------------
@@ -27,7 +28,7 @@ If your Institution is not yet signed up for CEO, you can create a new instituti
 
 1. When you are signed in, navigate to the Home page and click on **[Create New Institution]** on the left panel of the Home page.
 
-.. thumbnail:: ../source/_images/institution1.png
+.. thumbnail:: ../_images/institution1.png
     :title: Button for institution creation.
     :width: 70%
     :align: center

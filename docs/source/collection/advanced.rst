@@ -43,6 +43,8 @@ For analyses comparing two or more time periods, you may need to toggle between 
 11.  If there has been change, select the appropriate change option.
 12.  Repeat for all Sample Value categories.
 
+.. seasonality: 
+
 Seasonality
 -----------
 

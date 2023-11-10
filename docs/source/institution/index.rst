@@ -10,11 +10,11 @@ Overview of the INSTITUTION section
 
 In this section of the CEO documentation, you can learn how to:
 
--   `Create an Institution <https://docs.ceo--namehere.io/en/latest/institution/create.html>`__
--   `Manage your institution <https://docs.ceo--namehere.io/en/latest/institution/management.html>`__
--   `Add Institutional imagery <https://docs.ceo--namehere.io/en/latest/institution/imagery.html>`__
+- :doc:`Create an Institution </create>`
+- :doc:`Manage your institution </management>`
+- :doc:`Add Institutional imagery </imagery>`
 
-The Institution section provides an overview of how to create and manage an institution in Collect Earth Online. You can learn about how to create your account, collect data, and create your own projects in other sections of this documentation. Navigate to these sections using the links at the top of the page.
+The Institution section provides an overview of how to create and manage an Institution in Collect Earth Online. You can learn about how to create your account, collect data, and create your own projects in other sections of this documentation. Navigate to these sections using the links at the top of the page.
 
 Navigate to the other areas of this section by selecting links under **Section navigation** to the left.
 
@@ -30,7 +30,6 @@ Finally, CEO is a live tool that is under continuous development. Please report 
     :maxdepth: 1
     :hidden:
 
-    index
     create
     management
     imagery
