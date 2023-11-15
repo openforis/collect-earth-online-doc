@@ -7,10 +7,20 @@ You can configure your **Geo-Dash** by clicking on **[Configure Geo-Dash]** from
 
 This will bring up the **Geo-Dash layout screen**.
 
+.. thumbnail:: ../_images/geodash1.png
+    :title: The Geo-Dash layout screen options
+    :align: center
+    :width: 50%
+
 Clicking on **[Copy Layout]** will allow you to copy the Geo-Dash from another project. 
 
 .. tip::
    This will delete any existing Geo-Dash you have associated with the project!
+
+.. thumbnail:: ../_images/geodash2.png
+    :title: Copy a different project's widget layout
+    :align: center
+    :width: 50%
 
 You can add individual Geo-Dash widgets by clicking **[Add Widget].** To find out what each of the widgets do, click on **[Geo-Dash Help]** to open the **Geo-Dash Help Center**. We will also discuss this functionality below.
 
@@ -19,7 +29,7 @@ CEO uses Google Earth Engine to process many of the Geo-Dash widgets. Therefore,
 Common Indices and Data Sources
 -------------------------------
 
-Some of the widgets proide access to common indices and data sources. These include NDVI, EVI, EVI2, NDMI, and NDWI, along with Landsat and Sentinel imagery. NDVI, EVI, EVI 2, NDMI, and NDWI indices are available in both image overlays and time series graphs.
+Some of the widgets provide access to common indices and data sources. These include NDVI, EVI, EVI2, NDMI, and NDWI, along with Landsat and Sentinel imagery. NDVI, EVI, EVI 2, NDMI, and NDWI indices are available in both image overlays and time series graphs.
 
 The normalized difference vegetation index (NDVI) is used to determine if the cell contains live green vegetation. In map based representations, dead plants and inanimate objects are represented as red, while live healthy plants are represented as green. In numerical representations (e.g. time series graphs), values below 0 represent dead plants or inanimate objects, 0-0.33 represents unhealthy plants, 0.33-0.66 represents moderately healthy plants, and 0.66-1 represents very healthy plants. For more information, see e.g. https://www.usgs.gov/land-resources/nli/landsat/landsat-normalized-difference-vegetation-index
 
@@ -34,39 +44,35 @@ Data from Landsat satellites 5, 7, 8 and Sentinel 2 are also available. For more
 Widget Formatting Hints
 -----------------------
 
-1. Titles cannot contain special characters.
-
-2. Image parameters use JSON. Quotes used for image parameters in widgets should be vertical (" not “”). There should be no spaces in the image parameters.
-
-3. Lists can be formatted either as "1,2,3" or as [1,2,3] for numbers and "B3,B2,B1" or ["B3","B2","B1"] for bands.
-
-4. When displaying three bands (e.g. B3, B2, B1 in RGB), Google Earth Engine and therefore the Geo-Dash can use either one or three values for min and max.
-
-5. For the Date Ranges, if the end date is longer than the period of record, only the available data will be displayed.
+- Titles cannot contain special characters.
+- Image parameters use JSON. Quotes used for image parameters in widgets should be vertical (" not “”). There should be no spaces in the image parameters.
+- Lists can be formatted either as "1,2,3" or as [1,2,3] for numbers and "B3,B2,B1" or ["B3","B2","B1"] for bands.
+- When displaying three bands (e.g. B3, B2, B1 in RGB), Google Earth Engine and therefore the Geo-Dash can use either one or three values for min and max.
+- For the Date Ranges, if the end date is longer than the period of record, only the available data will be displayed.
 
 Move & Resize Widgets
 ---------------------
 
 1. Widgets can be manipulated on the Geo-Dash Widget Layout Editor in the following ways:
 
-   i.   Drag and drop to change widget position.
-
-   ii.  Resize by dragging from the bottom right corner.
-
-   iii. Widgets will autotomatically align to a grid.
+   - Drag and drop to change widget position.
+   - Resize by dragging from the bottom right corner.
+   - Widgets will autotomatically align to a grid.
 
 2. In the Geo-Dash collection page view, widget positions are are updated in real time.
-
-3. For a gif illustrating these movements, see >>https://collect.earth/geo-dash/geo-dash-help and click "To Move and Resize Widgets.
+3. For a gif illustrating these movements, see https://collect.earth/geo-dash/geo-dash-help and click "To Move and Resize Widgets."
 
 Duplicate, Edit, and Delete Widgets
 -----------------------------------
 
 1. You can copy a widget once it has been created by clicking on the **[duplicate icon]** in the upper right hand corner of the widget.
-
 2. You can edit widgets once they are created by clicking on the **[pencil icon]** in the upper right hand corner of the widget.
-
 3. To delete a widget, click on the trashcan in the upper right-hand corner of the widget.
+
+.. thumbnail:: ../_images/geodash3.png
+    :title: The SME Verification option
+    :align: center
+    :width: 70%
 
 (Forest) Degradation Tool
 -------------------------
@@ -74,87 +80,63 @@ Duplicate, Edit, and Delete Widgets
 The Degradation Tool provides time-series information on forest degradation from selective logging, fire, and other large and small disturbances. The Normalized Difference Fraction Index (NDFI) allows for enhanced detection of forest canopy damage from multiple sources, including selective logging and forest fires.
 
 It is calculated with this equation:
->>
-.. thumbnail:: ../images/joining1.png
-   :title: Clicking on an institution's name.
-   :group: joining_institution
+
+.. thumbnail:: ../_images/geodash4.png
+    :title: NDFI calculation equation
+    :align: center
+    :width: 70%
 
 where
->>
-.. thumbnail:: ../images/joining1.png
-   :title: Clicking on an institution's name.
-   :group: joining_institution
 
-More detail can be found in: Souza, C. M., Roberts, D. A., & Cochrane, M. A. (2005). Combining spectral and spatial information to map canopy damage from selective logging and forest fires. *Remote Sensing of Environment*, 98(2), 329-343.
+.. thumbnail:: ../_images/geodash5.png
+    :title: GV Shade equation
+    :align: center
+    :width: 70%
+
+More detail can be found in: 
+
+- Souza, C. M., Roberts, D. A., & Cochrane, M. A. (2005). Combining spectral and spatial information to map canopy damage from selective logging and forest fires. *Remote Sensing of Environment*, 98(2), 329-343.
 
 To create and use the Degradation Tool in your Geo-Dash:
 
 1. Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
-
-2. Select Degradation Tool in the Type drop down.
-
-3. Give the widget a Title.
-
-4. Choose the Basemap source from dropdown. This will be the basemap for the widget and other data will be layered on top.
-
-5. Choose which Band to graph. Available options include SWIR1, NIR, Red, Green Blue, SWIR2, and NDFI. NDFI allows for enhanced detection of forest canopy damage from multiple sources, including selective logging and forest fires.
-
-6. Select the Date Range you would like. This tool can draw from Landsat 4 (July 1982-December 1993), Landsat 5 (March 1984-January 2013), Landsat 7 (April 1999 – current), and Landsat 8 (February 2013 – current) based on the date range you select. Sentinel information is only available from April 2014 onward (Sentinel 1A launch).
-
-7. Click Create.
-
-8. Reposition and resize to your liking. This tool will have two panels, so be sure to give it ample vertical space.
+2. Select **Degradation Tool** in the Type drop down.
+3. Give the widget a **Title**.
+4. Choose the **Basemap** source from dropdown. This will be the basemap for the widget and other data will be layered on top.
+5. Choose which **Band** to graph. Available options include SWIR1, NIR, Red, Green Blue, SWIR2, and NDFI. NDFI allows for enhanced detection of forest canopy damage from multiple sources, including selective logging and forest fires.
+6. Select the **Date Range** you would like. This tool can draw from Landsat 4 (July 1982-December 1993), Landsat 5 (March 1984-January 2013), Landsat 7 (April 1999 – current), and Landsat 8 (February 2013 – current) based on the date range you select. Sentinel information is only available from April 2014 onward (Sentinel 1A launch).
+7. Click **[Create]**.
+8. Reposition and resize to your liking. This tool will have two panels stacked one on top of the other, so be sure to give it ample vertical space.
 
 Add a Dual Imagery Widget
 -------------------------
 
 The dual imagery widget combines two different image collection widgets so the user can compare the images side by side.
 
-Show example of the widget to illustrate
->>
-.. thumbnail:: ../images/joining1.png
-   :title: Clicking on an institution's name.
-   :group: joining_institution
-
 To create a Dual Imagery Widget:
 
 1. Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
-
-2. Select Dual Imagery in the Widget Type drop down.
-
-3. Give the widget a Title. We suggest an informative title such as {Data} {Date range} e.g. NDVI 2001 or NDVI 2001 – 2002.
-
-4. Choose Basemap source from dropdown. This will be the basemap for the widget and other data will be layered on top.
-
+2. Select **Dual Imagery** in the Widget Type drop down.
+3. Give the widget a **Title**. We suggest an informative title such as {Data} {Date range} e.g. NDVI 2001 or NDVI 2001 – 2002.
+4. Choose **Basemap** source from dropdown. This will be the basemap for the widget and other data will be layered on top.
 5. You will now select the Imagery type for the Bottom and Top images. You can toggle between them by clicking the **[Next Image]** and **[Previous Image]** buttons.
 
-i.   Select the Imagery Type for each image. Options include Image Asset, Image Collection Asset, and Preloaded Imagery Collection.
+   1. Select the **Imagery Type** for each image. Options include Image Asset, Image Collection Asset, and Preloaded Imagery Collection.
+   2. For more information about Image Assets, see :ref:`add-image-asset-widget`.
+   3. For more information about Image Collection Assets, see :ref:`add-image-collection-asset-widget`.
+   4. For more information about Preloaded Imagery Collections, see :ref:`add-preloaded-image-collection-widget`.
+    
+      - **NDVI**, **EVI**, **EVI** **2**, **NDMI**, and **NDWI** are preconfigured with the correct Landsat bands and image parameters. NDVI merges Landsat 4 thru Landsat 8 and Sentinel 2.
+      - **Landsat 5, Landsat 7, Landsat 8**, and **Sentinel 2** are partially configured leaving you the option to adjust the bands, min, max, and cloud score. Available bands for each are:
+        - Landsat 5 - B1, B2, B3, B4, B5, B6, B7, BQA
+        - Landsat 7 - B1, B2, B3, B4, B5, B6_VCID_1, B6_VCID_2, B7, B8, BQA
+        - Landsat 8 - B1, B2, B3, B4, B5, B6, B7, B8, B9, B10, B11, BQA
+        - Sentinel 2 - B1, B2, B3, B4, B5, B6, B7, B8, B8a, B9, B10, B11, B12, QA10, QA20, QA60
 
-ii.  For more information about Image Assets, see the section titled >>“Add an Image Asset Widget.”
+   5. For information on the min, max, and cloud score see :ref:`add-image-collection-widget`. Min and Max are the values for the bands, while cloud score is a max percent of clouds in the image.
 
-iii. For more information about Image Collection Assets, see the section titled >>“Add an Image Collection Asset Widget.”
-
-iv.  For more information about Preloaded Imagery Collections, see the section titled >>“Add a Preloaded Image Collection Widget.”
-
-a) **NDVI**, **EVI**, **EVI** **2**, **NDMI**, and **NDWI** are preconfigured with the correct Landsat bands and image parameters. NDVI merges Landsat 4 thru Landsat 8 and Sentinel 2.
-
-b) **Landsat 5, Landsat 7, Landsat 8**, and **Sentinel 2** are partially configured leaving you the option to adjust the bands, min, max, and cloud score. Available bands for each are:
-
--  Landsat 5 - B1, B2, B3, B4, B5, B6, B7, BQA
-
--  Landsat 7 - B1, B2, B3, B4, B5, B6_VCID_1, B6_VCID_2, B7, B8, BQA
-
--  Landsat 8 - B1, B2, B3, B4, B5, B6, B7, B8, B9, B10, B11, BQA
-
--  Sentinel 2 - B1, B2, B3, B4, B5, B6, B7, B8, B8a, B9, B10, B11, B12,
-   QA10, QA20, QA60
-
-c) For information on the min, max, and cloud score see >>Part 6: B “Add an Image Collection Widget”. Min and Max are the values for the bands, while cloud score is a max percent of clouds in the image.
-
-6. Select the Date range you would like, if applicable. If the end date is longer than the period of record, only the available data will be displayed.
-
+6. Select the **Date** range you would like, if applicable. If the end date is longer than the period of record, only the available data will be displayed.
 7. Click **[Create]**.
-
 8. Reposition and resize to your liking.
 
 Institutional Imagery
@@ -163,45 +145,34 @@ Institutional Imagery
 This widget allows you to simply show one of your institutional imageries. With this you can select any of your existing institutional imagery sources to display, using the setting you have already configured. To add an Institutional Imagery widget:
 
 1. Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
-
-2. Select Institution Imagery in the Type drop down.
-
-3. Give the widget a Title.
-
-4. Select a Basemap. You can choose any of your institutional imagery from the dropdown menu.
-
+2. Select **Institution Imagery** in the Type drop down.
+3. Give the widget a **Title**.
+4. Select a **Basemap**. You can choose any of your institutional imagery from the dropdown menu.
 5. Click **[Create]**.
 
 6. Reposition and resize to your liking.
 
 .. note::
 
-   Note that the Public Planet NICFI will not work as expected. Please use your own Planet NICFI key to set up institutional imagery that specifies the specific time step. See “Part 3: B Adding additional basemap imagery” for more information.
+   Note that the Public Planet NICFI may not work as expected. Please use your own Planet NICFI key to set up institutional imagery that specifies the specific time step.
+
+.. add-image-asset-widget::
 
 Add an Image Asset Widget
 -------------------------
 
 Both the image asset widget and the image collection asset widget allow users to connect to GEE data. This includes publicly available data through GEE as well as image assets from their own user accounts. There is a video tutorial for creating GEE image assets available online here: https://youtu.be/l57IhmduVBQ. Some example GEE scripts to create Image Asset in GEE:
 
--  NDVI:
-   https://github.com/SERVIR/gee-scripts/blob/master/GEE_NDVI_Clip_to_plot_Collection.js#L6
+-  NDVI: https://github.com/SERVIR/gee-scripts/blob/master/GEE_NDVI_Clip_to_plot_Collection.js#L6
+- Landsat8: https://code.earthengine.google.com/109485ad0712818dba270b767efbc540
 
--  Landsat8:
-   https://code.earthengine.google.com/109485ad0712818dba270b767efbc540
-
-7.  Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
-
-8.  Select Image Asset in the Type drop down.
-
-9.  Give the widget a Title.
-
-10. Choose the desired Basemap source from dropdown. This will be the basemap for the widget and other data will be layered on top.
-
-11. Enter the GEE Image Asset ID. For example, COPERNICUS/S2/20170420T184921_20170420T190203_T10SEG . This can be     any image asset in Earth Engine, including assets from your own account. If you are using an asset from your own account, it must be shared publicly.
-
-12. You can view the Available Bands for your image by clicking on the **[Refresh]** button.
-
-13. Enter Image Parameters for the asset in JSON format. These follow the image visualization function in GEE (more info: https://developers.google.com/earth-engine/guides/image_visualization?hl=en):
+1.  Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
+2.  Select **Image Asset** in the Type drop down.
+3.  Give the widget a Title.
+4.  Choose the desired Basemap source from dropdown. This will be the basemap for the widget and other data will be layered on top.
+5.  Enter the GEE Image Asset ID. For example, COPERNICUS/S2/20170420T184921_20170420T190203_T10SEG . This can be     any image asset in Earth Engine, including assets from your own account. If you are using an asset from your own account, it must be shared publicly.
+6.  You can view the Available Bands for your image by clicking on the **[Refresh]** button.
+7.  Enter Image Parameters for the asset in JSON format. These follow the image visualization function in GEE (more info: https://developers.google.com/earth-engine/guides/image_visualization?hl=en):
 
 >>
 .. code::
@@ -220,6 +191,8 @@ Both the image asset widget and the image collection asset widget allow users to
 
 .. note::
    More on SRTM Digital Elevation Data. Previously in CEO you could add digital elevation data directly. This is now handled with the image asset widget. The SRTM Digital Elevation Data 30m widget pulls data from the Earth Engine Data Catalog. More information on this dataset can be found here: https://developers.google.com/earth-engine/datasets/catalog/USGS_SRTMGL1_003. The SRTM is an image asset USGS/SRTMGL1_003.
+
+.. add-image-collection-asset-widget::
 
 Add an Image Collection Asset Widget
 ------------------------------------
@@ -305,6 +278,8 @@ We suggest you use the shapefile (.shp) option when creating your CEO project.
 7. Enter Image Parameters in JSON format to change the color of the polygon displayed. This uses the GEE feature and feature collection visualization function.
 
 8. Click **[Create].**
+
+.. add-preloaded-image-collection-widget::
 
 Add a Preloaded Image Collection Widget
 ---------------------------------------

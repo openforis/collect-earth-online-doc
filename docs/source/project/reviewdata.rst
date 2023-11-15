@@ -8,13 +8,20 @@ For projects with QA/QC enabled, administrators can use the Review Mode to Navig
 
 Disagreement is provided as a percentage and represents how far apart users’ responses for the plot are from one another. If you have multiple samples per plot, the disagreement per sample is calculated and then averaged.
 
+.. thumbnail:: ../_images/review1.png
+    :title: Admin Review interface
+    :align: center
+    :width: 50%
+
 .. tip::
-  We suggest that you start with a disagreement percentage of around 50% and adjust to your needs.
+  
+    We suggest that you start with a disagreement percentage of around 50% and adjust to your needs.
 
 Once data for the project has been collected using a quality control approach, Administrators can press the **[View Disagreements]** button to bring up a new window that compares every user’s answers for the plot’s questions.
 
 .. tip::
-  This navigation mode is particularly useful for situations where administrators are identifying difficult plots to identify, difficult classes to identify, or are holding a group meeting to work through the identification of plots with high disagreement.
+  
+    This navigation mode is particularly useful for situations where administrators are identifying difficult plots to identify, difficult classes to identify, or are holding a group meeting to work through the identification of plots with high disagreement.
   
 In addition, administrators can Navigate through unanalyzed plots, all analyzed plots, flagged plots, low confidence plots, and individual users’ plots.
 

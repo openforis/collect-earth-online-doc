@@ -12,7 +12,7 @@ A list of all institutions is displayed on the **Home** page. If you are logged 
 
 1. Clicking on an institutions' name expands a list of all active **Projects** for the Institution. Clicking on these projects will take you to the project's Data Collection page (see >>Part 4).
 
-.. thumbnail:: ../images/joining1.png
+.. thumbnail:: ../_images/joining1.png
    :title: Clicking on an institution's name.
    :group: joining_institution
 

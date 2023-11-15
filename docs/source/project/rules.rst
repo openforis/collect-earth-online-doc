@@ -3,6 +3,11 @@ Survey Rules
 
 Survey rules help ensure users collect logical and correct answers. If you do not want to add any rules, you can just click **Next**.
 
+.. thumbnail:: ../_images/project47.png
+    :title: The Rule Type drop down menu
+    :align: center
+    :width: 90%
+
 Rule Types
 ----------
 
@@ -19,11 +24,7 @@ This rule uses the JavaScript RegExp function, documentation for writing a regul
 
 For example, if you are asking about the proportion of points in the plot that contain trees, you could constrain the answers between 0 and 1.
 
-|image12|
-
 **Sum of Answers:** This rule applies to any **number** type questions & their answers. You select multiple questions (2 or more) and specify what the questions should sum to.
-
-|image13|
 
 For example, this is helpful if you have multiple questions asking about percent of land cover, where the sum should be 100%.
 
@@ -33,23 +34,39 @@ For example, this is helpful if you have multiple questions asking about percent
 
 For example, if the answer to one question is land cover = “Water”, the answer to another question could not be land use = “Industrial”.
 
-|image14|
+**Multiple incompatable answers:** This rule limits what answers can be chosen based on the answers for multiple other questions.
+
+For example, if you answer "landcover start = forest" and "change event = deforestation", then "landcover end" CANNOT equal "forest".
 
 Rule Preview
 ------------
 
 You can preview how the rules will look for users in the Question Preview pane by mousing over and clicking on the **[Rule]** icon (clipboard).
 
+.. thumbnail:: ../_images/project48.png
+    :title: Preview how rules will look for users
+    :align: center
+    :width: 90%
+
 Clicking on the **[Rule]** icon will show a list of rules.
+
+.. thumbnail:: ../_images/project49.png
+    :title: A list of rules
+    :align: center
+    :width: 90%
 
 Navigating back to the Survey Questions tab will also show when questions have Rules associated with them. Mousing over the **Rule** will display the rule text.
 
-.. image:: media/image5.png
-   :width: 0.30208in
-   :height: 0.30208in
+.. thumbnail:: ../_images/project50.png
+    :title: Rules on the survey card setup
+    :align: center
+    :width: 90%
 
 Data collectors will be able to view any rules you implement by mousing over the rules icon.
 
-They will see an error if they try to enter an answer that conflicts with the rules:
+.. thumbnail:: ../_images/project51.png
+    :title: The view for data collectors
+    :align: center
+    :width: 90%
 
->> add image
+They will see an error if they try to enter an answer that conflicts with the rules.
