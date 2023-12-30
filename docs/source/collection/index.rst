@@ -1,18 +1,22 @@
 Collecting data in Collect Earth Online
 =======================================
 
+Collect Earth Online makes it easy for users to contribute to projects' data collection efforts. 
+
+If you are interested in learning how create and manage an institution or add imagery, please see: :doc:`../institution/index`. To set up a data collection project, please see :doc:`../project/index`.
+
+Collect Earth Online (CEO) is available at https://collect.earth/.
 
 Overview of the Data Collection section
----------------------------------------
+----------------------------------------
 
+In this section of the CEO documentation, you can learn how to:
 
+- :doc:`Prepare to collect data </preparing>`
+- :doc:`Collect data for your institution </start>`
+- :doc:`Troubleshoot common issues </troubleshooting>`
 
-This manual focuses on information for data collectors to facilitate contributions to their institution’s projects in CEO. Part 1 provides a quick overview of the Collect Earth Online platform, so users can set up their own accounts. Part 2 details how to join your institution. Part 3 & 4 discuss how to collect data for your institution’s projects. Part 5 describes what to do if you encounter an error.
-
-If you are interested in learning how create and manage an institution, set up a data collection project, or add imagery, please see CEO’s **Institution & Project Setup Manual.**
-
-
-The Setup section provides a quick overview of the Collect Earth Online platform so users can set up their own accounts, along with details on how to join an institution. You can learn about how to collect data, and how to manage your own instiution and projects in the other sections of this documentation. Navigate to these sections using the links at the top of the page.
+The Data Collection section provides a quick overview of the Collect Earth Online data collection interface, how to collect data for your institution's projects and what to do if you encounter an error. You can learn about how to set up your CEO account, ad how to manage your own institution and projects in other sections of this documentation. Navigate to these sections using the links at the top of the page.
 
 Navigate to the other areas of this section by selecting links under **Section navigation** to the left.
 
@@ -25,9 +29,9 @@ This documentation uses a few formatting standards for ease of use. Clickable li
     :maxdepth: 1
     :hidden:
 
-    index
     preparing
+    familiarize
     start
     advanced
-    
+    troubleshooting
     

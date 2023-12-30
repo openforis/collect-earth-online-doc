@@ -1,63 +1,52 @@
 Start Collecting Data!
 ======================
 
-Analyze some plots!
--------------------
+Analyze plots
+-------------
 
 Now it is time to contribute to a project. Make sure you have clicked on **Go to first plot**
 
 1. Read the first Survey Question and the possible answers.
-
 2. If you want to assign the same class or answer to ALL points in the plot (prior to having applied an answer to any of the points), you can just click on the answer without first needing to select the points.
-
 3. If you want to assign different classes or answers to points in the plot, you will first select your sample points. When sample points are selected, they turn blue.
 
-   i.   To select a *single* sample point, click on it with the left mouse key.
-
-   ii.  To select *several* sample points, click on them while keeping the Shift key pressed down.
-
-   iii. To select *all* points in the sample or all points in a rectangle, hold down Ctrl, then click, hold, and drag in the map window to draw your rectangle.
+   - To select a *single* sample point, click on it with the left mouse key.
+   - To select *several* sample points, click on them while keeping the Shift key pressed down.
+   - To select *all* points in the sample or all points in a rectangle, hold down Ctrl, then click, hold, and drag in the map window to draw your rectangle.
 
 4. When your sample points are marked in blue, you can assign them a sample value by clicking on the suitable value in the legend to the right of the map window. The sample points are then marked in the color of the value class. Here, these sample points are not forest (shrubland), so we select Other.
 
-   .. thumbnail:: ../images/collect1.png
+   .. thumbnail:: ../_images/collect1.png
       :title: Selecting an answer.
       :group: collect-data
+      :align: center
 
-   i.   If it is hard to answer the question because the basemap imagery does not provide enough detail, try changing the imagery as described in >>Part 3 D.2.ii above.
+   - If it is hard to answer the question because the basemap imagery does not provide enough detail, try changing the imagery as described in :doc:`/collection/preparing`.
+   - You may also want to change the basemap to check for seasonal effects (See :ref:`seasonality`).
+   - Try zooming out to gather context clues from the landscape.
+   - If you make a mistake and assign the wrong value to a point or points, you can reselect the points & change the assigned sample value.
 
-   ii.  You may also want to change the basemap to check for seasonal effects (See also Part 4 B.2 below).
-
-   iii. Try zooming out to gather context clues from the landscape (See also Part 4 B.3 below).
-
-   iv.  If you make a mistake and assign the wrong value to a point or points, you can reselect the points & change the assigned sample value.
-
-5. If there is a second survey question, click on “\ **2**\ ” or press the **Right arrow**. Read this question & the answers, reselect the points and assign them the correct secondary attributes.
-
+5. If there is a second survey question, click on  **2** or press the **Right arrow**. Read this question & the answers, reselect the points and assign them the correct secondary attributes.
 6. Your project may have “rules,” which help ensure that all answers are logically consistent.
 
-   i.   If your project has rules for a survey question, there will be a clipboard icon next to the question text.
+   - If your project has rules for a survey question, there will be a clipboard icon next to the question text.
+   - You can hover over the clipboard icon to see the rules.
 
-   ii.  You can hover over the clipboard icon to see the rules.
-
-   .. thumbnail:: ../images/collect2.png
+   .. thumbnail:: ../_images/collect2.png
       :title: Mouseover the clipboard icon to see the rules.
       :group: collect-data
+      :align: center
 
-   iii. If you violate the rules, there will be a popup explaining what is wrong with your answer.
+   - If you violate the rules, there will be a popup explaining what is wrong with your answer.
 
-   .. thumbnail:: ../images/collect3.png
+   .. thumbnail:: ../_images/collect3.png
       :title: A rule pop-up.
       :group: collect-data
 
-7.  Your project may have a confidence slider. If this feature is enabled, simply choose the percentage value that best represents your confidence in your answers, where 100 is totally confident.
-
-8.  Continue until all sample points have been assigned a value for all survey questions.
-
-9.  Then, click on **SAVE**. You will receive an error message if you have not answered all of the questions.
-
+7. Your project may have a confidence slider. If this feature is enabled, simply choose the percentage value that best represents your confidence in your answers, where 100 is totally confident.
+8. Continue until all sample points have been assigned a value for all survey questions.
+9. Then, click on **[SAVE]**. You will receive an error message if you have not answered all of the questions.
 10. The next plot for analysis shows up automatically.
-
 11. When all plots are classified, a pop-up window appears to inform you that all sample plots of your project are analyzed.
 
 User-drawn samples
@@ -65,27 +54,22 @@ User-drawn samples
 
 For projects with user-drawn samples, you will need to first draw yoursamples before you can answer questions about them. Note that your project administrator may have limited the types of geometries (e.g. points, lines, or polygons) you can draw.
 
-1. First, select the pencil icon.
-
-2. Now, select Point, Line, or Polygon tool as needed for the project.
-
+1. First, select the **[pencil icon]**.
+2. Now, select **[Point]**, **[Line]**, or **[Polygon]** tool as needed for the project.
 3. To start drawing, simply click on the map.
 
-   i.   For points, click once for each point you would like to add.
-
-   ii.  For lines, click once for each vertex you would like to draw. To complete the line, right click or double click.
-
-   iii. For polygons, click once for each vertex you would like to draw. To complete the shape, click on your first vertex or double        click.
+   - For points, click once for each point you would like to add.
+   - For lines, click once for each vertex you would like to draw. To complete the line, right click or double click.
+   - For polygons, click once for each vertex you would like to draw. To complete the shape, click on your first vertex or double click.
 
 4. To modify an existing feature, hold CTRL and click to drag.
-
 5. To delete a feature, hold CTRL and right click on it.
-
 6. To save your drawn shapes, switch back to the question mode.
 
-   .. thumbnail:: ../images/collect4.png
+   .. thumbnail:: ../_images/collect4.png
       :title: User drawn shapes example.
       :group: collect-data
+      :align: center
 
 Geo-Dash interface
 ------------------
@@ -109,9 +93,10 @@ Geo-Dash degradation tool
 
 Your institution may have set up the forest degradation tool in the Geo-Dash interface. This tool provides time series information on forest degradation from selective logging, fire, and other large and small disturbances. Broadly, you can use this tool to observe sharp and gradual changes in the NDFI metric (shown in the bottom panel) and click between the date points to visually confirm the change via imagery (shown in the top panel).
 
-.. thumbnail:: ../images/collect5.png
+.. thumbnail:: ../_images/collect5.png
    :title: The Geo-Dash degradation tool.
    :group: collect-data
+   :align: center
 
 More specifically, the **top panel** is the imagery panel. Imagery will display here over the OpenStreetMap data when you select a specific date in the **bottom panel**. The **slider bar** allows you to choose the opacity of your imagery. Under **Band Combination**, 321 stands for true color composite (R,G,B) and 543 stands for false color composite (SWIR, NIR, R). Using the **Data** toggle, you can choose between Landsat or SAR data.
 
@@ -120,40 +105,38 @@ The **bottom panel** shows a time series graph of NDFI (most common) or another 
 To use this tool:
 
 1. Move the toggle to the imagery **Data** you would like to see: LANDSAT or SAR.
-
 2. If you have chosen LANDSAT, choose the **Band Combination** you would like.
-
 3. Pause while the time series graph loads.
-
 4. Examine the time series graph for any cyclical patterns (indicating seasonal changes). These are present in deciduous forests, but might not be present (e.g. in the Amazon rainforest).
-
 5. Then, look for any abrupt changes (usually sharp degreases) or gradual changes (usually gradual increases). These indicate potential degradation & recovery events.
-
 6. Click on an individual date (blue circle) on the graph in order to bring up imagery for that time period. You may have to wait for the imagery to load.
-
 7. Click between different dates on and around your suspected event to visually confirm that an event happened and determine the type of event. Here are some examples:
 
-   i.   A sharp decrease in NDFI (often accompanied by a gradual recovery) may indicate selective logging. The left panel shows the landscape before; the right panel is after the event. We can see that at our sample plot, a road has been created. This would be a degradation event around 2009 with a recovery lasting 2-3 years.
+   - A sharp decrease in NDFI (often accompanied by a gradual recovery) may indicate selective logging. The left panel shows the landscape before; the right panel is after the event. We can see that at our sample plot, a road has been created. This would be a degradation event around 2009 with a recovery lasting 2-3 years.
 
-   .. thumbnail:: ../images/collect6.png
+   .. thumbnail:: ../_images/collect6.png
       :title: Example of selective logging.
       :group: collect-data
+      :align: center
 
-   ii.  A sharp decrease in NDFI might also indicate a fire.
+   - A sharp decrease in NDFI might also indicate a fire.
 
-   .. thumbnail:: ../images/collect7.png
+   .. thumbnail:: ../_images/collect7.png
       :title: Example of fire.
       :group: collect-data
+      :align: center
 
-   iii. An abrupt shift down with no recovery might indicate the migration of a river canal:
+   - An abrupt shift down with no recovery might indicate the migration of a river canal:
 
-   .. thumbnail:: ../images/collect8.png
+   .. thumbnail:: ../_images/collect8.png
       :title: Example of river canal migration.
       :group: collect-data
+      :align: center
 
-   iv.  An abrupt shift down followed by a strong seasonal pattern (regular increase/decrease) may be forest clearing for agriculture.
+   - An abrupt shift down followed by a strong seasonal pattern (regular increase/decrease) may be forest clearing for agriculture.
    
-   .. thumbnail:: ../images/collect9.png
+   .. thumbnail:: ../_images/collect9.png
       :title: Example of change to agriculture.
       :group: collect-data
+      :align: center
 
