@@ -1,5 +1,3 @@
-.. _creating-a-project-for-validation:
-
 Creating a Project for Validation
 =================================
 
@@ -7,17 +5,10 @@ Creating a project in CEO to validate a spatial model—for example, a land cove
 
 Many resources provide a more in-depth review of this subject. Consider looking at:
 
--  CEO’s Theoretical Manual, available here:
-   https://collect.earth/downloads/CEO_Theoretical_Manual.pdf
-
--  the FAO’s *Map Accuracy Assessment and Area Estimation: A Practical
-   Guide* available online here: http://www.fao.org/3/a-i5601e.pdf
-
--  Documentation in AREA\ :sup:`2`, available online here:
-   https://area2.readthedocs.io/en/latest/background.html
-
--  A great overview on confusion matrixes here:
-   http://spatial-analyst.net/ILWIS/htm/ilwismen/confusion_matrix.htm
+-  CEO’s Theoretical Manual, available here: https://collect.earth/downloads/CEO_Theoretical_Manual.pdf
+-  the FAO’s *Map Accuracy Assessment and Area Estimation: A Practical Guide* available online here: http://www.fao.org/3/a-i5601e.pdf
+-  Documentation in AREA\ :sup:`2`, available online here: https://area2.readthedocs.io/en/latest/background.html
+-  A great overview on confusion matrixes here: http://spatial-analyst.net/ILWIS/htm/ilwismen/confusion_matrix.htm
 
 Accuracy assessment
 -------------------
@@ -26,7 +17,7 @@ Accuracy assessments allow producers of spatial models to understand how accurat
 
 For single models, such as a single land cover classification map, a confusion matrix is used to calculate the accuracy of spatial models. The purpose of this error analysis is to quantify two key metrics for each land cover class as well as the overall classification:
 
-1. Given that a pixel is of a (land cover class, etc.), what is the    chance that it was correctly classified as that (land cover class, etc.)?
+1. Given that a pixel is of a (land cover class, etc.), what is the chance that it was correctly classified as that (land cover class, etc.)?
 2. Given that a pixel has been classified as a (land cover class, etc.), what is the chance that it belongs to that (land cover class, etc.)?
 
 There are two pieces of information needed to answer these questions: the ‘true’ land cover class assignment, which is done by a human, and the ‘as classified’ land cover class assignment, which is output by the model. An example of the end goal (the confusion matrix) is shown below for a two class system.
@@ -52,22 +43,23 @@ Precision & accuracy goals for a project help us decide on the sample size and s
 
 *Accuracy* is how close your measurements or estimates are to the true answer. Accuracy describes systematic errors—including observational error. In statistics this is sometimes called bias instead of accuracy. Accuracy is sometimes hard to evaluate as the “true” value might not be known—but with Land Use & Land Cover analysis usually it can be.
 
+.. thumbnail:: ../_images/validation1.png
+    :title: Example of precision and accuracy.
+    :align: center
+    :width: 50%
+
 In this example, A is neither precise nor accurate. B is precise, but not accurate. C is accurate, but not precise, and D is both precise and accurate. This is of course where we would like to be ideally.
 
 Accuracy and precision influence the necessary sample size. Detecting small changes in outcome (e.g. 4% decrease in forest cover) with high certainty requires large sample sizes. 
 
 When you are determining your sample size, you will want to consider the primary goals of the project, along with the resources available for data collection. 
 
-There are many different formulas for determining sample sizes. Which one you want to use is based in part on your sampling method (simple random sample, stratified random sample, etc.).
+There are many different formulas for determining sample sizes. Which one you want to use is based in part on your sampling method (simple random sample, stratified random sample, etc.). For example, from `SEPAL.io <sepal.io>`__:
 
-Two examples follow:
-
-From `SEPAL.io <about:blank>`__:
-
-..image
-
-From the `CEO Technical
-Manual <https://collect.earth/downloads/CEO_Theoretical_Manual.pdf>`__:
+.. thumbnail:: ../_images/validation2.png
+    :title: Example formula from SEPAL.
+    :align: center
+    :width: 50%
 
 Area Estimation & Accuracy Assessment (AREA\ :sup:`2`) also has helper scripts for determining sample size, including assigning area-based weights. Instructions can be found here: https://coded.readthedocs.io/en/latest/sample.html.
 
@@ -84,7 +76,7 @@ CEO will soon be able to create stratified sampling designs. However, you have m
 
 1. You can use SEPAL.IO to create a stratified sample based on how accurate you think your model is for each stratum and a raster of your model output.
 
-2. You will need to sign up to use it by visiting `sepal.io`__ and clicking on **[Sign Up]**.
+2. You will need to sign up to use it by visiting `sepal.io <sepal.io>`__ and clicking on **[Sign Up]**.
 
 3. From the apps, find the **Stratified Area Estimator-Design** tool.
 

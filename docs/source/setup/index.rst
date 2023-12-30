@@ -13,8 +13,8 @@ Overview of the SETUP section
 
 In this section of the CEO documentation, you can learn how to:
 
--   `Register your CEO account <https://docs.ceo--namehere.io/en/latest/setup/register.html>`__
--   `Joining an institution <https://docs.ceo--namehere.io/en/latest/setup/joining.html>`__
+- :doc:`Register your CEO account </register>`
+- :doc:`Joining an institution </joining>`
 
 The Setup section provides a quick overview of the Collect Earth Online platform so users can set up their own accounts, along with details on how to join an institution. You can learn about how to collect data, and how to manage your own instiution and projects in the other sections of this documentation. Navigate to these sections using the links at the top of the page.
 
