@@ -1,69 +1,55 @@
+Project Information Interface
+=============================
 
-A. **Project Details**
+If you are navigating back to the Project Information (not visiting right after project creation), you can reach this page by finding your Institution on the Home page left panel. Click the [Edit] icon next to the project name to get to the Project Information/Review Project page. The Project Information Interface has two components: Project Details on the left and Project Management on the right.
 
-The **Project Detail** pane includes an overview of your project,
-including sample collection design, imagery selection, the AOI boundary,
-and survey questions. The **Collection Design** will now show the
-location of a subset of your plots (a maximum number can be displayed).
-The **Plot Design** and **Sample Design** sections will show a summary
-of the choices you made or the .csv and .shp files you uploaded.
-**Survey Questions** shows all the **Survey Cards** you created, along
-with the corresponding **Component Type, Answers, and Rules.**
+Project Details
+---------------
 
-B. **Project Management**
+The **Project Detail** pane includes an overview of your project, including sample collection design, imagery selection, the AOI boundary, and survey questions. 
 
-The **Project Management** pane includes project publication information
-and important links to manage your project. First, examine the **Date
-Created**, **Date Published**, and **Date Closed** for your project. If
-your project is not published yet, the **Date Published** will not be
-present. There is also text describing your project status:
+The **Collection Design** will now show the location of a subset of your plots (a maximum number can be displayed). 
 
--  Draft Mode projects: This project is in draft mode. Admins can
-   review, edit, and test collecting the project. Publish the project in
-   order for users to begin collection. Any data collected in a Draft
-   Mode project will not be retained.
+The **Plot Design** and **Sample Design** sections will show a summary of the choices you made or the .csv and .shp files you uploaded. 
 
--  Published projects: This project is published. Users can begin
-   collecting. Limited changes to the project details can be made. Close
-   the project to prevent anymore updates.
+**Survey Questions** shows all the **Survey Cards** you created, along with the corresponding **Component Type, Answers, and Rules.**
 
--  Closed projects: This project is closed. The project is closed to all
-   changes. Reopen the project for additional collection.
+Project Management
+------------------
 
-   A. **Modify Project Details**
+The **Project Management** pane includes project publication information and important links to manage your project. 
+
+Project Status
+^^^^^^^^^^^^^^
+
+First, examine the **Date Created**, **Date Published**, and **Date Closed** for your project. If your project is not published yet, the **Date Published** will not be present. There is also text describing your project status:
+
+- Draft Mode projects: This project is in draft mode. Admins can review, edit, and test collecting the project. Publish the project in order for users to begin collection. Any data collected in a Draft Mode project will not be retained.
+- Published projects: This project is published. Users can begin collecting. Limited changes to the project details can be made. Close the project to prevent anymore updates. 
+- Closed projects: This project is closed. The project is closed to all changes. Reopen the project for additional collection.
+
+Modify Project Details
+^^^^^^^^^^^^^^^^^^^^^^
 
 Next, examine the important links for your project:
 
-1. **Publish Project**: Clicking on this will publish your project and
-   allow users to collect data. Note that if a project is not
-   “Published” *only the admins of the institution can see it, not the
-   members*.
+- **Publish Project**: Clicking on this will publish your project and allow users to collect data. Note that if a project is not “Published” *only the admins of the institution can see it, not the members*.
+- **Close Project**: If you have a published project, you can close it and stop data collection by clicking this button.
+- **Edit Project**: This button will take you back to the Project Creation Wizard.
 
-2. **Close Project**: If you have a published project, you can close it
-   and stop data collection by clicking this button.
+  - When your project is in DRAFT MODE, you can change all aspects of your project.
+  - When your project is PUBLISHED, you can change the **Project Name, Description, and Privacy Level**.
+  - Delete Project: This will permanently delete your project.
 
-3. **Edit Project**: This button will take you back to the project
-   creation wizard (See Part 4).
+If you accidentally publish a faulty project, you can use it as the template for a revised project and not lose all your work.
 
-i.  When your project is in DRAFT MODE, you can change all aspects of
-    your project.
-
-ii. When your project is PUBLISHED, you can change the **Project Name,
-    Description, and Privacy Level**.
-
-4. Delete Project: This will permanently delete your project.
-
-If you accidentally publish a faulty project, you can use it as the
-template for a revised project and not lose all your work.\ |image16|
-
-A. **External Links**
+External Links
+^^^^^^^^^^^^^^
 
 1. Configure Geo-Dash
 
-i.  Clicking on **[Configure Geo-Dash]** will open the Geo-Dash
-    configuration interface.
-
-ii. For more detail, please see Part 6: Geo-Dash Implementation below.
+   i. Clicking on **[Configure Geo-Dash]** will open the Geo-Dash configuration interface.
+   ii. For more detail, please see :ref:`geo-dash-implementation`.
 
 2. Collect
 

@@ -1,3 +1,5 @@
+.. _creating-a-project-for-validation:
+
 Creating a Project for Validation
 =================================
 
@@ -25,7 +27,6 @@ Accuracy assessments allow producers of spatial models to understand how accurat
 For single models, such as a single land cover classification map, a confusion matrix is used to calculate the accuracy of spatial models. The purpose of this error analysis is to quantify two key metrics for each land cover class as well as the overall classification:
 
 1. Given that a pixel is of a (land cover class, etc.), what is the    chance that it was correctly classified as that (land cover class, etc.)?
-
 2. Given that a pixel has been classified as a (land cover class, etc.), what is the chance that it belongs to that (land cover class, etc.)?
 
 There are two pieces of information needed to answer these questions: the ‘true’ land cover class assignment, which is done by a human, and the ‘as classified’ land cover class assignment, which is output by the model. An example of the end goal (the confusion matrix) is shown below for a two class system.

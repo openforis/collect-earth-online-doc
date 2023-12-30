@@ -32,7 +32,6 @@ Finally, CEO is a live tool that is under continuous development. Please report 
     :maxdepth: 1
     :hidden:
 
-    index
     register
     joining
     

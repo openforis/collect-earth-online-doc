@@ -1,3 +1,5 @@
+.. _getting-started-with-your-institution-in-CEO:
+
 Getting started with your Institution in CEO
 ============================================
 
@@ -10,8 +12,8 @@ Overview of the PROJECT section
 
 In this section of the CEO documentation, you can learn how to:
 
--   `Create a Project <https://docs.ceo--namehere.io/en/latest/project/create.html>`__
--   `Set up Plots and Samples <https://docs.ceo--namehere.io/en/latest/institution/management.html>`__
+- `Create a Project <https://docs.ceo--namehere.io/en/latest/project/create.html>`__
+- `Set up Plots and Samples <https://docs.ceo--namehere.io/en/latest/institution/management.html>`__
 -   `Manage your Project <https://docs.ceo--namehere.io/en/latest/institution/imagery.html>`__
 
 The Project section provides an overview of how to create and manage an institution in Collect Earth Online. You can learn about how to create your account, collect data, and create your own projects in other sections of this documentation. Navigate to these sections using the links at the top of the page.
