@@ -35,8 +35,8 @@ extensions = [
     "sphinx_favicon",
     "sphinx_last_updated_by_git",
 #    "notfound.extension",
-#    "_extentions.line_break",
-#    "_extentions.custom_edit",
+    "line_break",
+    "custom_edit",
     "logos"
 ]
 
@@ -114,8 +114,8 @@ html_theme_options = {
     ],
     "use_edit_page_button": True,
     "article_footer_items": ["last-updated"],
-    "footer_start": ["copyright", "map", "sphinx-version", "licence"],
-    "footer_end": ["community", "issue-tracker", "e-learning", "stackexchange"],
+    #"footer_start": ["copyright", "sphinx-version"],
+    #"footer_end": ["community", "issue-tracker", "e-learning", "stackexchange"],
 }
 
 # -- option for the favicon extention ------------------------------------------
@@ -124,7 +124,7 @@ favicons = [
     {"rel": "apple-touch-icon", "href": "apple-touch-icon.png"},
     {"href": "favicon-32x32.png"},
     {"href": "favicon-16x16.png"},
-    {"rel": "mask-icon", "href": "safari-pinned-tab.svg", "color": "#186691"},
+#    {"rel": "mask-icon", "href": "safari-pinned-tab.svg", "color": "#186691"},
 ]
 
 # -- Options for images --------------------------------------------------------
