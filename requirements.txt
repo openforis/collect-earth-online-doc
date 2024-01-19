@@ -7,9 +7,9 @@ sphinx-icon>=0.2.2
 sphinx-btn>=0.1.2
 sphinx-design
 sphinx-togglebutton
+git+https://github.com/sphinx-contrib/youtube.git
 sphinx-favicon>=1.0.1
 sphinx-intl
 sphinxcontrib-email
 sphinx-last-updated-by-git
 sphinxcontrib-bibtex
-sphinxcontrib-youtube
