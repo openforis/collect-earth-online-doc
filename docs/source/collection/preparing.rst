@@ -96,6 +96,8 @@ On the left hand side is the map window:
 3. You can zoom in and out using the blue + and – buttons in the upper left-hand corner of the map window, or by scrolling your mouse wheel.
 4. Information about the imagery source is shown at the top of the screen.
 
+.. _options-and-survey-questions:
+
 Options and Survey Questions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

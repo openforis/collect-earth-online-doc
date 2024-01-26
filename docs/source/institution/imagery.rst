@@ -1,4 +1,4 @@
-Built-in & adding imagery sources
+Built-in & custom imagery sources
 =================================
 
 There are two main ways to add background, or basemap imagery to your Institution for use in your Projects. First, CEO includes a handful of built-in imagery options, including imagery from MapBox, Planet NICFI Public, and Sentinel. Second, CEO allows users to connect their own imagery from many different sources, including Google Earth Engine, Bing Maps, XYZ tiles, WMS and more.
@@ -41,12 +41,12 @@ More information can be found `on Planet's website
     :align: center
     :width: 75%
 
-Adding additional basemap imagery
----------------------------------
+Adding custom basemap imagery
+-----------------------------
 
-The built-in imagery is not sufficient as basemaps for some projects, including projects comparing land uses between two time periods, or projects that need imagery from specific dates or months. CEO allows institutions to add new imagery sources through their Institution page. This section discusses the different imagery types that can be added.
+The built-in imagery is not sufficient as basemaps for some projects, including projects comparing land uses between two time periods, or projects that need imagery from specific dates or months. CEO allows institutions to add new imagery sources through their **Institution** page. This section discusses the different imagery types that can be added.
 
-The instructions below assume you are starting on your :doc:`Institution page </create>` and are logged in as an Administrator for your Institution.
+The instructions below assume you are starting on your :doc:`Institution page <create>` and are logged in as an Administrator for your Institution.
 
 Under the **Imagery** panel on the **Institution** page, click **[Add New Imagery]**. Under **Select** Type you will see multiple different options. Some, including WMS Imagery and XYZ Imagery, are protocols that can be applied broadly, while other options connect to specific data sources that you generally need to subscribe to.
 
@@ -57,9 +57,9 @@ We will now talk about how to add imagery for each of these options.
 .. thumbnail:: ../_images/imagery1.png
     :title: Dropdown to add basemap imagery.
     :align: center
-    :width: 50%
+    :width: 70%
 
-.. wms:
+.. _wms:
 
 WMS Imagery
 ^^^^^^^^^^^
@@ -87,7 +87,7 @@ The information needed to set up the WMS server will differ based on the specifi
 
    .. note::
      
-       Quotes **MUST BE** "" ASCII/neutral/vertical quotation marks. Using “” smart/typographic/curved quotation marks will cause errors. Use only Unicode U+0022 and U+0027.
+       Quotes **MUST BE** ASCII/neutral/vertical quotation marks. Using “” smart/typographic/curved quotation marks will cause errors. Use only Unicode U+0022 and U+0027.
 
    - If you need to proxy your imagery for your WMS, please check **Proxy Imagery**. You may need this option if you need to obfuscate a key for your WMS or WTMS.
    - If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
@@ -261,7 +261,7 @@ Google Earth Engine (GEE) Assets include user's uploaded assets along with asset
 .. thumbnail:: ../_images/imagery4.png
     :title: Adding a GEE Image Asset
     :align: center
-    :width: 50%
+    :width: 70%
 
 We have created an extensive how-to and troubleshooting guide for adding GEE Image Assets and Image Collection Assets to CEO. It is available in CEO's blog here: https://collect.earth/blog/connecting-gee-raster-data/. Additionally, we have directions for uploading your own image assets to GEE in the following section.
 
@@ -302,7 +302,7 @@ We have created an extensive how-to and troubleshooting guide for adding GEE Ima
   .. thumbnail:: ../_images/imagery6.png
       :title: Uploading a new image asset
       :align: center
-      :width: 50%
+      :width: 70%
 
 - Wait for your asset to upload. When it does, click on the asset name and a new window will pop up.
 - Next to ImageID there are two interlocking squares.
@@ -346,7 +346,7 @@ Open streets Maps is an open source mapping product. This provides Open Street M
 .. thumbnail:: ../_images/imagery7.png
     :title: Open Street Map imagery
     :align: center
-    :width: 50%
+    :width: 70%
 
 Notes on imagery
 ----------------
@@ -429,7 +429,7 @@ After you have added imagery you may need to change the default dates of the Vis
    .. thumbnail:: ../_images/imagery8.png
        :title: Hand button
        :align: center
-       :width: 50%
+       :width: 10%
 
 3. When you click on the editing hand button, it will take you back to the imagery creation form.
 4. Edit the values as needed, using the information in this section as a guide.
@@ -440,7 +440,7 @@ After you have added imagery you may need to change the default dates of the Vis
    .. thumbnail:: ../_images/imagery9.png
        :title: Delete button
        :align: center
-       :width: 50%
+       :width: 10%
 
 .. tip::
      
