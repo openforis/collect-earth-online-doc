@@ -18,15 +18,15 @@ Now it is time to contribute to a project. Make sure you have clicked on **Go to
 
    .. thumbnail:: ../_images/collect1.png
       :title: Selecting an answer.
-      :group: collect-data
+      :width: 80%
       :align: center
 
-   - If it is hard to answer the question because the basemap imagery does not provide enough detail, try changing the imagery as described in :doc:`/collection/preparing`.
+   - If it is hard to answer the question because the basemap imagery does not provide enough detail, try changing the imagery as described in :doc:`preparing`.
    - You may also want to change the basemap to check for seasonal effects (See :ref:`seasonality`).
    - Try zooming out to gather context clues from the landscape.
    - If you make a mistake and assign the wrong value to a point or points, you can reselect the points & change the assigned sample value.
 
-5. If there is a second survey question, click on  **2** or press the **Right arrow**. Read this question & the answers, reselect the points and assign them the correct secondary attributes.
+5. If there is a second survey question, click on  **[2]** or the **[Right arrow]**. Read this question & the answers, reselect the points and assign them the correct secondary attributes.
 6. Your project may have “rules,” which help ensure that all answers are logically consistent.
 
    - If your project has rules for a survey question, there will be a clipboard icon next to the question text.
@@ -34,18 +34,19 @@ Now it is time to contribute to a project. Make sure you have clicked on **Go to
 
    .. thumbnail:: ../_images/collect2.png
       :title: Mouseover the clipboard icon to see the rules.
-      :group: collect-data
+      :width: 80%
       :align: center
 
    - If you violate the rules, there will be a popup explaining what is wrong with your answer.
 
    .. thumbnail:: ../_images/collect3.png
       :title: A rule pop-up.
-      :group: collect-data
+      :width: 80%
+      :align: center
 
 7. Your project may have a confidence slider. If this feature is enabled, simply choose the percentage value that best represents your confidence in your answers, where 100 is totally confident.
 8. Continue until all sample points have been assigned a value for all survey questions.
-9. Then, click on **[SAVE]**. You will receive an error message if you have not answered all of the questions.
+9. Then, click on **[Save]**. You will receive an error message if you have not answered all of the questions.
 10. The next plot for analysis shows up automatically.
 11. When all plots are classified, a pop-up window appears to inform you that all sample plots of your project are analyzed.
 
@@ -54,7 +55,7 @@ User-drawn samples
 
 For projects with user-drawn samples, you will need to first draw yoursamples before you can answer questions about them. Note that your project administrator may have limited the types of geometries (e.g. points, lines, or polygons) you can draw.
 
-1. First, select the **[pencil icon]**.
+1. First, click on the **[pencil icon]**.
 2. Now, select **[Point]**, **[Line]**, or **[Polygon]** tool as needed for the project.
 3. To start drawing, simply click on the map.
 
@@ -68,7 +69,7 @@ For projects with user-drawn samples, you will need to first draw yoursamples be
 
    .. thumbnail:: ../_images/collect4.png
       :title: User drawn shapes example.
-      :group: collect-data
+      :width: 100%
       :align: center
 
 Geo-Dash interface
@@ -95,7 +96,6 @@ Your institution may have set up the forest degradation tool in the Geo-Dash int
 
 .. thumbnail:: ../_images/collect5.png
    :title: The Geo-Dash degradation tool.
-   :group: collect-data
    :align: center
 
 More specifically, the **top panel** is the imagery panel. Imagery will display here over the OpenStreetMap data when you select a specific date in the **bottom panel**. The **slider bar** allows you to choose the opacity of your imagery. Under **Band Combination**, 321 stands for true color composite (R,G,B) and 543 stands for false color composite (SWIR, NIR, R). Using the **Data** toggle, you can choose between Landsat or SAR data.
@@ -116,27 +116,23 @@ To use this tool:
 
    .. thumbnail:: ../_images/collect6.png
       :title: Example of selective logging.
-      :group: collect-data
       :align: center
 
    - A sharp decrease in NDFI might also indicate a fire.
 
    .. thumbnail:: ../_images/collect7.png
       :title: Example of fire.
-      :group: collect-data
       :align: center
 
    - An abrupt shift down with no recovery might indicate the migration of a river canal:
 
    .. thumbnail:: ../_images/collect8.png
       :title: Example of river canal migration.
-      :group: collect-data
       :align: center
 
    - An abrupt shift down followed by a strong seasonal pattern (regular increase/decrease) may be forest clearing for agriculture.
    
    .. thumbnail:: ../_images/collect9.png
       :title: Example of change to agriculture.
-      :group: collect-data
       :align: center
 
