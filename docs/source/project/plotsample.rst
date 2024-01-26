@@ -21,77 +21,82 @@ Plot Design: CEO’s built in system
 
 CEO’s built in system enables users to create sampling designs using an easy-to-use interface. There are two key parts, selecting the AOI and Plot Generation. 
 
-1. **Select your AOI.** There are three approaches.
+**Select your AOI.** 
 
-   1. The easiest way to select your project AOI is by drawing a box in the map window in the right hand pane (Collection Map Preview).
+There are three approaches.
 
-      1. Locate your area of interest by zooming in/out using the scroll wheel of your mouse, or the + and – boxes in the map window. You can pan the map by clicking on it and dragging the map window.
-      2. Hold the CRTL-key (command key on a Mac) down and draw a box while keeping the left mouse key pressed down.
-      3. Hold the SHIFT-key down and draw a box to zoom in.
-      4. The coordinate boxes will populate once the box is drawn and you let your mouse key go. Coordinates are displayed in lat/long using **WGS84 EPSG:4326**.
+1. The easiest way to select your project AOI is by drawing a box in the map window in the right hand pane (Collection Map Preview).
 
-      .. thumbnail:: ../_images/project10.png
-          :title: Draw an AOI box
-          :align: center
-          :width: 50%
+   1. Locate your area of interest by zooming in/out using the scroll wheel of your mouse, or the + and – boxes in the map window. You can pan the map by clicking on it and dragging the map window.
+   2. Hold the CRTL-key (command key on a Mac) down and draw a box while keeping the left mouse key pressed down.
+   3. Hold the SHIFT-key down and draw a box to zoom in.
+   4. The coordinate boxes will populate once the box is drawn and you let your mouse key go. Coordinates are displayed in lat/long using **WGS84 EPSG:4326**.
 
-   2. You can also manually enter your Boundary Coordinates into the boxes provided.
+   .. thumbnail:: ../_images/project10.png
+         :title: Draw an AOI box
+         :align: center
+         :width: 70%
 
-      .. thumbnail:: ../_images/project11.png
-          :title: Manually add coordinates
-          :align: center
-          :width: 50%
+2. You can also manually enter your Boundary Coordinates into the boxes provided.
 
-   3. The third approach is to upload a project boundary shapefile. To use this option, click on the **[Upload project boundary]** button. Navigate to your file, and click **[Open]**. Your shapefile should be a zipped folder with the requisite shapefile component pieces (.shp, .prj, etc.). Once you click open, you should see the **File:** text populate with your file name and your project boundary appear in the Collection Map Preview pane. 
+   .. thumbnail:: ../_images/project11.png
+         :title: Manually add coordinates
+         :align: center
+         :width: 50%
+
+3. The third approach is to upload a project boundary shapefile. To use this option, click on the **[Upload project boundary]** button. Navigate to your file, and click **[Open]**. Your shapefile should be a zipped folder with the requisite shapefile component pieces (.shp, .prj, etc.). Once you click open, you should see the **File:** text populate with your file name and your project boundary appear in the Collection Map Preview pane. 
+
+   .. thumbnail:: ../_images/project12.png
+         :title: Upload an AOI
+         :align: center
+         :width: 70%
+
+.. note::
    
-      .. thumbnail:: ../_images/project12.png
-          :title: Upload an AOI
-          :align: center
-          :width: 50%
+      Please note that if you have multi-part polygons each one will be assigned the number of plots indicated. This is indicated in the green text.
 
-   .. note::
-      
-       Please note that if you have multi-part polygons each one will be assigned the number of plots indicated. This is indicated in the green text.
+.. tip::
+   
+      You can upload shapefiles with multiple shapes for stratified sampling (coming soon). Each strata will appear with its corresponding area in hectares. The number of plots will be **per strata**. This is indicated in the green text.
+
+   .. thumbnail:: ../_images/project13.png
+         :title: Multiple shapes AOI
+         :align: center
+         :width: 70%
+
+**Plot Generation**
+
+In the Plot Generation section, you can specify the type and number of sample plots.
+
+1. **Spatial Distribution** defines the distribution of the sample points. In CEO, you can specify either a random or a gridded (spatial systematic) sampling approach.
+
+   - Random sampling has the advantage of being extremely simple and producing unbiased parameters that are straightforward to calculate. However, geographic balance is not certain with smaller sample sizes, and rare classes may not be adequately sampled unless the sample size is large.
+   - Systematic sampling has the advantage of providing excellent geographic balance. However, it is not possible to calculate a truly unbiased estimate of the variance of population metrics when using systematic sampling. Additionally, if patterns in your landscape match up with the spacing of your systematic gridded points, you will produce a very biased estimate.
+   - If you select **Random**, you will need to provide the number of plots for the whole project.
+   - If you select **Gridded**, you will need to provide the spacing between the centers of the plots (in meters).
+
+2. CEO will provide an estimate of how many plots will be generated for your project based on your sampling design.
 
    .. tip::
-      
-       You can upload shapefiles with multiple shapes for stratified sampling (coming soon). Each strata will appear with its corresponding area in hectares. The number of plots will be **per strata**. This is indicated in the green text.
+   
+       Using CEO’s sampling, the maximum number of plots for a project is 5,000. For gridded sampling, you may need to increase the space between plots to avoid exceeding 5,000 plots.
 
-
-      .. thumbnail:: ../_images/project13.png
-          :title: Multiple shapes AOI
-          :align: center
-          :width: 50%
-
-2. In the Plot Generation section, you can specify the type and number of sample plots.
-
-   1. **Spatial Distribution** defines the distribution of the sample points. In CEO, you can specify either a random or a gridded (spatial systematic) sampling approach.
-
-      1. Random sampling has the advantage of being extremely simple and producing unbiased parameters that are straightforward to calculate. However, geographic balance is not certain with smaller sample sizes, and rare classes may not be adequately sampled unless the sample size is large.
-      2. Systematic sampling has the advantage of providing excellent geographic balance. However, it is not possible to calculate a truly unbiased estimate of the variance of population metrics when using systematic sampling. Additionally, if patterns in your landscape match up with the spacing of your systematic gridded points, you will produce a very biased estimate.
-      3. If you select **Random**, you will need to provide the number of plots for the whole project.
-      4. If you select **Gridded**, you will need to provide the spacing between the centers of the plots (in meters).
-
-   2. CEO will provide an estimate of how many plots will be generated for your project based on your sampling design.
-
-      .. tip::
-      
-          Using CEO’s sampling, the maximum number of plots for a project is 5,000. For gridded sampling, you may need to increase the space between plots to avoid exceeding 5,000 plots.
-
-   .. thumbnail:: ../_images/project14.png
-       :title: Estimated number of plots 
-       :align: center
-       :width: 50%
+.. thumbnail:: ../_images/project14.png
+    :title: Estimated number of plots 
+    :align: center
+    :width: 50%
 
 3. Plot Shape can be either a Circle or a Square.
 
-   1. You will need to specify the **Diameter** in meters.
-   2. These sizes should be driven by the needs of your project.
-   3. If they are small, your users will need to zoom out significantly to see the relevant background imagery because CEO automatically centers and zooms in to the plot’s boundaries.
+   - You will need to specify the **Diameter** in meters.
+   - These sizes should be driven by the needs of your project.
+   - If they are small, your users will need to zoom out significantly to see the relevant background imagery because CEO automatically centers and zooms in to the plot’s boundaries.
 
-4. You can now choose to assign users plots to review using the User Assignment feature, and implement quality control for your plots using the **Quality Control** dropdown.
+**Quality Control**
 
-5. Click “Next” when you are finished.
+You can now choose to assign users plots to review using the User Assignment feature, and implement quality control for your plots using the **Quality Control** dropdown.
+
+Click **[Next]** when you are finished.
 
 Sample Design: CEO’s built-in system
 ------------------------------------
@@ -130,7 +135,7 @@ This functionality is useful when you want to draw your sample plots from within
 
 You can upload just one file for the plot centers OR two files, one for the plot centers and one for the point centers. 
 
-As when using CEO’s built-in system, you can choose to assign users plots to review using the **User Assignment** feature and implement quality control for your plots using the **Quality Control** dropdown. See :doc:`qaqc` for more.
+As when using CEO’s built-in system, you can choose to assign users plots to review using the **User Assignment** feature and implement quality control for your plots using the **Quality Control** dropdown. In addition, you can specify which users should collect data on which plots and which users should review each plot using dedicated columns. See :doc:`qaqc` for more.
 
 .. tip::
    Using .csv and .shp files, the maximum number of plots is 50,000 and the total sample point limit is 350,000.

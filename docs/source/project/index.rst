@@ -1,5 +1,5 @@
-Getting started with your Institution in CEO
-============================================
+Creating Projects in Collect Earth Online
+=========================================
 
 Within Institutions that you administer (have Admin privleges) in Collect Earth Online, you can create new Projects. Projects allow you to specify where data should be collected, what institutional imagery should be used, and what questions should be answered by your data collectors.
 
@@ -24,20 +24,20 @@ Navigate to other areas of this article by by selecting links under **On this pa
 
     This documentation uses a few formatting standards for ease of use. Clickable links are shown **[like this]**. The names of pages, like the **Home** page, are bolded.
 
-Finally, CEO is a live tool that is under continuous development. Please report any bugs at our GitHub or by contacting the CEO team at :email:`support@collect.earth`.
+Finally, CEO is a live tool that is under continuous development. Please report any bugs at our GitHub or by contacting  :email:`the CEO team <support@collect.earth>`.
 
 .. toctree::
-    :maxdepth: 1
-    :hidden:
+   :maxdepth: 1
+   :hidden:
 
-    create
-    plotsample
-    qaqc
-    survey
-    rules
-    reviewproject
-    management
-    geodash
-    reviewdata
-    validation
+   create
+   plotsample
+   qaqc
+   survey
+   rules
+   reviewproject
+   management
+   geodash
+   reviewdata
+   validation
     

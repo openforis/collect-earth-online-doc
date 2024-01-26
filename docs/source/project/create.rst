@@ -37,7 +37,7 @@ The wizard comprises 6 parts: Project Overview, Imagery Selection, Plot Design, 
 .. thumbnail:: ../_images/project2.png
     :title: The Project Wizard
     :align: center
-    :width: 50%
+    :width: 70%
 
 Project Overview
 ----------------
@@ -46,41 +46,41 @@ This section allows you to add general information about the project, including 
 
 1. Use a project template (optional)
 
-   1. This feature is used to copy all the information—including project info, area, and sampling design—from an existing published project to a new project. This is useful if you have an existing project you want to duplicate for another year or location, or if you are iterating through project design. For a template, you may use any available published or closed project from your institution. You cannot use deleted projects. You cannot use another institution’s private project but you can use another institution’s public project (any website visitor or CEO user). For more on project  privacy settings, see **Visibility** below.
+   This feature is used to copy all the information—including project info, area, and sampling design—from an existing published project to a new project. This is useful if you have an existing project you want to duplicate for another year or location, or if you are iterating through project design. For a template, you may use any available published or closed project from your institution. You cannot use deleted projects. You cannot use another institution’s private project but you can use another institution’s public project (any website visitor or CEO user). For more on project  privacy settings, see **Visibility** below.
 
    .. tip::
    
        If you do not want to copy another project, simply skip this section, and leave the **Select Template** field set to **Select Project**.
 
-   2. Click on the **Show Public Projects** checkbox if you would like to view all public projects in CEO that you can use as a template. If you do not check this box, you will only see your institution’s projects.
+   - Click on the **Show Public Projects** checkbox if you would like to view all public projects in CEO that you can use as a template. If you do not check this box, you will only see your institution’s projects.
 
-      .. thumbnail:: ../_images/project3.png
-          :title: Public projects
-          :align: center
-          :width: 50%
+     .. thumbnail:: ../_images/project3.png
+         :title: Public projects
+         :align: center
+         :width: 50%
 
-   3. **Template Filter (Name or ID)**: To filter the projects, type in a keyword in an existing project’s name or the Project ID Number. You can find the Project ID number by navigating to the project you want to copy and looking at the URL.
+   - **Template Filter (Name or ID)**: To filter the projects, type in a keyword in an existing project’s name or the Project ID Number. You can find the Project ID number by navigating to the project you want to copy and looking at the URL.
 
-      .. thumbnail:: ../_images/project4.png
-          :title: Find the project ID
-          :align: center
-          :width: 50%
+     .. thumbnail:: ../_images/project4.png
+         :title: Find the project ID
+         :align: center
+         :width: 50%
 
-   4. Then click on the dropdown menu under **Select Project** and click on the project’s name.
+   - Then click on the dropdown menu under **Select Project** and click on the project’s name.
 
-      .. thumbnail:: ../_images/project5.png
-          :title: Select Prject
-          :align: center
-          :width: 50%
+     .. thumbnail:: ../_images/project5.png
+         :title: Select Prject
+         :align: center
+         :width: 70%
 
-   5. When you find the project that you would like to use as a template, click on the project name, then click **Load** to load the template information.
-   6. Click on **Clear** to clear all template information.
+   - When you find the project that you would like to use as a template, click on the project name, then click **Load** to load the template information.
+   - Click on **Clear** to clear all template information.
 
       .. note::
    
           If you select a project under **Select Template**, and then if you clear the project selection the Imagery Preview in the next section may display only gray/white. Change the **Default Imagery** to any other source and then back to the source you are interested in and the basemap will reappear.
 
-   7. Loading a template will create two checkboxes under **Copy Options**, **Copy Template Plots and Samples** and **Copy Template Widgets**. They are checked by default.
+   - Loading a template will create two checkboxes under **Copy Options**, **Copy Template Plots and Samples** and **Copy Template Widgets**. They are checked by default.
 
       - If **Copy Template Plots and Samples** is checked, the Plot Review and Sample Design sections will only display an overview of the number of plots, etc. Uncheck this box to change those parameters.
       - **Copy Template Widgets** refers to Geo-Dash options covered in :doc:`geodash`.
@@ -91,7 +91,7 @@ This section allows you to add general information about the project, including 
    - You should keep the **Description** short but informative. Users will see these if they click on the project’s pin on the map on the home page. You will also see this when you are administering your project.
    - If you are using a template, the **Name** and **Description** will automatically be populated. Be sure to change this to reflect your new project.
 
-3. Select the project’s Visibility.
+3. Select the project’s **Visibility**.
 
    - The Privacy Level radio button changes who can view your project, contribute to data collection, and whether admins from your institution or others creating new projects can use your project as a template.
 
@@ -102,40 +102,41 @@ This section allows you to add general information about the project, including 
 
 4. Select Project Options.
 
-   1. The first option is **Show GEE Script Link on the Collection page.**
+   - The first option is **Show GEE Script Link on the Collection page.**
 
-      - This allows users in Data Collection to click on a button labeled Go to GEE Script.
+     This allows users in Data Collection to click on a button labeled **[Go to GEE Script]**.
 
-      .. thumbnail:: ../_images/project6.png
-          :title: Create New Project button
-          :align: center
-          :width: 50%
+     .. thumbnail:: ../_images/project6.png
+        :title: Create New Project button
+        :align: center
+        :width: 50%
 
-      - This button will take them to a website with additional information about the plot. An example is shown here:
+     This button will take them to a website with additional information about the plot. An example is shown here:
 
-      .. thumbnail:: ../_images/project7.png
-          :title: Create New Project button
-          :align: center
-          :width: 50%
+     .. thumbnail:: ../_images/project7.png
+        :title: Create New Project button
+        :align: center
+        :width: 50%
 
-      There are three panels. On the far left, there is a Sentinel 2 composite of the last 12 months. It is colored using an infrared color composite (near infrared, mid infrared, red). In the center are Landsat 8 and Landsat 7 Color Yearly mosaics, with a slider so you can choose between years. On the right are NDVI graphs of the plot from MODIS, Landsat 7/8, and Sentinel 2. For the Landsat 7/8 and Sentinel graphs, you can click a point on the graphs to load specific images in the left and center panels.
+     There are three panels. On the far left, there is a Sentinel 2 composite of the last 12 months. It is colored using an infrared color composite (near infrared, mid infrared, red). In the center are Landsat 8 and Landsat 7 Color Yearly mosaics, with a slider so you can choose between years. On the right are NDVI graphs of the plot from MODIS, Landsat 7/8, and Sentinel 2. For the Landsat 7/8 and Sentinel graphs, you can click a point on the graphs to load specific images in the left and center panels.
 
-   2. The second option is **Show Extra Plot Columns on Collection Page**.
+   - The second option is **Show Extra Plot Columns on Collection Page**.
 
-      - This option is only useful if you are using .csv or .shp files to define your **Plot Design**.
-      - If you have additional columns in your .csv or .shp files, such as elevation information or land cover class, data collectors will be able to see them on the **Data Collection** page under **Plot Information**.
+     This option is only useful if you are using .csv or .shp files to define your **Plot Design**.
+     
+     If you have additional columns in your .csv or .shp files, such as elevation information or land cover class, data collectors will be able to see them on the **Data Collection** page under **Plot Information**.
 
-      .. thumbnail:: ../_images/project8.png
-          :title: Plot information
-          :align: center
-          :width: 50%
+     .. thumbnail:: ../_images/project8.png
+         :title: Plot information
+         :align: center
+         :width: 50%
 
    3. The third option is **Collect Plot Confidence on Collection Page.** If you want users to be able to tell you how certain they are of their answers to the survey questions, the confidence slider will allow them to assign a value 1-100, where 100 is completely confident of their answers; this value applies to the entire plot. This info will be included in your plot and sample CSV downloads.
 
       .. thumbnail:: ../_images/project9.png
           :title: Plot confidence slider
           :align: center
-          :width: 50%
+          :width: 70%
 
    4.  The fourth option is **Auto-launch Geo-Dash.** This will automatically open the Geo-Dash interface in a new window or new tab when the data collector navigates to a new plot. Unchecking this option means that data collectors will need to click on the Geo-Dash icon under **External Tools** in the **Data Collection** interface.
 

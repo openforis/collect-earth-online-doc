@@ -8,7 +8,11 @@ If you are an administrator for an Institution, you can make changes to your Ins
 
 1. If you want to make changes, start by navigating to your Institution’s info page (See :doc:`create`).
 2. You can make changes to the Institution page by clicking **[Edit]** at the top of the page.
-3. You can also delete your Institution by clicking **[Delete]**. This action is **PERMANENT**, and your Institution cannot be recovered afterwards. **ALL PROJECTS ASSOCIATED WITH THE INSTITUTION WILL ALSO BE DELETED.**
+3. You can also delete your Institution by clicking **[Delete]**. 
+   
+   .. warning::
+    
+     This action is **PERMANENT**, and your Institution cannot be recovered afterwards. **ALL PROJECTS ASSOCIATED WITH THE INSTITUTION WILL ALSO BE DELETED.**
 
 Key Institution components
 --------------------------
