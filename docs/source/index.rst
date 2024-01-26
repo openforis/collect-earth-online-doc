@@ -17,7 +17,7 @@ Collect Earth Online (CEO) is a free and open-source image viewing and interpret
 
 .. youtube:: sRX-vwsgoCg
    :align: center
-   :width: 75%
+   :width: 100%
 
 Getting started
 ---------------
@@ -25,23 +25,24 @@ Getting started
 Create your account and get started with CEO.
 
 .. grid:: 1 3 3 3
-    :gutter: 2
+   :gutter: 2
 
-    .. grid-item-card:: :icon:`sign-in` Register for CEO
-        :link: setup/register.html
+   .. grid-item-card:: :fas:`sign-in` Register for CEO
+      :link: setup/register.html
 
-        Set up your Collect Earth Online account.
+      Set up your Collect Earth Online account.
 
-    .. grid-item-card:: :icon:`plug` Join an institution
-        :link: setup/join.html
+   .. grid-item-card:: :fas:`plug` Join an institution
+      :link: setup/joining.html
 
-        Learn how to join an institution in CEO.
+      Learn how to join an institution in CEO.
 
-    .. grid-item-card:: :icon:`users` Set up an institution
-        :link: institution/setup.html
+   .. grid-item-card:: :fas:`users` Set up an institution
+      :link: institution/create.html
 
-        Set up your own institution in CEO.
+      Set up your own institution in CEO.
 
+.. line-break::
 
 Learn more about CEO
 --------------------
@@ -49,22 +50,22 @@ Learn more about CEO
 CEO enables users to efficiently collect up-to-date information about their environment and observe changes over time. Learn more about getting CEO to work for you.
 
 .. grid:: 1 3 3 3
-    :gutter: 2
+   :gutter: 2
 
-    .. grid-item-card:: :icon:`map-o` Start collecting data
-        :link: collection/index
+   .. grid-item-card:: :fas:`map-o` Start collecting data
+      :link: collection/index.html
 
-        Learn how to collect data in CEO.
+      Learn how to collect data in CEO.
 
-    .. grid-item-card:: :icon:`cogs` Manage an institution
-        :link: institution/index
+   .. grid-item-card:: :fas:`cogs` Manage an institution
+      :link: institution/index.html
 
-        Get your own institution up and running.
+      Get your own institution up and running.
 
-    .. grid-item-card:: :icon:`globe` Create a project
-        :link: project/index
+   .. grid-item-card:: :fas:`globe` Create a project
+      :link: project/index.html
 
-        Create your own project and start collecting data.
+      Create your own project and start collecting data.
 
 Get more help or request a feature
 ----------------------------------
@@ -74,28 +75,27 @@ Have questions? Encounter bugs? Get the help you need using the links below.
 Want to request a feature that would make CEO work better for you? Contact us at :email:`support@collect.earth`!
 
 .. grid:: 1 2 2 4
-    :gutter: 2
+   :gutter: 2
 
-    .. grid-item-card:: :icon:`` Read the blog
-        :link: https://www.collect.earth/blog/
+   .. grid-item-card:: :fas:`` Read the blog
+      :link: https://www.collect.earth/blog/
 
-        Our blog has details on updates and other useful information.
+      Our blog has details on updates and other useful information.
 
-    .. grid-item-card:: :icon:`question` Ask a question
-        :link: https://openforis.support/tags/collectearthonline/#gsc.tab=0
+   .. grid-item-card:: :fas:`question` Ask a question
+      :link: https://openforis.support/tags/collectearthonline/#gsc.tab=0
 
-        Ask a question on the OpenForis forum.
+      Ask a question on the OpenForis forum.
 
-    .. grid-item-card:: :icon:`bug` Improve this documentation
-        :link: https://github.com/openforis/collect-earth-online-doc
+   .. grid-item-card:: :fas:`bug` Improve this documentation
+      :link: https://github.com/openforis/collect-earth-online-doc
 
-        Submit a documentation improvement request through GitHub.
+      Submit a documentation improvement request through GitHub.
 
-    .. grid-item-card:: :icon:`envelope-o` E-mail us
-        :link: mailto:support@collect.earth
+   .. grid-item-card:: :fas:`envelope-o` E-mail us
+      :link: mailto:support@collect.earth
 
-        Other questions or bugs? Get in touch.
-
+      Other questions or bugs? Get in touch.
 
 Supporting Institutions
 -----------------------
