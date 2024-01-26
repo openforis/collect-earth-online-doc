@@ -2,6 +2,8 @@
 Plot Design—Quality Control Options
 ===================================
 
+**add csv column stuff**
+
 We have implemented automated quality assurance and quality control (QAQC) tools for projects created in CEO.
 
 User Assignment

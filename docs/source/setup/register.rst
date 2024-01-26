@@ -12,7 +12,7 @@ To set up a new account, click on **[Register]** and follow the instructions. Yo
 
 You will need to validate your email upon registration.
 
-When you have created an account, login with your email and password.
+After you have created an account, login with your email and password.
 
 .. tip::
    

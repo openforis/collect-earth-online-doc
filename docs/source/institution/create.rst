@@ -30,12 +30,12 @@ If your Institution is not yet signed up for CEO, you can create a new instituti
 
 .. thumbnail:: ../_images/institution1.png
     :title: Button for institution creation.
-    :width: 70%
+    :width: 60%
     :align: center
 
-1. Enter your institution's name, URL, and a brief description of your institution. These will display on your Institution page.
-2. You can upload a logo from your computer by clicking on **[Browse…]** and navigating to the correct location on your computer.
-3. Click **[Create Institution]** after you have finished entering your information.
+2. Enter your institution's name, URL, and a brief description of your institution. These will display on your Institution page.
+3. You can upload a logo from your computer by clicking on **[Browse…]** and navigating to the correct location on your computer.
+4. Click **[Create Institution]** after you have finished entering your information.
 
 .. thumbnail:: ../_images/institution2.png
     :title: Create a new institution.

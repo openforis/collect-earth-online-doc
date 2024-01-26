@@ -4,11 +4,11 @@ Troubleshooting
 Analysis troubleshooting
 ------------------------
 
-1. If you try to access a project and receive an error message saying you do not have permission (as below), access to the project is limited to institution members. You will need to join your Institution, see :doc:`/collection/preparing`.
+1. If you try to access a project and receive an error message saying you do not have permission (as below), access to the project is limited to institution members. You will need to join your Institution, see :doc:`preparing`.
 
 .. thumbnail:: ../_images/trouble1.png
    :title: Encountering a permissions error in CEO.
-   :group: troubleshooting
+   :width: 80%
    :align: center
 
 2. If you are on a **project’s homepage** and click on a plot and get an error window (e.g. if the plot is not found or if that plot has already been classified), after you click through the error there will be no plots on the map. You can either click on Go To Plot and have the first plot for analysis show up or reload the page to get all the survey plots back.
@@ -52,8 +52,8 @@ There are multiple ways to get in touch with us if you are still having an issue
 1. You can ask questions on the OpenForis forum, which is available at http://www.openforis.org/support.
 2. You can also visit our GitHub issues page at https://github.com/openforis/collect-earth-online/issues. You will have to either log in or set up a GitHub account in order to log an issue. By logging in, the development team can contact you in case they need additional information to provide a solution to the issue or feature suggestion.
 
-   1. When you have a GitHub account, `navigate to the CEO GitHub Page <https://github.com/openforis/collect-earth-online/issues>`__.
-   2. To log an issue or request a new CEO feature, simply click on the green **[New issue]** button in the upper right-hand portion of the screen.
-   3. Type in a title that conveys the topic of the issue or request.
-   4. Then below, type in a detailed message summarizing the issue you have encountered.
-   5. Once you have finished providing the details, click the green **[Submit new issue]** button. This will log your request.
+   - When you have a GitHub account, `navigate to the CEO GitHub Page <https://github.com/openforis/collect-earth-online/issues>`__.
+   - To log an issue or request a new CEO feature, simply click on the green **[New issue]** button in the upper right-hand portion of the screen.
+   - Type in a title that conveys the topic of the issue or request.
+   - Then below, type in a detailed message summarizing the issue you have encountered.
+   - Once you have finished providing the details, click the green **[Submit new issue]** button. This will log your request.
