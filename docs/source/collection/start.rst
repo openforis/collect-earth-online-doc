@@ -4,7 +4,7 @@ Start Collecting Data!
 Analyze plots
 -------------
 
-Now it is time to contribute to a project. Make sure you have clicked on **Go to first plot**
+Now it is time to contribute to a project. Make sure you have clicked on **Go to first plot**.
 
 1. Read the first Survey Question and the possible answers.
 2. If you want to assign the same class or answer to ALL points in the plot (prior to having applied an answer to any of the points), you can just click on the answer without first needing to select the points.

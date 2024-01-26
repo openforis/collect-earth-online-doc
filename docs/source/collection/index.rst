@@ -3,7 +3,7 @@ Collecting data in Collect Earth Online
 
 Collect Earth Online makes it easy for users to contribute to projects' data collection efforts. 
 
-If you are interested in learning how create and manage an institution or add imagery, please see: :doc:`../institution/index`. To set up a data collection project, please see :doc:`../project/index`.
+If you are interested in learning how create and manage an institution, please see: :doc:`../institution/index`.
 
 Collect Earth Online (CEO) is available at https://collect.earth/.
 
@@ -22,7 +22,9 @@ Navigate to the other areas of this section by selecting links under **Section n
 
 Navigate to other areas of this article by by selecting links under **On this page** to the right.
 
-This documentation uses a few formatting standards for ease of use. Clickable links are shown **[like this]**. The names of pages, like the **Home** page, are bolded.
+.. tip::
+    
+   This documentation uses a few formatting standards for ease of use. Clickable links are shown **[like this]**. The names of pages, like the **Home** page, are bolded.
 
 
 .. toctree::

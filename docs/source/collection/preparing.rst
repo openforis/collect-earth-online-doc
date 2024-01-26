@@ -16,7 +16,6 @@ How to enable pop-ups varies based on the browser you are using. The most used b
 
 .. thumbnail:: ../_images/preparing1.png
    :title: The pop-up blocked icon for Chrome.
-   :group: preparing
    :align: center
 
 **For Mozilla Firefox:**
@@ -27,18 +26,16 @@ How to enable pop-ups varies based on the browser you are using. The most used b
 
 .. thumbnail:: ../_images/preparing2.png
    :title: The pop-up blocked icon for Firefox.
-   :group: preparing
    :align: center
 
 Option 1: Work on a public project
 ----------------------------------
 
 1. From the **Home** page, you can begin collecting data on public projects. There are map pins representing each project at the project location.
-2. Select a project by first clicking on a map pin. Then from the pop-up **Project info** menu, click on the name of one of the projects in the pop-up window.
+2. Select a project by first clicking on a **[map pin]**. Then from the pop-up **Project info** menu, click on the name of one of the projects in the pop-up window.
 
 .. thumbnail:: ../_images/preparing3.png
    :title: Joining a public project.
-   :group: preparing
    :align: center
 
 3. This will take you to the **project’s homepage**, a screen that shows a **Map** of the whole study region on the left & the **Data Collection Toolbar** on the right.
@@ -46,7 +43,6 @@ Option 1: Work on a public project
 
 .. thumbnail:: ../_images/preparing4.png
    :title: The project's homepage.
-   :group: preparing
    :align: center
 
 Option 2: Select a project from an institution
@@ -57,19 +53,23 @@ Option 2: Select a project from an institution
 
 .. thumbnail:: ../_images/preparing5.png
    :title: Navigating to a project from an institution.
-   :group: preparing
    :align: center
+   :width: 60%
 
 3. This will take you to the project’s home screen as described above.
 4. Click the **[Go to first plot]** button to begin collecting information.
-5. You can also go to a project through the **Institution’s** page via the **info button**.
+5. You can also go to a project through the **Institution’s** page via the **info button**. There are three colors of projects on the **Institution** page. 
 
-   - There are three colors of projects on the **Institution** page. Blue-green highlighted project names have completed data collection.
+   - Blue-green highlighted project names have completed data collection.
    - Yellow project names are partly collected.
    - Red project names have no data collected.
 
 The analysis screen
 -------------------
+
+First, make sure you clicked the **[Go to first plot]** button.
+
+Now we will familiarize ourselves with the analysis screen. 
 
 .. tip::
    
@@ -80,9 +80,6 @@ The analysis screen
       :group: preparing
       :align: center
 
-First, make sure you clicked the **[Go to first plot]** button.
-
-Now we will familiarize ourselves with the analysis screen. 
 
 Map window
 ^^^^^^^^^^
@@ -115,7 +112,7 @@ On the right-hand side are all of the navigation, external tool options, imagery
 
      .. thumbnail:: ../_images/preparing7.png
         :title: Institution member navigation options.
-        :group: preparing
+        :width: 60%
         :align: center
 
    - As an institution Administrator, the **Navigate Through** dropdown menu ALSO allows you to choose between:
@@ -128,27 +125,28 @@ On the right-hand side are all of the navigation, external tool options, imagery
    
      .. thumbnail:: ../_images/preparing8.png
         :title: Navigation options for Institution administrators.
-        :group: preparing
+        :align: center
+        :width: 60%
 
    - Under this dropdown menu is the **Plot ID number**.
    - The navigation menu contains blue **forward** and **backward** buttons to navigate to different plots, as well as a text box where you can enter a plot ID number and then click **[Go to plot]** to navigate to a specific plot.
 
 2. External Tools options
 
-   #. Click **[Re-Zoom]** to return your focus to the focus plot
-   #. **Click [Geodash]** to open the **GeoDash** pane with additional information about the plot (detail see :doc:`collection/start`).
-   #. You can click **[Download Plot KML]** to download a KML file with the plot information. . Downloading the KML allows you to transfer the plot information to another program, such as Google Earth Desktop. Importantly, the KML functionality allows users to determine the coordinates (latitude and longitude) at which points of interest are located.
+   - Click **[Re-Zoom]** to return your focus to the focus plot
+   - **Click [Geodash]** to open the **GeoDash** pane with additional information about the plot (detail see :doc:`collection/start`).
+   - You can click **[Download Plot KML]** to download a KML file with the plot information. . Downloading the KML allows you to transfer the plot information to another program, such as Google Earth Desktop. Importantly, the KML functionality allows users to determine the coordinates (latitude and longitude) at which points of interest are located.
 
-      .. thumbnail:: ../_images/preparing9.png
-         :title: External tools option.
-         :group: preparing
-         :align: center
+     .. thumbnail:: ../_images/preparing9.png
+        :title: External tools option.
+        :width: 60%
+        :align: center
 
-   #.  The **Go to GEE Script** button may or may not be present on your dashboard. If it is present, it will take you to an Earth Engine Apps website displaying additional data about the plot.
+   - The **Go to GEE Script** button may or may not be present on your dashboard. If it is present, it will take you to an Earth Engine Apps website displaying additional data about the plot.
 
-       - This screen will have 6 panels. On the far left, there is a Sentinel 2 composite of the last 12 months. They are colored as infrared color composite (near infrared, mid infrared, red). Reddish brown is forest, agriculture, grass, and shrubs are a lighter shade of orange. Water is purple, and urban areas are shades of blue and green.
-       - In the center are Landsat 8 and Landsat 7 Color Yearly mosaics, with a slider so you can choose between years.
-       - On the right are NDVI graphs of the plot from MODIS, Landsat 7/8, and Sentinel 2. For the Landsat 7/8 and Sentinel graphs, you can click a point on the graphs to load specific images in the left and center panels.
+      - This screen will have 6 panels. On the far left, there is a Sentinel 2 composite of the last 12 months. They are colored as infrared color composite (near infrared, mid infrared, red). Reddish brown is forest, agriculture, grass, and shrubs are a lighter shade of orange. Water is purple, and urban areas are shades of blue and green.
+      - In the center are Landsat 8 and Landsat 7 Color Yearly mosaics, with a slider so you can choose between years.
+      - On the right are NDVI graphs of the plot from MODIS, Landsat 7/8, and Sentinel 2. For the Landsat 7/8 and Sentinel graphs, you can click a point on the graphs to load specific images in the left and center panels.
 
 3. Imagery Options
 
@@ -156,7 +154,7 @@ On the right-hand side are all of the navigation, external tool options, imagery
    
    .. thumbnail:: ../_images/preparing10.png
       :title: Imagery options drop down menu.
-      :group: preparing
+      :width: 60%
       :align: center
 
    - Different images are helpful for comparing different points in time and/or where one imagery source does not have enough detail to answer the **Survey Questions**. Some imagery options also include the names of towns, villages, etc.
@@ -172,7 +170,7 @@ On the right-hand side are all of the navigation, external tool options, imagery
 
    .. thumbnail:: ../_images/preparing11.png
       :title: The panel to answer survey questions.
-      :group: preparing
+      :width: 60%
       :align: center
 
    - Each project has a different set of numbered survey questions (in the example below only “1” question is in the project).
@@ -192,14 +190,14 @@ On the right-hand side are all of the navigation, external tool options, imagery
 
    .. thumbnail:: ../_images/preparing12.png
       :title: Survey question pane with the option of user-drawn samples.
-      :group: preparing
+      :width: 60%
       :align: center
 
    - However, if you select the pencil icon, you will see the options that allow you to draw different points, lines, and polygons on the map.
 
    .. thumbnail:: ../_images/preparing13.png
       :title: Adding user-drawn samples.
-      :group: preparing
+      :width: 60%
       :align: center
 
    - You can switch between the different shapes by clicking on their respective icons. Note that your project administrator may have restricted the types of geometries (point, line, polygon) that you can create.
@@ -207,4 +205,4 @@ On the right-hand side are all of the navigation, external tool options, imagery
 Geo-Dash
 ^^^^^^^^
 
-The **GeoDash** pop-up window will also open with information about the plot if it has been configured for the project. This window contains information to help identify land cover and land use attributes compiled from Google Earth Engine. Depending on the project, Geo-Dash can include plots of time series data (such as how NDVI values have varied over time), Landsat image chips, and more. See :doc:`collection/start` for more information.
+The **GeoDash** pop-up window will also open with information about the plot if it has been configured for the project. This window contains information to help identify land cover and land use attributes compiled from Google Earth Engine. Depending on the project, Geo-Dash can include plots of time series data (such as how NDVI values have varied over time), Landsat image chips, and more. See :doc:`start` for more information.
