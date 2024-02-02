@@ -53,6 +53,7 @@ Clicking on the **[Rule]** icon will show a list of rules.
 .. thumbnail:: ../_images/project49.png
     :title: A list of rules
     :align: center
+    :width: 50%
 
 Navigating back to the Survey Questions tab will also show when questions have Rules associated with them. Mousing over the **[Rule]** icon will display the rule text.
 
@@ -66,5 +67,6 @@ Data collectors will be able to view any rules you implement by mousing over the
 .. thumbnail:: ../_images/project51.png
     :title: The view for data collectors
     :align: center
+    :width: 50%
 
 They will see an error if they try to enter an answer that conflicts with the rules.

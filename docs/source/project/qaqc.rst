@@ -33,21 +33,21 @@ You can also implement quality control measures using one of the **Quality Modes
 - **Subject Matter Expert Verification (SME Verification**): A percentage of each users’ plots are reviewed by one or more SMEs. For example, the SME might be someone with deep knowledge of the local landscape, or a project administrator.
 - **File**: Allows the administrator to manually specify additional user(s) to collect data on each plot. When creating your file, you can add a column called 'reviewers.' This column should contain the emails of users that will also be collecting data for the plot. This column accepts more than one email separated by a semi-colon (;). 
 
-    .. note:: 
+   .. note:: 
         
-        The 'users' column can be used without the 'reviewers' column, but not the other way around. If the 'reviewers' column is not present in the file, then the QAQC will not automatically be set, allowing the project administrator to use the drop-down options. 
+       The 'users' column can be used without the 'reviewers' column, but not the other way around. If the 'reviewers' column is not present in the file, then the QAQC will not automatically be set, allowing the project administrator to use the drop-down options. 
 
-        Once a CSV containing these two new columns is uploaded, the project admin will not be able to change either the User Assignments nor the QAQC, as they will be locked. In order to unlock them, the project admin can remove these columns and reupload the file, or change the plot design method by selecting another type in the **Spatial Distribution** dropdown menu.
+       Once a CSV containing these two new columns is uploaded, the project admin will not be able to change either the User Assignments nor the QAQC, as they will be locked. In order to unlock them, the project admin can remove these columns and reupload the file, or change the plot design method by selecting another type in the **Spatial Distribution** dropdown menu.
 
 .. thumbnail:: ../_images/project25.png
     :title: The Overlap option.
     :align: center
-    :width: 50%
+    :width: 40%
 
 .. thumbnail:: ../_images/project26.png
     :title: The SME Verification option.
     :align: center
-    :width: 50%
+    :width: 40%
 
 .. note::
     When Quality Control is enabled, the project can no longer support User Drawn samples.

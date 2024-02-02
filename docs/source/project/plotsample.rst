@@ -49,7 +49,7 @@ There are three approaches.
    .. thumbnail:: ../_images/project12.png
          :title: Upload an AOI
          :align: center
-         :width: 70%
+         :width: 100%
 
 .. note::
    
@@ -62,7 +62,7 @@ There are three approaches.
    .. thumbnail:: ../_images/project13.png
          :title: Multiple shapes AOI
          :align: center
-         :width: 70%
+         :width: 90%
 
 **Plot Generation**
 

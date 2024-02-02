@@ -74,6 +74,7 @@ Duplicate, Edit, and Delete Widgets
 .. thumbnail:: ../_images/geodash3.png
     :title: Duplicate, edit, or delete a widget.
     :align: center
+    :width: 50%
 
 (Forest) Degradation Tool
 -------------------------
@@ -85,12 +86,15 @@ It is calculated with this equation:
 .. thumbnail:: ../_images/geodash4.png
     :title: NDFI calculation equation
     :align: center
+    :width: 50%
+
 
 where
 
 .. thumbnail:: ../_images/geodash5.png
     :title: GV Shade equation
     :align: center
+    :width: 50%
 
 More detail can be found in: 
 

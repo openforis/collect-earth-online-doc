@@ -76,9 +76,9 @@ This section allows you to add general information about the project, including 
    - When you find the project that you would like to use as a template, click on the project name, then click **Load** to load the template information.
    - Click on **Clear** to clear all template information.
 
-      .. note::
+     .. note::
    
-          If you select a project under **Select Template**, and then if you clear the project selection the Imagery Preview in the next section may display only gray/white. Change the **Default Imagery** to any other source and then back to the source you are interested in and the basemap will reappear.
+         If you select a project under **Select Template**, and then if you clear the project selection the Imagery Preview in the next section may display only gray/white. Change the **Default Imagery** to any other source and then back to the source you are interested in and the basemap will reappear.
 
    - Loading a template will create two checkboxes under **Copy Options**, **Copy Template Plots and Samples** and **Copy Template Widgets**. They are checked by default.
 
@@ -116,7 +116,7 @@ This section allows you to add general information about the project, including 
      .. thumbnail:: ../_images/project7.png
         :title: Create New Project button
         :align: center
-        :width: 50%
+        :width: 100%
 
      There are three panels. On the far left, there is a Sentinel 2 composite of the last 12 months. It is colored using an infrared color composite (near infrared, mid infrared, red). In the center are Landsat 8 and Landsat 7 Color Yearly mosaics, with a slider so you can choose between years. On the right are NDVI graphs of the plot from MODIS, Landsat 7/8, and Sentinel 2. For the Landsat 7/8 and Sentinel graphs, you can click a point on the graphs to load specific images in the left and center panels.
 
@@ -136,7 +136,7 @@ This section allows you to add general information about the project, including 
       .. thumbnail:: ../_images/project9.png
           :title: Plot confidence slider
           :align: center
-          :width: 70%
+          :width: 90%
 
    4.  The fourth option is **Auto-launch Geo-Dash.** This will automatically open the Geo-Dash interface in a new window or new tab when the data collector navigates to a new plot. Unchecking this option means that data collectors will need to click on the Geo-Dash icon under **External Tools** in the **Data Collection** interface.
 
