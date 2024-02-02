@@ -1,9 +1,5 @@
-
 Reviewing Projects
 ==================
-
-In the Project Wizard
----------------------
 
 Once the project set up is complete, click on **[Review]** in the bottom right-hand corner.
 

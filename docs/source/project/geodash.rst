@@ -1,5 +1,3 @@
-.. _geo-dash-implementation:
-
 Geo-Dash Implementation
 =======================
 
@@ -7,7 +5,7 @@ The **Geo-Dash** is a dashboard that opens in a second window when users begin t
 
 You can configure your **Geo-Dash** by clicking on **[Configure Geo-Dash]** from the **Project Information/ Review Project** page.
 
-This will bring up the **Geo-Dash layout screen**.
+This will bring up the **Geo-Dash layout screen**, with four options in the upper right corner of the screen.
 
 .. thumbnail:: ../_images/geodash1.png
     :title: The Geo-Dash layout screen options
@@ -16,7 +14,7 @@ This will bring up the **Geo-Dash layout screen**.
 
 Clicking on **[Copy Layout]** will allow you to copy the Geo-Dash from another project. 
 
-.. tip::
+.. warning::
    This will delete any existing Geo-Dash you have associated with the project!
 
 .. thumbnail:: ../_images/geodash2.png
@@ -47,8 +45,8 @@ Widget Formatting Hints
 -----------------------
 
 - Titles cannot contain special characters.
-- Image parameters use JSON. Quotes used for image parameters in widgets should be vertical (" not “”). There should be no spaces in the image parameters.
-- Lists can be formatted either as "1,2,3" or as [1,2,3] for numbers and "B3,B2,B1" or ["B3","B2","B1"] for bands.
+- Image parameters use JSON. Quotes used for image parameters in widgets should be vertical (not “”). There should be no spaces in the image parameters.
+- Lists can be formatted either as ``"1,2,3"`` or as ``[1,2,3]`` for numbers and ``"B3,B2,B1"`` or ``["B3","B2","B1"]`` for bands.
 - When displaying three bands (e.g. B3, B2, B1 in RGB), Google Earth Engine and therefore the Geo-Dash can use either one or three values for min and max.
 - For the Date Ranges, if the end date is longer than the period of record, only the available data will be displayed.
 
@@ -74,7 +72,6 @@ Duplicate, Edit, and Delete Widgets
 .. thumbnail:: ../_images/geodash3.png
     :title: Duplicate, edit, or delete a widget.
     :align: center
-    :width: 70%
 
 (Forest) Degradation Tool
 -------------------------
@@ -86,14 +83,12 @@ It is calculated with this equation:
 .. thumbnail:: ../_images/geodash4.png
     :title: NDFI calculation equation
     :align: center
-    :width: 70%
 
 where
 
 .. thumbnail:: ../_images/geodash5.png
     :title: GV Shade equation
     :align: center
-    :width: 70%
 
 More detail can be found in: 
 
@@ -105,8 +100,8 @@ To create and use the Degradation Tool in your Geo-Dash:
 2. Select **Degradation Tool** in the Type drop down.
 3. Give the widget a **Title**.
 4. Choose the **Basemap** source from dropdown. This will be the basemap for the widget and other data will be layered on top.
-5. Choose which **Band** to graph. Available options include SWIR1, NIR, Red, Green Blue, SWIR2, and NDFI. NDFI allows for enhanced detection of forest canopy damage from multiple sources, including selective logging and forest fires.
-6. Select the **Date Range** you would like. This tool can draw from Landsat 4 (July 1982-December 1993), Landsat 5 (March 1984-January 2013), Landsat 7 (April 1999 – current), and Landsat 8 (February 2013 – current) based on the date range you select. Sentinel information is only available from April 2014 onward (Sentinel 1A launch).
+5. Choose which **Band to graph**. Available options include SWIR1, NIR, Red, Green, Blue, SWIR2, NDVI, NBR, NDWI and NDFI. NDFI allows for enhanced detection of forest canopy damage from multiple sources, including selective logging and forest fires.
+6. Select the **Date Range** you would like. This tool can draw from Landsat 4 (July 1982-December 1993), Landsat 5 (March 1984-January 2013), Landsat 7 (April 1999 – current), Landsat 8 (February 2013 – current), and Landsat 9 (September 27 - current) based on the date range you select. Sentinel information is only available from April 2014 onward (Sentinel 1A launch).
 7. Click **[Create]**.
 8. Reposition and resize to your liking. This tool will have two panels stacked one on top of the other, so be sure to give it ample vertical space.
 
@@ -121,21 +116,13 @@ To create a Dual Imagery Widget:
 2. Select **Dual Imagery** in the Widget Type drop down.
 3. Give the widget a **Title**. We suggest an informative title such as {Data} {Date range} e.g. NDVI 2001 or NDVI 2001 – 2002.
 4. Choose **Basemap** source from dropdown. This will be the basemap for the widget and other data will be layered on top.
-5. You will now select the Imagery type for the Bottom and Top images. You can toggle between them by clicking the **[Next Image]** and **[Previous Image]** buttons.
+5. You will now select the **Imagery type** for the Bottom and Top images. You can toggle between them by clicking the **[Next Image]** and **[Previous Image]** buttons.
 
    1. Select the **Imagery Type** for each image. Options include Image Asset, Image Collection Asset, and Preloaded Imagery Collection.
    2. For more information about Image Assets, see :ref:`add-image-asset-widget`.
    3. For more information about Image Collection Assets, see :ref:`add-image-collection-asset-widget`.
    4. For more information about Preloaded Imagery Collections, see :ref:`add-preloaded-image-collection-widget`.
-    
-      - **NDVI**, **EVI**, **EVI** **2**, **NDMI**, and **NDWI** are preconfigured with the correct Landsat bands and image parameters. NDVI merges Landsat 4 thru Landsat 8 and Sentinel 2.
-      - **Landsat 5, Landsat 7, Landsat 8**, and **Sentinel 2** are partially configured leaving you the option to adjust the bands, min, max, and cloud score. Available bands for each are:
-        - Landsat 5 - B1, B2, B3, B4, B5, B6, B7, BQA
-        - Landsat 7 - B1, B2, B3, B4, B5, B6_VCID_1, B6_VCID_2, B7, B8, BQA
-        - Landsat 8 - B1, B2, B3, B4, B5, B6, B7, B8, B9, B10, B11, BQA
-        - Sentinel 2 - B1, B2, B3, B4, B5, B6, B7, B8, B8a, B9, B10, B11, B12, QA10, QA20, QA60
-
-   5. For information on the min, max, and cloud score see :ref:`add-image-collection-widget`. Min and Max are the values for the bands, while cloud score is a max percent of clouds in the image.
+   5. For information on the min, max, and cloud score see :ref:`add-image-asset-widget`. Min and Max are the values for the bands, while cloud score is a max percent of clouds in the image.
 
 6. Select the **Date** range you would like, if applicable. If the end date is longer than the period of record, only the available data will be displayed.
 7. Click **[Create]**.
@@ -151,30 +138,25 @@ This widget allows you to simply show one of your institutional imageries. With 
 3. Give the widget a **Title**.
 4. Select a **Basemap**. You can choose any of your institutional imagery from the dropdown menu.
 5. Click **[Create]**.
-
 6. Reposition and resize to your liking.
-
-.. note::
-
-   Note that the Public Planet NICFI may not work as expected. Please use your own Planet NICFI key to set up institutional imagery that specifies the specific time step.
 
 .. _add-image-asset-widget:
 
 Add an Image Asset Widget
 -------------------------
 
-Both the image asset widget and the image collection asset widget allow users to connect to GEE data. This includes publicly available data through GEE as well as image assets from their own user accounts. There is a video tutorial for creating GEE image assets available online here: https://youtu.be/l57IhmduVBQ. Some example GEE scripts to create Image Asset in GEE:
+Both the Image Asset Widget and the Image Collection Asset Widget allow users to connect to GEE data. This includes publicly available data through GEE as well as image assets from their own user accounts. There is a video tutorial for creating GEE image assets available online here: https://youtu.be/l57IhmduVBQ. Some example GEE scripts to create Image Asset in GEE:
 
--  NDVI: https://github.com/SERVIR/gee-scripts/blob/master/GEE_NDVI_Clip_to_plot_Collection.js#L6
+- NDVI: https://github.com/SERVIR/gee-scripts/blob/master/GEE_NDVI_Clip_to_plot_Collection.js#L6
 - Landsat8: https://code.earthengine.google.com/109485ad0712818dba270b767efbc540
 
 1.  Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
-2.  Select **Image Asset** in the Type drop down.
-3.  Give the widget a Title.
-4.  Choose the desired Basemap source from dropdown. This will be the basemap for the widget and other data will be layered on top.
-5.  Enter the GEE Image Asset ID. For example, COPERNICUS/S2/20170420T184921_20170420T190203_T10SEG . This can be any image asset in Earth Engine, including assets from your own account. If you are using an asset from your own account, it must be shared publicly.
-6.  You can view the Available Bands for your image by clicking on the **[Refresh]** button.
-7.  Enter Image Parameters for the asset in JSON format. These follow the image visualization function in GEE (more info: https://developers.google.com/earth-engine/guides/image_visualization?hl=en):
+2.  Select **Image Asset** in the **Widget Type** drop down.
+3.  Give the widget a **Title**.
+4.  Choose the desired **Basemap** source from dropdown. This will be the basemap for the widget and other data will be layered on top.
+5.  Enter the **GEE Image Asset ID**. For example, COPERNICUS/S2/20170420T184921_20170420T190203_T10SEG. This can be any image asset in Earth Engine, including assets from your own account. If you are using an asset from your own account, it must be shared publicly. If you need  your asset to remain private for data security reasons, message the team at support@collect.earth and we can help.
+6.  You can view the **Available Bands** for your image by clicking on the **[Refresh]** button.
+7.  Enter **Image Parameters** for the asset in JSON format. These follow the image visualization function in GEE (more info: https://developers.google.com/earth-engine/guides/image_visualization?hl=en):
 
 .. code::
 
@@ -186,8 +168,8 @@ Both the image asset widget and the image collection asset widget allow users to
    
    Note that there are no spaces, and all color values must be hex. The quotes around the numbers are optional, e.g. "max":0.5 will also work. As in GEE, you may also use brackets around the palette values, however if you use brackets each individual number must be quoted. 
 
-14. Click **[Create]**.
-15. Reposition and resize to your liking.
+8. Click **[Create]**.
+9. Reposition and resize to your liking.
 
 .. note::
    More on SRTM Digital Elevation Data. Previously in CEO you could add digital elevation data directly. This is now handled with the image asset widget. The SRTM Digital Elevation Data 30m widget pulls data from the Earth Engine Data Catalog. More information on this dataset can be found here: https://developers.google.com/earth-engine/datasets/catalog/USGS_SRTMGL1_003. The SRTM is an image asset USGS/SRTMGL1_003.
@@ -200,23 +182,23 @@ Add an Image Collection Asset Widget
 An Image Collection is a stack or time series of images. There is a video tutorial for creating GEE Image Collection assets available online here: https://youtu.be/7eIvltgDbXw.
 
 1. Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
-2. Select **Image Collection Asset** in the Type drop down.
+2. Select **Image Collection Asset** in the **Widget Type** drop down.
 3. Give the widget a **Title**.
-4. Choose Basemap source from dropdown. This will be the basemap for the widget and other data will be layered on top.
-5. Enter the Google Earth Engine Image Collection Asset ID, for example LANDSAT/LC8_L1T_TOA. This can be any image collection in Earth Engine, including assets from your own account. If you are using an asset from your own account, it must be shared publicly.
-6. You can view the Available Bands for your image by clicking on the **[Refresh]** button.
-7. Select a Collection Reducer. Reducers are methods for collapsing multiple images in the image collection into a single image for the Geo-Dash to display. You can learn more about reducers here https://developers.google.com/earth-engine/guides/reducers_intro.
-8. Enter Image Parameters for the asset in JSON format. These follow the image visualization function in GEE (more info: https://developers.google.com/earth-engine/guides/image_visualization?hl=en):
+4. Choose **Basemap** source from dropdown. This will be the basemap for the widget and other data will be layered on top.
+5. Enter the **Google Earth Engine Image Collection Asset ID**, for example LANDSAT/LC8_L1T_TOA. This can be any image collection in Earth Engine, including assets from your own account. If you are using an asset from your own account, it must be shared publicly.
+6. You can view the **Available Bands** for your image by clicking on the **[Refresh]** button.
+7. Select a **Collection Reducer**. Reducers are methods for collapsing multiple images in the image collection into a single image for the Geo-Dash to display. You can learn more about reducers here https://developers.google.com/earth-engine/guides/reducers_intro.
+8. Enter **Image Parameters** for the asset in JSON format. These follow the image visualization function in GEE (more info: https://developers.google.com/earth-engine/guides/image_visualization?hl=en):
 
-   i. For example: {"bands":"B4,B5,B3","min":"10,0,10","max":"120,90,70"}
-   ii. Again, do not use any spaces.
+   - For example: ``{"bands":"B4,B5,B3","min":"10,0,10","max":"120,90,70"}``.
+   - Do not use any spaces.
 
-9.  Select the Date Range.
+9.  Select the **Date Range**.
 10. Click **[Create].**
 11. Reposition and resize to your liking.
 
 More on Landsat
-+++++++++++++++
+^^^^^^^^^^^^^^^
 
 Landsat is one of the Image Assets you can add. For better performance when using a GEE collection, we recommend that
 you preprocess and clip the data to your AOI in GEE before connecting it to Geo-Dash. You can find a video tutorial on this process in the Geo-Dash Help Center under “Video Tutorial to Create GEE Image Assets.”
@@ -254,12 +236,12 @@ We suggest you use the shapefile (.shp) option when creating your CEO project.
    IMPORTANT: Your featureCollection needs to be shared as public so that CEO can access it. If you need to leave the collection private, message the team at support@collect.earth and we can help.
 
 1. Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
-2. Select Polygon Compare in the Type drop down.
-3. Give the widget a Title.
-4. Choose Basemap source from dropdown. This will be the basemap for the widget and other data will be layered on top.
-5. Enter the Google Earth Engine Feature Collection asset ID. This can be any feature collection in Earth Engine, including assets from your own account. If you are using an asset from your own account, it must be shared publicly.
-6. Enter the field that matches the PLOTID for the project. In the compare featureCollection widget, you will need to match PLOTIDs. The PLOTID column for your featureCollection can be named anything, just type in the proper column name into the Field to match PLOTID box.
-7. Enter Image Parameters in JSON format to change the color of the polygon displayed. This uses the GEE feature and feature collection visualization function.
+2. Select **Polygon Compare** in the **Widget Type** drop down.
+3. Give the widget a **Title**.
+4. Choose **Basemap** source from dropdown. This will be the basemap for the widget and other data will be layered on top.
+5. Enter the **Google Earth Engine Feature Collection Asset ID**. This can be any feature collection in Earth Engine, including assets from your own account. If you are using an asset from your own account, it must be shared publicly.
+6. Enter the **field** that matches the PLOTID for the project. In the compare featureCollection widget, you will need to match PLOTIDs. The PLOTID column for your featureCollection can be named anything, just type in the proper column name into the Field to match PLOTID box.
+7. Enter **Image Parameters** in JSON format to change the color of the polygon displayed. This uses the GEE feature and feature collection visualization function.
 8. Click **[Create].**
 
 .. _add-preloaded-image-collection-widget:
@@ -270,58 +252,34 @@ Add a Preloaded Image Collection Widget
 Preloaded Image Collection widgets are commonly used widgets that the Collect Earth Online team has set up in advance for your ease of use.
 
 1. Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
-2. Select **Preloaded Image Collections** in the Widget Type dropdown menu.
-3. Give the widget a Title.
-4. Choose your Basemap source from the dropdown menu. This will become the basemap over which the other data is overlaid.
-5. Select the Data Type:
+2. Select **Preloaded Image Collections** in the **Widget Type** dropdown menu.
+3. Give the widget a **Title**.
+4. Choose your **Basemap** source from the dropdown menu. This will become the basemap over which the other data is overlaid.
+5. Select the **Imagery Source**. You can choose from Landsat, Sentinel-2, and Planet NICFI.
+6. Select the **Imagery Source Type**. You can choose from Index or Composite.
+7. Select **Date Range**. If the end date is longer than the period of record, only the available data will be displayed.
+8. If you have select Index, you can now choose a **Band to graph**. 
 
-   i. **NDVI, EVI, EVI 2, NDMI**, and **NDWI** are preconfigured with the correct Landsat bands and image parameters. NDVI combines Landsat 4 through Landsat 8 and Sentinel 2. If you select one of these, you will just need to add a **Date Range**. The index displayed will be the mean for the selected date range.
-   ii. **Landsat 5, Landsat 7, Landsat 8, and Sentinel 2** are partially configured leaving you the option to adjust the bands, min, max, and cloud score. Available bands for each are:
+   - **NDVI, EVI, EVI 2, NDMI**, and **NDWI** are preconfigured with the correct bands and image parameters. The index displayed will be the mean for the selected date range.
 
-       - Landsat 5 - B1, B2, B3, B4, B5, B6, B7, BQA
-       - Landsat 7 - B1, B2, B3, B4, B5, B6_VCID_1, B6_VCID_2, B7, B8, BQA
-       - Landsat 8 - B1, B2, B3, B4, B5, B6, B7, B8, B9, B10, B11, BQA
-       - Sentinel 2 - B1, B2, B3, B4, B5, B6, B7, B8, B8a, B9, B10, B11, B12, QA10, QA20, QA60
+9. If you have selected **Composite** you can now choose the bands, min, max, and cloud score, depending on which options are available for the **Imagery Source** you selected. Available bands for each are:
+
+   - Landsat: BLUE, GREEN, RED, NIR, SWIR1, TEMP, SWIR2
+   - Sentinel 2: B1, B2, B3, B4, B5, B6, B7, B8, B8a, B9, B10, B11, B12, QA10, QA20, QA60
+   - NICFI: R, G, B, N
    
-   .. note::
-         Min, Max, and Cloud Score will be determined by the user’s needs. Min and Max are the values for the bands, while cloud score is a max percent of clouds in the image. 
+   Min, Max, and Cloud Score will be determined by the user’s needs. Min and Max are the values for the bands, while cloud score is a max percent of clouds in the image. Min and max can have one or three values.
          
-   iii. Example values include:
+   Example values include:
          
-         - Landsat5:
-           - bands: B4,B5,B3,
-           - min: 0.05,
-           - max: 0.45,
-           - Cloud Score: 90
+   - Sentinel-2:
+     - bands: B8,B4,B3,
+     - min: 450,
+     - max: 3000,
+     - Cloud Score: 10
 
-         - Landsat7:
-           - bands: B4,B5,B3,
-           - min: 0.05,
-           - max: 0.45,
-           - Cloud Score: 90
-
-         - Landsat8:
-           - bands: B5,B6,B4,
-           - min: 0.04,
-           - max: 0.5,
-           - Cloud Score: 90
-
-         - Sentinel 2:
-           - bands: B8,B4,B3,
-           - min: 450,
-           - max: 3000,
-           - Cloud Score: 10
-
-   iv. The pieces that are preconfigured include:
-
-       - landsat8: imageCollection: LANDSAT/LC08/C01/T1_RT; simpleComposite: 50
-       - landsat7: imageCollection: LANDSAT/LE07/C01/T1; simpleComposite: 60
-       - landsat5: imageCollection: LANDSAT/LT05/C01/T1; simpleComposite: 50
-       - sentinel 2: imageCollection: COPERNICUS/S2
-
-6. Select Date Range. If the end date is longer than the period of record, only the available data will be displayed.
-7. Click **[Create].**
-8. Reposition and resize to your liking.
+10. Click **[Create].**
+11. Reposition and resize to your liking.
 
 Add a Statistics Widget
 -----------------------
@@ -329,8 +287,8 @@ Add a Statistics Widget
 Statistics provide additional information, including population, area, and elevation about the current plot area that is being analyzed. The population data is from the CiESIB Gridded Population of the World v4 dataset and the elevation data is from the USGS EROS Global 30-Arc Second DEM.
 
 1. Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
-2. Select **Statistics** in the type drop down.
-3. Give the widget a Title.
+2. Select **Statistics** in the **Widget Type** drop down.
+3. Give the widget a **Title**.
 4. Click **[Create]**.
 5. Reposition and resize to your liking.
 
@@ -340,16 +298,18 @@ Add a Time Series Graph Widget
 Time Series Graphs, particularly for the vegetation indices, can help users differentiate between different types of vegetation based on seasonal patterns.
 
 1. Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
-2. Select **Time Series Graph** in the Type drop down.
-3. Give the widget a Title.
-4. Select the Data Type:
+2. Select **Time Series Graph** in the **Widget Type** drop down.
+3. Give the widget a **Title**.
+4. Select the **Imagery Source**. This will determine what **Band to graph** options you have.
 
-   i. **NDVI, EVI, EVI 2, NDMI**, and **NDWI** are preconfigured with the correct Landsat band calculations and image parameters. NDVI merges Landsat-4 thru Landsat 8 and Sentinel 2. For more information on these, please see :ref:`add-image-collection-widget`.
-   ii. **Custom** allows you to graph an GEE image collection. An image collection from Google Earth Engine can be added here. You simply need to know the image name, the band you would like graphed, and how you would like the graph reduced. For example:
+   - **Landsat** allows you to graph **NDVI, EVI, EVI 2, NDMI**, and **NDWI**. These are preconfigured with the correct Landsat band calculations and image parameters. 
+   - **NICFI** allows you to graph **NDVI, B, R, G**, and **N**. These are preconfigured with the correct band calculations.
+   - **Custom** allows you to create a time series graph using any GEE image collection. An image collection from Google Earth Engine can be added here. You simply need to know the **GEE Image Collection Asset ID**, the **Band to graph**, the **Reducer** you would like to use, and the **Spatial scale**. For example:
 
-      - GEE Image Collection - COPERNICUS/S5P/OFFL/L3_CO.
-      - Band to graph - CO_column_number_density.
-      - Select the Reducer in the dropdown.
+     - GEE Image Collection Asset ID- COPERNICUS/S5P/OFFL/L3_CO.
+     - Band to graph - CO_column_number_density.
+     - Select the Reducer in the dropdown.
+     - Spatial Scale: 30
 
 5. Select a **Date Range**. If the end date is longer than the period of record, only the available data will be displayed.
 6. Click **[Create].**
