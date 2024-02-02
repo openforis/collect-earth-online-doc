@@ -18,6 +18,7 @@ CEO provides a straightforward way to ask multiple-choice questions. As the most
 .. thumbnail:: ../_images/project27.png
     :title: The new question form
     :align: center
+    :width: 50%
 
 1. To start, type your first question into the **Question Text** box. Since it is your first question, you cannot assign a **Parent Question** or **Parent Answers** for the question.
 
@@ -46,6 +47,7 @@ CEO provides a straightforward way to ask multiple-choice questions. As the most
      .. thumbnail:: ../_images/project29.png
          :title: The bulk answer addition screen
          :align: center
+         :width: 40%
 
    - Now that you have a top-level, or parent, question with answers for your survey card, you can edit and delete questions and answers, as well as add child questions and child questions that appear only when specific answers are chosen.
 
@@ -113,6 +115,17 @@ You can also see that these questions were too long, and the user cannot read th
 
 When you are done creating child questions, you can create your next survey card by setting the **Parent Question** field to **None** and creating a new question.
 
+Hiding questions and answers
+----------------------------
+
+Questions and answers can be hidden using a simple check box. This feature can be used to improve data collection and facilitate downstream analysis. For example, this functionality is useful when you want to use the same survey across multiple projects, but not every question is applicable to every project. This could be the case if you are collecting information on land cover globally, not all areas have the same type of forest so it does not make sense to include these options everywhere. 
+
+Clicking the **[Hide Question]** or **[Hide Answer?]** checkboxes will hide the question or answer during data collection.
+
+.. thumbnail:: ../_images/project-hide.png
+    :align: center
+    :width: 50%
+
 Manipulating the survey cards
 -----------------------------
 
@@ -130,6 +143,7 @@ The **Component Types** include combinations of four question types and three da
 .. thumbnail:: ../_images/project35.png
     :title: The dropdown menu of question types
     :align: center
+    :width: 50%
 
 The four question types are:
 
@@ -152,6 +166,7 @@ For the **Input** type only, you can choose whether to require an answer during 
 .. thumbnail:: ../_images/project36.png
     :title: The text required checkbox
     :align: center
+    :width: 50%
 
 Following are examples of how each question type listed under **Component** Type appears in the **Data Collection** screen, and notes on when each type might be useful.
 
