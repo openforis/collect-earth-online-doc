@@ -46,7 +46,7 @@ Precision & accuracy goals for a project help us decide on the sample size and s
 .. thumbnail:: ../_images/validation1.png
     :title: Example of precision and accuracy.
     :align: center
-    :width: 50%
+    :width: 70%
 
 In this example, A is neither precise nor accurate. B is precise, but not accurate. C is accurate, but not precise, and D is both precise and accurate. This is of course where we would like to be ideally.
 

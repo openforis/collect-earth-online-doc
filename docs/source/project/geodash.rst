@@ -60,7 +60,9 @@ Move & Resize Widgets
    - Widgets will autotomatically align to a grid.
 
 2. In the Geo-Dash collection page view, widget positions are are updated in real time.
-3. For a gif illustrating these movements, see https://collect.earth/geo-dash/geo-dash-help and click "To Move and Resize Widgets."
+
+.. thumbnail:: /_images/change_widget_layout.gif
+   :align: center
 
 Duplicate, Edit, and Delete Widgets
 -----------------------------------
