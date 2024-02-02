@@ -10,16 +10,16 @@ The first step of the built in CEO sample design is the plot design. The second 
 
 For example, suppose you are quantifying forest cover on a landscape. For this approach, sample points are used to classify land cover and are then summarized at the plot level to create an estimate of the plot’s forest cover percent. Information about plots can then be used to estimate the forest cover at the landscape level and detect patterns or trends. The accuracy of your landscape level estimates will depend on how many plots you classify & how variable the landscape is, among other factors. More detailed theoretical information is available in CEO’s Project Development Manual (found at https://collect.earth/downloads/CEO_Theoretical_Manual.pdf).
 
-Also, some terminology might help for the two types of sampling available in CEO. **Simple random sampling** means that all points have an equal probability of being selected. It produces unbiased parameters. However geographic balance with small sample sizes can be difficult. Also, rare classes may not receive sufficient coverage. If you have rare classes you want to detect, we highly recommend using a stratified sampling approach. For this, you can create a stratified sample in SEPAL (available online at https://sepal.io) or using QGIS or ArcGIS and import it using the upload csv or shp. There will also be a stratified sample option coming to CEO soon.
+Also, some terminology might help for the types of sampling available in CEO. **Simple random sampling** means that all points have an equal probability of being selected. It produces unbiased parameters. However geographic balance with small sample sizes can be difficult. Also, rare classes may not receive sufficient coverage. If you have rare classes you want to detect, we highly recommend using a **stratified random sampling** approach. Stratified random sampling is another type of probability sampling where the population is divided into different strata based on shared characteristics. For example, strata might be different land classes or geographic areas. 
 
-The second type is **systematic gridded sampling**. This is a grid of points placed over the landscape at regular intervals. This provides excellent geographic balance, but it is not possible to calculate unbiased estimates of population metric variance.
+Another type of sampling is **systematic gridded sampling**. This is a grid of points placed over the landscape at regular intervals and is not probability sampling. This provides excellent geographic balance, but it is not possible to calculate unbiased estimates of population metric variance.
 
 There are two main approaches for specifying an area of interest (AOI) and sampling design: 1. using CEO’s built-in system and 2. Creating a sample in another program (QGIS, ArcGIS, etc.) and importing it into CEO. We will first discuss the built-in sampling design, and then discuss uploading your own sample as a .csv or .shp file. 
 
 Plot Design: CEO’s built in system
 ----------------------------------
 
-CEO’s built in system enables users to create sampling designs using an easy-to-use interface. There are two key parts, selecting the AOI and Plot Generation. 
+CEO’s built in system enables users to create sampling designs using an easy-to-use interface. There are two key parts, creating the AOI and Plot Generation. You only need to create an AOI if you are using CEO's built in system.
 
 **Select your AOI.** 
 
@@ -44,7 +44,7 @@ There are three approaches.
          :align: center
          :width: 50%
 
-3. The third approach is to upload a project boundary shapefile. To use this option, click on the **[Upload project boundary]** button. Navigate to your file, and click **[Open]**. Your shapefile should be a zipped folder with the requisite shapefile component pieces (.shp, .prj, etc.). Once you click open, you should see the **File:** text populate with your file name and your project boundary appear in the Collection Map Preview pane. 
+3. The third approach is to upload a project boundary shapefile. To use this option, under **Boundary type** select Upload shp file. Then click on the **[Upload project boundary]** button. Navigate to your file, and click **[Open]**. Your shapefile should be a zipped folder containing requisite shapefile component pieces (SHP, SHX, DBF, and PRJ files). Once you click open, you should see the **File:** text populate with your file name and your project boundary appear in the Collection Map Preview pane. 
 
    .. thumbnail:: ../_images/project12.png
          :title: Upload an AOI
@@ -53,11 +53,11 @@ There are three approaches.
 
 .. note::
    
-      Please note that if you have multi-part polygons each one will be assigned the number of plots indicated. This is indicated in the green text.
+   Please note that if you have multi-part polygons each one will be assigned the number of plots indicated. This is indicated in the green text.
 
 .. tip::
    
-      You can upload shapefiles with multiple shapes for stratified sampling (coming soon). Each strata will appear with its corresponding area in hectares. The number of plots will be **per strata**. This is indicated in the green text.
+   You can upload shapefiles with multiple shapes for stratified sampling (coming soon). Each strata will appear with its corresponding area in hectares. The number of plots will be **per strata**. This is indicated in the green text.
 
    .. thumbnail:: ../_images/project13.png
          :title: Multiple shapes AOI
@@ -68,7 +68,7 @@ There are three approaches.
 
 In the Plot Generation section, you can specify the type and number of sample plots.
 
-1. **Spatial Distribution** defines the distribution of the sample points. In CEO, you can specify either a random or a gridded (spatial systematic) sampling approach.
+1. **Spatial Distribution** defines the distribution of the sample points. In CEO, you can specify either a random or a gridded sampling approach.
 
    - Random sampling has the advantage of being extremely simple and producing unbiased parameters that are straightforward to calculate. However, geographic balance is not certain with smaller sample sizes, and rare classes may not be adequately sampled unless the sample size is large.
    - Systematic sampling has the advantage of providing excellent geographic balance. However, it is not possible to calculate a truly unbiased estimate of the variance of population metrics when using systematic sampling. Additionally, if patterns in your landscape match up with the spacing of your systematic gridded points, you will produce a very biased estimate.
@@ -77,14 +77,10 @@ In the Plot Generation section, you can specify the type and number of sample pl
 
 2. CEO will provide an estimate of how many plots will be generated for your project based on your sampling design.
 
-   .. tip::
-   
-       Using CEO’s sampling, the maximum number of plots for a project is 5,000. For gridded sampling, you may need to increase the space between plots to avoid exceeding 5,000 plots.
-
 .. thumbnail:: ../_images/project14.png
-    :title: Estimated number of plots 
-    :align: center
-    :width: 50%
+   :title: Estimated number of plots 
+   :align: center
+   :width: 50%
 
 3. Plot Shape can be either a Circle or a Square.
 
@@ -92,28 +88,33 @@ In the Plot Generation section, you can specify the type and number of sample pl
    - These sizes should be driven by the needs of your project.
    - If they are small, your users will need to zoom out significantly to see the relevant background imagery because CEO automatically centers and zooms in to the plot’s boundaries.
 
-**Quality Control**
+.. note:: 
+   
+   Using CEO’s sampling, the maximum number of plots for a project is 5,000. For gridded sampling, you may need to increase the space between plots to avoid exceeding 5,000 plots.
 
-You can now choose to assign users plots to review using the User Assignment feature, and implement quality control for your plots using the **Quality Control** dropdown.
+**Assign Plots & Quality Control**
+
+You can choose to assign members of your institution to review plots in your project using the **User Assignment** dropdown, and quality control for your plots using the **Quality Control** dropdown.
+
+For details, see :doc:`qaqc`.
 
 Click **[Next]** when you are finished.
 
 Sample Design: CEO’s built-in system
 ------------------------------------
 
-Here we determine how many sample points are within each plot, and whether they are sampled using random sampling or gridded sampling.
+On the next tab we determine how many sample points are within each plot, and whether they are sampled using random sampling or gridded sampling.
 
-1. Under Spatial Distribution:
+1. Under **Sample Generation** **Spatial Distribution**:
 
    1. With **Random sampling** sample points will be randomly distributed within the plot boundary. You will also need to specify the **Number of Samples** per plot.
-   2. With **Gridded sampling**, sample points will be arranged on a grid within the plot boundary. You will need to specify the distance between points within the plot under **Sample resolution** (m).
+   2. With **Gridded sampling**, sample points will be arranged on a grid within the plot boundary. You will need to specify the distance between points within the plot under **Sample resolution** (meters).
    3. With **Center** a sample point will be placed in the center of the plot; you do not need to specify anything else.
    4. With **None,** you will not predefine any samples. This requires users to draw their own samples during collection.
 
-2. For any of these Spatial Distributions, you can click the checkbox next to Allow users to draw their own samples to enable proactive sampling.
+2. For any of these **Spatial Distributions**, under **User Drawn Samples** you can click the checkbox next to **Allow users to draw their own samples** to enable proactive sampling.
 
-   Proactive sampling enables data collectors to draw points, lines, and polygons directly onto the map to create their own samples. The data
-   collector then answers questions about each shape.
+   Proactive sampling enables data collectors to draw points, lines, and polygons directly onto the map to create their own samples. The data collector then answers questions about each shape.
 
    Proactive sampling is useful for collecting training data to inform random forest and machine learning models. It can also increase the accuracy of land use land cover area estimates by allowing users to map the entire area of the plot instead of sample points within the plot.
 
@@ -128,16 +129,15 @@ Here we determine how many sample points are within each plot, and whether they 
 Plot & Sample Design: CSV & SHP files
 -------------------------------------
 
-While the default sampling design will work for many users, you may want to create your own sampling design and upload it to CEO using the .csv
-or .shp file capability. 
+While the default sampling design will work for many users, you may want to create your own sampling design and upload it to CEO using the .csv or .shp file capability. 
 
-This functionality is useful when you want to draw your sample plots from within a shape other than a rectangle (e.g. the outline of a region or country) or if you want stratification in your sampling design. You can create a .csv or .shp with your desired sampling plots/points through services and applications including SEPAL, ArcGIS (e.g. https://pro.arcgis.com/en/pro-app/tool-reference/data-management/create-random-points.htm), and QGIS (e.g. https://freegistutorial.com/how-to-create-random-points-inside-polygon-on-qgis/).
+This functionality is useful when you want more control of where your plots and/or samples are located, including through more complex sampling designs. You can create a .csv or .shp with your desired sampling plots/points through services and applications including SEPAL, ArcGIS (e.g. https://pro.arcgis.com/en/pro-app/tool-reference/data-management/create-random-points.htm), and QGIS (e.g. https://freegistutorial.com/how-to-create-random-points-inside-polygon-on-qgis/).
 
-You can upload just one file for the plot centers OR two files, one for the plot centers and one for the point centers. 
+You can upload just one file to define plots OR two files, one for the plots and one for the samples. 
 
 As when using CEO’s built-in system, you can choose to assign users plots to review using the **User Assignment** feature and implement quality control for your plots using the **Quality Control** dropdown. In addition, you can specify which users should collect data on which plots and which users should review each plot using dedicated columns. See :doc:`qaqc` for more.
 
-.. tip::
+.. note::
    Using .csv and .shp files, the maximum number of plots is 50,000 and the total sample point limit is 350,000.
 
 .. note::
@@ -148,7 +148,7 @@ As when using CEO’s built-in system, you can choose to assign users plots to r
    .. thumbnail:: ../_images/project15.png
        :title: A project created with the example files
        :align: center
-       :width: 50%
+       :width: 80%
 
 .. note::
    
@@ -164,7 +164,7 @@ If you do not specify the column names correctly (spelling or order), you will g
 .. thumbnail:: ../_images/project16.png
     :title: Error box
     :align: center
-    :width: 50%
+    :width: 70%
 
 When your .csv files fit the above specifications, follow the directions below.
 
@@ -177,21 +177,22 @@ When your .csv files fit the above specifications, follow the directions below.
 .. thumbnail:: ../_images/project17.png
     :title: Uploading a CSV File
     :align: center
-    :width: 50%
+    :width: 60%
 
 Adding plots and samples using two .csv files
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In addition to your plot file, you can upload a second .csv file where you specify your own sample centers. Your .csv must have these columns: LON, LAT, PLOTID, SAMPLEID. LON and LAT can also be LONGITUDE and LATITUDE. You can have additional columns with data about your plots and sample points but they MUST come after these key fields.
+In addition to your plot file, you can upload a second .csv file where you specify your own sample centers. For your sample file, your .csv must have these columns: LON, LAT, PLOTID, SAMPLEID. LON and LAT can also be LONGITUDE and LATITUDE. You can have additional columns with data about your plots and sample points but they MUST come after these key fields.
 
 1. Under Plot Generation, select **CSV File**.
 2. Then, click on **[Upload plot file]** and navigate to the .csv on your computer with your plot centers.
 3. After you upload the file, the file name will appear next to **File:**.
 4. You will need to specify the **Plot Shape** and corresponding **Diameter**. It is important that you specify a plot size that is large enough to contain your points if they are also uploaded through a .csv or .shp. 
-5. Now, under Sample Design, set **Spatial Distribution** to **CSV File**.
-6. Click on **[Upload sample file]** and navigate to your .csv on your computer. Click **[Open]** and the file name will appear next to **File.**
-7. Note that you can also choose **SHP file** and upload a shape file at this point.
-8. You can click the checkbox next to **Allow users to draw their own samples** to enable proactive sampling.
+5. Choose any desired **User assignment** and **Quality Mode** options.
+6. Next, under **Sample Design**, set **Spatial Distribution** to **CSV File**.
+7. Click on **[Upload sample file]** and navigate to your .csv on your computer. Click **[Open]** and the file name will appear next to **File.**
+8. Note that you can also choose **SHP file** and upload a shape file at this point.
+9. You can click the checkbox next to **Allow users to draw their own samples** to enable proactive sampling.
 
 .. thumbnail:: ../_images/project18.png
     :title: CSV Sample Generation
@@ -203,7 +204,7 @@ Adding plots and samples using two .shp files
 
 For .shp files, you can specify your own plot boundaries by uploading a zipped Shapefile (containing SHP, SHX, DBF, and PRJ files) of polygon features. Each feature must have a unique PLOTID field. LON and LAT are not required for polygons.
 
-You will also need to upload a second file where you specify your own sample points. This can be a .csv with these columns: LON, LAT, PLOTID, SAMPLEID. LON and LAT can also be LONGITUDE and LATITUDE. It can also be a zipped .shp file (containing SHP, SHX, DBF, and PRJ files). Each feature must have PLOTID and SAMPLEID fields. Either points or polygons will work for the sample point file, though csv files must include LON and LAT. 
+You will also need to upload a second file where you specify your own sample points. This can be a .csv specifying sample point centers with these columns: LON, LAT, PLOTID, SAMPLEID. LON and LAT can also be LONGITUDE and LATITUDE. It can also be a zipped .shp file (containing SHP, SHX, DBF, and PRJ files). Each feature must have PLOTID and SAMPLEID fields. Either points or polygons will work for the sample point file, though csv files must include LON and LAT. 
 
 As with .csv files, you can have additional fields with information about your plots and points if and only if they come after these key fields.
 
@@ -226,7 +227,7 @@ If you do not specify your PLOTID in the .shp zip file, you will get the followi
 
 When your .shp files fit the above specifications, follow the directions below.
 
-1. Under Plot Generation, set **Spatial Distribution** to **SHP File**. You must have the radio point selected before the button to upload becomes available.
+1. Under **Plot Generation**, set **Spatial Distribution** to **SHP File**. You must have the radio point selected before the button to upload becomes available.
 2. Then, click on **[Upload plot file]** and navigate to your zipped .shp file. Click **[Open]** and the file name will appear next to **File.**
 
    .. thumbnail:: ../_images/project22.png
@@ -237,9 +238,10 @@ When your .shp files fit the above specifications, follow the directions below.
 3. Click **[Next]**. Under Sample Design, set **Spatial Distribution** to **SHP File**.
 4. Click on **[Upload sample file]** and navigate to the zipped .shp file with your sample point points or polygons and select it.
 5. This will also work with a CSV File.
+6. You can enable proactive sampling by clicking on the checkbox next to **Allow users to draw their own samples**.
 
 .. thumbnail:: ../_images/project23.png
-    :title: Uploading a SHP file for the samples
+    :title: Uploading a SHP file for the samples & enabling user drawn samples.
     :align: center
     :width: 50%
 

@@ -15,14 +15,9 @@ How to add questions and answers
 
 CEO provides a straightforward way to ask multiple-choice questions. As the most common question type used, we will use it for this example. In CEO, these questions are called “button—text” questions as in data collection they display as a button with text.
 
-.. tip:: 
-   
-    Questions of this type are useful for land use and land cover surveys, or anywhere where you want the user to choose between a limited set of mutually exclusive options. 
-
 .. thumbnail:: ../_images/project27.png
     :title: The new question form
     :align: center
-    :width: 50%
 
 1. To start, type your first question into the **Question Text** box. Since it is your first question, you cannot assign a **Parent Question** or **Parent Answers** for the question.
 
@@ -32,28 +27,32 @@ CEO provides a straightforward way to ask multiple-choice questions. As the most
 2. Click **[+ Add Survey Question]** to create your first **Survey Card**.
 3. You can now add Answers to your question. Answers have two parts: a color and a text box.
 
-   1. Click on the **[blue rectangle]** to bring up the **Color Selector.** You can move the color selector dot, use the eyedropper tool, or type in RGB values (0-255). Click off of the color selector when you are done. The color you choose will be associated with the answer. When a data collector selects that answer, any sample points assigned that answer would also be assigned that color to display on the map.
+   - Click on the **[blue rectangle]** to bring up the **Color Selector.** You can move the color selector dot, use the eyedropper tool, or type in RGB values (0-255). Click off of the color selector when you are done. The color you choose will be associated with the answer. When a data collector selects that answer, any sample points assigned that answer would also be assigned that color to display on the map.
 
-      .. thumbnail:: ../_images/project28.png
-          :title: The color selector
-          :align: center
-          :width: 50%
+     .. thumbnail:: ../_images/project28.png
+         :title: The color selector
+         :align: center
+         :width: 50%
 
-   2. You can type your answer into the **Text Box**. 
-   3. Click the green **[+]** symbol to add the answer.
+   - You can type your answer into the **Text Box**. 
+   - Click the green **[+]** symbol to add the answer.
       
-      .. tip::
-          Try to type answers with around 15 characters or less so that the full name is displayed during data collection.
+     .. tip::
+         Try to type questions with less than 45 characters and answers with around 15 characters or less so that the full text is displayed during data collection.
 
-   4. Continue adding answers until all the answers to your first survey question have been added.
-   5. You can also use the **[Bulk Add]** button to add multiple color and answer pairs.
+   - Continue adding answers until all the answers to your first survey question have been added.
+   - You can also use the **[Bulk Add]** button to add multiple color and answer pairs.
 
-      .. thumbnail:: ../_images/project29.png
-          :title: The bulk answer addition screen
-          :align: center
-          :width: 50%
+     .. thumbnail:: ../_images/project29.png
+         :title: The bulk answer addition screen
+         :align: center
 
-   6. Now that you have a top-level, or parent, question with answers for your survey card, you can edit and delete questions and answers, as well as add child questions and child questions that appear only when specific answers are chosen.
+   - Now that you have a top-level, or parent, question with answers for your survey card, you can edit and delete questions and answers, as well as add child questions and child questions that appear only when specific answers are chosen.
+
+.. tip:: 
+   
+    "Button—text" questions are useful for land use and land cover surveys, or anywhere where you want the user to choose between a limited set of mutually exclusive options. 
+
 
 Delete and edit questions
 -------------------------
@@ -61,12 +60,12 @@ Delete and edit questions
 You can delete or edit your questions and answers after you create them.
 
 - To delete a question or a specific answer, click on the **[Trashcan]** icon next to the question or answer you would like to delete.
-- To edit a question or an answer, first type your edits into the box, then click the **Save** icon next to the edited question or answer.
+- To edit a question or an answer, first type your edits into the box, then click the **[Save]** icon next to the edited question or answer.
 
 .. thumbnail:: ../_images/project30.png
     :title: Edit a question
     :align: center
-    :width: 50%
+    :width: 80%
 
 Parent and child questions
 --------------------------
@@ -87,26 +86,26 @@ You can create extensive lists of land cover classification options for data col
 .. note::
    Deleting a parent question with children will delete the children questions as well.
 
-And here is how a survey card with parent/child questions appears on the data collection page initially:
+Here is how a survey card with parent/child questions appears on the data collection page initially:
 
 .. thumbnail:: ../_images/project31.png
     :title: The initial state of the question
     :align: center
-    :width: 50%
+    :width: 80%
 
 And after selecting “Answer #1”:
 
 .. thumbnail:: ../_images/project32.png
     :title: After selecting answer 1
     :align: center
-    :width: 50%
+    :width: 80%
 
 And after selecting “Answer #2”:
 
 .. thumbnail:: ../_images/project33.png
     :title: After selecting answer 2
     :align: center
-    :width: 50%
+    :width: 80%
 
 The child question with no parent answer will appear when either answer is selected. The child question with “Answer #2” as the parent answer only appears when “Answer #2” is selected.
 
@@ -117,7 +116,7 @@ When you are done creating child questions, you can create your next survey card
 Manipulating the survey cards
 -----------------------------
 
-You can collapse a survey card by clicking the [-] symbol in the upper left.
+You can collapse a survey card by clicking the **[-]** symbol in the upper left.
 
 You can change the order of the Survey Cards by clicking the **[blue up & down arrows]** in the top right.
 
@@ -131,7 +130,6 @@ The **Component Types** include combinations of four question types and three da
 .. thumbnail:: ../_images/project35.png
     :title: The dropdown menu of question types
     :align: center
-    :width: 50%
 
 The four question types are:
 
@@ -146,7 +144,7 @@ The three data types allowed are:
 - **Text:** Use this when you have multiple options which are text strings. They may include letters, numbers, or symbols.
 - **Number:** Use this when you have multiple options that are numbers,  which do not contain letters or symbols.
 
-For the Input type only, you can choose whether to require an answer during data collection.
+For the **Input** type only, you can choose whether to require an answer during data collection.
 
 - Leave this box unchecked if you don’t want users to always collect the information. This is useful for adding optional details about a plot.
 - Be sure to check the box if you need the question to be answered.
@@ -154,7 +152,6 @@ For the Input type only, you can choose whether to require an answer during data
 .. thumbnail:: ../_images/project36.png
     :title: The text required checkbox
     :align: center
-    :width: 50%
 
 Following are examples of how each question type listed under **Component** Type appears in the **Data Collection** screen, and notes on when each type might be useful.
 
@@ -177,10 +174,6 @@ The **Button—number** option, coupled with numeric answers, allows you to impl
 .. tip::
 
     **Button—text** and **Button—number** are useful when you want the user to classify each sample point as one of many different options. Different sample points can be assigned different answers. These are a great option for land use and land cover questions. 
-
-.. tip::
-    
-    Try to use answer names with 15 characters or less so that the full name is displayed during analysis.
 
 **Input—text:**
 

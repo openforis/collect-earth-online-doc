@@ -14,28 +14,28 @@ For analyses comparing two or more time periods, you may need to toggle between 
 
 .. thumbnail:: ../_images/collect10.png
    :title: Start and end dates for imagery.
-   :width: 70%
+   :width: 60%
    :align: center
 
 6. Some imagery options also allow you to choose a feature profile for the imagery. This is essentially a filter that the imagery provider puts on their data. For example, the Cloud Cover Profile filters out imagery with too much cloud cover.
 
 .. thumbnail:: ../_images/collect11.png
    :title: Different profiles available.
-   :width: 70%
+   :width: 60%
    :align: center
 
 7. For the Planet Daily data, you will see a list of checkboxes pop up just to the left of the **Imagery Options**. You can use these checkboxes to refine the dates of the map data you want to see displayed. Planet Daily imagery is received as a stack of images. CEO displays the imagery and the checkboxes in the same order that Planet Daily provides this imagery stack. That is, the top date is also the top layer in the imagery stack. If you turn the top image off by unchecking the box, you will see the next date’s image is now on top. It is like looking through a stack of photographs, removing the top one reveals the photo underneath.
 
 .. thumbnail:: ../_images/collect12.png
    :title: Planet Daily data selection.
-   :width: 60%
+   :width: 50%
    :align: center
 
 8. If your project uses SecureWatch Imagery, you will be able to select a range of dates (under **Select Range**) or specific dates (under **Select Dates**). Your institution will have set a default range of dates when the project was created. The list of **Available Dates** will automatically    populate with the available dates for the sample plot you are looking at. When you answer a question, the date or range of dates will be recorded. Please refer to any specific instructions your institution has given you regarding which imagery options to use for SecureWatch.
 
 .. thumbnail:: ../_images/collect13.png
    :title: SecureWatch imagery options.
-   :width: 70%
+   :width: 50%
    :align: center
 
 9.   Make sure you also refer to the second tab, where the Geo-Dash information is presented. The time series information that is presented in the Geo-Dash window is also helpful in determining if change has occurred on the landscape.
@@ -54,7 +54,7 @@ Seasonality issues can occur when different land uses appear different between s
 2.   You can also look at the Geo-Dash page for the plot to see if there is any NDVI or other additional information that could help you.
 3.   You can also click on **Download Plot KML** to download a .kml file to view in Google Earth. Google Earth has multiple current and historic imagery sources that can help you identify a plot.
 
-Adjusting the zooom level
+Adjusting the zoom level
 -------------------------
 
 Zooming in and out to gather contextual clues from the landscape is important for multiple land use and land cover types. For example:

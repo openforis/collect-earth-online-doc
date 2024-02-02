@@ -1,17 +1,17 @@
 Survey Rules
 ============
 
-Survey rules help ensure users collect logical and correct answers. If you do not want to add any rules, you can just click **Next**.
-
-.. thumbnail:: ../_images/project47.png
-    :title: The Rule Type drop down menu
-    :align: center
-    :width: 90%
+Survey rules help ensure users collect logical and correct answers. If you do not want to add any rules, you can just click **[Next]**.
 
 Rule Types
 ----------
 
 You can select one of multiple different rule types, depending on your needs and the types of questions you have included in your Survey.
+
+.. thumbnail:: ../_images/project47.png
+    :title: The Rule Type drop down menu
+    :align: center
+    :width: 90%
 
 **Text Regex Match**: This rule applies only to **Input—text** questions & their answers. It allows you to verify if the entered value fits, using regular expressions.
 
@@ -41,7 +41,7 @@ For example, if you answer "landcover start = forest" and "change event = defore
 Rule Preview
 ------------
 
-You can preview how the rules will look for users in the Question Preview pane by mousing over and clicking on the **[Rule]** icon (clipboard).
+You can preview how the rules will look for users in the **Question Preview** pane by mousing over and clicking on the **[Rule]** icon (clipboard).
 
 .. thumbnail:: ../_images/project48.png
     :title: Preview how rules will look for users
@@ -53,7 +53,6 @@ Clicking on the **[Rule]** icon will show a list of rules.
 .. thumbnail:: ../_images/project49.png
     :title: A list of rules
     :align: center
-    :width: 90%
 
 Navigating back to the Survey Questions tab will also show when questions have Rules associated with them. Mousing over the **Rule** will display the rule text.
 
