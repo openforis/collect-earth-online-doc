@@ -54,18 +54,17 @@ Clicking on the **[Rule]** icon will show a list of rules.
     :title: A list of rules
     :align: center
 
-Navigating back to the Survey Questions tab will also show when questions have Rules associated with them. Mousing over the **Rule** will display the rule text.
+Navigating back to the Survey Questions tab will also show when questions have Rules associated with them. Mousing over the **[Rule]** icon will display the rule text.
 
 .. thumbnail:: ../_images/project50.png
     :title: Rules on the survey card setup
     :align: center
     :width: 90%
 
-Data collectors will be able to view any rules you implement by mousing over the rules icon.
+Data collectors will be able to view any rules you implement by mousing over the **[Rule]** icon.
 
 .. thumbnail:: ../_images/project51.png
     :title: The view for data collectors
     :align: center
-    :width: 90%
 
 They will see an error if they try to enter an answer that conflicts with the rules.
