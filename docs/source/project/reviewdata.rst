@@ -11,7 +11,6 @@ Disagreement is provided as a percentage and represents how far apart users’ r
 .. thumbnail:: ../_images/review1.png
     :title: Admin Review interface
     :align: center
-    :width: 50%
 
 .. tip::
   

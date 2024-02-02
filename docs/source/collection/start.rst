@@ -18,7 +18,7 @@ Now it is time to contribute to a project. Make sure you have clicked on **Go to
 
    .. thumbnail:: ../_images/collect1.png
       :title: Selecting an answer.
-      :width: 80%
+      :width: 100%
       :align: center
 
    - If it is hard to answer the question because the basemap imagery does not provide enough detail, try changing the imagery as described in :doc:`preparing`.

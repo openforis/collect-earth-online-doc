@@ -26,6 +26,7 @@ Navigate to other areas of this article by by selecting links under **On this pa
     
    This documentation uses a few formatting standards for ease of use. Clickable links are shown **[like this]**. The names of pages, like the **Home** page, are bolded.
 
+Finally, CEO is a live tool that is under continuous development. Please report any bugs at our GitHub or by contacting `the CEO team <support@collect.earth>`__.
 
 .. toctree::
     :maxdepth: 1

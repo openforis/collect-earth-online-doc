@@ -82,8 +82,8 @@ This section allows you to add general information about the project, including 
 
    - Loading a template will create two checkboxes under **Copy Options**, **Copy Template Plots and Samples** and **Copy Template Widgets**. They are checked by default.
 
-      - If **Copy Template Plots and Samples** is checked, the Plot Review and Sample Design sections will only display an overview of the number of plots, etc. Uncheck this box to change those parameters.
-      - **Copy Template Widgets** refers to Geo-Dash options covered in :doc:`geodash`.
+     - If **Copy Template Plots and Samples** is checked, the Plot Review and Sample Design sections will only display an overview of the number of plots, etc. Uncheck this box to change those parameters.
+     - **Copy Template Widgets** refers to Geo-Dash options covered in :doc:`geodash`.
 
 2. Enter the project’s **Name** and **Description**.
 
