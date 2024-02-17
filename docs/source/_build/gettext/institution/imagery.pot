@@ -1,0 +1,1091 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Collect Earth Online team
+# This file is distributed under the same license as the Collect Earth Online package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Collect Earth Online \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-16 15:21-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../institution/imagery.rst:2
+#: 1c5a083cf7934aba939f4ea3905bd173
+msgid "Built-in & custom imagery sources"
+msgstr ""
+
+#: ../../institution/imagery.rst:4
+#: 6697000febd34ff3bd6a4588b86ab7cd
+msgid "There are two main ways to add background, or basemap imagery to your Institution for use in your Projects. First, CEO includes a handful of built-in imagery options, including imagery from MapBox, Planet NICFI Public, and Sentinel. Second, CEO allows users to connect their own imagery from many different sources, including Google Earth Engine, Bing Maps, XYZ tiles, WMS and more."
+msgstr ""
+
+#: ../../institution/imagery.rst:7
+#: 26ac29a9f5a44b52bdd03047c6ee4d08
+msgid "Built-in base imagery sources"
+msgstr ""
+
+#: ../../institution/imagery.rst:9
+#: 6ae2d1c6006e420180d604eaa674e3b0
+msgid "There are a handful of built-in imagery options in CEO. Each of these options has different strengths and limitations."
+msgstr ""
+
+#: ../../institution/imagery.rst:12
+#: 69216182637c4045a2ed43bad961f248
+msgid "Mapbox"
+msgstr ""
+
+#: ../../institution/imagery.rst:14
+#: 14ca95bb9d794d3aac944870317fd8dc
+msgid "MapBox is an open-source mapping platform for custom designed maps. The satellite imagery uses different sources based on the zoom level and geographic availability. According to Mapbox's documentation:"
+msgstr ""
+
+#: ../../institution/imagery.rst:17
+#: 4d20f1915068438d8478341bd47235e4
+msgid "Zoom levels 0–8 use de-clouded data from NASA MODIS satellites."
+msgstr ""
+
+#: ../../institution/imagery.rst:18
+#: 9425a82ecddb4c38a55639ba9001caa0
+msgid "Zoom levels 9–12 use Maxar satellite imagery along with NASA/USGS Landsat 5 & 7 imagery in limited locations."
+msgstr ""
+
+#: ../../institution/imagery.rst:19
+#: 9a49eb88c2954a0a8f224dddfa0c3ad8
+msgid "Zoom levels 13+ use a combination of open and proprietary sources, including Maxar's Vivid product for most of the world, Nearmap aerial imagery over US cities, and open aerial imagery from Denmark, France, Germany and other regions."
+msgstr ""
+
+#: ../../institution/imagery.rst:21
+#: 4a4d52b899484b55ad18071394f8bb64
+msgid "More information can be found `in Mapbox's documentation <https://docs.mapbox.com/data/tilesets/reference/mapbox-satellite/>`__."
+msgstr ""
+
+#: ../../institution/imagery.rst:23
+#: 37618173e7c74b5aacca771fa1c07b3b
+msgid "MapBox Satellite and Mapbox Satellite w/Labels are thus composite satellite imagery, where each map tile may be stitched together from imagery acquired on multiple dates. There is not necessarily a single date for an imagery tile. This is the same as, for example, Google Maps and Bing Aerial Imagery."
+msgstr ""
+
+#: ../../institution/imagery.rst:25
+#: 370d3488028c4f259db95a06accb9e84
+msgid "CEO uses Mapbox's satellite layer as well as one with place and landmark labels."
+msgstr ""
+
+#: ../../institution/imagery.rst:29
+#: 1f85fc186dc542508e09af233bc20434
+msgid "Maxar has eliminated multiple data products that were previously available on CEO, including: DigitalGlobeRecentIMagery; DigitalGlobeRecentImagery+Streets; DigitalGlobeWMSImagery; and EarthWatch."
+msgstr ""
+
+#: ../../institution/imagery.rst:32
+#: 8d413ba76389429b9924f6d449c80281
+msgid "Planet NICFI Public"
+msgstr ""
+
+#: ../../institution/imagery.rst:34
+#: 61f788cc742b47d7ae6c872b6b3423f8
+msgid "Planet NICFI Public is imagery available through a partnership between Norway's Ministry of Climate and Environment, specifically Norway's International Climate and Forest Initiative (NICFI) and Planet. Along with other partners, they have made high-resolution (sub 5 m pixel) imagery available in the tropics. These maps are available on a biannual basis between December 2015 and August 2020 and on a monthly basis after September 2020."
+msgstr ""
+
+#: ../../institution/imagery.rst:36
+#: 9bfef4c61fb64777a4541cca4da4ec1e
+msgid "More information can be found `on Planet's website <https://www.planet.com/pulse/planet-ksat-and-airbus-awarded-first-ever-global-contract-to-combat-deforestation/>`__."
+msgstr ""
+
+#: ../../institution/imagery.rst:45
+#: 9615aabab4e845d5bfaee9fe10203e47
+msgid "Adding custom basemap imagery"
+msgstr ""
+
+#: ../../institution/imagery.rst:47
+#: 4acd9b5e9ca44ecd878837c7cac8bf67
+msgid "The built-in imagery is not sufficient as basemaps for some projects, including projects comparing land uses between two time periods, or projects that need imagery from specific dates or months. CEO allows institutions to add new imagery sources through their **Institution** page. This section discusses the different imagery types that can be added."
+msgstr ""
+
+#: ../../institution/imagery.rst:49
+#: ac5253c00ae94b7d98dc808f61a2f0ba
+msgid "The instructions below assume you are starting on your :doc:`Institution page <create>` and are logged in as an Administrator for your Institution."
+msgstr ""
+
+#: ../../institution/imagery.rst:51
+#: 9af94aea2b9b43f0a44669c9dc42df9a
+msgid "Under the **Imagery** panel on the **Institution** page, click **[Add New Imagery]**. Under **Select** Type you will see multiple different options. Some, including WMS Imagery and XYZ Imagery, are protocols that can be applied broadly, while other options connect to specific data sources that you generally need to subscribe to."
+msgstr ""
+
+#: ../../institution/imagery.rst:53
+#: dc57a916222a4bb7b60c1f9db2f905c7
+msgid "For Bing Maps, Planet Monthly, Planet Daily, Planet NICFI, SecureWatch, and the MapBox products you will first need to locate your no-authentication API key. You will be asked to provide this key in the CEO imagery setup panel."
+msgstr ""
+
+#: ../../institution/imagery.rst:55
+#: ae46e94d6ad24d63a45fd17484206d6d
+msgid "We will now talk about how to add imagery for each of these options."
+msgstr ""
+
+#: ../../institution/imagery.rst:65
+#: ../../institution/imagery.rst:366
+#: 9aaad94d31ae49659f62b80ef50806bc
+#: bc7657cf026047239de92ba1260dd915
+msgid "WMS Imagery"
+msgstr ""
+
+#: ../../institution/imagery.rst:67
+#: bc41b71ab65b4cf0967366748bc8852a
+msgid "This option can be used to access data your Institution hosts or data services that use WMS or WTMS. Imagery must be accessible using WMS or WTMS. Images stored locally on a user's computer cannot be added to a CEO project, although they can be accessed if you upload them to a WMS or WTMS (as a basemap), or as a Google Earth Engine Asset (for Geo-Dash and/or basemap)."
+msgstr ""
+
+#: ../../institution/imagery.rst:69
+#: bd830b55db24455fbb36cd7b87b22454
+msgid "The information needed to set up the WMS server will differ based on the specific imagery you are."
+msgstr ""
+
+#: ../../institution/imagery.rst:71
+#: 00aabf2976fd475bb8732a809cfa1da6
+msgid "The first step of preparing to connect to your WMS with CEO is checking that your WMS is compatible with CEO."
+msgstr ""
+
+#: ../../institution/imagery.rst:73
+#: f4a65046fb98460bb0c4224a96353b30
+msgid "CEO requests data in EPSG:3857. Your WMS server is responsible for reprojecting the imagery it hosts into this requested projection."
+msgstr ""
+
+#: ../../institution/imagery.rst:74
+#: 66c34f891c474ab9a6631891e7030e0e
+msgid "CEO requires the servers to use the https protocol."
+msgstr ""
+
+#: ../../institution/imagery.rst:76
+#: 2a2d62d05de94d479dba099bc1ae0373
+msgid "Second, to connect your web map service (WMS) to CEO, you need to gather three pieces of information: the base URL for your WMS, the layer name that you want, and any parameters your WMS requires to serve imagery."
+msgstr ""
+
+#: ../../institution/imagery.rst:78
+#: ../../institution/imagery.rst:109
+#: ../../institution/imagery.rst:140
+#: ../../institution/imagery.rst:162
+#: ../../institution/imagery.rst:178
+#: ../../institution/imagery.rst:194
+#: ../../institution/imagery.rst:206
+#: ../../institution/imagery.rst:218
+#: ../../institution/imagery.rst:232
+#: ../../institution/imagery.rst:255
+#: ../../institution/imagery.rst:273
+#: ../../institution/imagery.rst:319
+#: ../../institution/imagery.rst:330
+#: ../../institution/imagery.rst:342
+#: acb13f70c08140ff82755f82d84e53f9
+#: c719a3d31d1e4e748abda45de5723dff
+#: 0d00c006360f42cfad6d6bdd10637a5a
+#: 85066656b98a4efe8c93d4c315633173
+#: fbf3bec4a5f64441b688aa0c64b7e132
+#: f6966b2307a346aaa561042ca80fe78b
+#: e27769355ddc4f40ba54a350eeaf60b8
+#: 8d0c26a9f5624c119b51d89f0e272c10
+#: a5795a92cce14a99851317394ee4785b
+#: b12e8fa8445944c6a455ae53e1fe6234
+#: 62dec43e093b4be3b0d345919c0db1be
+#: a2728566336c4706bb06652b1ba12710
+#: 976d2a7a4c77450ea95993fcfceb95da
+#: e528ccd3bfdf47dcab7e98e2c017c308
+msgid "**Title:** This will be the displayed name of the imagery."
+msgstr ""
+
+#: ../../institution/imagery.rst:79
+#: 7fc968fc06fe44cca5ee16218dfed9fc
+msgid "**Attribution**: This is the displayed attribution for your imagery. It will appear at the top of the map while users perform data collection tasks."
+msgstr ""
+
+#: ../../institution/imagery.rst:80
+#: da190a8ac90142bdb45fb35837e87c9b
+msgid "**URL**: This should be the URL of your WMS/WTMS. It should be preceeded by https://"
+msgstr ""
+
+#: ../../institution/imagery.rst:81
+#: 101928d14f934487abeb2c82021f07b3
+msgid "**Layer Name**: This is the layer name from your server that you want to display."
+msgstr ""
+
+#: ../../institution/imagery.rst:82
+#: b56b0542ec094f04bdd66eb2827632eb
+msgid "**Params (as JSON object)**: If there are any parameters for the layer you want to specify, put them here as a JSON object. Documentation for the WMS getMapService is available online `here <https://docs.geoserver.org/stable/en/user/services/wms/reference.html#getmap>`__. These work only if they are parsed by the target WMS. Here are some examples::"
+msgstr ""
+
+#: ../../institution/imagery.rst:90
+#: 53ce286362ce48dd86c6f57499051603
+msgid "Quotes **MUST BE** ASCII/neutral/vertical quotation marks. Using “” smart/typographic/curved quotation marks will cause errors. Use only Unicode U+0022 and U+0027."
+msgstr ""
+
+#: ../../institution/imagery.rst:92
+#: 517475bd935347718f9a3f5dc1755eaa
+msgid "If you need to proxy your imagery for your WMS, please check **Proxy Imagery**. You may need this option if you need to obfuscate a key for your WMS or WTMS."
+msgstr ""
+
+#: ../../institution/imagery.rst:93
+#: ../../institution/imagery.rst:143
+#: ../../institution/imagery.rst:166
+#: ../../institution/imagery.rst:182
+#: ../../institution/imagery.rst:198
+#: ../../institution/imagery.rst:210
+#: ../../institution/imagery.rst:224
+#: ../../institution/imagery.rst:247
+#: ../../institution/imagery.rst:258
+#: ../../institution/imagery.rst:278
+#: ../../institution/imagery.rst:322
+#: ../../institution/imagery.rst:334
+#: ../../institution/imagery.rst:343
+#: c2ee7e7cd79549e59cb211e6b9bb150a
+#: 4c214e2efc6b418ebec61b2072bc5c74
+#: 3fffae52c7f0474195a711807737d128
+#: e56ccf98a36e4313a10ae12786dfa38c
+#: f025e60c91da4123a9dadb2fe01844e6
+#: 20e38980dd1a4e8b9b2322284726dd52
+#: 83183999b93d4d9d9a815d598ab87df0
+#: ad9cc2e4642f42df9ec810c2378166fe
+#: 53dcf6c4f8e64ec3997b8bf2734114d2
+#: d22471ca59114d8a924bfcd5d3da0815
+#: ba826f22d5b642f381d1cb294f76329d
+#: b8e2dc697559478d97b42b9620afa27d
+#: 55a7e738dbe2498eaafb718970ef6914
+msgid "If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**"
+msgstr ""
+
+#: ../../institution/imagery.rst:95
+#: ../../institution/imagery.rst:124
+#: ../../institution/imagery.rst:144
+#: ../../institution/imagery.rst:167
+#: ../../institution/imagery.rst:183
+#: ../../institution/imagery.rst:199
+#: ../../institution/imagery.rst:211
+#: ../../institution/imagery.rst:225
+#: ../../institution/imagery.rst:248
+#: ../../institution/imagery.rst:259
+#: ../../institution/imagery.rst:279
+#: ../../institution/imagery.rst:323
+#: ../../institution/imagery.rst:335
+#: ../../institution/imagery.rst:344
+#: 59655f2efe2545faa9d6e2a9286edb11
+#: 3cfad58702b84b0d94684053c6c7a214
+#: a76ffb68062541f7be550d9ec371ed07
+#: 34cd3f55bc60465f9cf1f2176d8b4972
+#: d43c42c9a1534c80a6085c20ac2554c6
+#: 71411d3d66474774a9f1addc2ecd7626
+#: 9a7b25fb21524e8fbc9b7fe2ffe5cdee
+#: 9f83e43452ee4be3ad125ec9e8da8f2b
+#: 8b81274d0fde48a1bc1c2a5c394de164
+#: 8880886322c8426398abc592d79cf518
+#: b60b83bab1ae48a69fbe99df338bb11a
+#: 0f7b959c3e874efc839c95cabbe1ca00
+#: 432f240e9ebc4178aad34bb481fda145
+#: b9902150647e48f7ac26ec2f2b43147e
+msgid "When all fields are filled out, click on **[Add New Imagery]**."
+msgstr ""
+
+#: ../../institution/imagery.rst:102
+#: 6d1da50c0c9b4300a1d87c9aaf73ad9a
+msgid "If you are having trouble, we have posted an extensive how-to and troubleshooting guide on the CEO blog. You can view that guide here: https://collect.earth/blog/add-wms-to-ceo/."
+msgstr ""
+
+#: ../../institution/imagery.rst:105
+#: e32650dd26c643f9af96cf92ae393a3f
+msgid "XYZ Tiles"
+msgstr ""
+
+#: ../../institution/imagery.rst:107
+#: d620bb2330cf48c1880e7aa8d2278858
+msgid "XYZ Tiles is a flexible way of adding imagery. Services you can now add includes any of the adaptations of Open Street Maps, Yandex, and any other service using XYZ."
+msgstr ""
+
+#: ../../institution/imagery.rst:110
+#: 593b379e09e04fc7aa469c95199e664f
+msgid "**Attribution** for the XYZ Imagery. This will be shown to your users in the data collection pane."
+msgstr ""
+
+#: ../../institution/imagery.rst:111
+#: 2200764773dd485a80fbb0ba255199b2
+msgid "Add the **XYZ URL**."
+msgstr ""
+
+#: ../../institution/imagery.rst:113
+#: 61155cebf862449c97615b4e5610727c
+msgid "By default, XYZ uses the widely-used Google grid, where (x,y) (0,0) are in the top left."
+msgstr ""
+
+#: ../../institution/imagery.rst:114
+#: abbb213fe6064b8ea761426e80ebe825
+msgid "In general, it should have the format: <URL>?x={x}&y={y}&z={z} . For example, `https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z} <https://mt1.google.com/vt/lyrs=y&x=%7bx%7d&y=%7by%7d&z=%7bz%7d>`__"
+msgstr ""
+
+#: ../../institution/imagery.rst:115
+#: 5f34fe20b6f741f88c8830a011ad0016
+msgid "You can also use grids where (x,y) (0,0) are in the bottom left. To do so, you will need to use the following format: <URL>?x={x}&y={-y}&z={z}"
+msgstr ""
+
+#: ../../institution/imagery.rst:119
+#: 913160ee03ee4eed8d020480d803c755
+msgid "Sometimes you will need to edit a provided URL to make it compatible with CEO. For example, the Open Street Map WIKI provides the following URL for the German version of Open Street Maps: `https://a.tile.openstreetmap.de/${z}/${x}/${y}.png <https://a.tile.openstreetmap.de/$%7bz%7d/$%7bx%7d/$%7by%7d.png>`__. As provided this will not work. To make it work, you will need to delete the “a.” subdomain and the “$” characters."
+msgstr ""
+
+#: ../../institution/imagery.rst:121
+#: 66ff945fad97431eaa8023b54207837b
+msgid "The edited URL does work in CEO: `https://tile.openstreetmap.de/{z}/{x}/{y}.png <https://tile.openstreetmap.de/%7bz%7d/%7bx%7d/%7by%7d.png>`__"
+msgstr ""
+
+#: ../../institution/imagery.rst:123
+#: f23c9ce3694d48b18043ea2898d19e6b
+msgid "If you want to add this imagery source to all your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**"
+msgstr ""
+
+#: ../../institution/imagery.rst:132
+#: 2ead215be6914d65a983bea4019af945
+msgid "Bing Maps"
+msgstr ""
+
+#: ../../institution/imagery.rst:134
+#: 46ba42320e5348fa84a533646b250ecd
+msgid "This imagery option allows you to add Bing Maps with your own API key. The Bing tile system uses the Mercator projection and has 23 levels of zoom (though not all levels are available in all locations). Commonly, the resolution at max zoom is about 0.3 m per pixel. For more information, see  https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system."
+msgstr ""
+
+#: ../../institution/imagery.rst:138
+#: d7fbd7a9c5f84c56bf690ed8ae1bc9c8
+msgid "*The imagery provided by Bing Maps is composite satellite imagery. This means that each map tile is stitched together from imagery acquired on multiple dates. There is not a single date for an imagery tile*. Some map tiles contain imagery collected over a  multi-day window while other tiles contain imagery collected over a multi-year window. As there is not a single date for an imagery tile, CEO cannot provide the exact date of the imagery used. If you're interested in learning more, the Bing Maps API can be found here:  https://docs.microsoft.com/en-us/bingmaps/rest-services/imagery/imagery-metadata."
+msgstr ""
+
+#: ../../institution/imagery.rst:141
+#: 1f653fe9829b46589331daa58eb0de8a
+msgid "**Imagery Id:** Only Aerial and AerialWithLabels are currently implemented. Note that the AerialWithLabels imagery uses the legacy static tile service, which is deprecated, and current data will not be refreshed. It therefore may have older imagery than the Bing Aerial dataset."
+msgstr ""
+
+#: ../../institution/imagery.rst:142
+#: 8cf2ee0fd41241efb905f7e684cacf97
+msgid "**Access Token:** Your BingMaps key. For more information or to obtain your own key, see https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key."
+msgstr ""
+
+#: ../../institution/imagery.rst:146
+#: 4b5b82b2606849e0ab040b9729b74bdc
+msgid "**Directions for requesting a Bing maps key:**"
+msgstr ""
+
+#: ../../institution/imagery.rst:148
+#: 2f60a30fc1b94a2aba27699e7cfa1d03
+msgid "To use Bing Maps imagery for your projects, you can create your own FREE Bing maps key to connect your institution's projects to your Bing Maps account. The full directions for creating a key are here: https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key."
+msgstr ""
+
+#: ../../institution/imagery.rst:149
+#: cf710dd8cdb1446cad5ed6542e0eaea2
+msgid "Visit https://www.bingmapsportal.com/ to request a Bing key or copy your existing key."
+msgstr ""
+
+#: ../../institution/imagery.rst:150
+#: fc9bb385d3f443b3a6c0cdf4e2b2b5fe
+msgid "Sign in. You will need a Bing maps account or Microsoft account  (https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/creating-a-bing-maps-account)"
+msgstr ""
+
+#: ../../institution/imagery.rst:151
+#: 7db1f8c7a8fb476dbef47dd15a4b332e
+msgid "Once you have logged in, click on **My account**, then click on **My Keys**."
+msgstr ""
+
+#: ../../institution/imagery.rst:152
+#: 61b3aa60f27b4f4c9c77157b063068d5
+msgid "If you already have a key, click **Show key** or **Copy key**."
+msgstr ""
+
+#: ../../institution/imagery.rst:153
+#: fe828db1b26447de845d7488b62e2932
+msgid "If you do not have a key, click on **Click here to create a new key**."
+msgstr ""
+
+#: ../../institution/imagery.rst:154
+#: e7860f736cdd4a5c9025ff8e9df740fd
+msgid "Fill out the information. Application URL is optional, but if you do use it, use https://app.collect.earth as your Application URL"
+msgstr ""
+
+#: ../../institution/imagery.rst:155
+#: f8463cc59e424b8e8414309b1cd78538
+msgid "You will create a **Basic** key. If you need more imagery, you will need to talk to Microsoft and request an **Enterprise key** (https://www.microsoft.com/en-us/maps/create-a-bing-maps-key#enterprise)."
+msgstr ""
+
+#: ../../institution/imagery.rst:158
+#: 145843687ae643c0be523cb87f7545b2
+msgid "Planet Monthly"
+msgstr ""
+
+#: ../../institution/imagery.rst:160
+#: 183214b0d69c44cd8aaa2134afc540e1
+msgid "Planet offers multiple data products (product specification here: https://support.planet.com/hc/en-us/articles/360022233473-Planet-Imagery-Product-Specifications). This option pulls from the Planet Monthly mosaic product, which allows you to display imagery from a specific month. User help is available here: https://developers.planet.com/docs/apps/explorer/."
+msgstr ""
+
+#: ../../institution/imagery.rst:163
+#: ../../institution/imagery.rst:219
+#: ../../institution/imagery.rst:233
+#: 31d031165ea044c1ba0958f41c4d4ff4
+#: 19a13184a0144cadb2a55e24c2052183
+#: 50fa3d22d6fd4377be584cd91bdaac63
+msgid "**Default Year**: The default year that will be displayed when the map loads."
+msgstr ""
+
+#: ../../institution/imagery.rst:164
+#: ../../institution/imagery.rst:220
+#: ../../institution/imagery.rst:234
+#: e9751cf2d18f4b3aa27500be12855f7f
+#: 2adefb580ad64ca28e73206c188b98e8
+#: fb7c95ab18ce484591c64c90e09fc807
+msgid "**Default Month**: The default month that will be displayed when the map loads. Use integer format 1-12."
+msgstr ""
+
+#: ../../institution/imagery.rst:165
+#: 2831415b03454f96ba84454d980bf8b7
+msgid "**Access Token**: Your Planet access token. This can be accessed through your My Account page on the Planet website."
+msgstr ""
+
+#: ../../institution/imagery.rst:171
+#: f73b0037c0cc471b9ec98c0bcf6f53bb
+msgid "Default Year & Default Month will let you put in any integer, positive or negative. The up and down arrow keys start at 0. Please type year in the YYYY format and month as an integer between 1-12."
+msgstr ""
+
+#: ../../institution/imagery.rst:174
+#: 60efbde9789d415e96db39889053db99
+msgid "PlanetDaily"
+msgstr ""
+
+#: ../../institution/imagery.rst:176
+#: 7c6e12c432924902818d98a2411364c0
+msgid "PlanetDaily is another imagery product available from Planet. It allows users to detect land use and land cover change in near real time. This data source allows you to select a start and end date, with up to daily imagery resolution. Your study area might not have full coverage every day."
+msgstr ""
+
+#: ../../institution/imagery.rst:179
+#: b12d53d6eb8e4f25afdaa28175c7cbca
+msgid "**Access Token:** Your PlanetDaily API key. This can be accessed through your My Account page on the Planet website."
+msgstr ""
+
+#: ../../institution/imagery.rst:180
+#: ../../institution/imagery.rst:208
+#: 436aa817665f4165b5c9817c205e8b60
+#: 1921bf12814c496eac6bedb3d707aa3b
+msgid "**Start Date:** Starting date for the imagery you are interested in; you can input the date using numeric keys or with the calendar widget on the right side."
+msgstr ""
+
+#: ../../institution/imagery.rst:181
+#: ../../institution/imagery.rst:209
+#: 71f0f0fe55f9428f8df14fab1c6f96e0
+#: ea4b3a6b3d3d4fff9abedaabf903d543
+msgid "**End Date:** Ending date for the imagery you are interested in."
+msgstr ""
+
+#: ../../institution/imagery.rst:186
+#: 587652039f4e4d0983d900e0115066e1
+msgid "Planet NICFI"
+msgstr ""
+
+#: ../../institution/imagery.rst:188
+#: fabbd5d22c3140cdb8ccb6aa4f7cf0af
+msgid "This allows you to add your own Planet NICFI key, instead of using CEO's."
+msgstr ""
+
+#: ../../institution/imagery.rst:192
+#: 7948702bb7074dcfb7f2ab90d85c5b95
+msgid "You will need an account from the Planet NICFI program: https://www.planet.com/nicfi/. This is separate from your 'normal' Planet account."
+msgstr ""
+
+#: ../../institution/imagery.rst:195
+#: fee9a6c1e4cf4d00bafe19c534baf053
+msgid "**Access Token:** Your Planet NICFI API key. This can be accessed through your My Account page on the Planet website."
+msgstr ""
+
+#: ../../institution/imagery.rst:196
+#: b4db02ec44d4465a9b4bb339be8eeda1
+msgid "**Default Time:** Choose the default time period of imagery to display. Note that the time periods available from NICFI are actively being changed. THESE ARE SUBJECT TO CHANGE BASED ON PLANET AND NICFI's DECISIONS."
+msgstr ""
+
+#: ../../institution/imagery.rst:197
+#: b7bd58ffca4f412fa11234004fe4a7d8
+msgid "**Default Band**: Choice between Visible (RGB) and Infrared false color."
+msgstr ""
+
+#: ../../institution/imagery.rst:202
+#: b962dc26db8b48589729fa1b93c48232
+msgid "SecureWatch Imagery"
+msgstr ""
+
+#: ../../institution/imagery.rst:204
+#: 8b82237682354db6a0ee1a60f921cc8d
+msgid "SecureWatch is a service from Maxar focused on monitoring for new land use/land cover changes and comparing current land use/land cover with over 20 years of historic images. For more information see: https://www.digitalglobe.com/products/securewatch."
+msgstr ""
+
+#: ../../institution/imagery.rst:207
+#: 89d2f1a4ab9f46d5afc7f16bb1d99f1a
+msgid "**Connect ID:** This is your API key. You need to use a no-auth key here, which should be a string of letters and numbers separated by dashes."
+msgstr ""
+
+#: ../../institution/imagery.rst:214
+#: 92a813adad1b44969423b2da00543f4f
+msgid "Sentinel 1 Imagery"
+msgstr ""
+
+#: ../../institution/imagery.rst:216
+#: 6e3008dc12df4d57a224defbcf4a1cf8
+msgid "Sentinel 1 information is only available from April 2014 to present (Sentinel 1A launch). Sentinel data is available in CEO through GEE. If multiple images are available for the region and dates selected, the median reducer is used to produce a single image."
+msgstr ""
+
+#: ../../institution/imagery.rst:221
+#: b081e8ffb87a49e98301d9d991f92fd8
+msgid "**Band Combination**: Preset combinations of bands for most uses. VH and VV are single polarization, VH/VV and HH/HV are dual polarization. More info https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar/acquisition-modes."
+msgstr ""
+
+#: ../../institution/imagery.rst:222
+#: 1ad1e3fd71e4484698530a0a506d2664
+msgid "**Min:** Minimum value for bands that will get mapped to 0 for visualization. This can be one value for all bands, or a value for each of the three bands. This should be one number. Acceptable values for each band's minimum are the same as for Sentinel imagery available through GEE generally; see https://developers.google.com/earth-engine/datasets/catalog/sentinel\\ *.* Min can be as low as -50, but 0 is frequently used."
+msgstr ""
+
+#: ../../institution/imagery.rst:223
+#: 4eefeb34ee724954844a7e066ab3cdba
+msgid "**Max:** Maximum value for bands that will get mapped to 255 for visualization. This can be one value for all bands, or a value for each of the three bands. This should be one number. Acceptable values for each band's maximum are the same as for Sentinel imagery available through GEE generally. See link above. Max can be as high as 1, but .3 is frequently used."
+msgstr ""
+
+#: ../../institution/imagery.rst:228
+#: 7c2d30c9c6bf43adab4dd43332cb963a
+msgid "Sentinel 2 Imagery"
+msgstr ""
+
+#: ../../institution/imagery.rst:230
+#: a196492301204261bc4dcb9b98bdffb1
+msgid "Sentinel 2 imagery is available from June 2015-present. Sentinel 2 imagery is displayed in CEO from GEE. If multiple images are available for the region and dates selected, the median reducer is used to produce a single image."
+msgstr ""
+
+#: ../../institution/imagery.rst:235
+#: c080101471ec410680c467ff0a323b36
+msgid "**Band Combination**: Select one of the options available, including True Color, False Color Infrared, False Color Urban, Agriculture, Healthy Vegetation, and Short Wave Infrared."
+msgstr ""
+
+#: ../../institution/imagery.rst:237
+#: f46f6b02ac67489f86710d2bee9c8119
+msgid "**True Color**: The True color band combination uses the red (B4), green (B3), and blue (B2) channels. Its purpose is to display imagery the same way our eyes see the world. Just like how we see, healthy vegetation is green, urban features often appear white and grey and water is a shade of dark blue depending on how clean it is."
+msgstr ""
+
+#: ../../institution/imagery.rst:238
+#: d103134a3bd742709d8e9bad198201b0
+msgid "**False Color**: The False-color infrared band combination is meant to emphasize healthy and unhealthy vegetation. By using the near-infrared (B8) band, it's especially good at reflecting chlorophyll. It is most commonly used to assess plant density and health, as plants reflect near-infrared and green light while absorbing red. Since they reflect more near-infrared than green, plant-covered land appears deep red. Denser plant growth is darker red. Cities and exposed ground are gray or tan, and water appears blue or black."
+msgstr ""
+
+#: ../../institution/imagery.rst:239
+#: db26f73ef70f407989306e20e9038a0b
+msgid "**False Color Urban**: The false color urban band combination uses SWIR (B12), near-infrared (B8), and blue (B2). This composite is used to visualize urbanized areas more clearly. Vegetation is visible in shades of green, while urbanized areas are represented by white, grey, or purple. Soils, sand, and minerals are shown in a variety of colors."
+msgstr ""
+
+#: ../../institution/imagery.rst:240
+#: 6a3dc68beb3f46438359b59d00216d00
+msgid "**Agriculture:** The agriculture band combination uses SWIR-1 (B11), near-infrared (B8), and blue (B2). It's mostly used to monitor the health of crops because of how it uses short-wave and near-infrared. Both these bands are particularly good at  highlighting dense vegetation that appears as dark green."
+msgstr ""
+
+#: ../../institution/imagery.rst:241
+#: 89f4301fe024479585dc7c25d9a823b1
+msgid "**Healthy Vegetation:** Because near-infrared (which vegetation strongly reflects) and red light (which vegetation absorbs), the vegetation index is good for quantifying the amount of vegetation. The formula for the normalized difference vegetation index is (B8-B4)/(B8+B4). While high values suggest dense canopy, low or negative values indicate urban and water features."
+msgstr ""
+
+#: ../../institution/imagery.rst:242
+#: fa956180d4b74a87bd4cf0405360daee
+msgid "**Short-wave Infrared:** The short-wave infrared band combination uses SWIR (B12), NIR (B8A), and red (B4). This can help to estimate how much water is present in plants and soil, as water reflects SWIR wavelengths. Shortwave-infrared bands are also useful for distinguishing between cloud types (water clouds versus ice clouds), snow and ice, all of which appear white in visible light."
+msgstr ""
+
+#: ../../institution/imagery.rst:244
+#: d8362b16acc74683b97f6f46dba7303f
+msgid "**Min:** Minimum value for bands that will get mapped to 0 for visualization. This can be one value for all bands, or a value for each of the three bands. This should be a single number. Acceptable values for each band's minimum are the same as for Sentinel imagery available through GEE generally; see https://developers.google.com/earth-engine/datasets/catalog/sentinel For example, 0 could be used."
+msgstr ""
+
+#: ../../institution/imagery.rst:245
+#: d349bd89e3404b8b9bc8d8ff0643eece
+msgid "**Max:** Maximum value for bands that will get mapped to 255 for visualization. This should be a single number. Acceptable values for each band's maximum are the same as for Sentinel imagery available through GEE generally. See link above. For example, values of 2800-4000 are frequently used."
+msgstr ""
+
+#: ../../institution/imagery.rst:246
+#: a17c34780dd34f508d964ea1928c0a23
+msgid "**Cloud Score**: Allowable cloud cover. Values can be 0-100."
+msgstr ""
+
+#: ../../institution/imagery.rst:251
+#: ../../institution/imagery.rst:408
+#: fa3e2b47b7a54d719783baa9eb357a07
+#: 0ec1779f4e1340f18fded99b55370467
+msgid "GEE Image Asset"
+msgstr ""
+
+#: ../../institution/imagery.rst:253
+#: ../../institution/imagery.rst:271
+#: 25783aff147748f2a6e3913549ffb4fd
+#: b8c8c7ac97074b1a8920fe7bef0c1354
+msgid "Google Earth Engine (GEE) Assets include user's uploaded assets along with assets provided by other users and GEE. Information on Assets can be found here: https://developers.google.com/earth-engine/guides/asset_manager. More detail on uploading your own assets is below. Note that Image Asset refers to a single image (e.g. a GeoTIFF layer) while ImageCollection Asset refers to a stack of images (e.g. GeoTiff layers of the same location over different dates)."
+msgstr ""
+
+#: ../../institution/imagery.rst:256
+#: c775b7b1de4b4d99b989c940d22caef0
+msgid "**Asset ID:** The Asset ID for your image asset. Will have a format similar to: USDA/NAIP/DOQQ/n_4207309_se_18_1_20090525"
+msgstr ""
+
+#: ../../institution/imagery.rst:257
+#: 41562d0387ed422eaa76100eef21ecba
+msgid "**Visualization Parameters (JSON format)**: Any visualization parameters for your layer. For example, {\"bands\":[\"R\",\"G\",\"B\"],\"min\":90,\"max\":210}"
+msgstr ""
+
+#: ../../institution/imagery.rst:266
+#: 618bc0d73e0f49be9e9f4cf0b14f12c5
+msgid "We have created an extensive how-to and troubleshooting guide for adding GEE Image Assets and Image Collection Assets to CEO. It is available in CEO's blog here: https://collect.earth/blog/connecting-gee-raster-data/. Additionally, we have directions for uploading your own image assets to GEE in the following section."
+msgstr ""
+
+#: ../../institution/imagery.rst:269
+#: ../../institution/imagery.rst:413
+#: 4ee9a9716ca34acbb61a3f538f1eecba
+#: fa11ef5fef194b3a8cb8dd88da452478
+msgid "GEE ImageCollection Asset"
+msgstr ""
+
+#: ../../institution/imagery.rst:274
+#: 41b02491f33d4310a242dd15cc66ef43
+msgid "**Asset ID:** The Asset ID for your image asset. Will have a format similar to: LANDSAT/LC08/C01/T1_SR."
+msgstr ""
+
+#: ../../institution/imagery.rst:275
+#: dd44f86e00dc410c9878d6cf82be9183
+msgid "**Start Date**: The default start date of imagery to display."
+msgstr ""
+
+#: ../../institution/imagery.rst:276
+#: af09f85e77e641d9bfa5286f079a498c
+msgid "**End Date**: The default end date of imagery to display."
+msgstr ""
+
+#: ../../institution/imagery.rst:277
+#: c2674325431c412b953e6c2578fffcd8
+msgid "**Visualization Parameters (JSON format)**: Any visualization parameters for your layer. For example, {\"bands\":[\"B4\",\"B3\",\"B2\"],\"min\":0,\"max\":2000}"
+msgstr ""
+
+#: ../../institution/imagery.rst:282
+#: 321a87db5dfe43128ef7fdcb208f8ef8
+msgid "To display the GEEImageCollection, CEO uses the 'mean' reducer in Earth Engine. This takes the mean of any images in the image collection during the time period specified."
+msgstr ""
+
+#: ../../institution/imagery.rst:284
+#: 0f5313385cc549fb9a48bc3ecc8976f0
+msgid "We have created an extensive how-to and troubleshooting guide for adding GEE Image Assets and Image Collection Assets to CEO. It is available in CEO's blog here: https://collect.earth/blog/connecting-gee-raster-data/."
+msgstr ""
+
+#: ../../institution/imagery.rst:286
+#: f5c60a7764b8400a883e7067c0a876dd
+msgid "**Uploading GeoTIFF images to GEE:**"
+msgstr ""
+
+#: ../../institution/imagery.rst:288
+#: 5960782b0dfb4194beb28a1486e78f66
+msgid "Visit https://code.earthengine.google.com/|"
+msgstr ""
+
+#: ../../institution/imagery.rst:289
+#: c0ccaa7b930a48f8979c279d39aa9970
+msgid "Navigate to **Assets**"
+msgstr ""
+
+#: ../../institution/imagery.rst:290
+#: 09168f8931a04488a8b56d18105fbdef
+msgid "Click **New**, then under **Image Upload** click **GeoTIFF**."
+msgstr ""
+
+#: ../../institution/imagery.rst:297
+#: 66682c822aea40338c1953f59d37f49c
+msgid "A new window will pop up. Click **Select** and navigate to the GeoTIFF asset."
+msgstr ""
+
+#: ../../institution/imagery.rst:298
+#: 65f4ab131ced4c6dad7d0151ae84016a
+msgid "Alter the **Asset ID** name if you would like."
+msgstr ""
+
+#: ../../institution/imagery.rst:299
+#: e112ec2c6a6546d79ba3d71db3d58b1e
+msgid "Check the default settings, e.g. if your data has a start/end time then add those."
+msgstr ""
+
+#: ../../institution/imagery.rst:300
+#: 3d1111d038bc433e8c91859295982cdc
+msgid "Click **Upload.**"
+msgstr ""
+
+#: ../../institution/imagery.rst:307
+#: 4efe5ac68b2849798defae10b0b64be1
+msgid "Wait for your asset to upload. When it does, click on the asset name and a new window will pop up."
+msgstr ""
+
+#: ../../institution/imagery.rst:308
+#: fbe2cfe9003d40779262919b8559ae0c
+msgid "Next to ImageID there are two interlocking squares."
+msgstr ""
+
+#: ../../institution/imagery.rst:309
+#: 4ff3bee4296246fb8e1440e6fa07a77d
+msgid "Click on this to copy your ImageID to the clipboard (you'll need this to connect to CEO)."
+msgstr ""
+
+#: ../../institution/imagery.rst:311
+#: 07f01e1d33904753a76627d29ebf3129
+msgid "You can also click on the “Bands” tab to get more information about your image. This is very useful for specifying your visualization parameters in CEO."
+msgstr ""
+
+#: ../../institution/imagery.rst:312
+#: 0c107a4061ef4741a626ab2961cab293
+msgid "Can also add gamma etc. information, see  https://developers.google.com/earth-engine/guides/image_visualization."
+msgstr ""
+
+#: ../../institution/imagery.rst:315
+#: 266f8b4d76414f1aba4938930d952554
+msgid "MapBox Raster"
+msgstr ""
+
+#: ../../institution/imagery.rst:317
+#: 65b28c9d3f9044beba3079c633b29a05
+msgid "MapBox Raster serves raster tiles including Mapbox Satellite. For more information see: https://docs.mapbox.com/help/glossary/raster-tiles-api/."
+msgstr ""
+
+#: ../../institution/imagery.rst:320
+#: cc51641bf53842b295f5da727608b3a6
+msgid "**Layer Name** is the desired layer name from MapBox."
+msgstr ""
+
+#: ../../institution/imagery.rst:321
+#: d558be11df6d43efac9b4f4d78d25b55
+msgid "**Access Token** will be your no-auth key from MapBox. For more information, see https://docs.mapbox.com/help/glossary/raster-tiles-api/."
+msgstr ""
+
+#: ../../institution/imagery.rst:326
+#: b1807eed43244caea867632fb83c08af
+msgid "MapBox Static"
+msgstr ""
+
+#: ../../institution/imagery.rst:328
+#: 08df120f1683480fa843426bb8ca3782
+msgid "Mapbox Static serves raster tiles generated from a `Mapbox GL <https://docs.mapbox.com/help/glossary/mapbox-gl/>`__-based style. This API has additional parameters that can be used to refine the results of a request. More information see: https://docs.mapbox.com/help/glossary/static-tiles-api/."
+msgstr ""
+
+#: ../../institution/imagery.rst:331
+#: 6b177e39d3a549fd9d073f2a9dfb2652
+msgid "**User Name** will be your MapBox user name."
+msgstr ""
+
+#: ../../institution/imagery.rst:332
+#: f02bee42e6374d2195c8f36584a93d24
+msgid "**Map Style ID** will be the id from MapBox."
+msgstr ""
+
+#: ../../institution/imagery.rst:333
+#: 65b8f6850c184724a6f4cea26fefdb51
+msgid "**Access Token** will be your MapBox no-auth key. For more information see https://docs.mapbox.com/help/glossary/static-tiles-api/."
+msgstr ""
+
+#: ../../institution/imagery.rst:338
+#: 918f85cd355c477285b0b99313d62eed
+msgid "Open Street Maps"
+msgstr ""
+
+#: ../../institution/imagery.rst:340
+#: 37776eb9634c4786bab72b8c4431c256
+msgid "Open streets Maps is an open source mapping product. This provides Open Street Map's Standard Tile Layer. This product is useful for orienting users, since it has street and place names."
+msgstr ""
+
+#: ../../institution/imagery.rst:352
+#: a0d2f0eb14824a41a12cf7df84a7186f
+msgid "Notes on imagery"
+msgstr ""
+
+#: ../../institution/imagery.rst:354
+#: 56e10b2423ec463fa1552f54eeceba0e
+msgid "For imagery options with dates, the dates you input are the default Dates that the imagery will be restricted to on the collection page. However, the user will be able to change these when exploring the map as there are start & end date widgets on the collection page sidebar (there are examples in the **Data Collection Manual**). For SecureWatch, the user will also be able to choose between FeatureProfiles. Without specifying a FeatureProfile, the most recent available imagery between the start and end dates displayed on the map."
+msgstr ""
+
+#: ../../institution/imagery.rst:356
+#: 340ab0e1daf0402daf780315afca12e1
+msgid "SecureWatch and the Planet products will not return imagery if the map is zoomed out too much. This results in a white map canvas being displayed at the project overview level usually. Simply click the \"Go to first plot\" button on the Collection page to zoom in to the plot level, and then the imagery should appear."
+msgstr ""
+
+#: ../../institution/imagery.rst:358
+#: d969a55d568d483a868ba71d2513e0e6
+msgid "For SecureWatch, the date shown when data is collected will be added to the project .csv data available for download (See :doc:`../project/reviewproject`)."
+msgstr ""
+
+#: ../../institution/imagery.rst:361
+#: 70b7c23f8051431bb8198f319c955755
+msgid "Adding imagery from multiple time periods"
+msgstr ""
+
+#: ../../institution/imagery.rst:363
+#: 24d02dc597884f1eb230d3e52639b9f6
+msgid "Adding multiple imagery options with different default time periods can make data collection easier for projects that compare two or more time periods to detect land use and land cover change. WMS/WMTS that you can use to create basemaps from different time points include GeoServer, Planet Monthly, Planet Daily, Secure Watch, Bing Maps, Mapbox Raster, and Mapbox Static."
+msgstr ""
+
+#: ../../institution/imagery.rst:368
+#: 44ff63ce814144a988f07fc7f028f2c8
+msgid "For WMS imagery, how to add different years of imagery depends on your server."
+msgstr ""
+
+#: ../../institution/imagery.rst:370
+#: 7e3079a74273493185f4da29112ce033
+msgid "If your different years are stored as different layers, alter the Layer Name field when you add the second layer. Make sure your title/attribution/etc. fields are accurate for the new layer."
+msgstr ""
+
+#: ../../institution/imagery.rst:372
+#: b42f3a73f16c4f7998f0ae8d84616740
+msgid "If your server uses filtering to display imagery from different years you will need to alter the parameters field (again, making sure the information in your other fields is correct)."
+msgstr ""
+
+#: ../../institution/imagery.rst:374
+#: 621aa57be9224481a9e3baa1880f413c
+msgid "Once you have decided the best approach for your server, repeat the steps in :ref:`wms` above for each time period you would like to add."
+msgstr ""
+
+#: ../../institution/imagery.rst:378
+#: a4e9b2e221f54247b6a8ec530f9cc45e
+msgid "Some years may not contain any imagery, due to the sparseness of the data within the database. If no imagery for the selected time range appears, you will need to change your parameters field, possibly to change the feature profile or date ranges."
+msgstr ""
+
+#: ../../institution/imagery.rst:381
+#: 00744165c9d84646bf9ede97ae642a36
+msgid "Planet Monthly, Planet Daily, and Planet NICFI"
+msgstr ""
+
+#: ../../institution/imagery.rst:383
+#: 2b7f055fdbc2493db865b27c1bee5b9d
+msgid "For all Planet products, you simply need to change the time period fields to add layers with different default time periods. Users will be able to change the time period displayed during data collection; however, this is the default that will be shown first."
+msgstr ""
+
+#: ../../institution/imagery.rst:387
+#: ../../institution/imagery.rst:396
+#: ../../institution/imagery.rst:405
+#: ../../institution/imagery.rst:419
+#: 00e6ab02869849d3a994f0bef59cc51e
+#: 8a1513a0e1e5471d832992950c54e615
+#: 23ad9f4b5a9444a29a2cca74df6c800a
+#: 3d0279937e414c7cbf5041b92b710457
+msgid "Be sure to change the Title field to reflect the correct default Year, Month, and Day for each new layer that you add."
+msgstr ""
+
+#: ../../institution/imagery.rst:390
+#: 0b19d3be97714a8c99262387e60f8ca1
+msgid "Secure Watch"
+msgstr ""
+
+#: ../../institution/imagery.rst:392
+#: e92fe11fb241443c945d1907df229ff0
+msgid "For this Maxar product, you simply need to change the time period fields to add layers with different default time periods. Users will be able to change the time period displayed during data collection; however, this is the default that will be shown first."
+msgstr ""
+
+#: ../../institution/imagery.rst:399
+#: d9e879f37de241f6abfcc6b74358a345
+msgid "Sentinel 1 & 2"
+msgstr ""
+
+#: ../../institution/imagery.rst:401
+#: ../../institution/imagery.rst:415
+#: a3267484e6f24debae002387875ddd6d
+#: b2662588b1474e50bb4f6f3a585ff825
+msgid "Users will be able to change the default Year and Month during data collection. However, additional layers with different default years and months can be added based on user preference."
+msgstr ""
+
+#: ../../institution/imagery.rst:410
+#: b8f743b75a8341c592a5491409c6dea5
+msgid "Different Image Assets that cover different periods of time can be added using the Imagery interface. However, if you have multiple images of the same area over different periods of time, consider using CEO's GEE's ImageCollection functionality rather than multiple Image assets."
+msgstr ""
+
+#: ../../institution/imagery.rst:422
+#: e8919d9fbdeb46539b605ba6b0d34be5
+msgid "Editing and deleting imagery"
+msgstr ""
+
+#: ../../institution/imagery.rst:424
+#: bef5d440c96049b5b367a6aee1c691c7
+msgid "After you have added imagery you may need to change the default dates of the Visualization Parameters."
+msgstr ""
+
+#: ../../institution/imagery.rst:426
+#: 302a4f88fc214635aff74f4b033ca4c4
+msgid "Navigate to your **Institution** page."
+msgstr ""
+
+#: ../../institution/imagery.rst:427
+#: ece018e85d05432fb75838daca8539f8
+msgid "Next to the imagery you would like to edit, there is an editing hand button."
+msgstr ""
+
+#: ../../institution/imagery.rst:434
+#: a6fd3ae3a2b44e1b975d31c4c5262cfa
+msgid "When you click on the editing hand button, it will take you back to the imagery creation form."
+msgstr ""
+
+#: ../../institution/imagery.rst:435
+#: d021d7b5ec474feba11012a8a58dbba1
+msgid "Edit the values as needed, using the information in this section as a guide."
+msgstr ""
+
+#: ../../institution/imagery.rst:436
+#: 12250f8cc2104b9b8318dd6c396e0302
+msgid "Check the **Add Imagery to All Projects When Saving** box if you would like to add your imagery to all of the institution's projects."
+msgstr ""
+
+#: ../../institution/imagery.rst:437
+#: 66a388fcc2934f659f15d6de61783e20
+msgid "When you are done, click **Save Imagery Changes**."
+msgstr ""
+
+#: ../../institution/imagery.rst:438
+#: d138a2a600234856807a348f96af135b
+msgid "You can delete imagery by clicking the trash can icon next to the imagery name."
+msgstr ""
+
+#: ../../institution/imagery.rst:447
+#: fb9760eb74ab46099f76985f2948e10c
+msgid "There is currently no way to 'preview' what imagery will be visible in your new layer in the 'Add Imagery' workflow. There are two ways to work around this."
+msgstr ""
+
+#: ../../institution/imagery.rst:449
+#: 7d1b01daa3cf4b589ca49b0709cf7008
+msgid "First, if your data source has a data viewing portal, you can use this to explore the imagery and determine what is available for the time periods you are interested in."
+msgstr ""
+
+#: ../../institution/imagery.rst:451
+#: 77b68ef23d214a5abf9a311823c40712
+msgid "Second, you can add the imagery layer, then open an existing project from your institution. The imagery will be available in the dropdown menu (if you are switching between a project **Data Collection** window and an **Institution** window, you may need to refresh the project window to get    the new layer to appear). You can then check if the imagery is displaying correctly and go back to the **Institution** page to edit the imagery based on what you see."
+msgstr ""
+
+#: ../../institution/imagery.rst:454
+#: 363974440aaa456885ef025bf9ff7d46
+msgid "Estimating imagery costs"
+msgstr ""
+
+#: ../../institution/imagery.rst:456
+#: 8271942aca6f4957b8752d7f54a0ef4f
+msgid "Before setting up a project in CEO, it is important to estimate how much imagery will be used for budgetary and resource allocation. Here is a quick guide to help."
+msgstr ""
+
+#: ../../institution/imagery.rst:459
+#: a47e7e7fd846429191872a39d20e49eb
+msgid "When is imagery used?"
+msgstr ""
+
+#: ../../institution/imagery.rst:461
+#: ba2ef0efdd0f4b7184dae47bac919639
+msgid "Imagery data is used whenever there is a map on the page. This means that on CEO, all these pages can use data:"
+msgstr ""
+
+#: ../../institution/imagery.rst:463
+#: 691881eba0f44071afed3fd02dfe98f1
+msgid "Home"
+msgstr ""
+
+#: ../../institution/imagery.rst:464
+#: 8cf55e20923743c8b907b6d5947be86e
+msgid "Data Collection"
+msgstr ""
+
+#: ../../institution/imagery.rst:465
+#: 1b89fdc75acd48e88e45ff480de1a5f9
+msgid "Create Project"
+msgstr ""
+
+#: ../../institution/imagery.rst:466
+#: 5bca60f5b65f4487bbdb40bbb813fd65
+msgid "Review Project"
+msgstr ""
+
+#: ../../institution/imagery.rst:467
+#: 172ae899da7d4b399dfeaed6cafa185c
+msgid "Project Dashboard"
+msgstr ""
+
+#: ../../institution/imagery.rst:468
+#: cd090f9de6fe464f88ce505cf3196f92
+msgid "GeoDash (specific options or modules)"
+msgstr ""
+
+#: ../../institution/imagery.rst:470
+#: ba2f0ad30c8f4576b3202a87459a3356
+msgid "On these pages, when the map first loads, imagery data is used. Every time a user zooms or pans the map window, imagery is used. The largest amount of use will probably be with Data Collection."
+msgstr ""
+
+#: ../../institution/imagery.rst:473
+#: 7cde940d6e3147029ea9f75c4ee6ffbb
+msgid "Estimating imagery use for a project"
+msgstr ""
+
+#: ../../institution/imagery.rst:475
+#: 794cc4aa7c704d51910f3e9a8d6e93ef
+msgid "Each organization that provides imagery sets their own rules for how many tiles you can download per year given the kind of account that you have with them. Therefore, it is important to estimate this before setting up a project."
+msgstr ""
+
+#: ../../institution/imagery.rst:477
+#: 8c10c3e64e92451bba43baf086a60380
+msgid "Additionally, services may “count” imagery against your quota differently. You will also need to know this."
+msgstr ""
+
+#: ../../institution/imagery.rst:479
+#: 3269696abe03493c81b2500afb7a3064
+msgid "To figure out how much imagery you are likely to use for a single project, count the number of plots. Then determine how many users will classify each plot. Next, try to factor in how often people will zoom or pan their maps for context when answering the survey questions for a plot. Multiply these numbers together."
+msgstr ""
+
+#: ../../institution/imagery.rst:481
+#: e6cb17a68c1342f2b6ec9a42a82484d6
+msgid "Next, decide if you are using the Geo-Dash and ask yourself how many map widgets you will display on your Geo-Dash page. Multiply that number by the number of plots to get the amount of Geo-Dash imagery you will need. Keep in mind that Geo-Dash imagery counts against our annual limit for user memory/processing in GEE, whereas the usual global layers on CEO (Bing Maps, SecureWatch, Planet) have separate annual tile-based limits. For GEE, we recommend clipping and pre-processing the imagery to image assets or imageCollection assets for the collection area. This eliminates processing on-the-fly for each user that is collecting, as Geo-Dash can just grab the pre-processed image asset."
+msgstr ""
+
+#: ../../institution/imagery.rst:483
+#: 429876078f994f8b9cfe9fddb03803d7
+msgid "Finally, add a few extra tile downloads for loading the maps while creating and reviewing the project."
+msgstr ""
+
+#: ../../institution/imagery.rst:485
+#: 461ac22288a84d459cee836e1c373e8a
+msgid "Once you have a sense of how many map images you will need for your project, you will then need to look up the tile counting policy for the imagery service that you are using. For example, some of them count 15 tiles as 1 unit of usage. Others use different counting rules."
+msgstr ""
+
+#: ../../institution/imagery.rst:489
+#: a973d4c1f083460a95942029820a6418
+msgid "To reduce imagery use, consider setting your default background imagery to a cheaper source and only switching to more expensive paid imagery when you are at the correct zoom level."
+msgstr ""
+
+#: ../../institution/imagery.rst:492
+#: 948d6f6ccf9845fd999859e82eb82773
+msgid "Synthetic Aperture Radar (SAR) data in CEO for forest degradation"
+msgstr ""
+
+#: ../../institution/imagery.rst:494
+#: 3a87605c680946a08ca760fc51871b25
+msgid "Observations of backscatter variations over time in satellite SAR data can be attributed to structure and moisture. For forests, these can be linked to changes in the moisture conditions of the trees and soil as well as changes in forest structure. These are extremely useful for e.g. detecting forest degradation."
+msgstr ""
+
+#: ../../institution/imagery.rst:496
+#: cefc8471f2414243a3f71a82629ce84a
+msgid "Color display of SAR data for detecting forest degradation is possible in CEO using Sentinel 1 data, WMS data, and GEE Image Assets and ImageCollection assets."
+msgstr ""
+
+#: ../../institution/imagery.rst:498
+#: c0a6d8801758472ca8c69e9bdc7df7c1
+msgid "For information on detecting forest degradation through our Geo-Dash widget functionality, please see :doc:`../project/geodash` ."
+msgstr ""
+
+#: ../../institution/imagery.rst:500
+#: b802d3476f0d474ab7a0e0c64bf35cf1
+msgid "For more information on SAR, please see:"
+msgstr ""
+
+#: ../../institution/imagery.rst:502
+#: bca23e429b7a40e1bc30f6877faf8e0b
+msgid "Kellndorfer, Josef. “Using SAR Data for Mapping Deforestation and Forest Degradation.” SAR Handbook: Comprehensive Methodologies for Forest Monitoring and Biomass Estimation. Eds. Flores, A., Herndon, K., Thapa, R., Cherrington, E. NASA. 2019. DOI: .10.25966/68c9-gw82; available online at:  https://gis1.servirglobal.net/TrainingMaterials/SAR/Ch3-Content.pdf"
+msgstr ""
+
+#: ../../institution/imagery.rst:503
+#: a2ae7883f28a43129615d13748b620bc
+msgid "The SAR Handbook: Comprehensive Methodologies for Forest Monitoring and Biomass Estimation, available for download at: https://www.servirglobal.net/Global/Articles/Article/2674/sar-handbook-comprehensive-methodologies-for-forest-monitoring-and-biomass-estimation"
+msgstr ""
+
+#: ../../institution/imagery.rst:504
+#: 157de8a9d2ec48a7971e4d67399eb8e8
+msgid "This one page guide from SERVIR & SilvaCarbon: https://servirglobal.net/Portals/0/Documents/Articles/2019_SAR_Handbook/SAR_VegIndices_1page_new.pdf"
+msgstr ""

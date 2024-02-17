@@ -1,0 +1,450 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Collect Earth Online team
+# This file is distributed under the same license as the Collect Earth
+# Online package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Collect Earth Online \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-16 15:21-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../project/create.rst:2 fb2f9b68f548411aa9011422f9bee701
+msgid "Project Creation"
+msgstr ""
+
+#: ../../project/create.rst:4 1aac7df37d0342c4887b82f44c378349
+msgid ""
+"After you have created an Institution or joined an Institution with Admin"
+" privleges and loaded any desired imagery into your INstitution, you are "
+"ready to create a new project."
+msgstr ""
+
+#: ../../project/create.rst:7 d71ab7ef35c8437aaf3d80f4c68851cb
+msgid "Setting project goals"
+msgstr ""
+
+#: ../../project/create.rst:9 991e5746bd2849b2986870948b083250
+msgid ""
+"Before starting a data collection effort in CEO, make sure you have "
+"concrete goals, indicators, and metrics for your initiative. While this "
+"manual focuses on technical issues, other resources are available to help"
+" you create these goals, indicators, and metrics. Some helpful resources "
+"include:"
+msgstr ""
+
+#: ../../project/create.rst:11 bd3653b5cd7242c08e2457666fc61d5c
+msgid ""
+"The *Road to Restoration: A Guide to Identifying Priorities and "
+"Indicators for Monitoring Forest and Landscape Restoration*, found at: "
+"http://www.fao.org/in-action/forest-landscape-restoration-"
+"mechanism/resources/detail/en/c/1253837/. This guide from FAO & WRI "
+"outlines steps toward setting goals, choosing indicators, and defining "
+"metrics."
+msgstr ""
+
+#: ../../project/create.rst:13 20bd76c275034a0abe2a295a3f8adb9a
+msgid ""
+"If your project is focused on land use or land cover classification, you "
+"also need to have a classification scheme and an interpretation key. A "
+"classification scheme should be exhaustive, exclusive, consistent with "
+"the purpose of the work, and sufficiently descriptive. The scheme can be "
+"either single level or hierarchical and it does not need to be of uniform"
+" detail. Data collectors refer to an interpretation key—a collection of "
+"rules, imagery, and guidance—to classify land cover elements. A "
+"comprehensive interpretation key allows data collectors to produce more "
+"consistent and reliable results."
+msgstr ""
+
+#: ../../project/create.rst:15 cb505054d2f14917a9aa512bd0eaecb0
+msgid ""
+"Chapters 2 & 3 of the Theoretical Manual from Collect Earth Online, found"
+" at https://collect.earth/downloads/CEO_Theoretical_Manual.pdf."
+msgstr ""
+
+#: ../../project/create.rst:17 4c6b92a653c2481b97e73027adaeef75
+msgid ""
+"Designing a project is an iterative process, and you will probably need "
+"to make multiple edits to projects in CEO as you refine your goals, land "
+"use or land cover classification schemes, imagery sources, etc. These "
+"changes can be made to a project before your project is published. This "
+"means that you can create a project and collect test data in it, and edit"
+" any errors you find before publishing the project."
+msgstr ""
+
+#: ../../project/create.rst:19 3076bad16bc4417793b1b027b10aad53
+msgid ""
+"Some things can also be changed after a project is published, including "
+"imagery. For example, if you realize after you have created a project "
+"that you have forgotten to add an imagery layer, you can add it after "
+"project setup with the steps from Part 3."
+msgstr ""
+
+#: ../../project/create.rst:21 16b097d0936946789d9b7123713cc8c0
+msgid ""
+"The survey questions that are asked about each survey point cannot "
+"currently be changed after the project is published. Do not start data "
+"collection until you are sure that your survey questions are correct."
+msgstr ""
+
+#: ../../project/create.rst:23 14b07c79507c4d4db932610e3f2b198f
+msgid ""
+"The instructions below assume you are starting on your **Institution** "
+"page and are logged in as an Administrator for your Institution."
+msgstr ""
+
+#: ../../project/create.rst:26 78365bc2e57242afbccf22bea265b652
+msgid "The Create Project Wizard"
+msgstr ""
+
+#: ../../project/create.rst:28 14e83c4ccd2a4c29bf7bd1a13274c29f
+msgid ""
+"In the **Projects** tab on your Institution page, click **[Create New "
+"Project]**. This will bring you to the Create Project wizard."
+msgstr ""
+
+#: ../../project/create.rst:35 438442e09fe94d6c96b410fa5b2a8c82
+msgid ""
+"The wizard comprises 6 parts: Project Overview, Imagery Selection, Plot "
+"Design, Sample Design, Survey, and Rules."
+msgstr ""
+
+#: ../../project/create.rst:43 78027d23f3ce43b1a917db9ecf557706
+msgid "Project Overview"
+msgstr ""
+
+#: ../../project/create.rst:45 2ce6f68289254f4b81da2d89d8edb215
+msgid ""
+"This section allows you to add general information about the project, "
+"including selecting a template (optional), project name, project "
+"description, and project options."
+msgstr ""
+
+#: ../../project/create.rst:47 7a265d24f4c84b1fbf48f9b11d271eae
+msgid "Use a project template (optional)"
+msgstr ""
+
+#: ../../project/create.rst:49 be940326a287498dac2f0cf32702bb45
+msgid ""
+"This feature is used to copy all the information—including project info, "
+"area, and sampling design—from an existing published project to a new "
+"project. This is useful if you have an existing project you want to "
+"duplicate for another year or location, or if you are iterating through "
+"project design. For a template, you may use any available published or "
+"closed project from your institution. You cannot use deleted projects. "
+"You cannot use another institution’s private project but you can use "
+"another institution’s public project (any website visitor or CEO user). "
+"For more on project  privacy settings, see **Visibility** below."
+msgstr ""
+
+#: ../../project/create.rst:53 5e8048f1bcd242de90e1fa4c4d958dd6
+msgid ""
+"If you do not want to copy another project, simply skip this section, and"
+" leave the **Select Template** field set to **Select Project**."
+msgstr ""
+
+#: ../../project/create.rst:55 dc73f2811d94484595d74e3a77737d76
+msgid ""
+"Click on the **Show Public Projects** checkbox if you would like to view "
+"all public projects in CEO that you can use as a template. If you do not "
+"check this box, you will only see your institution’s projects."
+msgstr ""
+
+#: ../../project/create.rst:62 2da775edecc242c597b6f1efcf6b09c0
+msgid ""
+"**Template Filter (Name or ID)**: To filter the projects, type in a "
+"keyword in an existing project’s name or the Project ID Number. You can "
+"find the Project ID number by navigating to the project you want to copy "
+"and looking at the URL."
+msgstr ""
+
+#: ../../project/create.rst:69 aafbca88865d40789657a3e2e58582ed
+msgid ""
+"Then click on the dropdown menu under **Select Project** and click on the"
+" project’s name."
+msgstr ""
+
+#: ../../project/create.rst:76 33c2922b188e4f25a10d31897ce42311
+msgid ""
+"When you find the project that you would like to use as a template, click"
+" on the project name, then click **Load** to load the template "
+"information."
+msgstr ""
+
+#: ../../project/create.rst:77 a4b93060028e413589458601412ec74b
+msgid "Click on **Clear** to clear all template information."
+msgstr ""
+
+#: ../../project/create.rst:81 a748f123ed8e441bb482671d6470c640
+msgid ""
+"If you select a project under **Select Template**, and then if you clear "
+"the project selection the Imagery Preview in the next section may display"
+" only gray/white. Change the **Default Imagery** to any other source and "
+"then back to the source you are interested in and the basemap will "
+"reappear."
+msgstr ""
+
+#: ../../project/create.rst:83 344f320a2b5d436a8e652bf6b20db671
+msgid ""
+"Loading a template will create two checkboxes under **Copy Options**, "
+"**Copy Template Plots and Samples** and **Copy Template Widgets**. They "
+"are checked by default."
+msgstr ""
+
+#: ../../project/create.rst:85 f87391b0cdf64b77b5aaa1380f3cb4cc
+msgid ""
+"If **Copy Template Plots and Samples** is checked, the Plot Review and "
+"Sample Design sections will only display an overview of the number of "
+"plots, etc. Uncheck this box to change those parameters."
+msgstr ""
+
+#: ../../project/create.rst:86 7bd804f50aeb40518b4648587373a8ea
+msgid ""
+"**Copy Template Widgets** refers to Geo-Dash options covered in "
+":doc:`geodash`."
+msgstr ""
+
+#: ../../project/create.rst:88 92dbbf71ec444aec8c988f030db2b9ad
+msgid "Enter the project’s **Name** and **Description**."
+msgstr ""
+
+#: ../../project/create.rst:90 f63cf38c38944ab7930281d9f178fcbb
+msgid ""
+"The **Name** should be short and will be displayed on the Home page as "
+"well as the project’s Data Collection page."
+msgstr ""
+
+#: ../../project/create.rst:91 1970819d48a74ccea255870a048b9e10
+msgid ""
+"You should keep the **Description** short but informative. Users will see"
+" these if they click on the project’s pin on the map on the home page. "
+"You will also see this when you are administering your project."
+msgstr ""
+
+#: ../../project/create.rst:92 438a13f401314d1ebd83b12910fd2a56
+msgid ""
+"If you are using a template, the **Name** and **Description** will "
+"automatically be populated. Be sure to change this to reflect your new "
+"project."
+msgstr ""
+
+#: ../../project/create.rst:94 d857f4931b0a41248d52ae2e6f3600b4
+msgid "Select the project’s **Visibility**."
+msgstr ""
+
+#: ../../project/create.rst:96 fa58b10fddb54b5192fe2b00b438b88f
+msgid ""
+"The Privacy Level radio button changes who can view your project, "
+"contribute to data collection, and whether admins from your institution "
+"or others creating new projects can use your project as a template."
+msgstr ""
+
+#: ../../project/create.rst:98 d9013ad617234de3bdc52c37e4a183a8
+msgid ""
+"**Public: All:** All users can see and contribute data to your project. "
+"Admins can use your project as a template."
+msgstr ""
+
+#: ../../project/create.rst:99 2ec2610c31a048b5b74482ee8a981721
+msgid ""
+"**Users: Logged in Users:** Any user logged into CEO can see and "
+"contribute to your project. Admins can use your project as a template."
+msgstr ""
+
+#: ../../project/create.rst:100 d59b14f3a63d4978ab1c73709404abf5
+msgid ""
+"**Institution: Group Members:** Members of your institution can see and "
+"contribute to your project. Admins from other institutions cannot use "
+"your project as a template."
+msgstr ""
+
+#: ../../project/create.rst:101 77e891c228354a1c879a29b52645c8a2
+msgid ""
+"**Private: Group Admins:** Only your Institution’s Admins can see and "
+"contribute to your project. Admins from other institutions cannot use "
+"your project as a template."
+msgstr ""
+
+#: ../../project/create.rst:103 eabd05b3e3a54cb092559e9bc08fbf50
+msgid "Select Project Options."
+msgstr ""
+
+#: ../../project/create.rst:105 7063d28c9a2342d3abf0c84a84154f18
+msgid "The first option is **Show GEE Script Link on the Collection page.**"
+msgstr ""
+
+#: ../../project/create.rst:107 77a43b9d0b2e4f7ca7acae4b953c1934
+msgid ""
+"This allows users in Data Collection to click on a button labeled **[Go "
+"to GEE Script]**."
+msgstr ""
+
+#: ../../project/create.rst:114 c8cd1b5506c549b0af72864502df44ee
+msgid ""
+"This button will take them to a website with additional information about"
+" the plot. An example is shown here:"
+msgstr ""
+
+#: ../../project/create.rst:121 9165b5e8dbf24760a040675150973683
+msgid ""
+"There are three panels. On the far left, there is a Sentinel 2 composite "
+"of the last 12 months. It is colored using an infrared color composite "
+"(near infrared, mid infrared, red). In the center are Landsat 8 and "
+"Landsat 7 Color Yearly mosaics, with a slider so you can choose between "
+"years. On the right are NDVI graphs of the plot from MODIS, Landsat 7/8, "
+"and Sentinel 2. For the Landsat 7/8 and Sentinel graphs, you can click a "
+"point on the graphs to load specific images in the left and center "
+"panels."
+msgstr ""
+
+#: ../../project/create.rst:123 4e5d38497ae54d9fa1f9607f60a9c918
+msgid "The second option is **Show Extra Plot Columns on Collection Page**."
+msgstr ""
+
+#: ../../project/create.rst:125 aa4eb1768f3a4f31a4d923b47ad54830
+msgid ""
+"This option is only useful if you are using .csv or .shp files to define "
+"your **Plot Design**."
+msgstr ""
+
+#: ../../project/create.rst:127 9dfb995566ce47c295a7149d224bca12
+msgid ""
+"If you have additional columns in your .csv or .shp files, such as "
+"elevation information or land cover class, data collectors will be able "
+"to see them on the **Data Collection** page under **Plot Information**."
+msgstr ""
+
+#: ../../project/create.rst:134 ec68042e7ed140199c3dab9c16d166a0
+msgid ""
+"The third option is **Collect Plot Confidence on Collection Page.** If "
+"you want users to be able to tell you how certain they are of their "
+"answers to the survey questions, the confidence slider will allow them to"
+" assign a value 1-100, where 100 is completely confident of their "
+"answers; this value applies to the entire plot. This info will be "
+"included in your plot and sample CSV downloads."
+msgstr ""
+
+#: ../../project/create.rst:141 c376a701af314bf5bcb891ba5f756e96
+msgid ""
+"The fourth option is **Auto-launch Geo-Dash.** This will automatically "
+"open the Geo-Dash interface in a new window or new tab when the data "
+"collector navigates to a new plot. Unchecking this option means that data"
+" collectors will need to click on the Geo-Dash icon under **External "
+"Tools** in the **Data Collection** interface."
+msgstr ""
+
+#: ../../project/create.rst:143 ../../project/create.rst:175
+#: 1c66d7a3de7e454b928e79d38a818620 525e89bde8504361bd03b037218b3894
+msgid "Click **[Next]** when you are finished."
+msgstr ""
+
+#: ../../project/create.rst:146 08e75dd6472a4af186fb1f63863b1caf
+msgid "Imagery Selection"
+msgstr ""
+
+#: ../../project/create.rst:148 3b8fc97f353e4052ad091d4f54e76b78
+msgid ""
+"In the Imagery Selection pane, you can change the default basemap imagery"
+" and the imagery basemaps that are available to users in data collection."
+msgstr ""
+
+#: ../../project/create.rst:150 fc8f2cbe56da49138a6e3a009d6826c5
+msgid ""
+"You can change the Default Imagery, which specifies the default imagery "
+"that users will see when they begin data collection on your project."
+msgstr ""
+
+#: ../../project/create.rst:152 c6a01e3411b34a73943d11b5448b3420
+msgid "You may choose any of the imagery options available to your institution."
+msgstr ""
+
+#: ../../project/create.rst:153 3460e555292c44d9bbf2d3aa15291543
+msgid ""
+"The default (public) options are MapBox Satellite, Mapbox Satellite "
+"w/Labels, and Planet NICFI Public."
+msgstr ""
+
+#: ../../project/create.rst:154 8a8ca38f16504940afac767536b9a3d2
+msgid "The Imagery Preview will display the current selection."
+msgstr ""
+
+#: ../../project/create.rst:155 fa806a7b02ee4ca7aa85887f9ee2c741
+msgid ""
+"Your users can switch between all the available imagery layers during "
+"analysis."
+msgstr ""
+
+#: ../../project/create.rst:156 076786e9a29d4373ad6896ed54f8645e
+msgid ""
+"PlanetMonthly, PlanetDaily, and SecureWatch do not allow for large area "
+"data pulls, so it should not be your default basemap (users will just see"
+" a white screen)."
+msgstr ""
+
+#: ../../project/create.rst:157 aee580a2cfbf468192d0b3a87c7e6600
+msgid ""
+"You will need to set a different default basemap and have your data "
+"collectors switch to PlanetDaily once they have zoomed in on a plot to "
+"interpret."
+msgstr ""
+
+#: ../../project/create.rst:158 bba847004c614cfc9820fd11169b6090
+msgid ""
+"If your project is comparing land use and cover changes between two "
+"years, select one of your focal years’ WMS imagery as the default imagery"
+" here. Your users can then easily switch between this year’s imagery and "
+"the other year’s imagery in data collection."
+msgstr ""
+
+#: ../../project/create.rst:159 535eb51f501d4c3593faf787ab86fc37
+msgid ""
+"You will need to first set up the imagery feed for one date period under "
+"the institution imagery management panel. Refer to instructions in "
+":doc:`../institution/imagery`."
+msgstr ""
+
+#: ../../project/create.rst:163 70c3e70a25144b878955a3907af28fa4
+msgid ""
+"Maxar has deprecated multiple data products previously available in CEO, "
+"including: DigitalGlobeRecentIMagery; DigitalGlobeRecentImagery+Streets; "
+"DigitalGlobeWMSImagery; and EarthWatch."
+msgstr ""
+
+#: ../../project/create.rst:165 864625bd844944d4812262896f5f9710
+msgid "Public Imagery"
+msgstr ""
+
+#: ../../project/create.rst:167 67444845fab54caa8d2c9e718afead48
+msgid ""
+"This imagery is available for all institutions. If you have a public "
+"project, all users (including those not logged in) can see the imagery."
+msgstr ""
+
+#: ../../project/create.rst:168 ../../project/create.rst:173
+#: 003d8f3b0add483ba9adf446916ca9e3 51561d647f244cccb5625ae0c9d68ebd
+msgid ""
+"Click the checkbox next to each imagery source you would like to have "
+"available for your project."
+msgstr ""
+
+#: ../../project/create.rst:170 b7a1d5e4f7804d3bb1a52eed36f90e84
+msgid "Private Institution Imagery."
+msgstr ""
+
+#: ../../project/create.rst:172 24613645dc334f2ab578134323c16fff
+msgid ""
+"This imagery will only be visible to institution members, even if you "
+"have your project set to public."
+msgstr ""
+

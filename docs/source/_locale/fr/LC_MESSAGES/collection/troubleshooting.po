@@ -1,0 +1,224 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Collect Earth Online team
+# This file is distributed under the same license as the Collect Earth
+# Online package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Collect Earth Online \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-16 15:21-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../collection/troubleshooting.rst:2 5f1afaaafcba41219fbffba9b8459b20
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:5 93c18987a7b448e7ab828b9cb981d756
+msgid "Analysis troubleshooting"
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:7 461c1b1e06ef430393750bfc66158293
+msgid ""
+"If you try to access a project and receive an error message saying you do"
+" not have permission (as below), access to the project is limited to "
+"institution members. You will need to join your Institution, see "
+":doc:`preparing`."
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:14 871a58ca92524041844f560d403c8368
+msgid ""
+"If you are on a **project’s homepage** and click on a plot and get an "
+"error window (e.g. if the plot is not found or if that plot has already "
+"been classified), after you click through the error there will be no "
+"plots on the map. You can either click on Go To Plot and have the first "
+"plot for analysis show up or reload the page to get all the survey plots "
+"back."
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:15 788df7d5ae1d43028033bd15d78c21b0
+msgid ""
+"While collecting data, if you try to return to a previous plot you "
+"analyzed to review it and receive an error message, make sure you have "
+"the **Navigate Through** dropdown set to **My Analyzed Plots.**"
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:16 b59594965ee5407498ce4bc2d4738740
+msgid ""
+"If the background is completely black, the imagery resolution might be "
+"too low for the automatically set zoom level. Alternatively, the plot "
+"might be in a large waterbody. Zoom out until you see some more map "
+"context to confirm whether the issue is imagery resolution or a "
+"waterbody."
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:17 1fc2f692b7d04bc0998d0dce0f7c1acf
+msgid ""
+"If the background of a new plot is grey, green, brown, or any solid "
+"color, the imagery resolution is too low for the automatically set zoom "
+"level. Zoom out a bit to display the imagery."
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:18 7457a00b910f402591b4ee1d63eeb96f
+msgid ""
+"If the background of a new plot is white, the currently selected imagery "
+"does not exist for the current plot. Choose a different imagery."
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:21 dc260331e2d14d31bc031ac787485343
+msgid "Advanced troubleshooting"
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:23 e748525a67bd431fa389581b176fe1c1
+msgid ""
+"**Interpreting time period represented by Map Box, Bing Maps and other "
+"dateless sources:**"
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:25 7133fcac320642ab8e0218b6256aa987
+msgid ""
+"Map tiles provided by these sources are created from multiple different "
+"satellite images captured over multiple days, months, or years. This "
+"means that the image does not represent a specific point in time. For "
+"this reason, CEO does not display one date for these imagery sources."
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:27 f7460f1c4066420aa8180a77f2ed9aa6
+msgid "**Browser cache clearing:**"
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:29 d1656703ad654be4a497e8b2c1b20679
+msgid ""
+"You may get the message “This plot has already been analyzed” in error "
+"when you know that the plot has not been analyzed (e.g. it is a new "
+"project)."
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:30 adb84f9a5e394704bac77676dd5c1d20
+msgid ""
+"If this happens, try clearing your browser cache. Instructions will "
+"change based on your browser."
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:32 9076643c30fe4e479f39fde0e1ac1fc6
+msgid ""
+"For Chrome: "
+"https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=en"
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:33 7f4e8268282b4ede9aa7dfabbf8d2c3f
+msgid "For Firefox: https://support.mozilla.org/en-US/kb/how-clear-firefox-cache"
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:34 b5690ee9e5334eeaadfe11dceab38530
+msgid ""
+"For Edge: https://support.microsoft.com/en-us/help/10607/microsoft-edge-"
+"view-delete-browser-history"
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:36 08dfafec13ab48908bc9dd0b9df4ac8b
+msgid "**Image cache clearing:**"
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:38 6ce71d5cedca497794061986aa0cac60
+msgid "Clear the local storage from the browser console line to remove the cache."
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:39 5a0127b027f9418ebd9c7dfce6efb52b
+msgid ""
+"You can do that by opening the browsers console and running: "
+"**localStorage.clear()**"
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:41 b160804eb82f4ff491b5ba7a0866b2fd
+msgid "**Geo-Dash is opening in the same tab when opening a new plot:**"
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:43 c94a16ec0b774fa38e9ecf089e013dbf
+msgid ""
+"This is usually caused if you are copy and pasting URLs in your browser, "
+"and you cut and paste a new link into the ‘Geo-Dash’ tab. This tab is "
+"labeled by the browser as the Geo-Dash tab, so when you go to the new "
+"tab, CEO tells your browser to put the new plot’s Geo-Dash in the Geo-"
+"Dash tab."
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:44 03e403991d154f7a8f9f0883533d6bbe
+msgid ""
+"If you copy your CEO URL (e.g., for the collection page) into the "
+"\"_geodash\" tab, then when you try to visit a new plot, CEO will "
+"disappear and the Geo-Dash widgets will be displayed in that same tab. "
+"CEO uses a named \"_geodash\" tab to keep the Geo-Dash widgets in one "
+"place. Otherwise, they would spawn a new tab for every single plot that "
+"you visit."
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:45 127f594fd62541efbecf7138f495b18c
+msgid ""
+"All you need to do to avoid this situation is to not copy your CEO URLs "
+"into an open Geo-Dash tab."
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:48 4c0ec5dc3cb945d1b41fbe6e5a3c9c41
+msgid "Report an issue and request new features"
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:50 86caf75205b44f5b9b448ba46686156a
+msgid ""
+"There are multiple ways to get in touch with us if you are still having "
+"an issue or would like to request a new feature."
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:52 49371f6e3d6747019a44c38abbe5d1fb
+msgid ""
+"You can ask questions on the OpenForis forum, which is available at "
+"http://www.openforis.org/support."
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:53 3d62fe77c36f4e9fa000efde53926821
+msgid ""
+"You can also visit our GitHub issues page at https://github.com/openforis"
+"/collect-earth-online/issues. You will have to either log in or set up a "
+"GitHub account in order to log an issue. By logging in, the development "
+"team can contact you in case they need additional information to provide "
+"a solution to the issue or feature suggestion."
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:55 b3afd08a78904cf2ad2f7b917cd4a65e
+msgid ""
+"When you have a GitHub account, `navigate to the CEO GitHub Page "
+"<https://github.com/openforis/collect-earth-online/issues>`__."
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:56 9231000f6a584850b4e01613f61ef95a
+msgid ""
+"To log an issue or request a new CEO feature, simply click on the green "
+"**[New issue]** button in the upper right-hand portion of the screen."
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:57 e0e30b05f3534d939ab213903a3f93ff
+msgid "Type in a title that conveys the topic of the issue or request."
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:58 0f0ace6c28af4504b1f89c42b6970e99
+msgid ""
+"Then below, type in a detailed message summarizing the issue you have "
+"encountered."
+msgstr ""
+
+#: ../../collection/troubleshooting.rst:59 80087b41fdc9471e93caba8a5928ed74
+msgid ""
+"Once you have finished providing the details, click the green **[Submit "
+"new issue]** button. This will log your request."
+msgstr ""
+

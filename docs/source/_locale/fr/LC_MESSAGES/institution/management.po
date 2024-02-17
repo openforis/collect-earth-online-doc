@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Collect Earth Online team
+# This file is distributed under the same license as the Collect Earth
+# Online package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Collect Earth Online \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-16 15:37-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../institution/management.rst:2 bf620268586d427c85f2ca413328d785
+msgid "Institution management"
+msgstr ""
+
+#: ../../institution/management.rst:5 142ed58ea29e44578630baa7e7ac4731
+msgid "Institution information"
+msgstr ""
+
+#: ../../institution/management.rst:7 233d91299c564e6198423683d56509d9
+msgid ""
+"If you are an administrator for an Institution, you can make changes to "
+"your Institution's information after the Institution is created."
+msgstr ""
+
+#: ../../institution/management.rst:9 75842e062eee414283f2b257828a0cc1
+msgid ""
+"If you want to make changes, start by navigating to your Institution’s "
+"info page (See :doc:`create`)."
+msgstr ""
+
+#: ../../institution/management.rst:10 5675dffdfe3b450e819d894d38f40206
+msgid ""
+"You can make changes to the Institution page by clicking **[Edit]** at "
+"the top of the page."
+msgstr ""
+
+#: ../../institution/management.rst:11 8dcab0c5003546f1bf69a3cfb9604475
+msgid "You can also delete your Institution by clicking **[Delete]**."
+msgstr ""
+
+#: ../../institution/management.rst:15 e71a9f2b466144e19465fcac964ec350
+msgid ""
+"This action is **PERMANENT**, and your Institution cannot be recovered "
+"afterwards. **ALL PROJECTS ASSOCIATED WITH THE INSTITUTION WILL ALSO BE "
+"DELETED.**"
+msgstr ""
+
+#: ../../institution/management.rst:18 18d95740a44f4f6384b5a2304deb6523
+msgid "Key Institution components"
+msgstr ""
+
+#: ../../institution/management.rst:20 c3c91bc77a1a470aba97a926226ef1ef
+msgid ""
+"More importantly, you can also manage three aspects of your Institution "
+"that allow data collection through CEO. These include the **Imagery** "
+"available, the data collection **Projects**, and the **Users** associated"
+" with the Institution. This information is displayed in three panels on "
+"your **Institution’s** info page."
+msgstr ""
+
+#: ../../institution/management.rst:22 1af6af6e2aaa4758bc73cfe1d91d3f34
+msgid ""
+"The **Imagery** tab lists all available imagery and WMS Feeds. You can "
+"add new imagery feeds here as well. See :doc:`imagery`."
+msgstr ""
+
+#: ../../institution/management.rst:23 8d91e93bf7be43a5874d136be086e9f2
+msgid ""
+"The Projects panel lists your Institution's projects, identifies projects"
+" as public or private, and allows you to create new projects. This is "
+"discussed in :doc:`../project/create`."
+msgstr ""
+
+#: ../../institution/management.rst:24 7feb8b47684b4f7da8f7235e9c7f316e
+msgid ""
+"The Users panel lists your Institutions' members and allows them to be "
+"updated. This is discussed below."
+msgstr ""
+
+#: ../../institution/management.rst:27 e674fdbf966f404baca4ccc2209ddcc1
+msgid "Institution user (member) management"
+msgstr ""
+
+#: ../../institution/management.rst:29 c79bdc66ae5e435c9b26a48c4011e503
+msgid ""
+"As an administrator, you can add a Collect Earth Online member to the "
+"Institution by typing the user's email address into the box and clicking "
+"the **[Add User]** button."
+msgstr ""
+
+#: ../../institution/management.rst:33 e3d993035d9d4f2b828805e49aed3ec3
+msgid ""
+"Only email addresses that have already created a CEO account can be added"
+" to the Institution."
+msgstr ""
+
+#: ../../institution/management.rst:35 b0d2cc5c2b9a479f97a1d2ba91899a9f
+msgid ""
+"If you are successful, a pop-up window will notify you that the user has "
+"been given the role \"member,\" and the user's email address will appear "
+"in the list of users."
+msgstr ""
+
+#: ../../institution/management.rst:36 77faff6d8c644d64b9c1c546804b2888
+msgid "You can approve pending affiliation requests as well."
+msgstr ""
+
+#: ../../institution/management.rst:37 ba40f6d2f8184bb3a08aedb4aa5e4060
+msgid ""
+"To change the role of a user, use the drop-down menu to the right of "
+"their email address. Available user roles are Administrator and Member. "
+"Users who are Administrators can edit any of the Institution's projects, "
+"add and delete imagery, and manage the Institution's Users."
+msgstr ""
+
+#: ../../institution/management.rst:38 cdb6ddf40daf45e9b0b4b4080f13e49c
+msgid ""
+"To restrict the Administrator capabilities of a user to only one of the "
+"Institution's projects, you can create a new Institution specifically for"
+" that project. Add the user as an Administrator for the new Institution."
+msgstr ""
+
+#: ../../institution/management.rst:39 a07631ee264f42d8ad678a56dedb88a9
+msgid ""
+"You can also remove users from the Institution using this drop-down menu "
+"and selecting the Remove option."
+msgstr ""
+
+#: ../../institution/management.rst:42 de16a162cee04a2da748345a1d2bc3f2
+msgid "Other administrator privileges"
+msgstr ""
+
+#: ../../institution/management.rst:44 8b4cbdd1443a46af9eb12c1f44b81909
+msgid ""
+"As an administrator you can review and modify the answers for all plots, "
+"including plots labeled by other CEO users. Members of an Institution can"
+" only review and modify answers for plots they themselves have labeled. "
+"To access this feature, use **Review** toggle for the **Navigate "
+"Through** dropdown menu on the **Collection Page**. See "
+":doc:`../project/reviewdata` for more information."
+msgstr ""
+
+#: ../../institution/management.rst:45 9b4f92339ba848f79a5cebf7ab3ed43b
+msgid ""
+"As an administrator you can review Draft Mode projects that you or other "
+"administrators have created. This is discussed further in "
+":doc:`../project/create`."
+msgstr ""
+
+#: ../../institution/management.rst:46 19ac02da63844ea98368565b9bff7fc4
+msgid ""
+"As an administrator, you can download collected data from Institution "
+"projects. See :doc:`../project/reviewproject`."
+msgstr ""
+

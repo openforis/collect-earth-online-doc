@@ -9,7 +9,7 @@
 project = 'Collect Earth Online'
 copyright = '2023, Collect Earth Online team'
 author = 'Collect Earth Online team'
-release = 'v 0.5'
+release = 'v 0.7'
 
 # -- Path setup ----------------------------------------------------------------
 import sys, os
@@ -44,6 +44,7 @@ templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 locale_dirs = ["_locale/"]
 gettext_compact = False
+gettext_uuid = True
 language = "en"
 
 
@@ -114,8 +115,7 @@ html_theme_options = {
     ],
     "use_edit_page_button": True,
     "article_footer_items": ["last-updated"],
-    #"footer_start": ["copyright", "sphinx-version"],
-    #"footer_end": ["community", "issue-tracker", "e-learning", "stackexchange"],
+
 }
 
 # -- option for the favicon extention ------------------------------------------
@@ -124,12 +124,11 @@ favicons = [
     {"rel": "apple-touch-icon", "href": "apple-touch-icon.png"},
     {"href": "favicon-32x32.png"},
     {"href": "favicon-16x16.png"},
-#    {"rel": "mask-icon", "href": "safari-pinned-tab.svg", "color": "#186691"},
 ]
 
 # -- Options for images --------------------------------------------------------
 
-images_config = {"download": False}
+images_config = {"download": True}
 
 
 # -- Options for bibtex --------------------------------------------------------

@@ -1,0 +1,272 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Collect Earth Online team
+# This file is distributed under the same license as the Collect Earth Online package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Collect Earth Online \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-16 15:21-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../project/validation.rst:2
+#: 5e238aaf562048f5aff2167659e9448c
+msgid "Creating a Project for Validation"
+msgstr ""
+
+#: ../../project/validation.rst:4
+#: a1e555a1685f4404acf844cf16107fcf
+msgid "Creating a project in CEO to validate a spatial model—for example, a land cover map or a forest change map—presents some unique sampling and project design issues. In this section, we provide a very brief overview these issues both for single and for ensemble change maps."
+msgstr ""
+
+#: ../../project/validation.rst:6
+#: e43ff38e919c4e108a4346ed0008f87d
+msgid "Many resources provide a more in-depth review of this subject. Consider looking at:"
+msgstr ""
+
+#: ../../project/validation.rst:8
+#: 250532774ce94b699ddeb2c4da4e4f2e
+msgid "CEO’s Theoretical Manual, available here: https://collect.earth/downloads/CEO_Theoretical_Manual.pdf"
+msgstr ""
+
+#: ../../project/validation.rst:9
+#: 0c4a463a2d1e41e79c72fc650f35b0dd
+msgid "the FAO’s *Map Accuracy Assessment and Area Estimation: A Practical Guide* available online here: http://www.fao.org/3/a-i5601e.pdf"
+msgstr ""
+
+#: ../../project/validation.rst:10
+#: 59493ac1c9a441f6a9e081e390fb2621
+msgid "Documentation in AREA\\ :sup:`2`, available online here: https://area2.readthedocs.io/en/latest/background.html"
+msgstr ""
+
+#: ../../project/validation.rst:11
+#: 3f0e31d51440472ea8930142eaf50f72
+msgid "A great overview on confusion matrixes here: http://spatial-analyst.net/ILWIS/htm/ilwismen/confusion_matrix.htm"
+msgstr ""
+
+#: ../../project/validation.rst:14
+#: 3bb3ce08e4224265bf2c33317d82ea4d
+msgid "Accuracy assessment"
+msgstr ""
+
+#: ../../project/validation.rst:16
+#: 98e6f31dd6b644f399dab3c239b9fcd3
+msgid "Accuracy assessments allow producers of spatial models to understand how accurate they are, that is, how well the model fits. This information is important for many reasons, including improving accuracy and determining if the product is suitable for management use."
+msgstr ""
+
+#: ../../project/validation.rst:18
+#: 708e9435e0f249a986eb1aac0eaa5cda
+msgid "For single models, such as a single land cover classification map, a confusion matrix is used to calculate the accuracy of spatial models. The purpose of this error analysis is to quantify two key metrics for each land cover class as well as the overall classification:"
+msgstr ""
+
+#: ../../project/validation.rst:20
+#: bb893b8b77b845f68fef565df1bca716
+msgid "Given that a pixel is of a (land cover class, etc.), what is the chance that it was correctly classified as that (land cover class, etc.)?"
+msgstr ""
+
+#: ../../project/validation.rst:21
+#: a64d0bb9677a4638b445273852bd06df
+msgid "Given that a pixel has been classified as a (land cover class, etc.), what is the chance that it belongs to that (land cover class, etc.)?"
+msgstr ""
+
+#: ../../project/validation.rst:23
+#: 575f0e3f0a9b421d92b528a5bd1d52c0
+msgid "There are two pieces of information needed to answer these questions: the ‘true’ land cover class assignment, which is done by a human, and the ‘as classified’ land cover class assignment, which is output by the model. An example of the end goal (the confusion matrix) is shown below for a two class system."
+msgstr ""
+
+#: ../../project/validation.rst:26
+#: 8b0a731b6fe14ac3a6d19bef8724c5ca
+msgid "Actual: Forest"
+msgstr ""
+
+#: ../../project/validation.rst:26
+#: 4b1fec83340d41d597b01ce9a5a74c12
+msgid "Actual: Not Forest"
+msgstr ""
+
+#: ../../project/validation.rst:28
+#: 73c0567cf37444d49d3413c2a8e99041
+msgid "Predicted: Forest"
+msgstr ""
+
+#: ../../project/validation.rst:28
+#: 145f452e871942c0839a4f23add0e17d
+msgid "29 (true positives)"
+msgstr ""
+
+#: ../../project/validation.rst:28
+#: 4f9f417a279649feab873a643e7ab1b7
+msgid "22 (false positives)"
+msgstr ""
+
+#: ../../project/validation.rst:30
+#: 010438de817d4c14aafe62e3b1055a31
+msgid "Predicted Not Forest"
+msgstr ""
+
+#: ../../project/validation.rst:30
+#: 05311cb073f8406593ac34a0183db860
+msgid "12 (false negatives)"
+msgstr ""
+
+#: ../../project/validation.rst:30
+#: f992cec772d647adb99d81d775494927
+msgid "50 (true negatives)"
+msgstr ""
+
+#: ../../project/validation.rst:33
+#: 0ea9713ebc524554b0c655fa4696e5f5
+msgid "For ensemble models, the approach is dependent on the type of ensemble model. For ensemble models where you have combined the results of the different models into a single model (e.g. through averaging), you can use an approach like that used for single models."
+msgstr ""
+
+#: ../../project/validation.rst:35
+#: a58d015b39dd477eb1db44c7b7f2f887
+msgid "Where you have multiple different maps, you may need a more complex approach. For example, if you have two model outputs you may choose to stratify based on the values of both outputs. We will not discuss more complex approaches in depth here."
+msgstr ""
+
+#: ../../project/validation.rst:38
+#: 26e4eebab1f549bd8ea50bc20d598b26
+msgid "Validation goals & required sample size"
+msgstr ""
+
+#: ../../project/validation.rst:40
+#: 7f941bb3d41a4cbfa0d10e13cbf01d40
+msgid "Precision & accuracy goals for a project help us decide on the sample size and sample design."
+msgstr ""
+
+#: ../../project/validation.rst:42
+#: 569fb2a9c5394005bdbf00ad68d260b9
+msgid "*Precision* is how close your measurements or estimates are to one another. This is sometimes called dispersion. Precision describes random errors & variability."
+msgstr ""
+
+#: ../../project/validation.rst:44
+#: 41bb3f98b5264e89912be2073059f6be
+msgid "*Accuracy* is how close your measurements or estimates are to the true answer. Accuracy describes systematic errors—including observational error. In statistics this is sometimes called bias instead of accuracy. Accuracy is sometimes hard to evaluate as the “true” value might not be known—but with Land Use & Land Cover analysis usually it can be."
+msgstr ""
+
+#: ../../project/validation.rst:51
+#: 4ed0236bdf3a4c60abb6eb076dde7a88
+msgid "In this example, A is neither precise nor accurate. B is precise, but not accurate. C is accurate, but not precise, and D is both precise and accurate. This is of course where we would like to be ideally."
+msgstr ""
+
+#: ../../project/validation.rst:53
+#: 3dea9b97fa6a4386a79d5bf90a077f2b
+msgid "Accuracy and precision influence the necessary sample size. Detecting small changes in outcome (e.g. 4% decrease in forest cover) with high certainty requires large sample sizes."
+msgstr ""
+
+#: ../../project/validation.rst:55
+#: 8a42b9f44c4042fa847ca2c83fa32a06
+msgid "When you are determining your sample size, you will want to consider the primary goals of the project, along with the resources available for data collection."
+msgstr ""
+
+#: ../../project/validation.rst:57
+#: e903a5af9aa949b9974499598caec07c
+msgid "There are many different formulas for determining sample sizes. Which one you want to use is based in part on your sampling method (simple random sample, stratified random sample, etc.). For example, from `SEPAL.io <sepal.io>`__:"
+msgstr ""
+
+#: ../../project/validation.rst:64
+#: 34e9a52c7d3b487481d6ef97fd2885f0
+msgid "Area Estimation & Accuracy Assessment (AREA\\ :sup:`2`) also has helper scripts for determining sample size, including assigning area-based weights. Instructions can be found here: https://coded.readthedocs.io/en/latest/sample.html."
+msgstr ""
+
+#: ../../project/validation.rst:66
+#: ed968a2cb1bb476fb81fd01372b2de6f
+msgid "If you have access, the following paper also has a good approach specifically tailored to classification: Foody, G. M. Sample size determination for image classification accuracy assessment and comparison. Proc. 8th Int. Symp. Spat. Accuracy Assess. Nat. Resour. Environ. Sci. 30, 154–162 (2008). https://doi.org/10.1080/01431160903130937"
+msgstr ""
+
+#: ../../project/validation.rst:69
+#: f52b27f6fbbc47b184fccd8f6b581ce4
+msgid "Sampling approach"
+msgstr ""
+
+#: ../../project/validation.rst:71
+#: 6d9cc0c936954858adb20c21864d4216
+msgid "For validating a single model or an ensemble model that has been averaged/combined, stratified sampling is the preferred method. This is to ensure you can accurately and precisely determine how well your classification performs for each of your predicted groups (land cover classes, forest degradation, etc.). If you use random or gridded sampling, you might not sample enough points in rare classes to be able to tell if they are well estimated."
+msgstr ""
+
+#: ../../project/validation.rst:73
+#: b61c8dcf45804812b19cf17cd399001d
+msgid "Strata used for stratification must be exhaustive--they include the entire study area--and they must be exclusive--a sample unit can’t belong to more than one strata."
+msgstr ""
+
+#: ../../project/validation.rst:75
+#: 7a7301eb1ff74c98ad67adcad2930714
+msgid "CEO will soon be able to create stratified sampling designs. However, you have multiple good options to create a stratified sample outside of CEO."
+msgstr ""
+
+#: ../../project/validation.rst:77
+#: c9b824c2a62f4a54b2c39bb773b3fd4a
+msgid "You can use SEPAL.IO to create a stratified sample based on how accurate you think your model is for each stratum and a raster of your model output."
+msgstr ""
+
+#: ../../project/validation.rst:79
+#: 6d052c73ef4e405eaf09b957cd592d22
+msgid "You will need to sign up to use it by visiting `sepal.io <sepal.io>`__ and clicking on **[Sign Up]**."
+msgstr ""
+
+#: ../../project/validation.rst:81
+#: 095480bf416740419bc972d02d44c3ef
+msgid "From the apps, find the **Stratified Area Estimator-Design** tool."
+msgstr ""
+
+#: ../../project/validation.rst:83
+#: 6ebaa73b81364221ab54f8e20945b351
+msgid "From there, follow SEPAL’s directions."
+msgstr ""
+
+#: ../../project/validation.rst:85
+#: 48de023c2c7c48e3a2dad83313c2df5f
+msgid "You can also run this on your own machine; see the instructions here: https://github.com/openforis/accuracy-assessment"
+msgstr ""
+
+#: ../../project/validation.rst:87
+#: f4ec77da83af443e98f275c80b97f33b
+msgid "You can also use QGIS or ArcGIS for creating a stratified sample. Many resources are available online, including:"
+msgstr ""
+
+#: ../../project/validation.rst:89
+#: 281cc9f50bbc4335b23a1da37b80d0c2
+msgid "This blog post for QGIS: https://pvanb.wordpress.com/2012/12/03/stratified-random-sampling-in-qgis/ Note you will need to convert your classification raster to a vector layer."
+msgstr ""
+
+#: ../../project/validation.rst:91
+#: 9429f7857e8247f4be1af60af8011273
+msgid "This description of the Sampling Design Tool in ArcGIS: https://www.arcgis.com/home/item.html?id=28f08ca526ae44e8ac107a2a0d5f50e3"
+msgstr ""
+
+#: ../../project/validation.rst:93
+#: b6154abb65ab43858026f071e08a5b2c
+msgid "Once you have created a stratified sample, you can create a project in CEO and follow the directions in Part 4: H Uploading CSV & SHP files to upload your sampling points into CEO."
+msgstr ""
+
+#: ../../project/validation.rst:95
+#: 0d8f8ca39d434797985adacc9dadac79
+msgid "After collecting data on all of your sampling points, you can download the data (see Part 7: E Download your data) and calculate your confusion matrix."
+msgstr ""
+
+#: ../../project/validation.rst:98
+#: a5c3d0b3dde8406fb8c4a5901f2a169a
+msgid "Alternative: Using TimeSync"
+msgstr ""
+
+#: ../../project/validation.rst:100
+#: 25592a1b3f8343b4a399627baeecc210
+msgid "TimeSync is an application that allows researchers and managers to characterize and quantify disturbance and landscape change by facilitating plot-level interpretation of Landsat time series stacks of imagery (a plot is commonly one Landsat pixel)."
+msgstr ""
+
+#: ../../project/validation.rst:102
+#: 9d83c8ec76724479870ec46fea7d1541
+msgid "TimeSync can be used to validate map data products, especially where estimating change is a primary objective. Also, TimeSync can facilitate production of independent estimates of change and disturbance rates from remotely sensed imagery."
+msgstr ""
+
+#: ../../project/validation.rst:104
+#: d009051ebbb44cc49c19f715f9f42275
+msgid "For more information on TimeSync please see: http://timesync.forestry.oregonstate.edu/. A tutorial on how to use TimeSync is available at: http://timesync.forestry.oregonstate.edu/tutorial.html."
+msgstr ""

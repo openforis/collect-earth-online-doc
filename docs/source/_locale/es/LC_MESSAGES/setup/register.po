@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Collect Earth Online team
+# This file is distributed under the same license as the Collect Earth
+# Online package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Collect Earth Online \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-16 15:21-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../setup/register.rst:2 3aebc7cc6a5f452184b8071b841b20b7
+msgid "A quick introduction to Collect Earth Online"
+msgstr ""
+
+#: ../../setup/register.rst:5 7cb78a20b9ed4546ae6a2e70b6135ee9
+msgid "Setting up your account"
+msgstr ""
+
+#: ../../setup/register.rst:7 66cdf101750544c09f8526a097b84cb6
+msgid ""
+"In your browser window, navigate to https://app.collect.earth/. Google "
+"Chrome and Chromium browsers, like Microsoft Edge, are supported by CEO."
+msgstr ""
+
+#: ../../setup/register.rst:9 b649a6fc74e54ef0858b776d6564b5b7
+msgid "Click **[Login/Register]** on the upper right."
+msgstr ""
+
+#: ../../setup/register.rst:11 8f38e412531d4c76bee350a9c4e438c3
+msgid ""
+"To set up a new account, click on **[Register]** and follow the "
+"instructions. You will receive a welcome email if registration is "
+"successful."
+msgstr ""
+
+#: ../../setup/register.rst:13 594e49358910467296f761fc560ecaff
+msgid "You will need to validate your email upon registration."
+msgstr ""
+
+#: ../../setup/register.rst:15 ebd79c4bfd6a4ce4bc38bbfe6962231d
+msgid "After you have created an account, login with your email and password."
+msgstr ""
+
+#: ../../setup/register.rst:19 9e8a9a1295e74e6d85c1f7584033a067
+msgid ""
+"If you forget your password, click on **[Forgot your password?]** and "
+"follow the instructions."
+msgstr ""
+
+#: ../../setup/register.rst:22 0248b4b776e84efda088a6f1d9d7cf92
+msgid "Website features"
+msgstr ""
+
+#: ../../setup/register.rst:24 d83c62246d594f76a6601e67de75461f
+msgid ""
+"You can access the **Home**, **About**, **Support**, and **Account** "
+"pages from the top menu bar."
+msgstr ""
+
+#: ../../setup/register.rst:26 08c07877d59449c99ba9cd3c9b7237c1
+msgid ""
+"The **Home** page includes information about institutions, published "
+"projects, and a map showing locations of existing projects."
+msgstr ""
+
+#: ../../setup/register.rst:28 3dbcfe9144724139b65105f6a5dca02e
+msgid "The **About** page summarizes information about CEO."
+msgstr ""
+
+#: ../../setup/register.rst:30 a3f3e357f1cd4d31bbc8864dab8cd6d1
+msgid ""
+"The **Support** features Collect Earth Online Manuals, Tutorials, and a "
+"Collect Earth Online Demo. This page also includes links for bug "
+"reporting and forums to ask for help."
+msgstr ""
+
+#: ../../setup/register.rst:32 2119bb6ab0f5465e94ea85bca0b1e492
+msgid ""
+"The **Account** page lists information such as user statistics and allows"
+" users to update their account settings."
+msgstr ""
+
+#: ../../setup/register.rst:36 6d97c9ee6c944b35a7146e7c95f14e07
+msgid ""
+"There is a purple ? in the top right corner of the screen. Clicking on "
+"this will bring up the help interface, which provides information about "
+"CEO’s features. These help interfaces are available for the Home page, "
+"for Data Collection and for Project Creation."
+msgstr ""
+
