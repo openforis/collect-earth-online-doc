@@ -1,24 +1,22 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, Collect Earth Online team
-# This file is distributed under the same license as the Collect Earth
-# Online package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Collect Earth Online \n"
+"Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2024-02-17 01:32\n"
+"Last-Translator: \n"
 "Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
+"Language-Team: French\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
+"X-Crowdin-Project: collect-earth-online-doc\n"
+"X-Crowdin-Project-ID: 647276\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /main/docs/source/_locale/en/LC_MESSAGES/collection/start.po\n"
+"X-Crowdin-File-ID: 42\n"
 
 #: ../../collection/start.rst:2 2c2d3b9cef5e4a1b9dc67e0542edb6c0
 msgid "Start Collecting Data!"
@@ -29,9 +27,7 @@ msgid "Analyze plots"
 msgstr ""
 
 #: ../../collection/start.rst:7 9a833616cd56422392c0c46bb6feb152
-msgid ""
-"Now it is time to contribute to a project. Make sure you have clicked on "
-"**Go to first plot**."
+msgid "Now it is time to contribute to a project. Make sure you have clicked on **Go to first plot**."
 msgstr ""
 
 #: ../../collection/start.rst:9 82be6bfc2f3742e9b5d7c49a2f63a441
@@ -39,17 +35,11 @@ msgid "Read the first Survey Question and the possible answers."
 msgstr ""
 
 #: ../../collection/start.rst:10 2a384631a43f417c8f99109357ae7fdc
-msgid ""
-"If you want to assign the same class or answer to ALL points in the plot "
-"(prior to having applied an answer to any of the points), you can just "
-"click on the answer without first needing to select the points."
+msgid "If you want to assign the same class or answer to ALL points in the plot (prior to having applied an answer to any of the points), you can just click on the answer without first needing to select the points."
 msgstr ""
 
 #: ../../collection/start.rst:11 5e5ee7db574d4d74a06cfb5237fa47b4
-msgid ""
-"If you want to assign different classes or answers to points in the plot,"
-" you will first select your sample points. When sample points are "
-"selected, they turn blue."
+msgid "If you want to assign different classes or answers to points in the plot, you will first select your sample points. When sample points are selected, they turn blue."
 msgstr ""
 
 #: ../../collection/start.rst:13 af5ff679a96241debafbb528f06f54d9
@@ -57,38 +47,23 @@ msgid "To select a *single* sample point, click on it with the left mouse key."
 msgstr ""
 
 #: ../../collection/start.rst:14 68ad6b6394b949469c08cb7c67d8a89f
-msgid ""
-"To select *several* sample points, click on them while keeping the Shift "
-"key pressed down."
+msgid "To select *several* sample points, click on them while keeping the Shift key pressed down."
 msgstr ""
 
 #: ../../collection/start.rst:15 82b68a2bab6348c39ee6a62f7b9c8d0b
-msgid ""
-"To select *all* points in the sample or all points in a rectangle, hold "
-"down Ctrl, then click, hold, and drag in the map window to draw your "
-"rectangle."
+msgid "To select *all* points in the sample or all points in a rectangle, hold down Ctrl, then click, hold, and drag in the map window to draw your rectangle."
 msgstr ""
 
 #: ../../collection/start.rst:17 e00059df8f2d44ce9a7cfed81c6d80ba
-msgid ""
-"When your sample points are marked in blue, you can assign them a sample "
-"value by clicking on the suitable value in the legend to the right of the"
-" map window. The sample points are then marked in the color of the value "
-"class. Here, these sample points are not forest (shrubland), so we select"
-" Other."
+msgid "When your sample points are marked in blue, you can assign them a sample value by clicking on the suitable value in the legend to the right of the map window. The sample points are then marked in the color of the value class. Here, these sample points are not forest (shrubland), so we select Other."
 msgstr ""
 
 #: ../../collection/start.rst:24 798419c5f2f249b296f3f8d17b387852
-msgid ""
-"If it is hard to answer the question because the basemap imagery does not"
-" provide enough detail, try changing the imagery as described in "
-":doc:`preparing`."
+msgid "If it is hard to answer the question because the basemap imagery does not provide enough detail, try changing the imagery as described in :doc:`preparing`."
 msgstr ""
 
 #: ../../collection/start.rst:25 1eb6200a57544695a9ff01c34da19b3f
-msgid ""
-"You may also want to change the basemap to check for seasonal effects "
-"(See :ref:`seasonality`)."
+msgid "You may also want to change the basemap to check for seasonal effects (See :ref:`seasonality`)."
 msgstr ""
 
 #: ../../collection/start.rst:26 87c91022f70d4739a1947c5cc3b955c0
@@ -96,28 +71,19 @@ msgid "Try zooming out to gather context clues from the landscape."
 msgstr ""
 
 #: ../../collection/start.rst:27 01a83a20c4e14665b82897d217f2a7b2
-msgid ""
-"If you make a mistake and assign the wrong value to a point or points, "
-"you can reselect the points & change the assigned sample value."
+msgid "If you make a mistake and assign the wrong value to a point or points, you can reselect the points & change the assigned sample value."
 msgstr ""
 
 #: ../../collection/start.rst:29 38d618fd45d24b9c9bea235a4e2b9c14
-msgid ""
-"If there is a second survey question, click on  **[2]** or the **[Right "
-"arrow]**. Read this question & the answers, reselect the points and "
-"assign them the correct secondary attributes."
+msgid "If there is a second survey question, click on  **[2]** or the **[Right arrow]**. Read this question & the answers, reselect the points and assign them the correct secondary attributes."
 msgstr ""
 
 #: ../../collection/start.rst:30 47699c3106904ea19be4586c0f4a4a89
-msgid ""
-"Your project may have “rules,” which help ensure that all answers are "
-"logically consistent."
+msgid "Your project may have “rules,” which help ensure that all answers are logically consistent."
 msgstr ""
 
 #: ../../collection/start.rst:32 00e80ba635ae48a6982a70b53063fc16
-msgid ""
-"If your project has rules for a survey question, there will be a "
-"clipboard icon next to the question text."
+msgid "If your project has rules for a survey question, there will be a clipboard icon next to the question text."
 msgstr ""
 
 #: ../../collection/start.rst:33 8be45d78fa84428a9ecdf2383fe1437c
@@ -125,28 +91,19 @@ msgid "You can hover over the clipboard icon to see the rules."
 msgstr ""
 
 #: ../../collection/start.rst:40 098c0e49e4804bcaafb2c7ba59851c4e
-msgid ""
-"If you violate the rules, there will be a popup explaining what is wrong "
-"with your answer."
+msgid "If you violate the rules, there will be a popup explaining what is wrong with your answer."
 msgstr ""
 
 #: ../../collection/start.rst:47 22475972e09945968b79c0d5c8de152b
-msgid ""
-"Your project may have a confidence slider. If this feature is enabled, "
-"simply choose the percentage value that best represents your confidence "
-"in your answers, where 100 is totally confident."
+msgid "Your project may have a confidence slider. If this feature is enabled, simply choose the percentage value that best represents your confidence in your answers, where 100 is totally confident."
 msgstr ""
 
 #: ../../collection/start.rst:48 b500eb9aee6b4297bf230a88bf516128
-msgid ""
-"Continue until all sample points have been assigned a value for all "
-"survey questions."
+msgid "Continue until all sample points have been assigned a value for all survey questions."
 msgstr ""
 
 #: ../../collection/start.rst:49 374fc01efe8f4b868374aba0cbd50b0e
-msgid ""
-"Then, click on **[Save]**. You will receive an error message if you have "
-"not answered all of the questions."
+msgid "Then, click on **[Save]**. You will receive an error message if you have not answered all of the questions."
 msgstr ""
 
 #: ../../collection/start.rst:50 e76fb128e45f48179aa1607e2fe1b68a
@@ -154,9 +111,7 @@ msgid "The next plot for analysis shows up automatically."
 msgstr ""
 
 #: ../../collection/start.rst:51 e34495dfc3dc4e8bbcf3c879f285bb25
-msgid ""
-"When all plots are classified, a pop-up window appears to inform you that"
-" all sample plots of your project are analyzed."
+msgid "When all plots are classified, a pop-up window appears to inform you that all sample plots of your project are analyzed."
 msgstr ""
 
 #: ../../collection/start.rst:54 7db786541d0c486488d7af128bb31001
@@ -164,11 +119,7 @@ msgid "User-drawn samples"
 msgstr ""
 
 #: ../../collection/start.rst:56 f6adb999732b46348c01868f78ab77e6
-msgid ""
-"For projects with user-drawn samples, you will need to first draw "
-"yoursamples before you can answer questions about them. Note that your "
-"project administrator may have limited the types of geometries (e.g. "
-"points, lines, or polygons) you can draw."
+msgid "For projects with user-drawn samples, you will need to first draw yoursamples before you can answer questions about them. Note that your project administrator may have limited the types of geometries (e.g. points, lines, or polygons) you can draw."
 msgstr ""
 
 #: ../../collection/start.rst:58 203210f91c5043a086f0e8027448f50c
@@ -176,9 +127,7 @@ msgid "First, click on the **[pencil icon]**."
 msgstr ""
 
 #: ../../collection/start.rst:59 b136d5a533c94e598c053e2669d5eedb
-msgid ""
-"Now, select **[Point]**, **[Line]**, or **[Polygon]** tool as needed for "
-"the project."
+msgid "Now, select **[Point]**, **[Line]**, or **[Polygon]** tool as needed for the project."
 msgstr ""
 
 #: ../../collection/start.rst:60 57ccb30c2c2448e582dd669f129c9b26
@@ -190,15 +139,11 @@ msgid "For points, click once for each point you would like to add."
 msgstr ""
 
 #: ../../collection/start.rst:63 5c44a629fe0e44d2a8e4660a5fffb94b
-msgid ""
-"For lines, click once for each vertex you would like to draw. To complete"
-" the line, right click or double click."
+msgid "For lines, click once for each vertex you would like to draw. To complete the line, right click or double click."
 msgstr ""
 
 #: ../../collection/start.rst:64 27d5ac408b084ed8b421590455ae2813
-msgid ""
-"For polygons, click once for each vertex you would like to draw. To "
-"complete the shape, click on your first vertex or double click."
+msgid "For polygons, click once for each vertex you would like to draw. To complete the shape, click on your first vertex or double click."
 msgstr ""
 
 #: ../../collection/start.rst:66 008c6fd6540144f08a656941735d690e
@@ -218,68 +163,31 @@ msgid "Geo-Dash interface"
 msgstr ""
 
 #: ../../collection/start.rst:78 e13d8136ab514079a27cb28c38fe26f8
-msgid ""
-"For some projects, a second page or tab will open automatically when you "
-"go to your first plot. This is the **Geo-Dash interface**. Many different"
-" elements can be displayed on this interface, depending on what the "
-"Institution has set up."
+msgid "For some projects, a second page or tab will open automatically when you go to your first plot. This is the **Geo-Dash interface**. Many different elements can be displayed on this interface, depending on what the Institution has set up."
 msgstr ""
 
 #: ../../collection/start.rst:80 4789f980fa404ea885700ec114d1ed1b
-msgid ""
-"Some of the most commonly used indexes are described here. If your "
-"Institution has set up the project with a more complicated **Geo-Dash "
-"interface**, contact them for more information on how to use the "
-"information provided to assist data collection and photo interpretation."
+msgid "Some of the most commonly used indexes are described here. If your Institution has set up the project with a more complicated **Geo-Dash interface**, contact them for more information on how to use the information provided to assist data collection and photo interpretation."
 msgstr ""
 
 #: ../../collection/start.rst:82 1961c4a333d344c3857d936e542103bb
-msgid ""
-"The normalized difference vegetation index (NDVI) is used to determine if"
-" an area contains live green vegetation. In map based representations, "
-"dead plants and inanimate objects are represented in one color, while "
-"live healthy plants are represented as another color. Which colors these "
-"are depends on how your institution has set up the project you’re working"
-" on. You can use the slider on the NDVI widget to compare the NDVI values"
-" with satellite imagery. In numerical representations (e.g. time series "
-"graphs) of most natural environments, values below 0 represent dead "
-"plants or inanimate objects, 0-0.33 represents unhealthy plants, "
-"0.33-0.66 represents moderately healthy plants, and 0.66-1 represents "
-"very healthy plants."
+msgid "The normalized difference vegetation index (NDVI) is used to determine if an area contains live green vegetation. In map based representations, dead plants and inanimate objects are represented in one color, while live healthy plants are represented as another color. Which colors these are depends on how your institution has set up the project you’re working on. You can use the slider on the NDVI widget to compare the NDVI values with satellite imagery. In numerical representations (e.g. time series graphs) of most natural environments, values below 0 represent dead plants or inanimate objects, 0-0.33 represents unhealthy plants, 0.33-0.66 represents moderately healthy plants, and 0.66-1 represents very healthy plants."
 msgstr ""
 
 #: ../../collection/start.rst:84 d101f52592254b9583009ec3ee1aad20
-msgid ""
-"The enhanced vegetation index (EVI) and two-band EVI (EVI 2) are "
-"optimized vegetation indexes. They are designed to have higher "
-"sensitivity in high biomass regions (e.g. along the equator). As with "
-"NDVI, dead plants and inanimate objects are represented in one color, "
-"while live healthy plants are represented as another color. Which colors "
-"these are depends on how your institution has set up the project you’re "
-"working on. You can use the slider on the EVI widget to compare the EVI "
-"values with satellite imagery. The index varies between 0-1, with 0 "
-"representing dead plants and 1 representing very healthy plants."
+msgid "The enhanced vegetation index (EVI) and two-band EVI (EVI 2) are optimized vegetation indexes. They are designed to have higher sensitivity in high biomass regions (e.g. along the equator). As with NDVI, dead plants and inanimate objects are represented in one color, while live healthy plants are represented as another color. Which colors these are depends on how your institution has set up the project you’re working on. You can use the slider on the EVI widget to compare the EVI values with satellite imagery. The index varies between 0-1, with 0 representing dead plants and 1 representing very healthy plants."
 msgstr ""
 
 #: ../../collection/start.rst:86 958b722fcf2340489ea6a808f83696ac
-msgid ""
-"The normalized difference moisture index (NDMI) is used to determine the "
-"water content of vegetation. Values near -1 indicate plants with low "
-"moisture while values near 1 indicate plants with high moisture."
+msgid "The normalized difference moisture index (NDMI) is used to determine the water content of vegetation. Values near -1 indicate plants with low moisture while values near 1 indicate plants with high moisture."
 msgstr ""
 
 #: ../../collection/start.rst:88 963389f479624814af2af3b5fedbaf3c
-msgid ""
-"The normalized difference water index (NDWI) is also related to plant "
-"water content and plant water stress. Values near -1 indicate low water "
-"content and vegetation cover and values near 1 indicate high water "
-"content and vegetation cover."
+msgid "The normalized difference water index (NDWI) is also related to plant water content and plant water stress. Values near -1 indicate low water content and vegetation cover and values near 1 indicate high water content and vegetation cover."
 msgstr ""
 
 #: ../../collection/start.rst:90 1a8ab2d4b4604463b019e58d90e5cfb0
-msgid ""
-"Some projects may set up imagery from two time periods, so you can easily"
-" view them side by side."
+msgid "Some projects may set up imagery from two time periods, so you can easily view them side by side."
 msgstr ""
 
 #: ../../collection/start.rst:93 e9b8d165816d49e0bf27dbde1838e675
@@ -287,35 +195,15 @@ msgid "Geo-Dash degradation tool"
 msgstr ""
 
 #: ../../collection/start.rst:95 9e3a2b2641ec4d3190e7ed22b5b9c454
-msgid ""
-"Your institution may have set up the forest degradation tool in the Geo-"
-"Dash interface. This tool provides time series information on forest "
-"degradation from selective logging, fire, and other large and small "
-"disturbances. Broadly, you can use this tool to observe sharp and gradual"
-" changes in the NDFI metric (shown in the bottom panel) and click between"
-" the date points to visually confirm the change via imagery (shown in the"
-" top panel)."
+msgid "Your institution may have set up the forest degradation tool in the Geo-Dash interface. This tool provides time series information on forest degradation from selective logging, fire, and other large and small disturbances. Broadly, you can use this tool to observe sharp and gradual changes in the NDFI metric (shown in the bottom panel) and click between the date points to visually confirm the change via imagery (shown in the top panel)."
 msgstr ""
 
 #: ../../collection/start.rst:101 94cb173568214b799893be421e58ea1c
-msgid ""
-"More specifically, the **top panel** is the imagery panel. Imagery will "
-"display here over the OpenStreetMap data when you select a specific date "
-"in the **bottom panel**. The **slider bar** allows you to choose the "
-"opacity of your imagery. Under **Band Combination**, 321 stands for true "
-"color composite (R,G,B) and 543 stands for false color composite (SWIR, "
-"NIR, R). Using the **Data** toggle, you can choose between Landsat or SAR"
-" data."
+msgid "More specifically, the **top panel** is the imagery panel. Imagery will display here over the OpenStreetMap data when you select a specific date in the **bottom panel**. The **slider bar** allows you to choose the opacity of your imagery. Under **Band Combination**, 321 stands for true color composite (R,G,B) and 543 stands for false color composite (SWIR, NIR, R). Using the **Data** toggle, you can choose between Landsat or SAR data."
 msgstr ""
 
 #: ../../collection/start.rst:103 168927b7c40e4f69868c4e8421716fdb
-msgid ""
-"The **bottom panel** shows a time series graph of NDFI (most common) or "
-"another metric. Values of NDFI between -1 and 0 generally indicate areas "
-"that have been logged (and burned, most likely). Values of NDFI near +1 "
-"indicate intact forest. Values near .5 suggest selective logging or "
-"diffuse canopy damage. Each dot represents one time period where there "
-"are data for your sample plot."
+msgid "The **bottom panel** shows a time series graph of NDFI (most common) or another metric. Values of NDFI between -1 and 0 generally indicate areas that have been logged (and burned, most likely). Values of NDFI near +1 indicate intact forest. Values near .5 suggest selective logging or diffuse canopy damage. Each dot represents one time period where there are data for your sample plot."
 msgstr ""
 
 #: ../../collection/start.rst:105 6bad5c0439d4456999030726e7d98c98
@@ -323,15 +211,11 @@ msgid "To use this tool:"
 msgstr ""
 
 #: ../../collection/start.rst:107 906ff68be69746b0b6fde7126776a4c2
-msgid ""
-"Move the toggle to the imagery **Data** you would like to see: LANDSAT or"
-" SAR."
+msgid "Move the toggle to the imagery **Data** you would like to see: LANDSAT or SAR."
 msgstr ""
 
 #: ../../collection/start.rst:108 e06719a18d8b4a29ae627eca46bfbdd3
-msgid ""
-"If you have chosen LANDSAT, choose the **Band Combination** you would "
-"like."
+msgid "If you have chosen LANDSAT, choose the **Band Combination** you would like."
 msgstr ""
 
 #: ../../collection/start.rst:109 251a81fca89b4daeb803186956c093ad
@@ -339,40 +223,23 @@ msgid "Pause while the time series graph loads."
 msgstr ""
 
 #: ../../collection/start.rst:110 d2b11061a2ea4f378b17c9aaee383cec
-msgid ""
-"Examine the time series graph for any cyclical patterns (indicating "
-"seasonal changes). These are present in deciduous forests, but might not "
-"be present (e.g. in the Amazon rainforest)."
+msgid "Examine the time series graph for any cyclical patterns (indicating seasonal changes). These are present in deciduous forests, but might not be present (e.g. in the Amazon rainforest)."
 msgstr ""
 
 #: ../../collection/start.rst:111 8b821d9fa799430b8e4c9655a3df6b3c
-msgid ""
-"Then, look for any abrupt changes (usually sharp degreases) or gradual "
-"changes (usually gradual increases). These indicate potential degradation"
-" & recovery events."
+msgid "Then, look for any abrupt changes (usually sharp degreases) or gradual changes (usually gradual increases). These indicate potential degradation & recovery events."
 msgstr ""
 
 #: ../../collection/start.rst:112 85b08f7aed2545dd955412b61e21a393
-msgid ""
-"Click on an individual date (blue circle) on the graph in order to bring "
-"up imagery for that time period. You may have to wait for the imagery to "
-"load."
+msgid "Click on an individual date (blue circle) on the graph in order to bring up imagery for that time period. You may have to wait for the imagery to load."
 msgstr ""
 
 #: ../../collection/start.rst:113 f344d892ef644f52a4ce9a8a28e6a4ea
-msgid ""
-"Click between different dates on and around your suspected event to "
-"visually confirm that an event happened and determine the type of event. "
-"Here are some examples:"
+msgid "Click between different dates on and around your suspected event to visually confirm that an event happened and determine the type of event. Here are some examples:"
 msgstr ""
 
 #: ../../collection/start.rst:115 ed9867608cef47ac974102924680415e
-msgid ""
-"A sharp decrease in NDFI (often accompanied by a gradual recovery) may "
-"indicate selective logging. The left panel shows the landscape before; "
-"the right panel is after the event. We can see that at our sample plot, a"
-" road has been created. This would be a degradation event around 2009 "
-"with a recovery lasting 2-3 years."
+msgid "A sharp decrease in NDFI (often accompanied by a gradual recovery) may indicate selective logging. The left panel shows the landscape before; the right panel is after the event. We can see that at our sample plot, a road has been created. This would be a degradation event around 2009 with a recovery lasting 2-3 years."
 msgstr ""
 
 #: ../../collection/start.rst:121 c332cba770e6445a9309f112bce5b2e6
@@ -380,14 +247,10 @@ msgid "A sharp decrease in NDFI might also indicate a fire."
 msgstr ""
 
 #: ../../collection/start.rst:127 0b7835e755dc47159d1038f5765bcd95
-msgid ""
-"An abrupt shift down with no recovery might indicate the migration of a "
-"river canal:"
+msgid "An abrupt shift down with no recovery might indicate the migration of a river canal:"
 msgstr ""
 
 #: ../../collection/start.rst:133 80397340d7d74e1bad2eeac51df7a013
-msgid ""
-"An abrupt shift down followed by a strong seasonal pattern (regular "
-"increase/decrease) may be forest clearing for agriculture."
+msgid "An abrupt shift down followed by a strong seasonal pattern (regular increase/decrease) may be forest clearing for agriculture."
 msgstr ""
 
