@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Collect Earth Online team
+# This file is distributed under the same license as the Collect Earth
+# Online package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Collect Earth Online \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-16 15:21-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../project/index.rst:2 47bf3ed65a7240a0b93bfc0a900ddceb
+msgid "Creating Projects in Collect Earth Online"
+msgstr ""
+
+#: ../../project/index.rst:4 5d99990c9e964d8996424f330fa0dfab
+msgid ""
+"Within Institutions that you administer (have Admin privleges) in Collect"
+" Earth Online, you can create new Projects. Projects allow you to specify"
+" where data should be collected, what institutional imagery should be "
+"used, and what questions should be answered by your data collectors."
+msgstr ""
+
+#: ../../project/index.rst:6 ef81439d91484b80869287559ba158d0
+msgid "Collect Earth Online (CEO) is available at https://collect.earth/."
+msgstr ""
+
+#: ../../project/index.rst:9 1e1abb4906864730ab22a1cfb996ca81
+msgid "Overview of the PROJECT section"
+msgstr ""
+
+#: ../../project/index.rst:11 e8b2e4c0e9db4084a9f0e5066a66edad
+msgid "In this section of the CEO documentation, you can learn how to:"
+msgstr ""
+
+#: ../../project/index.rst:13 086d86f1a34a44af803a4649d8e55252
+msgid ":doc:`Create a Project <create>`"
+msgstr ""
+
+#: ../../project/index.rst:14 17c5878cc49c427294b7b7f26a4f3038
+msgid ":doc:`Set up Plots and Samples <plotsample>`"
+msgstr ""
+
+#: ../../project/index.rst:15 188e74efddd2429982cb8e3efdf17df3
+msgid ":doc:`Manage your Project <management>`"
+msgstr ""
+
+#: ../../project/index.rst:17 188fe017e9ca4146831a35ab7bc1c799
+msgid ""
+"The Project section provides an overview of how to create and manage an "
+"institution in Collect Earth Online. You can learn about how to create "
+"your account, collect data, and create your own projects in other "
+"sections of this documentation. Navigate to these sections using the "
+"links at the top of the page."
+msgstr ""
+
+#: ../../project/index.rst:19 c8b264ae4be748a3b8f6a57fd604d709
+msgid ""
+"Navigate to the other areas of this section by selecting links under "
+"**Section navigation** to the left."
+msgstr ""
+
+#: ../../project/index.rst:21 6dd0773dfbbd4c08af4754f4909d9bca
+msgid ""
+"Navigate to other areas of this article by by selecting links under **On "
+"this page** to the right."
+msgstr ""
+
+#: ../../project/index.rst:25 e8956d669b0e43f1849864b79f230936
+msgid ""
+"This documentation uses a few formatting standards for ease of use. "
+"Clickable links are shown **[like this]**. The names of pages, like the "
+"**Home** page, are bolded."
+msgstr ""
+
+#: ../../project/index.rst:27 0995331e030c4edba0cd17a5e4190a3f
+msgid ""
+"Finally, CEO is a live tool that is under continuous development. Please "
+"report any bugs at our GitHub or by contacting `the CEO team "
+"<support@collect.earth>`__."
+msgstr ""
+

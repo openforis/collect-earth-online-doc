@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Collect Earth Online team
+# This file is distributed under the same license as the Collect Earth
+# Online package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Collect Earth Online \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-16 15:21-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pt_BR\n"
+"Language-Team: pt_BR <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../setup/joining.rst:2 c00f416d6c1c4d1bb9bd59eaea77b4fe
+msgid "Joining an Institution"
+msgstr ""
+
+#: ../../setup/joining.rst:4 7ece1be4f67a4238824181ed409f598e
+msgid ""
+"Several publicly available mapathon projects are featured in the map "
+"window on the **Home** screen. Anyone with an internet connection can log"
+" into Collect Earth Online and begin collecting data for these projects."
+msgstr ""
+
+#: ../../setup/joining.rst:6 60fe272579b1452b98711053106dde3c
+msgid ""
+"Other projects require users be a member of either an institution or a "
+"project. These security levels are pre-determined for each project by the"
+" project manager."
+msgstr ""
+
+#: ../../setup/joining.rst:9 fd6d8d85a2af42579d05c01955be2190
+msgid "Navigating the list of institutions & institution pages"
+msgstr ""
+
+#: ../../setup/joining.rst:11 d1069429745642ca85296e24cd25d204
+msgid ""
+"A list of all institutions is displayed on the **Home** page. If you are "
+"logged in, this list is broken into two: **Your Affiliations** and "
+"**Other Institutions**. **Your Affiliations** are institutions to which "
+"you belong."
+msgstr ""
+
+#: ../../setup/joining.rst:13 b8ba8ffc83854c0f85fa3aebb0dcd5b8
+msgid ""
+"Clicking on an institutions' name expands a list of all active "
+"**Projects** for the Institution. Clicking on these projects will take "
+"you to the project's Data Collection page."
+msgstr ""
+
+#: ../../setup/joining.rst:20 f0298378aea04472b8a6914a04068d32
+msgid ""
+"Next to each institution’s name is the **[VISIT]** button. Clicking on "
+"this will open the **Institution** page."
+msgstr ""
+
+#: ../../setup/joining.rst:21 6996d69d5f1542b4b3024b8261543043
+msgid "On any Institution info page, you can find:"
+msgstr ""
+
+#: ../../setup/joining.rst:23 aef1ebcd785d4526a1e51132a784483a
+msgid ""
+"The institution’s logo, which when clicked will take you to the "
+"institution’s website link,"
+msgstr ""
+
+#: ../../setup/joining.rst:24 42e78dccfdb949a0aed680ec31e17486
+msgid "The institution’s name,"
+msgstr ""
+
+#: ../../setup/joining.rst:25 840e04aa8d6c4103806bb95f3d78b373
+msgid "A short description of the institution,"
+msgstr ""
+
+#: ../../setup/joining.rst:26 c4cbbb5b3f4a4b6ab809fddedaf59966
+msgid "Imagery feeds available to the institution,"
+msgstr ""
+
+#: ../../setup/joining.rst:27 11c1d506f6ef4838bce6e5fd0bec7a1c
+msgid "The institution’s projects, and"
+msgstr ""
+
+#: ../../setup/joining.rst:28 46c2b9af85a84b4e9bbd1b02a4a96460
+msgid "A list of all registered users associated with the institution."
+msgstr ""
+
+#: ../../setup/joining.rst:31 cce352ededa84c7d99f3f4445edb9606
+msgid "Request to join an institution"
+msgstr ""
+
+#: ../../setup/joining.rst:33 7de789cb30874194ac46f804d24fc556
+msgid ""
+"If your institution already has an account on CEO and you would like to "
+"request to be a member, start by navigating to the Institution page via "
+"the **[VISIT]** button."
+msgstr ""
+
+#: ../../setup/joining.rst:34 883a32aa92094a62b4a46a5ed991a73c
+msgid "The list of Users can be found under the **Users tab**. Click on this tab."
+msgstr ""
+
+#: ../../setup/joining.rst:35 e3565bd3f4134c638e1411e59743bfe8
+msgid ""
+"Click on the yellow **[Request Membership]** button to be considered to "
+"join the institution."
+msgstr ""
+
+#: ../../setup/joining.rst:36 63f4a92f4d60464292e81dd1a856443b
+msgid ""
+"The institution’s administrator will need to approve your request to join"
+" the institution."
+msgstr ""
+
+#: ../../setup/joining.rst:37 81541582543c4f1694be667f122319b3
+msgid ""
+"You will receive an email when you are added to the institution or if "
+"your role inside the institution changes (e.g. if you are promoted to "
+"administrator)."
+msgstr ""
+
+#: ../../setup/joining.rst:38 5321815c69ef4154940a41439be121e9
+msgid ""
+"Once you are part of an institution, the **Institution** panel on the "
+"**Home** page will show your institutions. This makes it easier to access"
+" these institutions and their projects."
+msgstr ""
+

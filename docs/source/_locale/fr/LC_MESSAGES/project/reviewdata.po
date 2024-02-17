@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Collect Earth Online team
+# This file is distributed under the same license as the Collect Earth
+# Online package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Collect Earth Online \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-16 15:21-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../project/reviewdata.rst:3 cc4fffd956984f6f82f119782e2fbc0f
+msgid "Administrator Review Mode"
+msgstr ""
+
+#: ../../project/reviewdata.rst:5 6a44e7009a794f369cc8ef006b3fdcd7
+msgid ""
+"Using the Data Collection interface, Institution Administrators can "
+"review their projects."
+msgstr ""
+
+#: ../../project/reviewdata.rst:7 b8c803de9d79470ebebe10c5cea3e765
+msgid ""
+"For projects with QA/QC enabled, administrators can use the Review Mode "
+"to Navigate through plots with Disagreement. This navigation feature "
+"allows administrators to choose the level of disagreement between "
+"questions on the fly, then allow them to navigate between plots that have"
+" the specified level of disagreement or more."
+msgstr ""
+
+#: ../../project/reviewdata.rst:9 e56f676519924622b3cf3354fb884b92
+msgid ""
+"Disagreement is provided as a percentage and represents how far apart "
+"users’ responses for the plot are from one another. If you have multiple "
+"samples per plot, the disagreement per sample is calculated and then "
+"averaged."
+msgstr ""
+
+#: ../../project/reviewdata.rst:18 d9c4da877e394c30a0d0494d5bb43bd1
+msgid ""
+"We suggest that you start with a disagreement percentage of around 50% "
+"and adjust to your needs."
+msgstr ""
+
+#: ../../project/reviewdata.rst:20 11514882eca941acba97dfa0ed4f18fe
+msgid ""
+"Once data for the project has been collected using a quality control "
+"approach, Administrators can press the **[View Disagreements]** button to"
+" bring up a new window that compares every user’s answers for the plot’s "
+"questions."
+msgstr ""
+
+#: ../../project/reviewdata.rst:24 f117ef8bc9eb4f548c12f1e05356795a
+msgid ""
+"This navigation mode is particularly useful for situations where "
+"administrators are identifying difficult plots to identify, difficult "
+"classes to identify, or are holding a group meeting to work through the "
+"identification of plots with high disagreement."
+msgstr ""
+
+#: ../../project/reviewdata.rst:26 44c5577a29bd4eb5b125142f317ef597
+msgid ""
+"In addition, administrators can Navigate through unanalyzed plots, all "
+"analyzed plots, flagged plots, low confidence plots, and individual "
+"users’ plots."
+msgstr ""
+

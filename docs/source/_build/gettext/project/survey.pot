@@ -1,0 +1,407 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Collect Earth Online team
+# This file is distributed under the same license as the Collect Earth Online package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Collect Earth Online \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-16 15:21-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../project/survey.rst:2
+#: d5ea418ff90446f781ce148634f0566e
+msgid "Survey Questions"
+msgstr ""
+
+#: ../../project/survey.rst:4
+#: 65be971f989541b3bf90672e556d7e9e
+msgid "This is where you design the questions that your data collectors/photo interpreters will answer for each of your survey plots. Each question creates a column of data. This raw data facilitates calculating key metrics and indicators and contributes to fulfilling your project goals."
+msgstr ""
+
+#: ../../project/survey.rst:6
+#: 6c854c3eb6184dcf9854a3773451f170
+msgid "**Survey Cards** are the basic unit of organization. Each survey card creates a page of questions on the Data Collection interface. The basic workflow is: Create new top-level question (new survey card) 🡪 populate answers 🡪 create any child questions & answers 🡪 move to next top-level question (new survey card) & repeat until all questions have been asked."
+msgstr ""
+
+#: ../../project/survey.rst:8
+#: 48ec60b65652418e884c2fe161a0116d
+msgid "For the **Survey Question** tab, the left panel allows you to enter questions while the right panel provides a preview of how these questions will appear to your data collectors."
+msgstr ""
+
+#: ../../project/survey.rst:10
+#: 3e544ab912bf423db3557203bed56321
+msgid "We will now go into more detail about how to add a question and answers, the types of questions that can be asked and when these questions might be useful."
+msgstr ""
+
+#: ../../project/survey.rst:14
+#: ded6f047e0874671ad966f40f80527ef
+msgid "How to add questions and answers"
+msgstr ""
+
+#: ../../project/survey.rst:16
+#: 8efeebcf06154d4ba6c90156802e90d9
+msgid "CEO provides a straightforward way to ask multiple-choice questions. As the most common question type used, we will use it for this example. In CEO, these questions are called “button—text” questions as in data collection they display as a button with text."
+msgstr ""
+
+#: ../../project/survey.rst:23
+#: 404fcc97443148d9adbe9f07a8e76f42
+msgid "To start, type your first question into the **Question Text** box. Since it is your first question, you cannot assign a **Parent Question** or **Parent Answers** for the question."
+msgstr ""
+
+#: ../../project/survey.rst:26
+#: 8f933b27c5cf4fed9dcb91780a58d5f1
+msgid "Try to keep the question text below 45 characters so the whole question will be displayed during data collection."
+msgstr ""
+
+#: ../../project/survey.rst:28
+#: 5c51db58ed5c47e0a548823284ac8076
+msgid "Click **[+ Add Survey Question]** to create your first **Survey Card**."
+msgstr ""
+
+#: ../../project/survey.rst:29
+#: 0fffa898040847d4814d1e5e2f7bf5f3
+msgid "You can now add Answers to your question. Answers have two parts: a color and a text box."
+msgstr ""
+
+#: ../../project/survey.rst:31
+#: dd70c7fb7c6149ba84895899e27f113e
+msgid "Click on the **[blue rectangle]** to bring up the **Color Selector.** You can move the color selector dot, use the eyedropper tool, or type in RGB values (0-255). Click off of the color selector when you are done. The color you choose will be associated with the answer. When a data collector selects that answer, any sample points assigned that answer would also be assigned that color to display on the map."
+msgstr ""
+
+#: ../../project/survey.rst:38
+#: 72a67a89f0a54556af8e458bb28a5750
+msgid "You can type your answer into the **Text Box**."
+msgstr ""
+
+#: ../../project/survey.rst:39
+#: 077ebe3eb8f14e9c8ec529afc366a775
+msgid "Click the green **[+]** symbol to add the answer."
+msgstr ""
+
+#: ../../project/survey.rst:42
+#: 366a55b8f1144f7aa2f6ca9dc738a98f
+msgid "Try to type questions with less than 45 characters and answers with around 15 characters or less so that the full text is displayed during data collection."
+msgstr ""
+
+#: ../../project/survey.rst:44
+#: 4785374aa2124688a1d79b8296426295
+msgid "Continue adding answers until all the answers to your first survey question have been added."
+msgstr ""
+
+#: ../../project/survey.rst:45
+#: 62f194b7a24f4fc8ae20abf027d7ce5f
+msgid "You can also use the **[Bulk Add]** button to add multiple color and answer pairs."
+msgstr ""
+
+#: ../../project/survey.rst:52
+#: f07d607ea2ec4886b63ca103627604b4
+msgid "Now that you have a top-level, or parent, question with answers for your survey card, you can edit and delete questions and answers, as well as add child questions and child questions that appear only when specific answers are chosen."
+msgstr ""
+
+#: ../../project/survey.rst:56
+#: 81535bce84474bf2a5783d5b61322a6d
+msgid "\"Button—text\" questions are useful for land use and land cover surveys, or anywhere where you want the user to choose between a limited set of mutually exclusive options."
+msgstr ""
+
+#: ../../project/survey.rst:60
+#: 0125583dfbb34da991f3fb894aac2e63
+msgid "Delete and edit questions"
+msgstr ""
+
+#: ../../project/survey.rst:62
+#: 945b552ef9544e0eb2b91e7439914449
+msgid "You can delete or edit your questions and answers after you create them."
+msgstr ""
+
+#: ../../project/survey.rst:64
+#: d561f29e70c34b18a7992dffff77541a
+msgid "To delete a question or a specific answer, click on the **[Trashcan]** icon next to the question or answer you would like to delete."
+msgstr ""
+
+#: ../../project/survey.rst:65
+#: c4f01488654a4b4eb93b23268762486d
+msgid "To edit a question or an answer, first type your edits into the box, then click the **[Save]** icon next to the edited question or answer."
+msgstr ""
+
+#: ../../project/survey.rst:73
+#: 295cd21fb9834e17a3069e9d1243913a
+msgid "Parent and child questions"
+msgstr ""
+
+#: ../../project/survey.rst:75
+#: 6ac71db7a5514ea7bf1e64f61898785c
+msgid "You can ask follow-up questions based on a user’s response to further refine information about the plot. For example, if a user categorizes a plot as forest, you can follow up by asking them if it is deciduous or coniferous forest."
+msgstr ""
+
+#: ../../project/survey.rst:77
+#: 5de2e31cc7e94536b143dc30538262a7
+msgid "You can create extensive lists of land cover classification options for data collection using this approach."
+msgstr ""
+
+#: ../../project/survey.rst:80
+#: 7ae7b57bd4dc4c7dbf4f40d4140b52bf
+msgid "Parent & child questions are useful when you have broad categories and then want to refine the answer within that category."
+msgstr ""
+
+#: ../../project/survey.rst:82
+#: d27cafd3e75a4bfb897c45ae98ae9711
+msgid "To create a child question, next to **Parent Question** select the question you want using the drop-down menu."
+msgstr ""
+
+#: ../../project/survey.rst:83
+#: ea4a284be03049e491b18e21cdb56b05
+msgid "You can then assign one or more **Parent Answers** through the dropdown menu. Hold down the **Ctrl** button to select multiple answers. When one of the parent answers is chosen, the child question will appear."
+msgstr ""
+
+#: ../../project/survey.rst:86
+#: eeafd48fd9314e4bac5fc14eb06c8f35
+msgid "If you want to have the child question appear regardless of the answer, select all of the answers for **Parent Answer**."
+msgstr ""
+
+#: ../../project/survey.rst:89
+#: c2a27a41b4d343ddbed534a7dd1bd88c
+msgid "Deleting a parent question with children will delete the children questions as well."
+msgstr ""
+
+#: ../../project/survey.rst:91
+#: 6774858c6e964d91bb4f9e8a7e95fb31
+msgid "Here is how a survey card with parent/child questions appears on the data collection page initially:"
+msgstr ""
+
+#: ../../project/survey.rst:98
+#: 72abd3ae434c4b6a8c963ab2a8a52d71
+msgid "And after selecting “Answer #1”:"
+msgstr ""
+
+#: ../../project/survey.rst:105
+#: 68714332af2744c18c47c4db697efa1b
+msgid "And after selecting “Answer #2”:"
+msgstr ""
+
+#: ../../project/survey.rst:112
+#: d568bb1c088a4adfaf744ac3cb4c1e6d
+msgid "The child question with no parent answer will appear when either answer is selected. The child question with “Answer #2” as the parent answer only appears when “Answer #2” is selected."
+msgstr ""
+
+#: ../../project/survey.rst:114
+#: 0cd88299f63c45b888bfb878b8991be9
+msgid "You can also see that these questions were too long, and the user cannot read the whole question. Try to keep your question below 45 characters."
+msgstr ""
+
+#: ../../project/survey.rst:116
+#: c9dca23517d14dcb905f9125459708f7
+msgid "When you are done creating child questions, you can create your next survey card by setting the **Parent Question** field to **None** and creating a new question."
+msgstr ""
+
+#: ../../project/survey.rst:119
+#: c533fd088e1240b5ad09474699a75560
+msgid "Hiding questions and answers"
+msgstr ""
+
+#: ../../project/survey.rst:121
+#: 8f41528c8f18411492964233cfcbec83
+msgid "Questions and answers can be hidden using a simple check box. This feature can be used to improve data collection and facilitate downstream analysis. For example, this functionality is useful when you want to use the same survey across multiple projects, but not every question is applicable to every project. This could be the case if you are collecting information on land cover globally, not all areas have the same type of forest so it does not make sense to include these options everywhere."
+msgstr ""
+
+#: ../../project/survey.rst:123
+#: b401c3382c00443dabda5575a3818919
+msgid "Clicking the **[Hide Question]** or **[Hide Answer?]** checkboxes will hide the question or answer during data collection."
+msgstr ""
+
+#: ../../project/survey.rst:130
+#: f3265e09d49e4050908f4719e6e76a09
+msgid "Manipulating the survey cards"
+msgstr ""
+
+#: ../../project/survey.rst:132
+#: 882574824fba4ee89343909a99491661
+msgid "You can collapse a survey card by clicking the **[-]** symbol in the upper left."
+msgstr ""
+
+#: ../../project/survey.rst:134
+#: dcaff673aae94ea9817b4bb8198895f9
+msgid "You can change the order of the Survey Cards by clicking the **[blue up & down arrows]** in the top right."
+msgstr ""
+
+#: ../../project/survey.rst:137
+#: bcfe6e37dfff4734bf01bb19fa55478b
+msgid "Types of survey questions"
+msgstr ""
+
+#: ../../project/survey.rst:139
+#: b7cce13dad704958b4a0612691b9100f
+msgid "There are other types of questions that can be created using CEO's survey feature. Below is information about the types of questions and when these questions might be useful."
+msgstr ""
+
+#: ../../project/survey.rst:141
+#: 6d71586757564d798338921c6ae53f7f
+msgid "The **Component Types** include combinations of four question types and three data types."
+msgstr ""
+
+#: ../../project/survey.rst:148
+#: 227f30375e9540ec8f88bb4d75f53069
+msgid "The four question types are:"
+msgstr ""
+
+#: ../../project/survey.rst:150
+#: 18026dbfaedb4218951eb84ddadfc4c6
+msgid "**Button**: This creates clickable buttons, allowing users to select one out of many answers for each sample point."
+msgstr ""
+
+#: ../../project/survey.rst:151
+#: 8e22ab512e4d4f549cc3caaa496611ab
+msgid "**Input:** Allows users to enter answers in the box provided. The answer text provided by the project creator becomes the default answer."
+msgstr ""
+
+#: ../../project/survey.rst:152
+#: dbe2d030254a406d88d39164f8b4eaf5
+msgid "**Radiobutton:** This creates radio buttons, allowing users to select one out of many answers for each sample point."
+msgstr ""
+
+#: ../../project/survey.rst:153
+#: 6374e4f16a234fa3abb6919238b2e4d4
+msgid "**Dropdown:** Allows users to select from a list of answers."
+msgstr ""
+
+#: ../../project/survey.rst:155
+#: 48ad76d143da4c81ae138e6d4f75ffe4
+msgid "The three data types allowed are:"
+msgstr ""
+
+#: ../../project/survey.rst:157
+#: d535acd431fe4b0ab15c17c3a2b959c0
+msgid "**Boolean:** Use this when you have two options for a question (yes/no)."
+msgstr ""
+
+#: ../../project/survey.rst:158
+#: d3853b845d8943d5802239bf88157194
+msgid "**Text:** Use this when you have multiple options which are text strings. They may include letters, numbers, or symbols."
+msgstr ""
+
+#: ../../project/survey.rst:159
+#: 09b27c11ffbd48e4a58f945129266ccd
+msgid "**Number:** Use this when you have multiple options that are numbers,  which do not contain letters or symbols."
+msgstr ""
+
+#: ../../project/survey.rst:161
+#: 655dc406d96947e0a3a1ac42cbda9164
+msgid "For the **Input** type only, you can choose whether to require an answer during data collection."
+msgstr ""
+
+#: ../../project/survey.rst:163
+#: 72d9360c540d4065b373f5c086d7bd1a
+msgid "Leave this box unchecked if you don’t want users to always collect the information. This is useful for adding optional details about a plot."
+msgstr ""
+
+#: ../../project/survey.rst:164
+#: 62028ead0c4c4bd38186a72189b3e230
+msgid "Be sure to check the box if you need the question to be answered."
+msgstr ""
+
+#: ../../project/survey.rst:171
+#: 370fe893f95d455d854ce6f079c7bdfe
+msgid "Following are examples of how each question type listed under **Component** Type appears in the **Data Collection** screen, and notes on when each type might be useful."
+msgstr ""
+
+#: ../../project/survey.rst:173
+#: 222b83c266e3428d8cb454d270c067aa
+msgid "**Button—text:**"
+msgstr ""
+
+#: ../../project/survey.rst:180
+#: 06b0e793cba544dba4977a8de3d6a704
+msgid "**Button—number:**"
+msgstr ""
+
+#: ../../project/survey.rst:187
+#: f07615262d45461a943ac24b75c27192
+msgid "The **Button—number** option, coupled with numeric answers, allows you to implement numeric-only rules that will not work on **Button—text** elements."
+msgstr ""
+
+#: ../../project/survey.rst:191
+#: 839140a9b1924f5dbd1fb2384ee3d964
+msgid "**Button—text** and **Button—number** are useful when you want the user to classify each sample point as one of many different options. Different sample points can be assigned different answers. These are a great option for land use and land cover questions."
+msgstr ""
+
+#: ../../project/survey.rst:193
+#: 588ae74f93964734a4052615e92d8584
+msgid "**Input—text:**"
+msgstr ""
+
+#: ../../project/survey.rst:200
+#: 24df63dcc8cc4c99b73328ef1773bc23
+msgid "Users can input any character. What the survey creator types in the “Answer” field will become the default text in the input box."
+msgstr ""
+
+#: ../../project/survey.rst:202
+#: b314218e028040149319134213a5a12f
+msgid "**Input—number:**"
+msgstr ""
+
+#: ../../project/survey.rst:209
+#: e3c6b1e46eda4c5996a959a381757250
+msgid "Users can input integers, decimals, negative and positive numbers, and the letter “e” for scientific notation. Decimals must use “.” and not “,”. What the survey creator types in the “Answer” field will become the default text in the input box. Note the user must click “Save” to input the answer."
+msgstr ""
+
+#: ../../project/survey.rst:213
+#: 9d958bbfdb1848c4b0d1eeae48e6ba64
+msgid "**Input—text** and **Input—number** are useful when you want the user to provide custom input for each plot. For example, you might ask local participants to identify agricultural crops. Answers can be long (500+ characters)."
+msgstr ""
+
+#: ../../project/survey.rst:215
+#: 8857dd7fccb1440da7c1a5ee184ebd45
+msgid "**Radiobutton—boolean:**"
+msgstr ""
+
+#: ../../project/survey.rst:222
+#: cfb7a65fd0ff4f54b3daccaade984a7c
+msgid "**Radiobutton—text:**"
+msgstr ""
+
+#: ../../project/survey.rst:229
+#: 438adf257e1d45af9a0380d203dd813e
+msgid "**Radiobutton—number:**"
+msgstr ""
+
+#: ../../project/survey.rst:236
+#: d693c98e6f974f69b291f7f65d449106
+msgid "Radiobuttons are functionally much the same as Buttons, but with a different aesthetic and the added Boolean option. You can choose different answers for each sample point. Try to use names with around 15 characters or less so that the full name is displayed during analysis."
+msgstr ""
+
+#: ../../project/survey.rst:240
+#: 0014414d2f9c4626b6c6eadd64c9e4ca
+msgid "**Radiobuttons** are useful when you want your users to choose one answer for each of your sample points from multiple options. They work well for land use and land cover questions. The Boolean option also works well for areas you want to classify as yes/no, e.g. Forested or Not Forested."
+msgstr ""
+
+#: ../../project/survey.rst:242
+#: 091ca2e6a8ae4e1f8223121c86680c87
+msgid "**Dropdown—boolean:**"
+msgstr ""
+
+#: ../../project/survey.rst:249
+#: 1c6eb5f1f23344f7962b4d5b70e240a1
+msgid "**Dropdown—text:**"
+msgstr ""
+
+#: ../../project/survey.rst:256
+#: 2ea33c69886a4405b402d5d0158a487d
+msgid "**Dropdown—number:**"
+msgstr ""
+
+#: ../../project/survey.rst:263
+#: bf5dd43ce2e84e589abd3392c3396dfb
+msgid "The **Dropdown** questions function similarly to the **Button** and **Radiobutton** options, but with the dropdown menu aesthetic instead of the button aesthetic. As with the other options, you can assign each sample point a different answer, though it is more difficult from a user perspective."
+msgstr ""
+
+#: ../../project/survey.rst:267
+#: 732f03a6451b4fd5bbadce99a52b4b03
+msgid "Dropdowns may encourage assigning only one answer to all the sample points. Overall, choose the option that will be easiest for your users to understand."
+msgstr ""

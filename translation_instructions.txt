@@ -1,0 +1,37 @@
+Directions for manually setting up translation in Windows. If you're Unix based you probably don't need this.
+
+Derived from:
+- https://documentation.help/Sphinx/intl.html
+- https://docs.readthedocs.io/en/stable/localization.html
+- https://docs.readthedocs.io/en/stable/guides/manage-translations-sphinx.html
+
+Setup:
+
+Make sure you have sphinx and sphinx-intl installed, along with Python and all required packages for this documentation (see requirements.txt). Use the command prompt and pip.
+
+Step 1:
+
+Make sure you have the latest GitHub version of the docs. Use cd to change directory to the docs/source folder. 
+
+Step 2: 
+
+This takes the .rst files in docs/source and turns them into .pot files. 
+
+>sphinx-build -b gettext . _build/gettext
+
+use -v for verbose errors.
+
+Step 3:
+
+This takes the .pot files and turns them into .po files in the _locale directory, and makes one directory per target language.
+
+>sphinx-intl update -p _build/gettext -l fr -l pt_BR -l sp -l en
+
+will do this for three languages plus English (en). The en one is for crowdin. Modify by changing -l (not a 1, but the lowercase letter L) and the language code.
+
+Step 4:
+
+Log in to crowdin with an account that has permissions for the collect-earth-online-doc project.
+
+
+

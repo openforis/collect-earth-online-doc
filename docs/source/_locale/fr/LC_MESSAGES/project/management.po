@@ -1,0 +1,587 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Collect Earth Online team
+# This file is distributed under the same license as the Collect Earth
+# Online package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Collect Earth Online \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-16 15:21-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../project/management.rst:2 45fb95afd7eb40dba46bc534e32cecc3
+msgid "Project Information Interface"
+msgstr ""
+
+#: ../../project/management.rst:4 cac866b63db34d25aaaa0768263650d6
+msgid ""
+"If you are navigating back to the **Project Information** (not visiting "
+"right after project creation), you can reach this page by finding your "
+"Institution on the **Home** page left panel. Click the **[Edit]** icon "
+"next to the project name to get to the **Project Information/Review "
+"Project** page."
+msgstr ""
+
+#: ../../project/management.rst:6 cea26efe9eb34477b9017def5b425e5f
+msgid ""
+"The Project Information Interface has two components: **Project Details**"
+" on the left and **Project Management** on the right."
+msgstr ""
+
+#: ../../project/management.rst:9 8ed8ba875abb4cc4bf836185070450ae
+msgid "Project Details"
+msgstr ""
+
+#: ../../project/management.rst:11 d4382de65f414fd3b90cc29a5ed0c6a8
+msgid ""
+"The **Project Detail** pane includes an overview of your project, "
+"including sample collection design, imagery selection, the AOI boundary, "
+"and survey questions."
+msgstr ""
+
+#: ../../project/management.rst:13 0278289ed9ad41e9b7572d76c8102f96
+msgid ""
+"The **Collection Design** will now show the location of a subset of your "
+"plots (a maximum number can be displayed)."
+msgstr ""
+
+#: ../../project/management.rst:14 26c105526e0e4ded88e24451438bfff7
+msgid ""
+"The **Plot Design** and **Sample Design** sections will show a summary of"
+" the choices you made or the .csv and .shp files you uploaded."
+msgstr ""
+
+#: ../../project/management.rst:15 0bfcf69ed9e74919aa8a7cca051f4c95
+msgid ""
+"**Survey Questions** shows all the **Survey Cards** you created, along "
+"with the corresponding **Component Type, Answers, and Rules.**"
+msgstr ""
+
+#: ../../project/management.rst:18 cdc0e8fc7dc4470fb63b7654b5131ada
+msgid "Project Management"
+msgstr ""
+
+#: ../../project/management.rst:20 34417364f96643a69e2c532239cb46af
+msgid ""
+"The **Project Management** pane includes project publication information "
+"and important links to manage your project."
+msgstr ""
+
+#: ../../project/management.rst:23 0e90cf65a5b04dd1a2d8dedef5665f7e
+msgid "Publication status"
+msgstr ""
+
+#: ../../project/management.rst:25 1ec35e440a8244c2a97fbca3fab60b44
+msgid ""
+"The publication status includes the **Date Created**, **Date Published**,"
+" and **Date Closed** for your project. If your project is not published "
+"yet, the **Date Published** will not be present. There is also text "
+"describing your project status:"
+msgstr ""
+
+#: ../../project/management.rst:27 beeb8100e25943c486d384aec0d3f347
+msgid ""
+"Draft Mode projects: This project is in draft mode. Admins can review, "
+"edit, and test collecting the project. Publish the project in order for "
+"users to begin collection. Any data collected in a Draft Mode project "
+"will not be retained."
+msgstr ""
+
+#: ../../project/management.rst:28 13b46a6be5764dfd8f1efe1b6651c43a
+msgid ""
+"Published projects: This project is published. Users can begin "
+"collecting. Limited changes to the project details can be made. Close the"
+" project to prevent anymore updates."
+msgstr ""
+
+#: ../../project/management.rst:29 963fa98b979d4d9abf80315d1410f21c
+msgid ""
+"Closed projects: This project is closed. The project is closed to all "
+"changes. Reopen the project for additional collection."
+msgstr ""
+
+#: ../../project/management.rst:33 573194e1460740cca2fbd6b138aae13d
+msgid ""
+"We suggest testing your project **extensively** while in draft mode. "
+"Check that you are asking all of your desired questions, rules are "
+"correct, and you have the desired plot and sample design."
+msgstr ""
+
+#: ../../project/management.rst:35 fa6030eadb2141caadf20496c2fdb556
+msgid ""
+"When you are completely happy with your project, that is the best time to"
+" publish it."
+msgstr ""
+
+#: ../../project/management.rst:38 01cd7f40b4864b83a715448b7c42c1a2
+msgid "Modify Project Details"
+msgstr ""
+
+#: ../../project/management.rst:40 1929aee58eab443abe54b9d63ac645d6
+msgid "Next, examine the important links for your project:"
+msgstr ""
+
+#: ../../project/management.rst:42 3a18af3305a44021a105da2259b3d276
+msgid ""
+"**Publish Project**: Clicking on this will publish your project and allow"
+" users to collect data. Note that if a project is not “Published” *only "
+"the admins of the institution can see it, not the members*."
+msgstr ""
+
+#: ../../project/management.rst:43 d8540736084e444bb4da43a942937e1d
+msgid ""
+"**Close Project**: If you have a published project, you can close it and "
+"stop data collection by clicking this button."
+msgstr ""
+
+#: ../../project/management.rst:44 29db87d0fb28437fa09c496a32359d09
+msgid ""
+"**Edit Project**: This button will take you back to the project creation "
+"wizard (see :doc:`create`)."
+msgstr ""
+
+#: ../../project/management.rst:46 028d04f37be949efa21780e886538ebe
+msgid ""
+"When your project is in DRAFT MODE, you can change all aspects of your "
+"project."
+msgstr ""
+
+#: ../../project/management.rst:47 2ff8cb7e656249068a8b7ac31c473c68
+msgid ""
+"When your project is PUBLISHED, you can change the **Project Name, "
+"Description, and Privacy Level**."
+msgstr ""
+
+#: ../../project/management.rst:49 7e7343a8e72b43c5b87165807999bf87
+msgid "**Delete Project**: This will **permanently delete** your project."
+msgstr ""
+
+#: ../../project/management.rst:53 9b7d813e15774b319ac3d280d7e9909d
+msgid ""
+"If you accidentally publish a faulty project, you can use it as the "
+"template for a revised project and not lose all your work."
+msgstr ""
+
+#: ../../project/management.rst:56 337365a139ec43d5856c8abf4eedfb04
+msgid "External Links"
+msgstr ""
+
+#: ../../project/management.rst:58 86967fe427414399868f56fe3fc3e18b
+msgid ""
+"**Configure Geo-Dash:** Clicking on **[Configure Geo-Dash]** will open "
+"the Geo-Dash configuration interface. For more detail, please see "
+":doc:`geodash`."
+msgstr ""
+
+#: ../../project/management.rst:59 484209dd2d0c487d89869ced477e7d3b
+msgid ""
+"**Collect:** This will take you to your project data collection interface"
+" so you can start collecting data right away."
+msgstr ""
+
+#: ../../project/management.rst:60 f7e6377fe5524269aff56056457fdf6a
+msgid ""
+"**Project Dashboard:** If you click on **[Project Dashboard]** you will "
+"see an overview of the AOI, along including the number of members, "
+"contributors, total plots, flagged plots, analyzed plots, unanalyzed "
+"plots, and the date the project was created, published and closed. Admins"
+" do not count towards the project’s member count."
+msgstr ""
+
+#: ../../project/management.rst:68 2edaf391ef7441e4aa29b0dcee4b6fb4
+msgid "Export Data"
+msgstr ""
+
+#: ../../project/management.rst:70 f3951979d1c94ba58d03d21023e70ff9
+msgid ""
+"There are three data download options, **Download Plot Data**, **Download"
+" Sample Data**, and **Download SHP**."
+msgstr ""
+
+#: ../../project/management.rst:74 40dceee0382d4986b45dc9c69c4107fd
+msgid "Data downloaded from CEO will be in WGS84 EPSG:4326 format."
+msgstr ""
+
+#: ../../project/management.rst:76 f5b354f219a64dac8a92f5d27cf1f015
+msgid ""
+"**Download Plot Data** downloads your data with all samples summarized by"
+" plot. It is downloaded in .csv, which can be opened in programs like "
+"Microsoft Excel or imported into data analysis software. Downloaded "
+"columns will be:"
+msgstr ""
+
+#: ../../project/management.rst:78 926dda10e96347e895e5fad92c7d5ee3
+msgid ""
+"**PLOT_ID:** the CEO-assigned unique sample plot number or the user "
+"provided Plot ID (for .csv and .shp files)."
+msgstr ""
+
+#: ../../project/management.rst:79 2565ce233ba344b5b915fc14ca4ae722
+msgid ""
+"**CENTER_LON** and **CENTER_LAT** are the geographic coordinates of the "
+"center of your sample plots."
+msgstr ""
+
+#: ../../project/management.rst:80 d29034a17f4c4fbe9a17a2c2f23ee904
+msgid ""
+"**SIZE_M** and **SHAPE** describe the size in meters and the shape "
+"(circle or square) of the sample plot."
+msgstr ""
+
+#: ../../project/management.rst:81 311c2d97a6bf462a87a392616dcb2bdc
+msgid "**SAMPLE_POINTS** indicates the number of samples in each plot."
+msgstr ""
+
+#: ../../project/management.rst:82 3db34a43a800467cb4cffff0b320f37b
+msgid ""
+"**EMAIL** is the user id (email address) of the person that classified "
+"the plot."
+msgstr ""
+
+#: ../../project/management.rst:83 ../../project/management.rst:109
+#: 20a1acc19c664ca4b70350560e5e9b0c 394abef870604a04b8651e074412cfc7
+msgid ""
+"**FLAGGED**: This will be FALSE for plots where data was collected and "
+"for plots where data has not been collected yet. It will be TRUE when a "
+"user has flagged the quality of the background map as not good enough to "
+"analyze the samples (e.g. due to clouds or poor image resolution)."
+msgstr ""
+
+#: ../../project/management.rst:85 e8340fa236e6403ba78d16aa5db9d222
+msgid "Plots can either be flagged or saved by a user, but not both."
+msgstr ""
+
+#: ../../project/management.rst:86 70839efed70949d7b4ff2b5df9874536
+msgid ""
+"If a user flags the plot, then goes back and enters data and saves the "
+"plot, the plot will not be flagged."
+msgstr ""
+
+#: ../../project/management.rst:88 088c4459daa1421e9344210265ae80b0
+msgid "**FLAGGED_REASON**: A user provided reason for flagging the plot."
+msgstr ""
+
+#: ../../project/management.rst:89 9f37103e2a314a9abfa4879bf686e27c
+msgid "**CONFIDENCE**: Collected user confidence."
+msgstr ""
+
+#: ../../project/management.rst:90 7ba70910c9d941e9b25ed3103aa5c898
+msgid ""
+"**COLLECTION_TIME**: date and time the user collected the plot data. Time"
+" in UTC."
+msgstr ""
+
+#: ../../project/management.rst:91 62e47f78b00046689f33d4f5758b8529
+msgid ""
+"**ANALYSIS_DURATION**: Amount of time, in seconds, the user spent "
+"analyzing the plot."
+msgstr ""
+
+#: ../../project/management.rst:92 28091f131e4b42828818dbf51936589b
+msgid "**COMMON_SECUREWATCH_DATE**: Most common SecureWatch date used."
+msgstr ""
+
+#: ../../project/management.rst:93 d1fd86401d134f4e92f9fdf7dd742a45
+msgid "**TOTAL_SECUREWATCH_DATE**: Number of SecureWatch dates used."
+msgstr ""
+
+#: ../../project/management.rst:94 438963252d904e1892457e829c14df9b
+msgid ""
+"If you used a .csv or .shp file for plot design, any additional data "
+"columns you uploaded will be preserved in the .csv download. They will be"
+" preceded by PL_(column name)."
+msgstr ""
+
+#: ../../project/management.rst:95 28f50a4eb3f64124bbe70050ba2e9660
+msgid ""
+"All the following columns will have information about each of the survey "
+"questions broken down by answer. They are labeled **QUESTION TEXT:ANSWER "
+"TEXT**. For example, LULC:Built Surface would indicate that “LULC” was "
+"the question and “Built Surface” was the answer."
+msgstr ""
+
+#: ../../project/management.rst:97 ebbd35c4215d4cc09b456c680322faa6
+msgid ""
+"In the plot summary download, these are quantified as percent (max 100) "
+"of the sample points in the plot that were assigned that answer."
+msgstr ""
+
+#: ../../project/management.rst:98 c02c1b6121fe41f88031b686e6d7cbbf
+msgid ""
+"For example, suppose you have four sample points within your plot and two"
+" answers (e.g. land cover class) to choose from. If one sample point is "
+"assigned to one answer and the other three points to the second answer, "
+"the data when downloaded will say ‘25’ for the first answer and ‘75’ for "
+"the second answer."
+msgstr ""
+
+#: ../../project/management.rst:99 87e487c343824ed380caee56a4d62672
+msgid "For proactive sampling, percentages are based on sample count, *NOT AREA.*"
+msgstr ""
+
+#: ../../project/management.rst:101 b5f61c1a787c42459a0860b530f52fc8
+msgid ""
+"**Download Sample Data** downloads your raw data, with information for "
+"each sample point within each plot as its own row. If you would like your"
+" plot data analyzed differently, the Download Sample Data option is a "
+"better fit.Downloaded in .csv, which can be opened in programs like "
+"Microsoft Excel or imported into data analysis software."
+msgstr ""
+
+#: ../../project/management.rst:103 460c9814534f496f9ce53ab1d59dc469
+msgid ""
+"Downloaded .csv data from Download Sample Data will have the following "
+"columns:"
+msgstr ""
+
+#: ../../project/management.rst:105 5586bdb62ca9432fbca8874593d0d10c
+msgid ""
+"**PLOT_ID**: the CEO-assigned unique sample plot number or the user "
+"provided Plot ID (for .csv and .shp files)."
+msgstr ""
+
+#: ../../project/management.rst:106 7734d3d727724e3e867b81097442685a
+msgid ""
+"**SAMPLE_ID**: the CEO-assigned unique sample point number or the user "
+"provided Sample ID (for .csv and .shp files)."
+msgstr ""
+
+#: ../../project/management.rst:107 f8e30f4343374174bf2e7954abcab67b
+msgid ""
+"**LON** and **LAT** are the geographic coordinates of the center of your "
+"sample points."
+msgstr ""
+
+#: ../../project/management.rst:108 688598ddeb034ec6a193f2f3615d3039
+msgid ""
+"**EMAIL:** is the user id (email address) of the person that classified "
+"the plot."
+msgstr ""
+
+#: ../../project/management.rst:110 e19c6ad461264327bbd23302dc3d0641
+msgid ""
+"**COLLECTION_TIME**: The date and time when the user classified the plot."
+" *Time zone is UTC.*"
+msgstr ""
+
+#: ../../project/management.rst:111 99f4dc8bf4db43a7b419c27b8b837ade
+msgid ""
+"**ANALYSIS_DURATION**: Time in seconds that the user took to analyze the "
+"plot."
+msgstr ""
+
+#: ../../project/management.rst:112 49a5f5237d75416698545c823f721f81
+msgid ""
+"**IMAGERY_TITLE**: Name of the Imagery layer that the user had selected "
+"while analyzing the plot."
+msgstr ""
+
+#: ../../project/management.rst:113 380cdf16c2d74a35b899c2cf41fa44cf
+msgid "**IMAGERY_ATTRIBUTIONS**: Any attribution for the imagery used."
+msgstr ""
+
+#: ../../project/management.rst:117 809acd757a5e4d4ca61d30501fc00c76
+msgid ""
+"If multiple imagery sources were used, only the name of the last imagery "
+"layer used will be recorded. There is no way to know all the layers used "
+"by the user, e.g. if you want to check that two years of imagery were "
+"used."
+msgstr ""
+
+#: ../../project/management.rst:119 ab7ca92a60d64bf38c756b868a01e9af
+msgid ""
+"If you used a .csv or .shp file for sample plot design, any additional "
+"data columns you uploaded will be preserved in the .csv download. They "
+"will be preceded by PL_(column name)."
+msgstr ""
+
+#: ../../project/management.rst:120 98a7bd58dec64e30910351801f728771
+msgid ""
+"If you used a .csv or .shp file for sample point design, any additional "
+"data columns you uploaded will be preserved in the .csv download. They "
+"will be preceded by SMPL_(column name)."
+msgstr ""
+
+#: ../../project/management.rst:121 767a1a2351774034a31ab4ab2eea1fdd
+msgid ""
+"All the following columns will have information about each of the survey "
+"questions. They will be labeled **QUESTION TEXT**, where question text is"
+" the literal text of the question."
+msgstr ""
+
+#: ../../project/management.rst:125 12a7288ccbf44bd9bb1161248516c166
+msgid ""
+"Note that imagery dates are not available as many of the imagery sources "
+"are composite. *This means that* *each map tile is stitched together from"
+" imagery acquired on multiple dates. There is not a single date for an "
+"imagery tile*."
+msgstr ""
+
+#: ../../project/management.rst:127 dc55e47c709c47fb89b1e0d555eaff7a
+msgid ""
+"If you are using SecureWatch imagery, you will have four additional "
+"columns:"
+msgstr ""
+
+#: ../../project/management.rst:129 83904d389fee4bb7b0e70ad97e2f2c8a
+msgid ""
+"**IMAGERYDATESECUREWATCH** will have a value for any samples which were "
+"classified while a specific date was selected from the imagery date "
+"dropdown."
+msgstr ""
+
+#: ../../project/management.rst:130 71ba3fbd36ec4bd1b4582060e58e8f83
+msgid ""
+"**IMAGERYSTARTDATESECUREWATCH**, **IMAGERYENDDATESECUREWATCH**, and "
+"**FEATUREPROFILESECUREWATCH** will have values for any samples which were"
+" classified while a date range and feature profile were selected."
+msgstr ""
+
+#: ../../project/management.rst:134 d4cbd398d9f24378942bd21050efedd4
+msgid ""
+"Note that imagery properties are associated with samples (not plots) "
+"because users are free to change these properties while classifying "
+"samples. Thus, any given plot may have some of its samples classified "
+"with one map image and other samples classified with a different map "
+"image."
+msgstr ""
+
+#: ../../project/management.rst:136 68805602c7984bca9bd7cf1a9f2a985a
+msgid ""
+"**Download Shape File** downloads a zip file with two folders: plot-"
+"shape-file and sample-shape-file. Each file contains a corresponding "
+"shapefile, consisting of .shp, .cpg, .dbf, .prj, and .shx files. Column "
+"(feature) information includes:"
+msgstr ""
+
+#: ../../project/management.rst:138 cd13c8781caf4692bab908803823b1f9
+msgid "**PROJECTID**: The project ID number from CEO."
+msgstr ""
+
+#: ../../project/management.rst:139 f7016a65918b410a9e6bc4ca3187aabf
+msgid "**PLOTID**: The PLOTID number from CEO."
+msgstr ""
+
+#: ../../project/management.rst:140 71a8b926e3534bc2a8cf9b71537edf29
+msgid "**SAMPLEID**: For the sample-shape-file only, the SAMPLEID number."
+msgstr ""
+
+#: ../../project/management.rst:142 a722b269a6fe4db69b7c8710c4627481
+msgid ""
+"Using this information, you can join the shapefile with the plot or "
+"sample .csv information using a desktop GIS application such as QGIS or "
+"ArcGIS. You could also use a web-based application such as Google Earth "
+"Engine."
+msgstr ""
+
+#: ../../project/management.rst:145 210bdf677874445584e4a40a7c0714b2
+msgid "Digital Object Identifier"
+msgstr ""
+
+#: ../../project/management.rst:146 616d3a78bc57410bb2094de81a2109bf
+msgid ""
+"`Digital Object Identifiers <https://www.doi.org/the-identifier/what-"
+"is-a-doi/>`__ (DOIs) are unique identifiers that help keep track of "
+"objects—digital, physical, or abstract. For example, DOIs can be assigned"
+" GitHub code, peer-reviewed papers, or to data sets like those generated "
+"by users in CEO."
+msgstr ""
+
+#: ../../project/management.rst:148 8288acfccb1342ba87117ac7bfb51f0a
+msgid ""
+"DOIs consist of a unique number made up of a prefix, a forward slash, and"
+" a suffix. For example, the DOI for the peer-reviewed paper describing "
+"CEO is: 10.1016/j.envsoft.2019.05.004. A DOI enables unique and "
+"persistent identification and tracking of CEO datasets."
+msgstr ""
+
+#: ../../project/management.rst:150 61200fa34e404c87950e92696825cb0a
+msgid ""
+"CEO’s implementation of DOIs is strictly opt-in, meaning that users must "
+"choose to publish their data. CEO uses `Zenodo’s API "
+"<https://zenodo.org/>`__, allowing for rich metadata functionality."
+msgstr ""
+
+#: ../../project/management.rst:152 448ba3510dda45c9a1d19ee6cb1fc7a3
+msgid ""
+"**Create DOI** will automatically send collection data and the "
+"plot/sample shape files to Zenodo."
+msgstr ""
+
+#: ../../project/management.rst:154 5ca04af0f37e49c88cc291ef028685c6
+msgid ""
+"**Publish DOI** will make the created DOI public. Click this after "
+"collecting all of your data, completed all QAQC, and have a final, high "
+"quality dataset."
+msgstr ""
+
+#: ../../project/management.rst:157 16858df3e3f94d9baf03f1d9d57af8a9
+msgid ""
+"A project may only have a DOI created if it is published or closed, and "
+"if the DOI is published, a project cannot create any more DOIs."
+msgstr ""
+
+#: ../../project/management.rst:159 7047e501ace5417d8a17619f7562e247
+msgid ""
+"On the project review page, you can copy the DOI reference and look for "
+"it on either https://doi.org or on https://zenodo.org. Remember that your"
+" reference consists of the prefix, forward slash, and the suffix. To view"
+" your DOI on DOI.org or Zenodo, simply search for your project’s DOI "
+"reference. You can find this information on your **Project Information** "
+"page under **Overview.**"
+msgstr ""
+
+#: ../../project/management.rst:166 fe7d2eea5a2b49a2afdbad0b424922c0
+msgid "CEO uploads the following information to Zenodo automatically:"
+msgstr ""
+
+#: ../../project/management.rst:168 778e41a524d6483fba6d387ceca6bd73
+msgid "Creator’s information (the administrator who created the DOI)."
+msgstr ""
+
+#: ../../project/management.rst:169 d5a3c39e0fc341eaa7ab5f00da33620e
+msgid ""
+"Contributor’s information (the email address of all users that collected "
+"data for the project)."
+msgstr ""
+
+#: ../../project/management.rst:170 56b30274964a412cb83676755f0fb890
+msgid "The institution’s name."
+msgstr ""
+
+#: ../../project/management.rst:171 99bfd20ce2bc41c2851d436ce322b56a
+msgid "The project’s name and description."
+msgstr ""
+
+#: ../../project/management.rst:173 ebef14b4a9474600b2c937b4e62c0fd0
+msgid "In addition, CEO uploads a zip file containing:"
+msgstr ""
+
+#: ../../project/management.rst:175 9d1f7b8e4e2146538eade392102d57bc
+msgid ""
+"The survey answers both by plots and by samples in JSON format. This is "
+"the same information that you can download from CEO in CSV format."
+msgstr ""
+
+#: ../../project/management.rst:176 1fb9b3068e9e4457b8ec79a3401b5ce4
+msgid "Plot and sample shape files."
+msgstr ""
+
+#: ../../project/management.rst:179 c4449946ac4e4391a3b35269c1e7a807
+msgid ""
+"This metadata cannot easily be modified once the DOI is published. Please"
+" check your information to make sure it is accurate before publishing "
+"your DOI."
+msgstr ""
+

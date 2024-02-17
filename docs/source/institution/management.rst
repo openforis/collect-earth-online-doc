@@ -41,6 +41,6 @@ Institution user (member) management
 Other administrator privileges
 ------------------------------
 
-1. As an administrator you can review and modify the answers for all plots, including plots labeled by other CEO users. Members of an Institution can only review and modify answers for plots they themselves have labeled. To access this feature, use **Review** toggle for the **Navigate Through** dropdown menu on the Collection Page. See :ref:`_options-and-survey-questions` for more information.
+1. As an administrator you can review and modify the answers for all plots, including plots labeled by other CEO users. Members of an Institution can only review and modify answers for plots they themselves have labeled. To access this feature, use **Review** toggle for the **Navigate Through** dropdown menu on the **Collection Page**. See :doc:`../project/reviewdata` for more information.
 2. As an administrator you can review Draft Mode projects that you or other administrators have created. This is discussed further in :doc:`../project/create`.
 3. As an administrator, you can download collected data from Institution projects. See :doc:`../project/reviewproject`.

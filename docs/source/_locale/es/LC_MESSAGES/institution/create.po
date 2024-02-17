@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Collect Earth Online team
+# This file is distributed under the same license as the Collect Earth
+# Online package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Collect Earth Online \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-16 15:21-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../institution/create.rst:2 e98aa93fcf7143d99d358d5ea07272d1
+msgid "Institution set up and management"
+msgstr ""
+
+#: ../../institution/create.rst:5 29fd0150179c430eb1a415b248aa6c4c
+msgid "List of institutions & Institution pages"
+msgstr ""
+
+#: ../../institution/create.rst:7 10949e9013834244af937a87a32a8c1d
+msgid ""
+"A list of all institutions is displayed on the Home page. If you are "
+"logged in, this list is broken into two: **Your Affiliations** and "
+"**Other Institutions**. **Your Affiliations** are institutions to which "
+"you belong. Next to each institution's name is a **[VISIT]** button. "
+"Clicking on this will open the Institution page."
+msgstr ""
+
+#: ../../institution/create.rst:15 a572c719666a4eb08998f6055066997f
+msgid "Request to join an institution"
+msgstr ""
+
+#: ../../institution/create.rst:17 5d9d6e701f4044f48382ce0e7eee2846
+msgid ""
+"If your institution already has an account on CEO and you would like to "
+"request to be a administrator, start by navigating to the Institution "
+"page via the **[info]** button."
+msgstr ""
+
+#: ../../institution/create.rst:19 f74d433306ef41aa87613859c316a514
+msgid "The list of Users is contained under the Users tab. Click on this tab."
+msgstr ""
+
+#: ../../institution/create.rst:20 3a8f62dda66141e1a1731b61021bfa85
+msgid ""
+"Click on the **[Request Membership]** button to be considered to join the"
+" institution."
+msgstr ""
+
+#: ../../institution/create.rst:21 5ce6799eb62941e39cfb366a595f3865
+msgid ""
+"Once you are part of an institution, the Institution panel on the "
+"**Home** page will show your institutions. This makes it easier to access"
+" these institutions and their projects."
+msgstr ""
+
+#: ../../institution/create.rst:22 4735c2f463cb436a89a4131607b80145
+msgid ""
+"You will need to ask one of the existing administrators of the "
+"Institution to make you and administrator outside of CEO."
+msgstr ""
+
+#: ../../institution/create.rst:25 7d63dfd28495497d942d016fba563b37
+msgid "Creating a new Institution"
+msgstr ""
+
+#: ../../institution/create.rst:27 c9b19772cdc543608f00df9dc7b789d7
+msgid ""
+"If your Institution is not yet signed up for CEO, you can create a new "
+"institution. You will need to be signed into your account (click "
+"**[Login/Register]** to sign in if you are not already)."
+msgstr ""
+
+#: ../../institution/create.rst:29 019c667362d24a48be39cf3687fd848d
+msgid ""
+"When you are signed in, navigate to the Home page and click on **[Create "
+"New Institution]** on the left panel of the Home page."
+msgstr ""
+
+#: ../../institution/create.rst:36 635b611b0a174d86b0a78364b64b7ffb
+msgid ""
+"Enter your institution's name, URL, and a brief description of your "
+"institution. These will display on your Institution page."
+msgstr ""
+
+#: ../../institution/create.rst:37 7010f12efb554e348b3ba4bb5c2c3608
+msgid ""
+"You can upload a logo from your computer by clicking on **[Browse…]** and"
+" navigating to the correct location on your computer."
+msgstr ""
+
+#: ../../institution/create.rst:38 c92a292c068b46678f8abc20ff006b88
+msgid ""
+"Click **[Create Institution]** after you have finished entering your "
+"information."
+msgstr ""
+

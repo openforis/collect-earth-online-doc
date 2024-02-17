@@ -136,7 +136,7 @@ As an institution Administrator, the **Navigate Through** dropdown menu ALSO all
 **External Tools options:**
 
 - Click **[Re-Zoom]** to return your focus to the focus plot
-- **Click [Geodash]** to open the **GeoDash** pane with additional information about the plot (detail see :doc:`collection/start`).
+- **Click [Geodash]** to open the **GeoDash** pane with additional information about the plot (detail see :doc:`start`).
 - You can click **[Download Plot KML]** to download a KML file with the plot information. . Downloading the KML allows you to transfer the plot information to another program, such as Google Earth Desktop. Importantly, the KML functionality allows users to determine the coordinates (latitude and longitude) at which points of interest are located.
 
  .. thumbnail:: ../_images/preparing9.png
