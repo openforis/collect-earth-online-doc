@@ -1,34 +1,29 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, Collect Earth Online team
-# This file is distributed under the same license as the Collect Earth
-# Online package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Collect Earth Online \n"
+"Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: pt_BR\n"
-"Language-Team: pt_BR <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2024-02-17 01:32\n"
+"Last-Translator: \n"
+"Language: pt\n"
+"Language-Team: Portuguese, Brazilian\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
+"X-Crowdin-Project: collect-earth-online-doc\n"
+"X-Crowdin-Project-ID: 647276\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /main/docs/source/_locale/en/LC_MESSAGES/institution/index.po\n"
+"X-Crowdin-File-ID: 52\n"
 
 #: ../../institution/index.rst:2 3632163e923140be950d5bc9213d692d
 msgid "Getting started with your Institution in CEO"
 msgstr ""
 
 #: ../../institution/index.rst:4 c0a4622d90e04836a7289ab34587364c
-msgid ""
-"In Collect Earth Online you can create your own Institution. Institutions"
-" allow you to create tailor made proects, add custom imagery, and invite "
-"specific people to your institution in order to collect data."
+msgid "In Collect Earth Online you can create your own Institution. Institutions allow you to create tailor made proects, add custom imagery, and invite specific people to your institution in order to collect data."
 msgstr ""
 
 #: ../../institution/index.rst:6 6ca28cacacd5486caa58ab3352723b92
@@ -56,37 +51,22 @@ msgid ":doc:`Add Institutional imagery <imagery>`"
 msgstr ""
 
 #: ../../institution/index.rst:17 735faf8fd6fa40448825b87d528c3939
-msgid ""
-"The Institution section provides an overview of how to create and manage "
-"an Institution in Collect Earth Online. You can learn about how to create"
-" your account, collect data, and create your own projects in other "
-"sections of this documentation. Navigate to these sections using the "
-"links at the top of the page."
+msgid "The Institution section provides an overview of how to create and manage an Institution in Collect Earth Online. You can learn about how to create your account, collect data, and create your own projects in other sections of this documentation. Navigate to these sections using the links at the top of the page."
 msgstr ""
 
 #: ../../institution/index.rst:19 fbe03a3c8c9e4ac5a9ee57336a5224d1
-msgid ""
-"Navigate to the other areas of this section by selecting links under "
-"**Section navigation** to the left."
+msgid "Navigate to the other areas of this section by selecting links under **Section navigation** to the left."
 msgstr ""
 
 #: ../../institution/index.rst:21 95125405a1e94629a8ac599e2deabb5a
-msgid ""
-"Navigate to other areas of this article by by selecting links under **On "
-"this page** to the right."
+msgid "Navigate to other areas of this article by by selecting links under **On this page** to the right."
 msgstr ""
 
 #: ../../institution/index.rst:25 dc32e1eaf1b64edf9c3d0d716f2060a2
-msgid ""
-"This documentation uses a few formatting standards for ease of use. "
-"Clickable links are shown **[like this]**. The names of pages, like the "
-"**Home** page, are bolded."
+msgid "This documentation uses a few formatting standards for ease of use. Clickable links are shown **[like this]**. The names of pages, like the **Home** page, are bolded."
 msgstr ""
 
 #: ../../institution/index.rst:27 87758e30e5e247419d795c6449b3d971
-msgid ""
-"Finally, CEO is a live tool that is under continuous development. Please "
-"report any bugs at our GitHub or by contacting `the CEO team "
-"<support@collect.earth>`__."
+msgid "Finally, CEO is a live tool that is under continuous development. Please report any bugs at our GitHub or by contacting `the CEO team <support@collect.earth>`__."
 msgstr ""
 
