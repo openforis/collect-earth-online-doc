@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-02-17 01:31\n"
+"PO-Revision-Date: 2024-02-18 02:01\n"
 "Last-Translator: \n"
 "Language: fr\n"
 "Language-Team: French\n"
@@ -20,11 +20,11 @@ msgstr ""
 
 #: ../../collection/advanced.rst:2 d21401061a8a472283ba0f0b73c6e053
 msgid "Advanced plot analysis"
-msgstr ""
+msgstr "Analyse avancée de la parcelle"
 
 #: ../../collection/advanced.rst:5 e19589dfef9347f6824dc4c146be93da
 msgid "Multiple time periods"
-msgstr ""
+msgstr "Plusieurs périodes de temps"
 
 #: ../../collection/advanced.rst:7 e84be2ff3d97486b8f72ee8a0ba13b72
 msgid "For analyses comparing two or more time periods, you may need to toggle between imagery from different dates."
