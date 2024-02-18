@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-02-17 01:32\n"
+"PO-Revision-Date: 2024-02-18 02:01\n"
 "Last-Translator: \n"
 "Language: fr\n"
 "Language-Team: French\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../project/create.rst:2 fb2f9b68f548411aa9011422f9bee701
 msgid "Project Creation"
-msgstr ""
+msgstr "Création du projet"
 
 #: ../../project/create.rst:4 1aac7df37d0342c4887b82f44c378349
 msgid "After you have created an Institution or joined an Institution with Admin privleges and loaded any desired imagery into your INstitution, you are ready to create a new project."
