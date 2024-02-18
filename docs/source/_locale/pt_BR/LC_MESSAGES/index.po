@@ -1,24 +1,22 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, Collect Earth Online team
-# This file is distributed under the same license as the Collect Earth
-# Online package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Collect Earth Online \n"
+"Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: pt_BR\n"
-"Language-Team: pt_BR <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2024-02-17 01:32\n"
+"Last-Translator: \n"
+"Language: pt\n"
+"Language-Team: Portuguese, Brazilian\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
+"X-Crowdin-Project: collect-earth-online-doc\n"
+"X-Crowdin-Project-ID: 647276\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /main/docs/source/_locale/en/LC_MESSAGES/index.po\n"
+"X-Crowdin-File-ID: 46\n"
 
 #: ../../index.rst:7
 msgid "Getting Started"
@@ -41,15 +39,7 @@ msgid "Welcome to Collect Earth Online's documentation!"
 msgstr ""
 
 #: ../../index.rst:16 5e5e4a6171c74a15972d87cc1b25c5c8
-msgid ""
-"Collect Earth Online (CEO) is a free and open-source image viewing and "
-"interpretation tool, suitable for projects requiring information about "
-"land cover and/or land use. CEO enables simultaneous visual "
-"interpretations of satellite imagery, providing global coverage from "
-"MapBox and Bing Maps, a variety of satellite data sources from Google "
-"Earth Engine, and the ability to connect to your own Web Map Service "
-"(WMS) or Web Map Tile Service (WMTS). The full functionality is "
-"implemented online; no desktop installation is necessary."
+msgid "Collect Earth Online (CEO) is a free and open-source image viewing and interpretation tool, suitable for projects requiring information about land cover and/or land use. CEO enables simultaneous visual interpretations of satellite imagery, providing global coverage from MapBox and Bing Maps, a variety of satellite data sources from Google Earth Engine, and the ability to connect to your own Web Map Service (WMS) or Web Map Tile Service (WMTS). The full functionality is implemented online; no desktop installation is necessary."
 msgstr ""
 
 #: ../../index.rst:23 6740edea7b4048edb45215f85924925c
@@ -89,10 +79,7 @@ msgid "Learn more about CEO"
 msgstr ""
 
 #: ../../index.rst:50 8185eafe2ffb4bb982b3f3301ba12206
-msgid ""
-"CEO enables users to efficiently collect up-to-date information about "
-"their environment and observe changes over time. Learn more about getting"
-" CEO to work for you."
+msgid "CEO enables users to efficiently collect up-to-date information about their environment and observe changes over time. Learn more about getting CEO to work for you."
 msgstr ""
 
 #: ../../index.rst:55 71d4a8a0cc4348eda6e59c0bc863bbe8
@@ -124,15 +111,11 @@ msgid "Get more help or request a feature"
 msgstr ""
 
 #: ../../index.rst:73 a06bc910417f42c3baca4514521b44a0
-msgid ""
-"Have questions? Encounter bugs? Get the help you need using the links "
-"below."
+msgid "Have questions? Encounter bugs? Get the help you need using the links below."
 msgstr ""
 
 #: ../../index.rst:75 52b38e3889d54ca18f34f72d75c164c0
-msgid ""
-"Want to request a feature that would make CEO work better for you? "
-"Contact us at :email:`support@collect.earth`!"
+msgid "Want to request a feature that would make CEO work better for you? Contact us at :email:`support@collect.earth`!"
 msgstr ""
 
 #: ../../index.rst:80 26009b042bea4e9c9aff9f4efa646dfa
@@ -172,16 +155,11 @@ msgid "Supporting Institutions"
 msgstr ""
 
 #: ../../index.rst:103 806fd8496773461f89782db476523690
-msgid ""
-"Collect Earth Online is part of the `Open Foris "
-"<http://www.openforis.org>`__ suite of tools."
+msgid "Collect Earth Online is part of the `Open Foris <http://www.openforis.org>`__ suite of tools."
 msgstr ""
 
 #: ../../index.rst:105 81a4f85d70d3478fb308652dd1739301
-msgid ""
-"CEO was developed by SERVIR—a joint initiative of NASA and USAID, working"
-" in partnership with leading technical organizations around the world—and"
-" the Food and Agriculture Organization of the United Nations."
+msgid "CEO was developed by SERVIR—a joint initiative of NASA and USAID, working in partnership with leading technical organizations around the world—and the Food and Agriculture Organization of the United Nations."
 msgstr ""
 
 #: ../../index.rst:107 2417e0920f7a430db844d6833574bbba
