@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-02-17 01:32\n"
+"PO-Revision-Date: 2024-02-18 02:02\n"
 "Last-Translator: \n"
 "Language: fr\n"
 "Language-Team: French\n"
@@ -20,85 +20,85 @@ msgstr ""
 
 #: ../../setup/joining.rst:2 c00f416d6c1c4d1bb9bd59eaea77b4fe
 msgid "Joining an Institution"
-msgstr ""
+msgstr "Rejoindre une institution"
 
 #: ../../setup/joining.rst:4 7ece1be4f67a4238824181ed409f598e
 msgid "Several publicly available mapathon projects are featured in the map window on the **Home** screen. Anyone with an internet connection can log into Collect Earth Online and begin collecting data for these projects."
-msgstr ""
+msgstr "Plusieurs projets de mapathon accessibles au public sont présentés dans la fenêtre de la carte sur l'écran **Accueil**. N'importe qui disposant d'une connexion Internet peut se connecter à Collect Earth Online et commencer à collecter des données pour ces projets."
 
 #: ../../setup/joining.rst:6 60fe272579b1452b98711053106dde3c
 msgid "Other projects require users be a member of either an institution or a project. These security levels are pre-determined for each project by the project manager."
-msgstr ""
+msgstr "D'autres projets exigent que les utilisateurs soient membres d'une institution ou d'un projet. Ces niveaux de sécurité sont prédéterminés pour chaque projet par le gestionnaire de projet."
 
 #: ../../setup/joining.rst:9 fd6d8d85a2af42579d05c01955be2190
 msgid "Navigating the list of institutions & institution pages"
-msgstr ""
+msgstr "Naviguer dans la liste des pages institutions et institutions"
 
 #: ../../setup/joining.rst:11 d1069429745642ca85296e24cd25d204
 msgid "A list of all institutions is displayed on the **Home** page. If you are logged in, this list is broken into two: **Your Affiliations** and **Other Institutions**. **Your Affiliations** are institutions to which you belong."
-msgstr ""
+msgstr "Une liste de toutes les institutions est affichée sur la page **Accueil**. Si vous êtes connecté, cette liste est divisée en deux: **Vos affiliations** et **d'autres institutions**. **Vos affiliations** sont des institutions auxquelles vous appartenez."
 
 #: ../../setup/joining.rst:13 b8ba8ffc83854c0f85fa3aebb0dcd5b8
 msgid "Clicking on an institutions' name expands a list of all active **Projects** for the Institution. Clicking on these projects will take you to the project's Data Collection page."
-msgstr ""
+msgstr "En cliquant sur le nom d'une institution, vous pouvez agrandir la liste de tous les **Projets** actifs de l'institution. Cliquez sur ces projets pour accéder à la page de collecte de données du projet."
 
 #: ../../setup/joining.rst:20 f0298378aea04472b8a6914a04068d32
 msgid "Next to each institution’s name is the **[VISIT]** button. Clicking on this will open the **Institution** page."
-msgstr ""
+msgstr "À côté du nom de chaque institution se trouve le bouton **[VISIT]**. Cliquer dessus ouvrira la page **Institution**."
 
 #: ../../setup/joining.rst:21 6996d69d5f1542b4b3024b8261543043
 msgid "On any Institution info page, you can find:"
-msgstr ""
+msgstr "Sur n'importe quelle page d'information de l'institution, vous pouvez trouver :"
 
 #: ../../setup/joining.rst:23 aef1ebcd785d4526a1e51132a784483a
 msgid "The institution’s logo, which when clicked will take you to the institution’s website link,"
-msgstr ""
+msgstr "Le logo de l'institution, qui vous mènera sur le site Web de l'institution lorsque vous cliquez dessus,"
 
 #: ../../setup/joining.rst:24 42e78dccfdb949a0aed680ec31e17486
 msgid "The institution’s name,"
-msgstr ""
+msgstr "Le nom de l'institution,"
 
 #: ../../setup/joining.rst:25 840e04aa8d6c4103806bb95f3d78b373
 msgid "A short description of the institution,"
-msgstr ""
+msgstr "Une brève description de l'institution,"
 
 #: ../../setup/joining.rst:26 c4cbbb5b3f4a4b6ab809fddedaf59966
 msgid "Imagery feeds available to the institution,"
-msgstr ""
+msgstr "Les flux d’imagerie dont dispose cette institution ,"
 
 #: ../../setup/joining.rst:27 11c1d506f6ef4838bce6e5fd0bec7a1c
 msgid "The institution’s projects, and"
-msgstr ""
+msgstr "Les projets de l’institution, et"
 
 #: ../../setup/joining.rst:28 46c2b9af85a84b4e9bbd1b02a4a96460
 msgid "A list of all registered users associated with the institution."
-msgstr ""
+msgstr "Une liste de tous les utilisateurs inscrits associés à cette institution."
 
 #: ../../setup/joining.rst:31 cce352ededa84c7d99f3f4445edb9606
 msgid "Request to join an institution"
-msgstr ""
+msgstr "Demander à rejoindre une institution"
 
 #: ../../setup/joining.rst:33 7de789cb30874194ac46f804d24fc556
 msgid "If your institution already has an account on CEO and you would like to request to be a member, start by navigating to the Institution page via the **[VISIT]** button."
-msgstr ""
+msgstr "Si votre institution a déjà un compte sur CEO et que vous souhaitez en être membre, commencez par naviguer vers la page de l'institution via le bouton **[VISIT]**."
 
 #: ../../setup/joining.rst:34 883a32aa92094a62b4a46a5ed991a73c
 msgid "The list of Users can be found under the **Users tab**. Click on this tab."
-msgstr ""
+msgstr "La liste des utilisateurs se trouve dans l'onglet **Utilisateurs**. Cliquez sur cet onglet."
 
 #: ../../setup/joining.rst:35 e3565bd3f4134c638e1411e59743bfe8
 msgid "Click on the yellow **[Request Membership]** button to be considered to join the institution."
-msgstr ""
+msgstr "Cliquez sur le bouton jaune **[Demande d'adhésion]** pour rejoindre l'institution."
 
 #: ../../setup/joining.rst:36 63f4a92f4d60464292e81dd1a856443b
 msgid "The institution’s administrator will need to approve your request to join the institution."
-msgstr ""
+msgstr "L’administrateur de l’établissement devra approuver votre demande pour rejoindre l’institution."
 
 #: ../../setup/joining.rst:37 81541582543c4f1694be667f122319b3
 msgid "You will receive an email when you are added to the institution or if your role inside the institution changes (e.g. if you are promoted to administrator)."
-msgstr ""
+msgstr "Vous recevrez un email lorsque vous aurez été ajouté aux membres de l’institution ou si votre rôle au sein d’une institution est modifié (par exemple, si vous êtes promu au rang d’Administrateur)."
 
 #: ../../setup/joining.rst:38 5321815c69ef4154940a41439be121e9
 msgid "Once you are part of an institution, the **Institution** panel on the **Home** page will show your institutions. This makes it easier to access these institutions and their projects."
-msgstr ""
+msgstr "Une fois que vous faites partie d'une institution, le panneau **Institution** sur la page **Accueil** montrera vos institutions. Cela facilite l'accès à ces institutions et à leurs projets."
 
