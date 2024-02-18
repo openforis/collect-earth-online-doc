@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-02-17 01:32\n"
+"PO-Revision-Date: 2024-02-18 02:01\n"
 "Last-Translator: \n"
 "Language: fr\n"
 "Language-Team: French\n"
@@ -763,7 +763,7 @@ msgstr ""
 
 #: ../../institution/imagery.rst:464 8cf55e20923743c8b907b6d5947be86e
 msgid "Data Collection"
-msgstr ""
+msgstr "Collecte de données"
 
 #: ../../institution/imagery.rst:465 1b89fdc75acd48e88e45ff480de1a5f9
 msgid "Create Project"
