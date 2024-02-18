@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-02-17 01:32\n"
+"PO-Revision-Date: 2024-02-18 02:01\n"
 "Last-Translator: \n"
 "Language: fr\n"
 "Language-Team: French\n"
@@ -20,153 +20,153 @@ msgstr ""
 
 #: ../../index.rst:7
 msgid "Getting Started"
-msgstr ""
+msgstr "Commencer"
 
 #: ../../index.rst:7
 msgid "Data Collection"
-msgstr ""
+msgstr "Collecte de données"
 
 #: ../../index.rst:7
 msgid "Institution Management"
-msgstr ""
+msgstr "Gestion des Institutions"
 
 #: ../../index.rst:7
 msgid "Project Creation"
-msgstr ""
+msgstr "Création du projet"
 
 #: ../../index.rst:5 13c09d903e0345cea0560ab5a470c406
 msgid "Welcome to Collect Earth Online's documentation!"
-msgstr ""
+msgstr "Bienvenue dans la documentation de Collect Earth Online!"
 
 #: ../../index.rst:16 5e5e4a6171c74a15972d87cc1b25c5c8
 msgid "Collect Earth Online (CEO) is a free and open-source image viewing and interpretation tool, suitable for projects requiring information about land cover and/or land use. CEO enables simultaneous visual interpretations of satellite imagery, providing global coverage from MapBox and Bing Maps, a variety of satellite data sources from Google Earth Engine, and the ability to connect to your own Web Map Service (WMS) or Web Map Tile Service (WMTS). The full functionality is implemented online; no desktop installation is necessary."
-msgstr ""
+msgstr "Collect Earth Online, ou CEO, est un outil gratuit et open-source de visualisation et d’interprétation d’images, idéal pour tout projet nécessitant des données relatives au couvert et/ou à l’utilisation des sols. CEO permet d’interpréter visuellement plusieurs images satellite de façon simultanée, avec une couverture planétaire grâce aux diverses sources de données satellites, telles que MapBox et Bing Maps, exploitées via le moteur d’observation terrestre de Google [Google Earth Engine] ; CEO offre par ailleurs à l’utilisateur la possibilité de se connecter à son propre service cartographique en ligne de type Web Map Service (WMS) ou Web Map Tile Service (WMTS). CEO fonctionne entièrement en ligne et ne requiert aucune installation logicielle."
 
 #: ../../index.rst:23 6740edea7b4048edb45215f85924925c
 msgid "Getting started"
-msgstr ""
+msgstr "Commencer"
 
 #: ../../index.rst:25 8698436d0d1f4bc7a1b591c93cc23fd1
 msgid "Create your account and get started with CEO."
-msgstr ""
+msgstr "Créez votre compte et commencez avec CEO."
 
 #: ../../index.rst:30 d074ebe08d3f4d10b5ddb86245f24fc5
 msgid "Register for CEO"
-msgstr ""
+msgstr "S'inscrire pour CEO"
 
 #: ../../index.rst:33 f215c9ea91c949ccb009eda545575eaf
 msgid "Set up your Collect Earth Online account."
-msgstr ""
+msgstr "Configurez votre compte Collect Earth Online."
 
 #: ../../index.rst:35 1ddd845ef0824aefbde140491f08e3da
 msgid "Join an institution"
-msgstr ""
+msgstr "Rejoindre une institution"
 
 #: ../../index.rst:38 3162d3aa011d48baa0f8154a75e5833c
 msgid "Learn how to join an institution in CEO."
-msgstr ""
+msgstr "Apprenez à rejoindre une institution au sein du CEO."
 
 #: ../../index.rst:40 9a41865157404c6cbe3f160d32a8dc83
 msgid "Set up an institution"
-msgstr ""
+msgstr "Créer une institution"
 
 #: ../../index.rst:43 68d10033d31a49d6922c2376861d301e
 msgid "Set up your own institution in CEO."
-msgstr ""
+msgstr "Établir votre propre institution au CEO."
 
 #: ../../index.rst:48 df20d20c53374f1584d6ca1fcd96b835
 msgid "Learn more about CEO"
-msgstr ""
+msgstr "En savoir plus sur le CEO"
 
 #: ../../index.rst:50 8185eafe2ffb4bb982b3f3301ba12206
 msgid "CEO enables users to efficiently collect up-to-date information about their environment and observe changes over time. Learn more about getting CEO to work for you."
-msgstr ""
+msgstr "CEO permet aux utilisateurs de recueillir efficacement des informations à jour sur leur environnement et d'observer les changements au fil du temps. Apprenez-en plus sur la façon de faire travailler CEO pour vous."
 
 #: ../../index.rst:55 71d4a8a0cc4348eda6e59c0bc863bbe8
 msgid "Start collecting data"
-msgstr ""
+msgstr "Commencer à collecter des données"
 
 #: ../../index.rst:58 46a3afeff6214fc4ab29728c1bc7acd0
 msgid "Learn how to collect data in CEO."
-msgstr ""
+msgstr "Apprenez à collecter des données au sein CEO."
 
 #: ../../index.rst:60 391c45243f2a4d20a20b2b381af11b94
 msgid "Manage an institution"
-msgstr ""
+msgstr "Gérez une institution"
 
 #: ../../index.rst:63 e161e259f4664f469646866f2293c8d4
 msgid "Get your own institution up and running."
-msgstr ""
+msgstr "Faites fonctionner votre propre institution."
 
 #: ../../index.rst:65 dee1bb4af4de4491862280172a20b58d
 msgid "Create a project"
-msgstr ""
+msgstr "Créer un projet"
 
 #: ../../index.rst:68 26ee6ab8ed754b26911ad67b197654bc
 msgid "Create your own project and start collecting data."
-msgstr ""
+msgstr "Créez votre propre projet et commencez à collecter des données."
 
 #: ../../index.rst:71 0a1b9dd99b5a4829b4187e204ac57c33
 msgid "Get more help or request a feature"
-msgstr ""
+msgstr "Obtenir plus d'aide ou demander une fonctionnalité"
 
 #: ../../index.rst:73 a06bc910417f42c3baca4514521b44a0
 msgid "Have questions? Encounter bugs? Get the help you need using the links below."
-msgstr ""
+msgstr "Vous avez des questions ? Rencontrez des bugs ? Obtenez l'aide dont vous avez besoin en utilisant les liens ci-dessous."
 
 #: ../../index.rst:75 52b38e3889d54ca18f34f72d75c164c0
 msgid "Want to request a feature that would make CEO work better for you? Contact us at :email:`support@collect.earth`!"
-msgstr ""
+msgstr "Vous voulez demander une fonctionnalité qui améliorerait le travail du CEO pour vous ? Contactez-nous à :email:`support@collect.earth`!"
 
 #: ../../index.rst:80 26009b042bea4e9c9aff9f4efa646dfa
 msgid ":fas:`` Read the blog"
-msgstr ""
+msgstr ":fas:`` Lire le blog"
 
 #: ../../index.rst:83 0e4421f0ff5547139dedc0bb9b34470b
 msgid "Our blog has details on updates and other useful information."
-msgstr ""
+msgstr "Notre blog a des détails sur les mises à jour et d'autres informations utiles."
 
 #: ../../index.rst:85 cc889bd02c7c4ba98697c7f7e230c94e
 msgid "Ask a question"
-msgstr ""
+msgstr "Posez une question"
 
 #: ../../index.rst:88 f695706547534f3c876a95aab4acfede
 msgid "Ask a question on the OpenForis forum."
-msgstr ""
+msgstr "Posez une question sur le forum OpenForis."
 
 #: ../../index.rst:90 fa5e31c0fa5647f6846e4d514ac6a424
 msgid "Improve this documentation"
-msgstr ""
+msgstr "Améliorer cette documentation"
 
 #: ../../index.rst:93 0bd3db193cd84ad88bd7b09a6e683ef3
 msgid "Submit a documentation improvement request through GitHub."
-msgstr ""
+msgstr "Soumettez une demande d'amélioration de la documentation via GitHub."
 
 #: ../../index.rst:95 8062885216d242689fc948ccf8f47874
 msgid "E-mail us"
-msgstr ""
+msgstr "Envoyez-nous un e-mail"
 
 #: ../../index.rst:98 51b5b935339c46f39eba9bcd8b73f189
 msgid "Other questions or bugs? Get in touch."
-msgstr ""
+msgstr "D'autres questions ou bugs ? Contactez-vous."
 
 #: ../../index.rst:101 421e5043201e4dd4897b7c00beb80b89
 msgid "Supporting Institutions"
-msgstr ""
+msgstr "Institutions de soutien"
 
 #: ../../index.rst:103 806fd8496773461f89782db476523690
 msgid "Collect Earth Online is part of the `Open Foris <http://www.openforis.org>`__ suite of tools."
-msgstr ""
+msgstr "Collect Earth Online fait partie de la suite d'outils `Open Foris <http://www.openforis.org>`__."
 
 #: ../../index.rst:105 81a4f85d70d3478fb308652dd1739301
 msgid "CEO was developed by SERVIR—a joint initiative of NASA and USAID, working in partnership with leading technical organizations around the world—and the Food and Agriculture Organization of the United Nations."
-msgstr ""
+msgstr "CEO a été développé par SERVIR – une initiative conjointe de la NASA et de l’USAID, travailler en partenariat avec les principales organisations techniques du monde entier et l'Organisation des Nations Unies pour l'alimentation et l'agriculture."
 
 #: ../../index.rst:107 2417e0920f7a430db844d6833574bbba
 msgid "With the support of:"
-msgstr ""
+msgstr "Avec le support de :"
 
 #: ../../index.rst:111 d67903b6544245a986415458fac21a60
 msgid "In partnership with:"
-msgstr ""
+msgstr "En partenariat avec :"
 
