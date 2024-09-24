@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-02-17 01:32\n"
+"PO-Revision-Date: 2024-09-24 20:10\n"
 "Last-Translator: \n"
 "Language: fr\n"
 "Language-Team: French\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../collection/start.rst:2 2c2d3b9cef5e4a1b9dc67e0542edb6c0
 msgid "Start Collecting Data!"
-msgstr ""
+msgstr "Commencer à collecter des données !"
 
 #: ../../collection/start.rst:5 e2c89944016c4b559b1cb43c968bb3d4
 msgid "Analyze plots"
