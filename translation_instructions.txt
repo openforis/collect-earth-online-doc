@@ -31,7 +31,16 @@ will do this for three languages plus English (en). The en one is for crowdin. M
 
 Step 4:
 
+(push any changes to main--this is what Crowdin will pull for translation)
+
 Log in to crowdin with an account that has permissions for the collect-earth-online-doc project.
 
+Under "Integrations" there should be GitHub. Click on "Sync Now". 
 
+Step 5: 
 
+Translate!
+
+Step 6:
+
+When translation is complete...
