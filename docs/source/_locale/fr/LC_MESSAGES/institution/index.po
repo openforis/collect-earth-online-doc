@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-02-17 01:32\n"
+"PO-Revision-Date: 2024-09-25 20:10\n"
 "Last-Translator: \n"
 "Language: fr\n"
 "Language-Team: French\n"
@@ -28,7 +28,7 @@ msgstr ""
 
 #: ../../institution/index.rst:6 6ca28cacacd5486caa58ab3352723b92
 msgid "Collect Earth Online (CEO) is available at https://collect.earth/."
-msgstr ""
+msgstr "Collect Earth Online (CEO) est disponible sur https://collect.earth/."
 
 #: ../../institution/index.rst:9 78830e76f8c447158715162648d4f36f
 msgid "Overview of the INSTITUTION section"
@@ -36,7 +36,7 @@ msgstr ""
 
 #: ../../institution/index.rst:11 364cc1d22152497594c883f06d6e715a
 msgid "In this section of the CEO documentation, you can learn how to:"
-msgstr ""
+msgstr "Dans cette section de la documentation du CEO, vous pouvez apprendre à :"
 
 #: ../../institution/index.rst:13 3ce08ba77d4e4c76bf65e7e76f3cedd0
 msgid ":doc:`Create an Institution <create>`"
@@ -56,17 +56,17 @@ msgstr ""
 
 #: ../../institution/index.rst:19 fbe03a3c8c9e4ac5a9ee57336a5224d1
 msgid "Navigate to the other areas of this section by selecting links under **Section navigation** to the left."
-msgstr ""
+msgstr "Naviguez vers les autres zones de cette section en sélectionnant les liens sous **navigation de section** à gauche."
 
 #: ../../institution/index.rst:21 95125405a1e94629a8ac599e2deabb5a
 msgid "Navigate to other areas of this article by by selecting links under **On this page** to the right."
-msgstr ""
+msgstr "Naviguez vers d'autres zones de cet article en sélectionnant les liens sous **Sur cette page** à droite."
 
 #: ../../institution/index.rst:25 dc32e1eaf1b64edf9c3d0d716f2060a2
 msgid "This documentation uses a few formatting standards for ease of use. Clickable links are shown **[like this]**. The names of pages, like the **Home** page, are bolded."
-msgstr ""
+msgstr "Cette documentation utilise quelques normes de formatage pour faciliter l'utilisation. Les liens cliquables sont affichés **[comme ceci]**. Les noms des pages, comme la page **d'Accueil**, sont en gras."
 
 #: ../../institution/index.rst:27 87758e30e5e247419d795c6449b3d971
 msgid "Finally, CEO is a live tool that is under continuous development. Please report any bugs at our GitHub or by contacting `the CEO team <support@collect.earth>`__."
-msgstr ""
+msgstr "Enfin, CEO est un outil vivant en développement continu. Veuillez signaler tout bug sur notre GitHub ou en contactant `l'équipe CEO <support@collect.earth>`__."
 
