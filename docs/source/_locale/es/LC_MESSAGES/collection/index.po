@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-02-17 01:32\n"
+"PO-Revision-Date: 2024-09-25 20:10\n"
 "Last-Translator: \n"
 "Language: es\n"
 "Language-Team: Spanish\n"
@@ -55,7 +55,7 @@ msgid ":doc:`Troubleshoot common issues <troubleshooting>`"
 msgstr ""
 
 #: ../../collection/index.rst:19 4c2debf481144c3fa596e91f8bf4e499
-msgid "The Data Collection section provides a quick overview of the Collect Earth Online data collection interface, how to collect data for your institution's projects and what to do if you encounter an error. You can learn about how to set up your CEO account, ad how to manage your own institution and projects in other sections of this documentation. Navigate to these sections using the links at the top of the page."
+msgid "The Data Collection section provides a quick overview of the Collect Earth Online data collection interface, how to collect data for your institution's projects and what to do if you encounter an error. You can learn about how to set up your CEO account, and how to manage your own institution and projects in other sections of this documentation. Navigate to these sections using the links at the top of the page."
 msgstr ""
 
 #: ../../collection/index.rst:21 a01cfe3485434c2b96ef6cbbac6ce33e
