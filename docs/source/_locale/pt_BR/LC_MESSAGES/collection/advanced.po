@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-02-17 01:31\n"
+"PO-Revision-Date: 2024-09-25 20:11\n"
 "Last-Translator: \n"
 "Language: pt\n"
 "Language-Team: Portuguese, Brazilian\n"
@@ -20,19 +20,19 @@ msgstr ""
 
 #: ../../collection/advanced.rst:2 d21401061a8a472283ba0f0b73c6e053
 msgid "Advanced plot analysis"
-msgstr ""
+msgstr "Análise avançada de plot"
 
 #: ../../collection/advanced.rst:5 e19589dfef9347f6824dc4c146be93da
 msgid "Multiple time periods"
-msgstr ""
+msgstr "Períodos de vários tempos"
 
 #: ../../collection/advanced.rst:7 e84be2ff3d97486b8f72ee8a0ba13b72
 msgid "For analyses comparing two or more time periods, you may need to toggle between imagery from different dates."
-msgstr ""
+msgstr "Para análises comparando dois ou mais períodos de tempo, você pode precisar alternar entre imagens de datas diferentes."
 
 #: ../../collection/advanced.rst:9 71fba1df9fb848739b89b14ce625ff77
 msgid "You may need to click **[Update Imagery]** when toggling between different imagery sources."
-msgstr ""
+msgstr "Você pode precisar clicar em **[Update Imagery]** (Atualizar imagem) quando alternar entre diferentes fontes de imagens."
 
 #: ../../collection/advanced.rst:10 bf9769bf9f30482d9a0753626fb4bb87
 msgid "Your institution should have set up the project with two labeled imagery options for the time periods of interest."
@@ -163,7 +163,7 @@ msgid "Skip a plot"
 msgstr ""
 
 #: ../../collection/advanced.rst:87 0542d7c33c0c440692e49371a6b7c29f
-msgid "At any time, you can skip a plot for later analysis by clicking the **[Next Plot Arrow]** in the **Plot Navigation** tab. Alternatively, click on **[Previous Plot Arrow]** to revisit the previous plot"
+msgid "At any time, you can skip a plot for later analysis by clicking the **[Next Plot Arrow]** in the **Plot Navigation** tab. Alternatively, click on **[Previous Plot Arrow]** to revisit the previous plot."
 msgstr ""
 
 #: ../../collection/advanced.rst:90 3a7497fa2f4d434eb1351d3e3905d03f
