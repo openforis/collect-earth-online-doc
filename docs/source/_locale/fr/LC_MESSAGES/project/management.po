@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-02-17 01:32\n"
+"PO-Revision-Date: 2024-09-25 20:10\n"
 "Last-Translator: \n"
 "Language: fr\n"
 "Language-Team: French\n"
@@ -181,7 +181,7 @@ msgstr ""
 
 #: ../../project/management.rst:85 e8340fa236e6403ba78d16aa5db9d222
 msgid "Plots can either be flagged or saved by a user, but not both."
-msgstr ""
+msgstr "Les parcelles peuvent être signalées ou enregistrées par l’utilisateur, mais pas les deux à la fois."
 
 #: ../../project/management.rst:86 70839efed70949d7b4ff2b5df9874536
 msgid "If a user flags the plot, then goes back and enters data and saves the plot, the plot will not be flagged."
