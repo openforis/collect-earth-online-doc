@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-02-17 01:31\n"
+"PO-Revision-Date: 2024-09-25 20:10\n"
 "Last-Translator: \n"
 "Language: es\n"
 "Language-Team: Spanish\n"
@@ -163,7 +163,7 @@ msgid "Skip a plot"
 msgstr ""
 
 #: ../../collection/advanced.rst:87 0542d7c33c0c440692e49371a6b7c29f
-msgid "At any time, you can skip a plot for later analysis by clicking the **[Next Plot Arrow]** in the **Plot Navigation** tab. Alternatively, click on **[Previous Plot Arrow]** to revisit the previous plot"
+msgid "At any time, you can skip a plot for later analysis by clicking the **[Next Plot Arrow]** in the **Plot Navigation** tab. Alternatively, click on **[Previous Plot Arrow]** to revisit the previous plot."
 msgstr ""
 
 #: ../../collection/advanced.rst:90 3a7497fa2f4d434eb1351d3e3905d03f
