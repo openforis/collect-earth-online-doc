@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-02-17 01:32\n"
+"PO-Revision-Date: 2024-10-07 23:56\n"
 "Last-Translator: \n"
 "Language: fr\n"
 "Language-Team: French\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../institution/create.rst:5 29fd0150179c430eb1a415b248aa6c4c
 msgid "List of institutions & Institution pages"
-msgstr ""
+msgstr "Liste des institutions et pages des institutions"
 
 #: ../../institution/create.rst:7 10949e9013834244af937a87a32a8c1d
 msgid "A list of all institutions is displayed on the Home page. If you are logged in, this list is broken into two: **Your Affiliations** and **Other Institutions**. **Your Affiliations** are institutions to which you belong. Next to each institution's name is a **[VISIT]** button. Clicking on this will open the Institution page."
-msgstr ""
+msgstr "Une liste de toutes les institutions est affichée sur la page d'accueil. Si vous êtes connecté, cette liste est divisée en deux: **Vos affiliations** et **d'autres institutions**. **Vos affiliations** sont des institutions auxquelles vous appartenez. À côté du nom de chaque institution se trouve un bouton **[VISIT]**. Cliquer dessus ouvrira la page de l'institution."
 
 #: ../../institution/create.rst:15 a572c719666a4eb08998f6055066997f
 msgid "Request to join an institution"
