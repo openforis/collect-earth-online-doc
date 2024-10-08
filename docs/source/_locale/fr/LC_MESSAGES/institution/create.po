@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-10-07 23:56\n"
+"PO-Revision-Date: 2024-10-08 23:54\n"
 "Last-Translator: \n"
 "Language: fr\n"
 "Language-Team: French\n"
@@ -36,7 +36,7 @@ msgstr ""
 
 #: ../../institution/create.rst:17 5d9d6e701f4044f48382ce0e7eee2846
 msgid "If your institution already has an account on CEO and you would like to request to be a administrator, start by navigating to the Institution page via the **[info]** button."
-msgstr ""
+msgstr "Si votre institution a déjà un compte sur le CEO et que vous souhaitez demander à être un administrateur, commencez par naviguer vers la page de l'institution via le bouton **[info]**."
 
 #: ../../institution/create.rst:19 f74d433306ef41aa87613859c316a514
 msgid "The list of Users is contained under the Users tab. Click on this tab."
