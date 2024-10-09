@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-10-08 23:54\n"
+"PO-Revision-Date: 2024-10-09 23:50\n"
 "Last-Translator: \n"
 "Language: fr\n"
 "Language-Team: French\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../institution/create.rst:2 e98aa93fcf7143d99d358d5ea07272d1
 msgid "Institution set up and management"
-msgstr ""
+msgstr "Institution mise en place et gestion"
 
 #: ../../institution/create.rst:5 29fd0150179c430eb1a415b248aa6c4c
 msgid "List of institutions & Institution pages"
@@ -32,7 +32,7 @@ msgstr "Une liste de toutes les institutions est affichée sur la page d'accueil
 
 #: ../../institution/create.rst:15 a572c719666a4eb08998f6055066997f
 msgid "Request to join an institution"
-msgstr ""
+msgstr "Demander à rejoindre une institution"
 
 #: ../../institution/create.rst:17 5d9d6e701f4044f48382ce0e7eee2846
 msgid "If your institution already has an account on CEO and you would like to request to be a administrator, start by navigating to the Institution page via the **[info]** button."
@@ -40,41 +40,41 @@ msgstr "Si votre institution a déjà un compte sur le CEO et que vous souhaitez
 
 #: ../../institution/create.rst:19 f74d433306ef41aa87613859c316a514
 msgid "The list of Users is contained under the Users tab. Click on this tab."
-msgstr ""
+msgstr "La liste des utilisateurs se trouve dans l'onglet **Utilisateurs**. Cliquez sur cet onglet."
 
 #: ../../institution/create.rst:20 3a8f62dda66141e1a1731b61021bfa85
 msgid "Click on the **[Request Membership]** button to be considered to join the institution."
-msgstr ""
+msgstr "Cliquez sur le bouton **[Demande d'adhésion]** pour rejoindre l'institution."
 
 #: ../../institution/create.rst:21 5ce6799eb62941e39cfb366a595f3865
 msgid "Once you are part of an institution, the Institution panel on the **Home** page will show your institutions. This makes it easier to access these institutions and their projects."
-msgstr ""
+msgstr "Une fois que vous faites partie d'une institution, le panneau **Institution** sur la page **Accueil** montrera vos institutions. Cela facilite l'accès à ces institutions et à leurs projets."
 
 #: ../../institution/create.rst:22 4735c2f463cb436a89a4131607b80145
 msgid "You will need to ask one of the existing administrators of the Institution to make you and administrator outside of CEO."
-msgstr ""
+msgstr "Vous devrez demander à l’un des administrateurs actuels de l’institution de faire de vous et de l’administrateur à l’extérieur du CEO."
 
 #: ../../institution/create.rst:25 7d63dfd28495497d942d016fba563b37
 msgid "Creating a new Institution"
-msgstr ""
+msgstr "Création d'une nouvelle institution"
 
 #: ../../institution/create.rst:27 c9b19772cdc543608f00df9dc7b789d7
 msgid "If your Institution is not yet signed up for CEO, you can create a new institution. You will need to be signed into your account (click **[Login/Register]** to sign in if you are not already)."
-msgstr ""
+msgstr "Si votre institution n'est pas encore inscrite au CEO, vous pouvez créer une nouvelle institution. Vous devrez être connecté à votre compte (cliquez sur **[Se connecter/S'inscrire]** pour vous connecter si vous n'êtes pas déjà)."
 
 #: ../../institution/create.rst:29 019c667362d24a48be39cf3687fd848d
 msgid "When you are signed in, navigate to the Home page and click on **[Create New Institution]** on the left panel of the Home page."
-msgstr ""
+msgstr "Lorsque vous êtes connecté, accédez à la page d'accueil et cliquez sur **[Créer une nouvelle institution]** dans le panneau de gauche de la page d'accueil."
 
 #: ../../institution/create.rst:36 635b611b0a174d86b0a78364b64b7ffb
 msgid "Enter your institution's name, URL, and a brief description of your institution. These will display on your Institution page."
-msgstr ""
+msgstr "Entrez le nom de votre institution, son URL, et une brève description de votre institution. Ceux-ci s'afficheront sur la page de votre institution."
 
 #: ../../institution/create.rst:37 7010f12efb554e348b3ba4bb5c2c3608
 msgid "You can upload a logo from your computer by clicking on **[Browse…]** and navigating to the correct location on your computer."
-msgstr ""
+msgstr "Vous pouvez télécharger un logo depuis votre ordinateur en cliquant sur **[Parcourir…]** et en naviguant à l'emplacement correct sur votre ordinateur."
 
 #: ../../institution/create.rst:38 c92a292c068b46678f8abc20ff006b88
 msgid "Click **[Create Institution]** after you have finished entering your information."
-msgstr ""
+msgstr "Cliquez sur **[Créer une institution]** une fois que vous avez fini d'entrer vos informations."
 
