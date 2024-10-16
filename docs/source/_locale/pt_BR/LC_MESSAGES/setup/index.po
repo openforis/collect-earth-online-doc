@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-02-17 01:32\n"
+"PO-Revision-Date: 2024-10-16 11:44\n"
 "Last-Translator: \n"
 "Language: pt\n"
 "Language-Team: Portuguese, Brazilian\n"
@@ -32,7 +32,7 @@ msgstr ""
 
 #: ../../setup/index.rst:9 7d833542db9b420a9309112e606fdce2
 msgid "Collect Earth Online (CEO) is available at https://collect.earth/."
-msgstr ""
+msgstr "Collect Earth Online (CEO) está disponível em https://collect.earth/."
 
 #: ../../setup/index.rst:12 3fb0eaaabbba406d841f36e942a723ef
 msgid "Overview of the SETUP section"
@@ -40,7 +40,7 @@ msgstr ""
 
 #: ../../setup/index.rst:14 9ab5d6faa23948bdadb3536ded0d4963
 msgid "In this section of the CEO documentation, you can learn how to:"
-msgstr ""
+msgstr "Nesta seção da documentação do CEO, você pode aprender como:"
 
 #: ../../setup/index.rst:16 52e5c7572d8a492da09da9a2cf37a755
 msgid ":doc:`Register your CEO account <register>`"
@@ -56,17 +56,17 @@ msgstr ""
 
 #: ../../setup/index.rst:21 82bf4a53a8294bd28ef0e9c4490bd0c3
 msgid "Navigate to the other areas of this section by selecting links under **Section navigation** to the left."
-msgstr ""
+msgstr "Navegue para as outras áreas desta seção selecionando links sob **Navegação da Seção** à esquerda."
 
 #: ../../setup/index.rst:23 ee81a9c763914ad0b56a5ed1ddb69e4b
 msgid "Navigate to other areas of this article by by selecting links under **On this page** to the right."
-msgstr ""
+msgstr "Navegue para outras áreas deste artigo selecionando links sob **Nesta página** à direita."
 
 #: ../../setup/index.rst:27 cb2335f44e7c400d8309948a4b7150d2
 msgid "This documentation uses a few formatting standards for ease of use. Clickable links are shown **[like this]**. The names of pages, like the **Home** page, are bolded."
-msgstr ""
+msgstr "Esta documentação utiliza alguns padrões de formatação para facilitar o uso. Links clicáveis são mostrados **[como esse]**. Os nomes das páginas, como a **Home**, estão em negrito."
 
 #: ../../setup/index.rst:29 08ac5e2379254e63acbf1bde306f2a86
 msgid "Finally, CEO is a live tool that is under continuous development. Please report any bugs at our GitHub or by contacting `the CEO team <support@collect.earth>`__."
-msgstr ""
+msgstr "Finalmente, CEO é um instrumento ao vivo que está sob desenvolvimento contínuo. Por favor, reporte quaisquer erros no nosso GitHub ou entre em contato com ’a equipe do CEO <support@collect.earth>’__."
 
