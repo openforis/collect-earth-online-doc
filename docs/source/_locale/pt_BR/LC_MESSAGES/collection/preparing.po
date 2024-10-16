@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:37-0800\n"
-"PO-Revision-Date: 2024-02-17 01:32\n"
+"PO-Revision-Date: 2024-10-16 11:44\n"
 "Last-Translator: \n"
 "Language: pt\n"
 "Language-Team: Portuguese, Brazilian\n"
@@ -20,55 +20,55 @@ msgstr ""
 
 #: ../../collection/preparing.rst:2 d27414d167964edb8463d02a503f9ee7
 msgid "Preparing for Data Collection"
-msgstr ""
+msgstr "Preparando-se para a Coleta de Dados"
 
 #: ../../collection/preparing.rst:5 7d63352efdb643009faf4ee81d21d749
 msgid "Allow pop-ups"
-msgstr ""
+msgstr "Permitir pop-ups"
 
 #: ../../collection/preparing.rst:7 f4909946d75e4b44a36d21145655c615
 msgid "If it is your first-time collecting data with Collect Earth Online, or you have switched computers, you may need to allow pop-ups from the CEO site. CEO uses pop-up windows to display additional, relevant information about each plot through the Geo-Dash interface."
-msgstr ""
+msgstr "Se é sua primeira vez coletando dados com o Collect Earth Online, ou se você trocou de computador, talvez você precise permitir pop-ups do site CEO. O CEO usa janelas pop-up para exibir informações adicionais e relevantes sobre cada gráfico através da interface Geo-Dash."
 
 #: ../../collection/preparing.rst:9 abadf5aeae4c4c69b8c3f9402d554fbe
 msgid "How to enable pop-ups varies based on the browser you are using. The most used browsers are discussed below. However, if your browser is not covered, simply search online for your browser name & “allow pop-ups” and the search engine should return relevant results."
-msgstr ""
+msgstr "A maneira de ativar pop-ups varia de acordo com o navegador que você está utilizando. Abaixo, estão listados os navegadores mais comuns. Caso o seu navegador não esteja na lista, basta pesquisar \"como permitir pop-ups\" e o mecanismo de busca fornecerá resultados relevantes."
 
 #: ../../collection/preparing.rst:11 14368ac18eea4e17ae4818c64612e73e
 msgid "**For Google Chrome:**"
-msgstr ""
+msgstr "**Para o Google Chrome:**"
 
 #: ../../collection/preparing.rst:13 f1e9a7cb02594deabc7d82d1b2666c60
 msgid "Check the address bar. If it is marked with a pop-up blocked icon (see image below), click on the **[popup blocked]** warning."
-msgstr ""
+msgstr "Verifique a barra de endereços. Se estiver marcado com um ícone bloqueado pop-up (ver imagem abaixo), clique no aviso **[popup bloqueado]**."
 
 #: ../../collection/preparing.rst:14 362e9d286cd44ee88ed69016057dd296
 msgid "In the popup window that appears, select **Always allow pop-ups from https://collect.earth/.** Then click **[Done]**."
-msgstr ""
+msgstr "Na janela pop-up que será exibida, selecione **Sempre permitir pop-ups de https://collect.earth/.** Em seguida, clique **[Done]**."
 
 #: ../../collection/preparing.rst:15 b2e4dbc9d0e146b285e97a491ea07302
 msgid "If there is no icon, follow the directions here: `Chrome Support <https://support.google.com/chrome/answer/95472>`__."
-msgstr ""
+msgstr "Se não houver nenhum ícone, siga as instruções aqui: ’Suporte Chrome <https://support.google.com/chrome/answer/95472>’__."
 
 #: ../../collection/preparing.rst:21 e83a4bf5cdbc4584811230b3ec35d61e
 msgid "**For Mozilla Firefox:**"
-msgstr ""
+msgstr "**Para o Mozilla Firefox:**"
 
 #: ../../collection/preparing.rst:23 6ad64f3f3f924305a1735de2edea47dd
 msgid "Check for a yellow bar below the address bar (see image below). If there, click on the **[Options]** button."
-msgstr ""
+msgstr "Verifique se há uma barra amarela abaixo da barra de endereço (ver imagem abaixo). Se houver, clique no botão **[Options]**."
 
 #: ../../collection/preparing.rst:24 7abdc01af0ad49959aca6e531125e6b5
 msgid "In the popup window that appears, select **Allow pop-ups for** collect.earth."
-msgstr ""
+msgstr "Na janela pop-up que será exibida, selecione **Permitir pop-ups para** collect.earth."
 
 #: ../../collection/preparing.rst:25 0bedf28c86db4071b36a470ec69a857f
 msgid "If there is no icon, follow the directions here: `Mozilla Support <https://support.mozilla.org/en-US/kb/pop-blocker-settings-exceptions-troubleshooting#w_pop-up-blocker-settings>`__."
-msgstr ""
+msgstr "Se não houver nenhum ícone, siga as instruções aqui: ’Mozilla Support <https://support.mozilla.org/en-US/kb/pop-blocker-settings-exceptions-troubleshooting#w_pop-up-blocker-settings>’__."
 
 #: ../../collection/preparing.rst:32 71fd0320693d404a933564fcb12e895f
 msgid "Option 1: Work on a public project"
-msgstr ""
+msgstr "Opção 1: Trabalhe em um projeto público"
 
 #: ../../collection/preparing.rst:34 961a4f2e817f4b9f89c27e8dc91f51b3
 msgid "From the **Home** page, you can begin collecting data on public projects. There are map pins representing each project at the project location."
@@ -76,19 +76,19 @@ msgstr ""
 
 #: ../../collection/preparing.rst:35 65d308cb9af3497982720010bda9152c
 msgid "Select a project by first clicking on a **[map pin]**. Then from the pop-up **Project info** menu, click on the name of one of the projects in the pop-up window."
-msgstr ""
+msgstr "Selecione um projeto clicando primeiro em um **[pin de mapa]**. Então, a partir do menu **Informações do projeto** do projeto, clique no nome de um dos projetos na janela pop-up."
 
 #: ../../collection/preparing.rst:41 c362bad40cfb4c6aa33f6b3b18a2abc4
 msgid "This will take you to the **project’s homepage**, a screen that shows a **Map** of the whole study region on the left & the **Data Collection Toolbar** on the right."
-msgstr ""
+msgstr "Isso irá te levar para a **página do projeto**, uma tela que mostra um **Mapa** de toda a região de estudo à esquerda e a **Barra de Coleta de Dados** à direita."
 
 #: ../../collection/preparing.rst:42 b0ccf14edaed4852b4d992ceb384e68b
 msgid "Under **Plot Navigation**, Click the green **[Go to first plot]** button to begin collecting information."
-msgstr ""
+msgstr "Em **Naveação de Traçado**, clique no botão verde **[Ir ao primeiro traçado]** para começar a coletar informações."
 
 #: ../../collection/preparing.rst:49 5066b04bf7754a029c156b36d3c99eec
 msgid "Option 2: Select a project from an institution"
-msgstr ""
+msgstr "Opção 2: Selecione um projeto de uma instituição"
 
 #: ../../collection/preparing.rst:51 82d3614a355c408ab07104d3e2de5758
 msgid "If your institution has a specific project you want to work on, make sure you are logged in and then click on your institution’s name on the left-hand side of the **Home** page. You may want to use the **Enter text to filter** box to find your institution."
@@ -112,27 +112,27 @@ msgstr ""
 
 #: ../../collection/preparing.rst:63 f672295afd404c5a8977c8364f4059f7
 msgid "Blue-green highlighted project names have completed data collection."
-msgstr ""
+msgstr "Os nomes dos projetos destacados em azul-verde concluíram a coleta de dados."
 
 #: ../../collection/preparing.rst:64 62afbc647d5a44869ea15b91d5d2b28a
 msgid "Yellow project names are partly collected."
-msgstr ""
+msgstr "Os nomes dos projetos amarelos são parcialmente coletados."
 
 #: ../../collection/preparing.rst:65 627ba7d534bd4518b90531eac0a07418
 msgid "Red project names have no data collected."
-msgstr ""
+msgstr "Nomes do projeto vermelho não possuem dados coletados."
 
 #: ../../collection/preparing.rst:68 a015a21e306c4235a970b3604e200848
 msgid "The analysis screen"
-msgstr ""
+msgstr "A tela de análise"
 
 #: ../../collection/preparing.rst:70 5ddbd336717140a99d969bec098d7d26
 msgid "First, make sure you clicked the **[Go to first plot]** button."
-msgstr ""
+msgstr "Primeiro, certifique-se de ter clicado no botão **[Ir para o primeiro traçado]**."
 
 #: ../../collection/preparing.rst:72 b9fe42426af14040a12db11e79f191e9
 msgid "Now we will familiarize ourselves with the analysis screen."
-msgstr ""
+msgstr "Agora vamos nos familiarizar com a tela de análise."
 
 #: ../../collection/preparing.rst:76 da41325bdcd547f796d0c56fa8428154
 msgid "You can access help for the analysis screen at any time by clicking on the purple ? in the top right hand corner of the screen. The help function will point out important features of the data collection page."
@@ -140,7 +140,7 @@ msgstr ""
 
 #: ../../collection/preparing.rst:85 4a55833f5d8245f4be96c0d42b6069ef
 msgid "Map window"
-msgstr ""
+msgstr "Janela de mapa"
 
 #: ../../collection/preparing.rst:87 93a26b6865ae49a09af87b3165fa9a56
 msgid "On the left hand side is the map window:"
@@ -152,7 +152,7 @@ msgstr ""
 
 #: ../../collection/preparing.rst:90 df88209ba5ee42468d31f36f0c8e6130
 msgid "Each **sample point** is identified with a black circle until it is assigned a label."
-msgstr ""
+msgstr "Cada **ponto de amostra** é identificado com um círculo preto até que seja atribuído um rótulo."
 
 #: ../../collection/preparing.rst:94 81b5e670a67544a5a0ef7db45c9ae802
 msgid "You can change the color of the unassigned sample points from black to white by selecting the corresponding color radio button next to “Unanswered Color” on the right-hand panel."
