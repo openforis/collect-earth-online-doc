@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-02-17 01:31\n"
+"PO-Revision-Date: 2024-10-16 11:44\n"
 "Last-Translator: \n"
 "Language: pt\n"
 "Language-Team: Portuguese, Brazilian\n"
@@ -20,81 +20,82 @@ msgstr ""
 
 #: ../../collection/familiarize.rst:2 7db44d78ce644262a1451e1f6c127315
 msgid "Familiarize yourself with satellite imagery & photo identification"
-msgstr ""
+msgstr "Familiarize-se com imagens de satélite e identificação de fotos"
 
 #: ../../collection/familiarize.rst:4 a9c4ed2086694aa88277ac847c86a108
 msgid "The landscape looks very different from above than it does from the ground! If you have been on a plane, think about how the world looks from that height. If not, imagine yourself slowly rising higher and higher above the ground. Each person soon becomes a spot, you can only see the shape of the roof of each building, trees turn into circular green blobs (or spindly brown, depending on the season). Consider looking at where you live with satellite imagery first. Use your local knowledge to see what roads, buildings, lakes, trees, and more look like."
-msgstr ""
+msgstr "A paisagem parece muito diferente vista de cima do que a partir do solo! Se você já esteve em um avião, pense em como o mundo parece a partir dessa altura. Se não, imagine-se subindo devagar cada vez mais acima do solo. Cada pessoa logo se torna um ponto, você só consegue ver a forma do telhado de cada edifício, árvores se transformam em manchas verdes circulares (ou marrons esguias, dependendo da estação). Considere olhar para onde você vive com imagens de satélite primeiro. Use seu conhecimento local para ver como são as estradas, edifícios, lagos, árvores e mais."
 
 #: ../../collection/familiarize.rst:6 b8ba9565c6894c35a70c23c396c3e5c9
 msgid "Here are some sample images illustrating different land uses. All images are courtesy of Bing Maps."
-msgstr ""
+msgstr "Aqui estão algumas imagens de exemplo que ilustram diferentes usos de terra. Todas as imagens são cortesias do Bing Maps."
 
 #: ../../collection/familiarize.rst:9 d276160f4af448919e6f0e6c3535b734
 msgid "Forest"
-msgstr ""
+msgstr "Floresta"
 
 #: ../../collection/familiarize.rst:11 74f0afbf15754b6baaa1102425ef0d22
 msgid "Conifer forest:"
-msgstr ""
+msgstr "Floresta de coníferas:"
 
 #: ../../collection/familiarize.rst:20 5268e83e632f4842a644ed5676467ebc
 msgid "Deciduous Forest (Temperate):"
-msgstr ""
+msgstr "Floresta Decidual (Temperada):"
 
 #: ../../collection/familiarize.rst:27 0b38c23132024146a22b07d21fdfe6c5
 msgid "Pasture"
-msgstr ""
+msgstr "Pastagem"
 
 #: ../../collection/familiarize.rst:29 300e1446fe3c4ab0a064f48e1fbb4edc
 msgid "Canada:"
-msgstr ""
+msgstr "Canadá:"
 
 #: ../../collection/familiarize.rst:36 3d2fdff7267f44fba243d1ef58185649
 msgid "Agriculture"
-msgstr ""
+msgstr "Agricultura"
 
 #: ../../collection/familiarize.rst:38 59eb97610962475da73eb344e612d273
 msgid "Western United States (arid):"
-msgstr ""
+msgstr "Oeste dos Estados Unidos (árido):"
 
 #: ../../collection/familiarize.rst:47 58c85a31ceb645e49b65439a5e18ad04
 msgid "Midwestern United States (temperate):"
-msgstr ""
+msgstr "Centro-oeste dos Estados Unidos (temperado):"
 
 #: ../../collection/familiarize.rst:54 1f9da6b713124fe6ab37eed9f926c8ab
 msgid "Water: Lake"
-msgstr ""
+msgstr "Água: Lago"
 
 #: ../../collection/familiarize.rst:56 ba8f3bed76314605ae289b4864a521a0
 msgid "Myanmar:"
-msgstr ""
+msgstr "Mianmar:"
 
 #: ../../collection/familiarize.rst:63 02070f6623a74fcabb0994a5bebc2baf
 msgid "Water: River"
-msgstr ""
+msgstr "Água: Rio"
 
 #: ../../collection/familiarize.rst:65 3e5351310ebd42739c148e09c9f33947
 msgid "Guatemala:"
-msgstr ""
+msgstr "Guatemala:"
 
 #: ../../collection/familiarize.rst:71 63f701d12c72482093679b968d52f475
 msgid "Remember that depending on the study region, seasons may change how the landscape looks. If your project has an Interpretation Key you should always use it as your primary reference."
-msgstr ""
+msgstr "Lembre-se de que, dependendo da região de estudo, as estações podem mudar a aparência da paisagem. Se o seu projeto tem uma Chave de Interpretação, você deve sempre usá-la como referência primária."
 
 #: ../../collection/familiarize.rst:73 a01820a52c8143df999fe1fa52e07359
 msgid "Here are some additional resources to help you learn how to visually interpret forests, grasslands, buildings, and more."
-msgstr ""
+msgstr "Aqui estão alguns recursos adicionais para ajudar você a aprender como interpretar visualmente as florestas, pradarias, edifícios e muito mais."
 
 #: ../../collection/familiarize.rst:75 aaf96b77e14d45c5b9a5a608febb35ba
 msgid "`How to Interpret a Satellite Image: Five Tips and Strategies <https://earthobservatory.nasa.gov/features/ColorImage>`__"
-msgstr ""
+msgstr "’Como Interpretar uma Imagem de Satélite: Cinco Dicas e Estratégias <https://earthobservatory.nasa.gov/features/ColorImage>’__"
 
 #: ../../collection/familiarize.rst:76 a09e96a1e1e24a649c35a7396b1b1cd7
 msgid "`Remote Sensing Guides <https://www.amnh.org/research/center-for-biodiversity-conservation/capacity-development/biodiversity-informatics/remote-sensing-guides>`__"
-msgstr ""
+msgstr "'Guias de Sensoriamento Remoto\n"
+"<https://www.amnh.org/research/center-for-biodiversity-conservation/capacity-development/biodiversity-informatics/remote-sensing-guides>'"
 
 #: ../../collection/familiarize.rst:77 fc11f0a075ee4fe18e83988344f16d97
 msgid "`Remote Sensing Interactives <https://www.amnh.org/research/center-for-biodiversity-conservation/capacity-development/biodiversity-informatics/remote-sensing-interactives>`__"
-msgstr ""
+msgstr "'Interativos de Sensoriamento Remoto<https://www.amnh.org/research/center-for-biodiversity-conservation/capacity-development/biodiversity-informatics/remote-sensing-interactives>'"
 
