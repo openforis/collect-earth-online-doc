@@ -1,24 +1,22 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, Collect Earth Online team
-# This file is distributed under the same license as the Collect Earth
-# Online package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Collect Earth Online \n"
+"Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2024-02-17 01:32\n"
+"Last-Translator: \n"
 "Language: es\n"
-"Language-Team: es <LL@li.org>\n"
+"Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
+"X-Crowdin-Project: collect-earth-online-doc\n"
+"X-Crowdin-Project-ID: 647276\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /main/docs/source/_locale/en/LC_MESSAGES/setup/index.po\n"
+"X-Crowdin-File-ID: 78\n"
 
 #: ../../setup/index.rst:2 ae5ec5288a8645e48998acfefbc9b522
 msgid "A Quick Introduction to Collect Earth Online"
@@ -29,15 +27,7 @@ msgid "Welcome to Collect Earth Online!"
 msgstr ""
 
 #: ../../setup/index.rst:7 c7730f99d28f4d0e976b9161ef24caee
-msgid ""
-"Collect Earth Online, or CEO, is a free and open-source image viewing and"
-" interpretation tool, suitable for projects requiring information about "
-"land cover and/or land use. CEO enables simultaneous visual "
-"interpretations of satellite imagery, providing global coverage from "
-"MapBox and Bing Maps, a variety of satellite data sources from Google "
-"Earth Engine, and the ability to connect to your own Web Map Service "
-"(WMS) or Web Map Tile Service (WMTS). The full functionality is "
-"implemented online; no desktop installation is necessary."
+msgid "Collect Earth Online, or CEO, is a free and open-source image viewing and interpretation tool, suitable for projects requiring information about land cover and/or land use. CEO enables simultaneous visual interpretations of satellite imagery, providing global coverage from MapBox and Bing Maps, a variety of satellite data sources from Google Earth Engine, and the ability to connect to your own Web Map Service (WMS) or Web Map Tile Service (WMTS). The full functionality is implemented online; no desktop installation is necessary."
 msgstr ""
 
 #: ../../setup/index.rst:9 7d833542db9b420a9309112e606fdce2
@@ -61,38 +51,22 @@ msgid ":doc:`Join an institution <joining>`"
 msgstr ""
 
 #: ../../setup/index.rst:19 d25d8efda730425f8adca42986550e85
-msgid ""
-"The Setup section provides a quick overview of the Collect Earth Online "
-"platform so users can set up their own accounts, along with details on "
-"how to join an institution. You can learn about how to collect data, and "
-"how to manage your own instiution and projects in the other sections of "
-"this documentation. Navigate to these sections using the links at the top"
-" of the page."
+msgid "The Setup section provides a quick overview of the Collect Earth Online platform so users can set up their own accounts, along with details on how to join an institution. You can learn about how to collect data, and how to manage your own instiution and projects in the other sections of this documentation. Navigate to these sections using the links at the top of the page."
 msgstr ""
 
 #: ../../setup/index.rst:21 82bf4a53a8294bd28ef0e9c4490bd0c3
-msgid ""
-"Navigate to the other areas of this section by selecting links under "
-"**Section navigation** to the left."
+msgid "Navigate to the other areas of this section by selecting links under **Section navigation** to the left."
 msgstr ""
 
 #: ../../setup/index.rst:23 ee81a9c763914ad0b56a5ed1ddb69e4b
-msgid ""
-"Navigate to other areas of this article by by selecting links under **On "
-"this page** to the right."
+msgid "Navigate to other areas of this article by by selecting links under **On this page** to the right."
 msgstr ""
 
 #: ../../setup/index.rst:27 cb2335f44e7c400d8309948a4b7150d2
-msgid ""
-"This documentation uses a few formatting standards for ease of use. "
-"Clickable links are shown **[like this]**. The names of pages, like the "
-"**Home** page, are bolded."
+msgid "This documentation uses a few formatting standards for ease of use. Clickable links are shown **[like this]**. The names of pages, like the **Home** page, are bolded."
 msgstr ""
 
 #: ../../setup/index.rst:29 08ac5e2379254e63acbf1bde306f2a86
-msgid ""
-"Finally, CEO is a live tool that is under continuous development. Please "
-"report any bugs at our GitHub or by contacting `the CEO team "
-"<support@collect.earth>`__."
+msgid "Finally, CEO is a live tool that is under continuous development. Please report any bugs at our GitHub or by contacting `the CEO team <support@collect.earth>`__."
 msgstr ""
 

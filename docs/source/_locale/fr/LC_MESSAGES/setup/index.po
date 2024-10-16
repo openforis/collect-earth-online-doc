@@ -1,98 +1,72 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, Collect Earth Online team
-# This file is distributed under the same license as the Collect Earth
-# Online package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Collect Earth Online \n"
+"Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2024-02-18 02:01\n"
+"Last-Translator: \n"
 "Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
+"Language-Team: French\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
+"X-Crowdin-Project: collect-earth-online-doc\n"
+"X-Crowdin-Project-ID: 647276\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /main/docs/source/_locale/en/LC_MESSAGES/setup/index.po\n"
+"X-Crowdin-File-ID: 78\n"
 
 #: ../../setup/index.rst:2 ae5ec5288a8645e48998acfefbc9b522
 msgid "A Quick Introduction to Collect Earth Online"
-msgstr ""
+msgstr "Une introduction rapide à Collect Earth Online"
 
 #: ../../setup/index.rst:5 0c3f7959f573442d910a42acd6027a66
 msgid "Welcome to Collect Earth Online!"
-msgstr ""
+msgstr "Bienvenue sur Collect Earth Online!"
 
 #: ../../setup/index.rst:7 c7730f99d28f4d0e976b9161ef24caee
-msgid ""
-"Collect Earth Online, or CEO, is a free and open-source image viewing and"
-" interpretation tool, suitable for projects requiring information about "
-"land cover and/or land use. CEO enables simultaneous visual "
-"interpretations of satellite imagery, providing global coverage from "
-"MapBox and Bing Maps, a variety of satellite data sources from Google "
-"Earth Engine, and the ability to connect to your own Web Map Service "
-"(WMS) or Web Map Tile Service (WMTS). The full functionality is "
-"implemented online; no desktop installation is necessary."
-msgstr ""
+msgid "Collect Earth Online, or CEO, is a free and open-source image viewing and interpretation tool, suitable for projects requiring information about land cover and/or land use. CEO enables simultaneous visual interpretations of satellite imagery, providing global coverage from MapBox and Bing Maps, a variety of satellite data sources from Google Earth Engine, and the ability to connect to your own Web Map Service (WMS) or Web Map Tile Service (WMTS). The full functionality is implemented online; no desktop installation is necessary."
+msgstr "Collect Earth Online, ou CEO, est un outil gratuit et open-source de visualisation et d’interprétation d’images, idéal pour tout projet nécessitant des données relatives au couvert et/ou à l’utilisation des sols. CEO permet d’interpréter visuellement plusieurs images satellite de façon simultanée, avec une couverture planétaire grâce aux diverses sources de données satellites, telles que MapBox et Bing Maps, exploitées via le moteur d’observation terrestre de Google [Google Earth Engine] ; CEO offre par ailleurs à l’utilisateur la possibilité de se connecter à son propre service cartographique en ligne de type Web Map Service (WMS) ou Web Map Tile Service (WMTS). CEO fonctionne entièrement en ligne et ne requiert aucune installation logicielle."
 
 #: ../../setup/index.rst:9 7d833542db9b420a9309112e606fdce2
 msgid "Collect Earth Online (CEO) is available at https://collect.earth/."
-msgstr ""
+msgstr "Collect Earth Online (CEO) est disponible sur https://collect.earth/."
 
 #: ../../setup/index.rst:12 3fb0eaaabbba406d841f36e942a723ef
 msgid "Overview of the SETUP section"
-msgstr ""
+msgstr "Vue d'ensemble de la section SETUP"
 
 #: ../../setup/index.rst:14 9ab5d6faa23948bdadb3536ded0d4963
 msgid "In this section of the CEO documentation, you can learn how to:"
-msgstr ""
+msgstr "Dans cette section de la documentation du CEO, vous pouvez apprendre à :"
 
 #: ../../setup/index.rst:16 52e5c7572d8a492da09da9a2cf37a755
 msgid ":doc:`Register your CEO account <register>`"
-msgstr ""
+msgstr ":doc:`Enregistrez votre compte CEO <register>`"
 
 #: ../../setup/index.rst:17 a51c368e382b464c94ba8f989f3b314c
 msgid ":doc:`Join an institution <joining>`"
-msgstr ""
+msgstr ":doc:`Rejoindre une institution <joining>`"
 
 #: ../../setup/index.rst:19 d25d8efda730425f8adca42986550e85
-msgid ""
-"The Setup section provides a quick overview of the Collect Earth Online "
-"platform so users can set up their own accounts, along with details on "
-"how to join an institution. You can learn about how to collect data, and "
-"how to manage your own instiution and projects in the other sections of "
-"this documentation. Navigate to these sections using the links at the top"
-" of the page."
-msgstr ""
+msgid "The Setup section provides a quick overview of the Collect Earth Online platform so users can set up their own accounts, along with details on how to join an institution. You can learn about how to collect data, and how to manage your own instiution and projects in the other sections of this documentation. Navigate to these sections using the links at the top of the page."
+msgstr "La section Configuration fournit un aperçu rapide de la plate-forme Collecte de la Terre en ligne afin que les utilisateurs puissent configurer leurs propres comptes, avec des détails sur la façon de rejoindre une institution. Vous pouvez apprendre comment collecter des données et comment gérer votre propre instiution et vos propres projets dans les autres sections de cette documentation. Naviguez vers ces sections en utilisant les liens en haut de la page."
 
 #: ../../setup/index.rst:21 82bf4a53a8294bd28ef0e9c4490bd0c3
-msgid ""
-"Navigate to the other areas of this section by selecting links under "
-"**Section navigation** to the left."
-msgstr ""
+msgid "Navigate to the other areas of this section by selecting links under **Section navigation** to the left."
+msgstr "Naviguez vers les autres zones de cette section en sélectionnant les liens sous **navigation de section** à gauche."
 
 #: ../../setup/index.rst:23 ee81a9c763914ad0b56a5ed1ddb69e4b
-msgid ""
-"Navigate to other areas of this article by by selecting links under **On "
-"this page** to the right."
-msgstr ""
+msgid "Navigate to other areas of this article by by selecting links under **On this page** to the right."
+msgstr "Naviguez vers d'autres zones de cet article en sélectionnant les liens sous **Sur cette page** à droite."
 
 #: ../../setup/index.rst:27 cb2335f44e7c400d8309948a4b7150d2
-msgid ""
-"This documentation uses a few formatting standards for ease of use. "
-"Clickable links are shown **[like this]**. The names of pages, like the "
-"**Home** page, are bolded."
-msgstr ""
+msgid "This documentation uses a few formatting standards for ease of use. Clickable links are shown **[like this]**. The names of pages, like the **Home** page, are bolded."
+msgstr "Cette documentation utilise quelques normes de formatage pour faciliter l'utilisation. Les liens cliquables sont affichés **[comme ceci]**. Les noms des pages, comme la page **d'Accueil**, sont en gras."
 
 #: ../../setup/index.rst:29 08ac5e2379254e63acbf1bde306f2a86
-msgid ""
-"Finally, CEO is a live tool that is under continuous development. Please "
-"report any bugs at our GitHub or by contacting `the CEO team "
-"<support@collect.earth>`__."
-msgstr ""
+msgid "Finally, CEO is a live tool that is under continuous development. Please report any bugs at our GitHub or by contacting `the CEO team <support@collect.earth>`__."
+msgstr "Enfin, CEO est un outil vivant en développement continu. Veuillez signaler tout bug sur notre GitHub ou en contactant `l'équipe CEO <support@collect.earth>`__."
 
