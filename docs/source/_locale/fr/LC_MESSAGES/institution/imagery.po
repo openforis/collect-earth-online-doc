@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-02-18 02:01\n"
+"PO-Revision-Date: 2024-10-28 00:47\n"
 "Last-Translator: \n"
 "Language: fr\n"
 "Language-Team: French\n"
@@ -20,23 +20,23 @@ msgstr ""
 
 #: ../../institution/imagery.rst:2 1c5a083cf7934aba939f4ea3905bd173
 msgid "Built-in & custom imagery sources"
-msgstr ""
+msgstr "Sources d'images intégrées et personnalisées"
 
 #: ../../institution/imagery.rst:4 6697000febd34ff3bd6a4588b86ab7cd
 msgid "There are two main ways to add background, or basemap imagery to your Institution for use in your Projects. First, CEO includes a handful of built-in imagery options, including imagery from MapBox, Planet NICFI Public, and Sentinel. Second, CEO allows users to connect their own imagery from many different sources, including Google Earth Engine, Bing Maps, XYZ tiles, WMS and more."
-msgstr ""
+msgstr "Il y a deux façons principales d'ajouter une image de fond ou une image de la carte de base à votre institution pour l'utiliser dans vos projets. Tout d'abord, le CEO comprend une poignée d'options d'imagerie intégrées, y compris des images de MapBox, Planet NICFI Public, et Sentinel. Deuxièmement, le CEO permet aux utilisateurs de connecter leurs propres images à partir de nombreuses sources, y compris Google Earth Engine, Bing Maps, tiles de XYZ, WMS et plus encore."
 
 #: ../../institution/imagery.rst:7 26ac29a9f5a44b52bdd03047c6ee4d08
 msgid "Built-in base imagery sources"
-msgstr ""
+msgstr "Sources d'images intégrées et personnalisées"
 
 #: ../../institution/imagery.rst:9 6ae2d1c6006e420180d604eaa674e3b0
 msgid "There are a handful of built-in imagery options in CEO. Each of these options has different strengths and limitations."
-msgstr ""
+msgstr "Il y a une poignée d'options d'image intégrées au CEO, chacune de ces options a des forces et des limites différentes."
 
 #: ../../institution/imagery.rst:12 69216182637c4045a2ed43bad961f248
 msgid "Mapbox"
-msgstr ""
+msgstr "Mapbox"
 
 #: ../../institution/imagery.rst:14 14ca95bb9d794d3aac944870317fd8dc
 msgid "MapBox is an open-source mapping platform for custom designed maps. The satellite imagery uses different sources based on the zoom level and geographic availability. According to Mapbox's documentation:"
