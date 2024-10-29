@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-10-28 00:47\n"
+"PO-Revision-Date: 2024-10-29 01:12\n"
 "Last-Translator: \n"
 "Language: fr\n"
 "Language-Team: French\n"
@@ -40,51 +40,51 @@ msgstr "Mapbox"
 
 #: ../../institution/imagery.rst:14 14ca95bb9d794d3aac944870317fd8dc
 msgid "MapBox is an open-source mapping platform for custom designed maps. The satellite imagery uses different sources based on the zoom level and geographic availability. According to Mapbox's documentation:"
-msgstr ""
+msgstr "MapBox est une plateforme de cartographie open-source pour des cartes conçues sur mesure. L'imagerie satellite utilise différentes sources en fonction du niveau de zoom et de la disponibilité géographique. Selon la documentation de Mapbox :"
 
 #: ../../institution/imagery.rst:17 4d20f1915068438d8478341bd47235e4
 msgid "Zoom levels 0–8 use de-clouded data from NASA MODIS satellites."
-msgstr ""
+msgstr "Les niveaux de zoom 0 à 8 utilisent des données dénuées des satellites MODIS de la NASA."
 
 #: ../../institution/imagery.rst:18 9425a82ecddb4c38a55639ba9001caa0
 msgid "Zoom levels 9–12 use Maxar satellite imagery along with NASA/USGS Landsat 5 & 7 imagery in limited locations."
-msgstr ""
+msgstr "Les niveaux de zoom 9–12 utilisent des images de satellite Maxar avec des images NASA/USGS Landsat 5 & 7 dans des endroits limités."
 
 #: ../../institution/imagery.rst:19 9a49eb88c2954a0a8f224dddfa0c3ad8
 msgid "Zoom levels 13+ use a combination of open and proprietary sources, including Maxar's Vivid product for most of the world, Nearmap aerial imagery over US cities, and open aerial imagery from Denmark, France, Germany and other regions."
-msgstr ""
+msgstr "Les niveaux de zoom 13+ utilisent une combinaison de sources ouvertes et de sources propriétaires, y compris le produit Maxar Vivid pour la plupart du monde, Des images aériennes Nearmap à proximité sur les villes américaines et des images aériennes ouvertes du Danemark, de la France, de l’Allemagne et d’autres régions."
 
 #: ../../institution/imagery.rst:21 4a4d52b899484b55ad18071394f8bb64
 msgid "More information can be found `in Mapbox's documentation <https://docs.mapbox.com/data/tilesets/reference/mapbox-satellite/>`__."
-msgstr ""
+msgstr "Plus d'informations peuvent être trouvées dans la documentation de Mapbox <https://docs.mapbox.com/data/tilesets/reference/mapbox-satellite/>`__."
 
 #: ../../institution/imagery.rst:23 37618173e7c74b5aacca771fa1c07b3b
 msgid "MapBox Satellite and Mapbox Satellite w/Labels are thus composite satellite imagery, where each map tile may be stitched together from imagery acquired on multiple dates. There is not necessarily a single date for an imagery tile. This is the same as, for example, Google Maps and Bing Aerial Imagery."
-msgstr ""
+msgstr "Les MapBox Satellite et Mapbox Satellite w/Labels sont donc des images satellites composites, où chaque tuile de carte peut être cousue ensemble à partir de l'imagerie acquise à plusieurs dates. Il n'y a pas nécessairement une seule date pour une tuile d'imagerie, comme par exemple Google Maps et Bing Aerial Imagery."
 
 #: ../../institution/imagery.rst:25 370d3488028c4f259db95a06accb9e84
 msgid "CEO uses Mapbox's satellite layer as well as one with place and landmark labels."
-msgstr ""
+msgstr "Le CEO utilise la couche satellite de Mapbox ainsi qu'une couche avec des étiquettes de lieu et de repère."
 
 #: ../../institution/imagery.rst:29 1f85fc186dc542508e09af233bc20434
 msgid "Maxar has eliminated multiple data products that were previously available on CEO, including: DigitalGlobeRecentIMagery; DigitalGlobeRecentImagery+Streets; DigitalGlobeWMSImagery; and EarthWatch."
-msgstr ""
+msgstr "Maxar a éliminé plusieurs produits de données qui étaient précédemment disponibles au CEO, notamment : DigitalGlobeRecentIMagery; DigitalGlobeRecentImagery+Streets; DigitalGlobeWMSImagery, et EarthWatch."
 
 #: ../../institution/imagery.rst:32 8d413ba76389429b9924f6d449c80281
 msgid "Planet NICFI Public"
-msgstr ""
+msgstr "Planet NICFI Public"
 
 #: ../../institution/imagery.rst:34 61f788cc742b47d7ae6c872b6b3423f8
 msgid "Planet NICFI Public is imagery available through a partnership between Norway's Ministry of Climate and Environment, specifically Norway's International Climate and Forest Initiative (NICFI) and Planet. Along with other partners, they have made high-resolution (sub 5 m pixel) imagery available in the tropics. These maps are available on a biannual basis between December 2015 and August 2020 and on a monthly basis after September 2020."
-msgstr ""
+msgstr "Planet NICFI Public est une imagerie disponible dans le cadre d'un partenariat entre le ministère norvégien du climat et de l'environnement de la Norvège. spécifiquement la Norvège International Climate and Forest Initiative (NICFI) et Planet. Avec d'autres partenaires, ils ont fait des images haute résolution (sous 5 m pixels) disponibles dans les tropiques. Ces cartes sont disponibles sur une base semestrielle entre décembre 2015 et août 2020 et sur une base mensuelle après septembre 2020."
 
 #: ../../institution/imagery.rst:36 9bfef4c61fb64777a4541cca4da4ec1e
 msgid "More information can be found `on Planet's website <https://www.planet.com/pulse/planet-ksat-and-airbus-awarded-first-ever-global-contract-to-combat-deforestation/>`__."
-msgstr ""
+msgstr "Plus d'informations peuvent être trouvées sur le site Internet de la Planet <https://www.planet.com/pulse/planet-ksat-and-airbus-awarded-first-ever-global-contract-to-combat-deforestation/>`__."
 
 #: ../../institution/imagery.rst:45 9615aabab4e845d5bfaee9fe10203e47
 msgid "Adding custom basemap imagery"
-msgstr ""
+msgstr "Ajout de l'imagerie personnalisée de la basemap"
 
 #: ../../institution/imagery.rst:47 4acd9b5e9ca44ecd878837c7cac8bf67
 msgid "The built-in imagery is not sufficient as basemaps for some projects, including projects comparing land uses between two time periods, or projects that need imagery from specific dates or months. CEO allows institutions to add new imagery sources through their **Institution** page. This section discusses the different imagery types that can be added."
