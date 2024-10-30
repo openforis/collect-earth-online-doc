@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-10-15 10:49\n"
+"PO-Revision-Date: 2024-10-30 20:11\n"
 "Last-Translator: \n"
 "Language: pt\n"
 "Language-Team: Portuguese, Brazilian\n"
@@ -24,35 +24,35 @@ msgstr "Comece a coletar dados!"
 
 #: ../../collection/start.rst:5 e2c89944016c4b559b1cb43c968bb3d4
 msgid "Analyze plots"
-msgstr ""
+msgstr "Analisar gráficos"
 
 #: ../../collection/start.rst:7 9a833616cd56422392c0c46bb6feb152
 msgid "Now it is time to contribute to a project. Make sure you have clicked on **Go to first plot**."
-msgstr ""
+msgstr "Agora é hora de contribuir em um projeto. Certifique-se de ter clicado em **Ir para o primeiro gráfico**."
 
 #: ../../collection/start.rst:9 82be6bfc2f3742e9b5d7c49a2f63a441
 msgid "Read the first Survey Question and the possible answers."
-msgstr ""
+msgstr "Leia a primeira Pergunta da Pesquisa e as possíveis respostas."
 
 #: ../../collection/start.rst:10 2a384631a43f417c8f99109357ae7fdc
 msgid "If you want to assign the same class or answer to ALL points in the plot (prior to having applied an answer to any of the points), you can just click on the answer without first needing to select the points."
-msgstr ""
+msgstr "Se você quiser atribuir a mesma classe ou resposta a TODOS os pontos no gráfico (antes de ter aplicado uma resposta a qualquer um dos pontos), basta clicar na resposta sem precisar primeiro selecionar os pontos."
 
 #: ../../collection/start.rst:11 5e5ee7db574d4d74a06cfb5237fa47b4
 msgid "If you want to assign different classes or answers to points in the plot, you will first select your sample points. When sample points are selected, they turn blue."
-msgstr ""
+msgstr "Se você quiser atribuir diferentes classes ou respostas a pontos no gráfico, você primeiro selecionará seus pontos de amostra. Quando os pontos de amostra são selecionados, ficam azuis."
 
 #: ../../collection/start.rst:13 af5ff679a96241debafbb528f06f54d9
 msgid "To select a *single* sample point, click on it with the left mouse key."
-msgstr ""
+msgstr "Para selecionar um ponto de amostra *único*, clique nele com o botão esquerdo do mouse."
 
 #: ../../collection/start.rst:14 68ad6b6394b949469c08cb7c67d8a89f
 msgid "To select *several* sample points, click on them while keeping the Shift key pressed down."
-msgstr ""
+msgstr "Para selecionar *vários* pontos de exemplo, clique neles enquanto mantém a tecla Shift pressionada."
 
 #: ../../collection/start.rst:15 82b68a2bab6348c39ee6a62f7b9c8d0b
 msgid "To select *all* points in the sample or all points in a rectangle, hold down Ctrl, then click, hold, and drag in the map window to draw your rectangle."
-msgstr ""
+msgstr "Para selecionar *todos* os pontos da amostra ou todos os pontos de um retângulo, aperte e segure o Ctrl, então clique, mantenha pressionado e arraste a janela do mapa para desenhar o seu retângulo."
 
 #: ../../collection/start.rst:17 e00059df8f2d44ce9a7cfed81c6d80ba
 msgid "When your sample points are marked in blue, you can assign them a sample value by clicking on the suitable value in the legend to the right of the map window. The sample points are then marked in the color of the value class. Here, these sample points are not forest (shrubland), so we select Other."
@@ -100,15 +100,15 @@ msgstr ""
 
 #: ../../collection/start.rst:48 b500eb9aee6b4297bf230a88bf516128
 msgid "Continue until all sample points have been assigned a value for all survey questions."
-msgstr ""
+msgstr "Continue até que todos os pontos de amostra tenham recebido um valor para todas as perguntas da pesquisa."
 
 #: ../../collection/start.rst:49 374fc01efe8f4b868374aba0cbd50b0e
 msgid "Then, click on **[Save]**. You will receive an error message if you have not answered all of the questions."
-msgstr ""
+msgstr "Então, clique em **[Salvar]**. Você receberá uma mensagem de erro se você não tiver respondido todas as perguntas."
 
 #: ../../collection/start.rst:50 e76fb128e45f48179aa1607e2fe1b68a
 msgid "The next plot for analysis shows up automatically."
-msgstr ""
+msgstr "O próximo gráfico para análise aparece automaticamente."
 
 #: ../../collection/start.rst:51 e34495dfc3dc4e8bbcf3c879f285bb25
 msgid "When all plots are classified, a pop-up window appears to inform you that all sample plots of your project are analyzed."
@@ -116,7 +116,7 @@ msgstr ""
 
 #: ../../collection/start.rst:54 7db786541d0c486488d7af128bb31001
 msgid "User-drawn samples"
-msgstr ""
+msgstr "Amostras desenhadas pelo usuário"
 
 #: ../../collection/start.rst:56 f6adb999732b46348c01868f78ab77e6
 msgid "For projects with user-drawn samples, you will need to first draw yoursamples before you can answer questions about them. Note that your project administrator may have limited the types of geometries (e.g. points, lines, or polygons) you can draw."
