@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-10-30 20:11\n"
+"PO-Revision-Date: 2024-10-31 20:42\n"
 "Last-Translator: \n"
 "Language: pt\n"
 "Language-Team: Portuguese, Brazilian\n"
@@ -64,11 +64,11 @@ msgstr ""
 
 #: ../../collection/start.rst:25 1eb6200a57544695a9ff01c34da19b3f
 msgid "You may also want to change the basemap to check for seasonal effects (See :ref:`seasonality`)."
-msgstr ""
+msgstr "Você também pode querer alterar o mapa base para verificar os efeitos sazonais (consulte :ref:`sazonalidade`)."
 
 #: ../../collection/start.rst:26 87c91022f70d4739a1947c5cc3b955c0
 msgid "Try zooming out to gather context clues from the landscape."
-msgstr ""
+msgstr "Tente reduzir o zoom para obter pistas de contexto da paisagem."
 
 #: ../../collection/start.rst:27 01a83a20c4e14665b82897d217f2a7b2
 msgid "If you make a mistake and assign the wrong value to a point or points, you can reselect the points & change the assigned sample value."
@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../../collection/start.rst:30 47699c3106904ea19be4586c0f4a4a89
 msgid "Your project may have “rules,” which help ensure that all answers are logically consistent."
-msgstr ""
+msgstr "Seu projeto pode ter \"regras\", que ajudam a garantir que todas as respostas são logicamente consistentes."
 
 #: ../../collection/start.rst:32 00e80ba635ae48a6982a70b53063fc16
 msgid "If your project has rules for a survey question, there will be a clipboard icon next to the question text."
@@ -92,7 +92,7 @@ msgstr ""
 
 #: ../../collection/start.rst:40 098c0e49e4804bcaafb2c7ba59851c4e
 msgid "If you violate the rules, there will be a popup explaining what is wrong with your answer."
-msgstr ""
+msgstr "Se você violar as regras, haverá um pop-up explicando o que há de errado com sua resposta."
 
 #: ../../collection/start.rst:47 22475972e09945968b79c0d5c8de152b
 msgid "Your project may have a confidence slider. If this feature is enabled, simply choose the percentage value that best represents your confidence in your answers, where 100 is totally confident."
@@ -124,7 +124,7 @@ msgstr ""
 
 #: ../../collection/start.rst:58 203210f91c5043a086f0e8027448f50c
 msgid "First, click on the **[pencil icon]**."
-msgstr ""
+msgstr "Primeiro, clique no **[ícone do lápis]**."
 
 #: ../../collection/start.rst:59 b136d5a533c94e598c053e2669d5eedb
 msgid "Now, select **[Point]**, **[Line]**, or **[Polygon]** tool as needed for the project."
@@ -132,15 +132,15 @@ msgstr ""
 
 #: ../../collection/start.rst:60 57ccb30c2c2448e582dd669f129c9b26
 msgid "To start drawing, simply click on the map."
-msgstr ""
+msgstr "Para começar a desenhar, basta clicar no mapa."
 
 #: ../../collection/start.rst:62 f8f08b7d7ce4468187275eec94edbe7e
 msgid "For points, click once for each point you would like to add."
-msgstr ""
+msgstr "Para os pontos, clique uma vez para cada ponto que você gostaria de adicionar."
 
 #: ../../collection/start.rst:63 5c44a629fe0e44d2a8e4660a5fffb94b
 msgid "For lines, click once for each vertex you would like to draw. To complete the line, right click or double click."
-msgstr ""
+msgstr "Para linhas, clique em uma vez para cada vértice que você deseja desenhar. Para completar a linha, clique com o botão direito ou dê um clique duplo."
 
 #: ../../collection/start.rst:64 27d5ac408b084ed8b421590455ae2813
 msgid "For polygons, click once for each vertex you would like to draw. To complete the shape, click on your first vertex or double click."
@@ -156,7 +156,7 @@ msgstr ""
 
 #: ../../collection/start.rst:68 188be6ad23c24ae8b08fa8906a8b1571
 msgid "To save your drawn shapes, switch back to the question mode."
-msgstr ""
+msgstr "Para salvar as formas desenhadas, volte ao modo de pergunta."
 
 #: ../../collection/start.rst:76 a459ac6353e2479692fa667f175d682e
 msgid "Geo-Dash interface"
@@ -192,7 +192,7 @@ msgstr ""
 
 #: ../../collection/start.rst:93 e9b8d165816d49e0bf27dbde1838e675
 msgid "Geo-Dash degradation tool"
-msgstr ""
+msgstr "Ferramenta de degradação Geo-Dash"
 
 #: ../../collection/start.rst:95 9e3a2b2641ec4d3190e7ed22b5b9c454
 msgid "Your institution may have set up the forest degradation tool in the Geo-Dash interface. This tool provides time series information on forest degradation from selective logging, fire, and other large and small disturbances. Broadly, you can use this tool to observe sharp and gradual changes in the NDFI metric (shown in the bottom panel) and click between the date points to visually confirm the change via imagery (shown in the top panel)."
@@ -220,7 +220,7 @@ msgstr ""
 
 #: ../../collection/start.rst:109 251a81fca89b4daeb803186956c093ad
 msgid "Pause while the time series graph loads."
-msgstr ""
+msgstr "Pause enquanto o gráfico de série temporal carrega."
 
 #: ../../collection/start.rst:110 d2b11061a2ea4f378b17c9aaee383cec
 msgid "Examine the time series graph for any cyclical patterns (indicating seasonal changes). These are present in deciduous forests, but might not be present (e.g. in the Amazon rainforest)."
