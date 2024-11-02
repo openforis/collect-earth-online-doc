@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-10-16 11:44\n"
+"PO-Revision-Date: 2024-11-02 22:11\n"
 "Last-Translator: \n"
 "Language: pt\n"
 "Language-Team: Portuguese, Brazilian\n"
@@ -20,11 +20,11 @@ msgstr ""
 
 #: ../../setup/index.rst:2 ae5ec5288a8645e48998acfefbc9b522
 msgid "A Quick Introduction to Collect Earth Online"
-msgstr ""
+msgstr "Uma introdução rápida ao Collect Earth Online"
 
 #: ../../setup/index.rst:5 0c3f7959f573442d910a42acd6027a66
 msgid "Welcome to Collect Earth Online!"
-msgstr ""
+msgstr "Bem-vindo a Collect Earth Online!"
 
 #: ../../setup/index.rst:7 c7730f99d28f4d0e976b9161ef24caee
 msgid "Collect Earth Online, or CEO, is a free and open-source image viewing and interpretation tool, suitable for projects requiring information about land cover and/or land use. CEO enables simultaneous visual interpretations of satellite imagery, providing global coverage from MapBox and Bing Maps, a variety of satellite data sources from Google Earth Engine, and the ability to connect to your own Web Map Service (WMS) or Web Map Tile Service (WMTS). The full functionality is implemented online; no desktop installation is necessary."
