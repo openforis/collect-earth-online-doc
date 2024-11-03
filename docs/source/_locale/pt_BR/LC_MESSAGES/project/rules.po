@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-02-17 01:32\n"
+"PO-Revision-Date: 2024-11-03 23:33\n"
 "Last-Translator: \n"
 "Language: pt\n"
 "Language-Team: Portuguese, Brazilian\n"
@@ -20,19 +20,19 @@ msgstr ""
 
 #: ../../project/rules.rst:2 beaa7b7852de4e68999298f3e1712de1
 msgid "Survey Rules"
-msgstr ""
+msgstr "Regras de Pesquisa"
 
 #: ../../project/rules.rst:4 3824fbf184bb4a23bf8113068b904148
 msgid "Survey rules help ensure users collect logical and correct answers. If you do not want to add any rules, you can just click **[Next]**."
-msgstr ""
+msgstr "As regras de pesquisa ajudam a garantir que os usuários coletem respostas lógicas e corretas. Se você não deseja adicionar quaisquer regras, você pode apenas clicar **[Próxima]**."
 
 #: ../../project/rules.rst:7 f070e3104efa4b07ab4e5c46a9ec652c
 msgid "Rule Types"
-msgstr ""
+msgstr "Tipos de Regra"
 
 #: ../../project/rules.rst:9 0c5bd6522f184347a871c62b64b07f69
 msgid "You can select one of multiple different rule types, depending on your needs and the types of questions you have included in your Survey."
-msgstr ""
+msgstr "Você pode selecionar um dos vários tipos de regras, dependendo das suas necessidades e das perguntas que você incluiu em sua pesquisa."
 
 #: ../../project/rules.rst:16 97f41cff2118405abdd7db697535d232
 msgid "**Text Regex Match**: This rule applies only to **Input—text** questions & their answers. It allows you to verify if the entered value fits, using regular expressions."
@@ -40,15 +40,15 @@ msgstr ""
 
 #: ../../project/rules.rst:19 7559fd85ee29406e9c7006fa30667936
 msgid "Unless you have a specific reason to use the **Input—text** question type, consider using **Button—text** or **Radiobutton—text** instead. These options are easier for users and will always provide exact text."
-msgstr ""
+msgstr "A menos que você tenha um motivo específico para usar o tipo de pergunta **Entrada — texto**, considere usar **Botão — texto** ou Botão de opção — texto. Essas opções são mais fáceis para os usuários e sempre fornecerão o texto exato."
 
 #: ../../project/rules.rst:21 99553c5ef9f444329c1dc59094c2114c
 msgid "This rule uses the JavaScript RegExp function, documentation for writing a regular expression can be found here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions."
-msgstr ""
+msgstr "Esta regra usa a função JavaScript RegExp, a documentação para escrever uma expressão regular pode ser encontrada aqui: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions."
 
 #: ../../project/rules.rst:23 6f736e66318b438e8148d35d5e6468fc
 msgid "**Numeric Range:** This rule applies to **Input—number** questions & their answers. With this rule, you can verify that the numeric input falls within a predefined range."
-msgstr ""
+msgstr "**Intervalo Numérico:** Esta regra aplica-se a **Entrada—número** perguntas e suas respostas. Com esta regra, você pode verificar se a entrada numérica está dentro de um intervalo predefinido."
 
 #: ../../project/rules.rst:25 e9ed2f42691a41a49089ed3179f9be69
 msgid "For example, if you are asking about the proportion of points in the plot that contain trees, you could constrain the answers between 0 and 1."
@@ -84,7 +84,7 @@ msgstr ""
 
 #: ../../project/rules.rst:42 a7923221081c4aca834779663264115c
 msgid "Rule Preview"
-msgstr ""
+msgstr "Pré-visualização da Regra"
 
 #: ../../project/rules.rst:44 1eaf1972da9747ac9b947356a891c10c
 msgid "You can preview how the rules will look for users in the **Question Preview** pane by mousing over and clicking on the **[Rule]** icon (clipboard)."
