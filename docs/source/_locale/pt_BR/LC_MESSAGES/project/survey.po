@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-02-17 01:32\n"
+"PO-Revision-Date: 2024-11-03 23:33\n"
 "Last-Translator: \n"
 "Language: pt\n"
 "Language-Team: Portuguese, Brazilian\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../project/survey.rst:2 d5ea418ff90446f781ce148634f0566e
 msgid "Survey Questions"
-msgstr ""
+msgstr "Perguntas da Pesquisa"
 
 #: ../../project/survey.rst:4 65be971f989541b3bf90672e556d7e9e
 msgid "This is where you design the questions that your data collectors/photo interpreters will answer for each of your survey plots. Each question creates a column of data. This raw data facilitates calculating key metrics and indicators and contributes to fulfilling your project goals."
