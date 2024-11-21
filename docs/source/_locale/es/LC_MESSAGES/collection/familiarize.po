@@ -1,45 +1,33 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, Collect Earth Online team
-# This file is distributed under the same license as the Collect Earth
-# Online package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Collect Earth Online \n"
+"Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2024-02-17 01:31\n"
+"Last-Translator: \n"
 "Language: es\n"
-"Language-Team: es <LL@li.org>\n"
+"Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
+"X-Crowdin-Project: collect-earth-online-doc\n"
+"X-Crowdin-Project-ID: 647276\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /main/docs/source/_locale/en/LC_MESSAGES/collection/familiarize.po\n"
+"X-Crowdin-File-ID: 36\n"
 
 #: ../../collection/familiarize.rst:2 7db44d78ce644262a1451e1f6c127315
 msgid "Familiarize yourself with satellite imagery & photo identification"
 msgstr ""
 
 #: ../../collection/familiarize.rst:4 a9c4ed2086694aa88277ac847c86a108
-msgid ""
-"The landscape looks very different from above than it does from the "
-"ground! If you have been on a plane, think about how the world looks from"
-" that height. If not, imagine yourself slowly rising higher and higher "
-"above the ground. Each person soon becomes a spot, you can only see the "
-"shape of the roof of each building, trees turn into circular green blobs "
-"(or spindly brown, depending on the season). Consider looking at where "
-"you live with satellite imagery first. Use your local knowledge to see "
-"what roads, buildings, lakes, trees, and more look like."
+msgid "The landscape looks very different from above than it does from the ground! If you have been on a plane, think about how the world looks from that height. If not, imagine yourself slowly rising higher and higher above the ground. Each person soon becomes a spot, you can only see the shape of the roof of each building, trees turn into circular green blobs (or spindly brown, depending on the season). Consider looking at where you live with satellite imagery first. Use your local knowledge to see what roads, buildings, lakes, trees, and more look like."
 msgstr ""
 
 #: ../../collection/familiarize.rst:6 b8ba9565c6894c35a70c23c396c3e5c9
-msgid ""
-"Here are some sample images illustrating different land uses. All images "
-"are courtesy of Bing Maps."
+msgid "Here are some sample images illustrating different land uses. All images are courtesy of Bing Maps."
 msgstr ""
 
 #: ../../collection/familiarize.rst:9 d276160f4af448919e6f0e6c3535b734
@@ -91,35 +79,22 @@ msgid "Guatemala:"
 msgstr ""
 
 #: ../../collection/familiarize.rst:71 63f701d12c72482093679b968d52f475
-msgid ""
-"Remember that depending on the study region, seasons may change how the "
-"landscape looks. If your project has an Interpretation Key you should "
-"always use it as your primary reference."
+msgid "Remember that depending on the study region, seasons may change how the landscape looks. If your project has an Interpretation Key you should always use it as your primary reference."
 msgstr ""
 
 #: ../../collection/familiarize.rst:73 a01820a52c8143df999fe1fa52e07359
-msgid ""
-"Here are some additional resources to help you learn how to visually "
-"interpret forests, grasslands, buildings, and more."
+msgid "Here are some additional resources to help you learn how to visually interpret forests, grasslands, buildings, and more."
 msgstr ""
 
 #: ../../collection/familiarize.rst:75 aaf96b77e14d45c5b9a5a608febb35ba
-msgid ""
-"`How to Interpret a Satellite Image: Five Tips and Strategies "
-"<https://earthobservatory.nasa.gov/features/ColorImage>`__"
+msgid "`How to Interpret a Satellite Image: Five Tips and Strategies <https://earthobservatory.nasa.gov/features/ColorImage>`__"
 msgstr ""
 
 #: ../../collection/familiarize.rst:76 a09e96a1e1e24a649c35a7396b1b1cd7
-msgid ""
-"`Remote Sensing Guides <https://www.amnh.org/research/center-for-"
-"biodiversity-conservation/capacity-development/biodiversity-informatics"
-"/remote-sensing-guides>`__"
+msgid "`Remote Sensing Guides <https://www.amnh.org/research/center-for-biodiversity-conservation/capacity-development/biodiversity-informatics/remote-sensing-guides>`__"
 msgstr ""
 
 #: ../../collection/familiarize.rst:77 fc11f0a075ee4fe18e83988344f16d97
-msgid ""
-"`Remote Sensing Interactives <https://www.amnh.org/research/center-for-"
-"biodiversity-conservation/capacity-development/biodiversity-informatics"
-"/remote-sensing-interactives>`__"
+msgid "`Remote Sensing Interactives <https://www.amnh.org/research/center-for-biodiversity-conservation/capacity-development/biodiversity-informatics/remote-sensing-interactives>`__"
 msgstr ""
 

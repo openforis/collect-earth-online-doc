@@ -1,77 +1,53 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, Collect Earth Online team
-# This file is distributed under the same license as the Collect Earth
-# Online package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Collect Earth Online \n"
+"Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2024-02-17 01:32\n"
+"Last-Translator: \n"
 "Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
+"Language-Team: French\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
+"X-Crowdin-Project: collect-earth-online-doc\n"
+"X-Crowdin-Project-ID: 647276\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /main/docs/source/_locale/en/LC_MESSAGES/project/geodash.po\n"
+"X-Crowdin-File-ID: 58\n"
 
 #: ../../project/geodash.rst:2 aa76d0c8a03d4c17b364dd4f5d90de0d
 msgid "Geo-Dash Implementation"
 msgstr ""
 
 #: ../../project/geodash.rst:4 4da34527c08f420bb81a4c5f4eb0bc93
-msgid ""
-"The **Geo-Dash** is a dashboard that opens in a second window when users "
-"begin to analyze sample plots. Geo-Dash provides users with additional "
-"information to help them interpret the imagery and better classify sample"
-" points and plots. The Geo-Dash tab can be customized to show information"
-" such as an NDVI time series, additional imagery, and a forest "
-"degradation widget."
+msgid "The **Geo-Dash** is a dashboard that opens in a second window when users begin to analyze sample plots. Geo-Dash provides users with additional information to help them interpret the imagery and better classify sample points and plots. The Geo-Dash tab can be customized to show information such as an NDVI time series, additional imagery, and a forest degradation widget."
 msgstr ""
 
 #: ../../project/geodash.rst:6 7d90cb6edd194cd6bafb8902cd18adff
-msgid ""
-"You can configure your **Geo-Dash** by clicking on **[Configure Geo-"
-"Dash]** from the **Project Information/ Review Project** page."
+msgid "You can configure your **Geo-Dash** by clicking on **[Configure Geo-Dash]** from the **Project Information/ Review Project** page."
 msgstr ""
 
 #: ../../project/geodash.rst:8 eed8539ac73241b48cf985ec38db9dac
-msgid ""
-"This will bring up the **Geo-Dash layout screen**, with four options in "
-"the upper right corner of the screen."
+msgid "This will bring up the **Geo-Dash layout screen**, with four options in the upper right corner of the screen."
 msgstr ""
 
 #: ../../project/geodash.rst:15 3515d28fd1234202b1e1e3c67abda25c
-msgid ""
-"Clicking on **[Copy Layout]** will allow you to copy the Geo-Dash from "
-"another project."
+msgid "Clicking on **[Copy Layout]** will allow you to copy the Geo-Dash from another project."
 msgstr ""
 
 #: ../../project/geodash.rst:18 3606f469916a49ae903e18e6cb60fe08
-msgid ""
-"This will delete any existing Geo-Dash you have associated with the "
-"project!"
+msgid "This will delete any existing Geo-Dash you have associated with the project!"
 msgstr ""
 
 #: ../../project/geodash.rst:25 f4b8b9478ecd41268b6105822524c46a
-msgid ""
-"You can add individual Geo-Dash widgets by clicking **[Add Widget].** To "
-"find out what each of the widgets do, click on **[Geo-Dash Help]** to "
-"open the **Geo-Dash Help Center**. We will also discuss this "
-"functionality below."
+msgid "You can add individual Geo-Dash widgets by clicking **[Add Widget].** To find out what each of the widgets do, click on **[Geo-Dash Help]** to open the **Geo-Dash Help Center**. We will also discuss this functionality below."
 msgstr ""
 
 #: ../../project/geodash.rst:27 c26eb228db7c4dc295fd1e1f5ca84ea0
-msgid ""
-"CEO uses Google Earth Engine to process many of the Geo-Dash widgets. "
-"Therefore, the information about Image Visualization for GEE is also "
-"useful here, specifically the min and max descriptions: "
-"https://developers.google.com/earth-engine/image_visualization."
+msgid "CEO uses Google Earth Engine to process many of the Geo-Dash widgets. Therefore, the information about Image Visualization for GEE is also useful here, specifically the min and max descriptions: https://developers.google.com/earth-engine/image_visualization."
 msgstr ""
 
 #: ../../project/geodash.rst:30 6dce769c2fba4b46aacc34128f283c72
@@ -79,75 +55,27 @@ msgid "Common Indices and Data Sources"
 msgstr ""
 
 #: ../../project/geodash.rst:32 c30d8769b88a4dca9dc9277bc22e7b36
-msgid ""
-"Some of the widgets provide access to common indices and data sources. "
-"These include NDVI, EVI, EVI2, NDMI, and NDWI, along with Landsat and "
-"Sentinel imagery. NDVI, EVI, EVI 2, NDMI, and NDWI indices are available "
-"in both image overlays and time series graphs."
+msgid "Some of the widgets provide access to common indices and data sources. These include NDVI, EVI, EVI2, NDMI, and NDWI, along with Landsat and Sentinel imagery. NDVI, EVI, EVI 2, NDMI, and NDWI indices are available in both image overlays and time series graphs."
 msgstr ""
 
 #: ../../project/geodash.rst:34 97292325c9fb414e93fd41138b1d4b0e
-msgid ""
-"The normalized difference vegetation index (NDVI) is used to determine if"
-" the cell contains live green vegetation. In map based representations, "
-"dead plants and inanimate objects are represented as red, while live "
-"healthy plants are represented as green. In numerical representations "
-"(e.g. time series graphs), values below 0 represent dead plants or "
-"inanimate objects, 0-0.33 represents unhealthy plants, 0.33-0.66 "
-"represents moderately healthy plants, and 0.66-1 represents very healthy "
-"plants. For more information, see e.g. https://www.usgs.gov/land-"
-"resources/nli/landsat/landsat-normalized-difference-vegetation-index"
+msgid "The normalized difference vegetation index (NDVI) is used to determine if the cell contains live green vegetation. In map based representations, dead plants and inanimate objects are represented as red, while live healthy plants are represented as green. In numerical representations (e.g. time series graphs), values below 0 represent dead plants or inanimate objects, 0-0.33 represents unhealthy plants, 0.33-0.66 represents moderately healthy plants, and 0.66-1 represents very healthy plants. For more information, see e.g. https://www.usgs.gov/land-resources/nli/landsat/landsat-normalized-difference-vegetation-index"
 msgstr ""
 
 #: ../../project/geodash.rst:36 5d861dfd77f143fda4b3a76c3e258240
-msgid ""
-"The enhanced vegetation index (EVI) and two-band EVI (EVI 2) are "
-"optimized vegetation indexs. They are designed to have higher sensitivity"
-" in high biomass regions e.g. along the equator, correct for canopy "
-"background signals, and reduce atmospheric influence on index values. In "
-"doing so, these indices addresses some of the key limitations of NDVI, "
-"however EVI requires more data to calculate and therefore has its own "
-"limitations. EVI 2 is in development and can be calculated just from red "
-"and near infrared bands. As with NDVI, red is used to represent dead "
-"plants/inanimate objects and green to represent healthy plants. The index"
-" varies between 0-1, with 0 representing dead plants and 1 representing "
-"very healthy plants. For more information on EVI see e.g. "
-"https://www.usgs.gov/land-resources/nli/landsat/landsat-enhanced-"
-"vegetation-index."
+msgid "The enhanced vegetation index (EVI) and two-band EVI (EVI 2) are optimized vegetation indexs. They are designed to have higher sensitivity in high biomass regions e.g. along the equator, correct for canopy background signals, and reduce atmospheric influence on index values. In doing so, these indices addresses some of the key limitations of NDVI, however EVI requires more data to calculate and therefore has its own limitations. EVI 2 is in development and can be calculated just from red and near infrared bands. As with NDVI, red is used to represent dead plants/inanimate objects and green to represent healthy plants. The index varies between 0-1, with 0 representing dead plants and 1 representing very healthy plants. For more information on EVI see e.g. https://www.usgs.gov/land-resources/nli/landsat/landsat-enhanced-vegetation-index."
 msgstr ""
 
 #: ../../project/geodash.rst:38 b5cab1d8ff5c419e946cfb2da97acea8
-msgid ""
-"The normalized difference moisture index (NDMI) is used to determine the "
-"water content of vegetation. NDMI can be used for drought monitoring and "
-"for determining fuel loads (combustability) for wildfire hazard "
-"assessments. Values near -1 indicate plants with low moisture while "
-"values near 1 indicate plants with high moisture. More information on "
-"NDMI can be found at e.g. https://www.usgs.gov/land-resources/nli/landsat"
-"/normalized-difference-moisture-index."
+msgid "The normalized difference moisture index (NDMI) is used to determine the water content of vegetation. NDMI can be used for drought monitoring and for determining fuel loads (combustability) for wildfire hazard assessments. Values near -1 indicate plants with low moisture while values near 1 indicate plants with high moisture. More information on NDMI can be found at e.g. https://www.usgs.gov/land-resources/nli/landsat/normalized-difference-moisture-index."
 msgstr ""
 
 #: ../../project/geodash.rst:40 ad88bb4ecff543d6bfb6aae999958a4a
-msgid ""
-"The normalized difference water index (NDWI) is also related to plant "
-"water content and plant water stress. It can be used to map water bodies,"
-" determine crop health and for wildfire risk analysis. Values near -1 "
-"indicate low water content and vegetation cover and values near 1 "
-"indicate high water content and vegetation cover. More information on "
-"NDWI can be found at e.g. "
-"https://edo.jrc.ec.europa.eu/documents/factsheets/factsheet_ndwi.pdf."
+msgid "The normalized difference water index (NDWI) is also related to plant water content and plant water stress. It can be used to map water bodies, determine crop health and for wildfire risk analysis. Values near -1 indicate low water content and vegetation cover and values near 1 indicate high water content and vegetation cover. More information on NDWI can be found at e.g. https://edo.jrc.ec.europa.eu/documents/factsheets/factsheet_ndwi.pdf."
 msgstr ""
 
 #: ../../project/geodash.rst:42 1c58b6e98c274469ab4a58771445b151
-msgid ""
-"Data from Landsat satellites 5, 7, 8 and Sentinel 2 are also available. "
-"For more information about these datasets, see: Landsat: "
-"https://www.usgs.gov/land-resources/nli/landsat and Sentinel 2: "
-"https://sentinel.esa.int/web/sentinel/missions/sentinel-2. When more than"
-" one image is available for the date range selected for Landsat, the "
-"simpleComposite function in GEE is used to create simple cloud-free "
-"composite. It uses the median of the least cloudy pixels. Sentinel 2 data"
-" is also reduced using the median of least cloudy pixels."
+msgid "Data from Landsat satellites 5, 7, 8 and Sentinel 2 are also available. For more information about these datasets, see: Landsat: https://www.usgs.gov/land-resources/nli/landsat and Sentinel 2: https://sentinel.esa.int/web/sentinel/missions/sentinel-2. When more than one image is available for the date range selected for Landsat, the simpleComposite function in GEE is used to create simple cloud-free composite. It uses the median of the least cloudy pixels. Sentinel 2 data is also reduced using the median of least cloudy pixels."
 msgstr ""
 
 #: ../../project/geodash.rst:45 5a224177b2f545cf88d2fec72f72b74b
@@ -159,29 +87,19 @@ msgid "Titles cannot contain special characters."
 msgstr ""
 
 #: ../../project/geodash.rst:48 0fa08b44cb02477d964e82a5c9ce83aa
-msgid ""
-"Image parameters use JSON. Quotes used for image parameters in widgets "
-"should be vertical (not “”). There should be no spaces in the image "
-"parameters."
+msgid "Image parameters use JSON. Quotes used for image parameters in widgets should be vertical (not “”). There should be no spaces in the image parameters."
 msgstr ""
 
 #: ../../project/geodash.rst:49 81237885469e47a19eb3e07c3cd82242
-msgid ""
-"Lists can be formatted either as ``\"1,2,3\"`` or as ``[1,2,3]`` for "
-"numbers and ``\"B3,B2,B1\"`` or ``[\"B3\",\"B2\",\"B1\"]`` for bands."
+msgid "Lists can be formatted either as ``\"1,2,3\"`` or as ``[1,2,3]`` for numbers and ``\"B3,B2,B1\"`` or ``[\"B3\",\"B2\",\"B1\"]`` for bands."
 msgstr ""
 
 #: ../../project/geodash.rst:50 7854fc831cbb44d69542775c633bce97
-msgid ""
-"When displaying three bands (e.g. B3, B2, B1 in RGB), Google Earth Engine"
-" and therefore the Geo-Dash can use either one or three values for min "
-"and max."
+msgid "When displaying three bands (e.g. B3, B2, B1 in RGB), Google Earth Engine and therefore the Geo-Dash can use either one or three values for min and max."
 msgstr ""
 
 #: ../../project/geodash.rst:51 9144d50ccc7c435b8756ff36edd58246
-msgid ""
-"For the Date Ranges, if the end date is longer than the period of record,"
-" only the available data will be displayed."
+msgid "For the Date Ranges, if the end date is longer than the period of record, only the available data will be displayed."
 msgstr ""
 
 #: ../../project/geodash.rst:54 7bfbb407ff5b4783985bb9d0aee3ebed
@@ -189,9 +107,7 @@ msgid "Move & Resize Widgets"
 msgstr ""
 
 #: ../../project/geodash.rst:56 e34deb953a554bf1bbf1f7a539f516af
-msgid ""
-"Widgets can be manipulated on the Geo-Dash Widget Layout Editor in the "
-"following ways:"
+msgid "Widgets can be manipulated on the Geo-Dash Widget Layout Editor in the following ways:"
 msgstr ""
 
 #: ../../project/geodash.rst:58 941911650df346cea143a06359638e73
@@ -207,9 +123,7 @@ msgid "Widgets will autotomatically align to a grid."
 msgstr ""
 
 #: ../../project/geodash.rst:62 706e4f09e566426587470a521171bef3
-msgid ""
-"In the Geo-Dash collection page view, widget positions are are updated in"
-" real time."
+msgid "In the Geo-Dash collection page view, widget positions are are updated in real time."
 msgstr ""
 
 #: ../../project/geodash.rst:68 ff1080f82f8e482e863a26bcd7b4eb57
@@ -217,21 +131,15 @@ msgid "Duplicate, Edit, and Delete Widgets"
 msgstr ""
 
 #: ../../project/geodash.rst:70 8111139d5b164e0283a79a8591fb2228
-msgid ""
-"You can copy a widget once it has been created by clicking on the "
-"**[duplicate icon]** in the upper right hand corner of the widget."
+msgid "You can copy a widget once it has been created by clicking on the **[duplicate icon]** in the upper right hand corner of the widget."
 msgstr ""
 
 #: ../../project/geodash.rst:71 05fce054ed364f98abe09e5bec74e600
-msgid ""
-"You can edit widgets once they are created by clicking on the **[pencil "
-"icon]** in the upper right hand corner of the widget."
+msgid "You can edit widgets once they are created by clicking on the **[pencil icon]** in the upper right hand corner of the widget."
 msgstr ""
 
 #: ../../project/geodash.rst:72 055c6e85d0e24f79bb7d6124f4e919a3
-msgid ""
-"To delete a widget, click on the trashcan in the upper right-hand corner "
-"of the widget."
+msgid "To delete a widget, click on the trashcan in the upper right-hand corner of the widget."
 msgstr ""
 
 #: ../../project/geodash.rst:80 2b96b2ab69474bfbb4cd5959813c3ddc
@@ -239,12 +147,7 @@ msgid "(Forest) Degradation Tool"
 msgstr ""
 
 #: ../../project/geodash.rst:82 957218e583cf426baccd722551d82a23
-msgid ""
-"The Degradation Tool provides time-series information on forest "
-"degradation from selective logging, fire, and other large and small "
-"disturbances. The Normalized Difference Fraction Index (NDFI) allows for "
-"enhanced detection of forest canopy damage from multiple sources, "
-"including selective logging and forest fires."
+msgid "The Degradation Tool provides time-series information on forest degradation from selective logging, fire, and other large and small disturbances. The Normalized Difference Fraction Index (NDFI) allows for enhanced detection of forest canopy damage from multiple sources, including selective logging and forest fires."
 msgstr ""
 
 #: ../../project/geodash.rst:84 d02affe4aabc4f24b5d638e5a8456064
@@ -260,11 +163,7 @@ msgid "More detail can be found in:"
 msgstr ""
 
 #: ../../project/geodash.rst:101 6b930d02e3c04e8f8e7cd3b993ee4c52
-msgid ""
-"Souza, C. M., Roberts, D. A., & Cochrane, M. A. (2005). Combining "
-"spectral and spatial information to map canopy damage from selective "
-"logging and forest fires. *Remote Sensing of Environment*, 98(2), "
-"329-343."
+msgid "Souza, C. M., Roberts, D. A., & Cochrane, M. A. (2005). Combining spectral and spatial information to map canopy damage from selective logging and forest fires. *Remote Sensing of Environment*, 98(2), 329-343."
 msgstr ""
 
 #: ../../project/geodash.rst:103 c3253454089b466e9db307682f95a8eb
@@ -280,9 +179,7 @@ msgstr ""
 #: 60cc9dcd39c446efa46940119f4292e1 89e15c9a2fc349f98c6aa15c87be4339
 #: 97ca29a9083749e6ac950cf5b34c8ef3 a92ce28694754c96956efabf356f98dc
 #: ac5d224ed6c34d17a0236de08f99e1f3 e19962045aec470d9d1bf723bb242056
-msgid ""
-"Click **[Add Widget]** in the upper right hand of the Geo-Dash layout "
-"screen."
+msgid "Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen."
 msgstr ""
 
 #: ../../project/geodash.rst:106 c59a26f70a1041a1b11c5fbe9a25ef2c
@@ -301,27 +198,15 @@ msgid "Give the widget a **Title**."
 msgstr ""
 
 #: ../../project/geodash.rst:108 da49b3a9c0b047eb8563950a74ca9a04
-msgid ""
-"Choose the **Basemap** source from dropdown. This will be the basemap for"
-" the widget and other data will be layered on top."
+msgid "Choose the **Basemap** source from dropdown. This will be the basemap for the widget and other data will be layered on top."
 msgstr ""
 
 #: ../../project/geodash.rst:109 ca6b26f33cd84c3d9c8aa229cb605ad4
-msgid ""
-"Choose which **Band to graph**. Available options include SWIR1, NIR, "
-"Red, Green, Blue, SWIR2, NDVI, NBR, NDWI and NDFI. NDFI allows for "
-"enhanced detection of forest canopy damage from multiple sources, "
-"including selective logging and forest fires."
+msgid "Choose which **Band to graph**. Available options include SWIR1, NIR, Red, Green, Blue, SWIR2, NDVI, NBR, NDWI and NDFI. NDFI allows for enhanced detection of forest canopy damage from multiple sources, including selective logging and forest fires."
 msgstr ""
 
 #: ../../project/geodash.rst:110 14e55d06fa1e489fba276feb6dd0cbaf
-msgid ""
-"Select the **Date Range** you would like. This tool can draw from Landsat"
-" 4 (July 1982-December 1993), Landsat 5 (March 1984-January 2013), "
-"Landsat 7 (April 1999 – current), Landsat 8 (February 2013 – current), "
-"and Landsat 9 (September 27 - current) based on the date range you "
-"select. Sentinel information is only available from April 2014 onward "
-"(Sentinel 1A launch)."
+msgid "Select the **Date Range** you would like. This tool can draw from Landsat 4 (July 1982-December 1993), Landsat 5 (March 1984-January 2013), Landsat 7 (April 1999 – current), Landsat 8 (February 2013 – current), and Landsat 9 (September 27 - current) based on the date range you select. Sentinel information is only available from April 2014 onward (Sentinel 1A launch)."
 msgstr ""
 
 #: ../../project/geodash.rst:111 ../../project/geodash.rst:134
@@ -333,10 +218,7 @@ msgid "Click **[Create]**."
 msgstr ""
 
 #: ../../project/geodash.rst:112 c8d4a926e7b94838a8b922dc4a1d8144
-msgid ""
-"Reposition and resize to your liking. This tool will have two panels "
-"stacked one on top of the other, so be sure to give it ample vertical "
-"space."
+msgid "Reposition and resize to your liking. This tool will have two panels stacked one on top of the other, so be sure to give it ample vertical space."
 msgstr ""
 
 #: ../../project/geodash.rst:115 929f37a049464f498358ca85a2bc1e87
@@ -344,9 +226,7 @@ msgid "Add a Dual Imagery Widget"
 msgstr ""
 
 #: ../../project/geodash.rst:117 a0c9658497b343089061419a1a0f6de1
-msgid ""
-"The dual imagery widget combines two different image collection widgets "
-"so the user can compare the images side by side."
+msgid "The dual imagery widget combines two different image collection widgets so the user can compare the images side by side."
 msgstr ""
 
 #: ../../project/geodash.rst:119 5af131ba7e664f75b4275f1bee3e88a8
@@ -358,62 +238,41 @@ msgid "Select **Dual Imagery** in the Widget Type drop down."
 msgstr ""
 
 #: ../../project/geodash.rst:123 7845ca48d77f4f46a18089a4812864f3
-msgid ""
-"Give the widget a **Title**. We suggest an informative title such as "
-"{Data} {Date range} e.g. NDVI 2001 or NDVI 2001 – 2002."
+msgid "Give the widget a **Title**. We suggest an informative title such as {Data} {Date range} e.g. NDVI 2001 or NDVI 2001 – 2002."
 msgstr ""
 
 #: ../../project/geodash.rst:124 ../../project/geodash.rst:193
 #: ../../project/geodash.rst:247 39c2d622b8844581be01c806c3d2282a
 #: 5067eaf9b3e548d68350c1ed9aa8e34d 662a9f20fb5f4fc984382713310dc313
-msgid ""
-"Choose **Basemap** source from dropdown. This will be the basemap for the"
-" widget and other data will be layered on top."
+msgid "Choose **Basemap** source from dropdown. This will be the basemap for the widget and other data will be layered on top."
 msgstr ""
 
 #: ../../project/geodash.rst:125 1a534e64ace64ed8994404648ccd6a57
-msgid ""
-"You will now select the **Imagery type** for the Bottom and Top images. "
-"You can toggle between them by clicking the **[Next Image]** and "
-"**[Previous Image]** buttons."
+msgid "You will now select the **Imagery type** for the Bottom and Top images. You can toggle between them by clicking the **[Next Image]** and **[Previous Image]** buttons."
 msgstr ""
 
 #: ../../project/geodash.rst:127 e279c0d84f9c4f5a8bdf6f03841b7d6a
-msgid ""
-"Select the **Imagery Type** for each image. Options include Image Asset, "
-"Image Collection Asset, and Preloaded Imagery Collection."
+msgid "Select the **Imagery Type** for each image. Options include Image Asset, Image Collection Asset, and Preloaded Imagery Collection."
 msgstr ""
 
 #: ../../project/geodash.rst:128 4cc7d27d64234d3da1aef9c758b71de0
-msgid ""
-"For more information about Image Assets, see :ref:`add-image-asset-"
-"widget`."
+msgid "For more information about Image Assets, see :ref:`add-image-asset-widget`."
 msgstr ""
 
 #: ../../project/geodash.rst:129 5dd2f2504ec04fc48b44d43d41487a72
-msgid ""
-"For more information about Image Collection Assets, see :ref:`add-image-"
-"collection-asset-widget`."
+msgid "For more information about Image Collection Assets, see :ref:`add-image-collection-asset-widget`."
 msgstr ""
 
 #: ../../project/geodash.rst:130 96b1f52df88a431496b63030a3fae814
-msgid ""
-"For more information about Preloaded Imagery Collections, see :ref:`add-"
-"preloaded-image-collection-widget`."
+msgid "For more information about Preloaded Imagery Collections, see :ref:`add-preloaded-image-collection-widget`."
 msgstr ""
 
 #: ../../project/geodash.rst:131 61b83c2b9afc418ba135d9c5c6e87d85
-msgid ""
-"For information on the min, max, and cloud score see :ref:`add-image-"
-"asset-widget`. Min and Max are the values for the bands, while cloud "
-"score is a max percent of clouds in the image."
+msgid "For information on the min, max, and cloud score see :ref:`add-image-asset-widget`. Min and Max are the values for the bands, while cloud score is a max percent of clouds in the image."
 msgstr ""
 
 #: ../../project/geodash.rst:133 ebef07d587d54a08afaa51b93d1c116f
-msgid ""
-"Select the **Date** range you would like, if applicable. If the end date "
-"is longer than the period of record, only the available data will be "
-"displayed."
+msgid "Select the **Date** range you would like, if applicable. If the end date is longer than the period of record, only the available data will be displayed."
 msgstr ""
 
 #: ../../project/geodash.rst:135 ../../project/geodash.rst:147
@@ -431,11 +290,7 @@ msgid "Institutional Imagery"
 msgstr ""
 
 #: ../../project/geodash.rst:140 8e3189a8bce84c49afd1fe0dafdbf92b
-msgid ""
-"This widget allows you to simply show one of your institutional "
-"imageries. With this you can select any of your existing institutional "
-"imagery sources to display, using the setting you have already "
-"configured. To add an Institutional Imagery widget:"
+msgid "This widget allows you to simply show one of your institutional imageries. With this you can select any of your existing institutional imagery sources to display, using the setting you have already configured. To add an Institutional Imagery widget:"
 msgstr ""
 
 #: ../../project/geodash.rst:143 709533c38e6447d58c025fe955bbb28d
@@ -443,9 +298,7 @@ msgid "Select **Institution Imagery** in the Type drop down."
 msgstr ""
 
 #: ../../project/geodash.rst:145 88c3fa16b7d6491f93331dd0a7df8e4a
-msgid ""
-"Select a **Basemap**. You can choose any of your institutional imagery "
-"from the dropdown menu."
+msgid "Select a **Basemap**. You can choose any of your institutional imagery from the dropdown menu."
 msgstr ""
 
 #: ../../project/geodash.rst:152 0925eeb913554f2c86ea04f90cf82f40
@@ -453,25 +306,15 @@ msgid "Add an Image Asset Widget"
 msgstr ""
 
 #: ../../project/geodash.rst:154 80315b50d41c48b1815abb3b4cd541e2
-msgid ""
-"Both the Image Asset Widget and the Image Collection Asset Widget allow "
-"users to connect to GEE data. This includes publicly available data "
-"through GEE as well as image assets from their own user accounts. There "
-"is a video tutorial for creating GEE image assets available online here: "
-"https://youtu.be/l57IhmduVBQ. Some example GEE scripts to create Image "
-"Asset in GEE:"
+msgid "Both the Image Asset Widget and the Image Collection Asset Widget allow users to connect to GEE data. This includes publicly available data through GEE as well as image assets from their own user accounts. There is a video tutorial for creating GEE image assets available online here: https://youtu.be/l57IhmduVBQ. Some example GEE scripts to create Image Asset in GEE:"
 msgstr ""
 
 #: ../../project/geodash.rst:156 eeb5dd0464c14201931c55412368257f
-msgid ""
-"NDVI: https://github.com/SERVIR/gee-"
-"scripts/blob/master/GEE_NDVI_Clip_to_plot_Collection.js#L6"
+msgid "NDVI: https://github.com/SERVIR/gee-scripts/blob/master/GEE_NDVI_Clip_to_plot_Collection.js#L6"
 msgstr ""
 
 #: ../../project/geodash.rst:157 dee5be5cf5bb4ce1a98917686be97db1
-msgid ""
-"Landsat8: "
-"https://code.earthengine.google.com/109485ad0712818dba270b767efbc540"
+msgid "Landsat8: https://code.earthengine.google.com/109485ad0712818dba270b767efbc540"
 msgstr ""
 
 #: ../../project/geodash.rst:160 cfac2bd4421d4f2d8fbf72a162d144ff
@@ -479,54 +322,29 @@ msgid "Select **Image Asset** in the **Widget Type** drop down."
 msgstr ""
 
 #: ../../project/geodash.rst:162 d4ff551fff5646308a266e71c14a073d
-msgid ""
-"Choose the desired **Basemap** source from dropdown. This will be the "
-"basemap for the widget and other data will be layered on top."
+msgid "Choose the desired **Basemap** source from dropdown. This will be the basemap for the widget and other data will be layered on top."
 msgstr ""
 
 #: ../../project/geodash.rst:163 7161d1808c0c478bb59cb85014bf3bfc
-msgid ""
-"Enter the **GEE Image Asset ID**. For example, "
-"COPERNICUS/S2/20170420T184921_20170420T190203_T10SEG. This can be any "
-"image asset in Earth Engine, including assets from your own account. If "
-"you are using an asset from your own account, it must be shared publicly."
-" If you need  your asset to remain private for data security reasons, "
-"message the team at support@collect.earth and we can help."
+msgid "Enter the **GEE Image Asset ID**. For example, COPERNICUS/S2/20170420T184921_20170420T190203_T10SEG. This can be any image asset in Earth Engine, including assets from your own account. If you are using an asset from your own account, it must be shared publicly. If you need  your asset to remain private for data security reasons, message the team at support@collect.earth and we can help."
 msgstr ""
 
 #: ../../project/geodash.rst:164 ../../project/geodash.rst:195
 #: 1ff0b5a562b84bb5a3b09502a50f033d de64e39581374190b9b759a059fe6fd8
-msgid ""
-"You can view the **Available Bands** for your image by clicking on the "
-"**[Refresh]** button."
+msgid "You can view the **Available Bands** for your image by clicking on the **[Refresh]** button."
 msgstr ""
 
 #: ../../project/geodash.rst:165 ../../project/geodash.rst:197
 #: 0a6a842ef0de4d0c8f997bf1d9b17fde 3558da8b484e4d4fa8c1565b137cce50
-msgid ""
-"Enter **Image Parameters** for the asset in JSON format. These follow the"
-" image visualization function in GEE (more info: "
-"https://developers.google.com/earth-"
-"engine/guides/image_visualization?hl=en):"
+msgid "Enter **Image Parameters** for the asset in JSON format. These follow the image visualization function in GEE (more info: https://developers.google.com/earth-engine/guides/image_visualization?hl=en):"
 msgstr ""
 
 #: ../../project/geodash.rst:175 6b363952f6764b89ad92b2939b1231f4
-msgid ""
-"Note that there are no spaces, and all color values must be hex. The "
-"quotes around the numbers are optional, e.g. \"max\":0.5 will also work. "
-"As in GEE, you may also use brackets around the palette values, however "
-"if you use brackets each individual number must be quoted."
+msgid "Note that there are no spaces, and all color values must be hex. The quotes around the numbers are optional, e.g. \"max\":0.5 will also work. As in GEE, you may also use brackets around the palette values, however if you use brackets each individual number must be quoted."
 msgstr ""
 
 #: ../../project/geodash.rst:181 d31ffb6580f84f38981d2271d16a31f2
-msgid ""
-"More on SRTM Digital Elevation Data. Previously in CEO you could add "
-"digital elevation data directly. This is now handled with the image asset"
-" widget. The SRTM Digital Elevation Data 30m widget pulls data from the "
-"Earth Engine Data Catalog. More information on this dataset can be found "
-"here: https://developers.google.com/earth-"
-"engine/datasets/catalog/USGS_SRTMGL1_003. The SRTM is an image asset "
-"USGS/SRTMGL1_003."
+msgid "More on SRTM Digital Elevation Data. Previously in CEO you could add digital elevation data directly. This is now handled with the image asset widget. The SRTM Digital Elevation Data 30m widget pulls data from the Earth Engine Data Catalog. More information on this dataset can be found here: https://developers.google.com/earth-engine/datasets/catalog/USGS_SRTMGL1_003. The SRTM is an image asset USGS/SRTMGL1_003."
 msgstr ""
 
 #: ../../project/geodash.rst:186 742f98e59990458396b028407ab26e25
@@ -534,10 +352,7 @@ msgid "Add an Image Collection Asset Widget"
 msgstr ""
 
 #: ../../project/geodash.rst:188 c8ed5928bcff4ff7849e63562d2a3bc0
-msgid ""
-"An Image Collection is a stack or time series of images. There is a video"
-" tutorial for creating GEE Image Collection assets available online here:"
-" https://youtu.be/7eIvltgDbXw."
+msgid "An Image Collection is a stack or time series of images. There is a video tutorial for creating GEE Image Collection assets available online here: https://youtu.be/7eIvltgDbXw."
 msgstr ""
 
 #: ../../project/geodash.rst:191 b1ce8eca4dc9468480b76b85e1b89ddd
@@ -545,25 +360,15 @@ msgid "Select **Image Collection Asset** in the **Widget Type** drop down."
 msgstr ""
 
 #: ../../project/geodash.rst:194 3533e198159c45578f79565c19013832
-msgid ""
-"Enter the **Google Earth Engine Image Collection Asset ID**, for example "
-"LANDSAT/LC8_L1T_TOA. This can be any image collection in Earth Engine, "
-"including assets from your own account. If you are using an asset from "
-"your own account, it must be shared publicly."
+msgid "Enter the **Google Earth Engine Image Collection Asset ID**, for example LANDSAT/LC8_L1T_TOA. This can be any image collection in Earth Engine, including assets from your own account. If you are using an asset from your own account, it must be shared publicly."
 msgstr ""
 
 #: ../../project/geodash.rst:196 c851500350d2424f83a9accbd66839c3
-msgid ""
-"Select a **Collection Reducer**. Reducers are methods for collapsing "
-"multiple images in the image collection into a single image for the Geo-"
-"Dash to display. You can learn more about reducers here "
-"https://developers.google.com/earth-engine/guides/reducers_intro."
+msgid "Select a **Collection Reducer**. Reducers are methods for collapsing multiple images in the image collection into a single image for the Geo-Dash to display. You can learn more about reducers here https://developers.google.com/earth-engine/guides/reducers_intro."
 msgstr ""
 
 #: ../../project/geodash.rst:199 7b67e70f5cd5478c86999b189d28359b
-msgid ""
-"For example: "
-"``{\"bands\":\"B4,B5,B3\",\"min\":\"10,0,10\",\"max\":\"120,90,70\"}``."
+msgid "For example: ``{\"bands\":\"B4,B5,B3\",\"min\":\"10,0,10\",\"max\":\"120,90,70\"}``."
 msgstr ""
 
 #: ../../project/geodash.rst:200 4e67c0c069e24e5a8b1e2aae5855dc2f
@@ -586,33 +391,19 @@ msgid "More on Landsat"
 msgstr ""
 
 #: ../../project/geodash.rst:209 36f083a8008143d2869c75d9d78a0424
-msgid ""
-"Landsat is one of the Image Assets you can add. For better performance "
-"when using a GEE collection, we recommend that you preprocess and clip "
-"the data to your AOI in GEE before connecting it to Geo-Dash. You can "
-"find a video tutorial on this process in the Geo-Dash Help Center under "
-"“Video Tutorial to Create GEE Image Assets.”"
+msgid "Landsat is one of the Image Assets you can add. For better performance when using a GEE collection, we recommend that you preprocess and clip the data to your AOI in GEE before connecting it to Geo-Dash. You can find a video tutorial on this process in the Geo-Dash Help Center under “Video Tutorial to Create GEE Image Assets.”"
 msgstr ""
 
 #: ../../project/geodash.rst:212 afee6afdfe494189b65ec2ba68feba7b
-msgid ""
-"The most common strings for Landsat are listed below. More detailed "
-"information can be found on the Google Earth Engine help pages; available"
-" composites and the covered time frame are found here: "
-"https://explorer.earthengine.google.com/#search/tag%3A32day."
+msgid "The most common strings for Landsat are listed below. More detailed information can be found on the Google Earth Engine help pages; available composites and the covered time frame are found here: https://explorer.earthengine.google.com/#search/tag%3A32day."
 msgstr ""
 
 #: ../../project/geodash.rst:214 ab4194824b384b5aaa794132f652d5b8
-msgid ""
-"For short change intervals, test the 8 day NDVI composite images; for "
-"longer change intervals, explore the 32 day composites."
+msgid "For short change intervals, test the 8 day NDVI composite images; for longer change intervals, explore the 32 day composites."
 msgstr ""
 
 #: ../../project/geodash.rst:216 9b187f9c131f443588beebda83c80a67
-msgid ""
-"You might notice in the 8 day composites unexpectedly low NDVI values for"
-" the season. This can be caused by cloud cover. If your sample sites are "
-"in an area with persistent cloud cover, choose the 32 day composite."
+msgid "You might notice in the 8 day composites unexpectedly low NDVI values for the season. This can be caused by cloud cover. If your sample sites are in an area with persistent cloud cover, choose the 32 day composite."
 msgstr ""
 
 #: ../../project/geodash.rst:219 5eea11ded8ee4dfa81e48108f4dc5529
@@ -632,35 +423,23 @@ msgid "Image collection ID"
 msgstr ""
 
 #: ../../project/geodash.rst:221 b9719857fa024932b6e2dcd42a955797
-msgid ""
-"Landsat 8 Landsat 8 Landsat 7 Landsat 7 Landsat 8 Landsat 8 Landsat 7 "
-"Landsat 7"
+msgid "Landsat 8 Landsat 8 Landsat 7 Landsat 7 Landsat 8 Landsat 8 Landsat 7 Landsat 7"
 msgstr ""
 
 #: ../../project/geodash.rst:221 4d1b6e0e6102473cb9c7bccc7b1f0997
-msgid ""
-"NDVI, 32 day NDVI, 8 day NDVI, 32 day NDVI, 8 day NDWI, 32 day NDWI, 8 "
-"day NDWI, 32 day NDWI, 8 day"
+msgid "NDVI, 32 day NDVI, 8 day NDVI, 32 day NDVI, 8 day NDWI, 32 day NDWI, 8 day NDWI, 32 day NDWI, 8 day"
 msgstr ""
 
 #: ../../project/geodash.rst:221 a151e9cde23a4b128ef4043fd10447ba
-msgid ""
-"2013-04-07 2013-04-07 1999-01-01 1999-01-01 2013-04-07 2013-04-07 "
-"1999-01-01 1999-01-01"
+msgid "2013-04-07 2013-04-07 1999-01-01 1999-01-01 2013-04-07 2013-04-07 1999-01-01 1999-01-01"
 msgstr ""
 
 #: ../../project/geodash.rst:221 3923fbb12efe4064843d0f029af1e56d
-msgid ""
-"LANDSAT/LC8_L1T_32DAY_NDVI LANDSAT/LC8_L1T_8DAY_NDVI "
-"LANDSAT/LE7_L1T_32DAY_NDVI LANDSAT/LE7_L1T_8DAY_NDVI "
-"LANDSAT/LC8_L1T_32DAY_NDWI LANDSAT/LC8_L1T_8DAY_NDWI "
-"LANDSAT/LE7_L1T_32DAY_NDWI LANDSAT/LE7_L1T_8DAY_NDWI"
+msgid "LANDSAT/LC8_L1T_32DAY_NDVI LANDSAT/LC8_L1T_8DAY_NDVI LANDSAT/LE7_L1T_32DAY_NDVI LANDSAT/LE7_L1T_8DAY_NDVI LANDSAT/LC8_L1T_32DAY_NDWI LANDSAT/LC8_L1T_8DAY_NDWI LANDSAT/LE7_L1T_32DAY_NDWI LANDSAT/LE7_L1T_8DAY_NDWI"
 msgstr ""
 
 #: ../../project/geodash.rst:231 4a032e736fa04e369a9bbe63f11cf519
-msgid ""
-"The image collection ID for Sentinel-2 is COPERNICUS/S2 (2015-06-23 to "
-"present) and for Sentinel-1 is COPERNICUS/S1_GRD (2015-10-03 to present)."
+msgid "The image collection ID for Sentinel-2 is COPERNICUS/S2 (2015-06-23 to present) and for Sentinel-1 is COPERNICUS/S1_GRD (2015-10-03 to present)."
 msgstr ""
 
 #: ../../project/geodash.rst:234 d2c93be307d94b01a6e2a354d66810ef
@@ -668,26 +447,15 @@ msgid "Add a Polygon Compare Widget"
 msgstr ""
 
 #: ../../project/geodash.rst:236 eb307b4a225a4f918af275d3bc5cf781
-msgid ""
-"The polygon compare widget allows you to display polygons in Geo-Dash, so"
-" that e.g. you can compare them with your plot outlines. This uses a "
-"featureCollection in Google Earth Engine as input. You can use any "
-"feature collection, if it has a field that matches the PLOTID for your "
-"CEO project. The polygon is extracted from the featureCollection and "
-"turned into an image to display as WMS tiles in the widget."
+msgid "The polygon compare widget allows you to display polygons in Geo-Dash, so that e.g. you can compare them with your plot outlines. This uses a featureCollection in Google Earth Engine as input. You can use any feature collection, if it has a field that matches the PLOTID for your CEO project. The polygon is extracted from the featureCollection and turned into an image to display as WMS tiles in the widget."
 msgstr ""
 
 #: ../../project/geodash.rst:238 80e8a0d875e7417092499c66f7505e9e
-msgid ""
-"We suggest you use the shapefile (.shp) option when creating your CEO "
-"project."
+msgid "We suggest you use the shapefile (.shp) option when creating your CEO project."
 msgstr ""
 
 #: ../../project/geodash.rst:242 7169438e13ac4b7c854a88039b25ae2c
-msgid ""
-"IMPORTANT: Your featureCollection needs to be shared as public so that "
-"CEO can access it. If you need to leave the collection private, message "
-"the team at support@collect.earth and we can help."
+msgid "IMPORTANT: Your featureCollection needs to be shared as public so that CEO can access it. If you need to leave the collection private, message the team at support@collect.earth and we can help."
 msgstr ""
 
 #: ../../project/geodash.rst:245 11f34196b07b44868e0cce69023b2f06
@@ -695,26 +463,15 @@ msgid "Select **Polygon Compare** in the **Widget Type** drop down."
 msgstr ""
 
 #: ../../project/geodash.rst:248 020a67c96d6b40a1b9fa2b255d13f858
-msgid ""
-"Enter the **Google Earth Engine Feature Collection Asset ID**. This can "
-"be any feature collection in Earth Engine, including assets from your own"
-" account. If you are using an asset from your own account, it must be "
-"shared publicly."
+msgid "Enter the **Google Earth Engine Feature Collection Asset ID**. This can be any feature collection in Earth Engine, including assets from your own account. If you are using an asset from your own account, it must be shared publicly."
 msgstr ""
 
 #: ../../project/geodash.rst:249 33e30336af784281806c393eaa2903fd
-msgid ""
-"Enter the **field** that matches the PLOTID for the project. In the "
-"compare featureCollection widget, you will need to match PLOTIDs. The "
-"PLOTID column for your featureCollection can be named anything, just type"
-" in the proper column name into the Field to match PLOTID box."
+msgid "Enter the **field** that matches the PLOTID for the project. In the compare featureCollection widget, you will need to match PLOTIDs. The PLOTID column for your featureCollection can be named anything, just type in the proper column name into the Field to match PLOTID box."
 msgstr ""
 
 #: ../../project/geodash.rst:250 7c1233eb131c40eebc067217a4b98d5e
-msgid ""
-"Enter **Image Parameters** in JSON format to change the color of the "
-"polygon displayed. This uses the GEE feature and feature collection "
-"visualization function."
+msgid "Enter **Image Parameters** in JSON format to change the color of the polygon displayed. This uses the GEE feature and feature collection visualization function."
 msgstr ""
 
 #: ../../project/geodash.rst:256 7fb970a3470b4ddfb61f4acc316967a7
@@ -722,39 +479,27 @@ msgid "Add a Preloaded Image Collection Widget"
 msgstr ""
 
 #: ../../project/geodash.rst:258 5828f684f3af4f0abcad7a1deb28a0e0
-msgid ""
-"Preloaded Image Collection widgets are commonly used widgets that the "
-"Collect Earth Online team has set up in advance for your ease of use."
+msgid "Preloaded Image Collection widgets are commonly used widgets that the Collect Earth Online team has set up in advance for your ease of use."
 msgstr ""
 
 #: ../../project/geodash.rst:261 40adab7bacd4418797da38aea573e81a
-msgid ""
-"Select **Preloaded Image Collections** in the **Widget Type** dropdown "
-"menu."
+msgid "Select **Preloaded Image Collections** in the **Widget Type** dropdown menu."
 msgstr ""
 
 #: ../../project/geodash.rst:263 82ae38397bc3463ab513ab9a7313e52a
-msgid ""
-"Choose your **Basemap** source from the dropdown menu. This will become "
-"the basemap over which the other data is overlaid."
+msgid "Choose your **Basemap** source from the dropdown menu. This will become the basemap over which the other data is overlaid."
 msgstr ""
 
 #: ../../project/geodash.rst:264 669a5bb3bdf44b3c8201ce37966da897
-msgid ""
-"Select the **Imagery Source**. You can choose from Landsat, Sentinel-2, "
-"and Planet NICFI."
+msgid "Select the **Imagery Source**. You can choose from Landsat, Sentinel-2, and Planet NICFI."
 msgstr ""
 
 #: ../../project/geodash.rst:265 42e64b005ec74cda9044c2cac9db5a5c
-msgid ""
-"Select the **Imagery Source Type**. You can choose from Index or "
-"Composite."
+msgid "Select the **Imagery Source Type**. You can choose from Index or Composite."
 msgstr ""
 
 #: ../../project/geodash.rst:266 f42f555a732b4f70bbc8408a24b718b6
-msgid ""
-"Select **Date Range**. If the end date is longer than the period of "
-"record, only the available data will be displayed."
+msgid "Select **Date Range**. If the end date is longer than the period of record, only the available data will be displayed."
 msgstr ""
 
 #: ../../project/geodash.rst:267 d0b17ccdbea94012b240812b98611981
@@ -762,17 +507,11 @@ msgid "If you have select Index, you can now choose a **Band to graph**."
 msgstr ""
 
 #: ../../project/geodash.rst:269 3a4019dfb4fe4d84bf7e3ddc522bdab0
-msgid ""
-"**NDVI, EVI, EVI 2, NDMI**, and **NDWI** are preconfigured with the "
-"correct bands and image parameters. The index displayed will be the mean "
-"for the selected date range."
+msgid "**NDVI, EVI, EVI 2, NDMI**, and **NDWI** are preconfigured with the correct bands and image parameters. The index displayed will be the mean for the selected date range."
 msgstr ""
 
 #: ../../project/geodash.rst:271 e674de4d079546a9bf30874b54902112
-msgid ""
-"If you have selected **Composite** you can now choose the bands, min, "
-"max, and cloud score, depending on which options are available for the "
-"**Imagery Source** you selected. Available bands for each are:"
+msgid "If you have selected **Composite** you can now choose the bands, min, max, and cloud score, depending on which options are available for the **Imagery Source** you selected. Available bands for each are:"
 msgstr ""
 
 #: ../../project/geodash.rst:273 749ea25fcd4649faaf4d7eacc3372883
@@ -780,9 +519,7 @@ msgid "Landsat: BLUE, GREEN, RED, NIR, SWIR1, TEMP, SWIR2"
 msgstr ""
 
 #: ../../project/geodash.rst:274 d046631ab2d84f87b7d64c800ac178f8
-msgid ""
-"Sentinel 2: B1, B2, B3, B4, B5, B6, B7, B8, B8a, B9, B10, B11, B12, QA10,"
-" QA20, QA60"
+msgid "Sentinel 2: B1, B2, B3, B4, B5, B6, B7, B8, B8a, B9, B10, B11, B12, QA10, QA20, QA60"
 msgstr ""
 
 #: ../../project/geodash.rst:275 ad86db40fd144c519f562dd4128339bb
@@ -790,10 +527,7 @@ msgid "NICFI: R, G, B, N"
 msgstr ""
 
 #: ../../project/geodash.rst:277 d2cc06d6f4c14bb6abdf4909cfca2102
-msgid ""
-"Min, Max, and Cloud Score will be determined by the user’s needs. Min and"
-" Max are the values for the bands, while cloud score is a max percent of "
-"clouds in the image. Min and max can have one or three values."
+msgid "Min, Max, and Cloud Score will be determined by the user’s needs. Min and Max are the values for the bands, while cloud score is a max percent of clouds in the image. Min and max can have one or three values."
 msgstr ""
 
 #: ../../project/geodash.rst:279 fc9d5fa82fea4c49a1bc23c699d35f1f
@@ -809,12 +543,7 @@ msgid "Add a Statistics Widget"
 msgstr ""
 
 #: ../../project/geodash.rst:293 4b0014878c4c4e6382e2d917780472b9
-msgid ""
-"Statistics provide additional information, including population, area, "
-"and elevation about the current plot area that is being analyzed. The "
-"population data is from the CiESIB Gridded Population of the World v4 "
-"dataset and the elevation data is from the USGS EROS Global 30-Arc Second"
-" DEM."
+msgid "Statistics provide additional information, including population, area, and elevation about the current plot area that is being analyzed. The population data is from the CiESIB Gridded Population of the World v4 dataset and the elevation data is from the USGS EROS Global 30-Arc Second DEM."
 msgstr ""
 
 #: ../../project/geodash.rst:296 af474187ccb34b35adcaa0e64e6d51ba
@@ -826,10 +555,7 @@ msgid "Add a Time Series Graph Widget"
 msgstr ""
 
 #: ../../project/geodash.rst:304 f4e92d74bc1f4f9a89302f13f4414f78
-msgid ""
-"Time Series Graphs, particularly for the vegetation indices, can help "
-"users differentiate between different types of vegetation based on "
-"seasonal patterns."
+msgid "Time Series Graphs, particularly for the vegetation indices, can help users differentiate between different types of vegetation based on seasonal patterns."
 msgstr ""
 
 #: ../../project/geodash.rst:307 f87436865f534c6a9fb1d894f58ca919
@@ -837,31 +563,19 @@ msgid "Select **Time Series Graph** in the **Widget Type** drop down."
 msgstr ""
 
 #: ../../project/geodash.rst:309 9e7d0ed17954499992875b4a04286c54
-msgid ""
-"Select the **Imagery Source**. This will determine what **Band to graph**"
-" options you have."
+msgid "Select the **Imagery Source**. This will determine what **Band to graph** options you have."
 msgstr ""
 
 #: ../../project/geodash.rst:311 3839e3e90289445fbc2bb4129603358d
-msgid ""
-"**Landsat** allows you to graph **NDVI, EVI, EVI 2, NDMI**, and **NDWI**."
-" These are preconfigured with the correct Landsat band calculations and "
-"image parameters."
+msgid "**Landsat** allows you to graph **NDVI, EVI, EVI 2, NDMI**, and **NDWI**. These are preconfigured with the correct Landsat band calculations and image parameters."
 msgstr ""
 
 #: ../../project/geodash.rst:312 695d96d2c5684e5c92bb357a7a2136fe
-msgid ""
-"**NICFI** allows you to graph **NDVI, B, R, G**, and **N**. These are "
-"preconfigured with the correct band calculations."
+msgid "**NICFI** allows you to graph **NDVI, B, R, G**, and **N**. These are preconfigured with the correct band calculations."
 msgstr ""
 
 #: ../../project/geodash.rst:313 39ab19c907fc4f64a7f378eb2301c07b
-msgid ""
-"**Custom** allows you to create a time series graph using any GEE image "
-"collection. An image collection from Google Earth Engine can be added "
-"here. You simply need to know the **GEE Image Collection Asset ID**, the "
-"**Band to graph**, the **Reducer** you would like to use, and the "
-"**Spatial scale**. For example:"
+msgid "**Custom** allows you to create a time series graph using any GEE image collection. An image collection from Google Earth Engine can be added here. You simply need to know the **GEE Image Collection Asset ID**, the **Band to graph**, the **Reducer** you would like to use, and the **Spatial scale**. For example:"
 msgstr ""
 
 #: ../../project/geodash.rst:315 57dce3baa60a42a483f7796de0c0972d
@@ -881,8 +595,6 @@ msgid "Spatial Scale: 30"
 msgstr ""
 
 #: ../../project/geodash.rst:320 f542a78e650e436a934c895b158f1f02
-msgid ""
-"Select a **Date Range**. If the end date is longer than the period of "
-"record, only the available data will be displayed."
+msgid "Select a **Date Range**. If the end date is longer than the period of record, only the available data will be displayed."
 msgstr ""
 

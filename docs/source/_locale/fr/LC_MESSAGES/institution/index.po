@@ -1,39 +1,34 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, Collect Earth Online team
-# This file is distributed under the same license as the Collect Earth
-# Online package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Collect Earth Online \n"
+"Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2024-09-25 20:10\n"
+"Last-Translator: \n"
 "Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
+"Language-Team: French\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
+"X-Crowdin-Project: collect-earth-online-doc\n"
+"X-Crowdin-Project-ID: 647276\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /main/docs/source/_locale/en/LC_MESSAGES/institution/index.po\n"
+"X-Crowdin-File-ID: 52\n"
 
 #: ../../institution/index.rst:2 3632163e923140be950d5bc9213d692d
 msgid "Getting started with your Institution in CEO"
 msgstr ""
 
 #: ../../institution/index.rst:4 c0a4622d90e04836a7289ab34587364c
-msgid ""
-"In Collect Earth Online you can create your own Institution. Institutions"
-" allow you to create tailor made proects, add custom imagery, and invite "
-"specific people to your institution in order to collect data."
+msgid "In Collect Earth Online you can create your own Institution. Institutions allow you to create tailor made proects, add custom imagery, and invite specific people to your institution in order to collect data."
 msgstr ""
 
 #: ../../institution/index.rst:6 6ca28cacacd5486caa58ab3352723b92
 msgid "Collect Earth Online (CEO) is available at https://collect.earth/."
-msgstr ""
+msgstr "Collect Earth Online (CEO) est disponible sur https://collect.earth/."
 
 #: ../../institution/index.rst:9 78830e76f8c447158715162648d4f36f
 msgid "Overview of the INSTITUTION section"
@@ -41,7 +36,7 @@ msgstr ""
 
 #: ../../institution/index.rst:11 364cc1d22152497594c883f06d6e715a
 msgid "In this section of the CEO documentation, you can learn how to:"
-msgstr ""
+msgstr "Dans cette section de la documentation du CEO, vous pouvez apprendre à :"
 
 #: ../../institution/index.rst:13 3ce08ba77d4e4c76bf65e7e76f3cedd0
 msgid ":doc:`Create an Institution <create>`"
@@ -56,37 +51,22 @@ msgid ":doc:`Add Institutional imagery <imagery>`"
 msgstr ""
 
 #: ../../institution/index.rst:17 735faf8fd6fa40448825b87d528c3939
-msgid ""
-"The Institution section provides an overview of how to create and manage "
-"an Institution in Collect Earth Online. You can learn about how to create"
-" your account, collect data, and create your own projects in other "
-"sections of this documentation. Navigate to these sections using the "
-"links at the top of the page."
+msgid "The Institution section provides an overview of how to create and manage an Institution in Collect Earth Online. You can learn about how to create your account, collect data, and create your own projects in other sections of this documentation. Navigate to these sections using the links at the top of the page."
 msgstr ""
 
 #: ../../institution/index.rst:19 fbe03a3c8c9e4ac5a9ee57336a5224d1
-msgid ""
-"Navigate to the other areas of this section by selecting links under "
-"**Section navigation** to the left."
-msgstr ""
+msgid "Navigate to the other areas of this section by selecting links under **Section navigation** to the left."
+msgstr "Naviguez vers les autres zones de cette section en sélectionnant les liens sous **navigation de section** à gauche."
 
 #: ../../institution/index.rst:21 95125405a1e94629a8ac599e2deabb5a
-msgid ""
-"Navigate to other areas of this article by by selecting links under **On "
-"this page** to the right."
-msgstr ""
+msgid "Navigate to other areas of this article by by selecting links under **On this page** to the right."
+msgstr "Naviguez vers d'autres zones de cet article en sélectionnant les liens sous **Sur cette page** à droite."
 
 #: ../../institution/index.rst:25 dc32e1eaf1b64edf9c3d0d716f2060a2
-msgid ""
-"This documentation uses a few formatting standards for ease of use. "
-"Clickable links are shown **[like this]**. The names of pages, like the "
-"**Home** page, are bolded."
-msgstr ""
+msgid "This documentation uses a few formatting standards for ease of use. Clickable links are shown **[like this]**. The names of pages, like the **Home** page, are bolded."
+msgstr "Cette documentation utilise quelques normes de formatage pour faciliter l'utilisation. Les liens cliquables sont affichés **[comme ceci]**. Les noms des pages, comme la page **d'Accueil**, sont en gras."
 
 #: ../../institution/index.rst:27 87758e30e5e247419d795c6449b3d971
-msgid ""
-"Finally, CEO is a live tool that is under continuous development. Please "
-"report any bugs at our GitHub or by contacting `the CEO team "
-"<support@collect.earth>`__."
-msgstr ""
+msgid "Finally, CEO is a live tool that is under continuous development. Please report any bugs at our GitHub or by contacting `the CEO team <support@collect.earth>`__."
+msgstr "Enfin, CEO est un outil vivant en développement continu. Veuillez signaler tout bug sur notre GitHub ou en contactant `l'équipe CEO <support@collect.earth>`__."
 

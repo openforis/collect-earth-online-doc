@@ -1,98 +1,76 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, Collect Earth Online team
-# This file is distributed under the same license as the Collect Earth
-# Online package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Collect Earth Online \n"
+"Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2024-09-25 20:10\n"
+"Last-Translator: \n"
 "Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
+"Language-Team: French\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
+"X-Crowdin-Project: collect-earth-online-doc\n"
+"X-Crowdin-Project-ID: 647276\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /main/docs/source/_locale/en/LC_MESSAGES/collection/index.po\n"
+"X-Crowdin-File-ID: 38\n"
 
 #: ../../collection/index.rst:2 426df37c37534980a8b26355900a9f98
 msgid "Collecting data in Collect Earth Online"
-msgstr ""
+msgstr "Collecte de données dans Collect Earth Online"
 
 #: ../../collection/index.rst:4 8ab4553deb9d4599ba2d6df1b36900d4
-msgid ""
-"Collect Earth Online makes it easy for users to contribute to projects' "
-"data collection efforts."
-msgstr ""
+msgid "Collect Earth Online makes it easy for users to contribute to projects' data collection efforts."
+msgstr "Collect Earth Online permet aux utilisateurs de contribuer facilement aux efforts de collecte de données des projets."
 
 #: ../../collection/index.rst:6 83a536313153442cb29bb79515e6142a
-msgid ""
-"If you are interested in learning how create and manage an institution, "
-"please see: :doc:`../institution/index`."
-msgstr ""
+msgid "If you are interested in learning how create and manage an institution, please see: :doc:`../institution/index`."
+msgstr "Si vous êtes intéressé à apprendre comment créer et gérer une institution, veuillez voir : :doc:`../institution/index`."
 
 #: ../../collection/index.rst:8 8bf463b7d054460a8503812276645849
 msgid "Collect Earth Online (CEO) is available at https://collect.earth/."
-msgstr ""
+msgstr "Collect Earth Online (CEO) est disponible sur https://collect.earth/."
 
 #: ../../collection/index.rst:11 49c96c4fd1444019b8693a87f6941058
 msgid "Overview of the Data Collection section"
-msgstr ""
+msgstr "Aperçu de la section Collecte de Données"
 
 #: ../../collection/index.rst:13 9d35459a891d46cda3298c2ac4f45d24
 msgid "In this section of the CEO documentation, you can learn how to:"
-msgstr ""
+msgstr "Dans cette section de la documentation du CEO, vous pouvez apprendre à :"
 
 #: ../../collection/index.rst:15 dc43535707864ac1a5276fb4f70b5d2d
 msgid ":doc:`Prepare to collect data <preparing>`"
-msgstr ""
+msgstr ":doc:`Préparez-vous à collecter les données <preparing>`"
 
 #: ../../collection/index.rst:16 2790895d7b4f4f92aee794d5537df887
 msgid ":doc:`Collect data for your institution <start>`"
-msgstr ""
+msgstr ":doc:`Collecter des données pour votre institution <start>`"
 
 #: ../../collection/index.rst:17 d7e5a56bb5c148edb5851395c4172db0
 msgid ":doc:`Troubleshoot common issues <troubleshooting>`"
-msgstr ""
+msgstr ":doc:`Dépannage problèmes courants <troubleshooting>`"
 
 #: ../../collection/index.rst:19 4c2debf481144c3fa596e91f8bf4e499
-msgid ""
-"The Data Collection section provides a quick overview of the Collect "
-"Earth Online data collection interface, how to collect data for your "
-"institution's projects and what to do if you encounter an error. You can "
-"learn about how to set up your CEO account, ad how to manage your own "
-"institution and projects in other sections of this documentation. "
-"Navigate to these sections using the links at the top of the page."
-msgstr ""
+msgid "The Data Collection section provides a quick overview of the Collect Earth Online data collection interface, how to collect data for your institution's projects and what to do if you encounter an error. You can learn about how to set up your CEO account, and how to manage your own institution and projects in other sections of this documentation. Navigate to these sections using the links at the top of the page."
+msgstr "La section Collecte de Données fournit un aperçu rapide de l'interface de collecte de données de Collect Earth Online, comment collecter des données pour les projets de votre institution et que faire si vous rencontrez une erreur. Vous pouvez apprendre comment configurer votre compte CEO, et sur la gestion de votre propre institution et de vos propres projets dans d'autres sections de cette documentation. Naviguez vers ces sections en utilisant les liens en haut de la page."
 
 #: ../../collection/index.rst:21 a01cfe3485434c2b96ef6cbbac6ce33e
-msgid ""
-"Navigate to the other areas of this section by selecting links under "
-"**Section navigation** to the left."
-msgstr ""
+msgid "Navigate to the other areas of this section by selecting links under **Section navigation** to the left."
+msgstr "Naviguez vers les autres zones de cette section en sélectionnant les liens sous **navigation de section** à gauche."
 
 #: ../../collection/index.rst:23 f4f35b64991244c48f48e64166e66ffb
-msgid ""
-"Navigate to other areas of this article by by selecting links under **On "
-"this page** to the right."
-msgstr ""
+msgid "Navigate to other areas of this article by by selecting links under **On this page** to the right."
+msgstr "Naviguez vers d'autres zones de cet article en sélectionnant les liens sous **Sur cette page** à droite."
 
 #: ../../collection/index.rst:27 a3386cc27fac4e9db69f764080a8cc7c
-msgid ""
-"This documentation uses a few formatting standards for ease of use. "
-"Clickable links are shown **[like this]**. The names of pages, like the "
-"**Home** page, are bolded."
-msgstr ""
+msgid "This documentation uses a few formatting standards for ease of use. Clickable links are shown **[like this]**. The names of pages, like the **Home** page, are bolded."
+msgstr "Cette documentation utilise quelques normes de formatage pour faciliter l'utilisation. Les liens cliquables sont affichés **[comme ceci]**. Les noms des pages, comme la page **d'Accueil**, sont en gras."
 
 #: ../../collection/index.rst:29 3f90c5e0da844c01a7a35a20be54b441
-msgid ""
-"Finally, CEO is a live tool that is under continuous development. Please "
-"report any bugs at our GitHub or by contacting `the CEO team "
-"<support@collect.earth>`__."
-msgstr ""
+msgid "Finally, CEO is a live tool that is under continuous development. Please report any bugs at our GitHub or by contacting `the CEO team <support@collect.earth>`__."
+msgstr "Enfin, CEO est un outil vivant en développement continu. Veuillez signaler tout bug sur notre GitHub ou en contactant `l'équipe CEO <support@collect.earth>`__."
 
