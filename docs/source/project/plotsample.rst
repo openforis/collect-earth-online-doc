@@ -46,18 +46,18 @@ There are three approaches.
 
 3. The third approach is to upload a project boundary shapefile. To use this option, under **Boundary type** select Upload shp file. Then click on the **[Upload project boundary]** button. Navigate to your file, and click **[Open]**. Your shapefile should be a zipped folder containing requisite shapefile component pieces (SHP, SHX, DBF, and PRJ files). Once you click open, you should see the **File:** text populate with your file name and your project boundary appear in the Collection Map Preview pane. 
 
-   .. thumbnail:: ../_images/project12.png
+   .. thumbnail:: ../_images/project12_v2.png
          :title: Upload an AOI
          :align: center
          :width: 100%
 
 .. note::
    
-   Please note that if you have multi-part polygons each one will be assigned the number of plots indicated. This is indicated in the green text.
+   If you have multi-part polygons each one will be assigned the number of plots indicated. This is indicated in the green text.
 
 .. tip::
    
-   You can upload shapefiles with multiple shapes for stratified sampling (coming soon). Each strata will appear with its corresponding area in hectares. The number of plots will be **per strata**. This is indicated in the green text.
+   You can upload shapefiles with multipart polygons or multiple shapes for stratified sampling. Each strata will appear with its corresponding area in hectares. The number of plots will be **per strata**. This is indicated in the green text. 
 
    .. thumbnail:: ../_images/project13.png
          :title: Multiple shapes AOI
