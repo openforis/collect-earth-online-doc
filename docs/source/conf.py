@@ -7,9 +7,9 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Collect Earth Online'
-copyright = '2023, Collect Earth Online team'
+copyright = '2025, Collect Earth Online team'
 author = 'Collect Earth Online team'
-release = 'v 0.7'
+release = 'v 0.8'
 
 # -- Path setup ----------------------------------------------------------------
 import sys, os
