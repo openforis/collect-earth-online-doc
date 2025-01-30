@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-02-17 01:32\n"
+"PO-Revision-Date: 2025-01-30 21:53\n"
 "Last-Translator: \n"
 "Language: fr\n"
 "Language-Team: French\n"
@@ -20,19 +20,19 @@ msgstr ""
 
 #: ../../project/survey.rst:2 d5ea418ff90446f781ce148634f0566e
 msgid "Survey Questions"
-msgstr ""
+msgstr "Questions du sondage"
 
 #: ../../project/survey.rst:4 65be971f989541b3bf90672e556d7e9e
 msgid "This is where you design the questions that your data collectors/photo interpreters will answer for each of your survey plots. Each question creates a column of data. This raw data facilitates calculating key metrics and indicators and contributes to fulfilling your project goals."
-msgstr ""
+msgstr "C'est ici que vous concevez les questions que vos collecteurs de données/interprètes photo répondront pour chacun de vos points d'enquête. Chaque question crée une colonne de données. Ces données brutes facilitent le calcul des indicateurs et mesures clés et contribuent à la réalisation des objectifs de votre projet."
 
 #: ../../project/survey.rst:6 6c854c3eb6184dcf9854a3773451f170
 msgid "**Survey Cards** are the basic unit of organization. Each survey card creates a page of questions on the Data Collection interface. The basic workflow is: Create new top-level question (new survey card) 🡪 populate answers 🡪 create any child questions & answers 🡪 move to next top-level question (new survey card) & repeat until all questions have been asked."
-msgstr ""
+msgstr "Les **cartes de sondage** sont l'unité de base de l'organisation. Chaque carte d'enquête crée une page de questions sur l'interface de collecte de données. Le workflow de base est : Créer une nouvelle question de haut niveau (nouvelle carte d'enquête) 🡪 remplir des réponses 🡪 créer des questions et des réponses enfant 🡪 passer à la question suivante de haut niveau (nouvelle carte d'enquête) & répéter jusqu'à ce que toutes les questions ont été posées."
 
 #: ../../project/survey.rst:8 48ec60b65652418e884c2fe161a0116d
 msgid "For the **Survey Question** tab, the left panel allows you to enter questions while the right panel provides a preview of how these questions will appear to your data collectors."
-msgstr ""
+msgstr "Pour l’onglet **Question d’enquête**, le panneau de gauche vous permet d'entrer des questions tandis que le panneau de droite fournit un aperçu de la façon dont ces questions apparaîtront pour vos collecteurs de données."
 
 #: ../../project/survey.rst:10 3e544ab912bf423db3557203bed56321
 msgid "We will now go into more detail about how to add a question and answers, the types of questions that can be asked and when these questions might be useful."
