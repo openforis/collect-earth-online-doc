@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-09-25 20:10\n"
+"PO-Revision-Date: 2025-01-30 21:53\n"
 "Last-Translator: \n"
 "Language: fr\n"
 "Language-Team: French\n"
@@ -20,11 +20,11 @@ msgstr ""
 
 #: ../../project/index.rst:2 47bf3ed65a7240a0b93bfc0a900ddceb
 msgid "Creating Projects in Collect Earth Online"
-msgstr ""
+msgstr "Création de projets dans Collect Earth Online"
 
 #: ../../project/index.rst:4 5d99990c9e964d8996424f330fa0dfab
 msgid "Within Institutions that you administer (have Admin privleges) in Collect Earth Online, you can create new Projects. Projects allow you to specify where data should be collected, what institutional imagery should be used, and what questions should be answered by your data collectors."
-msgstr ""
+msgstr "Dans les institutions que vous administrez (avez des administrateurs privés) dans Collect Earth Online, vous pouvez créer de nouveaux projets. Les projets vous permettent de spécifier où les données doivent être collectées, quelles images institutionnelles doivent être utilisées, et quelles questions doivent recevoir les réponses de vos collecteurs de données."
 
 #: ../../project/index.rst:6 ef81439d91484b80869287559ba158d0
 msgid "Collect Earth Online (CEO) is available at https://collect.earth/."
@@ -32,7 +32,7 @@ msgstr "Collect Earth Online (CEO) est disponible sur https://collect.earth/."
 
 #: ../../project/index.rst:9 1e1abb4906864730ab22a1cfb996ca81
 msgid "Overview of the PROJECT section"
-msgstr ""
+msgstr "Vue d'ensemble de la section PROJET"
 
 #: ../../project/index.rst:11 e8b2e4c0e9db4084a9f0e5066a66edad
 msgid "In this section of the CEO documentation, you can learn how to:"
@@ -40,19 +40,19 @@ msgstr "Dans cette section de la documentation du CEO, vous pouvez apprendre à 
 
 #: ../../project/index.rst:13 086d86f1a34a44af803a4649d8e55252
 msgid ":doc:`Create a Project <create>`"
-msgstr ""
+msgstr ":doc:`Créer un Projet <create>`"
 
 #: ../../project/index.rst:14 17c5878cc49c427294b7b7f26a4f3038
 msgid ":doc:`Set up Plots and Samples <plotsample>`"
-msgstr ""
+msgstr ":doc:`Configurez des emplacements et des échantillons <plotsample>`"
 
 #: ../../project/index.rst:15 188e74efddd2429982cb8e3efdf17df3
 msgid ":doc:`Manage your Project <management>`"
-msgstr ""
+msgstr ":doc:`Gérer votre projet <management>`"
 
 #: ../../project/index.rst:17 188fe017e9ca4146831a35ab7bc1c799
 msgid "The Project section provides an overview of how to create and manage an institution in Collect Earth Online. You can learn about how to create your account, collect data, and create your own projects in other sections of this documentation. Navigate to these sections using the links at the top of the page."
-msgstr ""
+msgstr "La section Projet donne un aperçu de la façon de créer et de gérer une institution dans Collect Earth Online. Vous pouvez apprendre comment créer votre compte, collecter des données et créer vos propres projets dans d'autres sections de cette documentation. Naviguez vers ces sections en utilisant les liens en haut de la page."
 
 #: ../../project/index.rst:19 c8b264ae4be748a3b8f6a57fd604d709
 msgid "Navigate to the other areas of this section by selecting links under **Section navigation** to the left."

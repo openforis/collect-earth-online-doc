@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-02-17 01:32\n"
+"PO-Revision-Date: 2025-01-30 21:53\n"
 "Last-Translator: \n"
 "Language: fr\n"
 "Language-Team: French\n"
@@ -20,29 +20,29 @@ msgstr ""
 
 #: ../../project/reviewproject.rst:2 0906a3055dc1476393b38ff809e3d9fe
 msgid "Reviewing Projects"
-msgstr ""
+msgstr "Verification du Projet"
 
 #: ../../project/reviewproject.rst:4 46673c56ebec4322a0dca5cbaef4ec21
 msgid "Once the project set up is complete, click on **[Review]** in the bottom right-hand corner."
-msgstr ""
+msgstr "Une fois la configuration du projet terminée, cliquez sur **[Review]** dans le coin inférieur droit."
 
 #: ../../project/reviewproject.rst:6 1b4e5a953b434af9b0cbd9c28af77ab7
 msgid "You will now see an overview of your project details."
-msgstr ""
+msgstr "Vous verrez maintenant un aperçu des détails de votre projet."
 
 #: ../../project/reviewproject.rst:8 116ace48e4f8496d8261412236dd77d3
 msgid "Scroll through to check that everything is correct. If everything is correct, click **[Create Project]**. You will need to accept CEO’s terms and conditions."
-msgstr ""
+msgstr "Faites défiler pour vérifier que tout est correct. Si tout est correct, cliquez sur **[Créer un projet]**. Vous devrez accepter les conditions générales du CEO."
 
 #: ../../project/reviewproject.rst:10 43ee10b8f06140bc95afa1e8dce7e1e1
 msgid "If you notice a mistake, click **[Continue Editing]** to fix it."
-msgstr ""
+msgstr "Si vous remarquez une erreur, cliquez sur **[Continuer l'édition]** pour la réparer."
 
 #: ../../project/reviewproject.rst:12 7176358155404709bfa8bd6fc3e3309d
 msgid "After you click **[Create Project]**, a pop-up window will ask ‘Do you REALLY want to create this project?’ Click **[OK]**."
-msgstr ""
+msgstr "Après avoir cliqué sur **[Créer un projet]**, une fenêtre pop-up demandera \"Voulez-vous vraiment créer ce projet?\" Cliquez sur **[OK]**."
 
 #: ../../project/reviewproject.rst:19 1c52ac82b86e4a17b4a9c4956aec5273
 msgid "After you create the project, you will be taken to the **Project Information** interface."
-msgstr ""
+msgstr "Après avoir créé le projet, vous serez dirigé vers l'interface **Informations sur le projet**."
 

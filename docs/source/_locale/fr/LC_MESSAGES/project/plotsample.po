@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-02-17 01:32\n"
+"PO-Revision-Date: 2025-01-30 21:53\n"
 "Last-Translator: \n"
 "Language: fr\n"
 "Language-Team: French\n"
@@ -20,83 +20,83 @@ msgstr ""
 
 #: ../../project/plotsample.rst:2 aaa65e52288e4266a216b5ed2cc008b2
 msgid "Plot Design"
-msgstr ""
+msgstr "Parcelle design"
 
 #: ../../project/plotsample.rst:5 4e97ca267d32422eb18c9d08d447c18d
 msgid "Plot Design Background"
-msgstr ""
+msgstr "Arrière-plan du parcelle design"
 
 #: ../../project/plotsample.rst:7 8650cdcebeda4ef19fdd25d76882e472
 msgid "A well-prepared plot and sample design can provide a robust estimate of the parameters of interest for the population (percent forest cover, for example). This is often the most important factor in producing a reliable inventory or accuracy assessment. The goal of a sample is to provide an unbiased estimate of some population measure (e.g. proportion of area), with the smallest variance possible, given constraints including resource availability."
-msgstr ""
+msgstr "Une parcelle bien préparée et la conception d'échantillons peuvent fournir une estimation robuste des paramètres d'intérêt pour la population (couverture forestière en pourcentage, par exemple). C'est souvent le facteur le plus important pour produire un inventaire fiable ou une évaluation de précision. L'objectif d'un échantillon est de fournir une estimation impartiale de certaines mesures démographiques (p. ex. proportion de zone), avec la variation la plus faible possible, étant donné les contraintes y compris la disponibilité des ressources."
 
 #: ../../project/plotsample.rst:9 50d718cee5a24e689e5fdb201436dfec
 msgid "The first step of the built in CEO sample design is the plot design. The second step is selecting samples within a plot. Using these two steps, many sampling designs are possible with CEO."
-msgstr ""
+msgstr "La première étape de la conception de l'échantillon du CEO est la conception de la parcelle. La deuxième étape consiste à sélectionner des échantillons dans une parcelle. En utilisant ces deux étapes, de nombreuses conceptions d'échantillonnage sont possibles avec le CEO."
 
 #: ../../project/plotsample.rst:11 c40387ee6ae34e7ebdc9968d18af6e83
 msgid "For example, suppose you are quantifying forest cover on a landscape. For this approach, sample points are used to classify land cover and are then summarized at the plot level to create an estimate of the plot’s forest cover percent. Information about plots can then be used to estimate the forest cover at the landscape level and detect patterns or trends. The accuracy of your landscape level estimates will depend on how many plots you classify & how variable the landscape is, among other factors. More detailed theoretical information is available in CEO’s Project Development Manual (found at https://collect.earth/downloads/CEO_Theoretical_Manual.pdf)."
-msgstr ""
+msgstr "Par exemple, supposons que vous quantifiez le couvert forestier sur un paysage. Pour cette approche, les points d'échantillonnage sont utilisés pour classer la couverture des terres et sont ensuite résumés au niveau de la parcelle afin de créer une estimation du pourcentage de couverture forestière du parc. Des informations sur les parcelles peuvent ensuite être utilisées pour estimer la couverture forestière au niveau du paysage et détecter les modèles ou tendances. La précision des estimations de votre niveau de paysage dépend du nombre de parcelles que vous classez et de la variable du paysage, entre autres facteurs. Des informations théoriques plus détaillées sont disponibles dans le Manuel de développement du projet du CEO (disponible à https://collect.earth/downloads/CEO_Theoretical_Manual.pdf)."
 
 #: ../../project/plotsample.rst:13 2bb2f3c4232e40abaa0fcf0d79859777
 msgid "Also, some terminology might help for the types of sampling available in CEO. **Simple random sampling** means that all points have an equal probability of being selected. It produces unbiased parameters. However geographic balance with small sample sizes can be difficult. Also, rare classes may not receive sufficient coverage. If you have rare classes you want to detect, we highly recommend using a **stratified random sampling** approach. Stratified random sampling is another type of probability sampling where the population is divided into different strata based on shared characteristics. For example, strata might be different land classes or geographic areas."
-msgstr ""
+msgstr "De plus, une certaine terminologie pourrait aider à déterminer les types d'échantillonnage disponibles dans le cadre du CEO. **Simple échantillonnage aléatoire** signifie que tous les points ont une probabilité égale d'être sélectionnés. Il produit des paramètres impartiaux. Cependant l'équilibre géographique avec de petites tailles d'échantillons peut être difficile. De plus, les classes rares peuvent ne pas recevoir une couverture suffisante. Si vous avez des classes rares que vous voulez détecter, nous vous recommandons fortement d'utiliser une approche d'échantillonnage aléatoire stratifiée. L'échantillonnage aléatoire Stratifié est un autre type d'échantillonnage de probabilité où la population est divisée en différentes strates en fonction de caractéristiques partagées. Par exemple, les strates peuvent être des catégories de terres ou des zones géographiques différentes."
 
 #: ../../project/plotsample.rst:15 6ebdff41192d4cb2845095161ffd2f43
 msgid "Another type of sampling is **systematic gridded sampling**. This is a grid of points placed over the landscape at regular intervals and is not probability sampling. This provides excellent geographic balance, but it is not possible to calculate unbiased estimates of population metric variance."
-msgstr ""
+msgstr "Un autre type d'échantillonnage est **l'échantillonnage systématique**. Il s'agit d'une grille de points placés sur le paysage à intervalles réguliers et n'est pas possible d'échantillonnage. Cela offre un excellent équilibre géographique, mais il n'est pas possible de calculer des estimations non biaisées de la variation démographique."
 
 #: ../../project/plotsample.rst:17 3ac71a2ca455446e97850157a15010e7
 msgid "There are two main approaches for specifying an area of interest (AOI) and sampling design: 1. using CEO’s built-in system and 2. Creating a sample in another program (QGIS, ArcGIS, etc.) and importing it into CEO. We will first discuss the built-in sampling design, and then discuss uploading your own sample as a .csv or .shp file."
-msgstr ""
+msgstr "Il existe deux approches principales pour spécifier un domaine d'intérêt (AOI) et la conception d'échantillonnage : 1. En utilisant le système intégré du CEO et 2. en créant un échantillon dans un autre programme (QGIS, ArcGIS, etc.). et de l’importer au CEO. Nous discuterons d'abord de la conception d'échantillonnage intégrée, puis nous discuterons du téléchargement de votre propre échantillon en tant que fichier .csv ou .shp."
 
 #: ../../project/plotsample.rst:20 72913e4491eb4bbb82de8ff37dfddfb5
 msgid "Plot Design: CEO’s built in system"
-msgstr ""
+msgstr "Parcelle Design: système intégré de CEO"
 
 #: ../../project/plotsample.rst:22 368d3fda2e4e4e55a4f114c7867061d3
 msgid "CEO’s built in system enables users to create sampling designs using an easy-to-use interface. There are two key parts, creating the AOI and Plot Generation. You only need to create an AOI if you are using CEO's built in system."
-msgstr ""
+msgstr "Le système intégré du CEO permet aux utilisateurs de créer des modèles d'échantillonnage à l'aide d'une interface facile à utiliser. Il y a deux éléments clés, créant l'AOI et la Génération de parcelles. Vous n'avez besoin de créer un AOI que si vous utilisez un système intégré de CEO."
 
 #: ../../project/plotsample.rst:24 12eaf23f939e419c93b85153a4ca4f35
 msgid "**Select your AOI.**"
-msgstr ""
+msgstr "**Sélectionnez votre AOI.**"
 
 #: ../../project/plotsample.rst:26 487ba0f8daf140abbaa8075b758262e5
 msgid "There are three approaches."
-msgstr ""
+msgstr "Il y a trois approches."
 
 #: ../../project/plotsample.rst:28 a47fdcc111444b669a93c35cd7b4e598
 msgid "The easiest way to select your project AOI is by drawing a box in the map window in the right hand pane (Collection Map Preview)."
-msgstr ""
+msgstr "La façon la plus simple de sélectionner votre projet AOI est de dessiner une case dans la fenêtre de carte dans le volet droit (Aperçu de la carte de collection)."
 
 #: ../../project/plotsample.rst:30 b24534088e564fea86fc9c1fce8a80bf
 msgid "Locate your area of interest by zooming in/out using the scroll wheel of your mouse, or the + and – boxes in the map window. You can pan the map by clicking on it and dragging the map window."
-msgstr ""
+msgstr "Repérez votre zone d'intérêt en zoomant à l'aide de la molette de votre souris ou des boîtes + et – dans la fenêtre de la carte. Vous pouvez balayer la carte en cliquant dessus et en faisant glisser la fenêtre de la carte."
 
 #: ../../project/plotsample.rst:31 4920fe91764c4834970428a0bfd1b6ad
 msgid "Hold the CRTL-key (command key on a Mac) down and draw a box while keeping the left mouse key pressed down."
-msgstr ""
+msgstr "Maintenez la touche CRTL-(touche de commande sur un Mac) enfoncée et dessinez une boîte tout en maintenant la touche gauche de la souris enfoncée."
 
 #: ../../project/plotsample.rst:32 0eb04f0358844d05a9eb59d18c8186d6
 msgid "Hold the SHIFT-key down and draw a box to zoom in."
-msgstr ""
+msgstr "Maintenez la touche SHIFT enfoncée et dessinez une boîte pour zoomer."
 
 #: ../../project/plotsample.rst:33 5c46de480c8f4ca0b91fba44f5c8edeb
 msgid "The coordinate boxes will populate once the box is drawn and you let your mouse key go. Coordinates are displayed in lat/long using **WGS84 EPSG:4326**."
-msgstr ""
+msgstr "Les cases de coordonnées seront remplies une fois que la case sera dessinée et que vous laisserez votre touche de souris. Les coordonnées sont affichées en lat/long en utilisant **WGS84 EPSG:4326**."
 
 #: ../../project/plotsample.rst:40 28390671d74c4375a1536882b44c13a2
 msgid "You can also manually enter your Boundary Coordinates into the boxes provided."
-msgstr ""
+msgstr "Vous pouvez également entrer manuellement les coordonnées de votre frontière dans les cases fournies."
 
 #: ../../project/plotsample.rst:47 62a14a94821848b49e84be064b579179
 msgid "The third approach is to upload a project boundary shapefile. To use this option, under **Boundary type** select Upload shp file. Then click on the **[Upload project boundary]** button. Navigate to your file, and click **[Open]**. Your shapefile should be a zipped folder containing requisite shapefile component pieces (SHP, SHX, DBF, and PRJ files). Once you click open, you should see the **File:** text populate with your file name and your project boundary appear in the Collection Map Preview pane."
-msgstr ""
+msgstr "La troisième approche est de télécharger un fichier de forme de limite de projet. Pour utiliser cette option, sous **Type de limite** sélectionnez Upload shp fichier. Puis cliquez sur le bouton **[Envoyer la frontière du projet]**. Naviguez vers votre fichier, et cliquez sur **[Open]**. Votre fichier shapefile doit être un dossier compressé contenant des pièces de composants de forme requise (SHP, SHX, DBF, et PRJ). Une fois que vous cliquez sur Ouvert, vous devriez voir le texte **File:** rempli avec le nom de votre fichier et la limite de votre projet apparaître dans le panneau Aperçu de la carte de collection."
 
 #: ../../project/plotsample.rst:56 506751544f4a47e5898382e590074dab
 msgid "Please note that if you have multi-part polygons each one will be assigned the number of plots indicated. This is indicated in the green text."
-msgstr ""
+msgstr "Veuillez noter que si vous avez des polygones multipartites, chacun d'entre eux sera assigné le nombre de parcelles indiquées."
 
 #: ../../project/plotsample.rst:60 8119799c63a642f099dc3957ba3a2816
 msgid "You can upload shapefiles with multiple shapes for stratified sampling (coming soon). Each strata will appear with its corresponding area in hectares. The number of plots will be **per strata**. This is indicated in the green text."
@@ -168,7 +168,7 @@ msgstr ""
 
 #: ../../project/plotsample.rst:101 6a8530d85b2443779ad12e8a6621b363
 msgid "Click **[Next]** when you are finished."
-msgstr ""
+msgstr "Cliquez sur **[Next]** lorsque vous avez fini."
 
 #: ../../project/plotsample.rst:104 733fb5df8baf42f3a3bd36a2b426b39b
 msgid "Sample Design: CEO’s built-in system"

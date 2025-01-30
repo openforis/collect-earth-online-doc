@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-02-17 01:32\n"
+"PO-Revision-Date: 2025-01-30 21:53\n"
 "Last-Translator: \n"
 "Language: fr\n"
 "Language-Team: French\n"
@@ -20,82 +20,82 @@ msgstr ""
 
 #: ../../project/qaqc.rst:3 83488bedd8f749f1b5bbac8d0a9a3385
 msgid "Plot Design—Quality Control Options"
-msgstr ""
+msgstr "Conception de tracé : Options de contrôle de la qualité"
 
 #: ../../project/qaqc.rst:5 7613936360a949ed9638014b7cd9ecb7
 msgid "**add csv column stuff**"
-msgstr ""
+msgstr "**Ajoute des éléments de colonne csv**"
 
 #: ../../project/qaqc.rst:7 1ae7a8ea779f4dba810951ff22c8c12c
 msgid "We have implemented automated quality assurance and quality control (QAQC) tools for projects created in CEO."
-msgstr ""
+msgstr "Nous avons mis en place des outils automatisés de contrôle de la qualité et de contrôle de la qualité (QAQC) pour des projets créés au sein du CEO."
 
 #: ../../project/qaqc.rst:10 f7a23a482fbd4c369ded9cc02fee7978
 msgid "User Assignment"
-msgstr ""
+msgstr "Assignation des utilisateurs"
 
 #: ../../project/qaqc.rst:12 2c011b98793343aeb815569c1d4d4d2d
 msgid "You can assign members of your institution to a specified proportion of the plots using the user assignment feature."
-msgstr ""
+msgstr "Vous pouvez assigner des membres de votre institution à une proportion déterminée des parcelles en utilisant la fonction d'affectation de l'utilisateur."
 
 #: ../../project/qaqc.rst:14 d8c6f30a1bf545f5a8460d36206c9874
 msgid "There are three options: **Equal assignments**, **Percentage of plots**, and **File**. The **File** option is only available if you are using a csv or shp file to specify your plot boundaries. It will be greyed out when using CEO's built in options."
-msgstr ""
+msgstr "Il y a trois options: **Affectations égales**, **Pourcentage de plots**, et **Fichier**. L'option **Fichier** n'est disponible que si vous utilisez un fichier csv ou shp pour spécifier les limites de votre trace. Il sera grisé lorsque vous utiliserez des options intégrées au CEO."
 
 #: ../../project/qaqc.rst:16 25e927a69630411bb9c6ef4aea6304bf
 msgid "**No assignments**: User assignments are not enabled by default."
-msgstr ""
+msgstr "**Aucune affectation**: Les affectations des utilisateurs ne sont pas activées par défaut."
 
 #: ../../project/qaqc.rst:17 4ad33300bbbb482ca9a39df4a41c9881
 msgid "**Equal assignments**: Splits the total number of plots evenly between users."
-msgstr ""
+msgstr "**Affectations égales** : divise le nombre total de parcelles équitablement entre les utilisateurs."
 
 #: ../../project/qaqc.rst:18 745f5dc1274c44cf86dadbd053768fab
 #, python-format
 msgid "**Percentage of plots**: Allows for uneven splits. For example, one user can be assigned 50% of the total plots while two other users can each be assigned 25% of the total plots."
-msgstr ""
+msgstr "**Pourcentage des plots**: Permet de diviser des inégalités. Par exemple, un utilisateur peut être assigné à 50% du total des parcelles tandis que deux autres utilisateurs peuvent chacun se voir assigner 25% du total des parcelles."
 
 #: ../../project/qaqc.rst:19 f5a429e5eaa54c6aaf8529c610efd292
 msgid "**File**: Allows the administrator to specify which user should collect data on each plot. When creating your file, you can add a column called 'user'. This column should contain the email address for the user you would like to review the plot."
-msgstr ""
+msgstr "**Fichier**: Permet à l'administrateur de spécifier quel utilisateur doit collecter des données sur chaque plot. Lors de la création de votre fichier, vous pouvez ajouter une colonne appelée 'utilisateur'. Cette colonne doit contenir l'adresse e-mail de l'utilisateur que vous souhaitez consulter le tracé."
 
 #: ../../project/qaqc.rst:27 a7d3e8d218454da4ad16c753c6f2b554
 msgid "Quality Modes"
-msgstr ""
+msgstr "Modes de qualité"
 
 #: ../../project/qaqc.rst:29 00f570e4c4e44610aed63dd2e847b278
 msgid "You can also implement quality control measures using one of the **Quality Modes**. This allows multiple users to collect data for the same plot for QA/QC purposes."
-msgstr ""
+msgstr "Vous pouvez également implémenter des mesures de contrôle de la qualité en utilisant l'un des **Modes de Qualité**. Cela permet à plusieurs utilisateurs de collecter des données pour le même tracé aux fins de QA/QC."
 
 #: ../../project/qaqc.rst:31 ce8740dbc4794c4a9f7f8ad1f26c16ce
 msgid "**None**: Quality control is not enabled by default."
-msgstr ""
+msgstr "**Aucun** : Le contrôle de qualité n'est pas activé par défaut."
 
 #: ../../project/qaqc.rst:32 54db8ad14e23432799331be2f384fc7a
 msgid "**Overlap**: A certain percentage of each users’ plots are reviewed by the other users."
-msgstr ""
+msgstr "**Chevauchement** : Un certain pourcentage des plots de chaque utilisateur sont revus par les autres utilisateurs."
 
 #: ../../project/qaqc.rst:33 a46f3545670d43578c47c749dcce88ab
 msgid "**Subject Matter Expert Verification (SME Verification**): A percentage of each users’ plots are reviewed by one or more SMEs. For example, the SME might be someone with deep knowledge of the local landscape, or a project administrator."
-msgstr ""
+msgstr "**Vérification par des experts en la matière (Vérification SME)** : Un pourcentage des parcelles de chaque utilisateur est examiné par un ou plusieurs experts en la matière. Par exemple, l'expert en la matière pourrait être quelqu'un ayant une connaissance approfondie du paysage local, ou un administrateur de projet."
 
 #: ../../project/qaqc.rst:34 f87dcc61c163492f8415ad4469e3b560
 msgid "**File**: Allows the administrator to manually specify additional user(s) to collect data on each plot. When creating your file, you can add a column called 'reviewers.' This column should contain the emails of users that will also be collecting data for the plot. This column accepts more than one email separated by a semi-colon (;)."
-msgstr ""
+msgstr "**Fichier**: Permet à l'administrateur de spécifier manuellement des utilisateurs supplémentaires pour collecter des données sur chaque parcelle. Lors de la création de votre fichier, vous pouvez ajouter une colonne appelée 'examinateurs'. Cette colonne devrait contenir les courriels des utilisateurs qui collecteront également des données pour le tracé. Cette colonne accepte plusieurs courriels séparés par un point-virgule (;)."
 
 #: ../../project/qaqc.rst:38 b8ab027fde4f44caa365dda5d6c03580
 msgid "The 'users' column can be used without the 'reviewers' column, but not the other way around. If the 'reviewers' column is not present in the file, then the QAQC will not automatically be set, allowing the project administrator to use the drop-down options."
-msgstr ""
+msgstr "La colonne « utilisateurs » peut être utilisée sans la colonne « examinateurs », mais pas l'inverse. Si la colonne 'examinateurs' n'est pas présente dans le fichier, alors le QAQC ne sera pas automatiquement défini. permettant à l'administrateur du projet d'utiliser les options du menu déroulant."
 
 #: ../../project/qaqc.rst:40 bfabbc9883214848b4ab688c3a51cf65
 msgid "Once a CSV containing these two new columns is uploaded, the project admin will not be able to change either the User Assignments nor the QAQC, as they will be locked. In order to unlock them, the project admin can remove these columns and reupload the file, or change the plot design method by selecting another type in the **Spatial Distribution** dropdown menu."
-msgstr ""
+msgstr "Une fois qu'un CSV contenant ces deux nouvelles colonnes est téléchargé, l'administrateur du projet ne sera pas en mesure de changer ni les affectations des utilisateurs, ni le QAQC, car ils seront verrouillés. Afin de les déverrouiller, l'administrateur du projet peut supprimer ces colonnes et télécharger à nouveau le fichier, ou modifiez la méthode de conception du tracé en sélectionnant un autre type dans le menu déroulant **Distribution Spatiale**."
 
 #: ../../project/qaqc.rst:53 d1f476a729234b40800bb17d85e27180
 msgid "When Quality Control is enabled, the project can no longer support User Drawn samples."
-msgstr ""
+msgstr "Lorsque le contrôle de qualité est activé, le projet ne peut plus prendre en charge les échantillons tirés par l'utilisateur."
 
 #: ../../project/qaqc.rst:55 2b0175bdd82e456f8d800099937cf76a
 msgid "When you implement Quality Control, you will be able to use the QAQC Administrator Review Mode. See :doc:`/project/reviewdata` for more information."
-msgstr ""
+msgstr "Lorsque vous implémentez le contrôle de qualité, vous serez en mesure d'utiliser le mode d'évaluation de l'administrateur QAQC. Voir :doc:`/project/reviewdata` pour plus d'informations."
 

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-10-29 01:12\n"
+"PO-Revision-Date: 2025-01-30 21:53\n"
 "Last-Translator: \n"
 "Language: fr\n"
 "Language-Team: French\n"
@@ -88,52 +88,52 @@ msgstr "Ajout de l'imagerie personnalisée de la basemap"
 
 #: ../../institution/imagery.rst:47 4acd9b5e9ca44ecd878837c7cac8bf67
 msgid "The built-in imagery is not sufficient as basemaps for some projects, including projects comparing land uses between two time periods, or projects that need imagery from specific dates or months. CEO allows institutions to add new imagery sources through their **Institution** page. This section discusses the different imagery types that can be added."
-msgstr ""
+msgstr "Les images intégrées ne sont pas suffisantes comme des basemaps pour certains projets, y compris les projets comparant l'utilisation des terres entre deux périodes de temps, ou les projets qui nécessitent des images à partir de dates ou de mois spécifiques. CEO permet aux institutions d'ajouter de nouvelles sources d'images à travers leur page **Institution**. Cette section présente les différents types d'images qui peuvent être ajoutés."
 
 #: ../../institution/imagery.rst:49 ac5253c00ae94b7d98dc808f61a2f0ba
 msgid "The instructions below assume you are starting on your :doc:`Institution page <create>` and are logged in as an Administrator for your Institution."
-msgstr ""
+msgstr "Les instructions ci-dessous supposent que vous commencez sur votre `page de l'institution :doc: <create>et que vous êtes connecté en tant qu'administrateur de votre institution."
 
 #: ../../institution/imagery.rst:51 9af94aea2b9b43f0a44669c9dc42df9a
 msgid "Under the **Imagery** panel on the **Institution** page, click **[Add New Imagery]**. Under **Select** Type you will see multiple different options. Some, including WMS Imagery and XYZ Imagery, are protocols that can be applied broadly, while other options connect to specific data sources that you generally need to subscribe to."
-msgstr ""
+msgstr "Dans le panneau **Imagerie** de la page **Institution**, cliquez sur **[Ajouter une nouvelle imagerie]**. Sous **Sélectionner** Type vous verrez plusieurs options différentes. Certains d'entre eux, y compris WMS Imagery et XYZ Imagery, sont des protocoles qui peuvent être appliqués de manière générale, tandis que d'autres options se connectent à des sources de données spécifiques auxquelles vous devez généralement vous abonner."
 
 #: ../../institution/imagery.rst:53 dc57a916222a4bb7b60c1f9db2f905c7
 msgid "For Bing Maps, Planet Monthly, Planet Daily, Planet NICFI, SecureWatch, and the MapBox products you will first need to locate your no-authentication API key. You will be asked to provide this key in the CEO imagery setup panel."
-msgstr ""
+msgstr "Pour Bing Maps, Planet Monthly, Planet Daily, Planet NICFI, SecureWatch, et les produits MapBox vous devrez d'abord localiser votre clé API sans authentification. On vous demandera de fournir cette clé dans le panneau de configuration de l'imagerie du PDG."
 
 #: ../../institution/imagery.rst:55 ae46e94d6ad24d63a45fd17484206d6d
 msgid "We will now talk about how to add imagery for each of these options."
-msgstr ""
+msgstr "Nous allons maintenant discuter de la façon d'ajouter des images pour chacune de ces options."
 
 #: ../../institution/imagery.rst:65 ../../institution/imagery.rst:366
 #: 9aaad94d31ae49659f62b80ef50806bc bc7657cf026047239de92ba1260dd915
 msgid "WMS Imagery"
-msgstr ""
+msgstr "Imagerie WMS"
 
 #: ../../institution/imagery.rst:67 bc41b71ab65b4cf0967366748bc8852a
 msgid "This option can be used to access data your Institution hosts or data services that use WMS or WTMS. Imagery must be accessible using WMS or WTMS. Images stored locally on a user's computer cannot be added to a CEO project, although they can be accessed if you upload them to a WMS or WTMS (as a basemap), or as a Google Earth Engine Asset (for Geo-Dash and/or basemap)."
-msgstr ""
+msgstr "Cette option peut être utilisée pour accéder aux données de vos hôtes institutionnels ou de vos services de données qui utilisent WMS ou WTMS. Les images doivent être accessibles en utilisant WMS ou WTMS. Les images stockées localement sur l'ordinateur d'un utilisateur ne peuvent pas être ajoutées à un projet CEO, bien qu'ils soient accessibles si vous les téléchargez dans un WMS ou WTMS (en tant que basemap), ou en tant qu'actif de Google Earth Engine (pour Geo-Dash et/ou Basemap)."
 
 #: ../../institution/imagery.rst:69 bd830b55db24455fbb36cd7b87b22454
 msgid "The information needed to set up the WMS server will differ based on the specific imagery you are."
-msgstr ""
+msgstr "Les informations nécessaires à la configuration du serveur WMS seront différentes en fonction des images spécifiques que vous êtes."
 
 #: ../../institution/imagery.rst:71 00aabf2976fd475bb8732a809cfa1da6
 msgid "The first step of preparing to connect to your WMS with CEO is checking that your WMS is compatible with CEO."
-msgstr ""
+msgstr "La première étape de la préparation à la connexion à votre WMS avec CEO est de vérifier que votre WMS est compatible avec CEO."
 
 #: ../../institution/imagery.rst:73 f4a65046fb98460bb0c4224a96353b30
 msgid "CEO requests data in EPSG:3857. Your WMS server is responsible for reprojecting the imagery it hosts into this requested projection."
-msgstr ""
+msgstr "CEO demande des données dans EPSG:3857. Votre serveur WMS est responsable de la reprojection de l'image qu'il héberge dans cette projection demandée."
 
 #: ../../institution/imagery.rst:74 66c34f891c474ab9a6631891e7030e0e
 msgid "CEO requires the servers to use the https protocol."
-msgstr ""
+msgstr "CEO requiert que les serveurs utilisent le protocole https."
 
 #: ../../institution/imagery.rst:76 2a2d62d05de94d479dba099bc1ae0373
 msgid "Second, to connect your web map service (WMS) to CEO, you need to gather three pieces of information: the base URL for your WMS, the layer name that you want, and any parameters your WMS requires to serve imagery."
-msgstr ""
+msgstr "Deuxièmement, pour connecter votre service de cartographie Web (WMS) au CEO, vous devez rassembler trois informations : l'URL de base de votre WMS, le nom de la couche que vous voulez, et tous les paramètres dont votre WMS a besoin pour servir l'imagerie."
 
 #: ../../institution/imagery.rst:78 ../../institution/imagery.rst:109
 #: ../../institution/imagery.rst:140 ../../institution/imagery.rst:162
@@ -150,31 +150,31 @@ msgstr ""
 #: e27769355ddc4f40ba54a350eeaf60b8 e528ccd3bfdf47dcab7e98e2c017c308
 #: f6966b2307a346aaa561042ca80fe78b fbf3bec4a5f64441b688aa0c64b7e132
 msgid "**Title:** This will be the displayed name of the imagery."
-msgstr ""
+msgstr "**Titre:** Ce sera le nom affiché de l'image."
 
 #: ../../institution/imagery.rst:79 7fc968fc06fe44cca5ee16218dfed9fc
 msgid "**Attribution**: This is the displayed attribution for your imagery. It will appear at the top of the map while users perform data collection tasks."
-msgstr ""
+msgstr "**Attribution** : Ceci est l'attribution affichée pour votre image. Elle apparaîtra en haut de la carte pendant que les utilisateurs effectuent des tâches de collecte de données."
 
 #: ../../institution/imagery.rst:80 da190a8ac90142bdb45fb35837e87c9b
 msgid "**URL**: This should be the URL of your WMS/WTMS. It should be preceeded by https://"
-msgstr ""
+msgstr "**URL** : Ceci doit être l'URL de votre WMS/WTMS. Il doit être précédé par https://"
 
 #: ../../institution/imagery.rst:81 101928d14f934487abeb2c82021f07b3
 msgid "**Layer Name**: This is the layer name from your server that you want to display."
-msgstr ""
+msgstr "**Nom de la couche** : C'est le nom de la couche que vous voulez afficher."
 
 #: ../../institution/imagery.rst:82 b56b0542ec094f04bdd66eb2827632eb
 msgid "**Params (as JSON object)**: If there are any parameters for the layer you want to specify, put them here as a JSON object. Documentation for the WMS getMapService is available online `here <https://docs.geoserver.org/stable/en/user/services/wms/reference.html#getmap>`__. These work only if they are parsed by the target WMS. Here are some examples::"
-msgstr ""
+msgstr "**Params (comme objet JSON)**: S'il y a des paramètres pour le calque que vous voulez spécifier, mettez-les ici en tant qu'objet JSON. La documentation pour le WMS getMapService est disponible en ligne `ici <https://docs.geoserver.org/stable/en/user/services/wms/reference.html#getmap>`__. Ils ne fonctionnent que s'ils sont analysés par le WMS cible. Voici quelques exemples ::"
 
 #: ../../institution/imagery.rst:90 53ce286362ce48dd86c6f57499051603
 msgid "Quotes **MUST BE** ASCII/neutral/vertical quotation marks. Using “” smart/typographic/curved quotation marks will cause errors. Use only Unicode U+0022 and U+0027."
-msgstr ""
+msgstr "Les guillemets **DOIVENT E** des guillemets ASCII/neutraux/verticaux. Utiliser « » des guillemets intelligents/typographiques/courbes provoquera des erreurs. Utilisez seulement Unicode U+0022 et U+0027."
 
 #: ../../institution/imagery.rst:92 517475bd935347718f9a3f5dc1755eaa
 msgid "If you need to proxy your imagery for your WMS, please check **Proxy Imagery**. You may need this option if you need to obfuscate a key for your WMS or WTMS."
-msgstr ""
+msgstr "Si vous avez besoin de proxy pour votre image WMS, veuillez vérifier **Imagerie Proxy**. Vous pouvez avoir besoin de cette option si vous avez besoin de masquer une clé pour votre WMS ou WTMS."
 
 #: ../../institution/imagery.rst:93 ../../institution/imagery.rst:143
 #: ../../institution/imagery.rst:166 ../../institution/imagery.rst:182
@@ -190,7 +190,7 @@ msgstr ""
 #: c2ee7e7cd79549e59cb211e6b9bb150a d22471ca59114d8a924bfcd5d3da0815
 #: e56ccf98a36e4313a10ae12786dfa38c f025e60c91da4123a9dadb2fe01844e6
 msgid "If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**"
-msgstr ""
+msgstr "Si vous voulez ajouter cette source d'images à tous les projets de votre institution, Cochez la case à côté de **Ajouter des images à tous les projets lors de la sauvegarde.**"
 
 #: ../../institution/imagery.rst:95 ../../institution/imagery.rst:124
 #: ../../institution/imagery.rst:144 ../../institution/imagery.rst:167
@@ -207,559 +207,559 @@ msgstr ""
 #: a76ffb68062541f7be550d9ec371ed07 b60b83bab1ae48a69fbe99df338bb11a
 #: b9902150647e48f7ac26ec2f2b43147e d43c42c9a1534c80a6085c20ac2554c6
 msgid "When all fields are filled out, click on **[Add New Imagery]**."
-msgstr ""
+msgstr "Lorsque tous les champs sont remplis, cliquez sur **[Ajouter une nouvelle imagerie]**."
 
 #: ../../institution/imagery.rst:102 6d1da50c0c9b4300a1d87c9aaf73ad9a
 msgid "If you are having trouble, we have posted an extensive how-to and troubleshooting guide on the CEO blog. You can view that guide here: https://collect.earth/blog/add-wms-to-ceo/."
-msgstr ""
+msgstr "Si vous rencontrez des problèmes, nous avons publié un guide détaillé sur le blog du CEO. Vous pouvez consulter ce guide ici : https://collect.earth/blog/add-wms-to-ceo/."
 
 #: ../../institution/imagery.rst:105 e32650dd26c643f9af96cf92ae393a3f
 msgid "XYZ Tiles"
-msgstr ""
+msgstr "Tuiles XYZ"
 
 #: ../../institution/imagery.rst:107 d620bb2330cf48c1880e7aa8d2278858
 msgid "XYZ Tiles is a flexible way of adding imagery. Services you can now add includes any of the adaptations of Open Street Maps, Yandex, and any other service using XYZ."
-msgstr ""
+msgstr "Les tuiles XYZ sont un moyen flexible d'ajouter des images. Les services que vous pouvez maintenant ajouter incluent l'une des adaptations d'Open Street Maps, Yandex, et tout autre service utilisant XYZ."
 
 #: ../../institution/imagery.rst:110 593b379e09e04fc7aa469c95199e664f
 msgid "**Attribution** for the XYZ Imagery. This will be shown to your users in the data collection pane."
-msgstr ""
+msgstr "**Attribution** pour l'Imagerie XYZ. Cela sera affiché à vos utilisateurs dans le panneau de collecte de données."
 
 #: ../../institution/imagery.rst:111 2200764773dd485a80fbb0ba255199b2
 msgid "Add the **XYZ URL**."
-msgstr ""
+msgstr "Ajoute la **URL XYZ**."
 
 #: ../../institution/imagery.rst:113 61155cebf862449c97615b4e5610727c
 msgid "By default, XYZ uses the widely-used Google grid, where (x,y) (0,0) are in the top left."
-msgstr ""
+msgstr "Par défaut, XYZ utilise la grille Google largement utilisée, où (x,y) (0,0) sont en haut à gauche."
 
 #: ../../institution/imagery.rst:114 abbb213fe6064b8ea761426e80ebe825
 #, python-format
 msgid "In general, it should have the format: <URL>?x={x}&y={y}&z={z} . For example, `https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z} <https://mt1.google.com/vt/lyrs=y&x=%7bx%7d&y=%7by%7d&z=%7bz%7d>`__"
-msgstr ""
+msgstr "En général, il devrait avoir le format <URL>?x={x}&y={y}&z={z} . Par exemple, `https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z} <https://mt1.google.com/vt/lyrs=y&x=%7bx%7d&y=%7by%7d&z=%7bz%7d>`__"
 
 #: ../../institution/imagery.rst:115 5f34fe20b6f741f88c8830a011ad0016
 msgid "You can also use grids where (x,y) (0,0) are in the bottom left. To do so, you will need to use the following format: <URL>?x={x}&y={-y}&z={z}"
-msgstr ""
+msgstr "Vous pouvez également utiliser des grilles où (x,y) (0,0) sont en bas à gauche. Pour cela, vous devrez utiliser le format suivant : <URL>?x={x}&y={-y}&z={z}"
 
 #: ../../institution/imagery.rst:119 913160ee03ee4eed8d020480d803c755
 #, python-format
 msgid "Sometimes you will need to edit a provided URL to make it compatible with CEO. For example, the Open Street Map WIKI provides the following URL for the German version of Open Street Maps: `https://a.tile.openstreetmap.de/${z}/${x}/${y}.png <https://a.tile.openstreetmap.de/$%7bz%7d/$%7bx%7d/$%7by%7d.png>`__. As provided this will not work. To make it work, you will need to delete the “a.” subdomain and the “$” characters."
-msgstr ""
+msgstr "Parfois, vous devrez modifier une URL fournie pour la rendre compatible avec CEO. Par exemple, l'Open Street Map WIKI fournit l'URL suivante pour la version allemande d'Open Street Maps: `https://a. ile.openstreetmap.de/${z}/${x}/${y}.png <https://a.tile.openstreetmap.de/$%7bz%7d/$%7bx%7d/$%7by%7d.png>`__. Cela ne fonctionnera pas. Pour que cela fonctionne, vous devrez supprimer le sous-domaine « A » et les caractères « $ »."
 
 #: ../../institution/imagery.rst:121 66ff945fad97431eaa8023b54207837b
 #, python-format
 msgid "The edited URL does work in CEO: `https://tile.openstreetmap.de/{z}/{x}/{y}.png <https://tile.openstreetmap.de/%7bz%7d/%7bx%7d/%7by%7d.png>`__"
-msgstr ""
+msgstr "L'URL éditée fonctionne en CEO: `https://tile.openstreetmap.de/{z}/{x}/{y}.png <https://tile.openstreetmap.de/%7bz%7d/%7bx%7d/%7by%7d.png>`__"
 
 #: ../../institution/imagery.rst:123 f23c9ce3694d48b18043ea2898d19e6b
 msgid "If you want to add this imagery source to all your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**"
-msgstr ""
+msgstr "Si vous voulez ajouter cette source d'images à tous les projets de votre institution, Cochez la case à côté de **Ajouter des images à tous les projets lors de la sauvegarde.**"
 
 #: ../../institution/imagery.rst:132 2ead215be6914d65a983bea4019af945
 msgid "Bing Maps"
-msgstr ""
+msgstr "Bing Maps"
 
 #: ../../institution/imagery.rst:134 46ba42320e5348fa84a533646b250ecd
 msgid "This imagery option allows you to add Bing Maps with your own API key. The Bing tile system uses the Mercator projection and has 23 levels of zoom (though not all levels are available in all locations). Commonly, the resolution at max zoom is about 0.3 m per pixel. For more information, see  https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system."
-msgstr ""
+msgstr "Cette option d'imagerie vous permet d'ajouter des cartes Bing avec votre propre clé API. Le système de tuiles Bing utilise la projection Mercator et possède 23 niveaux de zoom (bien que tous les niveaux ne soient pas disponibles dans tous les endroits). Généralement, la résolution au zoom max est d'environ 0,3 m par pixel. Pour plus d'informations, voir https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system."
 
 #: ../../institution/imagery.rst:138 d7fbd7a9c5f84c56bf690ed8ae1bc9c8
 msgid "*The imagery provided by Bing Maps is composite satellite imagery. This means that each map tile is stitched together from imagery acquired on multiple dates. There is not a single date for an imagery tile*. Some map tiles contain imagery collected over a  multi-day window while other tiles contain imagery collected over a multi-year window. As there is not a single date for an imagery tile, CEO cannot provide the exact date of the imagery used. If you're interested in learning more, the Bing Maps API can be found here:  https://docs.microsoft.com/en-us/bingmaps/rest-services/imagery/imagery-metadata."
-msgstr ""
+msgstr "*Les images fournies par Bing Maps sont des images composites par satellite, ce qui signifie que chaque tuile de la carte est cousue ensemble à partir d'imagerie acquise à plusieurs dates. Il n'y a pas une seule date pour une tuile d'imagerie*. Certaines tuiles de la carte contiennent des images collectées sur une fenêtre de plusieurs jours, tandis que d'autres tuiles contiennent des images collectées sur une fenêtre de plusieurs années. Comme il n'y a pas une seule date pour une tuile d'imagerie, CEO ne peut pas fournir la date exacte de l'imagerie utilisée. Si vous souhaitez en savoir plus, l'API Bing Maps est disponible ici : https://docs.microsoft.com/en-us/bingmaps/rest-services/imagery/imagery-metadata."
 
 #: ../../institution/imagery.rst:141 1f653fe9829b46589331daa58eb0de8a
 msgid "**Imagery Id:** Only Aerial and AerialWithLabels are currently implemented. Note that the AerialWithLabels imagery uses the legacy static tile service, which is deprecated, and current data will not be refreshed. It therefore may have older imagery than the Bing Aerial dataset."
-msgstr ""
+msgstr "**Identification de l'imagerie :** Seuls les labels Aerial et AerialWithLabels sont actuellement implémentés. Notez que l'imagerie AerialWithLabels utilise le service de tuiles statiques, qui est obsolète, et les données actuelles ne seront pas actualisées. Il peut donc avoir des images plus anciennes que le jeu de données Bing Aerial ."
 
 #: ../../institution/imagery.rst:142 8cf2ee0fd41241efb905f7e684cacf97
 msgid "**Access Token:** Your BingMaps key. For more information or to obtain your own key, see https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key."
-msgstr ""
+msgstr "**Jeton d'Accès :** Votre clé BingMaps. Pour plus d'informations ou pour obtenir votre propre clé, consultez https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key."
 
 #: ../../institution/imagery.rst:146 4b5b82b2606849e0ab040b9729b74bdc
 msgid "**Directions for requesting a Bing maps key:**"
-msgstr ""
+msgstr "**Itinéraires pour demander une clé de Bing maps:**"
 
 #: ../../institution/imagery.rst:148 2f60a30fc1b94a2aba27699e7cfa1d03
 msgid "To use Bing Maps imagery for your projects, you can create your own FREE Bing maps key to connect your institution's projects to your Bing Maps account. The full directions for creating a key are here: https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key."
-msgstr ""
+msgstr "Utiliser les images de Bing Maps pour vos projets, vous pouvez créer votre propre clé de cartes Bing GRATUITE pour connecter les projets de votre institution à votre compte Bing Maps. Les instructions complètes pour créer une clé sont ici : https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key."
 
 #: ../../institution/imagery.rst:149 cf710dd8cdb1446cad5ed6542e0eaea2
 msgid "Visit https://www.bingmapsportal.com/ to request a Bing key or copy your existing key."
-msgstr ""
+msgstr "Visitez https://www.bingmapsportal.com/ pour demander une clé Bing ou copier votre clé existante."
 
 #: ../../institution/imagery.rst:150 fc9bb385d3f443b3a6c0cdf4e2b2b5fe
 msgid "Sign in. You will need a Bing maps account or Microsoft account  (https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/creating-a-bing-maps-account)"
-msgstr ""
+msgstr "Connexion. Vous aurez besoin d'un compte Bing maps ou d'un compte Microsoft (https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/creating-a-bing-maps-account)"
 
 #: ../../institution/imagery.rst:151 7db1f8c7a8fb476dbef47dd15a4b332e
 msgid "Once you have logged in, click on **My account**, then click on **My Keys**."
-msgstr ""
+msgstr "Une fois connecté, cliquez sur **Mon compte**, puis cliquez sur **Mes clés**."
 
 #: ../../institution/imagery.rst:152 61b3aa60f27b4f4c9c77157b063068d5
 msgid "If you already have a key, click **Show key** or **Copy key**."
-msgstr ""
+msgstr "Si vous avez déjà une clé, cliquez sur **Afficher la clé** ou **Copier la clé**."
 
 #: ../../institution/imagery.rst:153 fe828db1b26447de845d7488b62e2932
 msgid "If you do not have a key, click on **Click here to create a new key**."
-msgstr ""
+msgstr "Si vous n'avez pas de clé, cliquez sur **Cliquez ici pour créer une nouvelle clé**."
 
 #: ../../institution/imagery.rst:154 e7860f736cdd4a5c9025ff8e9df740fd
 msgid "Fill out the information. Application URL is optional, but if you do use it, use https://app.collect.earth as your Application URL"
-msgstr ""
+msgstr "Remplissez les informations. L'URL de l'application est facultative, mais si vous l'utilisez, utilisez https://app.collect.earth comme URL de votre application"
 
 #: ../../institution/imagery.rst:155 f8463cc59e424b8e8414309b1cd78538
 msgid "You will create a **Basic** key. If you need more imagery, you will need to talk to Microsoft and request an **Enterprise key** (https://www.microsoft.com/en-us/maps/create-a-bing-maps-key#enterprise)."
-msgstr ""
+msgstr "Tu vas créer une clé **Basique**. Si tu as besoin de plus d'images, tu devras parler à Microsoft et demander une **clé d'entreprise** (https://www.microsoft.com/en-us/maps/create-a-bing-maps-key#enterprise)."
 
 #: ../../institution/imagery.rst:158 145843687ae643c0be523cb87f7545b2
 msgid "Planet Monthly"
-msgstr ""
+msgstr "Planète Mensuelle"
 
 #: ../../institution/imagery.rst:160 183214b0d69c44cd8aaa2134afc540e1
 msgid "Planet offers multiple data products (product specification here: https://support.planet.com/hc/en-us/articles/360022233473-Planet-Imagery-Product-Specifications). This option pulls from the Planet Monthly mosaic product, which allows you to display imagery from a specific month. User help is available here: https://developers.planet.com/docs/apps/explorer/."
-msgstr ""
+msgstr "Planet propose plusieurs produits de données (spécification de produit ici: https://support.planet.com/hc/en-us/articles/360022233473-Planet-Imagery-Product-Specifications). Cette option tire du produit de mosaïque Planet Monthly, qui vous permet d'afficher des images depuis un mois spécifique. L'aide utilisateur est disponible ici : https://developers.planet.com/docs/apps/explorer/."
 
 #: ../../institution/imagery.rst:163 ../../institution/imagery.rst:219
 #: ../../institution/imagery.rst:233 19a13184a0144cadb2a55e24c2052183
 #: 31d031165ea044c1ba0958f41c4d4ff4 50fa3d22d6fd4377be584cd91bdaac63
 msgid "**Default Year**: The default year that will be displayed when the map loads."
-msgstr ""
+msgstr "**Année par défaut**: L'année par défaut qui sera affichée lorsque la carte se chargera."
 
 #: ../../institution/imagery.rst:164 ../../institution/imagery.rst:220
 #: ../../institution/imagery.rst:234 2adefb580ad64ca28e73206c188b98e8
 #: e9751cf2d18f4b3aa27500be12855f7f fb7c95ab18ce484591c64c90e09fc807
 msgid "**Default Month**: The default month that will be displayed when the map loads. Use integer format 1-12."
-msgstr ""
+msgstr "**Mois par défaut**: Le mois par défaut qui sera affiché lors du chargement de la carte. Utilisez le format entier 1-12."
 
 #: ../../institution/imagery.rst:165 2831415b03454f96ba84454d980bf8b7
 msgid "**Access Token**: Your Planet access token. This can be accessed through your My Account page on the Planet website."
-msgstr ""
+msgstr "**Jeton d'Accès** : Jeton d'accès à votre Planète. Ce jeton est accessible depuis votre page Mon Compte sur le site Web de la Planète."
 
 #: ../../institution/imagery.rst:171 f73b0037c0cc471b9ec98c0bcf6f53bb
 msgid "Default Year & Default Month will let you put in any integer, positive or negative. The up and down arrow keys start at 0. Please type year in the YYYY format and month as an integer between 1-12."
-msgstr ""
+msgstr "Année par défaut et mois par défaut vous permettront de mettre tout entier, positif ou négatif. Les touches fléchées vers le haut et vers le bas commencent à 0. Veuillez taper l'année au format AAAA et le mois comme un entier entre 1-12."
 
 #: ../../institution/imagery.rst:174 60efbde9789d415e96db39889053db99
 msgid "PlanetDaily"
-msgstr ""
+msgstr "PlanetDaily"
 
 #: ../../institution/imagery.rst:176 7c6e12c432924902818d98a2411364c0
 msgid "PlanetDaily is another imagery product available from Planet. It allows users to detect land use and land cover change in near real time. This data source allows you to select a start and end date, with up to daily imagery resolution. Your study area might not have full coverage every day."
-msgstr ""
+msgstr "PlanetDaily est un autre produit d'imagerie disponible sur Planet. Il permet aux utilisateurs de détecter l'utilisation des terres et les changements de couverture terrestre en temps quasi réel. Cette source de données vous permet de sélectionner une date de début et de fin avec une résolution maximale de l'imagerie quotidienne. Il se peut que votre zone d'étude ne soit pas entièrement couverte tous les jours."
 
 #: ../../institution/imagery.rst:179 b12d53d6eb8e4f25afdaa28175c7cbca
 msgid "**Access Token:** Your PlanetDaily API key. This can be accessed through your My Account page on the Planet website."
-msgstr ""
+msgstr "**Jeton d'Accès :** Votre clé d'API PlanetDaily qui est accessible depuis votre page Mon Compte sur le site de Planète."
 
 #: ../../institution/imagery.rst:180 ../../institution/imagery.rst:208
 #: 1921bf12814c496eac6bedb3d707aa3b 436aa817665f4165b5c9817c205e8b60
 msgid "**Start Date:** Starting date for the imagery you are interested in; you can input the date using numeric keys or with the calendar widget on the right side."
-msgstr ""
+msgstr "**Date de début :** Date de début de l'image qui vous intéresse; vous pouvez entrer la date en utilisant des clés numériques ou avec le widget calendrier sur le côté droit."
 
 #: ../../institution/imagery.rst:181 ../../institution/imagery.rst:209
 #: 71f0f0fe55f9428f8df14fab1c6f96e0 ea4b3a6b3d3d4fff9abedaabf903d543
 msgid "**End Date:** Ending date for the imagery you are interested in."
-msgstr ""
+msgstr "**Date de fin :** Date de fin de l'image qui vous intéresse."
 
 #: ../../institution/imagery.rst:186 587652039f4e4d0983d900e0115066e1
 msgid "Planet NICFI"
-msgstr ""
+msgstr "Planet NICFI"
 
 #: ../../institution/imagery.rst:188 fabbd5d22c3140cdb8ccb6aa4f7cf0af
 msgid "This allows you to add your own Planet NICFI key, instead of using CEO's."
-msgstr ""
+msgstr "Cela vous permet d'ajouter votre propre clé Planet NICFI au lieu d'utiliser CEO."
 
 #: ../../institution/imagery.rst:192 7948702bb7074dcfb7f2ab90d85c5b95
 msgid "You will need an account from the Planet NICFI program: https://www.planet.com/nicfi/. This is separate from your 'normal' Planet account."
-msgstr ""
+msgstr "Vous aurez besoin d'un compte dans le programme Planet NICFI : https://www.planet.com/nicfi/. Ceci est distinct de votre compte Planet 'normal'."
 
 #: ../../institution/imagery.rst:195 fee9a6c1e4cf4d00bafe19c534baf053
 msgid "**Access Token:** Your Planet NICFI API key. This can be accessed through your My Account page on the Planet website."
-msgstr ""
+msgstr "**Jeton d'Accès :** Votre clé API Planet NICFI. Vous pouvez y accéder depuis votre page Mon Compte sur le site de Planet."
 
 #: ../../institution/imagery.rst:196 b4db02ec44d4465a9b4bb339be8eeda1
 msgid "**Default Time:** Choose the default time period of imagery to display. Note that the time periods available from NICFI are actively being changed. THESE ARE SUBJECT TO CHANGE BASED ON PLANET AND NICFI's DECISIONS."
-msgstr ""
+msgstr "**Heure par défaut :** Choisissez la période par défaut de l'image à afficher. Notez que les périodes de temps disponibles de NICFI sont en cours de modification active. CES SONT SUJETS DE CHANGER BASÉS SUR PLANET ET LES DÉCISIONS DE NICFI."
 
 #: ../../institution/imagery.rst:197 b7bd58ffca4f412fa11234004fe4a7d8
 msgid "**Default Band**: Choice between Visible (RGB) and Infrared false color."
-msgstr ""
+msgstr "**Bande par défaut**: Choix entre la couleur visible (RGB) et la couleur fausse infrarouge."
 
 #: ../../institution/imagery.rst:202 b962dc26db8b48589729fa1b93c48232
 msgid "SecureWatch Imagery"
-msgstr ""
+msgstr "Imagerie SecureWatch"
 
 #: ../../institution/imagery.rst:204 8b82237682354db6a0ee1a60f921cc8d
 msgid "SecureWatch is a service from Maxar focused on monitoring for new land use/land cover changes and comparing current land use/land cover with over 20 years of historic images. For more information see: https://www.digitalglobe.com/products/securewatch."
-msgstr ""
+msgstr "SecureWatch est un service de Maxar axé sur la surveillance des changements de couverture des terres et de l'utilisation des terres et la comparaison de la couverture actuelle des terres avec plus de 20 ans d'images historiques. Pour plus d'informations, voir : https://www.digitalglobe.com/products/securewatch."
 
 #: ../../institution/imagery.rst:207 89d2f1a4ab9f46d5afc7f16bb1d99f1a
 msgid "**Connect ID:** This is your API key. You need to use a no-auth key here, which should be a string of letters and numbers separated by dashes."
-msgstr ""
+msgstr "**ID de connexion:** Ceci est votre clé API. Vous devez utiliser une clé no-auth ici, qui devrait être une chaîne de lettres et de chiffres séparés par des tirets."
 
 #: ../../institution/imagery.rst:214 92a813adad1b44969423b2da00543f4f
 msgid "Sentinel 1 Imagery"
-msgstr ""
+msgstr "Imagerie de la Sentinel 1"
 
 #: ../../institution/imagery.rst:216 6e3008dc12df4d57a224defbcf4a1cf8
 msgid "Sentinel 1 information is only available from April 2014 to present (Sentinel 1A launch). Sentinel data is available in CEO through GEE. If multiple images are available for the region and dates selected, the median reducer is used to produce a single image."
-msgstr ""
+msgstr "Les informations de la Sentinel 1 ne sont disponibles qu'à partir d'avril 2014 (lancement de la Sentinel). Si plusieurs images sont disponibles pour la région et les dates sélectionnées, le réducteur médian est utilisé pour produire une seule image."
 
 #: ../../institution/imagery.rst:221 b081e8ffb87a49e98301d9d991f92fd8
 msgid "**Band Combination**: Preset combinations of bands for most uses. VH and VV are single polarization, VH/VV and HH/HV are dual polarization. More info https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar/acquisition-modes."
-msgstr ""
+msgstr "**Combinaison de bandes** : Les combinaisons de bandes prédéfinies pour la plupart des usages. VH et VV sont une polarisation simple, VH/VV et HH/HV sont deux polarisations. Plus d'infos https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar/acquisition-modes."
 
 #: ../../institution/imagery.rst:222 1ad1e3fd71e4484698530a0a506d2664
 msgid "**Min:** Minimum value for bands that will get mapped to 0 for visualization. This can be one value for all bands, or a value for each of the three bands. This should be one number. Acceptable values for each band's minimum are the same as for Sentinel imagery available through GEE generally; see https://developers.google.com/earth-engine/datasets/catalog/sentinel\\ *.* Min can be as low as -50, but 0 is frequently used."
-msgstr ""
+msgstr "**Min:** Valeur minimale pour les bandes qui seront mappées à 0 pour la visualisation. Ceci peut être une valeur pour toutes les bandes, ou une valeur pour chacune des trois bandes. Cela doit être un nombre. Les valeurs acceptables pour le minimum de chaque groupe sont les mêmes que pour les images de sentinelle disponibles par GEE en général ; voir https://developers. oogle.com/earth-engine/datasets/catalog/sentinel\\ *.* Min peut être aussi bas que -50, mais 0 est fréquemment utilisé."
 
 #: ../../institution/imagery.rst:223 4eefeb34ee724954844a7e066ab3cdba
 msgid "**Max:** Maximum value for bands that will get mapped to 255 for visualization. This can be one value for all bands, or a value for each of the three bands. This should be one number. Acceptable values for each band's maximum are the same as for Sentinel imagery available through GEE generally. See link above. Max can be as high as 1, but .3 is frequently used."
-msgstr ""
+msgstr "**Max:** Valeur maximale pour les bandes qui seront mappées à 255 pour la visualisation. Ceci peut être une valeur pour toutes les bandes, ou une valeur pour chacune des trois bandes. Cela doit être un nombre. Les valeurs acceptables pour le maximum de chaque groupe sont les mêmes que pour les images de sentinelle disponibles par GEE en général. Voir le lien ci-dessus. Max peut être aussi élevé que 1, mais .3 est fréquemment utilisé."
 
 #: ../../institution/imagery.rst:228 7c2d30c9c6bf43adab4dd43332cb963a
 msgid "Sentinel 2 Imagery"
-msgstr ""
+msgstr "Imagerie de la Sentinel 2"
 
 #: ../../institution/imagery.rst:230 a196492301204261bc4dcb9b98bdffb1
 msgid "Sentinel 2 imagery is available from June 2015-present. Sentinel 2 imagery is displayed in CEO from GEE. If multiple images are available for the region and dates selected, the median reducer is used to produce a single image."
-msgstr ""
+msgstr "Les images de la Sentinel 2 sont disponibles à partir de juin 2015. Les images de la Sentinel 2 sont affichées dans CEO de GEE. Si plusieurs images sont disponibles pour la région et les dates sélectionnées, le réducteur de médiane est utilisé pour produire une seule image."
 
 #: ../../institution/imagery.rst:235 c080101471ec410680c467ff0a323b36
 msgid "**Band Combination**: Select one of the options available, including True Color, False Color Infrared, False Color Urban, Agriculture, Healthy Vegetation, and Short Wave Infrared."
-msgstr ""
+msgstr "**Combinaison de bandes** : Sélectionnez l'une des options disponibles, y compris True Color, False Color Infrared, False Color Urban, Agriculture, Végétation saine et Short Wave Infrared."
 
 #: ../../institution/imagery.rst:237 f46f6b02ac67489f86710d2bee9c8119
 msgid "**True Color**: The True color band combination uses the red (B4), green (B3), and blue (B2) channels. Its purpose is to display imagery the same way our eyes see the world. Just like how we see, healthy vegetation is green, urban features often appear white and grey and water is a shade of dark blue depending on how clean it is."
-msgstr ""
+msgstr "**True Color**: La combinaison True color utilise les canaux rouge (B4), vert (B3), et bleu (B2). Son but est d’afficher des images de la même manière que nos yeux voient le monde. Comme nous le voyons, la végétation saine est verte, les traits urbains apparaissent souvent blancs et gris, et l'eau est une nuance de bleu foncé selon sa propreté."
 
 #: ../../institution/imagery.rst:238 d103134a3bd742709d8e9bad198201b0
 msgid "**False Color**: The False-color infrared band combination is meant to emphasize healthy and unhealthy vegetation. By using the near-infrared (B8) band, it's especially good at reflecting chlorophyll. It is most commonly used to assess plant density and health, as plants reflect near-infrared and green light while absorbing red. Since they reflect more near-infrared than green, plant-covered land appears deep red. Denser plant growth is darker red. Cities and exposed ground are gray or tan, and water appears blue or black."
-msgstr ""
+msgstr "**False Color**: La combinaison de bandes infrarouges de couleur False a pour but de mettre l'accent sur une végétation saine et malsaine. En utilisant la bande presque infrarouge (B8), il est particulièrement efficace pour refléter le chlorophyll. Il est le plus souvent utilisé pour évaluer la densité et la santé des plantes, car les plantes reflètent la lumière presque infrarouge et verte tout en absorbant le rouge. Comme elles reflètent plus près de l'infrarouge que du vert, les terres couvertes de plantes semblent très rouges. La croissance de la plante du denseur est plus foncée : les villes et le sol exposé sont gris ou bronzés, et l'eau apparaît bleue ou noire."
 
 #: ../../institution/imagery.rst:239 db26f73ef70f407989306e20e9038a0b
 msgid "**False Color Urban**: The false color urban band combination uses SWIR (B12), near-infrared (B8), and blue (B2). This composite is used to visualize urbanized areas more clearly. Vegetation is visible in shades of green, while urbanized areas are represented by white, grey, or purple. Soils, sand, and minerals are shown in a variety of colors."
-msgstr ""
+msgstr "**False Color Urban**: La combinaison de la bande urbaine fausse couleur utilise SWIR (B12), presque infrarouge (B8), et bleu (B2). Ce composite est utilisé pour visualiser plus clairement les zones urbanisées. La végétation est visible dans les nuances de vert, tandis que les zones urbanisées sont représentées par le blanc, le gris ou le violet. Les sols, le sable et les minéraux sont présentés dans une variété de couleurs."
 
 #: ../../institution/imagery.rst:240 6a3dc68beb3f46438359b59d00216d00
 msgid "**Agriculture:** The agriculture band combination uses SWIR-1 (B11), near-infrared (B8), and blue (B2). It's mostly used to monitor the health of crops because of how it uses short-wave and near-infrared. Both these bands are particularly good at  highlighting dense vegetation that appears as dark green."
-msgstr ""
+msgstr "**Agriculture:** La combinaison de bandes agricoles utilise SWIR-1 (B11), presque infrarouge (B8), et bleue (B2). Il est principalement utilisé pour surveiller la santé des cultures en raison de la façon dont il utilise les ondes courtes et presque infrarouges. Ces deux bandes sont particulièrement bonnes pour mettre en valeur la végétation dense qui apparaît comme vert foncé."
 
 #: ../../institution/imagery.rst:241 89f4301fe024479585dc7c25d9a823b1
 msgid "**Healthy Vegetation:** Because near-infrared (which vegetation strongly reflects) and red light (which vegetation absorbs), the vegetation index is good for quantifying the amount of vegetation. The formula for the normalized difference vegetation index is (B8-B4)/(B8+B4). While high values suggest dense canopy, low or negative values indicate urban and water features."
-msgstr ""
+msgstr "**Végétation saine:** Parce que la végétation est presque infrarouge (laquelle réfléchit fortement) et que la lumière rouge (qui absorbe la végétation), l’indice de la végétation est bon pour quantifier la quantité de végétation. La formule de l'indice de végétation de la différence normalisée est (B8-B4)/(B8+B4). Bien que les valeurs élevées suggèrent une canopie dense, des valeurs basses ou négatives indiquent des caractéristiques urbaines et de l'eau."
 
 #: ../../institution/imagery.rst:242 fa956180d4b74a87bd4cf0405360daee
 msgid "**Short-wave Infrared:** The short-wave infrared band combination uses SWIR (B12), NIR (B8A), and red (B4). This can help to estimate how much water is present in plants and soil, as water reflects SWIR wavelengths. Shortwave-infrared bands are also useful for distinguishing between cloud types (water clouds versus ice clouds), snow and ice, all of which appear white in visible light."
-msgstr ""
+msgstr "**Short-wave Infrared :** La bande infrarouge à ondes courtes utilise SWIR (B12), NIR (B8A), et rouge (B4). Cela peut aider à estimer la quantité d’eau présente dans les plantes et les sols, car l’eau reflète les longueurs d’onde SWIR. Les bandes infrarouges courtes sont également utiles pour distinguer les types de nuages (nuages d'eau par rapport aux nuages de glace), neige et glace, qui apparaissent tous blancs dans la lumière visible."
 
 #: ../../institution/imagery.rst:244 d8362b16acc74683b97f6f46dba7303f
 msgid "**Min:** Minimum value for bands that will get mapped to 0 for visualization. This can be one value for all bands, or a value for each of the three bands. This should be a single number. Acceptable values for each band's minimum are the same as for Sentinel imagery available through GEE generally; see https://developers.google.com/earth-engine/datasets/catalog/sentinel For example, 0 could be used."
-msgstr ""
+msgstr "**Min:** Valeur minimale pour les bandes qui seront mappées à 0 pour la visualisation. Ceci peut être une valeur pour toutes les bandes, ou une valeur pour chacune des trois bandes. Cela doit être un nombre simple. Les valeurs acceptables pour le minimum de chaque groupe sont les mêmes que pour les images de sentinelle disponibles par GEE en général ; voir https://developers.google.com/earth-engine/datasets/catalog/sentinel Par exemple, 0 pourrait être utilisé."
 
 #: ../../institution/imagery.rst:245 d349bd89e3404b8b9bc8d8ff0643eece
 msgid "**Max:** Maximum value for bands that will get mapped to 255 for visualization. This should be a single number. Acceptable values for each band's maximum are the same as for Sentinel imagery available through GEE generally. See link above. For example, values of 2800-4000 are frequently used."
-msgstr ""
+msgstr "**Max:** Valeur maximale pour les bandes qui seront mappées à 255 pour la visualisation. Ce doit être un seul nombre. Les valeurs acceptables pour le maximum de chaque groupe sont les mêmes que pour les images de sentinelle disponibles par GEE en général. Voir lien ci-dessus. Par exemple, des valeurs de 2800-4000 sont fréquemment utilisées."
 
 #: ../../institution/imagery.rst:246 a17c34780dd34f508d964ea1928c0a23
 msgid "**Cloud Score**: Allowable cloud cover. Values can be 0-100."
-msgstr ""
+msgstr "**Cloud Score**: Couverture cloud autorisée. Les valeurs peuvent être 0-100."
 
 #: ../../institution/imagery.rst:251 ../../institution/imagery.rst:408
 #: 0ec1779f4e1340f18fded99b55370467 fa3e2b47b7a54d719783baa9eb357a07
 msgid "GEE Image Asset"
-msgstr ""
+msgstr "GEE Image Asset"
 
 #: ../../institution/imagery.rst:253 ../../institution/imagery.rst:271
 #: 25783aff147748f2a6e3913549ffb4fd b8c8c7ac97074b1a8920fe7bef0c1354
 msgid "Google Earth Engine (GEE) Assets include user's uploaded assets along with assets provided by other users and GEE. Information on Assets can be found here: https://developers.google.com/earth-engine/guides/asset_manager. More detail on uploading your own assets is below. Note that Image Asset refers to a single image (e.g. a GeoTIFF layer) while ImageCollection Asset refers to a stack of images (e.g. GeoTiff layers of the same location over different dates)."
-msgstr ""
+msgstr "Les actifs de Google Earth Engine (GEE) comprennent les actifs téléchargés par l'utilisateur ainsi que les actifs fournis par d'autres utilisateurs et GEE. Vous trouverez des informations sur les actifs ici : https://developers.google.com/earth-engine/guides/asset_manager. Plus de détails sur le téléchargement de vos propres actifs sont ci-dessous. Notez que l'actif d'image fait référence à une seule image (par ex. un calque GeoTIFF) tandis que l'actif ImageCollection fait référence à une pile d'images (par exemple, des calques GeoTiff du même emplacement à des dates différentes)."
 
 #: ../../institution/imagery.rst:256 c775b7b1de4b4d99b989c940d22caef0
 msgid "**Asset ID:** The Asset ID for your image asset. Will have a format similar to: USDA/NAIP/DOQQ/n_4207309_se_18_1_20090525"
-msgstr ""
+msgstr "**ID de l'actif :** L'ID de l'actif pour votre image actif. Il aura un format similaire à: USDA/NAIP/DOQQ/n_4207309_se_18_1_20090525"
 
 #: ../../institution/imagery.rst:257 41562d0387ed422eaa76100eef21ecba
 msgid "**Visualization Parameters (JSON format)**: Any visualization parameters for your layer. For example, {\"bands\":[\"R\",\"G\",\"B\"],\"min\":90,\"max\":210}"
-msgstr ""
+msgstr "**Paramètres de visualisation (format JSON)**: Tous les paramètres de visualisation pour votre calque. Par exemple, {\"bands\":[\"R\",\"G\",\"B\"],\"min\":90,\"max\":210}"
 
 #: ../../institution/imagery.rst:266 618bc0d73e0f49be9e9f4cf0b14f12c5
 msgid "We have created an extensive how-to and troubleshooting guide for adding GEE Image Assets and Image Collection Assets to CEO. It is available in CEO's blog here: https://collect.earth/blog/connecting-gee-raster-data/. Additionally, we have directions for uploading your own image assets to GEE in the following section."
-msgstr ""
+msgstr "Nous avons créé au CEO un guide complet sur la méthode et le dépannage pour ajouter des fonds GEE pour la collecte d’images et des fonds pour la collecte d’images. Il est disponible dans le blog du CEO ici : https://collect. Arth/blog/connecting-gee-raster-data/. De plus, nous avons des instructions pour télécharger vos propres images dans GEE dans la section suivante."
 
 #: ../../institution/imagery.rst:269 ../../institution/imagery.rst:413
 #: 4ee9a9716ca34acbb61a3f538f1eecba fa11ef5fef194b3a8cb8dd88da452478
 msgid "GEE ImageCollection Asset"
-msgstr ""
+msgstr "GEE ImageCollection Asset"
 
 #: ../../institution/imagery.rst:274 41b02491f33d4310a242dd15cc66ef43
 msgid "**Asset ID:** The Asset ID for your image asset. Will have a format similar to: LANDSAT/LC08/C01/T1_SR."
-msgstr ""
+msgstr "**ID de l'actif :** L'ID de la ressource pour votre image. Il aura un format similaire à: LANDSAT/LC08/C01/T1_SR."
 
 #: ../../institution/imagery.rst:275 dd44f86e00dc410c9878d6cf82be9183
 msgid "**Start Date**: The default start date of imagery to display."
-msgstr ""
+msgstr "**Date de début** : La date de début par défaut de l'image à afficher."
 
 #: ../../institution/imagery.rst:276 af09f85e77e641d9bfa5286f079a498c
 msgid "**End Date**: The default end date of imagery to display."
-msgstr ""
+msgstr "**Date de fin**: La date de fin par défaut de l'image à afficher."
 
 #: ../../institution/imagery.rst:277 c2674325431c412b953e6c2578fffcd8
 msgid "**Visualization Parameters (JSON format)**: Any visualization parameters for your layer. For example, {\"bands\":[\"B4\",\"B3\",\"B2\"],\"min\":0,\"max\":2000}"
-msgstr ""
+msgstr "**Paramètres de visualisation (format JSON)**: Tous les paramètres de visualisation de votre layer. Par exemple, {\"bands\":[\"B4\",\"B3\",\"B2\"],\"min\":0,\"max\":2000}"
 
 #: ../../institution/imagery.rst:282 321a87db5dfe43128ef7fdcb208f8ef8
 msgid "To display the GEEImageCollection, CEO uses the 'mean' reducer in Earth Engine. This takes the mean of any images in the image collection during the time period specified."
-msgstr ""
+msgstr "Pour afficher la GEEImageCollection, CEO utilise le réducteur \"moyen\" du Earth Engine. Cela prend la moyenne des images dans la collection d'images pendant la période spécifiée."
 
 #: ../../institution/imagery.rst:284 0f5313385cc549fb9a48bc3ecc8976f0
 msgid "We have created an extensive how-to and troubleshooting guide for adding GEE Image Assets and Image Collection Assets to CEO. It is available in CEO's blog here: https://collect.earth/blog/connecting-gee-raster-data/."
-msgstr ""
+msgstr "Nous avons créé au CEO un guide complet sur la méthode et le dépannage pour ajouter des fonds GEE pour la collecte d’images et des fonds pour la collecte d’images. Il est disponible dans le blog du CEO ici : https://collect.earth/blog/connecting-gee-raster-data/."
 
 #: ../../institution/imagery.rst:286 f5c60a7764b8400a883e7067c0a876dd
 msgid "**Uploading GeoTIFF images to GEE:**"
-msgstr ""
+msgstr "**Envoi d'images GeoTIFF vers GEE:**"
 
 #: ../../institution/imagery.rst:288 5960782b0dfb4194beb28a1486e78f66
 msgid "Visit https://code.earthengine.google.com/|"
-msgstr ""
+msgstr "Visitez https://code.earthengine.google.com/|"
 
 #: ../../institution/imagery.rst:289 c0ccaa7b930a48f8979c279d39aa9970
 msgid "Navigate to **Assets**"
-msgstr ""
+msgstr "Naviguez vers **Assets**"
 
 #: ../../institution/imagery.rst:290 09168f8931a04488a8b56d18105fbdef
 msgid "Click **New**, then under **Image Upload** click **GeoTIFF**."
-msgstr ""
+msgstr "Cliquez sur **Nouveau**, puis sur **Téléchargement d'images** cliquez sur **GeoTIFF**."
 
 #: ../../institution/imagery.rst:297 66682c822aea40338c1953f59d37f49c
 msgid "A new window will pop up. Click **Select** and navigate to the GeoTIFF asset."
-msgstr ""
+msgstr "Une nouvelle fenêtre s'ouvrira. Cliquez sur **Sélectionner** et accédez à l'actif GeoTIFF."
 
 #: ../../institution/imagery.rst:298 65f4ab131ced4c6dad7d0151ae84016a
 msgid "Alter the **Asset ID** name if you would like."
-msgstr ""
+msgstr "Modifiez le nom **ID d'actif** si vous le souhaitez."
 
 #: ../../institution/imagery.rst:299 e112ec2c6a6546d79ba3d71db3d58b1e
 msgid "Check the default settings, e.g. if your data has a start/end time then add those."
-msgstr ""
+msgstr "Vérifiez les paramètres par défaut, par exemple si vos données ont une heure de début/fin puis ajoutez-les."
 
 #: ../../institution/imagery.rst:300 3d1111d038bc433e8c91859295982cdc
 msgid "Click **Upload.**"
-msgstr ""
+msgstr "Cliquez sur **Upload.**"
 
 #: ../../institution/imagery.rst:307 4efe5ac68b2849798defae10b0b64be1
 msgid "Wait for your asset to upload. When it does, click on the asset name and a new window will pop up."
-msgstr ""
+msgstr "Attendez que votre asset soit téléchargé. Quand il le fait, cliquez sur le nom de la ressource et une nouvelle fenêtre apparaîtra."
 
 #: ../../institution/imagery.rst:308 fbe2cfe9003d40779262919b8559ae0c
 msgid "Next to ImageID there are two interlocking squares."
-msgstr ""
+msgstr "À côté d'ImageID, il y a deux carrés qui s'entrecroisent."
 
 #: ../../institution/imagery.rst:309 4ff3bee4296246fb8e1440e6fa07a77d
 msgid "Click on this to copy your ImageID to the clipboard (you'll need this to connect to CEO)."
-msgstr ""
+msgstr "Cliquez sur ce bouton pour copier votre ImageID dans le presse-papiers (vous en aurez besoin pour vous connecter au CEO)."
 
 #: ../../institution/imagery.rst:311 07f01e1d33904753a76627d29ebf3129
 msgid "You can also click on the “Bands” tab to get more information about your image. This is very useful for specifying your visualization parameters in CEO."
-msgstr ""
+msgstr "Vous pouvez également cliquer sur l'onglet « Bandes » pour obtenir plus d'informations sur votre image. Ceci est très utile pour spécifier vos paramètres de visualisation dans CEO."
 
 #: ../../institution/imagery.rst:312 0c107a4061ef4741a626ab2961cab293
 msgid "Can also add gamma etc. information, see  https://developers.google.com/earth-engine/guides/image_visualization."
-msgstr ""
+msgstr "Peut également ajouter des informations gamma, etc. voir https://developers.google.com/earth-engine/guides/image_visualization."
 
 #: ../../institution/imagery.rst:315 266f8b4d76414f1aba4938930d952554
 msgid "MapBox Raster"
-msgstr ""
+msgstr "MapBox Raster"
 
 #: ../../institution/imagery.rst:317 65b28c9d3f9044beba3079c633b29a05
 msgid "MapBox Raster serves raster tiles including Mapbox Satellite. For more information see: https://docs.mapbox.com/help/glossary/raster-tiles-api/."
-msgstr ""
+msgstr "MapBox Raster sert des tuiles matricielles incluant Mapbox Satellite. Pour plus d'informations, voir : https://docs.mapbox.com/help/glossary/raster-tiles-api/."
 
 #: ../../institution/imagery.rst:320 cc51641bf53842b295f5da727608b3a6
 msgid "**Layer Name** is the desired layer name from MapBox."
-msgstr ""
+msgstr "**Nom du calque** est le nom de la couche désirée de MapBox."
 
 #: ../../institution/imagery.rst:321 d558be11df6d43efac9b4f4d78d25b55
 msgid "**Access Token** will be your no-auth key from MapBox. For more information, see https://docs.mapbox.com/help/glossary/raster-tiles-api/."
-msgstr ""
+msgstr "**Jeton d'accès** sera votre clé de non-authentification de MapBox. Pour plus d'informations, voir https://docs.mapbox.com/help/glossary/raster-tiles-api/."
 
 #: ../../institution/imagery.rst:326 b1807eed43244caea867632fb83c08af
 msgid "MapBox Static"
-msgstr ""
+msgstr "MapBox Static"
 
 #: ../../institution/imagery.rst:328 08df120f1683480fa843426bb8ca3782
 msgid "Mapbox Static serves raster tiles generated from a `Mapbox GL <https://docs.mapbox.com/help/glossary/mapbox-gl/>`__-based style. This API has additional parameters that can be used to refine the results of a request. More information see: https://docs.mapbox.com/help/glossary/static-tiles-api/."
-msgstr ""
+msgstr "Mapbox Static sert des tuiles matricielles générées à partir d'un style `Mapbox GL <https://docs.mapbox.com/help/glossary/mapbox-gl/>`__. Cette API a des paramètres supplémentaires qui peuvent être utilisés pour affiner les résultats d'une requête. Plus d'informations voir : https://docs.mapbox.com/help/glossary/static-tiles-api/."
 
 #: ../../institution/imagery.rst:331 6b177e39d3a549fd9d073f2a9dfb2652
 msgid "**User Name** will be your MapBox user name."
-msgstr ""
+msgstr "**Nom d'utilisateur** sera votre nom d'utilisateur MapBox."
 
 #: ../../institution/imagery.rst:332 f02bee42e6374d2195c8f36584a93d24
 msgid "**Map Style ID** will be the id from MapBox."
-msgstr ""
+msgstr "**ID de style de carte** sera l'id de MapBox."
 
 #: ../../institution/imagery.rst:333 65b8f6850c184724a6f4cea26fefdb51
 msgid "**Access Token** will be your MapBox no-auth key. For more information see https://docs.mapbox.com/help/glossary/static-tiles-api/."
-msgstr ""
+msgstr "**Jeton d'accès** sera votre clé de non-authentification de MapBox. Pour plus d'informations, voir https://docs.mapbox.com/help/glossary/static-tiles-api/."
 
 #: ../../institution/imagery.rst:338 918f85cd355c477285b0b99313d62eed
 msgid "Open Street Maps"
-msgstr ""
+msgstr "OpenStreetMap"
 
 #: ../../institution/imagery.rst:340 37776eb9634c4786bab72b8c4431c256
 msgid "Open streets Maps is an open source mapping product. This provides Open Street Map's Standard Tile Layer. This product is useful for orienting users, since it has street and place names."
-msgstr ""
+msgstr "Open Street Maps est un produit de cartographie open source. Il fournit la couche standard de tuiles Open Street Map. Ce produit est utile pour orienter les utilisateurs, car il a des noms de rue et de lieu."
 
 #: ../../institution/imagery.rst:352 a0d2f0eb14824a41a12cf7df84a7186f
 msgid "Notes on imagery"
-msgstr ""
+msgstr "Notes sur l'imagerie"
 
 #: ../../institution/imagery.rst:354 56e10b2423ec463fa1552f54eeceba0e
 msgid "For imagery options with dates, the dates you input are the default Dates that the imagery will be restricted to on the collection page. However, the user will be able to change these when exploring the map as there are start & end date widgets on the collection page sidebar (there are examples in the **Data Collection Manual**). For SecureWatch, the user will also be able to choose between FeatureProfiles. Without specifying a FeatureProfile, the most recent available imagery between the start and end dates displayed on the map."
-msgstr ""
+msgstr "Pour les options d'images avec des dates, les dates que vous saisissez sont les dates par défaut auxquelles l'image sera limitée sur la page de collection. Cependant, l'utilisateur pourra les modifier lors de l'exploration de la carte car il y a des widgets de date de début et de fin dans la barre latérale de la page de la collection (il y a des exemples dans le **Manuel de collecte de données**). Pour SecureWatch, l'utilisateur pourra également choisir entre les profils de fonctions. Sans spécifier de profil de fonctionnalité, l'image la plus récente disponible entre les dates de début et de fin affichées sur la carte."
 
 #: ../../institution/imagery.rst:356 340ab0e1daf0402daf780315afca12e1
 msgid "SecureWatch and the Planet products will not return imagery if the map is zoomed out too much. This results in a white map canvas being displayed at the project overview level usually. Simply click the \"Go to first plot\" button on the Collection page to zoom in to the plot level, and then the imagery should appear."
-msgstr ""
+msgstr "Les produits SecureWatch et Planet ne retourneront pas d'images si la carte est trop zoomée. Il en résulte une toile de carte blanche qui s'affiche généralement au niveau de la vue d'ensemble du projet. Il vous suffit de cliquer sur le bouton « Aller au premier tracé » sur la page de la collection pour zoomer au niveau de la parcelle, puis l'image devrait apparaître."
 
 #: ../../institution/imagery.rst:358 d969a55d568d483a868ba71d2513e0e6
 msgid "For SecureWatch, the date shown when data is collected will be added to the project .csv data available for download (See :doc:`../project/reviewproject`)."
-msgstr ""
+msgstr "Pour SecureWatch, la date affichée lorsque des données sont collectées sera ajoutée aux données du projet .csv disponibles en téléchargement (Voir :doc:`../project/reviewproject`)."
 
 #: ../../institution/imagery.rst:361 70b7c23f8051431bb8198f319c955755
 msgid "Adding imagery from multiple time periods"
-msgstr ""
+msgstr "Ajout de l'imagerie depuis plusieurs périodes"
 
 #: ../../institution/imagery.rst:363 24d02dc597884f1eb230d3e52639b9f6
 msgid "Adding multiple imagery options with different default time periods can make data collection easier for projects that compare two or more time periods to detect land use and land cover change. WMS/WMTS that you can use to create basemaps from different time points include GeoServer, Planet Monthly, Planet Daily, Secure Watch, Bing Maps, Mapbox Raster, and Mapbox Static."
-msgstr ""
+msgstr "L'ajout de multiples options d'imagerie avec différentes périodes de temps par défaut peut faciliter la collecte de données pour des projets qui comparent deux périodes ou plus de temps pour détecter l'utilisation des terres et les changements de couverture des terres. WMS/WMTS que vous pouvez utiliser pour créer des basemaps à partir de différents points de temps incluent GeoServer, Planet Monthly, Planet Daily, Secure Watch, Bing Mapbox, Mapbox Raster, et Mapbox Static."
 
 #: ../../institution/imagery.rst:368 44ff63ce814144a988f07fc7f028f2c8
 msgid "For WMS imagery, how to add different years of imagery depends on your server."
-msgstr ""
+msgstr "Pour les images WMS, comment ajouter différentes années d'imagerie dépend de votre serveur."
 
 #: ../../institution/imagery.rst:370 7e3079a74273493185f4da29112ce033
 msgid "If your different years are stored as different layers, alter the Layer Name field when you add the second layer. Make sure your title/attribution/etc. fields are accurate for the new layer."
-msgstr ""
+msgstr "Si vos différentes années sont stockées sous la forme de calques différents, modifiez le champ Nom du calque lorsque vous ajoutez le deuxième calque. Assurez-vous que vos champs title/attribution/etc. sont précis pour la nouvelle couche."
 
 #: ../../institution/imagery.rst:372 b42f3a73f16c4f7998f0ae8d84616740
 msgid "If your server uses filtering to display imagery from different years you will need to alter the parameters field (again, making sure the information in your other fields is correct)."
-msgstr ""
+msgstr "Si votre serveur utilise le filtrage pour afficher des images de différentes années, vous devrez modifier le champ des paramètres (encore une fois, s'assurer que l'information dans vos autres champs est correcte)."
 
 #: ../../institution/imagery.rst:374 621aa57be9224481a9e3baa1880f413c
 msgid "Once you have decided the best approach for your server, repeat the steps in :ref:`wms` above for each time period you would like to add."
-msgstr ""
+msgstr "Une fois que vous avez décidé de la meilleure approche pour votre serveur, répéter les étapes dans :ref:`wms` ci-dessus pour chaque période que vous souhaitez ajouter."
 
 #: ../../institution/imagery.rst:378 a4e9b2e221f54247b6a8ec530f9cc45e
 msgid "Some years may not contain any imagery, due to the sparseness of the data within the database. If no imagery for the selected time range appears, you will need to change your parameters field, possibly to change the feature profile or date ranges."
-msgstr ""
+msgstr "Certaines années peuvent ne pas contenir d'images, en raison de la rareté des données dans la base de données. Si aucune image pour la plage de temps sélectionnée n'apparaît, vous devrez modifier le champ de vos paramètres, éventuellement pour modifier le profil ou les plages de dates."
 
 #: ../../institution/imagery.rst:381 00744165c9d84646bf9ede97ae642a36
 msgid "Planet Monthly, Planet Daily, and Planet NICFI"
-msgstr ""
+msgstr "Planet Monthly, Planet Daily, and Planet NICFI"
 
 #: ../../institution/imagery.rst:383 2b7f055fdbc2493db865b27c1bee5b9d
 msgid "For all Planet products, you simply need to change the time period fields to add layers with different default time periods. Users will be able to change the time period displayed during data collection; however, this is the default that will be shown first."
-msgstr ""
+msgstr "Pour tous les produits Planet, il vous suffit de modifier les champs de période de temps pour ajouter des calques avec différentes périodes de temps par défaut. Les utilisateurs seront en mesure de modifier la période de temps affichée lors de la collecte de données; cependant, c'est la valeur par défaut qui sera affichée en premier."
 
 #: ../../institution/imagery.rst:387 ../../institution/imagery.rst:396
 #: ../../institution/imagery.rst:405 ../../institution/imagery.rst:419
 #: 00e6ab02869849d3a994f0bef59cc51e 23ad9f4b5a9444a29a2cca74df6c800a
 #: 3d0279937e414c7cbf5041b92b710457 8a1513a0e1e5471d832992950c54e615
 msgid "Be sure to change the Title field to reflect the correct default Year, Month, and Day for each new layer that you add."
-msgstr ""
+msgstr "Assurez-vous de changer le champ Titre pour refléter la bonne année par défaut, le mois et le jour pour chaque nouvelle couche que vous ajoutez."
 
 #: ../../institution/imagery.rst:390 0b19d3be97714a8c99262387e60f8ca1
 msgid "Secure Watch"
-msgstr ""
+msgstr "SecureWatch"
 
 #: ../../institution/imagery.rst:392 e92fe11fb241443c945d1907df229ff0
 msgid "For this Maxar product, you simply need to change the time period fields to add layers with different default time periods. Users will be able to change the time period displayed during data collection; however, this is the default that will be shown first."
-msgstr ""
+msgstr "Pour tous les produits Planet, il vous suffit de modifier les champs de période de temps pour ajouter des calques avec différentes périodes de temps par défaut. Les utilisateurs seront en mesure de modifier la période de temps affichée lors de la collecte de données; cependant, c'est la valeur par défaut qui sera affichée en premier."
 
 #: ../../institution/imagery.rst:399 d9e879f37de241f6abfcc6b74358a345
 msgid "Sentinel 1 & 2"
-msgstr ""
+msgstr "Sentinel 1 & 2"
 
 #: ../../institution/imagery.rst:401 ../../institution/imagery.rst:415
 #: a3267484e6f24debae002387875ddd6d b2662588b1474e50bb4f6f3a585ff825
 msgid "Users will be able to change the default Year and Month during data collection. However, additional layers with different default years and months can be added based on user preference."
-msgstr ""
+msgstr "Les utilisateurs seront en mesure de modifier l'Année et le Mois par défaut lors de la collecte de données. Cependant, des couches supplémentaires avec différentes années et mois par défaut peuvent être ajoutées en fonction de la préférence de l'utilisateur."
 
 #: ../../institution/imagery.rst:410 b8f743b75a8341c592a5491409c6dea5
 msgid "Different Image Assets that cover different periods of time can be added using the Imagery interface. However, if you have multiple images of the same area over different periods of time, consider using CEO's GEE's ImageCollection functionality rather than multiple Image assets."
-msgstr ""
+msgstr "Vous pouvez ajouter différents actifs d'image qui couvrent différentes périodes de temps à l'aide de l'interface Imagerie. Cependant, si vous avez plusieurs images de la même zone sur différentes périodes de temps, envisagez d'utiliser la fonctionnalité ImageCollection du CEO de GEE plutôt que plusieurs actifs d'image."
 
 #: ../../institution/imagery.rst:422 e8919d9fbdeb46539b605ba6b0d34be5
 msgid "Editing and deleting imagery"
-msgstr ""
+msgstr "Modifier et supprimer les images"
 
 #: ../../institution/imagery.rst:424 bef5d440c96049b5b367a6aee1c691c7
 msgid "After you have added imagery you may need to change the default dates of the Visualization Parameters."
-msgstr ""
+msgstr "Après avoir ajouté des images, vous devrez peut-être modifier les dates par défaut des paramètres de visualisation."
 
 #: ../../institution/imagery.rst:426 302a4f88fc214635aff74f4b033ca4c4
 msgid "Navigate to your **Institution** page."
-msgstr ""
+msgstr "Accédez à votre page **Institution**."
 
 #: ../../institution/imagery.rst:427 ece018e85d05432fb75838daca8539f8
 msgid "Next to the imagery you would like to edit, there is an editing hand button."
-msgstr ""
+msgstr "À côté de l'image que vous souhaitez modifier, il y a un bouton de la main d'édition."
 
 #: ../../institution/imagery.rst:434 a6fd3ae3a2b44e1b975d31c4c5262cfa
 msgid "When you click on the editing hand button, it will take you back to the imagery creation form."
-msgstr ""
+msgstr "Lorsque vous cliquez sur le bouton de la main d'édition, il vous ramène au formulaire de création d'images."
 
 #: ../../institution/imagery.rst:435 d021d7b5ec474feba11012a8a58dbba1
 msgid "Edit the values as needed, using the information in this section as a guide."
-msgstr ""
+msgstr "Modifiez les valeurs si nécessaire, en utilisant les informations de cette section comme guide."
 
 #: ../../institution/imagery.rst:436 12250f8cc2104b9b8318dd6c396e0302
 msgid "Check the **Add Imagery to All Projects When Saving** box if you would like to add your imagery to all of the institution's projects."
-msgstr ""
+msgstr "Cochez la case **Ajouter des images à tous les projets lors de l'enregistrement** si vous souhaitez ajouter votre image à tous les projets de l'institution."
 
 #: ../../institution/imagery.rst:437 66a388fcc2934f659f15d6de61783e20
 msgid "When you are done, click **Save Imagery Changes**."
-msgstr ""
+msgstr "Lorsque vous avez terminé, cliquez sur **Enregistrer les modifications d'images**."
 
 #: ../../institution/imagery.rst:438 d138a2a600234856807a348f96af135b
 msgid "You can delete imagery by clicking the trash can icon next to the imagery name."
-msgstr ""
+msgstr "Vous pouvez supprimer des images en cliquant sur l'icône de la corbeille à côté du nom de l'image."
 
 #: ../../institution/imagery.rst:447 fb9760eb74ab46099f76985f2948e10c
 msgid "There is currently no way to 'preview' what imagery will be visible in your new layer in the 'Add Imagery' workflow. There are two ways to work around this."
-msgstr ""
+msgstr "Il n'y a actuellement aucun moyen de \"prévisualiser\" quelle image sera visible dans votre nouveau calque dans le flux de travail \"Ajouter Imagerie\". Il y a deux façons de contourner ce problème."
 
 #: ../../institution/imagery.rst:449 7d1b01daa3cf4b589ca49b0709cf7008
 msgid "First, if your data source has a data viewing portal, you can use this to explore the imagery and determine what is available for the time periods you are interested in."
-msgstr ""
+msgstr "Tout d'abord, si votre source de données a un portail de visualisation de données, vous pouvez l'utiliser pour explorer l'image et déterminer ce qui est disponible pour les périodes de temps qui vous intéressent."
 
 #: ../../institution/imagery.rst:451 77b68ef23d214a5abf9a311823c40712
 msgid "Second, you can add the imagery layer, then open an existing project from your institution. The imagery will be available in the dropdown menu (if you are switching between a project **Data Collection** window and an **Institution** window, you may need to refresh the project window to get    the new layer to appear). You can then check if the imagery is displaying correctly and go back to the **Institution** page to edit the imagery based on what you see."
-msgstr ""
+msgstr "Deuxièmement, vous pouvez ajouter la couche d'image, puis ouvrir un projet existant de votre institution. Les images seront disponibles dans le menu déroulant (si vous basculez entre une fenêtre de **Collecte de données** du projet et une fenêtre **Institution**, vous devrez peut-être actualiser la fenêtre du projet pour que le nouveau calque apparaisse). Vous pouvez ensuite vérifier si l'image s'affiche correctement et retourner à la page **Institution** pour éditer l'image en fonction de ce que vous voyez."
 
 #: ../../institution/imagery.rst:454 363974440aaa456885ef025bf9ff7d46
 msgid "Estimating imagery costs"
-msgstr ""
+msgstr "Estimation des coûts des images"
 
 #: ../../institution/imagery.rst:456 8271942aca6f4957b8752d7f54a0ef4f
 msgid "Before setting up a project in CEO, it is important to estimate how much imagery will be used for budgetary and resource allocation. Here is a quick guide to help."
-msgstr ""
+msgstr "Avant de mettre en place un projet au sein du CEO, il est important d’estimer la quantité d’images qui sera utilisée pour l’allocation des ressources et du budget. Voici un guide rapide pour vous aider."
 
 #: ../../institution/imagery.rst:459 a47e7e7fd846429191872a39d20e49eb
 msgid "When is imagery used?"
-msgstr ""
+msgstr "Quand les images sont-elles utilisées?"
 
 #: ../../institution/imagery.rst:461 ba2ef0efdd0f4b7184dae47bac919639
 msgid "Imagery data is used whenever there is a map on the page. This means that on CEO, all these pages can use data:"
-msgstr ""
+msgstr "Les données d’images sont utilisées chaque fois qu’il y a une carte sur la page. Cela signifie que sur CEO, toutes ces pages peuvent utiliser des données :"
 
 #: ../../institution/imagery.rst:463 691881eba0f44071afed3fd02dfe98f1
 msgid "Home"
-msgstr ""
+msgstr "Page d'accueil"
 
 #: ../../institution/imagery.rst:464 8cf55e20923743c8b907b6d5947be86e
 msgid "Data Collection"
@@ -767,85 +767,85 @@ msgstr "Collecte de données"
 
 #: ../../institution/imagery.rst:465 1b89fdc75acd48e88e45ff480de1a5f9
 msgid "Create Project"
-msgstr ""
+msgstr "Créer un projet"
 
 #: ../../institution/imagery.rst:466 5bca60f5b65f4487bbdb40bbb813fd65
 msgid "Review Project"
-msgstr ""
+msgstr "Verification du Projet"
 
 #: ../../institution/imagery.rst:467 172ae899da7d4b399dfeaed6cafa185c
 msgid "Project Dashboard"
-msgstr ""
+msgstr "Tableau de bord du projet"
 
 #: ../../institution/imagery.rst:468 cd090f9de6fe464f88ce505cf3196f92
 msgid "GeoDash (specific options or modules)"
-msgstr ""
+msgstr "GeoDash (options ou modules spécifiques)"
 
 #: ../../institution/imagery.rst:470 ba2f0ad30c8f4576b3202a87459a3356
 msgid "On these pages, when the map first loads, imagery data is used. Every time a user zooms or pans the map window, imagery is used. The largest amount of use will probably be with Data Collection."
-msgstr ""
+msgstr "Sur ces pages, lorsque la carte se charge pour la première fois, les données d'imagerie sont utilisées. Chaque fois qu'un utilisateur zoome ou fait zoomer la fenêtre de la carte, les images sont utilisées. La plus grande quantité d'utilisation sera probablement avec la collecte de données."
 
 #: ../../institution/imagery.rst:473 7cde940d6e3147029ea9f75c4ee6ffbb
 msgid "Estimating imagery use for a project"
-msgstr ""
+msgstr "Estimation de l'utilisation des images pour un projet"
 
 #: ../../institution/imagery.rst:475 794cc4aa7c704d51910f3e9a8d6e93ef
 msgid "Each organization that provides imagery sets their own rules for how many tiles you can download per year given the kind of account that you have with them. Therefore, it is important to estimate this before setting up a project."
-msgstr ""
+msgstr "Chaque organisation qui fournit des images définit ses propres règles pour le nombre de tuiles que vous pouvez télécharger chaque année en raison du type de compte que vous avez avec elles. Il est donc important de l'estimer avant de mettre en place un projet."
 
 #: ../../institution/imagery.rst:477 8c10c3e64e92451bba43baf086a60380
 msgid "Additionally, services may “count” imagery against your quota differently. You will also need to know this."
-msgstr ""
+msgstr "De plus, les services peuvent « compter » des images sur votre quota différemment. Vous devrez également le savoir."
 
 #: ../../institution/imagery.rst:479 3269696abe03493c81b2500afb7a3064
 msgid "To figure out how much imagery you are likely to use for a single project, count the number of plots. Then determine how many users will classify each plot. Next, try to factor in how often people will zoom or pan their maps for context when answering the survey questions for a plot. Multiply these numbers together."
-msgstr ""
+msgstr "Pour savoir combien d'images vous êtes susceptible d'utiliser pour un seul projet, comptez le nombre de plots. Déterminez ensuite le nombre d'utilisateurs qui vont classer chaque parcelle. Ensuite, essayez de tenir compte de la fréquence à laquelle les gens vont zoomer ou panser leurs cartes de contexte lors de la réponse aux questions de l'enquête pour un tracé. Multiplier ces chiffres ensemble."
 
 #: ../../institution/imagery.rst:481 e6cb17a68c1342f2b6ec9a42a82484d6
 msgid "Next, decide if you are using the Geo-Dash and ask yourself how many map widgets you will display on your Geo-Dash page. Multiply that number by the number of plots to get the amount of Geo-Dash imagery you will need. Keep in mind that Geo-Dash imagery counts against our annual limit for user memory/processing in GEE, whereas the usual global layers on CEO (Bing Maps, SecureWatch, Planet) have separate annual tile-based limits. For GEE, we recommend clipping and pre-processing the imagery to image assets or imageCollection assets for the collection area. This eliminates processing on-the-fly for each user that is collecting, as Geo-Dash can just grab the pre-processed image asset."
-msgstr ""
+msgstr "Ensuite, décidez si vous utilisez le Geo-Dash et demandez-vous combien de widgets de carte vous allez afficher sur votre page Geo-Dash. Multipliez ce nombre par le nombre de parcelles pour obtenir la quantité d'images de Geo-Dash dont vous aurez besoin. Gardez à l'esprit que l'image Geo-Dash compte dans notre limite annuelle de mémoire/traitement utilisateur dans GEE, alors que les couches globales habituelles du CEO (Bing Maps, SecureWatch, Planet) ont des limites annuelles distinctes. Pour GEE, nous vous recommandons de découper et de prétraiter l’imagerie vers des ressources d’images ou des ressources de collection d’images pour la zone de collection. Cela élimine le traitement à la volée pour chaque utilisateur qui est en train de collecter, car Geo-Dash peut simplement récupérer l'actif d'image pré-traité."
 
 #: ../../institution/imagery.rst:483 429876078f994f8b9cfe9fddb03803d7
 msgid "Finally, add a few extra tile downloads for loading the maps while creating and reviewing the project."
-msgstr ""
+msgstr "Enfin, ajoutez quelques téléchargements de tuiles supplémentaires pour charger les cartes lors de la création et de la révision du projet."
 
 #: ../../institution/imagery.rst:485 461ac22288a84d459cee836e1c373e8a
 msgid "Once you have a sense of how many map images you will need for your project, you will then need to look up the tile counting policy for the imagery service that you are using. For example, some of them count 15 tiles as 1 unit of usage. Others use different counting rules."
-msgstr ""
+msgstr "Une fois que vous aurez une idée du nombre d'images de carte dont vous aurez besoin pour votre projet, vous devrez alors consulter la politique de comptage des tuiles pour le service d'imagerie que vous utilisez. Par exemple, certaines d'entre elles comptent 15 tuiles comme 1 unité d'usage, d'autres utilisent des règles de comptage différentes."
 
 #: ../../institution/imagery.rst:489 a973d4c1f083460a95942029820a6418
 msgid "To reduce imagery use, consider setting your default background imagery to a cheaper source and only switching to more expensive paid imagery when you are at the correct zoom level."
-msgstr ""
+msgstr "Pour réduire l'utilisation des images envisagez de définir votre image de fond par défaut à une source moins chère et de passer à des images payantes plus chères lorsque vous êtes au niveau de zoom correct."
 
 #: ../../institution/imagery.rst:492 948d6f6ccf9845fd999859e82eb82773
 msgid "Synthetic Aperture Radar (SAR) data in CEO for forest degradation"
-msgstr ""
+msgstr "Données synthétiques Radar (SAR) dans CEO pour la dégradation des forêts"
 
 #: ../../institution/imagery.rst:494 3a87605c680946a08ca760fc51871b25
 msgid "Observations of backscatter variations over time in satellite SAR data can be attributed to structure and moisture. For forests, these can be linked to changes in the moisture conditions of the trees and soil as well as changes in forest structure. These are extremely useful for e.g. detecting forest degradation."
-msgstr ""
+msgstr "Les observations des variations de dispersion des données du satellite SAR au fil du temps peuvent être attribuées à la structure et à l'humidité. Pour les forêts, celles-ci peuvent être liées à des changements dans les conditions d’humidité des arbres et du sol ainsi qu’à des changements dans la structure forestière. Celles-ci sont extrêmement utiles pour détecter par exemple la dégradation des forêts."
 
 #: ../../institution/imagery.rst:496 cefc8471f2414243a3f71a82629ce84a
 msgid "Color display of SAR data for detecting forest degradation is possible in CEO using Sentinel 1 data, WMS data, and GEE Image Assets and ImageCollection assets."
-msgstr ""
+msgstr "L'affichage en couleur des données SAR pour la détection de la dégradation des forêts est possible dans CEO en utilisant les données Sentinel 1 Données WMS et actifs GEE Image Assets et ImageCollection."
 
 #: ../../institution/imagery.rst:498 c0a6d8801758472ca8c69e9bdc7df7c1
 msgid "For information on detecting forest degradation through our Geo-Dash widget functionality, please see :doc:`../project/geodash` ."
-msgstr ""
+msgstr "Pour des informations sur la détection de la dégradation des forêts grâce à notre fonctionnalité de widget Geo-Dash, veuillez consulter :doc:`../project/geodash` ."
 
 #: ../../institution/imagery.rst:500 b802d3476f0d474ab7a0e0c64bf35cf1
 msgid "For more information on SAR, please see:"
-msgstr ""
+msgstr "Pour plus d'informations sur la SAR, veuillez voir:"
 
 #: ../../institution/imagery.rst:502 bca23e429b7a40e1bc30f6877faf8e0b
 msgid "Kellndorfer, Josef. “Using SAR Data for Mapping Deforestation and Forest Degradation.” SAR Handbook: Comprehensive Methodologies for Forest Monitoring and Biomass Estimation. Eds. Flores, A., Herndon, K., Thapa, R., Cherrington, E. NASA. 2019. DOI: .10.25966/68c9-gw82; available online at:  https://gis1.servirglobal.net/TrainingMaterials/SAR/Ch3-Content.pdf"
-msgstr ""
+msgstr "Kellndorfer, Josef. “Using SAR Data for Mapping Deforestation and Forest Degradation.” SAR Handbook: Comprehensive Methodologies for Forest Monitoring and Biomass Estimation. Eds. Flores, A., Herndon, K., Thapa, R., Cherrington, E. NASA. 2019. DOI: .10.25966/68c9-gw82; available online at:  https://gis1.servirglobal.net/TrainingMaterials/SAR/Ch3-Content.pdf"
 
 #: ../../institution/imagery.rst:503 a2ae7883f28a43129615d13748b620bc
 msgid "The SAR Handbook: Comprehensive Methodologies for Forest Monitoring and Biomass Estimation, available for download at: https://www.servirglobal.net/Global/Articles/Article/2674/sar-handbook-comprehensive-methodologies-for-forest-monitoring-and-biomass-estimation"
-msgstr ""
+msgstr "Le Manuel SAR : Méthodologies globales pour la surveillance des forêts et l'estimation de la biomasse, disponible en téléchargement à l'adresse : https://www.servirglobal.net/Global/Articles/Article/2674/sar-handbook-comprehensive-methodologies-for-forest-monitoring-and-biomass-estimation"
 
 #: ../../institution/imagery.rst:504 157de8a9d2ec48a7971e4d67399eb8e8
 msgid "This one page guide from SERVIR & SilvaCarbon: https://servirglobal.net/Portals/0/Documents/Articles/2019_SAR_Handbook/SAR_VegIndices_1page_new.pdf"
-msgstr ""
+msgstr "Voici le guide d'une page de SERVIR & SilvaCarbon : https://servirglobal.net/Portals/0/Documents/Articles/2019_SAR_Handbook/SAR_VegIndices_1page_new.pdf"
 
