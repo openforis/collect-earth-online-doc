@@ -122,12 +122,22 @@ The navigation options are disabled for Simplified projects.
    :width: 60%
    :align: center
 
+- You can turn on different imagery layers by clicking the toggle button next to the imagery name.
+- You can change the opacity of the imagery by moving the slider.
+- You can change the order that imagery displays by clicking and dragging the imagery name.
+
+.. thumbnail:: ../_images/simplified3.png
+   :title: Change imagery order.
+   :width: 60%
+   :align: center
+
 - Different images are helpful for comparing different points in time and/or where one imagery source does not have enough detail to answer the **Survey Questions**. Some imagery options also include the names of towns, villages, etc.
-- You may need to click **[Update Imagery]** to update the imagery when you select a new imagery source.
 
 .. note::
    
    Some imagery servers are slow. Please be patient when switching to sources like Planet Daily, since their servers can take about 30 seconds to respond to queries sent by the CEO platform.
+
+
 
 
 Analyze plots
