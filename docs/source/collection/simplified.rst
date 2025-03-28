@@ -18,7 +18,7 @@ Terms and conditions
 Before you can start collecting data, you must agree to the terms and conditions of the project. You will be prompted to accept or decline the terms and conditions to voluntarily collect data. You can also add your name if you would like to be recognized for your work. The collected data will be licensed through a CC BY 4.0 license.
 
 
-.. thumbnail:: ../_images/simplified1.png
+.. thumbnail:: ../_images/simplified5.png
   :title: Terms and conditions.
   :width: 60%
   :align: center
@@ -140,8 +140,8 @@ The navigation options are disabled for Simplified projects.
 
 
 
-Analyze plots
--------------
+Collect data
+------------
 
 Now it is time to contribute to a project. 
 
@@ -151,13 +151,93 @@ You will see a pop-up window with the terms and conditions when you first enter 
 
 The collected data will be licensed through a CC BY 4.0 license.
 
-.. thumbnail:: ../_images/simplified1.png
+.. thumbnail:: ../_images/simplified4.png
   :title: Terms and conditions.
   :width: 60%
   :align: center
 
 Now click on **Go to first plot** on the right panel to start the collection.
 
-.. thumbnail:: ../_images/simplifiedXXX.png
+.. thumbnail:: ../_images/simplified6.png
   :title: The project's homepage.
   :align: center
+
+To illustrate how to collect data in a simplified project, we will use the example of a project that asks you to identify the location of different types of land cover, specifically looking at agricultural plantations in Indonesia. First, we zoom in to find some plantation boundaries.
+
+.. thumbnail:: ../_images/simplified7.png
+  :title: Zooming in.
+  :align: center
+
+.. thumbnail:: ../_images/simplified8.png
+  :title: Zooming in.
+  :align: center
+  
+.. thumbnail:: ../_images/simplified9.png
+  :title: Zoomed in to plantations.
+  :align: center
+
+On the right panel, under **Survey Questions**, select the edit mode to enable the polygon tool. This means that you can start collecting data. 
+
+.. thumbnail:: ../_images/simplified10.png
+  :title: The edit mode.
+  :align: center
+
+To create the polygon, click to create vertices. To close the polygon, click on the first vertice again. 
+
+.. thumbnail:: ../_images/simplified11.png
+  :title: Drawing a polygon.
+  :align: center
+
+It will turn yellow when you have completed the polygon.
+
+.. thumbnail:: ../_images/simplified12.png
+  :title: Completed polygon.
+  :align: center
+
+Do this as many times as you want (ideally in all areas that you know of plantations).
+
+.. thumbnail:: ../_images/simplified13.png
+  :title: Multiple polygons.
+  :align: center
+
+Depending on the project settings, you can also place points at the center of the fields. Switch to “Point tool” to collect points.
+
+.. thumbnail:: ../_images/simplified14a.png
+  :title: The point tool.
+  :align: center
+
+This is a good way to speed up collection time.
+
+ .. thumbnail:: ../_images/simplified14b.png
+  :title: Placing points.
+  :align: center
+
+When you are done collecting, switch to the question mark under “Survey Questions”.You will need to answer the question for each shape (e.g. polygon, point) created.
+
+.. thumbnail:: ../_images/simplified15.png
+  :title: Answering questions.
+  :align: center
+
+If all the shapes are the same plantation, hold CTRL and select them all at once.
+
+.. thumbnail:: ../_images/simplified16a.png
+  :title: Selecting multiple shapes.
+  :align: center
+
+.. thumbnail:: ../_images/simplified16b.png
+  :title: Selecting multiple shapes.
+  :align: center
+
+Click on the answer you wish to select. For this example, we are selecting Palm. You will see the data changing color. You will also note another question appearing. This is because the example project has been set up to ask a follow-up question when you select Palm.
+
+.. thumbnail:: ../_images/simplified17.png
+  :title: Answering questions.
+  :align: center
+
+E.g. Select “Both” to confirm these plantations exist in both 2020 and 2023.
+
+.. thumbnail:: ../_images/simplified18.png
+  :title: Answering questions.
+  :align: center
+
+When you have answered all the questions, the **[Save]** button will become active. Click it to save your answers.
