@@ -45,15 +45,15 @@ Map Window
 
 In the center is the map window:
 
-1. Your **Area of Interest** will show up as a yellow rectangle in the map window.
-2. Each **Sample Point** is identified with a black outline until it is assigned a label. 
+- Your **Area of Interest** will show up as a yellow rectangle in the map window.
+- Each **Sample Point** is identified with a black outline until it is assigned a label. 
 
 .. tip::
    
    You can change the color of sample points that don't have answers from black to white by selecting the corresponding color radio button next to “Unanswered Color” on the right-hand panel.
 
-3. You can zoom in and out using the blue + and – buttons in the upper left-hand corner of the map window, or by scrolling your mouse wheel.
-4. Information about the imagery source is shown at the bottom of the screen.
+- You can zoom in and out using the blue + and – buttons in the upper left-hand corner of the map window, or by scrolling your mouse wheel.
+- Information about the imagery source is shown at the bottom of the screen.
 
 
 Options and Survey Questions
@@ -68,7 +68,7 @@ The navigation options are disabled for Simplified projects.
 **External Tools options:**
 
 - Click **[Re-Zoom]** to return your focus to the entire Area of Interest.
-- **Click [GeoDash]** to open the **GeoDash** pane with additional information about the plot, if it is available for the project (For more detail see :doc:`geodash`).
+- Click **[GeoDash]** to open the **GeoDash** pane with additional information about the plot, if it is available for the project (For more detail see :doc:`geodash`).
 - You can click **[Download Plot KML]** to download a KML file with the information of any samples you have drawn. Downloading the KML allows you to transfer the plot information to another program, such as Google Earth Desktop. Importantly, the KML functionality allows users to determine the coordinates (latitude and longitude) at which points of interest are located.
 - The **[Go to GEE Script]** button may or may not be present on your dashboard. If it is present, it will take you to an Earth Engine Apps website displaying additional data about the plot.
 
@@ -153,13 +153,13 @@ The collected data will be licensed through a CC BY 4.0 license.
 
 .. thumbnail:: ../_images/simplified4.png
   :title: Terms and conditions.
-  :width: 60%
   :align: center
 
 Now click on **Go to first plot** on the right panel to start the collection.
 
 .. thumbnail:: ../_images/simplified6.png
   :title: The project's homepage.
+  :width: 60%
   :align: center
 
 To illustrate how to collect data in a simplified project, we will use the example of a project that asks you to identify the location of different types of land cover, specifically looking at agricultural plantations in Indonesia. First, we zoom in to find some plantation boundaries.
@@ -181,6 +181,7 @@ On the right panel, under **Survey Questions**, select the edit mode to enable t
 .. thumbnail:: ../_images/simplified10.png
   :title: The edit mode.
   :align: center
+  :width: 60%
 
 To create the polygon, click to create vertices. To close the polygon, click on the first vertice again. 
 
@@ -205,28 +206,33 @@ Depending on the project settings, you can also place points at the center of th
 .. thumbnail:: ../_images/simplified14a.png
   :title: The point tool.
   :align: center
+  :width: 60%
 
 This is a good way to speed up collection time.
 
  .. thumbnail:: ../_images/simplified14b.png
   :title: Placing points.
   :align: center
+  :width: 60%
 
 When you are done collecting, switch to the question mark under “Survey Questions”.You will need to answer the question for each shape (e.g. polygon, point) created.
 
 .. thumbnail:: ../_images/simplified15.png
   :title: Answering questions.
   :align: center
+  :width: 60%
 
 If all the shapes are the same plantation, hold CTRL and select them all at once.
 
 .. thumbnail:: ../_images/simplified16a.png
   :title: Selecting multiple shapes.
   :align: center
+  :width: 60%
 
 .. thumbnail:: ../_images/simplified16b.png
   :title: Selecting multiple shapes.
   :align: center
+  :width: 60%
 
 Click on the answer you wish to select. For this example, we are selecting Palm. You will see the data changing color. You will also note another question appearing. This is because the example project has been set up to ask a follow-up question when you select Palm.
 
@@ -237,7 +243,71 @@ Click on the answer you wish to select. For this example, we are selecting Palm.
 E.g. Select “Both” to confirm these plantations exist in both 2020 and 2023.
 
 .. thumbnail:: ../_images/simplified18.png
+  :title: Answering follow up questions.
+  :align: center
+
+The example project has multiple questions. Here, we click on the number **[2]** at the bottom of the Survey Questions to advance to the next question.
+
+.. thumbnail:: ../_images/simplified19.png
+  :title: Advancing to the next question.
+  :align: center
+
+The second question allows us to add notes about the shapes if desired, e.g. “These palm trees were planted in 2018”, or to leave it blank. Other projects may require notes to be added, but for this example it is optional.
+
+.. thumbnail:: ../_images/simplified20.png
+  :title: Adding notes.
+  :align: center
+
+Click **[Save]** to save the notes (empty or not).
+
+.. thumbnail:: ../_images/simplified21.png
+  :title: Saving notes.
+  :align: center
+
+You could also collect data from different plantations. You can select them separately by clicking on them individually to answer the questions, or use CTRL to select multiple shapes.
+
+.. thumbnail:: ../_images/simplified22.png
+  :title: Selecting a single shape.
+  :align: center
+
+You will need to repeat the process for the Year question and Notes question.
+
+.. thumbnail:: ../_images/simplified23.png
   :title: Answering questions.
   :align: center
 
 When you have answered all the questions, the **[Save]** button will become active. Click it to save your answers.
+
+.. thumbnail:: ../_images/simplified24.png
+  :title: Saving answers.
+  :align: center
+
+You can click on the **[Save]** button at any time to save your answers. If you try to leave the page without saving your answers, you will receive a warning and reminder to save your answers if appropriate.
+
+.. thumbnail:: ../_images/simplified25.png
+  :title: Answers saved successfully.
+  :align: center
+
+If you get an error about unanswered questions, make sure they are all answered for all polygons/points. The question boxes will turn green if they have been answered (don’t forget the notes question has to be saved too, even if it is empty).
+
+Using the Imagery Selection Pane
+--------------------------------
+
+The Imagery Selection Pane can be expanded by clicking on the arrow on the left hand side of the screen. You can use this pane to change the imagery source, opacity, and order. 
+
+For our example project, we can use the Imagery Selection Pane to compare model outputs for different types of crops in 2020 and 2023.
+
+.. thumbnail:: ../_images/simplified2.png
+  :title: Imagery selection pane.
+  :align: center
+
+Reorder the layers for better visualization later if needed - e.g. group the 2020 and 2023 cocoa layers, 2020 and 2023 rubber layers, etc.
+
+Do this by dragging and dropping the layer.
+
+.. thumbnail:: ../_images/simplified3.png
+  :title: Reordering layers.
+  :align: center
+
+You can also change the opacity of the layers to see the underlying imagery better.
+
