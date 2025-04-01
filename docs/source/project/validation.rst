@@ -72,9 +72,9 @@ For validating a single model or an ensemble model that has been averaged/combin
 
 Strata used for stratification must be exhaustive--they include the entire study area--and they must be exclusive--a sample unit can’t belong to more than one strata.
 
-CEO will soon be able to create stratified sampling designs. However, you have multiple good options to create a stratified sample outside of CEO.
+CEO can create stratified sampling designs if you provide an appropriate shapefile for the AOI. You also have multiple good options to create a stratified sample outside of CEO.
 
-1. You can use SEPAL.IO to create a stratified sample based on how accurate you think your model is for each stratum and a raster of your model output.
+1. You can use `sepal.io <sepal.io>`__ to create a stratified sample based on how accurate you think your model is for each stratum and a raster of your model output.
 
 2. You will need to sign up to use it by visiting `sepal.io <sepal.io>`__ and clicking on **[Sign Up]**.
 
@@ -90,9 +90,9 @@ You can also use QGIS or ArcGIS for creating a stratified sample. Many resources
 
 -  This description of the Sampling Design Tool in ArcGIS: https://www.arcgis.com/home/item.html?id=28f08ca526ae44e8ac107a2a0d5f50e3
 
-Once you have created a stratified sample, you can create a project in CEO and follow the directions in Part 4: H Uploading CSV & SHP files to upload your sampling points into CEO.
+Once you have created a stratified sample, you can create a project in CEO and follow the directions to upload your sampling points into CEO (see :doc:`plotsample`).
 
-After collecting data on all of your sampling points, you can download the data (see Part 7: E Download your data) and calculate your confusion matrix.
+After collecting data on all of your sampling points, you can download the data (see :doc:`/project/management`) and calculate your confusion matrix.
 
 Alternative: Using TimeSync
 ---------------------------

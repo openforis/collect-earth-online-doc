@@ -16,7 +16,7 @@ If your project is focused on land use or land cover classification, you also ne
 
 Designing a project is an iterative process, and you will probably need to make multiple edits to projects in CEO as you refine your goals, land use or land cover classification schemes, imagery sources, etc. These changes can be made to a project before your project is published. This means that you can create a project and collect test data in it, and edit any errors you find before publishing the project.
 
-Some things can also be changed after a project is published, including imagery. For example, if you realize after you have created a project that you have forgotten to add an imagery layer, you can add it after project setup with the steps from Part 3.
+Some things can also be changed after a project is published, including imagery. For example, if you realize after you have created a project that you have forgotten to add an imagery layer, you can add it after project setup.
 
 The survey questions that are asked about each survey point cannot currently be changed after the project is published. Do not start data collection until you are sure that your survey questions are correct.
 

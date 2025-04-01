@@ -77,7 +77,7 @@ Want to request a feature that would make CEO work better for you? Contact us at
 .. grid:: 1 2 2 4
    :gutter: 2
 
-   .. grid-item-card:: :fas:`` Read the blog
+   .. grid-item-card:: :fas:`book` Read the blog
       :link: https://www.collect.earth/blog/
 
       Our blog has details on updates and other useful information.

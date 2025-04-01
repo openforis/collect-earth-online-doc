@@ -337,7 +337,7 @@ Mapbox Static serves raster tiles generated from a `Mapbox GL <https://docs.mapb
 Open Street Maps
 ^^^^^^^^^^^^^^^^
 
-Open streets Maps is an open source mapping product. This provides Open Street Map's Standard Tile Layer. This product is useful for orienting users, since it has street and place names.
+Open Street Maps is an open source mapping product. This provides Open Street Map's Standard Tile Layer. This product is useful for orienting users, since it has street and place names.
 
 - **Title:** This will be the displayed name of the imagery.
 - If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
