@@ -82,14 +82,7 @@ The navigation options are disabled for Simplified projects.
 
 - Simplified projects rely on user drawn samples. You will need to draw points, lines, or polygons on the map before you can answer the survey questions.
 - There are two icons under **Survey Questions**, a question mark and a pencil.
-- When you have the **[question mark]** selected, the Survey Question interface will work as we just discussed.
-
-.. thumbnail:: ../_images/preparing12.png
-   :title: Survey question pane with the option of user-drawn samples.
-   :width: 60%
-   :align: center
-
-- However, if you select the **[pencil icon]**, you will see the options that allow you to draw different points, lines, and polygons on the map.
+- For simplified projects, the **[pencil icon]** is selected by default. You will see the options that allow you to draw different points, lines, and polygons on the map.
 
 .. thumbnail:: ../_images/preparing13.png
    :title: Adding user-drawn samples.
@@ -97,6 +90,12 @@ The navigation options are disabled for Simplified projects.
    :align: center
 
 - You can switch between the different shapes by clicking on their respective icons. Note that the project administrator may have restricted the types of geometries (point, line, polygon) that you can create.
+- You can swithch modes by clicking on the **[question mark]**. Then, the Survey Question interface will work as discussed below.
+
+.. thumbnail:: ../_images/preparing12.png
+   :title: Survey question pane with the option of user-drawn samples.
+   :width: 60%
+   :align: center
 
 **Survey Questions**
 
