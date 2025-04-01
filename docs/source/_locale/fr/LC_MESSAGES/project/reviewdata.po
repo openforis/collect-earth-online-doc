@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: 2024-02-17 01:32\n"
+"PO-Revision-Date: 2025-01-30 21:53\n"
 "Last-Translator: \n"
 "Language: fr\n"
 "Language-Team: French\n"
@@ -20,33 +20,33 @@ msgstr ""
 
 #: ../../project/reviewdata.rst:3 cc4fffd956984f6f82f119782e2fbc0f
 msgid "Administrator Review Mode"
-msgstr ""
+msgstr "Mode de révision de l'administrateur"
 
 #: ../../project/reviewdata.rst:5 6a44e7009a794f369cc8ef006b3fdcd7
 msgid "Using the Data Collection interface, Institution Administrators can review their projects."
-msgstr ""
+msgstr "En utilisant l'interface de collecte de données, les administrateurs d'institutions peuvent examiner leurs projets."
 
 #: ../../project/reviewdata.rst:7 b8c803de9d79470ebebe10c5cea3e765
 msgid "For projects with QA/QC enabled, administrators can use the Review Mode to Navigate through plots with Disagreement. This navigation feature allows administrators to choose the level of disagreement between questions on the fly, then allow them to navigate between plots that have the specified level of disagreement or more."
-msgstr ""
+msgstr "Pour les projets avec QA/QC activé, les administrateurs peuvent utiliser le mode Révision pour naviguer à travers les parcelles en désaccord. Cette fonction de navigation permet aux administrateurs de choisir le niveau de désaccord entre les questions à la volée, leur permettre de naviguer entre les parcelles qui ont le niveau de désaccord spécifié ou plus."
 
 #: ../../project/reviewdata.rst:9 e56f676519924622b3cf3354fb884b92
 msgid "Disagreement is provided as a percentage and represents how far apart users’ responses for the plot are from one another. If you have multiple samples per plot, the disagreement per sample is calculated and then averaged."
-msgstr ""
+msgstr "Le désaccord est fourni en pourcentage et représente à quel point les réponses des utilisateurs sont éloignées les unes des autres. Si vous avez plusieurs échantillons par parcelle, les désaccords par échantillon sont calculés et ensuite en moyenne."
 
 #: ../../project/reviewdata.rst:18 d9c4da877e394c30a0d0494d5bb43bd1
 msgid "We suggest that you start with a disagreement percentage of around 50% and adjust to your needs."
-msgstr ""
+msgstr "Nous vous suggérons de commencer avec un pourcentage de désaccord d'environ 50 % et de vous adapter à vos besoins."
 
 #: ../../project/reviewdata.rst:20 11514882eca941acba97dfa0ed4f18fe
 msgid "Once data for the project has been collected using a quality control approach, Administrators can press the **[View Disagreements]** button to bring up a new window that compares every user’s answers for the plot’s questions."
-msgstr ""
+msgstr "Une fois que les données du projet ont été collectées en utilisant une approche de contrôle de qualité, Les administrateurs peuvent appuyer sur le bouton **[Voir les désaccords]** pour afficher une nouvelle fenêtre qui compare les réponses de chaque utilisateur pour les questions de l'intrigue."
 
 #: ../../project/reviewdata.rst:24 f117ef8bc9eb4f548c12f1e05356795a
 msgid "This navigation mode is particularly useful for situations where administrators are identifying difficult plots to identify, difficult classes to identify, or are holding a group meeting to work through the identification of plots with high disagreement."
-msgstr ""
+msgstr "Ce mode de navigation est particulièrement utile pour les situations où les administrateurs identifient des parcelles difficiles à identifier, des classes difficiles à identifier, ou organisent une réunion de groupe pour travailler à travers l'identification des parcelles avec un désaccord élevé."
 
 #: ../../project/reviewdata.rst:26 44c5577a29bd4eb5b125142f317ef597
 msgid "In addition, administrators can Navigate through unanalyzed plots, all analyzed plots, flagged plots, low confidence plots, and individual users’ plots."
-msgstr ""
+msgstr "En outre, les administrateurs peuvent naviguer à travers des parcelles non analysées, tous les points analysés, les parcelles marquées, les parcelles de faible confiance et les parcelles des utilisateurs individuels."
 
