@@ -78,21 +78,6 @@ The navigation options are disabled for Simplified projects.
 
 - Click **[Interpretation Instructions]** to open a pop-up window with instructions on how to collect data for the project. These instructions are provided by the administrators leading the project. This information can be useful if you are unsure how to answer the survey questions.
 
-**Survey Questions**
-
-- This is the area to answer the project’s **Survey Questions**.
-
-.. thumbnail:: ../_images/simplified1.png
-  :title: The panel to answer survey questions.
-  :width: 60%
-  :align: center
-
-- Each project has a different set of numbered survey questions (in the example only “1” question is in the project).
-- You can navigate between questions using the forward and back arrows or the numbers.
-- The **[Unanswered Color]** radio button changes the color of the survey shapes.
-- The **[Save]** button will save your survey answers (it only becomes active when all shapes have been interpreted).
-- **[Quit]** will return you to CEO’s **Home** page. If you try to leave the page without saving your answers, you will receive a warning and reminder to save your answers if appropriate.
-
 **User-drawn samples**
 
 - Simplified projects rely on user drawn samples. You will need to draw points, lines, or polygons on the map before you can answer the survey questions.
@@ -112,6 +97,21 @@ The navigation options are disabled for Simplified projects.
    :align: center
 
 - You can switch between the different shapes by clicking on their respective icons. Note that the project administrator may have restricted the types of geometries (point, line, polygon) that you can create.
+
+**Survey Questions**
+
+- This is the area to answer the project’s **Survey Questions**.
+
+.. thumbnail:: ../_images/simplified1.png
+  :title: The panel to answer survey questions.
+  :width: 60%
+  :align: center
+
+- Each project has a different set of numbered survey questions (in the example only “1” question is in the project).
+- You can navigate between questions using the forward and back arrows or the numbers.
+- The **[Unanswered Color]** radio button changes the color of the survey shapes.
+- The **[Save]** button will save your survey answers (it only becomes active when all shapes have been interpreted).
+- **[Quit]** will return you to CEO’s **Home** page. If you try to leave the page without saving your answers, you will receive a warning and reminder to save your answers if appropriate.
 
 **Imagery Selection Pane**
 

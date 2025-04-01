@@ -9,7 +9,7 @@
 project = 'Collect Earth Online'
 copyright = '2025, Collect Earth Online team'
 author = 'Collect Earth Online team'
-release = 'v 0.8'
+release = 'v 1.0.0'
 
 # -- Path setup ----------------------------------------------------------------
 import sys, os
