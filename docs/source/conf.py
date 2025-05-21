@@ -120,7 +120,8 @@ html_theme_options = {
     ],
     "use_edit_page_button": True,
     "article_footer_items": ["last-updated"],
-
+    "announcement": "Planet NICFI data is no longer available in CEO because the NICFI Satellite Data Program ended on April 1, 2025. Previous connection instructions are now obsolete. We will update the documentation once the new NICFI data program begins. Thank you for your patience."
+    
 }
 
 # -- option for the favicon extention ------------------------------------------

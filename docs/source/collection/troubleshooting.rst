@@ -49,11 +49,6 @@ Report an issue and request new features
 
 There are multiple ways to get in touch with us if you are still having an issue or would like to request a new feature.
 
-1. You can ask questions on the OpenForis forum, which is available at http://www.openforis.org/support.
-2. You can also visit our GitHub issues page at https://github.com/openforis/collect-earth-online/issues. You will have to either log in or set up a GitHub account in order to log an issue. By logging in, the development team can contact you in case they need additional information to provide a solution to the issue or feature suggestion.
-
-   - When you have a GitHub account, `navigate to the CEO GitHub Page <https://github.com/openforis/collect-earth-online/issues>`__.
-   - To log an issue or request a new CEO feature, simply click on the green **[New issue]** button in the upper right-hand portion of the screen.
-   - Type in a title that conveys the topic of the issue or request.
-   - Then below, type in a detailed message summarizing the issue you have encountered.
-   - Once you have finished providing the details, click the green **[Submit new issue]** button. This will log your request.
+1. Email us at :email:`support@collect.earth`! We will respond to your email as soon as possible. Please provide as much detail as possible about the issue you are experiencing or the feature you would like to request.
+2. You can ask questions on the OpenForis forum, which is available at `<http://www.openforis.org/support>`__. Please tag your question with **collectearthonline**. This is a great way to get help from the community and other users. You can also search for existing questions and answers that may help you.
+3. You can also visit our GitHub issues page at `<https://github.com/openforis/collect-earth-online/issues>`__. Please include the steps you took to reproduce the issue, and any screenshots or error messages that may help us understand the problem. If you are requesting a new feature, please provide as much detail as possible about what you would like to see.

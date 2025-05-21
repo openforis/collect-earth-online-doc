@@ -42,8 +42,6 @@ Create your account and get started with CEO.
 
       Set up your own institution in CEO.
 
-.. line-break::
-
 Learn more about CEO
 --------------------
 
