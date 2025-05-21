@@ -68,14 +68,11 @@ html_js_files = ["https://unpkg.com/leaflet@1.7.1/dist/leaflet.js", "js/custom.j
 
 # -- Option for Latex output ---------------------------------------------------
 
-<<<<<<< Updated upstream
-=======
 latex_engine = "xelatex"
 latex_show_pagerefs = True
 latex_show_urls = "footnote"
 
 
->>>>>>> Stashed changes
 youtube_cmd = (
     r"\newcommand{\sphinxcontribyoutube}[3]{\begin{figure}\sphinxincludegraphics{{#2}.jpg}\caption{\url{#1#2#3}}\end{figure}}"
     + "\n"
