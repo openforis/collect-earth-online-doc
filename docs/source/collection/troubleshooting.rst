@@ -49,6 +49,6 @@ Report an issue and request new features
 
 There are multiple ways to get in touch with us if you are still having an issue or would like to request a new feature.
 
-1. Email us at :email:`support@collect.earth`! We will respond to your email as soon as possible. Please provide as much detail as possible about the issue you are experiencing or the feature you would like to request.
+1. Email `the CEO team <support@collect.earth>`__! We will respond to your email as soon as possible. Please provide as much detail as possible about the issue you are experiencing or the feature you would like to request.
 2. You can ask questions on the OpenForis forum, which is available at `<http://www.openforis.org/support>`__. Please tag your question with **collectearthonline**. This is a great way to get help from the community and other users. You can also search for existing questions and answers that may help you.
 3. You can also visit our GitHub issues page at `<https://github.com/openforis/collect-earth-online/issues>`__. Please include the steps you took to reproduce the issue, and any screenshots or error messages that may help us understand the problem. If you are requesting a new feature, please provide as much detail as possible about what you would like to see.

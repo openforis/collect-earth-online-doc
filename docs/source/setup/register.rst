@@ -1,4 +1,4 @@
-A quick introduction to Collect Earth Online
+A Quick Introduction to Collect Earth Online
 ============================================
 
 Setting up your account
