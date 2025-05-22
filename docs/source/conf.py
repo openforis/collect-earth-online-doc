@@ -31,7 +31,7 @@ extensions = [
     "sphinxcontrib.youtube",
     "sphinxcontrib.bibtex",
     "sphinx_design",
-    "sphinx_togglebutton",
+#    "sphinx_togglebutton",
     "sphinx_favicon",
     "sphinx_last_updated_by_git",
 #    "notfound.extension",
