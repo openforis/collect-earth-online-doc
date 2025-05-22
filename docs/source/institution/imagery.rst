@@ -1,7 +1,11 @@
 Built-in & custom imagery sources
 =================================
 
-There are two main ways to add background, or basemap imagery to your Institution for use in your Projects. First, CEO includes a handful of built-in imagery options, including imagery from MapBox, Planet NICFI Public, and Sentinel. Second, CEO allows users to connect their own imagery from many different sources, including Google Earth Engine, Bing Maps, XYZ tiles, WMS and more.
+There are two main ways to add background, or basemap imagery to your Institution for use in your Projects. First, CEO includes a handful of built-in imagery options, including imagery from MapBox and Sentinel. Second, CEO allows users to connect their own imagery from many different sources, including Google Earth Engine, Bing Maps, XYZ tiles, WMS and more.
+
+.. warning::
+
+   Planet NICFI Public imagery is no longer available in CEO because the NICFI Satellite Data Program ended on April 1, 2025. We will update the documentation once the new NICFI data program begins. For further assistance, please visit: https://www.planet.com/tropical-forest-observatory/.
 
 Built-in base imagery sources
 -----------------------------
