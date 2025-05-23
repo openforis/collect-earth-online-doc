@@ -50,7 +50,7 @@ Next, examine the important links for your project:
 - **Edit Project**: This button will take you back to the project creation wizard (see :doc:`create`).
 
   - When your project is in DRAFT MODE, you can change all aspects of your project.
-  - When your project is PUBLISHED, you can change the **Project Name, Description, and Privacy Level**.
+  - When your project is PUBLISHED, you can change the **Project Name, Description, Privacy Level,** along with **Project Options** and **Imagery**.
 
 - **Delete Project**: This will **permanently delete** your project.
 
@@ -69,6 +69,10 @@ External Links
     :title: The project dashboard.
     :align: center
     :width: 90%
+
+- **QAQC Dashboard:** Clicking on **[QAQC Dashboard]** will take you to the QAQC dashboard. This dashboard is only available if you have implemented QAQC in your project. For more detail, please see :doc:`/project/qaqc`. 
+  
+  The QAQC Dashboard has three tabs. 
 
 Export Data
 ^^^^^^^^^^^
