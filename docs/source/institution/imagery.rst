@@ -7,7 +7,7 @@ There are two main ways to add background, or basemap imagery to your Institutio
 
    Planet NICFI Public imagery is no longer available in CEO because the NICFI Satellite Data Program ended on April 1, 2025. We will update the documentation once the new NICFI data program begins. For further assistance, please visit: https://www.planet.com/tropical-forest-observatory/.
 
-.. note::
+.. warning::
     
     Maxar has eliminated multiple data products that were previously available on CEO, including: DigitalGlobeRecentIMagery; DigitalGlobeRecentImagery+Streets; DigitalGlobeWMSImagery; and EarthWatch. 
     

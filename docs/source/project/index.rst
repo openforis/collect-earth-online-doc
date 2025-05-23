@@ -31,6 +31,8 @@ Finally, CEO is a live tool that is under continuous development. Please report 
    :hidden:
 
    create
+   projectoverview
+   imageryselection
    plotsample
    qaqc
    survey

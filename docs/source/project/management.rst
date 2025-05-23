@@ -13,6 +13,12 @@ The **Project Detail** pane includes an overview of your project, including samp
 - The **Collection Design** will now show the location of a subset of your plots (a maximum number can be displayed). 
 - The **Plot Design** and **Sample Design** sections will show a summary of the choices you made or the .csv and .shp files you uploaded. 
 - **Survey Questions** shows all the **Survey Cards** you created, along with the corresponding **Component Type, Answers, and Rules.**
+- You can preview the **Learning Material** by using the **[View Interpretation Instructions]** button. This feature can be implemented in existing projects by editing the project and adding text to the **Learning Materials** text box.
+
+  .. thumbnail:: ../_images/project5-3.png
+     :title: Preview your material by clicking on the View Interpretation Instructions button in the Project Details pane.
+     :align: center
+     :width: 50%
 
 Project Management
 ------------------

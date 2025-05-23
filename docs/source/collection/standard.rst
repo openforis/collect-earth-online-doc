@@ -13,7 +13,7 @@ Data collection for Standard projects follows four basic steps:
 The analysis screen
 -------------------
 
-First, make sure you clicked the **[Go to first plot]** button.
+First, go to a plot. You can click the **[Go to first plot]** button or select a plot from the map, depending on your project. CEO will load the plot and enable you to start collecting data.
 
 Now we will familiarize ourselves with the analysis screen. 
 
@@ -90,9 +90,11 @@ As an institution Administrator, the **Navigate Through** dropdown menu ALSO all
     :width: 60%
     :align: center
 
-- The **Go to GEE Script** button may or may not be present on your dashboard. If it is present, it will take you to an Earth Engine Apps website displaying additional data about the plot.
+- You can also click **[Google Earth Web]** to open the plot in Google Earth's web interface. Here, you can use Google Earth's historical imagery to view changes over time and gain additional context for your analysis. To turn on historical imagery in Google Earth Web, click on the Layers icon in the lower right and toggle the Historical Imagery option. Your administrator may also set up a Reference Project for you to use. This can also be accessed under the Layers menu.
+- Click **[Interpretation Instructions]** to open a pop-up window with instructions on how to collect data for the project. These instructions are provided by the administrators leading the project. This information can be useful if you are unsure how to answer the survey questions.
+- The **[Go to GEE Script]** button may or may not be present on your dashboard. If it is present, it will take you to an Earth Engine Apps website displaying additional data about the plot.
 
-  - This screen will have 6 panels. On the far left, there is a Sentinel 2 composite of the last 12 months. They are colored as infrared color composite (near infrared, mid infrared, red). Reddish brown is forest, agriculture, grass, and shrubs are a lighter shade of orange. Water is purple, and urban areas are shades of blue and green.
+  - This screen will have multiple panels. On the far left, there is a Sentinel 2 composite of the last 12 months. They are colored as infrared color composite (near infrared, mid infrared, red). Reddish brown is forest, agriculture, grass, and shrubs are a lighter shade of orange. Water is purple, and urban areas are shades of blue and green.
   - In the center are Landsat 8 and Landsat 7 Color Yearly mosaics, with a slider so you can choose between years.
   - On the right are NDVI graphs of the plot from MODIS, Landsat 7/8, and Sentinel 2. For the Landsat 7/8 and Sentinel graphs, you can click a point on the graphs to load specific images in the left and center panels.
 
@@ -112,6 +114,13 @@ As an institution Administrator, the **Navigate Through** dropdown menu ALSO all
    
    Some imagery servers are slow. Please be patient when switching to sources like Planet Daily, since their servers can take about 30 seconds to respond to queries sent by the CEO platform.
 
+- The **[Enable Map Grid]** button will add a grid to the map window that changes size depending on the level of zoom. This can be useful for orienting yourself in the map window and for determining the size of the sample plot. This grid function can help data collectors estimate things like percent land cover for plots and samples.
+
+.. thumbnail:: ../_images/preparing10-1.png
+   :title: The map grid. Grid overlay changes size depending on the level of zoom.
+   :width: 60%
+   :align: center
+
 **Survey Questions**
 
 - This is the area to answer the project’s **Survey Questions**.
@@ -124,7 +133,7 @@ As an institution Administrator, the **Navigate Through** dropdown menu ALSO all
 - Each project has a different set of numbered survey questions (in the example only “1” question is in the project).
 - You can navigate between questions using the forward and back arrows or the numbers.
 - The **Unanswered Color** radio button changes the color of the survey points.
-- Your project may have a **confidence slider**.
+- Your project may have a **Plot Confidence** slider. There is also an optional comment box to describe your plot confidence.
 - The **Save** button will save your survey answers and move on to the next point (it only becomes active when all points have been interpreted).
 - **Flag Plot** is used when a survey question cannot be answered, either because the imagery is not of high enough quality or there is another problem; this will advance to the next plot. When you flag a plot, a text box will appear so that you can type in why you flagged the plot. For example, you might write “Cloud” if there is a cloud in the imagery over the plot.
 - **Clear All** erases all your survey question answers for this plot.
@@ -159,7 +168,7 @@ The **GeoDash** pop-up window will also open with information about the plot if 
 Analyze plots
 -------------
 
-Now it is time to contribute to a project. Make sure you have clicked on **Go to first plot**.
+Now it is time to contribute to a project. Make sure you have clicked on **Go to first plot** or selected a plot from the map.
 
 1. Read the first Survey Question and the possible answers.
 2. If you want to assign the same class or answer to ALL points in the plot (prior to having applied an answer to any of the points), you can just click on the answer without first needing to select the points.
