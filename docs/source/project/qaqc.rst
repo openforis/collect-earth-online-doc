@@ -54,3 +54,5 @@ You can also implement quality control measures using one of the **Quality Modes
 
 When you implement Quality Control, you will be able to use the QAQC Administrator Review Mode. See :doc:`/project/reviewdata` for more information.
 
+You will also be able to use the QAQC Dashboard. See :doc:`/project/qaqcdashboard` for more information.
+

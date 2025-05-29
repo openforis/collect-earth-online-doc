@@ -1,5 +1,35 @@
-Advanced plot analysis
+Advanced Plot Analysis
 ======================
+
+The GEE Script Window
+---------------------
+
+The **[Go to GEE Script]** button may or may not be present on your dashboard. If it is present, it will take you to an Earth Engine Apps website displaying additional data about the plot. 
+
+.. thumbnail:: ../_images/project6-1.png
+   :title: Go to GEE Script button.
+   :align: center
+   :width: 50%
+
+There are multiple interactive panels. 
+
+.. note::  When the page first loads there will only be two panels of imagery displayed. You will need to select a plot from the vegetation time series graphs on the right hand side of the page to load the imagery in the bottom left and center panels.
+
+.. thumbnail:: ../_images/project7-0.png
+   :title: The GEE Script page when first loaded.
+   :align: center
+   :width: 100%
+
+In the upper left, there is a Sentinel 2 composite of the last 12 months. It is colored using an infrared color composite (near infrared, mid infrared, red). Reddish brown is forest, agriculture, grass, and shrubs are a lighter shade of orange. Water is purple, and urban areas are shades of blue and green.
+
+In the upper center is a Landsat 8 False Color Yearly mosaic. Underneath these are Landsat 5 and Landsat 7 imagery. These plots may not have any images when first loaded. Instead, look at the right hand side of the page. There are five vegetation time series graphs. The top graph is from MODIS, then going down Landsat 5/7/8 NDVI, Sentinel-2 NDVI, Landsat 5/7/8 NDMI, and Sentinel-2 NDMI. Clicking on a point in the graphs will load the corresponding images in the appropriate imagery panels.
+
+.. thumbnail:: ../_images/project7-1.png
+   :title: The GEE Script page after selecting points on the time series graphs.
+   :align: center
+   :width: 100%
+
+
 
 Multiple time periods
 ---------------------

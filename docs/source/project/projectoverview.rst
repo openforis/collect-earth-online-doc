@@ -120,19 +120,28 @@ Project Options
 
   This allows users in Data Collection to click on a button labeled **[Go to GEE Script]**.
 
-  .. thumbnail:: ../_images/project6.png
+  .. thumbnail:: ../_images/project6-1.png
       :title: Go to GEE Script button.
       :align: center
       :width: 50%
 
   This button will take them to a Google Earth Engine website with additional information about the plot. 
 
-  .. thumbnail:: ../_images/project7.png
-      :title: The GEE Script page.
+  .. thumbnail:: ../_images/project7-0.png
+      :title: The GEE Script page when first loaded.
       :align: center
       :width: 100%
 
-  There are multiple panels. On the far left, there is a Sentinel 2 composite of the last 12 months. It is colored using an infrared color composite (near infrared, mid infrared, red). In the center are Landsat 8 and Landsat 7 Color Yearly mosaics, with a slider so you can choose between years. On the right are NDVI graphs of the plot from MODIS, Landsat 7/8, and Sentinel 2. For the Landsat 7/8 and Sentinel graphs, you can click a point on the graphs to load specific images in the left and center panels.
+  There are multiple interactive panels. 
+  
+  .. note::  When the page first loads there will only be two panels of imagery displayed. You will need to select a plot from the vegetation time series graphs on the right hand side of the page to load the imagery in the bottom left and center panels.
+  
+  In the upper left, there is a Sentinel 2 composite of the last 12 months. It is colored using an infrared color composite (near infrared, mid infrared, red). In the upper center is a Landsat 8 False Color Yearly mosaic. Underneath these are Landsat 5 and Landsat 7 imagery. These plots may not have any images when first loaded. Instead, look at the right hand side of the page. There are five vegetation time series graphs. The top graph is from MODIS, then going down Landsat 5/7/8 NDVI, Sentinel-2 NDVI, Landsat 5/7/8 NDMI, and Sentinel-2 NDMI. Clicking on a point in the graphs will load the corresponding images in the appropriate imagery panels.
+
+   .. thumbnail:: ../_images/project7-1.png
+      :title: The GEE Script page after selecting points on the time series graphs.
+      :align: center
+      :width: 100%
 
 - The second option is **Show Extra Plot Columns on Collection Page**. This option is only useful if you are using .csv or .shp files to define your **Plot Design**.
     

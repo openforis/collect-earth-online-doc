@@ -49,54 +49,65 @@ Options and Survey Questions
 
 On the right-hand side are all of the navigation, external tool options, imagery options, and survey questions.
 
-**Navigation options:**
+**Navigation Options**
 
-As an institution Member, the **Navigate Through** dropdown menu allows you to choose between:
+As an institution Member, the **Navigate:** dropdown menu allows you to choose between:
 
 - **Default**: This will navigate through plots assigned to you and any available unanalyzed plots. In general, you will not need to switch the navigation mode from this option.
 - **Unanalyzed Plots**: This option allows you to collect data on unanalyzed plots to contribute to your project.
 - **Analyzed plots**: Review your previously analyzed plots. This option will allow you to correct mistakes etc. for previously analyzed plots.
 - **Flagged plots**: Review plots you have flagged. 
 
-.. thumbnail:: ../_images/preparing7.png
+.. thumbnail:: ../_images/preparing7-1.png
    :title: Institution member navigation options.
    :width: 60%
    :align: center
 
-As an institution Administrator, the **Navigate Through** dropdown menu ALSO allows you to choose between:
+As an institution Administrator, the **Navigate:** dropdown menu allows you to choose between:
 
+- **Unanalyzed Plots**: Examine plots that have not been analyzed by any user.
 - **Analyzed plots**: Examine plots analyzed by any user.
 - **Flagged plots**: Examine plots flagged by any user. 
 - **Low Confidence**: Examine plots with low plot confidence.
 - **User:** Examine plots collected by any user. A dropdown menu allows you to choose which user.
 - **QA/QC:** Examine plots where the collected answers have more than a specified level of disagreement. You can also click the **View Disagreements** button to examine user’s responses side by side in a separate window. See the Institution and Project Creation manual for more information.
 
-.. thumbnail:: ../_images/preparing8.png
+Some of these options may not be available, depending on the settings of your project.
+
+.. thumbnail:: ../_images/preparing8-1.png
    :title: Navigation options for Institution administrators.
    :align: center
    :width: 60%
 
 - Under this dropdown menu is the **Plot ID number**.
-- The navigation menu contains blue **forward** and **backward** buttons to navigate to different plots, as well as a text box where you can enter a plot ID number and then click **[Go to plot]** to navigate to a specific plot.
+- The navigation menu contains blue **[forward]** and **[backward]** buttons to navigate to different plots, as well as a text box where you can enter a plot ID number and then click **[Go to plot]** to navigate to a specific plot.
 
-**External Tools options:**
+**External Tools Options**
 
 - Click **[Re-Zoom]** to return your focus to the focus plot
-- **Click [Geodash]** to open the **GeoDash** pane with additional information about the plot, if it is available for the project (For more detail see :doc:`geodash`).
+- **Click [GeoDash]** to open the **GeoDash** pane with additional information about the plot, if it is available for the project (For more detail see :doc:`geodash`).
+- **[Hide Samples]**: This button will hide the sample points in the map window. This can be useful if you want to see the plot without the sample points obscuring the imagery.
+- **[Hide Boundary]**: This button will hide the boundary of the plot in the map window.
 - You can click **[Download Plot KML]** to download a KML file with the plot information. Downloading the KML allows you to transfer the plot information to another program, such as Google Earth Desktop. Importantly, the KML functionality allows users to determine the coordinates (latitude and longitude) at which points of interest are located.
 
- .. thumbnail:: ../_images/preparing9.png
+ .. thumbnail:: ../_images/preparing9-1.png
     :title: External tools option.
     :width: 60%
     :align: center
 
-- You can also click **[Google Earth Web]** to open the plot in Google Earth's web interface. Here, you can use Google Earth's historical imagery to view changes over time and gain additional context for your analysis. To turn on historical imagery in Google Earth Web, click on the Layers icon in the lower right and toggle the Historical Imagery option. Your administrator may also set up a Reference Project for you to use. This can also be accessed under the Layers menu.
+- The **[Go to GEE Script]** button may or may not be present on your dashboard. If it is present, it will take you to an Earth Engine Apps website displaying additional data about the plot. You can learn more about this feature in the :doc:`/collection/advanced` section of the documentation.
 - Click **[Interpretation Instructions]** to open a pop-up window with instructions on how to collect data for the project. These instructions are provided by the administrators leading the project. This information can be useful if you are unsure how to answer the survey questions.
-- The **[Go to GEE Script]** button may or may not be present on your dashboard. If it is present, it will take you to an Earth Engine Apps website displaying additional data about the plot.
+- You can click **[Google Earth Web]** to open the plot in Google Earth's web interface. Similar to Google Earth Desktop, you can use Google Earth's historical imagery to view changes over time and gain additional context for your analysis. To turn on historical imagery in Google Earth Web, click on the Layers icon in the lower right and toggle the Historical Imagery option. Your administrator may also set up a Reference Project for you to use. This can also be accessed under the Layers menu.
 
-  - This screen will have multiple panels. On the far left, there is a Sentinel 2 composite of the last 12 months. They are colored as infrared color composite (near infrared, mid infrared, red). Reddish brown is forest, agriculture, grass, and shrubs are a lighter shade of orange. Water is purple, and urban areas are shades of blue and green.
-  - In the center are Landsat 8 and Landsat 7 Color Yearly mosaics, with a slider so you can choose between years.
-  - On the right are NDVI graphs of the plot from MODIS, Landsat 7/8, and Sentinel 2. For the Landsat 7/8 and Sentinel graphs, you can click a point on the graphs to load specific images in the left and center panels.
+
+**Plot Information**
+
+If your administrator has set up the project to include plot information, you will see a **Plot Information** panel. This panel contains relevant information about the plot that your administrator has included. This section is collapsed by default, but you can click on the **[Plot Information]** arrow button to expand it.
+
+.. thumbnail:: ../_images/preparing9-2.png
+   :title: Plot information panel.
+   :width: 60%
+   :align: center
 
 **Imagery Options**
 

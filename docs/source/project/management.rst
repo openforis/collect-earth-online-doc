@@ -70,9 +70,8 @@ External Links
     :align: center
     :width: 90%
 
-- **QAQC Dashboard:** Clicking on **[QAQC Dashboard]** will take you to the QAQC dashboard. This dashboard is only available if you have implemented QAQC in your project. For more detail, please see :doc:`/project/qaqc`. 
-  
-  The QAQC Dashboard has three tabs. 
+- **QAQC Dashboard:** Clicking on **[QAQC Dashboard]** will take you to the QAQC dashboard. This dashboard is only available if you have implemented QAQC in your project. Learn more about the QAQC dashboard, please see :doc:`/project/qaqcdashboard`. For more detail on how to implement QAQC, please see :doc:`/project/qaqc`.
+
 
 Export Data
 ^^^^^^^^^^^
