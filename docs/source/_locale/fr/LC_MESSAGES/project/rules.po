@@ -1,154 +1,108 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, Collect Earth Online team
-# This file is distributed under the same license as the Collect Earth
-# Online package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Collect Earth Online \n"
+"Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2025-01-30 21:53\n"
+"Last-Translator: \n"
 "Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
+"Language-Team: French\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
+"X-Crowdin-Project: collect-earth-online-doc\n"
+"X-Crowdin-Project-ID: 647276\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /main/docs/source/_locale/en/LC_MESSAGES/project/rules.po\n"
+"X-Crowdin-File-ID: 72\n"
 
 #: ../../project/rules.rst:2 beaa7b7852de4e68999298f3e1712de1
 msgid "Survey Rules"
-msgstr ""
+msgstr "Règles d'Enquête"
 
 #: ../../project/rules.rst:4 3824fbf184bb4a23bf8113068b904148
-msgid ""
-"Survey rules help ensure users collect logical and correct answers. If "
-"you do not want to add any rules, you can just click **[Next]**."
-msgstr ""
+msgid "Survey rules help ensure users collect logical and correct answers. If you do not want to add any rules, you can just click **[Next]**."
+msgstr "Les règles de sondage permettent de s'assurer que les utilisateurs obtiennent des réponses logiques et correctes. Si vous ne voulez pas ajouter de règles, vous pouvez simplement cliquer sur **[Next]**."
 
 #: ../../project/rules.rst:7 f070e3104efa4b07ab4e5c46a9ec652c
 msgid "Rule Types"
-msgstr ""
+msgstr "Types de Règles"
 
 #: ../../project/rules.rst:9 0c5bd6522f184347a871c62b64b07f69
-msgid ""
-"You can select one of multiple different rule types, depending on your "
-"needs and the types of questions you have included in your Survey."
-msgstr ""
+msgid "You can select one of multiple different rule types, depending on your needs and the types of questions you have included in your Survey."
+msgstr "Vous pouvez sélectionner un des différents types de règles, en fonction de vos besoins et des types de questions que vous avez inclus dans votre sondage."
 
 #: ../../project/rules.rst:16 97f41cff2118405abdd7db697535d232
-msgid ""
-"**Text Regex Match**: This rule applies only to **Input—text** questions "
-"& their answers. It allows you to verify if the entered value fits, using"
-" regular expressions."
-msgstr ""
+msgid "**Text Regex Match**: This rule applies only to **Input—text** questions & their answers. It allows you to verify if the entered value fits, using regular expressions."
+msgstr "**Text Regex Match** : Cette règle s'applique uniquement aux questions **Input—Texte** et à leurs réponses. Il vous permet de vérifier si la valeur saisie convient, en utilisant des expressions régulières."
 
 #: ../../project/rules.rst:19 7559fd85ee29406e9c7006fa30667936
-msgid ""
-"Unless you have a specific reason to use the **Input—text** question "
-"type, consider using **Button—text** or **Radiobutton—text** instead. "
-"These options are easier for users and will always provide exact text."
-msgstr ""
+msgid "Unless you have a specific reason to use the **Input—text** question type, consider using **Button—text** or **Radiobutton—text** instead. These options are easier for users and will always provide exact text."
+msgstr "Sauf si vous avez une raison spécifique d'utiliser le type de question **Input—text** , pensez à utiliser **Button—text** ou **Radiobutton—text** à la place. Ces options sont plus faciles pour les utilisateurs et fourniront toujours du texte exact."
 
 #: ../../project/rules.rst:21 99553c5ef9f444329c1dc59094c2114c
-msgid ""
-"This rule uses the JavaScript RegExp function, documentation for writing "
-"a regular expression can be found here: https://developer.mozilla.org/en-"
-"US/docs/Web/JavaScript/Guide/Regular_Expressions."
-msgstr ""
+msgid "This rule uses the JavaScript RegExp function, documentation for writing a regular expression can be found here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions."
+msgstr "Cette règle utilise la fonction JavaScript RegExp, la documentation pour écrire une expression régulière peut être trouvée ici : https://developer.mozilla.org/fr-US/docs/Web/JavaScript/Guide/Regular_Expressions."
 
 #: ../../project/rules.rst:23 6f736e66318b438e8148d35d5e6468fc
-msgid ""
-"**Numeric Range:** This rule applies to **Input—number** questions & "
-"their answers. With this rule, you can verify that the numeric input "
-"falls within a predefined range."
-msgstr ""
+msgid "**Numeric Range:** This rule applies to **Input—number** questions & their answers. With this rule, you can verify that the numeric input falls within a predefined range."
+msgstr "**Plage numérique :** Cette règle s'applique aux questions **Input—number** et à leurs réponses. Avec cette règle, vous pouvez vérifier que l'entrée numérique entre dans une plage prédéfinie."
 
 #: ../../project/rules.rst:25 e9ed2f42691a41a49089ed3179f9be69
-msgid ""
-"For example, if you are asking about the proportion of points in the plot"
-" that contain trees, you could constrain the answers between 0 and 1."
-msgstr ""
+msgid "For example, if you are asking about the proportion of points in the plot that contain trees, you could constrain the answers between 0 and 1."
+msgstr "Par exemple, si vous posez une question sur la proportion de points dans la parcelle qui contient des arbres, vous pourriez contraindre les réponses entre 0 et 1."
 
 #: ../../project/rules.rst:27 c01ca2fe34a446e191e21da4f88abcef
-msgid ""
-"**Sum of Answers:** This rule applies to any **number** type questions & "
-"their answers. You select multiple questions (2 or more) and specify what"
-" the questions should sum to."
-msgstr ""
+msgid "**Sum of Answers:** This rule applies to any **number** type questions & their answers. You select multiple questions (2 or more) and specify what the questions should sum to."
+msgstr "**Somme des réponses:** Cette règle s'applique à n'importe quel **nombre** type de questions et à leurs réponses. Vous sélectionnez plusieurs questions (2 ou plus) et spécifiez la somme des questions."
 
 #: ../../project/rules.rst:29 35cfcb67b21d43ebb65ac65ff47e8ee2
-msgid ""
-"For example, this is helpful if you have multiple questions asking about "
-"percent of land cover, where the sum should be 100%."
-msgstr ""
+msgid "For example, this is helpful if you have multiple questions asking about percent of land cover, where the sum should be 100%."
+msgstr "Par exemple, cela est utile si vous avez des questions multiples qui posent environ le pourcentage de la couverture des terres, où la somme devrait être de 100 %."
 
 #: ../../project/rules.rst:31 59615397907c4b4ca0ea24a4edc25aff
-msgid ""
-"**Matching sums:** This rule applies to any **number** type questions & "
-"their answers. With this rule, you specify two sets of multiple questions"
-" (2 or more) that should have equal sums."
-msgstr ""
+msgid "**Matching sums:** This rule applies to any **number** type questions & their answers. With this rule, you specify two sets of multiple questions (2 or more) that should have equal sums."
+msgstr "**Sommes correspondantes :** Cette règle s'applique à toutes les questions de type **nombre** et à leurs réponses. Avec cette règle, vous spécifiez deux séries de questions multiples (2 ou plus) qui devraient avoir des sommes égales."
 
 #: ../../project/rules.rst:33 3bfce10ef26e49119009ccd8841cf548
-msgid ""
-"**Incompatible answers:** This rule can apply to any type of question. It"
-" allows the user to define incompatible sets of answers."
-msgstr ""
+msgid "**Incompatible answers:** This rule can apply to any type of question. It allows the user to define incompatible sets of answers."
+msgstr "**Réponses incompatibles :** Cette règle peut s'appliquer à n'importe quel type de question. Elle permet à l'utilisateur de définir des ensembles de réponses incompatibles."
 
 #: ../../project/rules.rst:35 55aee37c6d9a475b80c19a0aaabde0bf
-msgid ""
-"For example, if the answer to one question is land cover = “Water”, the "
-"answer to another question could not be land use = “Industrial”."
-msgstr ""
+msgid "For example, if the answer to one question is land cover = “Water”, the answer to another question could not be land use = “Industrial”."
+msgstr "Par exemple, si la réponse à une question est la couverture terrestre = « Eau », la réponse à une autre question ne pourrait pas être l'utilisation des terres = « Industrielle »."
 
 #: ../../project/rules.rst:37 823586918cb543faaf603937cbd5121c
-msgid ""
-"**Multiple incompatable answers:** This rule limits what answers can be "
-"chosen based on the answers for multiple other questions."
-msgstr ""
+msgid "**Multiple incompatable answers:** This rule limits what answers can be chosen based on the answers for multiple other questions."
+msgstr "**Plusieurs réponses incompactables :** Cette règle limite les réponses qui peuvent être choisies en fonction des réponses à plusieurs autres questions."
 
 #: ../../project/rules.rst:39 204016f075874d16b4a6baa867954a98
-msgid ""
-"For example, if you answer \"landcover start = forest\" and \"change "
-"event = deforestation\", then \"landcover end\" CANNOT equal \"forest\"."
-msgstr ""
+msgid "For example, if you answer \"landcover start = forest\" and \"change event = deforestation\", then \"landcover end\" CANNOT equal \"forest\"."
+msgstr "Par exemple, si vous répondez \"landcover start = forest\" et \"change event = deforestation\", alors \"landcover end\" NE PEUT PAS égaler \"forest\"."
 
 #: ../../project/rules.rst:42 a7923221081c4aca834779663264115c
 msgid "Rule Preview"
-msgstr ""
+msgstr "Aperçu de la règle"
 
 #: ../../project/rules.rst:44 1eaf1972da9747ac9b947356a891c10c
-msgid ""
-"You can preview how the rules will look for users in the **Question "
-"Preview** pane by mousing over and clicking on the **[Rule]** icon "
-"(clipboard)."
-msgstr ""
+msgid "You can preview how the rules will look for users in the **Question Preview** pane by mousing over and clicking on the **[Rule]** icon (clipboard)."
+msgstr "Vous pouvez prévisualiser à quoi les règles vont ressembler pour les utilisateurs dans le volet **Aperçu de la question** en cliquant sur l'icône **[Rule]** (presse-papiers)."
 
 #: ../../project/rules.rst:51 c414ccf02e874afb9b21e07fe92c4960
 msgid "Clicking on the **[Rule]** icon will show a list of rules."
-msgstr ""
+msgstr "Cliquer sur l'icône **[Rule]** affichera une liste de règles."
 
 #: ../../project/rules.rst:58 0d05bfd20dd64f698c0470d008ff8cb1
-msgid ""
-"Navigating back to the Survey Questions tab will also show when questions"
-" have Rules associated with them. Mousing over the **[Rule]** icon will "
-"display the rule text."
-msgstr ""
+msgid "Navigating back to the Survey Questions tab will also show when questions have Rules associated with them. Mousing over the **[Rule]** icon will display the rule text."
+msgstr "Retourner à l’onglet Questions de l’Enquête s’affichera également lorsque les questions ont des règles qui y sont associées. Mousse au-dessus de l'icône **[Rule]** affichera le texte de la règle."
 
 #: ../../project/rules.rst:65 25c236e4ff7644c2b9da4ae1eed46d67
-msgid ""
-"Data collectors will be able to view any rules you implement by mousing "
-"over the **[Rule]** icon."
-msgstr ""
+msgid "Data collectors will be able to view any rules you implement by mousing over the **[Rule]** icon."
+msgstr "Les collecteurs de données seront en mesure de voir toutes les règles que vous implémentez en se moquant de l'icône **[Rule]**."
 
 #: ../../project/rules.rst:72 bf8bf70176ce44498eee5069a361e540
-msgid ""
-"They will see an error if they try to enter an answer that conflicts with"
-" the rules."
-msgstr ""
+msgid "They will see an error if they try to enter an answer that conflicts with the rules."
+msgstr "Ils verront une erreur s'ils essaient d'entrer une réponse qui entre en conflit avec les règles."
 

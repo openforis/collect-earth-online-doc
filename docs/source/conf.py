@@ -72,7 +72,6 @@ latex_engine = "xelatex"
 latex_show_pagerefs = True
 latex_show_urls = "footnote"
 
-
 youtube_cmd = (
     r"\newcommand{\sphinxcontribyoutube}[3]{\begin{figure}\sphinxincludegraphics{{#2}.jpg}\caption{\url{#1#2#3}}\end{figure}}"
     + "\n"

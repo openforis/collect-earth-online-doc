@@ -1,178 +1,105 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, Collect Earth Online team
-# This file is distributed under the same license as the Collect Earth
-# Online package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Collect Earth Online \n"
+"Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2025-01-30 21:53\n"
+"Last-Translator: \n"
 "Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
+"Language-Team: French\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
+"X-Crowdin-Project: collect-earth-online-doc\n"
+"X-Crowdin-Project-ID: 647276\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /main/docs/source/_locale/en/LC_MESSAGES/project/plotsample.po\n"
+"X-Crowdin-File-ID: 64\n"
 
 #: ../../project/plotsample.rst:2 aaa65e52288e4266a216b5ed2cc008b2
 msgid "Plot Design"
-msgstr ""
+msgstr "Parcelle design"
 
 #: ../../project/plotsample.rst:5 4e97ca267d32422eb18c9d08d447c18d
 msgid "Plot Design Background"
-msgstr ""
+msgstr "Arrière-plan du parcelle design"
 
 #: ../../project/plotsample.rst:7 8650cdcebeda4ef19fdd25d76882e472
-msgid ""
-"A well-prepared plot and sample design can provide a robust estimate of "
-"the parameters of interest for the population (percent forest cover, for "
-"example). This is often the most important factor in producing a reliable"
-" inventory or accuracy assessment. The goal of a sample is to provide an "
-"unbiased estimate of some population measure (e.g. proportion of area), "
-"with the smallest variance possible, given constraints including resource"
-" availability."
-msgstr ""
+msgid "A well-prepared plot and sample design can provide a robust estimate of the parameters of interest for the population (percent forest cover, for example). This is often the most important factor in producing a reliable inventory or accuracy assessment. The goal of a sample is to provide an unbiased estimate of some population measure (e.g. proportion of area), with the smallest variance possible, given constraints including resource availability."
+msgstr "Une parcelle bien préparée et la conception d'échantillons peuvent fournir une estimation robuste des paramètres d'intérêt pour la population (couverture forestière en pourcentage, par exemple). C'est souvent le facteur le plus important pour produire un inventaire fiable ou une évaluation de précision. L'objectif d'un échantillon est de fournir une estimation impartiale de certaines mesures démographiques (p. ex. proportion de zone), avec la variation la plus faible possible, étant donné les contraintes y compris la disponibilité des ressources."
 
 #: ../../project/plotsample.rst:9 50d718cee5a24e689e5fdb201436dfec
-msgid ""
-"The first step of the built in CEO sample design is the plot design. The "
-"second step is selecting samples within a plot. Using these two steps, "
-"many sampling designs are possible with CEO."
-msgstr ""
+msgid "The first step of the built in CEO sample design is the plot design. The second step is selecting samples within a plot. Using these two steps, many sampling designs are possible with CEO."
+msgstr "La première étape de la conception de l'échantillon du CEO est la conception de la parcelle. La deuxième étape consiste à sélectionner des échantillons dans une parcelle. En utilisant ces deux étapes, de nombreuses conceptions d'échantillonnage sont possibles avec le CEO."
 
 #: ../../project/plotsample.rst:11 c40387ee6ae34e7ebdc9968d18af6e83
-msgid ""
-"For example, suppose you are quantifying forest cover on a landscape. For"
-" this approach, sample points are used to classify land cover and are "
-"then summarized at the plot level to create an estimate of the plot’s "
-"forest cover percent. Information about plots can then be used to "
-"estimate the forest cover at the landscape level and detect patterns or "
-"trends. The accuracy of your landscape level estimates will depend on how"
-" many plots you classify & how variable the landscape is, among other "
-"factors. More detailed theoretical information is available in CEO’s "
-"Project Development Manual (found at "
-"https://collect.earth/downloads/CEO_Theoretical_Manual.pdf)."
-msgstr ""
+msgid "For example, suppose you are quantifying forest cover on a landscape. For this approach, sample points are used to classify land cover and are then summarized at the plot level to create an estimate of the plot’s forest cover percent. Information about plots can then be used to estimate the forest cover at the landscape level and detect patterns or trends. The accuracy of your landscape level estimates will depend on how many plots you classify & how variable the landscape is, among other factors. More detailed theoretical information is available in CEO’s Project Development Manual (found at https://collect.earth/downloads/CEO_Theoretical_Manual.pdf)."
+msgstr "Par exemple, supposons que vous quantifiez le couvert forestier sur un paysage. Pour cette approche, les points d'échantillonnage sont utilisés pour classer la couverture des terres et sont ensuite résumés au niveau de la parcelle afin de créer une estimation du pourcentage de couverture forestière du parc. Des informations sur les parcelles peuvent ensuite être utilisées pour estimer la couverture forestière au niveau du paysage et détecter les modèles ou tendances. La précision des estimations de votre niveau de paysage dépend du nombre de parcelles que vous classez et de la variable du paysage, entre autres facteurs. Des informations théoriques plus détaillées sont disponibles dans le Manuel de développement du projet du CEO (disponible à https://collect.earth/downloads/CEO_Theoretical_Manual.pdf)."
 
 #: ../../project/plotsample.rst:13 2bb2f3c4232e40abaa0fcf0d79859777
-msgid ""
-"Also, some terminology might help for the types of sampling available in "
-"CEO. **Simple random sampling** means that all points have an equal "
-"probability of being selected. It produces unbiased parameters. However "
-"geographic balance with small sample sizes can be difficult. Also, rare "
-"classes may not receive sufficient coverage. If you have rare classes you"
-" want to detect, we highly recommend using a **stratified random "
-"sampling** approach. Stratified random sampling is another type of "
-"probability sampling where the population is divided into different "
-"strata based on shared characteristics. For example, strata might be "
-"different land classes or geographic areas."
-msgstr ""
+msgid "Also, some terminology might help for the types of sampling available in CEO. **Simple random sampling** means that all points have an equal probability of being selected. It produces unbiased parameters. However geographic balance with small sample sizes can be difficult. Also, rare classes may not receive sufficient coverage. If you have rare classes you want to detect, we highly recommend using a **stratified random sampling** approach. Stratified random sampling is another type of probability sampling where the population is divided into different strata based on shared characteristics. For example, strata might be different land classes or geographic areas."
+msgstr "De plus, une certaine terminologie pourrait aider à déterminer les types d'échantillonnage disponibles dans le cadre du CEO. **Simple échantillonnage aléatoire** signifie que tous les points ont une probabilité égale d'être sélectionnés. Il produit des paramètres impartiaux. Cependant l'équilibre géographique avec de petites tailles d'échantillons peut être difficile. De plus, les classes rares peuvent ne pas recevoir une couverture suffisante. Si vous avez des classes rares que vous voulez détecter, nous vous recommandons fortement d'utiliser une approche d'échantillonnage aléatoire stratifiée. L'échantillonnage aléatoire Stratifié est un autre type d'échantillonnage de probabilité où la population est divisée en différentes strates en fonction de caractéristiques partagées. Par exemple, les strates peuvent être des catégories de terres ou des zones géographiques différentes."
 
 #: ../../project/plotsample.rst:15 6ebdff41192d4cb2845095161ffd2f43
-msgid ""
-"Another type of sampling is **systematic gridded sampling**. This is a "
-"grid of points placed over the landscape at regular intervals and is not "
-"probability sampling. This provides excellent geographic balance, but it "
-"is not possible to calculate unbiased estimates of population metric "
-"variance."
-msgstr ""
+msgid "Another type of sampling is **systematic gridded sampling**. This is a grid of points placed over the landscape at regular intervals and is not probability sampling. This provides excellent geographic balance, but it is not possible to calculate unbiased estimates of population metric variance."
+msgstr "Un autre type d'échantillonnage est **l'échantillonnage systématique**. Il s'agit d'une grille de points placés sur le paysage à intervalles réguliers et n'est pas possible d'échantillonnage. Cela offre un excellent équilibre géographique, mais il n'est pas possible de calculer des estimations non biaisées de la variation démographique."
 
 #: ../../project/plotsample.rst:17 3ac71a2ca455446e97850157a15010e7
-msgid ""
-"There are two main approaches for specifying an area of interest (AOI) "
-"and sampling design: 1. using CEO’s built-in system and 2. Creating a "
-"sample in another program (QGIS, ArcGIS, etc.) and importing it into CEO."
-" We will first discuss the built-in sampling design, and then discuss "
-"uploading your own sample as a .csv or .shp file."
-msgstr ""
+msgid "There are two main approaches for specifying an area of interest (AOI) and sampling design: 1. using CEO’s built-in system and 2. Creating a sample in another program (QGIS, ArcGIS, etc.) and importing it into CEO. We will first discuss the built-in sampling design, and then discuss uploading your own sample as a .csv or .shp file."
+msgstr "Il existe deux approches principales pour spécifier un domaine d'intérêt (AOI) et la conception d'échantillonnage : 1. En utilisant le système intégré du CEO et 2. en créant un échantillon dans un autre programme (QGIS, ArcGIS, etc.). et de l’importer au CEO. Nous discuterons d'abord de la conception d'échantillonnage intégrée, puis nous discuterons du téléchargement de votre propre échantillon en tant que fichier .csv ou .shp."
 
 #: ../../project/plotsample.rst:20 72913e4491eb4bbb82de8ff37dfddfb5
 msgid "Plot Design: CEO’s built in system"
-msgstr ""
+msgstr "Parcelle Design: système intégré de CEO"
 
 #: ../../project/plotsample.rst:22 368d3fda2e4e4e55a4f114c7867061d3
-msgid ""
-"CEO’s built in system enables users to create sampling designs using an "
-"easy-to-use interface. There are two key parts, creating the AOI and Plot"
-" Generation. You only need to create an AOI if you are using CEO's built "
-"in system."
-msgstr ""
+msgid "CEO’s built in system enables users to create sampling designs using an easy-to-use interface. There are two key parts, creating the AOI and Plot Generation. You only need to create an AOI if you are using CEO's built in system."
+msgstr "Le système intégré du CEO permet aux utilisateurs de créer des modèles d'échantillonnage à l'aide d'une interface facile à utiliser. Il y a deux éléments clés, créant l'AOI et la Génération de parcelles. Vous n'avez besoin de créer un AOI que si vous utilisez un système intégré de CEO."
 
 #: ../../project/plotsample.rst:24 12eaf23f939e419c93b85153a4ca4f35
 msgid "**Select your AOI.**"
-msgstr ""
+msgstr "**Sélectionnez votre AOI.**"
 
 #: ../../project/plotsample.rst:26 487ba0f8daf140abbaa8075b758262e5
 msgid "There are three approaches."
-msgstr ""
+msgstr "Il y a trois approches."
 
 #: ../../project/plotsample.rst:28 a47fdcc111444b669a93c35cd7b4e598
-msgid ""
-"The easiest way to select your project AOI is by drawing a box in the map"
-" window in the right hand pane (Collection Map Preview)."
-msgstr ""
+msgid "The easiest way to select your project AOI is by drawing a box in the map window in the right hand pane (Collection Map Preview)."
+msgstr "La façon la plus simple de sélectionner votre projet AOI est de dessiner une case dans la fenêtre de carte dans le volet droit (Aperçu de la carte de collection)."
 
 #: ../../project/plotsample.rst:30 b24534088e564fea86fc9c1fce8a80bf
-msgid ""
-"Locate your area of interest by zooming in/out using the scroll wheel of "
-"your mouse, or the + and – boxes in the map window. You can pan the map "
-"by clicking on it and dragging the map window."
-msgstr ""
+msgid "Locate your area of interest by zooming in/out using the scroll wheel of your mouse, or the + and – boxes in the map window. You can pan the map by clicking on it and dragging the map window."
+msgstr "Repérez votre zone d'intérêt en zoomant à l'aide de la molette de votre souris ou des boîtes + et – dans la fenêtre de la carte. Vous pouvez balayer la carte en cliquant dessus et en faisant glisser la fenêtre de la carte."
 
 #: ../../project/plotsample.rst:31 4920fe91764c4834970428a0bfd1b6ad
-msgid ""
-"Hold the CRTL-key (command key on a Mac) down and draw a box while "
-"keeping the left mouse key pressed down."
-msgstr ""
+msgid "Hold the CRTL-key (command key on a Mac) down and draw a box while keeping the left mouse key pressed down."
+msgstr "Maintenez la touche CRTL-(touche de commande sur un Mac) enfoncée et dessinez une boîte tout en maintenant la touche gauche de la souris enfoncée."
 
 #: ../../project/plotsample.rst:32 0eb04f0358844d05a9eb59d18c8186d6
 msgid "Hold the SHIFT-key down and draw a box to zoom in."
-msgstr ""
+msgstr "Maintenez la touche SHIFT enfoncée et dessinez une boîte pour zoomer."
 
 #: ../../project/plotsample.rst:33 5c46de480c8f4ca0b91fba44f5c8edeb
-msgid ""
-"The coordinate boxes will populate once the box is drawn and you let your"
-" mouse key go. Coordinates are displayed in lat/long using **WGS84 "
-"EPSG:4326**."
-msgstr ""
+msgid "The coordinate boxes will populate once the box is drawn and you let your mouse key go. Coordinates are displayed in lat/long using **WGS84 EPSG:4326**."
+msgstr "Les cases de coordonnées seront remplies une fois que la case sera dessinée et que vous laisserez votre touche de souris. Les coordonnées sont affichées en lat/long en utilisant **WGS84 EPSG:4326**."
 
 #: ../../project/plotsample.rst:40 28390671d74c4375a1536882b44c13a2
-msgid ""
-"You can also manually enter your Boundary Coordinates into the boxes "
-"provided."
-msgstr ""
+msgid "You can also manually enter your Boundary Coordinates into the boxes provided."
+msgstr "Vous pouvez également entrer manuellement les coordonnées de votre frontière dans les cases fournies."
 
 #: ../../project/plotsample.rst:47 62a14a94821848b49e84be064b579179
-msgid ""
-"The third approach is to upload a project boundary shapefile. To use this"
-" option, under **Boundary type** select Upload shp file. Then click on "
-"the **[Upload project boundary]** button. Navigate to your file, and "
-"click **[Open]**. Your shapefile should be a zipped folder containing "
-"requisite shapefile component pieces (SHP, SHX, DBF, and PRJ files). Once"
-" you click open, you should see the **File:** text populate with your "
-"file name and your project boundary appear in the Collection Map Preview "
-"pane."
-msgstr ""
+msgid "The third approach is to upload a project boundary shapefile. To use this option, under **Boundary type** select Upload shp file. Then click on the **[Upload project boundary]** button. Navigate to your file, and click **[Open]**. Your shapefile should be a zipped folder containing requisite shapefile component pieces (SHP, SHX, DBF, and PRJ files). Once you click open, you should see the **File:** text populate with your file name and your project boundary appear in the Collection Map Preview pane."
+msgstr "La troisième approche est de télécharger un fichier de forme de limite de projet. Pour utiliser cette option, sous **Type de limite** sélectionnez Upload shp fichier. Puis cliquez sur le bouton **[Envoyer la frontière du projet]**. Naviguez vers votre fichier, et cliquez sur **[Open]**. Votre fichier shapefile doit être un dossier compressé contenant des pièces de composants de forme requise (SHP, SHX, DBF, et PRJ). Une fois que vous cliquez sur Ouvert, vous devriez voir le texte **File:** rempli avec le nom de votre fichier et la limite de votre projet apparaître dans le panneau Aperçu de la carte de collection."
 
 #: ../../project/plotsample.rst:56 506751544f4a47e5898382e590074dab
-msgid ""
-"Please note that if you have multi-part polygons each one will be "
-"assigned the number of plots indicated. This is indicated in the green "
-"text."
-msgstr ""
+msgid "Please note that if you have multi-part polygons each one will be assigned the number of plots indicated. This is indicated in the green text."
+msgstr "Veuillez noter que si vous avez des polygones multipartites, chacun d'entre eux sera assigné le nombre de parcelles indiquées."
 
 #: ../../project/plotsample.rst:60 8119799c63a642f099dc3957ba3a2816
-msgid ""
-"You can upload shapefiles with multiple shapes for stratified sampling "
-"(coming soon). Each strata will appear with its corresponding area in "
-"hectares. The number of plots will be **per strata**. This is indicated "
-"in the green text."
+msgid "You can upload shapefiles with multiple shapes for stratified sampling (coming soon). Each strata will appear with its corresponding area in hectares. The number of plots will be **per strata**. This is indicated in the green text."
 msgstr ""
 
 #: ../../project/plotsample.rst:67 22464df7a5e94aa2964bd657d2a35ab6
@@ -180,51 +107,31 @@ msgid "**Plot Generation**"
 msgstr ""
 
 #: ../../project/plotsample.rst:69 878018cadeb74823a6a722c49358b66a
-msgid ""
-"In the Plot Generation section, you can specify the type and number of "
-"sample plots."
+msgid "In the Plot Generation section, you can specify the type and number of sample plots."
 msgstr ""
 
 #: ../../project/plotsample.rst:71 51c4befebf6442419290896d59a296a8
-msgid ""
-"**Spatial Distribution** defines the distribution of the sample points. "
-"In CEO, you can specify either a random or a gridded sampling approach."
+msgid "**Spatial Distribution** defines the distribution of the sample points. In CEO, you can specify either a random or a gridded sampling approach."
 msgstr ""
 
 #: ../../project/plotsample.rst:73 436fbea450e842129a1217f9dd75a976
-msgid ""
-"Random sampling has the advantage of being extremely simple and producing"
-" unbiased parameters that are straightforward to calculate. However, "
-"geographic balance is not certain with smaller sample sizes, and rare "
-"classes may not be adequately sampled unless the sample size is large."
+msgid "Random sampling has the advantage of being extremely simple and producing unbiased parameters that are straightforward to calculate. However, geographic balance is not certain with smaller sample sizes, and rare classes may not be adequately sampled unless the sample size is large."
 msgstr ""
 
 #: ../../project/plotsample.rst:74 58d6b9bfa9554aa397771466cdccee5c
-msgid ""
-"Systematic sampling has the advantage of providing excellent geographic "
-"balance. However, it is not possible to calculate a truly unbiased "
-"estimate of the variance of population metrics when using systematic "
-"sampling. Additionally, if patterns in your landscape match up with the "
-"spacing of your systematic gridded points, you will produce a very biased"
-" estimate."
+msgid "Systematic sampling has the advantage of providing excellent geographic balance. However, it is not possible to calculate a truly unbiased estimate of the variance of population metrics when using systematic sampling. Additionally, if patterns in your landscape match up with the spacing of your systematic gridded points, you will produce a very biased estimate."
 msgstr ""
 
 #: ../../project/plotsample.rst:75 e675aeb838e442e2a747505b20312f67
-msgid ""
-"If you select **Random**, you will need to provide the number of plots "
-"for the whole project."
+msgid "If you select **Random**, you will need to provide the number of plots for the whole project."
 msgstr ""
 
 #: ../../project/plotsample.rst:76 82456e670c2842109fdae4ed0ad52c11
-msgid ""
-"If you select **Gridded**, you will need to provide the spacing between "
-"the centers of the plots (in meters)."
+msgid "If you select **Gridded**, you will need to provide the spacing between the centers of the plots (in meters)."
 msgstr ""
 
 #: ../../project/plotsample.rst:78 e77bde78472944f48053fd3935c5b0fb
-msgid ""
-"CEO will provide an estimate of how many plots will be generated for your"
-" project based on your sampling design."
+msgid "CEO will provide an estimate of how many plots will be generated for your project based on your sampling design."
 msgstr ""
 
 #: ../../project/plotsample.rst:85 9f13649c67e04147958bfd065e1f014d
@@ -240,17 +147,11 @@ msgid "These sizes should be driven by the needs of your project."
 msgstr ""
 
 #: ../../project/plotsample.rst:89 64a5efd4ee934982a3110616138a98a2
-msgid ""
-"If they are small, your users will need to zoom out significantly to see "
-"the relevant background imagery because CEO automatically centers and "
-"zooms in to the plot’s boundaries."
+msgid "If they are small, your users will need to zoom out significantly to see the relevant background imagery because CEO automatically centers and zooms in to the plot’s boundaries."
 msgstr ""
 
 #: ../../project/plotsample.rst:93 a3719126596c43d29d6a104a48ccdeff
-msgid ""
-"Using CEO’s sampling, the maximum number of plots for a project is 5,000."
-" For gridded sampling, you may need to increase the space between plots "
-"to avoid exceeding 5,000 plots."
+msgid "Using CEO’s sampling, the maximum number of plots for a project is 5,000. For gridded sampling, you may need to increase the space between plots to avoid exceeding 5,000 plots."
 msgstr ""
 
 #: ../../project/plotsample.rst:95 5872586cda504a15a9e78cd66ada5378
@@ -258,10 +159,7 @@ msgid "**Assign Plots & Quality Control**"
 msgstr ""
 
 #: ../../project/plotsample.rst:97 8db7a453b15c48e49e6b060b6691769a
-msgid ""
-"You can choose to assign members of your institution to review plots in "
-"your project using the **User Assignment** dropdown, and quality control "
-"for your plots using the **Quality Control** dropdown."
+msgid "You can choose to assign members of your institution to review plots in your project using the **User Assignment** dropdown, and quality control for your plots using the **Quality Control** dropdown."
 msgstr ""
 
 #: ../../project/plotsample.rst:99 677fa7dfead643b18cbbf45a5f39bbb5
@@ -270,16 +168,14 @@ msgstr ""
 
 #: ../../project/plotsample.rst:101 6a8530d85b2443779ad12e8a6621b363
 msgid "Click **[Next]** when you are finished."
-msgstr ""
+msgstr "Cliquez sur **[Next]** lorsque vous avez fini."
 
 #: ../../project/plotsample.rst:104 733fb5df8baf42f3a3bd36a2b426b39b
 msgid "Sample Design: CEO’s built-in system"
 msgstr ""
 
 #: ../../project/plotsample.rst:106 72242730f22844698d9acc1491de03f9
-msgid ""
-"On the next tab we determine how many sample points are within each plot,"
-" and whether they are sampled using random sampling or gridded sampling."
+msgid "On the next tab we determine how many sample points are within each plot, and whether they are sampled using random sampling or gridded sampling."
 msgstr ""
 
 #: ../../project/plotsample.rst:108 6ee5c767f15e41329fcf145c4a350d8f
@@ -287,51 +183,31 @@ msgid "Under **Sample Generation** **Spatial Distribution**:"
 msgstr ""
 
 #: ../../project/plotsample.rst:110 f3382e97bfea43c1ad10df3acb8a61b4
-msgid ""
-"With **Random sampling** sample points will be randomly distributed "
-"within the plot boundary. You will also need to specify the **Number of "
-"Samples** per plot."
+msgid "With **Random sampling** sample points will be randomly distributed within the plot boundary. You will also need to specify the **Number of Samples** per plot."
 msgstr ""
 
 #: ../../project/plotsample.rst:111 e5ee432272124d82b9274179e009a81e
-msgid ""
-"With **Gridded sampling**, sample points will be arranged on a grid "
-"within the plot boundary. You will need to specify the distance between "
-"points within the plot under **Sample resolution** (meters)."
+msgid "With **Gridded sampling**, sample points will be arranged on a grid within the plot boundary. You will need to specify the distance between points within the plot under **Sample resolution** (meters)."
 msgstr ""
 
 #: ../../project/plotsample.rst:112 0e56b58ea7904109b260774fa240cf7e
-msgid ""
-"With **Center** a sample point will be placed in the center of the plot; "
-"you do not need to specify anything else."
+msgid "With **Center** a sample point will be placed in the center of the plot; you do not need to specify anything else."
 msgstr ""
 
 #: ../../project/plotsample.rst:113 0ac6459ab9204b5b84d7339067091d03
-msgid ""
-"With **None,** you will not predefine any samples. This requires users to"
-" draw their own samples during collection."
+msgid "With **None,** you will not predefine any samples. This requires users to draw their own samples during collection."
 msgstr ""
 
 #: ../../project/plotsample.rst:115 55975ff517484050a9aa3dd68980a81f
-msgid ""
-"For any of these **Spatial Distributions**, under **User Drawn Samples** "
-"you can click the checkbox next to **Allow users to draw their own "
-"samples** to enable proactive sampling."
+msgid "For any of these **Spatial Distributions**, under **User Drawn Samples** you can click the checkbox next to **Allow users to draw their own samples** to enable proactive sampling."
 msgstr ""
 
 #: ../../project/plotsample.rst:117 4c5b6c328b20494c869be9d1b2028769
-msgid ""
-"Proactive sampling enables data collectors to draw points, lines, and "
-"polygons directly onto the map to create their own samples. The data "
-"collector then answers questions about each shape."
+msgid "Proactive sampling enables data collectors to draw points, lines, and polygons directly onto the map to create their own samples. The data collector then answers questions about each shape."
 msgstr ""
 
 #: ../../project/plotsample.rst:119 fac79480d41a4143af0731f4d6263a57
-msgid ""
-"Proactive sampling is useful for collecting training data to inform "
-"random forest and machine learning models. It can also increase the "
-"accuracy of land use land cover area estimates by allowing users to map "
-"the entire area of the plot instead of sample points within the plot."
+msgid "Proactive sampling is useful for collecting training data to inform random forest and machine learning models. It can also increase the accuracy of land use land cover area estimates by allowing users to map the entire area of the plot instead of sample points within the plot."
 msgstr ""
 
 #: ../../project/plotsample.rst:123 e0f5d6693e6d4e02aed5e016e16cc659
@@ -339,16 +215,11 @@ msgid "Using CEO’s sampling, the maximum number of sample points per plot is 2
 msgstr ""
 
 #: ../../project/plotsample.rst:125 850d0cf0559644c18f0ddd571f21a73c
-msgid ""
-"Using CEO’s sampling, the maximum total number of sample points for the "
-"project (number of plots times the number of points/plot) is 50,000."
+msgid "Using CEO’s sampling, the maximum total number of sample points for the project (number of plots times the number of points/plot) is 50,000."
 msgstr ""
 
 #: ../../project/plotsample.rst:127 1c9df98c9f6840489752e0b099070245
-msgid ""
-"If you need more plots or samples, please create your sampling design in "
-"another program and upload it to CEO using the .csv or .shp file format "
-"and directions in the next section."
+msgid "If you need more plots or samples, please create your sampling design in another program and upload it to CEO using the .csv or .shp file format and directions in the next section."
 msgstr ""
 
 #: ../../project/plotsample.rst:130 18df3ad59cac4e85bab01cd0e22f329f
@@ -356,63 +227,35 @@ msgid "Plot & Sample Design: CSV & SHP files"
 msgstr ""
 
 #: ../../project/plotsample.rst:132 0952e791f21945cc953b1827da337af2
-msgid ""
-"While the default sampling design will work for many users, you may want "
-"to create your own sampling design and upload it to CEO using the .csv or"
-" .shp file capability."
+msgid "While the default sampling design will work for many users, you may want to create your own sampling design and upload it to CEO using the .csv or .shp file capability."
 msgstr ""
 
 #: ../../project/plotsample.rst:134 233374056d0b452bb4bec4b811d33f7d
-msgid ""
-"This functionality is useful when you want more control of where your "
-"plots and/or samples are located, including through more complex sampling"
-" designs. You can create a .csv or .shp with your desired sampling "
-"plots/points through services and applications including SEPAL, ArcGIS "
-"(e.g. https://pro.arcgis.com/en/pro-app/tool-reference/data-management"
-"/create-random-points.htm), and QGIS (e.g. https://freegistutorial.com"
-"/how-to-create-random-points-inside-polygon-on-qgis/)."
+msgid "This functionality is useful when you want more control of where your plots and/or samples are located, including through more complex sampling designs. You can create a .csv or .shp with your desired sampling plots/points through services and applications including SEPAL, ArcGIS (e.g. https://pro.arcgis.com/en/pro-app/tool-reference/data-management/create-random-points.htm), and QGIS (e.g. https://freegistutorial.com/how-to-create-random-points-inside-polygon-on-qgis/)."
 msgstr ""
 
 #: ../../project/plotsample.rst:136 d23675a184cc4d1099c9249fafdf47ff
-msgid ""
-"You can upload just one file to define plots OR two files, one for the "
-"plots and one for the samples."
+msgid "You can upload just one file to define plots OR two files, one for the plots and one for the samples."
 msgstr ""
 
 #: ../../project/plotsample.rst:138 962ad24b872c43d497269e602d74a9af
-msgid ""
-"As when using CEO’s built-in system, you can choose to assign users plots"
-" to review using the **User Assignment** feature and implement quality "
-"control for your plots using the **Quality Control** dropdown. In "
-"addition, you can specify which users should collect data on which plots "
-"and which users should review each plot using dedicated columns. See "
-":doc:`qaqc` for more."
+msgid "As when using CEO’s built-in system, you can choose to assign users plots to review using the **User Assignment** feature and implement quality control for your plots using the **Quality Control** dropdown. In addition, you can specify which users should collect data on which plots and which users should review each plot using dedicated columns. See :doc:`qaqc` for more."
 msgstr ""
 
 #: ../../project/plotsample.rst:141 0c768889bece43ef820d2bf5c2fdca07
-msgid ""
-"Using .csv and .shp files, the maximum number of plots is 50,000 and the "
-"total sample point limit is 350,000."
+msgid "Using .csv and .shp files, the maximum number of plots is 50,000 and the total sample point limit is 350,000."
 msgstr ""
 
 #: ../../project/plotsample.rst:144 e80e5c61639e4067b765e7b83a2b6dfd
-msgid ""
-"You must use WGS84 EPSG:4326 format for coordinates in both .csv and .shp"
-" files."
+msgid "You must use WGS84 EPSG:4326 format for coordinates in both .csv and .shp files."
 msgstr ""
 
 #: ../../project/plotsample.rst:146 c62cfa89312e49399c2a1f10e35c729f
-msgid ""
-"Example .csv and .shp files are available for download. When used, the "
-"plots should spell out “OK” when used to create a project."
+msgid "Example .csv and .shp files are available for download. When used, the plots should spell out “OK” when used to create a project."
 msgstr ""
 
 #: ../../project/plotsample.rst:155 24adb4f739c44c4aa1e10e0d111dbe72
-msgid ""
-"Specified longitude should be between -180 and 180, while latitude should"
-" be between -90 and 90. If you mix them up, you may get an error if your "
-"longitude is greater than 90 or less than -90 (when this is mixed up with"
-" latitude, it is ‘above’ the pole). Double check these values."
+msgid "Specified longitude should be between -180 and 180, while latitude should be between -90 and 90. If you mix them up, you may get an error if your longitude is greater than 90 or less than -90 (when this is mixed up with latitude, it is ‘above’ the pole). Double check these values."
 msgstr ""
 
 #: ../../project/plotsample.rst:158 40e23403a0684949b8088bc66edd09ef
@@ -420,23 +263,15 @@ msgid "Adding plots only using .csv"
 msgstr ""
 
 #: ../../project/plotsample.rst:160 929ca48657a9407f9340b378d1efbf36
-msgid ""
-"For .csv files, specify plot centers by uploading a .csv with these "
-"columns: LON, LAT, PLOTID. LON and LAT can also be LONGITUDE and "
-"LATITUDE. You can have additional columns with data about your plots and "
-"sample points but they MUST come after these key fields."
+msgid "For .csv files, specify plot centers by uploading a .csv with these columns: LON, LAT, PLOTID. LON and LAT can also be LONGITUDE and LATITUDE. You can have additional columns with data about your plots and sample points but they MUST come after these key fields."
 msgstr ""
 
 #: ../../project/plotsample.rst:162 1809c675128f4b73ac37e956dc73e405
-msgid ""
-"If you do not specify the column names correctly (spelling or order), you"
-" will get the following error:"
+msgid "If you do not specify the column names correctly (spelling or order), you will get the following error:"
 msgstr ""
 
 #: ../../project/plotsample.rst:169 2240fb9dfdbe4ed19a9ceca7c6df7889
-msgid ""
-"When your .csv files fit the above specifications, follow the directions "
-"below."
+msgid "When your .csv files fit the above specifications, follow the directions below."
 msgstr ""
 
 #: ../../project/plotsample.rst:171 ../../project/plotsample.rst:187
@@ -446,9 +281,7 @@ msgstr ""
 
 #: ../../project/plotsample.rst:172 ../../project/plotsample.rst:188
 #: 2dcaec13f76f483da6309de92cbf03fe e05b68969ca94713a851010de6b5c01d
-msgid ""
-"Then, click on **[Upload plot file]** and navigate to the .csv on your "
-"computer with your plot centers."
+msgid "Then, click on **[Upload plot file]** and navigate to the .csv on your computer with your plot centers."
 msgstr ""
 
 #: ../../project/plotsample.rst:173 ../../project/plotsample.rst:189
@@ -457,15 +290,11 @@ msgid "After you upload the file, the file name will appear next to **File:**."
 msgstr ""
 
 #: ../../project/plotsample.rst:174 4a3a092959844cc098ba9441ab6b27cb
-msgid ""
-"You will need to specify the **Plot Shape** and corresponding "
-"**Diameter**."
+msgid "You will need to specify the **Plot Shape** and corresponding **Diameter**."
 msgstr ""
 
 #: ../../project/plotsample.rst:175 f4515fdc4859461fad4e9da7689f94c9
-msgid ""
-"You will then need to specify your **Sample (Point) Design** using CEO's "
-"built in system."
+msgid "You will then need to specify your **Sample (Point) Design** using CEO's built in system."
 msgstr ""
 
 #: ../../project/plotsample.rst:183 c3973dde434e4cdda39f88298c7c1fa4
@@ -473,20 +302,11 @@ msgid "Adding plots and samples using two .csv files"
 msgstr ""
 
 #: ../../project/plotsample.rst:185 ff95927ecd2041d4acc9f0de68092b1f
-msgid ""
-"In addition to your plot file, you can upload a second .csv file where "
-"you specify your own sample centers. For your sample file, your .csv must"
-" have these columns: LON, LAT, PLOTID, SAMPLEID. LON and LAT can also be "
-"LONGITUDE and LATITUDE. You can have additional columns with data about "
-"your plots and sample points but they MUST come after these key fields."
+msgid "In addition to your plot file, you can upload a second .csv file where you specify your own sample centers. For your sample file, your .csv must have these columns: LON, LAT, PLOTID, SAMPLEID. LON and LAT can also be LONGITUDE and LATITUDE. You can have additional columns with data about your plots and sample points but they MUST come after these key fields."
 msgstr ""
 
 #: ../../project/plotsample.rst:190 64d48348f518400084a63f68c23276e6
-msgid ""
-"You will need to specify the **Plot Shape** and corresponding "
-"**Diameter**. It is important that you specify a plot size that is large "
-"enough to contain your points if they are also uploaded through a .csv or"
-" .shp."
+msgid "You will need to specify the **Plot Shape** and corresponding **Diameter**. It is important that you specify a plot size that is large enough to contain your points if they are also uploaded through a .csv or .shp."
 msgstr ""
 
 #: ../../project/plotsample.rst:191 2d797a1cf7eb4954bc75e7ca8ddc1aa5
@@ -494,28 +314,19 @@ msgid "Choose any desired **User assignment** and **Quality Mode** options."
 msgstr ""
 
 #: ../../project/plotsample.rst:192 f9d5bd38700741a79faf406285d9df91
-msgid ""
-"Next, under **Sample Design**, set **Spatial Distribution** to **CSV "
-"File**."
+msgid "Next, under **Sample Design**, set **Spatial Distribution** to **CSV File**."
 msgstr ""
 
 #: ../../project/plotsample.rst:193 606b89ad02624f539306f70e567fd7a3
-msgid ""
-"Click on **[Upload sample file]** and navigate to your .csv on your "
-"computer. Click **[Open]** and the file name will appear next to "
-"**File.**"
+msgid "Click on **[Upload sample file]** and navigate to your .csv on your computer. Click **[Open]** and the file name will appear next to **File.**"
 msgstr ""
 
 #: ../../project/plotsample.rst:194 909274d21a7948e69bb345bfd1fe5c54
-msgid ""
-"Note that you can also choose **SHP file** and upload a shape file at "
-"this point."
+msgid "Note that you can also choose **SHP file** and upload a shape file at this point."
 msgstr ""
 
 #: ../../project/plotsample.rst:195 5082fc64a38e47c5bb13df3f1a3e9bb7
-msgid ""
-"You can click the checkbox next to **Allow users to draw their own "
-"samples** to enable proactive sampling."
+msgid "You can click the checkbox next to **Allow users to draw their own samples** to enable proactive sampling."
 msgstr ""
 
 #: ../../project/plotsample.rst:203 10a9293e012f4a77854b7d2808e08cfd
@@ -523,78 +334,47 @@ msgid "Adding plots and samples using two .shp files"
 msgstr ""
 
 #: ../../project/plotsample.rst:205 1cb19037e1ae4c2593ff539d6c498620
-msgid ""
-"For .shp files, you can specify your own plot boundaries by uploading a "
-"zipped Shapefile (containing SHP, SHX, DBF, and PRJ files) of polygon "
-"features. Each feature must have a unique PLOTID field. LON and LAT are "
-"not required for polygons."
+msgid "For .shp files, you can specify your own plot boundaries by uploading a zipped Shapefile (containing SHP, SHX, DBF, and PRJ files) of polygon features. Each feature must have a unique PLOTID field. LON and LAT are not required for polygons."
 msgstr ""
 
 #: ../../project/plotsample.rst:207 887a505bbef34e6286a7b2bfeea9f72b
-msgid ""
-"You will also need to upload a second file where you specify your own "
-"sample points. This can be a .csv specifying sample point centers with "
-"these columns: LON, LAT, PLOTID, SAMPLEID. LON and LAT can also be "
-"LONGITUDE and LATITUDE. It can also be a zipped .shp file (containing "
-"SHP, SHX, DBF, and PRJ files). Each feature must have PLOTID and SAMPLEID"
-" fields. Either points or polygons will work for the sample point file, "
-"though csv files must include LON and LAT."
+msgid "You will also need to upload a second file where you specify your own sample points. This can be a .csv specifying sample point centers with these columns: LON, LAT, PLOTID, SAMPLEID. LON and LAT can also be LONGITUDE and LATITUDE. It can also be a zipped .shp file (containing SHP, SHX, DBF, and PRJ files). Each feature must have PLOTID and SAMPLEID fields. Either points or polygons will work for the sample point file, though csv files must include LON and LAT."
 msgstr ""
 
 #: ../../project/plotsample.rst:209 75e76c4c5ad94b95b55084d287447dbb
-msgid ""
-"As with .csv files, you can have additional fields with information about"
-" your plots and points if and only if they come after these key fields."
+msgid "As with .csv files, you can have additional fields with information about your plots and points if and only if they come after these key fields."
 msgstr ""
 
 #: ../../project/plotsample.rst:211 2ce3a15e59ef4adf97de3716c0b0b2d8
-msgid ""
-"If you do not specify your PLOTID in the .shp zip file, you will get the "
-"following error:"
+msgid "If you do not specify your PLOTID in the .shp zip file, you will get the following error:"
 msgstr ""
 
 #: ../../project/plotsample.rst:219 df676ec4a20f481d8bbc43a6e995b71b
-msgid ""
-"You can zip your files easily in Windows by selecting the relevant files,"
-" right clicking on one, and the clicking **[Send to] -> [Compressed "
-"(zipped) folder]**."
+msgid "You can zip your files easily in Windows by selecting the relevant files, right clicking on one, and the clicking **[Send to] -> [Compressed (zipped) folder]**."
 msgstr ""
 
 #: ../../project/plotsample.rst:226 b3a19f9a72b641d882386faae70df5d5
-msgid ""
-"For a Mac, select the relevant files, right click on one of the files, "
-"and select **[Compress Items]** from the pop-up menu."
+msgid "For a Mac, select the relevant files, right click on one of the files, and select **[Compress Items]** from the pop-up menu."
 msgstr ""
 
 #: ../../project/plotsample.rst:228 cd0817beb5cd4a109004c6748210cfce
-msgid ""
-"When your .shp files fit the above specifications, follow the directions "
-"below."
+msgid "When your .shp files fit the above specifications, follow the directions below."
 msgstr ""
 
 #: ../../project/plotsample.rst:230 407177fa2776490e87eea9d2a83e96c3
-msgid ""
-"Under **Plot Generation**, set **Spatial Distribution** to **SHP File**. "
-"You must have the radio point selected before the button to upload "
-"becomes available."
+msgid "Under **Plot Generation**, set **Spatial Distribution** to **SHP File**. You must have the radio point selected before the button to upload becomes available."
 msgstr ""
 
 #: ../../project/plotsample.rst:231 29f584a2d53945999fcc4e477e978210
-msgid ""
-"Then, click on **[Upload plot file]** and navigate to your zipped .shp "
-"file. Click **[Open]** and the file name will appear next to **File.**"
+msgid "Then, click on **[Upload plot file]** and navigate to your zipped .shp file. Click **[Open]** and the file name will appear next to **File.**"
 msgstr ""
 
 #: ../../project/plotsample.rst:238 0d915204541d4fe298b51e79540ff25e
-msgid ""
-"Click **[Next]**. Under Sample Design, set **Spatial Distribution** to "
-"**SHP File**."
+msgid "Click **[Next]**. Under Sample Design, set **Spatial Distribution** to **SHP File**."
 msgstr ""
 
 #: ../../project/plotsample.rst:239 d500ba7a37f9471a8c359a1c862e0259
-msgid ""
-"Click on **[Upload sample file]** and navigate to the zipped .shp file "
-"with your sample point points or polygons and select it."
+msgid "Click on **[Upload sample file]** and navigate to the zipped .shp file with your sample point points or polygons and select it."
 msgstr ""
 
 #: ../../project/plotsample.rst:240 2fb6bc34b66f4c2ea20920b290d9d1cb
@@ -602,16 +382,10 @@ msgid "This will also work with a CSV File."
 msgstr ""
 
 #: ../../project/plotsample.rst:241 f02cfd4fd98d4053b3e382b0c0ee9713
-msgid ""
-"You can enable proactive sampling by clicking on the checkbox next to "
-"**Allow users to draw their own samples**."
+msgid "You can enable proactive sampling by clicking on the checkbox next to **Allow users to draw their own samples**."
 msgstr ""
 
 #: ../../project/plotsample.rst:248 141296c385d04c6db9f3f30b55f12feb
-msgid ""
-"When you download your collected data, any column with extra information "
-"that were present in the uploaded .csv and .shp files will be preserved "
-"in the downloaded data. These columns can also be displayed in the Data "
-"Collection pane (see :doc:`create`)."
+msgid "When you download your collected data, any column with extra information that were present in the uploaded .csv and .shp files will be preserved in the downloaded data. These columns can also be displayed in the Data Collection pane (see :doc:`create`)."
 msgstr ""
 
