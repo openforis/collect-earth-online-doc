@@ -42,8 +42,6 @@ Create your account and get started with CEO.
 
       Set up your own institution in CEO.
 
-.. line-break::
-
 Learn more about CEO
 --------------------
 
@@ -72,7 +70,7 @@ Get more help or request a feature
 
 Have questions? Encounter bugs? Get the help you need using the links below. 
 
-Want to request a feature that would make CEO work better for you? Contact us at :email:`support@collect.earth`!
+Want to request a feature that would make CEO work better for you? 
 
 .. grid:: 1 2 2 4
    :gutter: 2

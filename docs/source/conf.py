@@ -23,20 +23,20 @@ sys.path.append(os.path.abspath('_extensions'))
 
 extensions = [
     "sphinx.ext.napoleon",
-    "sphinx.ext.graphviz",
+#    "sphinx.ext.graphviz",
     "sphinxcontrib.images",
-    "sphinxcontrib.icon",
-    "sphinxcontrib.btn",
+#    "sphinxcontrib.icon",
+#    "sphinxcontrib.btn",
     "sphinxcontrib.email",
     "sphinxcontrib.youtube",
     "sphinxcontrib.bibtex",
     "sphinx_design",
-    "sphinx_togglebutton",
+#    "sphinx_togglebutton",
     "sphinx_favicon",
     "sphinx_last_updated_by_git",
 #    "notfound.extension",
-    "line_break",
-    "custom_edit",
+#    "line_break",
+#    "custom_edit",
     "logos"
 ]
 
@@ -83,6 +83,9 @@ vimeo_cmd = (
 
 latex_elements = {"preamble": youtube_cmd + vimeo_cmd}
 
+# -- Options for sphinxcontrib-email ---------------------------------------------
+
+email_automode = True
 
 # -- Option for the pydata-sphinx-theme ----------------------------------------
 
@@ -119,6 +122,7 @@ html_theme_options = {
     ],
     "use_edit_page_button": True,
     "article_footer_items": ["last-updated"],
+    "announcement": "Planet NICFI data is no longer available in CEO because the NICFI Satellite Data Program ended on April 1, 2025. Previous connection instructions are now obsolete. We will update the documentation once the new NICFI data program begins. Thank you for your patience."
 
 }
 
@@ -132,7 +136,7 @@ favicons = [
 
 # -- Options for images --------------------------------------------------------
 
-images_config = {"download": True}
+#images_config = {"download": True}
 
 
 # -- Options for bibtex --------------------------------------------------------

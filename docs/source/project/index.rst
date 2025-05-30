@@ -20,9 +20,9 @@ Navigate to the other areas of this section by selecting links under **Section n
 
 Navigate to other areas of this article by by selecting links under **On this page** to the right.
 
-.. note::
+.. tip::
 
-    This documentation uses a few formatting standards for ease of use. Clickable links are shown **[like this]**. The names of pages, like the **Home** page, are bolded.
+    This documentation uses a few formatting standards for ease of use. Clickable items are shown **[like this]**. The names of pages, like the **Home** page, are bolded.
 
 Finally, CEO is a live tool that is under continuous development. Please report any bugs at our GitHub or by contacting `the CEO team <support@collect.earth>`__.
 
@@ -31,6 +31,8 @@ Finally, CEO is a live tool that is under continuous development. Please report 
    :hidden:
 
    create
+   projectoverview
+   imageryselection
    plotsample
    qaqc
    survey
@@ -38,6 +40,7 @@ Finally, CEO is a live tool that is under continuous development. Please report 
    reviewproject
    management
    geodash
+   qaqcdashboard
    reviewdata
    validation
     

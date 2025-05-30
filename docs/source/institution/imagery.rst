@@ -1,7 +1,30 @@
-Built-in & custom imagery sources
+Built-in & Custom Imagery Sources
 =================================
 
-There are two main ways to add background, or basemap imagery to your Institution for use in your Projects. First, CEO includes a handful of built-in imagery options, including imagery from MapBox, Planet NICFI Public, and Sentinel. Second, CEO allows users to connect their own imagery from many different sources, including Google Earth Engine, Bing Maps, XYZ tiles, WMS and more.
+You can add Imagery to your Institution in Collect Earth Online (CEO) to use in your Projects. This is often referred to as a basemap or background map. Basemaps provide context for the data you collect, allowing you to see the landscape and land use changes over time.
+
+The Imagery tab of your Institution page allows you to add new imagery sources, view existing imagery sources, and manage the visibility of your institution's imagery. 
+
+- You can add new imagery sources by clicking on the **[Add New Imagery]** button. More information on this process is available in the section below.
+- You can Change the visibility of your institution's imagery by clicking on the **[Change Visibility]** button after selecting one or multiple imagery sources. The default is for imagery you add to be Private and only available to be used by projects from this institution. You can make imagery public, which allows you to make the imagery available to any project in CEO. **USE THIS AT YOUR OWN RISK**
+- You can also delete imagery sources by clicking on the **[Delete]** button after selecting one or multiple imagery sources. This will permanently delete the imagery source from your Institution and all Projects that use it.
+- The **[Edit]** button brings up the form to edit the imagery source. You can change the title, attribution, and other settings for the imagery source.
+
+
+Imagery Overview
+----------------
+
+There are two main ways to add background, or basemap imagery to your Institution for use in your Projects. First, CEO includes a handful of built-in imagery options, including imagery from MapBox and Sentinel. Second, CEO allows users to connect their own imagery from many different sources, including Google Earth Engine, Bing Maps, XYZ tiles, WMS and more.
+
+.. warning::
+
+   Planet NICFI Public imagery is no longer available in CEO because the NICFI Satellite Data Program ended on April 1, 2025. We will update the documentation once the new NICFI data program begins. For further assistance, please visit: https://www.planet.com/tropical-forest-observatory/.
+
+.. warning::
+    
+    Maxar has eliminated multiple data products that were previously available on CEO, including: DigitalGlobeRecentIMagery; DigitalGlobeRecentImagery+Streets; DigitalGlobeWMSImagery; and EarthWatch. 
+    
+    In addition, SecureWatch is now MGP Pro. You can connect to MGP Pro through their WMS server and XYZ services.
 
 Built-in base imagery sources
 -----------------------------
@@ -24,22 +47,19 @@ MapBox Satellite and Mapbox Satellite w/Labels are thus composite satellite imag
 
 CEO uses Mapbox's satellite layer as well as one with place and landmark labels.
 
-.. note::
-    
-    Maxar has eliminated multiple data products that were previously available on CEO, including: DigitalGlobeRecentIMagery; DigitalGlobeRecentImagery+Streets; DigitalGlobeWMSImagery; and EarthWatch.
 
-Planet NICFI Public
-^^^^^^^^^^^^^^^^^^^
+.. Planet NICFI Public
+.. ^^^^^^^^^^^^^^^^^^^
 
-Planet NICFI Public is imagery available through a partnership between Norway's Ministry of Climate and Environment, specifically Norway's International Climate and Forest Initiative (NICFI) and Planet. Along with other partners, they have made high-resolution (sub 5 m pixel) imagery available in the tropics. These maps are available on a biannual basis between December 2015 and August 2020 and on a monthly basis after September 2020.
+.. Planet NICFI Public is imagery available through a partnership between Norway's Ministry of Climate and Environment, specifically Norway's International Climate and Forest Initiative (NICFI) and Planet. Along with other partners, they have made high-resolution (sub 5 m pixel) imagery available in the tropics. These maps are available on a biannual basis between December 2015 and August 2020 and on a monthly basis after September 2020.
 
-More information can be found `on Planet's website
-<https://www.planet.com/pulse/planet-ksat-and-airbus-awarded-first-ever-global-contract-to-combat-deforestation/>`__.
+.. More information can be found `on Planet's website
+.. <https://www.planet.com/pulse/planet-ksat-and-airbus-awarded-first-ever-global-contract-to-combat-deforestation/>`__.
 
-.. thumbnail:: ../_images/nicfimap.png
-    :title: Planet NICFI imagery
-    :align: center
-    :width: 75%
+.. .. thumbnail:: ../_images/nicfimap.png
+..     :title: Planet NICFI imagery
+..     :align: center
+..     :width: 75%
 
 Adding custom basemap imagery
 -----------------------------
@@ -50,7 +70,7 @@ The instructions below assume you are starting on your :doc:`Institution page <c
 
 Under the **Imagery** panel on the **Institution** page, click **[Add New Imagery]**. Under **Select** Type you will see multiple different options. Some, including WMS Imagery and XYZ Imagery, are protocols that can be applied broadly, while other options connect to specific data sources that you generally need to subscribe to.
 
-For Bing Maps, Planet Monthly, Planet Daily, Planet NICFI, SecureWatch, and the MapBox products you will first need to locate your no-authentication API key. You will be asked to provide this key in the CEO imagery setup panel.
+For Bing Maps, Planet Monthly, Planet Daily, and the MapBox products you will first need to locate your no-authentication API key. You will be asked to provide this key in the CEO imagery setup panel.
 
 We will now talk about how to add imagery for each of these options.
 
@@ -182,33 +202,30 @@ PlanetDaily is another imagery product available from Planet. It allows users to
 - If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
 - When all fields are filled out, click on **[Add New Imagery]**.
 
-Planet NICFI
-^^^^^^^^^^^^
+.. Planet NICFI
+.. ^^^^^^^^^^^^
 
-This allows you to add your own Planet NICFI key, instead of using CEO's. 
+.. This allows you to add your own Planet NICFI key, instead of using CEO's.     
+..     You will need an account from the Planet NICFI program: https://www.planet.com/nicfi/. This is separate from your 'normal' Planet account.
 
-.. note::
-     
-    You will need an account from the Planet NICFI program: https://www.planet.com/nicfi/. This is separate from your 'normal' Planet account.
+.. - **Title:** This will be the displayed name of the imagery.
+.. - **Access Token:** Your Planet NICFI API key. This can be accessed through your My Account page on the Planet website.
+.. - **Default Time:** Choose the default time period of imagery to display. Note that the time periods available from NICFI are actively being changed. THESE ARE SUBJECT TO CHANGE BASED ON PLANET AND NICFI's DECISIONS.
+.. - **Default Band**: Choice between Visible (RGB) and Infrared false color.
+.. - If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
+.. - When all fields are filled out, click on **[Add New Imagery]**.
 
-- **Title:** This will be the displayed name of the imagery.
-- **Access Token:** Your Planet NICFI API key. This can be accessed through your My Account page on the Planet website.
-- **Default Time:** Choose the default time period of imagery to display. Note that the time periods available from NICFI are actively being changed. THESE ARE SUBJECT TO CHANGE BASED ON PLANET AND NICFI's DECISIONS.
-- **Default Band**: Choice between Visible (RGB) and Infrared false color.
-- If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
-- When all fields are filled out, click on **[Add New Imagery]**.
+.. SecureWatch Imagery
+.. ^^^^^^^^^^^^^^^^^^^
 
-SecureWatch Imagery
-^^^^^^^^^^^^^^^^^^^
+.. SecureWatch is a service from Maxar focused on monitoring for new land use/land cover changes and comparing current land use/land cover with over 20 years of historic images. For more information see: https://www.digitalglobe.com/products/securewatch.
 
-SecureWatch is a service from Maxar focused on monitoring for new land use/land cover changes and comparing current land use/land cover with over 20 years of historic images. For more information see: https://www.digitalglobe.com/products/securewatch.
-
-- **Title:** This will be the displayed name of the imagery.
-- **Connect ID:** This is your API key. You need to use a no-auth key here, which should be a string of letters and numbers separated by dashes.
-- **Start Date:** Starting date for the imagery you are interested in; you can input the date using numeric keys or with the calendar widget on the right side.
-- **End Date:** Ending date for the imagery you are interested in.
-- If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
-- When all fields are filled out, click on **[Add New Imagery]**.
+.. - **Title:** This will be the displayed name of the imagery.
+.. - **Connect ID:** This is your API key. You need to use a no-auth key here, which should be a string of letters and numbers separated by dashes.
+.. - **Start Date:** Starting date for the imagery you are interested in; you can input the date using numeric keys or with the calendar widget on the right side.
+.. - **End Date:** Ending date for the imagery you are interested in.
+.. - If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
+.. - When all fields are filled out, click on **[Add New Imagery]**.
 
 Sentinel 1 Imagery
 ^^^^^^^^^^^^^^^^^^
@@ -348,19 +365,10 @@ Open Street Maps is an open source mapping product. This provides Open Street Ma
     :align: center
     :width: 70%
 
-Notes on imagery
-----------------
-
-For imagery options with dates, the dates you input are the default Dates that the imagery will be restricted to on the collection page. However, the user will be able to change these when exploring the map as there are start & end date widgets on the collection page sidebar (there are examples in the **Data Collection Manual**). For SecureWatch, the user will also be able to choose between FeatureProfiles. Without specifying a FeatureProfile, the most recent available imagery between the start and end dates displayed on the map.
-
-SecureWatch and the Planet products will not return imagery if the map is zoomed out too much. This results in a white map canvas being displayed at the project overview level usually. Simply click the "Go to first plot" button on the Collection page to zoom in to the plot level, and then the imagery should appear.
-
-For SecureWatch, the date shown when data is collected will be added to the project .csv data available for download (See :doc:`../project/reviewproject`).
-
 Adding imagery from multiple time periods
 -----------------------------------------
 
-Adding multiple imagery options with different default time periods can make data collection easier for projects that compare two or more time periods to detect land use and land cover change. WMS/WMTS that you can use to create basemaps from different time points include GeoServer, Planet Monthly, Planet Daily, Secure Watch, Bing Maps, Mapbox Raster, and Mapbox Static.
+Adding multiple imagery options with different default time periods can make data collection easier for projects that compare two or more time periods to detect land use and land cover change. WMS/WMTS that you can use to create basemaps from different time points include GeoServer, Planet Monthly, Planet Daily, Bing Maps, Mapbox Raster, and Mapbox Static.
 
 WMS Imagery
 ^^^^^^^^^^^
@@ -377,8 +385,8 @@ Once you have decided the best approach for your server, repeat the steps in :re
 
     Some years may not contain any imagery, due to the sparseness of the data within the database. If no imagery for the selected time range appears, you will need to change your parameters field, possibly to change the feature profile or date ranges.
 
-Planet Monthly, Planet Daily, and Planet NICFI
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Planet Monthly and Planet Daily
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 For all Planet products, you simply need to change the time period fields to add layers with different default time periods. Users will be able to change the time period displayed during data collection; however, this is the default that will be shown first.
 
@@ -386,14 +394,10 @@ For all Planet products, you simply need to change the time period fields to add
      
     Be sure to change the Title field to reflect the correct default Year, Month, and Day for each new layer that you add.
 
-Secure Watch
-^^^^^^^^^^^^
+.. Secure Watch
+.. ^^^^^^^^^^^^
 
-For this Maxar product, you simply need to change the time period fields to add layers with different default time periods. Users will be able to change the time period displayed during data collection; however, this is the default that will be shown first.
-
-.. tip:: 
-     
-    Be sure to change the Title field to reflect the correct default Year, Month, and Day for each new layer that you add.
+.. For this Maxar product, you simply need to change the time period fields to add layers with different default time periods. Users will be able to change the time period displayed during data collection; however, this is the default that will be shown first. Be sure to change the Title field to reflect the correct default Year, Month, and Day for each new layer that you add.
 
 Sentinel 1 & 2
 ^^^^^^^^^^^^^^
@@ -449,6 +453,13 @@ After you have added imagery you may need to change the default dates of the Vis
     First, if your data source has a data viewing portal, you can use this to explore the imagery and determine what is available for the time periods you are interested in. 
      
     Second, you can add the imagery layer, then open an existing project from your institution. The imagery will be available in the dropdown menu (if you are switching between a project **Data Collection** window and an **Institution** window, you may need to refresh the project window to get    the new layer to appear). You can then check if the imagery is displaying correctly and go back to the **Institution** page to edit the imagery based on what you see.
+
+Notes on imagery
+----------------
+
+For imagery options with dates, the dates you input are the default Dates that the imagery will be restricted to on the collection page. However, the user will be able to change these when exploring the map as there are start & end date widgets on the collection page sidebar.
+
+The Planet products will not return imagery if the map is zoomed out too much. This results in a white map canvas being displayed at the project overview level usually. Simply click the "Go to first plot" button on the Collection page to zoom in to the plot level, and then the imagery should appear.
 
 Estimating imagery costs
 ------------------------
