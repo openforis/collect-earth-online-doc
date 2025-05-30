@@ -15,7 +15,7 @@ There are three options: **Equal assignments**, **Percentage of plots**, and **F
 
 - **No assignments**: User assignments are not enabled by default. 
 - **Equal assignments**: Splits the total number of plots evenly between users.
-- **Percentage of plots**: Allows for uneven splits. For example, one user can be assigned 50% of the total plots while two other users can each be assigned 25% of the total plots.
+- **Percentage of plots**: Allows for uneven splits. For example, one user can be assigned 50% of the total plots while two other users can each be assigned 25% of the total plots. Total percentages must add up to 100%.
 - **File**: Allows the administrator to specify which user should collect data on each plot. When creating your file, you can add a column called 'user'. This column should contain the email address for the user you would like to review the plot.
 
 .. thumbnail:: ../_images/project24v2.png
@@ -30,7 +30,19 @@ You can also implement quality control measures using one of the **Quality Modes
 
 - **None**: Quality control is not enabled by default.
 - **Overlap**: A certain percentage of each users’ plots are reviewed by the other users.
+
+.. thumbnail:: ../_images/project25.png
+    :title: The Overlap option.
+    :align: center
+    :width: 40%
+
 - **Subject Matter Expert Verification (SME Verification**): A percentage of each users’ plots are reviewed by one or more SMEs. For example, the SME might be someone with deep knowledge of the local landscape, or a project administrator.
+
+.. thumbnail:: ../_images/project26.png
+    :title: The SME Verification option.
+    :align: center
+    :width: 40%
+
 - **File**: Allows the administrator to manually specify additional user(s) to collect data on each plot. When creating your file, you can add a column called 'reviewers.' This column should contain the emails of users that will also be collecting data for the plot. This column accepts more than one email separated by a semi-colon (;). 
 
    .. note:: 
@@ -39,15 +51,7 @@ You can also implement quality control measures using one of the **Quality Modes
 
        Once a CSV containing these two new columns is uploaded, the project admin will not be able to change either the User Assignments nor the QAQC, as they will be locked. In order to unlock them, the project admin can remove these columns and reupload the file, or change the plot design method by selecting another type in the **Spatial Distribution** dropdown menu.
 
-.. thumbnail:: ../_images/project25.png
-    :title: The Overlap option.
-    :align: center
-    :width: 40%
 
-.. thumbnail:: ../_images/project26.png
-    :title: The SME Verification option.
-    :align: center
-    :width: 40%
 
 .. note::
     When Quality Control is enabled, the project can no longer support User Drawn samples.

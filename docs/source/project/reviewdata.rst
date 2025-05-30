@@ -25,3 +25,4 @@ Once data for the project has been collected using a quality control approach, A
   
 In addition, administrators can Navigate through unanalyzed plots, all analyzed plots, flagged plots, low confidence plots, and individual users’ plots.
 
+This functionality can be used in conjunction with the **QAQC Dashboard** to identify problematic plots and users. The QAQC Dashboard provides a summary of the project, including statistics about the project, plots, and users. It also allows administrators to upload external data files for validation. More information about the QAQC Dashboard can be found in the :doc:`/project/qaqcdashboard` documentation.

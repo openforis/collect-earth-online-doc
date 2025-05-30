@@ -19,9 +19,75 @@ Key Institution components
 
 More importantly, you can also manage three aspects of your Institution that allow data collection through CEO. These include the **Imagery** available, the data collection **Projects**, and the **Users** associated with the Institution. This information is displayed in three panels on your **Institution’s** info page.
 
-1. The **Imagery** tab lists all available imagery and WMS Feeds. You can add new imagery feeds here as well. See :doc:`imagery`.
-2. The **Projects** panel lists your Institution's projects, identifies projects as public or private, and allows you to create new projects. This is discussed in :doc:`../project/create`.
+1. The **Projects** panel lists your Institution's projects, identifies projects as public or private, and allows you to create new projects. This is discussed in more detail in :doc:`../project/create`.
+2. The **Imagery** tab lists all available imagery. You can add new imagery feeds here as well. For more detail, see :doc:`imagery`.
 3. The **Users** panel lists your Institution's members and allows them to be updated. This is discussed below.
+
+Project management
+------------------
+
+As an Administrator, you can manage the projects associated with your Institution in the **Projects** tab of your Institution page. You can create new projects, edit existing projects, and delete projects. You can also download plot, sample, and shapefile data for your Institution's projects.
+
+.. thumbnail:: ../_images/institution3.png
+   :title: Options in the Projects tab of an Institution.
+   :align: center
+   :width: 50%
+
+You can create a new project by clicking the **[Create New Project]** button. This will take you to the **Create Project** page, where you can specify the project name, description, and other details. You can also select the imagery and WMS feeds that will be used in the project. For more detail on setting up a project, see :doc:`../project/create`.
+
+Below this, you can see three options for managing your Institution's projects.  
+
+1. **[Change Project Visibility]**: This allows you to change the visibility of your Institution's projects. There are four different levels of visibility: Public, Users, Institution, and Private. Public projects are visible to all users with or without a CEO account, Users projects are visible to any user logged in with a CEO account, Institution projects are only visible to members or administrators of the Institution, and Private projects are only visible to the Institutions Administrators.
+
+.. thumbnail:: ../_images/institution4.png
+   :title: Changing project visibility.
+   :align: center
+   :width: 50%
+
+2. **[Delete Selected]**: This allows you to delete selected projects from your Institution. You can select multiple projects by checking the boxes next to their names. Once you have selected the projects you want to delete, click the **[Delete Selected]** button. CEO will ask you to confirm your changes. Click **[OK]** to confirm. **PROJECT DELETION IS PERMANENT** and cannot be undone. All data collected in the project will also be deleted, including plots, samples, and answers.
+3. **[Bulk Download Options]**: This allows you to download the data from multiple projects. You can download the data in three formats: Plot Data, Sample Data, and Shapefile. The Plot Data includes all the data collected for each project, the Sample Data includes all the data collected for each project, and the Shapefile includes the spatial data for each project. Click on the button for each of the format(s) you want to download, and CEO will generate a compressed file for you to download. For more information on downloading data, see :doc:`../project/management`.
+
+.. thumbnail:: ../_images/institution5.png
+   :title: Bulk download options.
+   :align: center
+   :width: 50%
+
+In addition to these options, there are individual options for each project in the list:
+1. **[Selection Checkbox]**: This allows you to select a project for bulk actions, such as deleting or downloading data.
+2. **[Project Visibility Level]**: This indicates the visibility level of the project. The visibility levels are Public, Users, Institution, and Private. You can change the visibility level of a project using the bulk action menu above or in the Project's Management page.
+3. **[Project Name]**: This is the name of the project. Clicking on the project name will take you to the project's data collection page, where you can collect data for the project.
+4. **[Edit]**: This allows you to edit the project details, including the project name, description, and imagery. You can also change the visibility of the project from this page.
+5. **[Delete]**: This allows you to delete the project from your Institution. Clicking this button will prompt you to confirm the deletion. **PROJECT DELETION IS PERMANENT** and cannot be undone. All data collected in the project will also be deleted, including plots, samples, and answers.
+6. **[P]**: Download Plot Data for the project.
+7. **[S]**: Download Sample Data for the project.
+8. **[M]**: Preview the Learning Material for the project.
+
+.. thumbnail:: ../_images/institution6.png
+   :title: Project management options.
+   :align: center
+   :width: 50%
+
+Imagery management
+------------------
+
+As an Administrator, you can manage the imagery available for your Institution in the **Imagery** tab of your Institution page. You can add new imagery feeds, edit existing imagery feeds, and delete imagery feeds.
+
+At the top of the **Imagery** tab is the **[+ Add New Imagery]** button. This allows you to add a new imagery feed to your Institution. Clicking this button will take you to the **Add Imagery** interface, where you can specify the imagery feed details. For more information on adding imagery, see :doc:`imagery`.
+
+At the top of the page are bulk actions for managing imagery feeds:
+1. **[Change Imagery Visibility]**: This allows you to change the visibility of your Institutions imagery feeds. There are two levels of visibility: Public and Institution. Institution imagery feeds are only available to the Institution that created them. This is the default.Public imagery feeds are available to all Institutions in CEO. **USE THIS AT YOUR OWN RISK** You can change the visibility of an imagery feed by selecting it from the list and clicking the **[Change Visibility]** button. CEO will ask you to confirm your changes. Click **[OK]** to confirm. 
+2. **[Delete Selected]**: This allows you to delete selected imagery feeds from your Institution. You can select multiple imagery feeds by checking the boxes next to their names. Once you have selected the imagery feeds you want to delete, click the **[Delete Selected]** button. CEO will ask you to confirm your changes. Click **[OK]** to confirm. **IMAGERY DELETION IS PERMANENT** and cannot be undone.
+
+Next to each imagery feed in the list are individual options for managing that feed:
+1. **[Selection Checkbox]**: This allows you to select an imagery feed for bulk actions, such as changing visibility or deleting.
+2. **[Imagery Name]**: This is the name of the imagery feed.
+3. **[Edit]**: This allows you to edit the imagery feed details.
+4. **[Delete]**: This allows you to delete the imagery feed from your Institution. Clicking this button will prompt you to confirm the deletion. **IMAGERY DELETION IS PERMANENT** and cannot be undone.
+
+.. thumbnail:: ../_images/institution7.png
+   :title: Imagery management options.
+   :align: center
+   :width: 50%
 
 Institution user (member) management
 ------------------------------------

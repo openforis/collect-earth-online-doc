@@ -73,6 +73,8 @@ External Links
 - **QAQC Dashboard:** Clicking on **[QAQC Dashboard]** will take you to the QAQC dashboard. This dashboard is only available if you have implemented QAQC in your project. Learn more about the QAQC dashboard, please see :doc:`/project/qaqcdashboard`. For more detail on how to implement QAQC, please see :doc:`/project/qaqc`.
 
 
+
+
 Export Data
 ^^^^^^^^^^^
 
@@ -84,23 +86,27 @@ There are three data download options, **Download Plot Data**, **Download Sample
 
 **Download Plot Data** downloads your data with all samples summarized by plot. It is downloaded in .csv, which can be opened in programs like Microsoft Excel or imported into data analysis software. Downloaded columns will be: 
   
-- **PLOT_ID:** the CEO-assigned unique sample plot number or the user provided Plot ID (for .csv and .shp files).
-- **CENTER_LON** and **CENTER_LAT** are the geographic coordinates of the center of your sample plots.
-- **SIZE_M** and **SHAPE** describe the size in meters and the shape (circle or square) of the sample plot.
-- **SAMPLE_POINTS** indicates the number of samples in each plot.
-- **EMAIL** is the user id (email address) of the person that classified the plot.
-- **FLAGGED**: This will be FALSE for plots where data was collected and for plots where data has not been collected yet. It will be TRUE when a user has flagged the quality of the background map as not good enough to analyze the samples (e.g. due to clouds or poor image resolution).
+- **plotid:** the CEO-assigned unique sample plot number or the user provided Plot ID (for .csv and .shp files).
+- **center_lon** and **center_lat** are the geographic coordinates of the center of your sample plots.
+- **size_m** and **shape** describe the size in meters and the shape (circle or square) of the sample plot.
+- **sample_points** indicates the number of samples in each plot.
+- **email** is the user id (email address) of the person that classified the plot.
+- **flagged**: This will be FALSE for plots where data was collected. It will be TRUE when a user has flagged the quality of the background map as not good enough to analyze the samples (e.g. due to clouds or poor image resolution).
 
   - Plots can either be flagged or saved by a user, but not both.
   - If a user flags the plot, then goes back and enters data and saves the plot, the plot will not be flagged.
 
-- **FLAGGED_REASON**: A user provided reason for flagging the plot.
-- **CONFIDENCE**: Collected user confidence.
-- **COLLECTION_TIME**: date and time the user collected the plot data. Time in UTC.
-- **ANALYSIS_DURATION**: Amount of time, in seconds, the user spent analyzing the plot.
-- **COMMON_SECUREWATCH_DATE**: Most common SecureWatch date used.
-- **TOTAL_SECUREWATCH_DATE**: Number of SecureWatch dates used.
-- If you used a .csv or .shp file for plot design, any additional data columns you uploaded will be preserved in the .csv download. They will be preceded by PL_(column name). 
+- **flagged_reason**: A user provided reason for flagging the plot.
+- **confidence**: Collected user confidence, if enabled.
+- **collection_time**: date and time the user collected the plot data. Time in UTC.
+- **analysis_duration**: Amount of time, in seconds, the user spent analyzing the plot.
+- **common_securewatch_date**: Most common SecureWatch date used. 
+- **total_securewatch_date**: Number of SecureWatch dates used.
+
+.. note:: 
+     If you used SecureWatch imagery, this will be the date that was most commonly used by the user when classifying the plot. If you did not use SecureWatch imagery, this will be blank. Now that SecureWatch imagery is depricated, this column will not be populated in new projects.
+
+- If you used a .csv or .shp file for plot design, any additional data columns you uploaded will be preserved in the .csv download. They will be preceded by pl_(column name). 
 - All the following columns will have information about each of the survey questions broken down by answer. They are labeled **QUESTION TEXT:ANSWER TEXT**. For example, LULC:Built Surface would indicate that “LULC” was the question and “Built Surface” was the answer. 
 
   - In the plot summary download, these are quantified as percent (max 100) of the sample points in the plot that were assigned that answer.
@@ -111,47 +117,42 @@ There are three data download options, **Download Plot Data**, **Download Sample
 
 Downloaded .csv data from Download Sample Data will have the following columns:
 
-- **PLOT_ID**: the CEO-assigned unique sample plot number or the user provided Plot ID (for .csv and .shp files).
-- **SAMPLE_ID**: the CEO-assigned unique sample point number or the user provided Sample ID (for .csv and .shp files).
-- **LON** and **LAT** are the geographic coordinates of the center of your sample points.
-- **EMAIL:** is the user id (email address) of the person that classified the plot.
-- **FLAGGED**: This will be FALSE for plots where data was collected and for plots where data has not been collected yet. It will be TRUE when a user has flagged the quality of the background map as not good enough to analyze the samples (e.g. due to clouds or poor image resolution).
-- **COLLECTION_TIME**: The date and time when the user classified the plot. *Time zone is UTC.*
-- **ANALYSIS_DURATION**: Time in seconds that the user took to analyze the plot.
-- **IMAGERY_TITLE**: Name of the Imagery layer that the user had selected while analyzing the plot.
-- **IMAGERY_ATTRIBUTIONS**: Any attribution for the imagery used.
+- **plotid**: the CEO-assigned unique sample plot number or the user provided Plot ID (for .csv and .shp files).
+- **sampleid**: the CEO-assigned unique sample point number or the user provided Sample ID (for .csv and .shp files).
+- **sample_internal_id**: the internal sample ID used by CEO.
+- **lon** and **lat** are the geographic coordinates of the center of your sample points.
+- **email** is the user id (email address) of the person that classified the plot.
+- **flagged**: This will be FALSE for plots where data was collected and for plots where data has not been collected yet. It will be TRUE when a user has flagged the quality of the background map as not good enough to analyze the samples (e.g. due to clouds or poor image resolution).
+- **collection_time**: The date and time when the user classified the plot. *Time zone is UTC.*
+- **analysis_duration**: Time in seconds that the user took to analyze the plot.
+- **imagery_title**: Name of the Imagery layer that the user had selected when saving the plot.
+- **imagery_attributions**: Any attribution for the imagery used.
 
 .. note::
 
    If multiple imagery sources were used, only the name of the last imagery layer used will be recorded. There is no way to know all the layers used by the user, e.g. if you want to check that two years of imagery were used.
 
-- If you used a .csv or .shp file for sample plot design, any additional data columns you uploaded will be preserved in the .csv download. They will be preceded by PL_(column name).
-- If you used a .csv or .shp file for sample point design, any additional data columns you uploaded will be preserved in the .csv download. They will be preceded by SMPL_(column name).
-- All the following columns will have information about each of the survey questions. They will be labeled **QUESTION TEXT**, where question text is the literal text of the question.
-
-  .. note::
-      
-      Note that imagery dates are not available as many of the imagery sources are composite. *This means that* *each map tile is stitched together from imagery acquired on multiple dates. There is not a single date for an imagery tile*.
-
-- If you are using SecureWatch imagery, you will have four additional columns:
-
-  - **IMAGERYDATESECUREWATCH** will have a value for any samples which were classified while a specific date was selected from the imagery date dropdown.
-  - **IMAGERYSTARTDATESECUREWATCH**, **IMAGERYENDDATESECUREWATCH**, and **FEATUREPROFILESECUREWATCH** will have values for any samples which were classified while a date range and feature profile were selected.
-
 .. note:: 
       
       Note that imagery properties are associated with samples (not plots) because users are free to change these properties while classifying samples. Thus, any given plot may have some of its samples classified with one map image and other samples classified with a different map image.
 
+- **sample_geometry**: The geometry of the sample point in WKT format.
+- If you used a .csv or .shp file for sample plot design, any additional data columns you uploaded will be preserved in the .csv download. They will be preceded by PL_(column name).
+- If you used a .csv or .shp file for sample point design, any additional data columns you uploaded will be preserved in the .csv download. They will be preceded by SMPL_(column name).
+- All the following columns will have information about each of the survey questions. They will be labeled **QUESTION TEXT**, where question text is the literal text of the question.
+
 **Download Shape File** downloads a zip file with two folders: plot-shape-file and sample-shape-file. Each file contains a corresponding shapefile, consisting of .shp, .cpg, .dbf, .prj, and .shx files. Column (feature) information includes:
 
-- **PROJECTID**: The project ID number from CEO.
-- **PLOTID**: The PLOTID number from CEO.
-- **SAMPLEID**: For the sample-shape-file only, the SAMPLEID number.
+- **PROJECT_ID**: The project ID number from CEO.
+- **PLOT_ID**: This is the internal plot ID used by CEO. It corresponds with the **plotid** column in the .csv download.
+- **SAMPLE_ID**: For the sample-shape-file only, the user assigned sample ID number.
+- **SAMPLE_INT**: The internal sample ID used by CEO. It corresponds with the **sample_internal_id** column in the .csv download.
 
 Using this information, you can join the shapefile with the plot or sample .csv information using a desktop GIS application such as QGIS or ArcGIS. You could also use a web-based application such as Google Earth Engine.
 
 Digital Object Identifier
 -------------------------
+
 `Digital Object Identifiers <https://www.doi.org/the-identifier/what-is-a-doi/>`__ (DOIs) are unique identifiers that help keep track of objects—digital, physical, or abstract. For example, DOIs can be assigned GitHub code, peer-reviewed papers, or to data sets like those generated by users in CEO. 
 
 DOIs consist of a unique number made up of a prefix, a forward slash, and a suffix. For example, the DOI for the peer-reviewed paper describing CEO is: 10.1016/j.envsoft.2019.05.004. A DOI enables unique and persistent identification and tracking of CEO datasets. 
@@ -160,10 +161,10 @@ CEO’s implementation of DOIs is strictly opt-in, meaning that users must choos
 
 **Create DOI** will automatically send collection data and the plot/sample shape files to Zenodo. 
 
-**Publish DOI** will make the created DOI public. Click this after collecting all of your data, completed all QAQC, and have a final, high quality dataset.
+**Publish DOI** will make the created DOI public. We suggest you click this after collecting all of your data, completed all QAQC, and have a final, high quality dataset. You can publish more than one DOI for a project.
 
 .. note:: 
-   A project may only have a DOI created if it is published or closed, and if the DOI is published, a project cannot create any more DOIs.
+   A project may only have a DOI created if it is published or closed.
 
 On the project review page, you can copy the DOI reference and look for it on either https://doi.org or on https://zenodo.org. Remember that your reference consists of the prefix, forward slash, and the suffix. To view your DOI on DOI.org or Zenodo, simply search for your project’s DOI reference. You can find this information on your **Project Information** page under **Overview.**
 

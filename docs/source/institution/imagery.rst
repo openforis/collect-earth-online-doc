@@ -1,5 +1,18 @@
-Built-in & custom imagery sources
+Built-in & Custom Imagery Sources
 =================================
+
+You can add Imagery to your Institution in Collect Earth Online (CEO) to use in your Projects. This is often referred to as a basemap or background map. Basemaps provide context for the data you collect, allowing you to see the landscape and land use changes over time.
+
+The Imagery tab of your Institution page allows you to add new imagery sources, view existing imagery sources, and manage the visibility of your institution's imagery. 
+
+- You can add new imagery sources by clicking on the **[Add New Imagery]** button. More information on this process is available in the section below.
+- You can Change the visibility of your institution's imagery by clicking on the **[Change Visibility]** button after selecting one or multiple imagery sources. The default is for imagery you add to be Private and only available to be used by projects from this institution. You can make imagery public, which allows you to make the imagery available to any project in CEO. **USE THIS AT YOUR OWN RISK**
+- You can also delete imagery sources by clicking on the **[Delete]** button after selecting one or multiple imagery sources. This will permanently delete the imagery source from your Institution and all Projects that use it.
+- The **[Edit]** button brings up the form to edit the imagery source. You can change the title, attribution, and other settings for the imagery source.
+
+
+Imagery Overview
+----------------
 
 There are two main ways to add background, or basemap imagery to your Institution for use in your Projects. First, CEO includes a handful of built-in imagery options, including imagery from MapBox and Sentinel. Second, CEO allows users to connect their own imagery from many different sources, including Google Earth Engine, Bing Maps, XYZ tiles, WMS and more.
 
@@ -352,13 +365,6 @@ Open Street Maps is an open source mapping product. This provides Open Street Ma
     :align: center
     :width: 70%
 
-Notes on imagery
-----------------
-
-For imagery options with dates, the dates you input are the default Dates that the imagery will be restricted to on the collection page. However, the user will be able to change these when exploring the map as there are start & end date widgets on the collection page sidebar (there are examples in the **Data Collection Manual**). For SecureWatch, the user will also be able to choose between FeatureProfiles. Without specifying a FeatureProfile, the most recent available imagery between the start and end dates displayed on the map.
-
-The Planet products will not return imagery if the map is zoomed out too much. This results in a white map canvas being displayed at the project overview level usually. Simply click the "Go to first plot" button on the Collection page to zoom in to the plot level, and then the imagery should appear.
-
 Adding imagery from multiple time periods
 -----------------------------------------
 
@@ -447,6 +453,13 @@ After you have added imagery you may need to change the default dates of the Vis
     First, if your data source has a data viewing portal, you can use this to explore the imagery and determine what is available for the time periods you are interested in. 
      
     Second, you can add the imagery layer, then open an existing project from your institution. The imagery will be available in the dropdown menu (if you are switching between a project **Data Collection** window and an **Institution** window, you may need to refresh the project window to get    the new layer to appear). You can then check if the imagery is displaying correctly and go back to the **Institution** page to edit the imagery based on what you see.
+
+Notes on imagery
+----------------
+
+For imagery options with dates, the dates you input are the default Dates that the imagery will be restricted to on the collection page. However, the user will be able to change these when exploring the map as there are start & end date widgets on the collection page sidebar.
+
+The Planet products will not return imagery if the map is zoomed out too much. This results in a white map canvas being displayed at the project overview level usually. Simply click the "Go to first plot" button on the Collection page to zoom in to the plot level, and then the imagery should appear.
 
 Estimating imagery costs
 ------------------------
