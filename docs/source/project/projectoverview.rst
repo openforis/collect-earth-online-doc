@@ -3,10 +3,25 @@ Project Overview
 
 This section allows you to add general information about the project, including selecting a template (optional), project name, project description, and project options.
 
-Use a project template (optional)
+Project Type
+------------
+
+The **Project Type** dropdown menu allows you to select the type of project you want to create. The options are:
+- **Regular Project**: This is the default option and allows you to create a project with plots and samples. 
+- **Simplified Project**: This option allows you to create a streamlined project without pre-defined plots and samples. Users can draw their own plots on the map during data collection. In addition, the survey question types are limited and the data collection interface is simplified. 
+
+Use a **Regular Project** if you want to use the full functionality of CEO, including pre-defined plots and samples, advanced survey question types, and a more complex data collection interface. **Regular Projects** are suitable for projects that require a more structured approach to data collection, such as data collection for national inventories, land use change assessments, or other projects that require a defined sampling design.
+
+Use a **Simplified Project** if you want to create a project that is easier to set up and use, with fewer options and a more straightforward data collection process. **Simplified Projects** are suitable for projects that are looking for flexible user input, such as data collection for machine learning model training and validation. 
+
+For information on how to set up a **Simplified Project**, see :doc:`/project/simplifiedproject`.
+
+.. _templates:
+
+Use a Project Template (Optional)
 ---------------------------------
 
-This feature is used to copy all the information—including project info, area, and sampling design—from an existing published project to a new project. This is useful if you have an existing project you want to duplicate for another year or location, or if you are iterating through project design. For a template, you may use any available published or closed project from your institution. You cannot use deleted projects. You cannot use another institution’s private project but you can use another institution’s public project (any website visitor or CEO user). For more on project  privacy settings, see **Visibility** below.
+This feature is used to copy all the information—including project info, area, and sampling design—from an existing published project to a new project. This is useful if you have an existing project you want to duplicate for another year or location, or if you are iterating through project design. For a template, you may use any available published or closed project from your institution. You cannot use deleted projects. You cannot use another institution’s private project but you can use another institution’s public project (any website visitor or CEO user). For more on project privacy settings, see **Visibility** below.
 
 .. tip::
 
@@ -54,6 +69,8 @@ You can also import an existing Collect Earth desktop project. This is useful if
    :title: Import Collect Earth Project option in the project wizard.
    :align: center
    :width: 50%
+
+.. _basic-project-information:
 
 Basic Project Information
 -------------------------

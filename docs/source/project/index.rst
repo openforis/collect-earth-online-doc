@@ -38,6 +38,7 @@ Finally, CEO is a live tool that is under continuous development. Please report 
    survey
    rules
    reviewproject
+   simplifiedproject
    management
    geodash
    qaqcdashboard
