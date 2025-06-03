@@ -24,7 +24,7 @@ sys.path.append(os.path.abspath('_extensions'))
 extensions = [
     "sphinx.ext.napoleon",
 #    "sphinx.ext.graphviz",
-    "sphinxcontrib.images",
+#    "sphinxcontrib.images",
 #    "sphinxcontrib.icon",
 #    "sphinxcontrib.btn",
     "sphinxcontrib.email",
@@ -40,7 +40,6 @@ extensions = [
     "logos"
 ]
 
-templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 locale_dirs = ["_locale/"]
 gettext_compact = False

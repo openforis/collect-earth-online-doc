@@ -4,7 +4,7 @@ General
 - PDF generation bug
     - Create minimum viable
     - Test if PDF builds
-    - Maybe .. thumbnail command is the issue? 
+    - Maybe .. thumbnail command is the issue? Updating the maximum sphinx 
     - See which packages we can remove
 - Copy editing
 
