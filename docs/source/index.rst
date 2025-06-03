@@ -50,7 +50,7 @@ CEO enables users to efficiently collect up-to-date information about their envi
 .. grid:: 1 3 3 3
    :gutter: 2
 
-   .. grid-item-card:: :fas:`map-o` Start collecting data
+   .. grid-item-card:: :fas:`map` Start collecting data
       :link: collection/index.html
 
       Learn how to collect data in CEO.
@@ -90,7 +90,7 @@ Want to request a feature that would make CEO work better for you?
 
       Submit a documentation improvement request through GitHub.
 
-   .. grid-item-card:: :fas:`envelope-o` E-mail us
+   .. grid-item-card:: :fas:`envelope` E-mail us
       :link: mailto:support@collect.earth
 
       Other questions or bugs? Get in touch.

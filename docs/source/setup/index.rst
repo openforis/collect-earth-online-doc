@@ -25,10 +25,10 @@ Navigate to other areas of this article by by selecting links under **On this pa
 
 Finally, CEO is a live tool that is under continuous development. Please report any bugs at our GitHub or by contacting `the CEO team <support@collect.earth>`__.
 
-.. toctree::
-   :maxdepth: 1
-   :hidden:
+.. .. toctree::
+..    :maxdepth: 1
+..    :hidden:
 
-   register
-   joining
+..    register
+..    joining
     

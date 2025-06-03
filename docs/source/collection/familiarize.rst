@@ -15,8 +15,6 @@ Conifer forest:
    :align: center
 
 
-.. line-break::
-
 Deciduous Forest (Temperate):
 
 .. thumbnail:: ../_images/interp2.png
@@ -41,8 +39,6 @@ Western United States (arid):
    :title: Irrigated agriculture in the arid Western United States.
    :align: center
 
-
-.. line-break::
 
 Midwestern United States (temperate):
 
