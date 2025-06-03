@@ -9,9 +9,9 @@ Welcome to Collect Earth Online's documentation!
    :hidden:
 
    Getting Started<setup/index>
-   Data Collection<collection/index>
-   Institution Management<institution/index>
-   Project Creation<project/index>
+   .. Data Collection<collection/index>
+   .. Institution Management<institution/index>
+   .. Project Creation<project/index>
 
 Collect Earth Online (CEO) is a free and open-source image viewing and interpretation tool, suitable for projects requiring information about land cover and/or land use. CEO enables simultaneous visual interpretations of satellite imagery, providing global coverage from MapBox and Bing Maps, a variety of satellite data sources from Google Earth Engine, and the ability to connect to your own Web Map Service (WMS) or Web Map Tile Service (WMTS). The full functionality is implemented online; no desktop installation is necessary.
 
@@ -19,81 +19,81 @@ Collect Earth Online (CEO) is a free and open-source image viewing and interpret
    :align: center
    :width: 100%
 
-Getting started
----------------
+.. Getting started
+.. ---------------
 
-Create your account and get started with CEO.
+.. Create your account and get started with CEO.
 
-.. grid:: 1 3 3 3
-   :gutter: 2
+.. .. grid:: 1 3 3 3
+..    :gutter: 2
 
-   .. grid-item-card:: :fas:`sign-in` Register for CEO
-      :link: setup/register.html
+..    .. grid-item-card:: :fas:`sign-in` Register for CEO
+..       :link: setup/register.html
 
-      Set up your Collect Earth Online account.
+..       Set up your Collect Earth Online account.
 
-   .. grid-item-card:: :fas:`plug` Join an institution
-      :link: setup/joining.html
+..    .. grid-item-card:: :fas:`plug` Join an institution
+..       :link: setup/joining.html
 
-      Learn how to join an institution in CEO.
+..       Learn how to join an institution in CEO.
 
-   .. grid-item-card:: :fas:`users` Set up an institution
-      :link: institution/create.html
+..    .. grid-item-card:: :fas:`users` Set up an institution
+..       :link: institution/create.html
 
-      Set up your own institution in CEO.
+..       Set up your own institution in CEO.
 
-Learn more about CEO
---------------------
+.. Learn more about CEO
+.. --------------------
 
-CEO enables users to efficiently collect up-to-date information about their environment and observe changes over time. Learn more about getting CEO to work for you.
+.. CEO enables users to efficiently collect up-to-date information about their environment and observe changes over time. Learn more about getting CEO to work for you.
 
-.. grid:: 1 3 3 3
-   :gutter: 2
+.. .. grid:: 1 3 3 3
+..    :gutter: 2
 
-   .. grid-item-card:: :fas:`map` Start collecting data
-      :link: collection/index.html
+..    .. grid-item-card:: :fas:`map` Start collecting data
+..       :link: collection/index.html
 
-      Learn how to collect data in CEO.
+..       Learn how to collect data in CEO.
 
-   .. grid-item-card:: :fas:`cogs` Manage an institution
-      :link: institution/index.html
+..    .. grid-item-card:: :fas:`cogs` Manage an institution
+..       :link: institution/index.html
 
-      Get your own institution up and running.
+..       Get your own institution up and running.
 
-   .. grid-item-card:: :fas:`globe` Create a project
-      :link: project/index.html
+..    .. grid-item-card:: :fas:`globe` Create a project
+..       :link: project/index.html
 
-      Create your own project and start collecting data.
+..       Create your own project and start collecting data.
 
-Get more help or request a feature
-----------------------------------
+.. Get more help or request a feature
+.. ----------------------------------
 
-Have questions? Encounter bugs? Get the help you need using the links below. 
+.. Have questions? Encounter bugs? Get the help you need using the links below. 
 
-Want to request a feature that would make CEO work better for you? 
+.. Want to request a feature that would make CEO work better for you? 
 
-.. grid:: 1 2 2 4
-   :gutter: 2
+.. .. grid:: 1 2 2 4
+..    :gutter: 2
 
-   .. grid-item-card:: :fas:`book` Read the blog
-      :link: https://www.collect.earth/blog/
+..    .. grid-item-card:: :fas:`book` Read the blog
+..       :link: https://www.collect.earth/blog/
 
-      Our blog has details on updates and other useful information.
+..       Our blog has details on updates and other useful information.
 
-   .. grid-item-card:: :fas:`question` Ask a question
-      :link: https://openforis.support/tags/collectearthonline/#gsc.tab=0
+..    .. grid-item-card:: :fas:`question` Ask a question
+..       :link: https://openforis.support/tags/collectearthonline/#gsc.tab=0
 
-      Ask a question on the OpenForis forum.
+..       Ask a question on the OpenForis forum.
 
-   .. grid-item-card:: :fas:`bug` Improve this documentation
-      :link: https://github.com/openforis/collect-earth-online-doc
+..    .. grid-item-card:: :fas:`bug` Improve this documentation
+..       :link: https://github.com/openforis/collect-earth-online-doc
 
-      Submit a documentation improvement request through GitHub.
+..       Submit a documentation improvement request through GitHub.
 
-   .. grid-item-card:: :fas:`envelope` E-mail us
-      :link: mailto:support@collect.earth
+..    .. grid-item-card:: :fas:`envelope` E-mail us
+..       :link: mailto:support@collect.earth
 
-      Other questions or bugs? Get in touch.
+..       Other questions or bugs? Get in touch.
 
 Supporting Institutions
 -----------------------
