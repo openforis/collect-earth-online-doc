@@ -1,7 +1,6 @@
 pydata-sphinx-theme
-Sphinx<=7.1.2
+Sphinx<=8.2.3
 sphinx-notfound-page>=0.6
-sphinxcontrib-images
 sphinx-design
 git+https://github.com/sphinx-contrib/youtube.git
 sphinx-favicon>=1.0.1
