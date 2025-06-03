@@ -120,6 +120,8 @@ Learning Material
     :align: center
     :width: 50%
 
+.. _visibility:
+
 Visibility
 ^^^^^^^^^^
 

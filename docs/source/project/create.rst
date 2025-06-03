@@ -40,3 +40,10 @@ The wizard comprises 6 parts: Project Overview, Imagery Selection, Plot Design, 
     :width: 70%
 
 Each of these parts is described in detail below. You can navigate between the different parts of the wizard using the tabs at the top of the page or the **[Next]** and **[Back]** buttons at the bottom of the page. You can also click **[Save Draft]** to save your progress and return to the wizard later. The **[Cancel]** button will take you back to your Institution page without saving any changes you have made in the wizard.
+
+Finally, on the **Plot Design**, **Sample Design**, and **Survey Questions** tabs, you can click on the grey **[Save]** button to save your project as a draft. This will allow you to return to the project later and continue editing it. CEO will save your draft project for 7 days. If you do not return to the project within 7 days, it will be deleted. 
+
+.. thumbnail:: ../_images/project2-1.png
+    :title: Save Draft button
+    :align: center
+    :width: 50%

@@ -1,0 +1,18 @@
+To Do:
+
+General
+- PDF generation bug
+    - Create minimum viable
+    - Test if PDF builds
+    - Maybe .. thumbnail command is the issue? 
+    - See which packages we can remove
+- Copy editing
+
+Feature additions/changes:
+- Simplified Project management?
+- New error text
+- Added a column for interpreter names in the downloaded CSV files
+- Repurposing the Planet NICFI imagery to point to the Tropical Forest Observatory
+- Add “View Plot in Collection Window” in the QAQC Module
+- Allow different boundary types in Simplified Projects
+- File upload for specifying reviewers and users? I still can't get this to work.
