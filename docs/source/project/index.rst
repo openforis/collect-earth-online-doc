@@ -10,9 +10,9 @@ Overview of the PROJECT section
 
 In this section of the CEO documentation, you can learn how to:
 
-- :doc:`Create a Project <create>`
-- :doc:`Set up Plots and Samples <plotsample>`
-- :doc:`Manage your Project <management>`
+.. - :doc:`Create a Project <create>`
+.. - :doc:`Set up Plots and Samples <plotsample>`
+.. - :doc:`Manage your Project <management>`
 
 The Project section provides an overview of how to create and manage an institution in Collect Earth Online. You can learn about how to create your account, collect data, and create your own projects in other sections of this documentation. Navigate to these sections using the links at the top of the page.
 

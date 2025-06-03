@@ -136,7 +136,7 @@ favicons = [
 
 # -- Options for images --------------------------------------------------------
 
-#images_config = {"download": True}
+images_config = {"download": True}
 
 
 # -- Options for bibtex --------------------------------------------------------

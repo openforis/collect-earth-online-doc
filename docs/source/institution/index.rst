@@ -10,9 +10,9 @@ Overview of the INSTITUTION section
 
 In this section of the CEO documentation, you can learn how to:
 
-- :doc:`Create an Institution <create>`
-- :doc:`Manage your institution <management>`
-- :doc:`Add Institutional imagery <imagery>`
+.. - :doc:`Create an Institution <create>`
+.. - :doc:`Manage your institution <management>`
+.. - :doc:`Add Institutional imagery <imagery>`
 
 The Institution section provides an overview of how to create and manage an Institution in Collect Earth Online. You can learn about how to create your account, collect data, and create your own projects in other sections of this documentation. Navigate to these sections using the links at the top of the page.
 
