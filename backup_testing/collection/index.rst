@@ -12,9 +12,9 @@ Overview of the Data Collection section
 
 In this section of the CEO documentation, you can learn how to:
 
-.. - :doc:`Prepare to collect data <preparing>`
-.. - :doc:`Collect data <start>`
-.. - :doc:`Troubleshoot common issues <troubleshooting>`
+- :doc:`Prepare to collect data <preparing>`
+- :doc:`Collect data <start>`
+- :doc:`Troubleshoot common issues <troubleshooting>`
 
 The Data Collection section provides a quick overview of the Collect Earth Online data collection interface, how to collect data for Standard and Simplified projects and what to do if you encounter an error. You can learn about how to set up your CEO account, and how to manage your own institution and projects in other sections of this documentation. Navigate to these sections using the links at the top of the page.
 
@@ -28,16 +28,16 @@ Navigate to other areas of this article by by selecting links under **On this pa
 
 Finally, CEO is a live tool that is under continuous development. Please report any bugs at our GitHub or by contacting `the CEO team <support@collect.earth>`__.
 
-.. .. toctree::
-..     :maxdepth: 1
-..     :hidden:
+.. toctree::
+    :maxdepth: 1
+    :hidden:
 
-..     preparing
-..     start
-..     standard
-..     simplified
-..     geodash
-..     advanced
-..     familiarize
-..     troubleshooting
+    preparing
+    start
+    standard
+    simplified
+    geodash
+    advanced
+    familiarize
+    troubleshooting
     

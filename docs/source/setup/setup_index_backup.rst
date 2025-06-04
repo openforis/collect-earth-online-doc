@@ -10,8 +10,8 @@ Overview of the SETUP section
 
 In this section of the CEO documentation, you can learn how to:
 
-- Register your CEO account
-- Join an institution
+- :doc:`Register your CEO account <register>`
+- :doc:`Join an institution <joining>`
 
 The Setup section provides a quick overview of the Collect Earth Online platform so users can set up their own accounts, along with details on how to join an institution. You can learn about how to collect data, and how to manage your own instiution and projects in the other sections of this documentation. Navigate to these sections using the links at the top of the page.
 
@@ -25,3 +25,9 @@ Navigate to other areas of this article by by selecting links under **On this pa
 
 Finally, CEO is a live tool that is under continuous development. Please report any bugs at our GitHub or by contacting `the CEO team <support@collect.earth>`__.
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   register
+   joining
