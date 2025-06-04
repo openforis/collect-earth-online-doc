@@ -39,6 +39,9 @@ Create your account and get started with CEO.
 
       Set up your own institution in CEO.
 
+
+bla bla bla some text here
+
 .. figure:: _images/joining1.png
    :width: 75%
    :align: center
