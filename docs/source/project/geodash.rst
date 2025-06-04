@@ -63,15 +63,3 @@ Move & Resize Widgets
 
 .. figure:: ../_images/change_widget_layout.gif
    :align: center
-
-Duplicate, Edit, and Delete Widgets
------------------------------------
-
-1. You can copy a widget once it has been created by clicking on the **[duplicate icon]** in the upper right hand corner of the widget.
-2. You can edit widgets once they are created by clicking on the **[pencil icon]** in the upper right hand corner of the widget.
-3. To delete a widget, click on the trashcan in the upper right-hand corner of the widget.
-
-.. figure:: ../_images/geodash3.png
-    :alt: Duplicate, edit, or delete a widget.
-    :align: center
-    :width: 50%
