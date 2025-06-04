@@ -46,7 +46,7 @@ Widget Formatting Hints
 
 - alts cannot contain special characters.
 - Image parameters use JSON. Quotes used for image parameters in widgets should be vertical (not “”). There should be no spaces in the image parameters.
-- Lists can be formatted either as ``"1,2,3"`` or as ``[1,2,3]`` for numbers and ``"B3,B2,B1"`` or ``["B3","B2","B1"]`` for bands.
+- Lists can be formatted either as :literal:`"1,2,3"` or as :literal:`[1,2,3]` for numbers and :literal:`"B3,B2,B1"` or :literal:`["B3","B2","B1"]` for bands.
 - When displaying three bands (e.g. B3, B2, B1 in RGB), Google Earth Engine and therefore the Geo-Dash can use either one or three values for min and max.
 - For the Date Ranges, if the end date is longer than the period of record, only the available data will be displayed.
 
@@ -88,7 +88,6 @@ It is calculated with this equation:
     :align: center
     :width: 50%
 
-
 where
 
 .. figure:: ../_images/geodash5.png
@@ -124,11 +123,11 @@ To create a Dual Imagery Widget:
 4. Choose **Basemap** source from dropdown. This will be the basemap for the widget and other data will be layered on top.
 5. You will now select the **Imagery type** for the Bottom and Top images. You can toggle between them by clicking the **[Next Image]** and **[Previous Image]** buttons.
 
-   1. Select the **Imagery Type** for each image. Options include Image Asset, Image Collection Asset, and Preloaded Imagery Collection.
-   2. For more information about Image Assets, see :ref:`add-image-asset-widget`.
-   3. For more information about Image Collection Assets, see :ref:`add-image-collection-asset-widget`.
-   4. For more information about Preloaded Imagery Collections, see :ref:`add-preloaded-image-collection-widget`.
-   5. For information on the min, max, and cloud score see :ref:`add-image-asset-widget`. Min and Max are the values for the bands, while cloud score is a max percent of clouds in the image.
+   - Select the **Imagery Type** for each image. Options include Image Asset, Image Collection Asset, and Preloaded Imagery Collection.
+   - For more information about Image Assets, see :ref:`add-image-asset-widget`.
+   - For more information about Image Collection Assets, see :ref:`add-image-collection-asset-widget`.
+   - For more information about Preloaded Imagery Collections, see :ref:`add-preloaded-image-collection-widget`.
+   - For information on the min, max, and cloud score see :ref:`add-image-asset-widget`. Min and Max are the values for the bands, while cloud score is a max percent of clouds in the image.
 
 6. Select the **Date** range you would like, if applicable. If the end date is longer than the period of record, only the available data will be displayed.
 7. Click **[Create]**.
@@ -196,7 +195,7 @@ An Image Collection is a stack or time series of images. There is a video tutori
 7. Select a **Collection Reducer**. Reducers are methods for collapsing multiple images in the image collection into a single image for the Geo-Dash to display. You can learn more about reducers here https://developers.google.com/earth-engine/guides/reducers_intro.
 8. Enter **Image Parameters** for the asset in JSON format. These follow the image visualization function in GEE (more info: https://developers.google.com/earth-engine/guides/image_visualization?hl=en):
 
-   - For example: ``{"bands":"B4,B5,B3","min":"10,0,10","max":"120,90,70"}``.
+   - For example: :literal:`{"bands":"B4,B5,B3","min":"10,0,10","max":"120,90,70"}`.
    - Do not use any spaces.
 
 9.  Select the **Date Range**.
