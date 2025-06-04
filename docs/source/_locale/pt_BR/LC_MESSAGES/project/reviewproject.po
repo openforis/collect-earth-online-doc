@@ -1,33 +1,29 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, Collect Earth Online team
-# This file is distributed under the same license as the Collect Earth
-# Online package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Collect Earth Online \n"
+"Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: pt_BR\n"
-"Language-Team: pt_BR <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2024-02-17 01:32\n"
+"Last-Translator: \n"
+"Language: pt\n"
+"Language-Team: Portuguese, Brazilian\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
+"X-Crowdin-Project: collect-earth-online-doc\n"
+"X-Crowdin-Project-ID: 647276\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /main/docs/source/_locale/en/LC_MESSAGES/project/reviewproject.po\n"
+"X-Crowdin-File-ID: 70\n"
 
 #: ../../project/reviewproject.rst:2 0906a3055dc1476393b38ff809e3d9fe
 msgid "Reviewing Projects"
 msgstr ""
 
 #: ../../project/reviewproject.rst:4 46673c56ebec4322a0dca5cbaef4ec21
-msgid ""
-"Once the project set up is complete, click on **[Review]** in the bottom "
-"right-hand corner."
+msgid "Once the project set up is complete, click on **[Review]** in the bottom right-hand corner."
 msgstr ""
 
 #: ../../project/reviewproject.rst:6 1b4e5a953b434af9b0cbd9c28af77ab7
@@ -35,10 +31,7 @@ msgid "You will now see an overview of your project details."
 msgstr ""
 
 #: ../../project/reviewproject.rst:8 116ace48e4f8496d8261412236dd77d3
-msgid ""
-"Scroll through to check that everything is correct. If everything is "
-"correct, click **[Create Project]**. You will need to accept CEO’s terms "
-"and conditions."
+msgid "Scroll through to check that everything is correct. If everything is correct, click **[Create Project]**. You will need to accept CEO’s terms and conditions."
 msgstr ""
 
 #: ../../project/reviewproject.rst:10 43ee10b8f06140bc95afa1e8dce7e1e1
@@ -46,14 +39,10 @@ msgid "If you notice a mistake, click **[Continue Editing]** to fix it."
 msgstr ""
 
 #: ../../project/reviewproject.rst:12 7176358155404709bfa8bd6fc3e3309d
-msgid ""
-"After you click **[Create Project]**, a pop-up window will ask ‘Do you "
-"REALLY want to create this project?’ Click **[OK]**."
+msgid "After you click **[Create Project]**, a pop-up window will ask ‘Do you REALLY want to create this project?’ Click **[OK]**."
 msgstr ""
 
 #: ../../project/reviewproject.rst:19 1c52ac82b86e4a17b4a9c4956aec5273
-msgid ""
-"After you create the project, you will be taken to the **Project "
-"Information** interface."
+msgid "After you create the project, you will be taken to the **Project Information** interface."
 msgstr ""
 

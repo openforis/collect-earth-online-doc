@@ -1,39 +1,33 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, Collect Earth Online team
-# This file is distributed under the same license as the Collect Earth
-# Online package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Collect Earth Online \n"
+"Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2024-09-25 20:10\n"
+"Last-Translator: \n"
 "Language: es\n"
-"Language-Team: es <LL@li.org>\n"
+"Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
+"X-Crowdin-Project: collect-earth-online-doc\n"
+"X-Crowdin-Project-ID: 647276\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /main/docs/source/_locale/en/LC_MESSAGES/collection/index.po\n"
+"X-Crowdin-File-ID: 38\n"
 
 #: ../../collection/index.rst:2 426df37c37534980a8b26355900a9f98
 msgid "Collecting data in Collect Earth Online"
 msgstr ""
 
 #: ../../collection/index.rst:4 8ab4553deb9d4599ba2d6df1b36900d4
-msgid ""
-"Collect Earth Online makes it easy for users to contribute to projects' "
-"data collection efforts."
+msgid "Collect Earth Online makes it easy for users to contribute to projects' data collection efforts."
 msgstr ""
 
 #: ../../collection/index.rst:6 83a536313153442cb29bb79515e6142a
-msgid ""
-"If you are interested in learning how create and manage an institution, "
-"please see: :doc:`../institution/index`."
+msgid "If you are interested in learning how create and manage an institution, please see: :doc:`../institution/index`."
 msgstr ""
 
 #: ../../collection/index.rst:8 8bf463b7d054460a8503812276645849
@@ -61,38 +55,22 @@ msgid ":doc:`Troubleshoot common issues <troubleshooting>`"
 msgstr ""
 
 #: ../../collection/index.rst:19 4c2debf481144c3fa596e91f8bf4e499
-msgid ""
-"The Data Collection section provides a quick overview of the Collect "
-"Earth Online data collection interface, how to collect data for your "
-"institution's projects and what to do if you encounter an error. You can "
-"learn about how to set up your CEO account, ad how to manage your own "
-"institution and projects in other sections of this documentation. "
-"Navigate to these sections using the links at the top of the page."
+msgid "The Data Collection section provides a quick overview of the Collect Earth Online data collection interface, how to collect data for your institution's projects and what to do if you encounter an error. You can learn about how to set up your CEO account, and how to manage your own institution and projects in other sections of this documentation. Navigate to these sections using the links at the top of the page."
 msgstr ""
 
 #: ../../collection/index.rst:21 a01cfe3485434c2b96ef6cbbac6ce33e
-msgid ""
-"Navigate to the other areas of this section by selecting links under "
-"**Section navigation** to the left."
+msgid "Navigate to the other areas of this section by selecting links under **Section navigation** to the left."
 msgstr ""
 
 #: ../../collection/index.rst:23 f4f35b64991244c48f48e64166e66ffb
-msgid ""
-"Navigate to other areas of this article by by selecting links under **On "
-"this page** to the right."
+msgid "Navigate to other areas of this article by by selecting links under **On this page** to the right."
 msgstr ""
 
 #: ../../collection/index.rst:27 a3386cc27fac4e9db69f764080a8cc7c
-msgid ""
-"This documentation uses a few formatting standards for ease of use. "
-"Clickable links are shown **[like this]**. The names of pages, like the "
-"**Home** page, are bolded."
+msgid "This documentation uses a few formatting standards for ease of use. Clickable links are shown **[like this]**. The names of pages, like the **Home** page, are bolded."
 msgstr ""
 
 #: ../../collection/index.rst:29 3f90c5e0da844c01a7a35a20be54b441
-msgid ""
-"Finally, CEO is a live tool that is under continuous development. Please "
-"report any bugs at our GitHub or by contacting `the CEO team "
-"<support@collect.earth>`__."
+msgid "Finally, CEO is a live tool that is under continuous development. Please report any bugs at our GitHub or by contacting `the CEO team <support@collect.earth>`__."
 msgstr ""
 
