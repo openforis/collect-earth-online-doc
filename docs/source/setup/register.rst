@@ -23,13 +23,10 @@ Website features
 
 You can access the **Home**, **About**, **Support**, and **Account** pages from the top menu bar.
 
-1.   The **Home** page includes information about institutions, published projects, and a map showing locations of existing projects.
-
-2.  The **About** page summarizes information about CEO.
-
+1. The **Home** page includes information about institutions, published projects, and a map showing locations of existing projects.
+2. The **About** page summarizes information about CEO.
 3. The **Support** features Collect Earth Online Manuals, Tutorials, and a Collect Earth Online Demo. This page also includes links for bug reporting and forums to ask for help.
-
-4.  The **Account** page lists information such as user statistics and allows users to update their account settings.
+4. The **Account** page lists information such as user statistics and allows users to update their account settings.
 
 .. tip::
    

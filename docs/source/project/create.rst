@@ -27,15 +27,15 @@ The Create Project Wizard
 
 In the **Projects** tab on your Institution page, click **[Create New Project]**. This will bring you to the Create Project wizard.
 
-.. thumbnail:: ../_images/project1.png
-    :title: Create New Project button
+.. figure:: ../_images/project1.png
+    :alt: Create New Project button
     :align: center
     :width: 50%
 
 The wizard comprises 6 parts: Project Overview, Imagery Selection, Plot Design, Sample Design, Survey, and Rules.
 
-.. thumbnail:: ../_images/project2.png
-    :title: The Project Wizard
+.. figure:: ../_images/project2.png
+    :alt: The Project Wizard
     :align: center
     :width: 70%
 
@@ -43,7 +43,7 @@ Each of these parts is described in detail below. You can navigate between the d
 
 Finally, on the **Plot Design**, **Sample Design**, and **Survey Questions** tabs, you can click on the grey **[Save]** button to save your project as a draft. This will allow you to return to the project later and continue editing it. CEO will save your draft project for 7 days. If you do not return to the project within 7 days, it will be deleted. 
 
-.. thumbnail:: ../_images/project2-1.png
-    :title: Save Draft button
+.. figure:: ../_images/project2-1.png
+    :alt: Save Draft button
     :align: center
     :width: 50%

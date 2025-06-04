@@ -20,8 +20,8 @@ Geo-Dash degradation tool
 
 Your institution may have set up the forest degradation tool in the Geo-Dash interface. This tool provides time series information on forest degradation from selective logging, fire, and other large and small disturbances. Broadly, you can use this tool to observe sharp and gradual changes in the NDFI metric (shown in the bottom panel) and click between the date points to visually confirm the change via imagery (shown in the top panel).
 
-.. thumbnail:: ../_images/collect5.png
-   :title: The Geo-Dash degradation tool.
+.. figure:: ../_images/collect5.png
+   :alt: The Geo-Dash degradation tool.
    :align: center
 
 More specifically, the **top panel** is the imagery panel. Imagery will display here over the OpenStreetMap data when you select a specific date in the **bottom panel**. The **slider bar** allows you to choose the opacity of your imagery. Under **Band Combination**, 321 stands for true color composite (R,G,B) and 543 stands for false color composite (SWIR, NIR, R). Using the **Data** toggle, you can choose between Landsat or SAR data. 
@@ -40,25 +40,25 @@ To use this tool:
 
    - A sharp decrease in NDFI (often accompanied by a gradual recovery) may indicate selective logging. The left panel shows the landscape before; the right panel is after the event. We can see that at our sample plot, a road has been created. This would be a degradation event around 2009 with a recovery lasting 2-3 years.
 
-   .. thumbnail:: ../_images/collect6.png
-      :title: Example of selective logging.
+   .. figure:: ../_images/collect6.png
+      :alt: Example of selective logging.
       :align: center
 
    - A sharp decrease in NDFI might also indicate a fire.
 
-   .. thumbnail:: ../_images/collect7.png
-      :title: Example of fire.
+   .. figure:: ../_images/collect7.png
+      :alt: Example of fire.
       :align: center
 
    - An abrupt shift down with no recovery might indicate the migration of a river canal:
 
-   .. thumbnail:: ../_images/collect8.png
-      :title: Example of river canal migration.
+   .. figure:: ../_images/collect8.png
+      :alt: Example of river canal migration.
       :align: center
 
    - An abrupt shift down followed by a strong seasonal pattern (regular increase/decrease) may be forest clearing for agriculture.
    
-   .. thumbnail:: ../_images/collect9.png
-      :title: Example of change to agriculture.
+   .. figure:: ../_images/collect9.png
+      :alt: Example of change to agriculture.
       :align: center
 

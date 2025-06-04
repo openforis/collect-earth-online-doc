@@ -23,31 +23,39 @@ sys.path.append(os.path.abspath('_extensions'))
 
 extensions = [
     "sphinx.ext.napoleon",
-#    "sphinx.ext.graphviz",
-    "sphinxcontrib.images",
-#    "sphinxcontrib.icon",
-#    "sphinxcontrib.btn",
     "sphinxcontrib.email",
     "sphinxcontrib.youtube",
     "sphinxcontrib.bibtex",
     "sphinx_design",
-#    "sphinx_togglebutton",
     "sphinx_favicon",
     "sphinx_last_updated_by_git",
+    "logos"
 #    "notfound.extension",
 #    "line_break",
 #    "custom_edit",
-    "logos"
+#    "sphinx_togglebutton",
+#    "sphinx.ext.graphviz",
+#    "sphinxcontrib.images",
+#    "sphinxcontrib.icon",
+#    "sphinxcontrib.btn"
 ]
 
-templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 locale_dirs = ["_locale/"]
 gettext_compact = False
 gettext_uuid = True
 language = "en"
 
+# This allows for html to use gif and pdf to use png images. 
+# See https://stackoverflow.com/questions/45969711/sphinx-doc-how-do-i-render-an-animated-gif-when-building-for-html-but-a-png-wh
 
+from sphinx.builders.html import StandaloneHTMLBuilder
+StandaloneHTMLBuilder.supported_image_types = [
+    'image/svg+xml',
+    'image/gif',
+    'image/png',
+    'image/jpeg'
+]
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
@@ -72,16 +80,8 @@ latex_engine = "xelatex"
 latex_show_pagerefs = True
 latex_show_urls = "footnote"
 
-youtube_cmd = (
-    r"\newcommand{\sphinxcontribyoutube}[3]{\begin{figure}\sphinxincludegraphics{{#2}.jpg}\caption{\url{#1#2#3}}\end{figure}}"
-    + "\n"
-)
-vimeo_cmd = (
-    r"\newcommand{\sphinxcontribvimeo}[3]{\begin{figure}\sphinxincludegraphics{{#2}.jpg}\caption{\url{#1#2#3}}\end{figure}}"
-    + "\n"
-)
-
-latex_elements = {"preamble": youtube_cmd + vimeo_cmd}
+# create a custom sphinx output for the youtube and vimeo video
+# the youtube extension may tell you to do this. it does not work with the current setup, for some reason. Just let it use the default and everything works.
 
 # -- Options for sphinxcontrib-email ---------------------------------------------
 
@@ -136,7 +136,7 @@ favicons = [
 
 # -- Options for images --------------------------------------------------------
 
-#images_config = {"download": True}
+images_config = {"download": True}
 
 
 # -- Options for bibtex --------------------------------------------------------

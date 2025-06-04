@@ -12,13 +12,13 @@ A list of all institutions is displayed on the **Home** page. If you are logged 
 
 1. Clicking on an institutions' name expands a list of all active **Projects** for the Institution. Clicking on these projects will take you to the project's Data Collection page.
 
-.. thumbnail:: ../_images/joining1.png
-   :title: Clicking on an institution's name.
+.. figure:: ../_images/joining1.png
+   :alt: Clicking on an institution's name.
    :width: 75%
    :align: center
 
-1. Next to each institution’s name is the **[VISIT]** button. Clicking on this will open the **Institution** page.
-2. On any Institution info page, you can find:
+2. Next to each institution’s name is the **[VISIT]** button. Clicking on this will open the **Institution** page.
+3. On any Institution info page, you can find:
 
    - The institution’s logo, which when clicked will take you to the institution’s website link,
    - The institution’s name,
@@ -37,7 +37,7 @@ Request to join an institution
 5. You will receive an email when you are added to the institution or if your role inside the institution changes (e.g. if you are promoted to administrator).
 6. Once you are part of an institution, the **Institution** panel on the **Home** page will show your institutions. This makes it easier to access these institutions and their projects.
 
-.. thumbnail:: ../_images/joining2.png
-   :title: Your affiliations.
+.. figure:: ../_images/joining2.png
+   :alt: Your affiliations.
    :width: 60%
    :align: center

@@ -1,12 +1,18 @@
 To Do:
 
 General
-- PDF generation bug
-    - Create minimum viable
-    - Test if PDF builds
-    - Maybe .. thumbnail command is the issue? 
-    - See which packages we can remove
+- [x] PDF generation bug
+    - [x] Create minimum viable
+    - [x] Test if PDF builds
+    - [x] Maybe .. thumbnail command is the issue? Updating the maximum sphinx. Youtube directive custom.
+    - [x] See which packages we can remove
+    - [x] Why is pdf only building 7 pages
 - Copy editing
+    - Add captions to images (from :alt:)
+    - Check sizes on images
+    - Make capitalization consistent
+    - Make numbers vs. bullet points consistent
+    - Fix pdf formatting issues with index, chapters.
 
 Feature additions/changes:
 - Simplified Project management?

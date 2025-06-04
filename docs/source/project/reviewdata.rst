@@ -8,8 +8,8 @@ For projects with QA/QC enabled, administrators can use the Review Mode to Navig
 
 Disagreement is provided as a percentage and represents how far apart users’ responses for the plot are from one another. If you have multiple samples per plot, the disagreement per sample is calculated and then averaged.
 
-.. thumbnail:: ../_images/review1.png
-    :title: Admin Review interface
+.. figure:: ../_images/review1.png
+    :alt: Admin Review interface
     :align: center
     :width: 50%
 

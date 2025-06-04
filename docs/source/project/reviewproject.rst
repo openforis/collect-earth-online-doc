@@ -11,8 +11,8 @@ If you notice a mistake, click **[Continue Editing]** to fix it.
 
 After you click **[Create Project]**, a pop-up window will ask ‘Do you REALLY want to create this project?’ Click **[OK]**.
 
-.. thumbnail:: ../_images/project52.png
-    :title: Creating a project pop up
+.. figure:: ../_images/project52.png
+    :alt: Creating a project pop up
     :align: center
     :width: 90%
 

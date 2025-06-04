@@ -7,8 +7,8 @@ You can configure your **Geo-Dash** by clicking on **[Configure Geo-Dash]** from
 
 This will bring up the **Geo-Dash layout screen**, with four options in the upper right corner of the screen.
 
-.. thumbnail:: ../_images/geodash1.png
-    :title: The Geo-Dash layout screen options
+.. figure:: ../_images/geodash1.png
+    :alt: The Geo-Dash layout screen options
     :align: center
     :width: 50%
 
@@ -17,8 +17,8 @@ Clicking on **[Copy Layout]** will allow you to copy the Geo-Dash from another p
 .. warning::
    This will delete any existing Geo-Dash you have associated with the project!
 
-.. thumbnail:: ../_images/geodash2.png
-    :title: Copy a different project's widget layout
+.. figure:: ../_images/geodash2.png
+    :alt: Copy a different project's widget layout
     :align: center
     :width: 50%
 
@@ -35,7 +35,7 @@ The normalized difference vegetation index (NDVI) is used to determine if the ce
 
 The enhanced vegetation index (EVI) and two-band EVI (EVI 2) are optimized vegetation indexs. They are designed to have higher sensitivity in high biomass regions e.g. along the equator, correct for canopy background signals, and reduce atmospheric influence on index values. In doing so, these indices addresses some of the key limitations of NDVI, however EVI requires more data to calculate and therefore has its own limitations. EVI 2 is in development and can be calculated just from red and near infrared bands. As with NDVI, red is used to represent dead plants/inanimate objects and green to represent healthy plants. The index varies between 0-1, with 0 representing dead plants and 1 representing very healthy plants. For more information on EVI see e.g. https://www.usgs.gov/land-resources/nli/landsat/landsat-enhanced-vegetation-index.
 
-The normalized difference moisture index (NDMI) is used to determine the water content of vegetation. NDMI can be used for drought monitoring and for determining fuel loads (combustability) for wildfire hazard assessments. Values near -1 indicate plants with low moisture while values near 1 indicate plants with high moisture. More information on NDMI can be found at e.g. https://www.usgs.gov/land-resources/nli/landsat/normalized-difference-moisture-index.
+The normalized difference moisture index (NDMI) is used to determine the water content of vegetation. NDMI can be used for drought monitoring and for determining fuel loads (combustibility) for wildfire hazard assessments. Values near -1 indicate plants with low moisture while values near 1 indicate plants with high moisture. More information on NDMI can be found at e.g. https://www.usgs.gov/land-resources/nli/landsat/normalized-difference-moisture-index.
 
 The normalized difference water index (NDWI) is also related to plant water content and plant water stress. It can be used to map water bodies, determine crop health and for wildfire risk analysis. Values near -1 indicate low water content and vegetation cover and values near 1 indicate high water content and vegetation cover. More information on NDWI can be found at e.g. https://edo.jrc.ec.europa.eu/documents/factsheets/factsheet_ndwi.pdf.
 
@@ -45,8 +45,8 @@ Widget Formatting Hints
 -----------------------
 
 - Titles cannot contain special characters.
-- Image parameters use JSON. Quotes used for image parameters in widgets should be vertical (not “”). There should be no spaces in the image parameters.
-- Lists can be formatted either as ``"1,2,3"`` or as ``[1,2,3]`` for numbers and ``"B3,B2,B1"`` or ``["B3","B2","B1"]`` for bands.
+- Image parameters use JSON. Quotes used for image parameters in widgets should be vertical, not curly quotes. There should be no spaces in the image parameters.
+- Lists can be formatted either as :code:`"1,2,3"` or as :code:`[1,2,3]` for numbers and :code:`"B3,B2,B1"` or :code:`["B3","B2","B1"]` for bands.
 - When displaying three bands (e.g. B3, B2, B1 in RGB), Google Earth Engine and therefore the Geo-Dash can use either one or three values for min and max.
 - For the Date Ranges, if the end date is longer than the period of record, only the available data will be displayed.
 
@@ -61,8 +61,10 @@ Move & Resize Widgets
 
 2. In the Geo-Dash collection page view, widget positions are are updated in real time.
 
-.. thumbnail:: /_images/change_widget_layout.gif
-   :align: center
+.. figure:: ../_images/geodash2-1.*
+    :alt: Move and resize widgets in the Geo-Dash
+    :align: center
+
 
 Duplicate, Edit, and Delete Widgets
 -----------------------------------
@@ -71,8 +73,8 @@ Duplicate, Edit, and Delete Widgets
 2. You can edit widgets once they are created by clicking on the **[pencil icon]** in the upper right hand corner of the widget.
 3. To delete a widget, click on the trashcan in the upper right-hand corner of the widget.
 
-.. thumbnail:: ../_images/geodash3.png
-    :title: Duplicate, edit, or delete a widget.
+.. figure:: ../_images/geodash3.png
+    :alt: Duplicate, edit, or delete a widget.
     :align: center
     :width: 50%
 
@@ -83,16 +85,15 @@ The Degradation Tool provides time-series information on forest degradation from
 
 It is calculated with this equation:
 
-.. thumbnail:: ../_images/geodash4.png
-    :title: NDFI calculation equation
+.. figure:: ../_images/geodash4.png
+    :alt: NDFI calculation equation
     :align: center
     :width: 50%
 
-
 where
 
-.. thumbnail:: ../_images/geodash5.png
-    :title: GV Shade equation
+.. figure:: ../_images/geodash5.png
+    :alt: GV Shade equation
     :align: center
     :width: 50%
 
@@ -107,7 +108,7 @@ To create and use the Degradation Tool in your Geo-Dash:
 3. Give the widget a **Title**.
 4. Choose the **Basemap** source from dropdown. This will be the basemap for the widget and other data will be layered on top.
 5. Choose which **Band to graph**. Available options include SWIR1, NIR, Red, Green, Blue, SWIR2, NDVI, NBR, NDWI and NDFI. NDFI allows for enhanced detection of forest canopy damage from multiple sources, including selective logging and forest fires.
-6. Select the **Date Range** you would like. This tool can draw from Landsat 4 (July 1982-December 1993), Landsat 5 (March 1984-January 2013), Landsat 7 (April 1999 – current), Landsat 8 (February 2013 – current), and Landsat 9 (September 27 - current) based on the date range you select. Sentinel information is only available from April 2014 onward (Sentinel 1A launch).
+6. Select the **Date Range** you would like. This tool can draw from Landsat 4 (July 1982-December 1993), Landsat 5 (March 1984-January 2013), Landsat 7 (April 1999-current), Landsat 8 (February 2013-current), and Landsat 9 (September 27 - current) based on the date range you select. Sentinel information is only available from April 2014 onward (Sentinel 1A launch).
 7. Click **[Create]**.
 8. Reposition and resize to your liking. This tool will have two panels stacked one on top of the other, so be sure to give it ample vertical space.
 
@@ -120,15 +121,15 @@ To create a Dual Imagery Widget:
 
 1. Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
 2. Select **Dual Imagery** in the Widget Type drop down.
-3. Give the widget a **Title**. We suggest an informative title such as {Data} {Date range} e.g. NDVI 2001 or NDVI 2001 – 2002.
+3. Give the widget a **Title**. We suggest an informative Title such as {Data} {Date range} e.g. NDVI 2001 or NDVI 2001-2002.
 4. Choose **Basemap** source from dropdown. This will be the basemap for the widget and other data will be layered on top.
 5. You will now select the **Imagery type** for the Bottom and Top images. You can toggle between them by clicking the **[Next Image]** and **[Previous Image]** buttons.
 
-   1. Select the **Imagery Type** for each image. Options include Image Asset, Image Collection Asset, and Preloaded Imagery Collection.
-   2. For more information about Image Assets, see :ref:`add-image-asset-widget`.
-   3. For more information about Image Collection Assets, see :ref:`add-image-collection-asset-widget`.
-   4. For more information about Preloaded Imagery Collections, see :ref:`add-preloaded-image-collection-widget`.
-   5. For information on the min, max, and cloud score see :ref:`add-image-asset-widget`. Min and Max are the values for the bands, while cloud score is a max percent of clouds in the image.
+   - Select the **Imagery Type** for each image. Options include Image Asset, Image Collection Asset, and Preloaded Imagery Collection.
+   - For more information about Image Assets, see :ref:`add-image-asset-widget`.
+   - For more information about Image Collection Assets, see :ref:`add-image-collection-asset-widget`.
+   - For more information about Preloaded Imagery Collections, see :ref:`add-preloaded-image-collection-widget`.
+   - For information on the min, max, and cloud score see :ref:`add-image-asset-widget`. Min and Max are the values for the bands, while cloud score is a max percent of clouds in the image.
 
 6. Select the **Date** range you would like, if applicable. If the end date is longer than the period of record, only the available data will be displayed.
 7. Click **[Create]**.
@@ -160,7 +161,7 @@ Both the Image Asset Widget and the Image Collection Asset Widget allow users to
 2.  Select **Image Asset** in the **Widget Type** drop down.
 3.  Give the widget a **Title**.
 4.  Choose the desired **Basemap** source from dropdown. This will be the basemap for the widget and other data will be layered on top.
-5.  Enter the **GEE Image Asset ID**. For example, COPERNICUS/S2/20170420T184921_20170420T190203_T10SEG. This can be any image asset in Earth Engine, including assets from your own account. If you are using an asset from your own account, it must be shared publicly. If you need  your asset to remain private for data security reasons, message the team at support@collect.earth and we can help.
+5.  Enter the **GEE Image Asset ID**. For example, :code:`COPERNICUS/S2/20170420T184921_20170420T190203_T10SEG`. This can be any image asset in Earth Engine, including assets from your own account. If you are using an asset from your own account, it must be shared publicly. If you need  your asset to remain private for data security reasons, message the team at support@collect.earth and we can help.
 6.  You can view the **Available Bands** for your image by clicking on the **[Refresh]** button.
 7.  Enter **Image Parameters** for the asset in JSON format. These follow the image visualization function in GEE (more info: https://developers.google.com/earth-engine/guides/image_visualization?hl=en):
 
@@ -191,12 +192,12 @@ An Image Collection is a stack or time series of images. There is a video tutori
 2. Select **Image Collection Asset** in the **Widget Type** drop down.
 3. Give the widget a **Title**.
 4. Choose **Basemap** source from dropdown. This will be the basemap for the widget and other data will be layered on top.
-5. Enter the **Google Earth Engine Image Collection Asset ID**, for example LANDSAT/LC8_L1T_TOA. This can be any image collection in Earth Engine, including assets from your own account. If you are using an asset from your own account, it must be shared publicly.
+5. Enter the **Google Earth Engine Image Collection Asset ID**, for example :code:`LANDSAT/LC8_L1T_TOA`. This can be any image collection in Earth Engine, including assets from your own account. If you are using an asset from your own account, it must be shared publicly.
 6. You can view the **Available Bands** for your image by clicking on the **[Refresh]** button.
 7. Select a **Collection Reducer**. Reducers are methods for collapsing multiple images in the image collection into a single image for the Geo-Dash to display. You can learn more about reducers here https://developers.google.com/earth-engine/guides/reducers_intro.
 8. Enter **Image Parameters** for the asset in JSON format. These follow the image visualization function in GEE (more info: https://developers.google.com/earth-engine/guides/image_visualization?hl=en):
 
-   - For example: ``{"bands":"B4,B5,B3","min":"10,0,10","max":"120,90,70"}``.
+   - For example: :code:`{"bands":"B4,B5,B3","min":"10,0,10","max":"120,90,70"}`.
    - Do not use any spaces.
 
 9.  Select the **Date Range**.
@@ -207,7 +208,7 @@ More on Landsat
 ^^^^^^^^^^^^^^^
 
 Landsat is one of the Image Assets you can add. For better performance when using a GEE collection, we recommend that
-you preprocess and clip the data to your AOI in GEE before connecting it to Geo-Dash. You can find a video tutorial on this process in the Geo-Dash Help Center under “Video Tutorial to Create GEE Image Assets.”
+you preprocess and clip the data to your AOI in GEE before connecting it to Geo-Dash. You can find a video tutorial on this process in the Geo-Dash Help Center under "Video Tutorial to Create GEE Image Assets."
 
 The most common strings for Landsat are listed below. More detailed information can be found on the Google Earth Engine help pages; available composites and the covered time frame are found here: https://explorer.earthengine.google.com/#search/tag%3A32day.
 
@@ -274,7 +275,7 @@ Preloaded Image Collection widgets are commonly used widgets that the Collect Ea
    - Sentinel 2: B1, B2, B3, B4, B5, B6, B7, B8, B8a, B9, B10, B11, B12, QA10, QA20, QA60
    - NICFI: R, G, B, N
    
-   Min, Max, and Cloud Score will be determined by the user’s needs. Min and Max are the values for the bands, while cloud score is a max percent of clouds in the image. Min and max can have one or three values.
+   Min, Max, and Cloud Score will be determined by the user's needs. Min and Max are the values for the bands, while cloud score is a max percent of clouds in the image. Min and max can have one or three values.
          
    Example values include:
          

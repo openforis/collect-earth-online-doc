@@ -21,9 +21,8 @@ Now we will familiarize ourselves with the analysis screen.
    
    You can access help for the analysis screen at any time by clicking on the purple ? in the top right hand corner of the screen. The help function will point out important features of the data collection page.
    
-   .. thumbnail:: ../_images/preparing6.png
-      :title: The help for the analysis screen.
-      :group: preparing
+   .. figure:: ../_images/preparing6.png
+      :alt: The help for the analysis screen.
       :align: center
 
 
@@ -58,8 +57,8 @@ As an institution Member, the **Navigate:** dropdown menu allows you to choose b
 - **Analyzed plots**: Review your previously analyzed plots. This option will allow you to correct mistakes etc. for previously analyzed plots.
 - **Flagged plots**: Review plots you have flagged. 
 
-.. thumbnail:: ../_images/preparing7-1.png
-   :title: Institution member navigation options.
+.. figure:: ../_images/preparing7-1.png
+   :alt: Institution member navigation options.
    :width: 60%
    :align: center
 
@@ -74,8 +73,8 @@ As an institution Administrator, the **Navigate:** dropdown menu allows you to c
 
 Some of these options may not be available, depending on the settings of your project.
 
-.. thumbnail:: ../_images/preparing8-1.png
-   :title: Navigation options for Institution administrators.
+.. figure:: ../_images/preparing8-1.png
+   :alt: Navigation options for Institution administrators.
    :align: center
    :width: 60%
 
@@ -90,8 +89,8 @@ Some of these options may not be available, depending on the settings of your pr
 - **[Hide Boundary]**: This button will hide the boundary of the plot in the map window.
 - You can click **[Download Plot KML]** to download a KML file with the plot information. Downloading the KML allows you to transfer the plot information to another program, such as Google Earth Desktop. Importantly, the KML functionality allows users to determine the coordinates (latitude and longitude) at which points of interest are located.
 
- .. thumbnail:: ../_images/preparing9-1.png
-    :title: External tools option.
+ .. figure:: ../_images/preparing9-1.png
+    :alt: External tools option.
     :width: 60%
     :align: center
 
@@ -104,8 +103,8 @@ Some of these options may not be available, depending on the settings of your pr
 
 If your administrator has set up the project to include plot information, you will see a **Plot Information** panel. This panel contains relevant information about the plot that your administrator has included. This section is collapsed by default, but you can click on the **[Plot Information]** arrow button to expand it.
 
-.. thumbnail:: ../_images/preparing9-2.png
-   :title: Plot information panel.
+.. figure:: ../_images/preparing9-2.png
+   :alt: Plot information panel.
    :width: 60%
    :align: center
 
@@ -113,8 +112,8 @@ If your administrator has set up the project to include plot information, you wi
 
 - Using the dropdown under **Imagery Options**, you can change the background image by selecting between different imagery on the drop-down list.
 
-.. thumbnail:: ../_images/preparing10.png
-   :title: Imagery options drop down menu.
+.. figure:: ../_images/preparing10.png
+   :alt: Imagery options drop down menu.
    :width: 60%
    :align: center
 
@@ -127,8 +126,8 @@ If your administrator has set up the project to include plot information, you wi
 
 - The **[Enable Map Grid]** button will add a grid to the map window that changes size depending on the level of zoom. This can be useful for orienting yourself in the map window and for determining the size of the sample plot. This grid function can help data collectors estimate things like percent land cover for plots and samples.
 
-.. thumbnail:: ../_images/preparing10-1.png
-   :title: The map grid. Grid overlay changes size depending on the level of zoom.
+.. figure:: ../_images/preparing10-1.png
+   :alt: The map grid. Grid overlay changes size depending on the level of zoom.
    :width: 60%
    :align: center
 
@@ -136,8 +135,8 @@ If your administrator has set up the project to include plot information, you wi
 
 - This is the area to answer the project’s **Survey Questions**.
 
-.. thumbnail:: ../_images/preparing11.png
-  :title: The panel to answer survey questions.
+.. figure:: ../_images/preparing11.png
+  :alt: The panel to answer survey questions.
   :width: 60%
   :align: center
 
@@ -156,15 +155,15 @@ If your administrator has set up the project to include plot information, you wi
 - If so, you will see two icons under **Survey Questions**, a question mark and a pencil.
 - When you have the question mark selected, the Survey Question interface will work as we just discussed.
 
-.. thumbnail:: ../_images/preparing12.png
-   :title: Survey question pane with the option of user-drawn samples.
+.. figure:: ../_images/preparing12.png
+   :alt: Survey question pane with the option of user-drawn samples.
    :width: 60%
    :align: center
 
 - However, if you select the pencil icon, you will see the options that allow you to draw different points, lines, and polygons on the map.
 
-.. thumbnail:: ../_images/preparing13.png
-   :title: Adding user-drawn samples.
+.. figure:: ../_images/preparing13.png
+   :alt: Adding user-drawn samples.
    :width: 60%
    :align: center
 
@@ -191,8 +190,8 @@ Now it is time to contribute to a project. Make sure you have clicked on **Go to
 
 4. When your sample points are marked in blue, you can assign them a sample value by clicking on the suitable value in the legend to the right of the map window. The sample points are then marked in the color of the value class. Here, these sample points are not forest (shrubland), so we select Other.
 
-   .. thumbnail:: ../_images/collect1.png
-      :title: Selecting an answer.
+   .. figure:: ../_images/collect1.png
+      :alt: Selecting an answer.
       :width: 100%
       :align: center
 
@@ -207,15 +206,15 @@ Now it is time to contribute to a project. Make sure you have clicked on **Go to
    - If your project has rules for a survey question, there will be a clipboard icon next to the question text.
    - You can hover over the clipboard icon to see the rules.
 
-   .. thumbnail:: ../_images/collect2.png
-      :title: Mouseover the clipboard icon to see the rules.
+   .. figure:: ../_images/collect2.png
+      :alt: Mouseover the clipboard icon to see the rules.
       :width: 80%
       :align: center
 
    - If you violate the rules, there will be a popup explaining what is wrong with your answer.
 
-   .. thumbnail:: ../_images/collect3.png
-      :title: A rule pop-up.
+   .. figure:: ../_images/collect3.png
+      :alt: A rule pop-up.
       :width: 80%
       :align: center
 
@@ -242,8 +241,8 @@ For projects with user-drawn samples, you will need to first draw yoursamples be
 5. To delete a feature, hold CTRL and right click on it.
 6. To save your drawn shapes, switch back to the question mode.
 
-   .. thumbnail:: ../_images/collect4.png
-      :title: User drawn shapes example.
+   .. figure:: ../_images/collect4.png
+      :alt: User drawn shapes example.
       :width: 100%
       :align: center
 

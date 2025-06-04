@@ -32,22 +32,22 @@ There are three approaches.
    3. Hold the SHIFT-key down and draw a box to zoom in.
    4. The coordinate boxes will populate once the box is drawn and you let your mouse key go. Coordinates are displayed in lat/long using **WGS84 EPSG:4326**.
 
-   .. thumbnail:: ../_images/project10.png
-         :title: Draw an AOI box
+   .. figure:: ../_images/project10.png
+         :alt: Draw an AOI box
          :align: center
          :width: 70%
 
 2. You can also manually enter your Boundary Coordinates into the boxes provided.
 
-   .. thumbnail:: ../_images/project11.png
-         :title: Manually add coordinates
+   .. figure:: ../_images/project11.png
+         :alt: Manually add coordinates
          :align: center
          :width: 50%
 
 3. The third approach is to upload a project boundary shapefile. To use this option, under **Boundary type** select Upload shp file. Then click on the **[Upload project boundary]** button. Navigate to your file, and click **[Open]**. Your shapefile should be a zipped folder containing requisite shapefile component pieces (SHP, SHX, DBF, and PRJ files). Once you click open, you should see the **File:** text populate with your file name and your project boundary appear in the Collection Map Preview pane. 
 
-   .. thumbnail:: ../_images/project12_v2.png
-         :title: Upload an AOI
+   .. figure:: ../_images/project12_v2.png
+         :alt: Upload an AOI
          :align: center
          :width: 100%
 
@@ -59,8 +59,8 @@ There are three approaches.
    
    You can upload shapefiles with multipart polygons or multiple shapes for stratified sampling. Each strata will appear with its corresponding area in hectares. The number of plots will be **per strata**. This is indicated in the green text. 
 
-   .. thumbnail:: ../_images/project13.png
-         :title: Multiple shapes AOI
+   .. figure:: ../_images/project13.png
+         :alt: Multiple shapes AOI
          :align: center
          :width: 90%
 
@@ -77,8 +77,8 @@ In the Plot Generation section, you can specify the type and number of sample pl
 
 2. CEO will provide an estimate of how many plots will be generated for your project based on your sampling design.
 
-.. thumbnail:: ../_images/project14.png
-   :title: Estimated number of plots 
+.. figure:: ../_images/project14.png
+   :alt: Estimated number of plots 
    :align: center
    :width: 50%
 
@@ -145,8 +145,8 @@ As when using CEO’s built-in system, you can choose to assign users plots to r
    
    Example .csv and .shp files are available for download. When used, the plots should spell out “OK” when used to create a project.
    
-   .. thumbnail:: ../_images/project15.png
-       :title: A project created with the example files
+   .. figure:: ../_images/project15.png
+       :alt: A project created with the example files
        :align: center
        :width: 80%
 
@@ -161,8 +161,8 @@ For .csv files, specify plot centers by uploading a .csv with these columns: LON
 
 If you do not specify the column names correctly (spelling or order), you will get the following error:
 
-.. thumbnail:: ../_images/project16.png
-    :title: Error box
+.. figure:: ../_images/project16.png
+    :alt: Error box
     :align: center
     :width: 70%
 
@@ -174,8 +174,8 @@ When your .csv files fit the above specifications, follow the directions below.
 4. You will need to specify the **Plot Shape** and corresponding **Diameter**.
 5. You will then need to specify your **Sample (Point) Design** using CEO's built in system.
 
-.. thumbnail:: ../_images/project17.png
-    :title: Uploading a CSV File
+.. figure:: ../_images/project17.png
+    :alt: Uploading a CSV File
     :align: center
     :width: 60%
 
@@ -194,8 +194,8 @@ In addition to your plot file, you can upload a second .csv file where you speci
 8. Note that you can also choose **SHP file** and upload a shape file at this point.
 9. You can click the checkbox next to **Allow users to draw their own samples** to enable proactive sampling.
 
-.. thumbnail:: ../_images/project18.png
-    :title: CSV Sample Generation
+.. figure:: ../_images/project18.png
+    :alt: CSV Sample Generation
     :align: center
     :width: 50%
 
@@ -210,16 +210,16 @@ As with .csv files, you can have additional fields with information about your p
 
 If you do not specify your PLOTID in the .shp zip file, you will get the following error:
 
-.. thumbnail:: ../_images/project20.png
-    :title: Error for malformed Shapefile
+.. figure:: ../_images/project20.png
+    :alt: Error for malformed Shapefile
     :align: center
     :width: 50%
 
 .. tip::
    You can zip your files easily in Windows by selecting the relevant files, right clicking on one, and the clicking **[Send to] -> [Compressed (zipped) folder]**.
 
-     .. thumbnail:: ../_images/project21.png
-       :title: Zipping a folder in Windows
+     .. figure:: ../_images/project21.png
+       :alt: Zipping a folder in Windows
        :align: center
        :width: 50%
  
@@ -230,8 +230,8 @@ When your .shp files fit the above specifications, follow the directions below.
 1. Under **Plot Generation**, set **Spatial Distribution** to **SHP File**. You must have the radio point selected before the button to upload becomes available.
 2. Then, click on **[Upload plot file]** and navigate to your zipped .shp file. Click **[Open]** and the file name will appear next to **File.**
 
-   .. thumbnail:: ../_images/project22.png
-       :title: Uploading a SHP file
+   .. figure:: ../_images/project22.png
+       :alt: Uploading a SHP file
        :align: center
        :width: 50%
 
@@ -240,8 +240,8 @@ When your .shp files fit the above specifications, follow the directions below.
 5. This will also work with a CSV File.
 6. You can enable proactive sampling by clicking on the checkbox next to **Allow users to draw their own samples**.
 
-.. thumbnail:: ../_images/project23.png
-    :title: Uploading a SHP file for the samples & enabling user drawn samples.
+.. figure:: ../_images/project23.png
+    :alt: Uploading a SHP file for the samples & enabling user drawn samples.
     :align: center
     :width: 50%
 

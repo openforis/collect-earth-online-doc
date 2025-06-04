@@ -15,8 +15,8 @@ The **Project Detail** pane includes an overview of your project, including samp
 - **Survey Questions** shows all the **Survey Cards** you created, along with the corresponding **Component Type, Answers, and Rules.**
 - You can preview the **Learning Material** by using the **[View Interpretation Instructions]** button. This feature can be implemented in existing projects by editing the project and adding text to the **Learning Materials** text box.
 
-  .. thumbnail:: ../_images/project5-3.png
-     :title: Preview your material by clicking on the View Interpretation Instructions button in the Project Details pane.
+  .. figure:: ../_images/project5-3.png
+     :alt: Preview your material by clicking on the View Interpretation Instructions button in the Project Details pane.
      :align: center
      :width: 50%
 
@@ -65,8 +65,8 @@ External Links
 - **Collect:** This will take you to your project data collection interface so you can start collecting data right away.
 - **Project Dashboard:** If you click on **[Project Dashboard]** you will see an overview of the AOI, along including the number of members, contributors, total plots, flagged plots, analyzed plots, unanalyzed plots, and the date the project was created, published and closed. Admins do not count towards the project’s member count.
 
-.. thumbnail:: ../_images/projinfo1.png
-    :title: The project dashboard.
+.. figure:: ../_images/projinfo1.png
+    :alt: The project dashboard.
     :align: center
     :width: 90%
 
@@ -125,7 +125,7 @@ Downloaded .csv data from Download Sample Data will have the following columns:
 - **flagged**: This will be FALSE for plots where data was collected and for plots where data has not been collected yet. It will be TRUE when a user has flagged the quality of the background map as not good enough to analyze the samples (e.g. due to clouds or poor image resolution).
 - **collection_time**: The date and time when the user classified the plot. *Time zone is UTC.*
 - **analysis_duration**: Time in seconds that the user took to analyze the plot.
-- **imagery_title**: Name of the Imagery layer that the user had selected when saving the plot.
+- **imagery_alt**: Name of the Imagery layer that the user had selected when saving the plot.
 - **imagery_attributions**: Any attribution for the imagery used.
 
 .. note::
@@ -168,9 +168,9 @@ CEO’s implementation of DOIs is strictly opt-in, meaning that users must choos
 
 On the project review page, you can copy the DOI reference and look for it on either https://doi.org or on https://zenodo.org. Remember that your reference consists of the prefix, forward slash, and the suffix. To view your DOI on DOI.org or Zenodo, simply search for your project’s DOI reference. You can find this information on your **Project Information** page under **Overview.**
 
-.. thumbnail:: ../_images/management1.png
+.. figure:: ../_images/management1.png
    :align: center
-   :title: The project dashboard.
+   :alt: The project dashboard.
 
 
 CEO uploads the following information to Zenodo automatically:

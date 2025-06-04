@@ -1,5 +1,7 @@
 make.bat
 Makefile
 CEO_Manual_InstitutionProject_EN_TOCONVERT.txt
-.vscode/
+.vscode/*
+requirements_backup.txt
+backup_testing/*
 docs/source/_images/unused

@@ -1,5 +1,9 @@
 :html_theme.sidebar_secondary.remove:
 
+
+Welcome to Collect Earth Online's documentation!
+====================================================
+
 .. toctree::
    :maxdepth: 2
    :hidden:
@@ -8,11 +12,6 @@
    Data Collection<collection/index>
    Institution Management<institution/index>
    Project Creation<project/index>
-
-
-
-Welcome to Collect Earth Online's documentation!
-================================================
 
 Collect Earth Online (CEO) is a free and open-source image viewing and interpretation tool, suitable for projects requiring information about land cover and/or land use. CEO enables simultaneous visual interpretations of satellite imagery, providing global coverage from MapBox and Bing Maps, a variety of satellite data sources from Google Earth Engine, and the ability to connect to your own Web Map Service (WMS) or Web Map Tile Service (WMTS). The full functionality is implemented online; no desktop installation is necessary.
 
@@ -110,4 +109,3 @@ With the support of:
 In partnership with:
 
 .. logos:: partners
-
