@@ -8,3 +8,4 @@ sphinx-intl
 sphinxcontrib-email
 sphinx-last-updated-by-git
 sphinxcontrib-bibtex
+sphinxcontrib-images
