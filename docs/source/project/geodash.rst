@@ -61,5 +61,6 @@ Move & Resize Widgets
 
 2. In the Geo-Dash collection page view, widget positions are are updated in real time.
 
-.. figure:: ../_images/change_widget_layout.gif
-   :align: center
+.. figure:: ../_images/geodash2-1.*
+    :alt: Move and resize widgets in the Geo-Dash
+    :align: center
