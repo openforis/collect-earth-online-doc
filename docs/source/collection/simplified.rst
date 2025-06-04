@@ -38,7 +38,6 @@ Now we will familiarize ourselves with the analysis screen.
       :alt: The help for the analysis screen.
       :align: center
 
-
 Map Window
 ^^^^^^^^^^
 
@@ -134,9 +133,6 @@ The navigation options are disabled for Simplified projects.
 .. note::
    
    Some imagery servers are slow. Please be patient when switching to sources like Planet Daily, since their servers can take about 30 seconds to respond to queries sent by the CEO platform.
-
-
-
 
 Collect data
 ------------

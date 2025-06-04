@@ -17,8 +17,8 @@ A list of all institutions is displayed on the **Home** page. If you are logged 
    :width: 75%
    :align: center
 
-1. Next to each institution’s name is the **[VISIT]** button. Clicking on this will open the **Institution** page.
-2. On any Institution info page, you can find:
+2. Next to each institution’s name is the **[VISIT]** button. Clicking on this will open the **Institution** page.
+3. On any Institution info page, you can find:
 
    - The institution’s logo, which when clicked will take you to the institution’s website link,
    - The institution’s name,

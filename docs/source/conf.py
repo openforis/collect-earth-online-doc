@@ -23,7 +23,6 @@ sys.path.append(os.path.abspath('_extensions'))
 
 extensions = [
     "sphinx.ext.napoleon",
-
     "sphinxcontrib.email",
     "sphinxcontrib.youtube",
     "sphinxcontrib.bibtex",
@@ -72,11 +71,8 @@ latex_engine = "xelatex"
 latex_show_pagerefs = True
 latex_show_urls = "footnote"
 
-
 # create a custom sphinx output for the youtube and vimeo video
 # the youtube extension may tell you to do this. it does not work with the current setup, for some reason. Just let it use the default and everything works.
-
-
 
 # -- Options for sphinxcontrib-email ---------------------------------------------
 
