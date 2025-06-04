@@ -6,8 +6,8 @@
 
    Getting Started<setup/index>
    Data Collection<collection/index>
-   Institution Management<institution/index>
-   Project Creation<project/index>
+   .. Institution Management<institution/index>
+   .. Project Creation<project/index>
 
 Welcome to Collect Earth Online's documentation!
 ================================================
@@ -55,12 +55,12 @@ CEO enables users to efficiently collect up-to-date information about their envi
       Learn how to collect data in CEO.
 
    .. grid-item-card:: :fas:`cogs` Manage an institution
-      :link: institution/index.html
+      .. :link: institution/index.html
 
       Get your own institution up and running.
 
    .. grid-item-card:: :fas:`globe` Create a project
-      :link: project/index.html
+      .. :link: project/index.html
 
       Create your own project and start collecting data.
 
