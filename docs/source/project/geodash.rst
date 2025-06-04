@@ -61,7 +61,7 @@ Move & Resize Widgets
 
 2. In the Geo-Dash collection page view, widget positions are are updated in real time.
 
-.. figure:: /_images/change_widget_layout.gif
+.. figure:: ../_images/change_widget_layout.gif
    :align: center
 
 Duplicate, Edit, and Delete Widgets
