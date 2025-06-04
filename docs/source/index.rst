@@ -16,28 +16,28 @@ Collect Earth Online (CEO) is a free and open-source image viewing and interpret
    :align: center
    :width: 100%
 
-.. Getting started
-.. ---------------
+Getting started
+---------------
 
-.. Create your account and get started with CEO.
+Create your account and get started with CEO.
 
-.. .. grid:: 1 3 3 3
-..    :gutter: 2
+.. grid:: 1 3 3 3
+   :gutter: 2
 
-..    .. grid-item-card:: :fas:`sign-in` Register for CEO
-..       :link: setup/register.html
+   .. grid-item-card:: :fas:`sign-in` Register for CEO
+      .. :link: setup/register.html
 
-..       Set up your Collect Earth Online account.
+      Set up your Collect Earth Online account.
 
-..    .. grid-item-card:: :fas:`plug` Join an institution
-..       :link: setup/joining.html
+   .. grid-item-card:: :fas:`plug` Join an institution
+      .. :link: setup/joining.html
 
-..       Learn how to join an institution in CEO.
+      Learn how to join an institution in CEO.
 
-..    .. grid-item-card:: :fas:`users` Set up an institution
-..       :link: institution/create.html
+   .. grid-item-card:: :fas:`users` Set up an institution
+      .. :link: institution/create.html
 
-..       Set up your own institution in CEO.
+      Set up your own institution in CEO.
 
 .. Learn more about CEO
 .. --------------------
