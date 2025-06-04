@@ -25,12 +25,12 @@ Create your account and get started with CEO.
    :gutter: 2
 
    .. grid-item-card:: :fas:`sign-in` Register for CEO
-      .. :link: setup/register.html
+      :link: setup/register.html
 
       Set up your Collect Earth Online account.
 
    .. grid-item-card:: :fas:`plug` Join an institution
-      .. :link: setup/joining.html
+      :link: setup/joining.html
 
       Learn how to join an institution in CEO.
 
