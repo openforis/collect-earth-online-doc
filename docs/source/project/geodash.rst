@@ -49,3 +49,29 @@ Widget Formatting Hints
 - Lists can be formatted either as :code:`"1,2,3"` or as :code:`[1,2,3]` for numbers and :code:`"B3,B2,B1"` or :code:`["B3","B2","B1"]` for bands.
 - When displaying three bands (e.g. B3, B2, B1 in RGB), Google Earth Engine and therefore the Geo-Dash can use either one or three values for min and max.
 - For the Date Ranges, if the end date is longer than the period of record, only the available data will be displayed.
+
+Move & Resize Widgets
+---------------------
+
+1. Widgets can be manipulated on the Geo-Dash Widget Layout Editor in the following ways:
+
+   - Drag and drop to change widget position.
+   - Resize by dragging from the bottom right corner.
+   - Widgets will autotomatically align to a grid.
+
+2. In the Geo-Dash collection page view, widget positions are are updated in real time.
+
+.. figure:: /_images/change_widget_layout.gif
+   :align: center
+
+Duplicate, Edit, and Delete Widgets
+-----------------------------------
+
+1. You can copy a widget once it has been created by clicking on the **[duplicate icon]** in the upper right hand corner of the widget.
+2. You can edit widgets once they are created by clicking on the **[pencil icon]** in the upper right hand corner of the widget.
+3. To delete a widget, click on the trashcan in the upper right-hand corner of the widget.
+
+.. figure:: ../_images/geodash3.png
+    :alt: Duplicate, edit, or delete a widget.
+    :align: center
+    :width: 50%
