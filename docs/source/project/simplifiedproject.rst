@@ -22,8 +22,8 @@ After you select **Simplified Project** in the **Project Type** dropdown, you wi
 
 As with Standard Projects, the Simplified Project overview page for Simplified Projects allows you to see the project information, including the project name, and description.
 
-.. thumbnail:: ../_images/simplifiedproject1.png
-    :title: Project Overview Wizard for a simplified project.
+.. figure:: ../_images/simplifiedproject1.png
+    :alt: Project Overview Wizard for a simplified project.
     :align: center
     :width: 50%
 
@@ -69,8 +69,8 @@ In Simplified Projects, you do not need to define plots or samples. Instead, you
 
 You will notice that the **Spatial Distribution** section is greyed out in the Simplified Project wizard, as are the **Boundary type, Number of plots, Plot shape, and Plot width (m)** fields.
 
-.. thumbnail:: ../_images/simplifiedproject2.png
-    :title: Plot Design in a Simplified Project.
+.. figure:: ../_images/simplifiedproject2.png
+    :alt: Plot Design in a Simplified Project.
     :align: center
     :width: 80%
 
@@ -83,15 +83,15 @@ The easiest way to select your project AOI is by drawing a box in the map window
  3. Hold the SHIFT-key down and draw a box to zoom in.
  4. The coordinate boxes will populate once the box is drawn and you let your mouse key go. Coordinates are displayed in lat/long using **WGS84 EPSG:4326**.
 
- .. thumbnail:: ../_images/project10.png
-       :title: Draw an AOI box
+ .. figure:: ../_images/project10.png
+       :alt: Draw an AOI box
        :align: center
        :width: 70%
 
 You can also manually enter your Boundary Coordinates into the boxes provided.
 
-.. thumbnail:: ../_images/project11.png
-        :title: Manually add coordinates
+.. figure:: ../_images/project11.png
+        :alt: Manually add coordinates
         :align: center
         :width: 50%
 
@@ -100,8 +100,8 @@ Survey Questions
 
 The Survey Questions step in the Simplified Project wizard allows you to define the data collection form using a simplified set of questions.
 
-.. thumbnail:: ../_images/simplifiedproject3.png
-    :title: Survey Questions in a Simplified Project.
+.. figure:: ../_images/simplifiedproject3.png
+    :alt: Survey Questions in a Simplified Project.
     :align: center
     :width: 80%
 

@@ -18,8 +18,8 @@ There are three options: **Equal assignments**, **Percentage of plots**, and **F
 - **Percentage of plots**: Allows for uneven splits. For example, one user can be assigned 50% of the total plots while two other users can each be assigned 25% of the total plots. Total percentages must add up to 100%.
 - **File**: Allows the administrator to specify which user should collect data on each plot. When creating your file, you can add a column called 'user'. This column should contain the email address for the user you would like to review the plot.
 
-.. thumbnail:: ../_images/project24v2.png
-    :title: User assignment options
+.. figure:: ../_images/project24v2.png
+    :alt: User assignment options
     :align: center
     :width: 50%
 
@@ -31,15 +31,15 @@ You can also implement quality control measures using one of the **Quality Modes
 - **None**: Quality control is not enabled by default.
 - **Overlap**: A certain percentage of each users’ plots are reviewed by the other users.
 
-.. thumbnail:: ../_images/project25.png
-    :title: The Overlap option.
+.. figure:: ../_images/project25.png
+    :alt: The Overlap option.
     :align: center
     :width: 40%
 
 - **Subject Matter Expert Verification (SME Verification**): A percentage of each users’ plots are reviewed by one or more SMEs. For example, the SME might be someone with deep knowledge of the local landscape, or a project administrator.
 
-.. thumbnail:: ../_images/project26.png
-    :title: The SME Verification option.
+.. figure:: ../_images/project26.png
+    :alt: The SME Verification option.
     :align: center
     :width: 40%
 

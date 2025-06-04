@@ -29,22 +29,22 @@ This feature is used to copy all the information—including project info, area,
 
 - Click on the **Show Public Projects** checkbox if you would like to view all public projects in CEO that you can use as a template. If you do not check this box, you will only see your institution’s projects.
 
-  .. thumbnail:: ../_images/project3.png
-     :title: Public projects
+  .. figure:: ../_images/project3.png
+     :alt: Public projects
      :align: center
      :width: 50%
 
 - **Template Filter (Name or ID)**: To filter the projects, type in a keyword in an existing project’s name or the Project ID Number. You can find the Project ID number by navigating to the project you want to copy and looking at the URL.
 
-  .. thumbnail:: ../_images/project4.png
-      :title: Find the project ID
+  .. figure:: ../_images/project4.png
+      :alt: Find the project ID
       :align: center
       :width: 50%
 
 - Then click on the dropdown menu under **Select Project** and click on the project’s name.
 
-  .. thumbnail:: ../_images/project5.png
-      :title: Select Prject
+  .. figure:: ../_images/project5.png
+      :alt: Select Prject
       :align: center
       :width: 70%
 
@@ -65,8 +65,8 @@ Import Collect Earth Project
 
 You can also import an existing Collect Earth desktop project. This is useful if you have a project that was created in the desktop version of Collect Earth and you want to import it into CEO. To do this, click on the **[Browse...]** button located in the **Import Collect Earth Project** section. This will open a new window where you can upload your existing project file. The file should be a .cep file, which is the format used by Collect Earth. Once you have selected the file, click **[OK]** to upload it to CEO. CEO will then import the project and create a new project in your institution with the same name and description as the original project. You can then edit the project as needed.
 
-.. thumbnail:: ../_images/project5-1.png
-   :title: Import Collect Earth Project option in the project wizard.
+.. figure:: ../_images/project5-1.png
+   :alt: Import Collect Earth Project option in the project wizard.
    :align: center
    :width: 50%
 
@@ -108,15 +108,15 @@ Learning Material
 
 - The text appears as follows to data interpreters when the push the Interpretation Instructions button in the Data Collection interface.
 
-.. thumbnail:: ../_images/project5-2.png
-    :title: The learning material is shown to data collectors using an easy to read markdown format.
+.. figure:: ../_images/project5-2.png
+    :alt: The learning material is shown to data collectors using an easy to read markdown format.
     :align: center
     :width: 50%
 
 - You can preview the **Learning Material** by using the **[View Interpretation Instructions]** button. This feature can be implemented in existing projects by editing the project and adding text to the **Learning Materials** text box.
 
-.. thumbnail:: ../_images/project5-3.png
-    :title: Preview your material by clicking on the View Interpretation Instructions button in the Project Details pane.
+.. figure:: ../_images/project5-3.png
+    :alt: Preview your material by clicking on the View Interpretation Instructions button in the Project Details pane.
     :align: center
     :width: 50%
 
@@ -139,15 +139,15 @@ Project Options
 
   This allows users in Data Collection to click on a button labeled **[Go to GEE Script]**.
 
-  .. thumbnail:: ../_images/project6-1.png
-      :title: Go to GEE Script button.
+  .. figure:: ../_images/project6-1.png
+      :alt: Go to GEE Script button.
       :align: center
       :width: 50%
 
   This button will take them to a Google Earth Engine website with additional information about the plot. 
 
-  .. thumbnail:: ../_images/project7-0.png
-      :title: The GEE Script page when first loaded.
+  .. figure:: ../_images/project7-0.png
+      :alt: The GEE Script page when first loaded.
       :align: center
       :width: 100%
 
@@ -157,8 +157,8 @@ Project Options
   
   In the upper left, there is a Sentinel 2 composite of the last 12 months. It is colored using an infrared color composite (near infrared, mid infrared, red). In the upper center is a Landsat 8 False Color Yearly mosaic. Underneath these are Landsat 5 and Landsat 7 imagery. These plots may not have any images when first loaded. Instead, look at the right hand side of the page. There are five vegetation time series graphs. The top graph is from MODIS, then going down Landsat 5/7/8 NDVI, Sentinel-2 NDVI, Landsat 5/7/8 NDMI, and Sentinel-2 NDMI. Clicking on a point in the graphs will load the corresponding images in the appropriate imagery panels.
 
-   .. thumbnail:: ../_images/project7-1.png
-      :title: The GEE Script page after selecting points on the time series graphs.
+   .. figure:: ../_images/project7-1.png
+      :alt: The GEE Script page after selecting points on the time series graphs.
       :align: center
       :width: 100%
 
@@ -166,15 +166,15 @@ Project Options
     
   If you have additional columns in your .csv or .shp files, such as elevation information or land cover class, data collectors will be able to see them on the **Data Collection** page under **Plot Information**. The columns will be displayed in the same order in which they are included in the .csv or .shp file.
 
-  .. thumbnail:: ../_images/project8.png
-      :title: Plot information
+  .. figure:: ../_images/project8.png
+      :alt: Plot information
       :align: center
       :width: 50%
 
 - The third option is **Collect Plot Confidence on Collection Page.** If you want users to be able to tell you how certain they are of their answers to the survey questions, the confidence slider will allow them to assign a value 1-100, where 100 is completely confident of their answers; this value applies to the entire plot. This info will be included in your plot and sample CSV downloads.
 
-   .. thumbnail:: ../_images/project9.png
-       :title: Plot confidence slider
+   .. figure:: ../_images/project9.png
+       :alt: Plot confidence slider
        :align: center
        :width: 90%
 

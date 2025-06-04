@@ -10,15 +10,15 @@ Forest
 
 Conifer forest:
 
-.. thumbnail:: ../_images/interp1.png
-   :title: Conifer forest.
+.. figure:: ../_images/interp1.png
+   :alt: Conifer forest.
    :align: center
 
 
 Deciduous Forest (Temperate):
 
-.. thumbnail:: ../_images/interp2.png
-   :title: Temperate deciduous forest.
+.. figure:: ../_images/interp2.png
+   :alt: Temperate deciduous forest.
    :align: center
 
 Pasture
@@ -26,8 +26,8 @@ Pasture
 
 Canada:
 
-.. thumbnail:: ../_images/interp3.png
-   :title: Pasture in Canada.
+.. figure:: ../_images/interp3.png
+   :alt: Pasture in Canada.
    :align: center
 
 Agriculture
@@ -35,15 +35,15 @@ Agriculture
 
 Western United States (arid):
 
-.. thumbnail:: ../_images/interp4.png
-   :title: Irrigated agriculture in the arid Western United States.
+.. figure:: ../_images/interp4.png
+   :alt: Irrigated agriculture in the arid Western United States.
    :align: center
 
 
 Midwestern United States (temperate):
 
-.. thumbnail:: ../_images/interp5.png
-   :title: Agriculture in the temperate Midwestern United States.
+.. figure:: ../_images/interp5.png
+   :alt: Agriculture in the temperate Midwestern United States.
    :align: center
 
 Water: Lake
@@ -51,8 +51,8 @@ Water: Lake
 
 Myanmar:
 
-.. thumbnail:: ../_images/interp6.png
-   :title: A lake in Myanmar.
+.. figure:: ../_images/interp6.png
+   :alt: A lake in Myanmar.
    :align: center
 
 Water: River
@@ -60,8 +60,8 @@ Water: River
 
 Guatemala:
 
-.. thumbnail:: ../_images/interp7.png
-   :title: A river in Guatemala.
+.. figure:: ../_images/interp7.png
+   :alt: A river in Guatemala.
    :align: center
 
 Remember that depending on the study region, seasons may change how the landscape looks. If your project has an Interpretation Key you should always use it as your primary reference.

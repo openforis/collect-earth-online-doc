@@ -15,8 +15,8 @@ How to add questions and answers
 
 CEO provides a straightforward way to ask multiple-choice questions. As the most common question type used, we will use it for this example. In CEO, these questions are called “button—text” questions as in data collection they display as a button with text.
 
-.. thumbnail:: ../_images/project27.png
-    :title: The new question form
+.. figure:: ../_images/project27.png
+    :alt: The new question form
     :align: center
     :width: 50%
 
@@ -30,8 +30,8 @@ CEO provides a straightforward way to ask multiple-choice questions. As the most
 
    - Click on the **[blue rectangle]** to bring up the **Color Selector.** You can move the color selector dot, use the eyedropper tool, or type in RGB values (0-255). Click off of the color selector when you are done. The color you choose will be associated with the answer. When a data collector selects that answer, any sample points assigned that answer would also be assigned that color to display on the map.
 
-     .. thumbnail:: ../_images/project28.png
-         :title: The color selector
+     .. figure:: ../_images/project28.png
+         :alt: The color selector
          :align: center
          :width: 50%
 
@@ -44,8 +44,8 @@ CEO provides a straightforward way to ask multiple-choice questions. As the most
    - Continue adding answers until all the answers to your first survey question have been added.
    - You can also use the **[Bulk Add]** button to add multiple color and answer pairs.
 
-     .. thumbnail:: ../_images/project29.png
-         :title: The bulk answer addition screen
+     .. figure:: ../_images/project29.png
+         :alt: The bulk answer addition screen
          :align: center
          :width: 40%
 
@@ -64,8 +64,8 @@ You can delete or edit your questions and answers after you create them.
 - To delete a question or a specific answer, click on the **[Trashcan]** icon next to the question or answer you would like to delete.
 - To edit a question or an answer, first type your edits into the box, then click the **[Save]** icon next to the edited question or answer.
 
-.. thumbnail:: ../_images/project30.png
-    :title: Edit a question
+.. figure:: ../_images/project30.png
+    :alt: Edit a question
     :align: center
     :width: 80%
 
@@ -90,22 +90,22 @@ You can create extensive lists of land cover classification options for data col
 
 Here is how a survey card with parent/child questions appears on the data collection page initially:
 
-.. thumbnail:: ../_images/project31.png
-    :title: The initial state of the question
+.. figure:: ../_images/project31.png
+    :alt: The initial state of the question
     :align: center
     :width: 80%
 
 And after selecting “Answer #1”:
 
-.. thumbnail:: ../_images/project32.png
-    :title: After selecting answer 1
+.. figure:: ../_images/project32.png
+    :alt: After selecting answer 1
     :align: center
     :width: 80%
 
 And after selecting “Answer #2”:
 
-.. thumbnail:: ../_images/project33.png
-    :title: After selecting answer 2
+.. figure:: ../_images/project33.png
+    :alt: After selecting answer 2
     :align: center
     :width: 80%
 
@@ -122,7 +122,7 @@ Questions and answers can be hidden using a simple check box. This feature can b
 
 Clicking the **[Hide Question]** or **[Hide Answer?]** checkboxes will hide the question or answer during data collection.
 
-.. thumbnail:: ../_images/project-hide.png
+.. figure:: ../_images/project-hide.png
     :align: center
     :width: 50%
 
@@ -140,8 +140,8 @@ There are other types of questions that can be created using CEO's survey featur
 
 The **Component Types** include combinations of four question types and three data types.
 
-.. thumbnail:: ../_images/project35.png
-    :title: The dropdown menu of question types
+.. figure:: ../_images/project35.png
+    :alt: The dropdown menu of question types
     :align: center
     :width: 50%
 
@@ -163,8 +163,8 @@ For the **Input** type only, you can choose whether to require an answer during 
 - Leave this box unchecked if you don’t want users to always collect the information. This is useful for adding optional details about a plot.
 - Be sure to check the box if you need the question to be answered.
 
-.. thumbnail:: ../_images/project36.png
-    :title: The text required checkbox
+.. figure:: ../_images/project36.png
+    :alt: The text required checkbox
     :align: center
     :width: 50%
 
@@ -172,15 +172,15 @@ Following are examples of how each question type listed under **Component** Type
 
 **Button—text:**
 
-.. thumbnail:: ../_images/project37.png
-    :title: Button-text
+.. figure:: ../_images/project37.png
+    :alt: Button-text
     :align: center
     :width: 90%
 
 **Button—number:**
 
-.. thumbnail:: ../_images/project38.png
-    :title: Button-number
+.. figure:: ../_images/project38.png
+    :alt: Button-number
     :align: center
     :width: 90%
 
@@ -192,8 +192,8 @@ The **Button—number** option, coupled with numeric answers, allows you to impl
 
 **Input—text:**
 
-.. thumbnail:: ../_images/project40.png
-    :title: Input-text
+.. figure:: ../_images/project40.png
+    :alt: Input-text
     :align: center
     :width: 90%
 
@@ -201,8 +201,8 @@ Users can input any character. What the survey creator types in the “Answer”
 
 **Input—number:**
 
-.. thumbnail:: ../_images/project39.png
-    :title: Input-number
+.. figure:: ../_images/project39.png
+    :alt: Input-number
     :align: center
     :width: 90%
 
@@ -214,22 +214,22 @@ Users can input integers, decimals, negative and positive numbers, and the lette
 
 **Radiobutton—boolean:**
 
-.. thumbnail:: ../_images/project41.png
-    :title: Radiobutton-boolean
+.. figure:: ../_images/project41.png
+    :alt: Radiobutton-boolean
     :align: center
     :width: 90%
 
 **Radiobutton—text:**
 
-.. thumbnail:: ../_images/project42.png
-    :title: Radiobutton-text
+.. figure:: ../_images/project42.png
+    :alt: Radiobutton-text
     :align: center
     :width: 90%
 
 **Radiobutton—number:**
 
-.. thumbnail:: ../_images/project43.png
-    :title: Radiobutton-number
+.. figure:: ../_images/project43.png
+    :alt: Radiobutton-number
     :align: center
     :width: 90%
 
@@ -241,22 +241,22 @@ Radiobuttons are functionally much the same as Buttons, but with a different aes
 
 **Dropdown—boolean:**
 
-.. thumbnail:: ../_images/project44.png
-    :title: Dropdown-boolean
+.. figure:: ../_images/project44.png
+    :alt: Dropdown-boolean
     :align: center
     :width: 90%
 
 **Dropdown—text:**
 
-.. thumbnail:: ../_images/project45.png
-    :title: Dropdown-text
+.. figure:: ../_images/project45.png
+    :alt: Dropdown-text
     :align: center
     :width: 90%
 
 **Dropdown—number:**
 
-.. thumbnail:: ../_images/project46.png
-    :title: Dropdown-number
+.. figure:: ../_images/project46.png
+    :alt: Dropdown-number
     :align: center
     :width: 90%
 

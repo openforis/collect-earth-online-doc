@@ -18,8 +18,8 @@ There are two main panes in the QAQC Dashboard: **Project AOI** and **QAQC Infor
 
 The Project AOI pane displays either the entire project area of interest (AOI) or the AOI for a specific plot, depending on which tab is selected in the QAQC Information pane. When the **Project Statistics** tab is selected, the map shows all plots in the project, with red highlights indicating the disagreement between users or users and external data. When the **Plot Statistics** tab is selected, the map zooms in to show only the selected plot. When the **User Statistics** tab is selected, the map shows all plots assigned to the selected user.
 
-.. thumbnail:: ../_images/qaqcdashboard1.png
-    :title: The QAQC Dashboard interface.
+.. figure:: ../_images/qaqcdashboard1.png
+    :alt: The QAQC Dashboard interface.
     :align: center
     :width: 100%
 
@@ -30,8 +30,8 @@ Uploading External Data
 
 At the top of the QAQC Information pane is a place to upload an external data file. This file should contain the answers to the survey questions that you want to validate with an external dataset.
 
-.. thumbnail:: ../_images/qaqcdashboard2.png
-    :title: Uploading an external data file.
+.. figure:: ../_images/qaqcdashboard2.png
+    :alt: Uploading an external data file.
     :align: center
     :width: 100%
 
@@ -43,8 +43,8 @@ The data file should contain an answer for each question that you want to valida
 
 You can download an example dataset for your project in JSON format from the QAQC dashboard. You can use this example to create your own external data stream. The example dataset will include the SAMPLEID, PLOTID, the question ID, and the question-answer pairs for each question.
 
-.. thumbnail:: ../_images/qaqcdashboard3.png
-    :title: Downloading an example dataset.
+.. figure:: ../_images/qaqcdashboard3.png
+    :alt: Downloading an example dataset.
     :align: center
     :width: 100%
 
@@ -59,8 +59,8 @@ Project Statistics
 
 In the Project Statistics tab of the QAQC module, project administrators get an overview of the project with useful statistics and a table containing details about each plot. First are some general project statistics, including the total number of plots, information about plot confidence, and number of plots that are flagged or have high disagreement. 
 
-.. thumbnail:: ../_images/qaqcdashboard4.png
-    :title: The Project Statistics tab.
+.. figure:: ../_images/qaqcdashboard4.png
+    :alt: The Project Statistics tab.
     :align: center
     :width: 100%
 
@@ -73,8 +73,8 @@ The **Plot Statistics** tab provides a detailed view of a single plot, including
 
 The **Plot Statistics** tab starts with plot navigation tools and specific information about the plot, including the number of samples and the disagreement %. Below the plot overview data is a table with more information about the interpretation data, including each user’s answers. 
 
-.. thumbnail:: ../_images/qaqcdashboard5.png
-    :title: The Plot Statistics tab.
+.. figure:: ../_images/qaqcdashboard5.png
+    :alt: The Plot Statistics tab.
     :align: center
     :width: 100%
 
@@ -87,8 +87,8 @@ By clicking on the User Statistics tab, the administrator can view information a
 
 The User Statistics tab starts with a list of users and their statistics, including the number of plots they have interpreted, the number of plots they have flagged, and the average disagreement %.
 
-.. thumbnail:: ../_images/qaqcdashboard6.png
-    :title: The User Statistics tab.
+.. figure:: ../_images/qaqcdashboard6.png
+    :alt: The User Statistics tab.
     :align: center
     :width: 100%
 

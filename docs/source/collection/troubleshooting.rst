@@ -6,8 +6,8 @@ Analysis troubleshooting
 
 1. If you try to access a project and receive an error message saying you do not have permission (as below), access to the project is limited to institution members. You will need to join your Institution, see :doc:`preparing`.
 
-.. thumbnail:: ../_images/trouble1.png
-   :title: Encountering a permissions error in CEO.
+.. figure:: ../_images/trouble1.png
+   :alt: Encountering a permissions error in CEO.
    :width: 80%
    :align: center
 

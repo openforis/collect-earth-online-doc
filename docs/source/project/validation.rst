@@ -43,8 +43,8 @@ Precision & accuracy goals for a project help us decide on the sample size and s
 
 *Accuracy* is how close your measurements or estimates are to the true answer. Accuracy describes systematic errors—including observational error. In statistics this is sometimes called bias instead of accuracy. Accuracy is sometimes hard to evaluate as the “true” value might not be known—but with Land Use & Land Cover analysis usually it can be.
 
-.. thumbnail:: ../_images/validation1.png
-    :title: Example of precision and accuracy.
+.. figure:: ../_images/validation1.png
+    :alt: Example of precision and accuracy.
     :align: center
     :width: 70%
 
@@ -56,8 +56,8 @@ When you are determining your sample size, you will want to consider the primary
 
 There are many different formulas for determining sample sizes. Which one you want to use is based in part on your sampling method (simple random sample, stratified random sample, etc.). For example, from `SEPAL.io <sepal.io>`__:
 
-.. thumbnail:: ../_images/validation2.png
-    :title: Example formula from SEPAL.
+.. figure:: ../_images/validation2.png
+    :alt: Example formula from SEPAL.
     :align: center
     :width: 50%
 

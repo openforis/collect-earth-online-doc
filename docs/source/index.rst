@@ -1,5 +1,14 @@
 :html_theme.sidebar_secondary.remove:
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
+   Getting Started<setup/index>
+   Data Collection<collection/index>
+   Institution Management<institution/index>
+   Project Creation<project/index>
+
 Welcome to Collect Earth Online's documentation!
 ================================================
 
@@ -28,71 +37,62 @@ Create your account and get started with CEO.
       Learn how to join an institution in CEO.
 
    .. grid-item-card:: :fas:`users` Set up an institution
-      .. :link: institution/create.html
+      :link: institution/create.html
 
       Set up your own institution in CEO.
 
+Learn more about CEO
+--------------------
 
-bla bla bla some text here
+CEO enables users to efficiently collect up-to-date information about their environment and observe changes over time. Learn more about getting CEO to work for you.
 
-.. figure:: _images/joining1.png
-   :width: 75%
-   :align: center
+.. grid:: 1 3 3 3
+   :gutter: 2
 
-   Clicking on an institution's name.
+   .. grid-item-card:: :fas:`map` Start collecting data
+      :link: collection/index.html
 
-.. Learn more about CEO
-.. --------------------
+      Learn how to collect data in CEO.
 
-.. CEO enables users to efficiently collect up-to-date information about their environment and observe changes over time. Learn more about getting CEO to work for you.
+   .. grid-item-card:: :fas:`cogs` Manage an institution
+      :link: institution/index.html
 
-.. .. grid:: 1 3 3 3
-..    :gutter: 2
+      Get your own institution up and running.
 
-..    .. grid-item-card:: :fas:`map` Start collecting data
-..       :link: collection/index.html
+   .. grid-item-card:: :fas:`globe` Create a project
+      :link: project/index.html
 
-..       Learn how to collect data in CEO.
+      Create your own project and start collecting data.
 
-..    .. grid-item-card:: :fas:`cogs` Manage an institution
-..       :link: institution/index.html
+Get more help or request a feature
+----------------------------------
 
-..       Get your own institution up and running.
+Have questions? Encounter bugs? Get the help you need using the links below. 
 
-..    .. grid-item-card:: :fas:`globe` Create a project
-..       :link: project/index.html
+Want to request a feature that would make CEO work better for you? 
 
-..       Create your own project and start collecting data.
+.. grid:: 1 2 2 4
+   :gutter: 2
 
-.. Get more help or request a feature
-.. ----------------------------------
+   .. grid-item-card:: :fas:`book` Read the blog
+      :link: https://www.collect.earth/blog/
 
-.. Have questions? Encounter bugs? Get the help you need using the links below. 
+      Our blog has details on updates and other useful information.
 
-.. Want to request a feature that would make CEO work better for you? 
+   .. grid-item-card:: :fas:`question` Ask a question
+      :link: https://openforis.support/tags/collectearthonline/#gsc.tab=0
 
-.. .. grid:: 1 2 2 4
-..    :gutter: 2
+      Ask a question on the OpenForis forum.
 
-..    .. grid-item-card:: :fas:`book` Read the blog
-..       :link: https://www.collect.earth/blog/
+   .. grid-item-card:: :fas:`bug` Improve this documentation
+      :link: https://github.com/openforis/collect-earth-online-doc
 
-..       Our blog has details on updates and other useful information.
+      Submit a documentation improvement request through GitHub.
 
-..    .. grid-item-card:: :fas:`question` Ask a question
-..       :link: https://openforis.support/tags/collectearthonline/#gsc.tab=0
+   .. grid-item-card:: :fas:`envelope` E-mail us
+      :link: mailto:support@collect.earth
 
-..       Ask a question on the OpenForis forum.
-
-..    .. grid-item-card:: :fas:`bug` Improve this documentation
-..       :link: https://github.com/openforis/collect-earth-online-doc
-
-..       Submit a documentation improvement request through GitHub.
-
-..    .. grid-item-card:: :fas:`envelope` E-mail us
-..       :link: mailto:support@collect.earth
-
-..       Other questions or bugs? Get in touch.
+      Other questions or bugs? Get in touch.
 
 Supporting Institutions
 -----------------------
@@ -108,11 +108,3 @@ With the support of:
 In partnership with:
 
 .. logos:: partners
-
-
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-
-   Getting Started<setup/index>

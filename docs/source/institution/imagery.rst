@@ -8,7 +8,7 @@ The Imagery tab of your Institution page allows you to add new imagery sources, 
 - You can add new imagery sources by clicking on the **[Add New Imagery]** button. More information on this process is available in the section below.
 - You can Change the visibility of your institution's imagery by clicking on the **[Change Visibility]** button after selecting one or multiple imagery sources. The default is for imagery you add to be Private and only available to be used by projects from this institution. You can make imagery public, which allows you to make the imagery available to any project in CEO. **USE THIS AT YOUR OWN RISK**
 - You can also delete imagery sources by clicking on the **[Delete]** button after selecting one or multiple imagery sources. This will permanently delete the imagery source from your Institution and all Projects that use it.
-- The **[Edit]** button brings up the form to edit the imagery source. You can change the title, attribution, and other settings for the imagery source.
+- The **[Edit]** button brings up the form to edit the imagery source. You can change the alt, attribution, and other settings for the imagery source.
 
 
 Imagery Overview
@@ -56,8 +56,8 @@ CEO uses Mapbox's satellite layer as well as one with place and landmark labels.
 .. More information can be found `on Planet's website
 .. <https://www.planet.com/pulse/planet-ksat-and-airbus-awarded-first-ever-global-contract-to-combat-deforestation/>`__.
 
-.. .. thumbnail:: ../_images/nicfimap.png
-..     :title: Planet NICFI imagery
+.. .. figure:: ../_images/nicfimap.png
+..     :alt: Planet NICFI imagery
 ..     :align: center
 ..     :width: 75%
 
@@ -74,8 +74,8 @@ For Bing Maps, Planet Monthly, Planet Daily, and the MapBox products you will fi
 
 We will now talk about how to add imagery for each of these options.
 
-.. thumbnail:: ../_images/imagery1.png
-    :title: Dropdown to add basemap imagery.
+.. figure:: ../_images/imagery1.png
+    :alt: Dropdown to add basemap imagery.
     :align: center
     :width: 70%
 
@@ -114,8 +114,8 @@ The information needed to set up the WMS server will differ based on the specifi
 
 3. When all fields are filled out, click on **[Add New Imagery]**.
 
-.. thumbnail:: ../_images/imagery2.png
-    :title: Adding WMS imagery
+.. figure:: ../_images/imagery2.png
+    :alt: Adding WMS imagery
     :align: center
     :width: 50%
 
@@ -143,8 +143,8 @@ XYZ Tiles is a flexible way of adding imagery. Services you can now add includes
 - If you want to add this imagery source to all your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
 - When all fields are filled out, click on **[Add New Imagery]**.
 
-.. thumbnail:: ../_images/imagery3.png
-    :title: Adding XYZ imagery
+.. figure:: ../_images/imagery3.png
+    :alt: Adding XYZ imagery
     :align: center
     :width: 50%
 
@@ -275,8 +275,8 @@ Google Earth Engine (GEE) Assets include user's uploaded assets along with asset
 - If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
 - When all fields are filled out, click on **[Add New Imagery]**.
 
-.. thumbnail:: ../_images/imagery4.png
-    :title: Adding a GEE Image Asset
+.. figure:: ../_images/imagery4.png
+    :alt: Adding a GEE Image Asset
     :align: center
     :width: 70%
 
@@ -306,8 +306,8 @@ We have created an extensive how-to and troubleshooting guide for adding GEE Ima
 - Navigate to **Assets**
 - Click **New**, then under **Image Upload** click **GeoTIFF**.
 
-  .. thumbnail:: ../_images/imagery5.png
-      :title: Upload a GeoTIFF
+  .. figure:: ../_images/imagery5.png
+      :alt: Upload a GeoTIFF
       :align: center
       :width: 50%
 
@@ -316,8 +316,8 @@ We have created an extensive how-to and troubleshooting guide for adding GEE Ima
 - Check the default settings, e.g. if your data has a start/end time then add those.
 - Click **Upload.**
 
-  .. thumbnail:: ../_images/imagery6.png
-      :title: Uploading a new image asset
+  .. figure:: ../_images/imagery6.png
+      :alt: Uploading a new image asset
       :align: center
       :width: 70%
 
@@ -360,8 +360,8 @@ Open Street Maps is an open source mapping product. This provides Open Street Ma
 - If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
 - When all fields are filled out, click on **[Add New Imagery]**.
 
-.. thumbnail:: ../_images/imagery7.png
-    :title: Open Street Map imagery
+.. figure:: ../_images/imagery7.png
+    :alt: Open Street Map imagery
     :align: center
     :width: 70%
 
@@ -375,7 +375,7 @@ WMS Imagery
 
 For WMS imagery, how to add different years of imagery depends on your server.
 
-If your different years are stored as different layers, alter the Layer Name field when you add the second layer. Make sure your title/attribution/etc. fields are accurate for the new layer.
+If your different years are stored as different layers, alter the Layer Name field when you add the second layer. Make sure your alt/attribution/etc. fields are accurate for the new layer.
 
 If your server uses filtering to display imagery from different years you will need to alter the parameters field (again, making sure the information in your other fields is correct).
 
@@ -392,7 +392,7 @@ For all Planet products, you simply need to change the time period fields to add
 
 .. tip::
      
-    Be sure to change the Title field to reflect the correct default Year, Month, and Day for each new layer that you add.
+    Be sure to change the alt field to reflect the correct default Year, Month, and Day for each new layer that you add.
 
 .. Secure Watch
 .. ^^^^^^^^^^^^
@@ -405,7 +405,7 @@ Sentinel 1 & 2
 Users will be able to change the default Year and Month during data collection. However, additional layers with different default years and months can be added based on user preference.
 
 .. tip::
-     
+
     Be sure to change the Title field to reflect the correct default Year, Month, and Day for each new layer that you add.
 
 GEE Image Asset
@@ -430,8 +430,8 @@ After you have added imagery you may need to change the default dates of the Vis
 1. Navigate to your **Institution** page.
 2. Next to the imagery you would like to edit, there is an editing hand button.
 
-   .. thumbnail:: ../_images/imagery8.png
-       :title: Hand button
+   .. figure:: ../_images/imagery8.png
+       :alt: Hand button
        :align: center
        :width: 10%
 
@@ -441,8 +441,8 @@ After you have added imagery you may need to change the default dates of the Vis
 6. When you are done, click **Save Imagery Changes**.
 7. You can delete imagery by clicking the trash can icon next to the imagery name.
 
-   .. thumbnail:: ../_images/imagery9.png
-       :title: Delete button
+   .. figure:: ../_images/imagery9.png
+       :alt: Delete button
        :align: center
        :width: 10%
 

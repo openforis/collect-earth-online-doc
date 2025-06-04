@@ -7,8 +7,8 @@ You can configure your **Geo-Dash** by clicking on **[Configure Geo-Dash]** from
 
 This will bring up the **Geo-Dash layout screen**, with four options in the upper right corner of the screen.
 
-.. thumbnail:: ../_images/geodash1.png
-    :title: The Geo-Dash layout screen options
+.. figure:: ../_images/geodash1.png
+    :alt: The Geo-Dash layout screen options
     :align: center
     :width: 50%
 
@@ -17,8 +17,8 @@ Clicking on **[Copy Layout]** will allow you to copy the Geo-Dash from another p
 .. warning::
    This will delete any existing Geo-Dash you have associated with the project!
 
-.. thumbnail:: ../_images/geodash2.png
-    :title: Copy a different project's widget layout
+.. figure:: ../_images/geodash2.png
+    :alt: Copy a different project's widget layout
     :align: center
     :width: 50%
 
@@ -44,7 +44,7 @@ Data from Landsat satellites 5, 7, 8 and Sentinel 2 are also available. For more
 Widget Formatting Hints
 -----------------------
 
-- Titles cannot contain special characters.
+- alts cannot contain special characters.
 - Image parameters use JSON. Quotes used for image parameters in widgets should be vertical (not “”). There should be no spaces in the image parameters.
 - Lists can be formatted either as ``"1,2,3"`` or as ``[1,2,3]`` for numbers and ``"B3,B2,B1"`` or ``["B3","B2","B1"]`` for bands.
 - When displaying three bands (e.g. B3, B2, B1 in RGB), Google Earth Engine and therefore the Geo-Dash can use either one or three values for min and max.
@@ -61,7 +61,7 @@ Move & Resize Widgets
 
 2. In the Geo-Dash collection page view, widget positions are are updated in real time.
 
-.. thumbnail:: /_images/change_widget_layout.gif
+.. figure:: /_images/change_widget_layout.gif
    :align: center
 
 Duplicate, Edit, and Delete Widgets
@@ -71,8 +71,8 @@ Duplicate, Edit, and Delete Widgets
 2. You can edit widgets once they are created by clicking on the **[pencil icon]** in the upper right hand corner of the widget.
 3. To delete a widget, click on the trashcan in the upper right-hand corner of the widget.
 
-.. thumbnail:: ../_images/geodash3.png
-    :title: Duplicate, edit, or delete a widget.
+.. figure:: ../_images/geodash3.png
+    :alt: Duplicate, edit, or delete a widget.
     :align: center
     :width: 50%
 
@@ -83,16 +83,16 @@ The Degradation Tool provides time-series information on forest degradation from
 
 It is calculated with this equation:
 
-.. thumbnail:: ../_images/geodash4.png
-    :title: NDFI calculation equation
+.. figure:: ../_images/geodash4.png
+    :alt: NDFI calculation equation
     :align: center
     :width: 50%
 
 
 where
 
-.. thumbnail:: ../_images/geodash5.png
-    :title: GV Shade equation
+.. figure:: ../_images/geodash5.png
+    :alt: GV Shade equation
     :align: center
     :width: 50%
 
@@ -104,7 +104,7 @@ To create and use the Degradation Tool in your Geo-Dash:
 
 1. Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
 2. Select **Degradation Tool** in the Type drop down.
-3. Give the widget a **Title**.
+3. Give the widget a **alt**.
 4. Choose the **Basemap** source from dropdown. This will be the basemap for the widget and other data will be layered on top.
 5. Choose which **Band to graph**. Available options include SWIR1, NIR, Red, Green, Blue, SWIR2, NDVI, NBR, NDWI and NDFI. NDFI allows for enhanced detection of forest canopy damage from multiple sources, including selective logging and forest fires.
 6. Select the **Date Range** you would like. This tool can draw from Landsat 4 (July 1982-December 1993), Landsat 5 (March 1984-January 2013), Landsat 7 (April 1999 – current), Landsat 8 (February 2013 – current), and Landsat 9 (September 27 - current) based on the date range you select. Sentinel information is only available from April 2014 onward (Sentinel 1A launch).
@@ -120,7 +120,7 @@ To create a Dual Imagery Widget:
 
 1. Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
 2. Select **Dual Imagery** in the Widget Type drop down.
-3. Give the widget a **Title**. We suggest an informative title such as {Data} {Date range} e.g. NDVI 2001 or NDVI 2001 – 2002.
+3. Give the widget a **alt**. We suggest an informative alt such as {Data} {Date range} e.g. NDVI 2001 or NDVI 2001 – 2002.
 4. Choose **Basemap** source from dropdown. This will be the basemap for the widget and other data will be layered on top.
 5. You will now select the **Imagery type** for the Bottom and Top images. You can toggle between them by clicking the **[Next Image]** and **[Previous Image]** buttons.
 
@@ -141,7 +141,7 @@ This widget allows you to simply show one of your institutional imageries. With 
 
 1. Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
 2. Select **Institution Imagery** in the Type drop down.
-3. Give the widget a **Title**.
+3. Give the widget a **alt**.
 4. Select a **Basemap**. You can choose any of your institutional imagery from the dropdown menu.
 5. Click **[Create]**.
 6. Reposition and resize to your liking.
@@ -158,7 +158,7 @@ Both the Image Asset Widget and the Image Collection Asset Widget allow users to
 
 1.  Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
 2.  Select **Image Asset** in the **Widget Type** drop down.
-3.  Give the widget a **Title**.
+3.  Give the widget a **alt**.
 4.  Choose the desired **Basemap** source from dropdown. This will be the basemap for the widget and other data will be layered on top.
 5.  Enter the **GEE Image Asset ID**. For example, COPERNICUS/S2/20170420T184921_20170420T190203_T10SEG. This can be any image asset in Earth Engine, including assets from your own account. If you are using an asset from your own account, it must be shared publicly. If you need  your asset to remain private for data security reasons, message the team at support@collect.earth and we can help.
 6.  You can view the **Available Bands** for your image by clicking on the **[Refresh]** button.
@@ -189,7 +189,7 @@ An Image Collection is a stack or time series of images. There is a video tutori
 
 1. Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
 2. Select **Image Collection Asset** in the **Widget Type** drop down.
-3. Give the widget a **Title**.
+3. Give the widget a **alt**.
 4. Choose **Basemap** source from dropdown. This will be the basemap for the widget and other data will be layered on top.
 5. Enter the **Google Earth Engine Image Collection Asset ID**, for example LANDSAT/LC8_L1T_TOA. This can be any image collection in Earth Engine, including assets from your own account. If you are using an asset from your own account, it must be shared publicly.
 6. You can view the **Available Bands** for your image by clicking on the **[Refresh]** button.
@@ -243,7 +243,7 @@ We suggest you use the shapefile (.shp) option when creating your CEO project.
 
 1. Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
 2. Select **Polygon Compare** in the **Widget Type** drop down.
-3. Give the widget a **Title**.
+3. Give the widget a **alt**.
 4. Choose **Basemap** source from dropdown. This will be the basemap for the widget and other data will be layered on top.
 5. Enter the **Google Earth Engine Feature Collection Asset ID**. This can be any feature collection in Earth Engine, including assets from your own account. If you are using an asset from your own account, it must be shared publicly.
 6. Enter the **field** that matches the PLOTID for the project. In the compare featureCollection widget, you will need to match PLOTIDs. The PLOTID column for your featureCollection can be named anything, just type in the proper column name into the Field to match PLOTID box.
@@ -259,7 +259,7 @@ Preloaded Image Collection widgets are commonly used widgets that the Collect Ea
 
 1. Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
 2. Select **Preloaded Image Collections** in the **Widget Type** dropdown menu.
-3. Give the widget a **Title**.
+3. Give the widget a **alt**.
 4. Choose your **Basemap** source from the dropdown menu. This will become the basemap over which the other data is overlaid.
 5. Select the **Imagery Source**. You can choose from Landsat, Sentinel-2, and Planet NICFI.
 6. Select the **Imagery Source Type**. You can choose from Index or Composite.
@@ -294,7 +294,7 @@ Statistics provide additional information, including population, area, and eleva
 
 1. Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
 2. Select **Statistics** in the **Widget Type** drop down.
-3. Give the widget a **Title**.
+3. Give the widget a **alt**.
 4. Click **[Create]**.
 5. Reposition and resize to your liking.
 
@@ -305,7 +305,7 @@ Time Series Graphs, particularly for the vegetation indices, can help users diff
 
 1. Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
 2. Select **Time Series Graph** in the **Widget Type** drop down.
-3. Give the widget a **Title**.
+3. Give the widget a **alt**.
 4. Select the **Imagery Source**. This will determine what **Band to graph** options you have.
 
    - **Landsat** allows you to graph **NDVI, EVI, EVI 2, NDMI**, and **NDWI**. These are preconfigured with the correct Landsat band calculations and image parameters. 

@@ -28,8 +28,8 @@ Project management
 
 As an Administrator, you can manage the projects associated with your Institution in the **Projects** tab of your Institution page. You can create new projects, edit existing projects, and delete projects. You can also download plot, sample, and shapefile data for your Institution's projects.
 
-.. thumbnail:: ../_images/institution3.png
-   :title: Options in the Projects tab of an Institution.
+.. figure:: ../_images/institution3.png
+   :alt: Options in the Projects tab of an Institution.
    :align: center
    :width: 50%
 
@@ -39,16 +39,16 @@ Below this, you can see three options for managing your Institution's projects.
 
 1. **[Change Project Visibility]**: This allows you to change the visibility of your Institution's projects. There are four different levels of visibility: Public, Users, Institution, and Private. Public projects are visible to all users with or without a CEO account, Users projects are visible to any user logged in with a CEO account, Institution projects are only visible to members or administrators of the Institution, and Private projects are only visible to the Institutions Administrators.
 
-.. thumbnail:: ../_images/institution4.png
-   :title: Changing project visibility.
+.. figure:: ../_images/institution4.png
+   :alt: Changing project visibility.
    :align: center
    :width: 50%
 
 2. **[Delete Selected]**: This allows you to delete selected projects from your Institution. You can select multiple projects by checking the boxes next to their names. Once you have selected the projects you want to delete, click the **[Delete Selected]** button. CEO will ask you to confirm your changes. Click **[OK]** to confirm. **PROJECT DELETION IS PERMANENT** and cannot be undone. All data collected in the project will also be deleted, including plots, samples, and answers.
 3. **[Bulk Download Options]**: This allows you to download the data from multiple projects. You can download the data in three formats: Plot Data, Sample Data, and Shapefile. The Plot Data includes all the data collected for each project, the Sample Data includes all the data collected for each project, and the Shapefile includes the spatial data for each project. Click on the button for each of the format(s) you want to download, and CEO will generate a compressed file for you to download. For more information on downloading data, see :doc:`../project/management`.
 
-.. thumbnail:: ../_images/institution5.png
-   :title: Bulk download options.
+.. figure:: ../_images/institution5.png
+   :alt: Bulk download options.
    :align: center
    :width: 50%
 
@@ -62,8 +62,8 @@ In addition to these options, there are individual options for each project in t
 7. **[S]**: Download Sample Data for the project.
 8. **[M]**: Preview the Learning Material for the project.
 
-.. thumbnail:: ../_images/institution6.png
-   :title: Project management options.
+.. figure:: ../_images/institution6.png
+   :alt: Project management options.
    :align: center
    :width: 50%
 
@@ -84,8 +84,8 @@ Next to each imagery feed in the list are individual options for managing that f
 3. **[Edit]**: This allows you to edit the imagery feed details.
 4. **[Delete]**: This allows you to delete the imagery feed from your Institution. Clicking this button will prompt you to confirm the deletion. **IMAGERY DELETION IS PERMANENT** and cannot be undone.
 
-.. thumbnail:: ../_images/institution7.png
-   :title: Imagery management options.
+.. figure:: ../_images/institution7.png
+   :alt: Imagery management options.
    :align: center
    :width: 50%
 
