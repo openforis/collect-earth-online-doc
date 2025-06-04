@@ -24,7 +24,7 @@ sys.path.append(os.path.abspath('_extensions'))
 extensions = [
     "sphinx.ext.napoleon",
 #    "sphinx.ext.graphviz",
-    "sphinxcontrib.images",
+#    "sphinxcontrib.images",
 #    "sphinxcontrib.icon",
 #    "sphinxcontrib.btn",
     "sphinxcontrib.email",

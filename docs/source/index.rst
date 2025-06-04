@@ -39,11 +39,6 @@ Create your account and get started with CEO.
 
       Set up your own institution in CEO.
 
-.. thumbnail:: _images/joining1.png
-   :title: Clicking on an institution's name.
-   :width: 75%
-   :align: center
-
 .. figure:: _images/joining1.png
    :width: 75%
    :align: center
