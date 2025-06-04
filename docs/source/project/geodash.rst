@@ -46,7 +46,7 @@ Widget Formatting Hints
 
 - Titles cannot contain special characters.
 - Image parameters use JSON. Quotes used for image parameters in widgets should be vertical, not curly quotes. There should be no spaces in the image parameters.
-- Lists can be formatted either as :literal:`"1,2,3"` or as :literal:`[1,2,3]` for numbers and :literal:`"B3,B2,B1"` or :literal:`["B3","B2","B1"]` for bands.
+- Lists can be formatted either as :code:`"1,2,3"` or as :code:`[1,2,3]` for numbers and :code:`"B3,B2,B1"` or :code:`["B3","B2","B1"]` for bands.
 - When displaying three bands (e.g. B3, B2, B1 in RGB), Google Earth Engine and therefore the Geo-Dash can use either one or three values for min and max.
 - For the Date Ranges, if the end date is longer than the period of record, only the available data will be displayed.
 
@@ -159,7 +159,7 @@ Both the Image Asset Widget and the Image Collection Asset Widget allow users to
 2.  Select **Image Asset** in the **Widget Type** drop down.
 3.  Give the widget a **Title**.
 4.  Choose the desired **Basemap** source from dropdown. This will be the basemap for the widget and other data will be layered on top.
-5.  Enter the **GEE Image Asset ID**. For example, COPERNICUS/S2/20170420T184921_20170420T190203_T10SEG. This can be any image asset in Earth Engine, including assets from your own account. If you are using an asset from your own account, it must be shared publicly. If you need  your asset to remain private for data security reasons, message the team at support@collect.earth and we can help.
+5.  Enter the **GEE Image Asset ID**. For example, :code:`COPERNICUS/S2/20170420T184921_20170420T190203_T10SEG`. This can be any image asset in Earth Engine, including assets from your own account. If you are using an asset from your own account, it must be shared publicly. If you need  your asset to remain private for data security reasons, message the team at support@collect.earth and we can help.
 6.  You can view the **Available Bands** for your image by clicking on the **[Refresh]** button.
 7.  Enter **Image Parameters** for the asset in JSON format. These follow the image visualization function in GEE (more info: https://developers.google.com/earth-engine/guides/image_visualization?hl=en):
 
@@ -190,12 +190,12 @@ An Image Collection is a stack or time series of images. There is a video tutori
 2. Select **Image Collection Asset** in the **Widget Type** drop down.
 3. Give the widget a **Title**.
 4. Choose **Basemap** source from dropdown. This will be the basemap for the widget and other data will be layered on top.
-5. Enter the **Google Earth Engine Image Collection Asset ID**, for example LANDSAT/LC8_L1T_TOA. This can be any image collection in Earth Engine, including assets from your own account. If you are using an asset from your own account, it must be shared publicly.
+5. Enter the **Google Earth Engine Image Collection Asset ID**, for example :code:`LANDSAT/LC8_L1T_TOA`. This can be any image collection in Earth Engine, including assets from your own account. If you are using an asset from your own account, it must be shared publicly.
 6. You can view the **Available Bands** for your image by clicking on the **[Refresh]** button.
 7. Select a **Collection Reducer**. Reducers are methods for collapsing multiple images in the image collection into a single image for the Geo-Dash to display. You can learn more about reducers here https://developers.google.com/earth-engine/guides/reducers_intro.
 8. Enter **Image Parameters** for the asset in JSON format. These follow the image visualization function in GEE (more info: https://developers.google.com/earth-engine/guides/image_visualization?hl=en):
 
-   - For example: :literal:`{"bands":"B4,B5,B3","min":"10,0,10","max":"120,90,70"}`.
+   - For example: :code:`{"bands":"B4,B5,B3","min":"10,0,10","max":"120,90,70"}`.
    - Do not use any spaces.
 
 9.  Select the **Date Range**.
@@ -213,21 +213,6 @@ The most common strings for Landsat are listed below. More detailed information 
 For short change intervals, test the 8 day NDVI composite images; for longer change intervals, explore the 32 day composites.
 
 You might notice in the 8 day composites unexpectedly low NDVI values for the season. This can be caused by cloud cover. If your sample sites are in an area with persistent cloud cover, choose the 32 day composite.
-
-+-----------+--------------+------------+-----------------------------+
-| Satellite | Type         | Start date | Image collection ID         |
-+===========+==============+============+=============================+
-| Landsat 8 | NDVI, 32 day | 2013-04-07 | LANDSAT/LC8_L1T_32DAY_NDVI  |
-| Landsat 8 | NDVI, 8 day  | 2013-04-07 | LANDSAT/LC8_L1T_8DAY_NDVI   |
-| Landsat 7 | NDVI, 32 day | 1999-01-01 | LANDSAT/LE7_L1T_32DAY_NDVI  |
-| Landsat 7 | NDVI, 8 day  | 1999-01-01 | LANDSAT/LE7_L1T_8DAY_NDVI   |
-| Landsat 8 | NDWI, 32 day | 2013-04-07 | LANDSAT/LC8_L1T_32DAY_NDWI  |
-| Landsat 8 | NDWI, 8 day  | 2013-04-07 | LANDSAT/LC8_L1T_8DAY_NDWI   |
-| Landsat 7 | NDWI, 32 day | 1999-01-01 | LANDSAT/LE7_L1T_32DAY_NDWI  |
-| Landsat 7 | NDWI, 8 day  | 1999-01-01 | LANDSAT/LE7_L1T_8DAY_NDWI   |
-+-----------+--------------+------------+-----------------------------+
-
-The image collection ID for Sentinel-2 is COPERNICUS/S2 (2015-06-23 to present) and for Sentinel-1 is COPERNICUS/S1_GRD (2015-10-03 to present).
 
 Add a Polygon Compare Widget
 ----------------------------
