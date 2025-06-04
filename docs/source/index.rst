@@ -107,3 +107,4 @@ In partnership with:
    Getting Started<setup/index>
    Data Collection<collection/index>
    Institution Management<institution/index>
+   Project Creation<project/index>
