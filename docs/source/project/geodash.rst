@@ -44,8 +44,8 @@ Data from Landsat satellites 5, 7, 8 and Sentinel 2 are also available. For more
 Widget Formatting Hints
 -----------------------
 
-- alts cannot contain special characters.
-- Image parameters use JSON. Quotes used for image parameters in widgets should be vertical (not “”). There should be no spaces in the image parameters.
+- Titles cannot contain special characters.
+- Image parameters use JSON. Quotes used for image parameters in widgets should be vertical, not curly quotes. There should be no spaces in the image parameters.
 - Lists can be formatted either as :literal:`"1,2,3"` or as :literal:`[1,2,3]` for numbers and :literal:`"B3,B2,B1"` or :literal:`["B3","B2","B1"]` for bands.
 - When displaying three bands (e.g. B3, B2, B1 in RGB), Google Earth Engine and therefore the Geo-Dash can use either one or three values for min and max.
 - For the Date Ranges, if the end date is longer than the period of record, only the available data will be displayed.
@@ -103,10 +103,10 @@ To create and use the Degradation Tool in your Geo-Dash:
 
 1. Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
 2. Select **Degradation Tool** in the Type drop down.
-3. Give the widget a **alt**.
+3. Give the widget a **Title**.
 4. Choose the **Basemap** source from dropdown. This will be the basemap for the widget and other data will be layered on top.
 5. Choose which **Band to graph**. Available options include SWIR1, NIR, Red, Green, Blue, SWIR2, NDVI, NBR, NDWI and NDFI. NDFI allows for enhanced detection of forest canopy damage from multiple sources, including selective logging and forest fires.
-6. Select the **Date Range** you would like. This tool can draw from Landsat 4 (July 1982-December 1993), Landsat 5 (March 1984-January 2013), Landsat 7 (April 1999 – current), Landsat 8 (February 2013 – current), and Landsat 9 (September 27 - current) based on the date range you select. Sentinel information is only available from April 2014 onward (Sentinel 1A launch).
+6. Select the **Date Range** you would like. This tool can draw from Landsat 4 (July 1982-December 1993), Landsat 5 (March 1984-January 2013), Landsat 7 (April 1999-current), Landsat 8 (February 2013-current), and Landsat 9 (September 27 - current) based on the date range you select. Sentinel information is only available from April 2014 onward (Sentinel 1A launch).
 7. Click **[Create]**.
 8. Reposition and resize to your liking. This tool will have two panels stacked one on top of the other, so be sure to give it ample vertical space.
 
@@ -119,7 +119,7 @@ To create a Dual Imagery Widget:
 
 1. Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
 2. Select **Dual Imagery** in the Widget Type drop down.
-3. Give the widget a **alt**. We suggest an informative alt such as {Data} {Date range} e.g. NDVI 2001 or NDVI 2001 – 2002.
+3. Give the widget a **Title**. We suggest an informative Title such as {Data} {Date range} e.g. NDVI 2001 or NDVI 2001-2002.
 4. Choose **Basemap** source from dropdown. This will be the basemap for the widget and other data will be layered on top.
 5. You will now select the **Imagery type** for the Bottom and Top images. You can toggle between them by clicking the **[Next Image]** and **[Previous Image]** buttons.
 
@@ -140,7 +140,7 @@ This widget allows you to simply show one of your institutional imageries. With 
 
 1. Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
 2. Select **Institution Imagery** in the Type drop down.
-3. Give the widget a **alt**.
+3. Give the widget a **Title**.
 4. Select a **Basemap**. You can choose any of your institutional imagery from the dropdown menu.
 5. Click **[Create]**.
 6. Reposition and resize to your liking.
@@ -157,7 +157,7 @@ Both the Image Asset Widget and the Image Collection Asset Widget allow users to
 
 1.  Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
 2.  Select **Image Asset** in the **Widget Type** drop down.
-3.  Give the widget a **alt**.
+3.  Give the widget a **Title**.
 4.  Choose the desired **Basemap** source from dropdown. This will be the basemap for the widget and other data will be layered on top.
 5.  Enter the **GEE Image Asset ID**. For example, COPERNICUS/S2/20170420T184921_20170420T190203_T10SEG. This can be any image asset in Earth Engine, including assets from your own account. If you are using an asset from your own account, it must be shared publicly. If you need  your asset to remain private for data security reasons, message the team at support@collect.earth and we can help.
 6.  You can view the **Available Bands** for your image by clicking on the **[Refresh]** button.
@@ -188,7 +188,7 @@ An Image Collection is a stack or time series of images. There is a video tutori
 
 1. Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
 2. Select **Image Collection Asset** in the **Widget Type** drop down.
-3. Give the widget a **alt**.
+3. Give the widget a **Title**.
 4. Choose **Basemap** source from dropdown. This will be the basemap for the widget and other data will be layered on top.
 5. Enter the **Google Earth Engine Image Collection Asset ID**, for example LANDSAT/LC8_L1T_TOA. This can be any image collection in Earth Engine, including assets from your own account. If you are using an asset from your own account, it must be shared publicly.
 6. You can view the **Available Bands** for your image by clicking on the **[Refresh]** button.
@@ -206,7 +206,7 @@ More on Landsat
 ^^^^^^^^^^^^^^^
 
 Landsat is one of the Image Assets you can add. For better performance when using a GEE collection, we recommend that
-you preprocess and clip the data to your AOI in GEE before connecting it to Geo-Dash. You can find a video tutorial on this process in the Geo-Dash Help Center under “Video Tutorial to Create GEE Image Assets.”
+you preprocess and clip the data to your AOI in GEE before connecting it to Geo-Dash. You can find a video tutorial on this process in the Geo-Dash Help Center under "Video Tutorial to Create GEE Image Assets."
 
 The most common strings for Landsat are listed below. More detailed information can be found on the Google Earth Engine help pages; available composites and the covered time frame are found here: https://explorer.earthengine.google.com/#search/tag%3A32day.
 
@@ -242,7 +242,7 @@ We suggest you use the shapefile (.shp) option when creating your CEO project.
 
 1. Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
 2. Select **Polygon Compare** in the **Widget Type** drop down.
-3. Give the widget a **alt**.
+3. Give the widget a **Title**.
 4. Choose **Basemap** source from dropdown. This will be the basemap for the widget and other data will be layered on top.
 5. Enter the **Google Earth Engine Feature Collection Asset ID**. This can be any feature collection in Earth Engine, including assets from your own account. If you are using an asset from your own account, it must be shared publicly.
 6. Enter the **field** that matches the PLOTID for the project. In the compare featureCollection widget, you will need to match PLOTIDs. The PLOTID column for your featureCollection can be named anything, just type in the proper column name into the Field to match PLOTID box.
@@ -258,7 +258,7 @@ Preloaded Image Collection widgets are commonly used widgets that the Collect Ea
 
 1. Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
 2. Select **Preloaded Image Collections** in the **Widget Type** dropdown menu.
-3. Give the widget a **alt**.
+3. Give the widget a **Title**.
 4. Choose your **Basemap** source from the dropdown menu. This will become the basemap over which the other data is overlaid.
 5. Select the **Imagery Source**. You can choose from Landsat, Sentinel-2, and Planet NICFI.
 6. Select the **Imagery Source Type**. You can choose from Index or Composite.
@@ -273,7 +273,7 @@ Preloaded Image Collection widgets are commonly used widgets that the Collect Ea
    - Sentinel 2: B1, B2, B3, B4, B5, B6, B7, B8, B8a, B9, B10, B11, B12, QA10, QA20, QA60
    - NICFI: R, G, B, N
    
-   Min, Max, and Cloud Score will be determined by the user’s needs. Min and Max are the values for the bands, while cloud score is a max percent of clouds in the image. Min and max can have one or three values.
+   Min, Max, and Cloud Score will be determined by the user's needs. Min and Max are the values for the bands, while cloud score is a max percent of clouds in the image. Min and max can have one or three values.
          
    Example values include:
          
@@ -293,7 +293,7 @@ Statistics provide additional information, including population, area, and eleva
 
 1. Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
 2. Select **Statistics** in the **Widget Type** drop down.
-3. Give the widget a **alt**.
+3. Give the widget a **Title**.
 4. Click **[Create]**.
 5. Reposition and resize to your liking.
 
@@ -304,7 +304,7 @@ Time Series Graphs, particularly for the vegetation indices, can help users diff
 
 1. Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
 2. Select **Time Series Graph** in the **Widget Type** drop down.
-3. Give the widget a **alt**.
+3. Give the widget a **Title**.
 4. Select the **Imagery Source**. This will determine what **Band to graph** options you have.
 
    - **Landsat** allows you to graph **NDVI, EVI, EVI 2, NDMI**, and **NDWI**. These are preconfigured with the correct Landsat band calculations and image parameters. 
