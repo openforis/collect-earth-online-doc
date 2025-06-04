@@ -1,14 +1,5 @@
 :html_theme.sidebar_secondary.remove:
 
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-
-   Getting Started<setup/index>
-   Data Collection<collection/index>
-   .. Institution Management<institution/index>
-   .. Project Creation<project/index>
-
 Welcome to Collect Earth Online's documentation!
 ================================================
 
@@ -108,3 +99,11 @@ With the support of:
 In partnership with:
 
 .. logos:: partners
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
+   Getting Started<setup/index>
+   Data Collection<collection/index>
+   Institution Management<institution/index>

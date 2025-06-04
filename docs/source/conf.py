@@ -23,21 +23,22 @@ sys.path.append(os.path.abspath('_extensions'))
 
 extensions = [
     "sphinx.ext.napoleon",
-#    "sphinx.ext.graphviz",
-#    "sphinxcontrib.images",
-#    "sphinxcontrib.icon",
-#    "sphinxcontrib.btn",
+
     "sphinxcontrib.email",
     "sphinxcontrib.youtube",
     "sphinxcontrib.bibtex",
     "sphinx_design",
-#    "sphinx_togglebutton",
     "sphinx_favicon",
     "sphinx_last_updated_by_git",
+    "logos"
 #    "notfound.extension",
 #    "line_break",
 #    "custom_edit",
-    "logos"
+#    "sphinx_togglebutton",
+#    "sphinx.ext.graphviz",
+#    "sphinxcontrib.images",
+#    "sphinxcontrib.icon",
+#    "sphinxcontrib.btn"
 ]
 
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
