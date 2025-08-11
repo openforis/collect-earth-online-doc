@@ -277,13 +277,12 @@ Preloaded Image Collection widgets are commonly used widgets that the Collect Ea
    
    Min, Max, and Cloud Score will be determined by the user's needs. Min and Max are the values for the bands, while cloud score is a max percent of clouds in the image. Min and max can have one or three values.
          
-   Example values include:
+   Example values for Sentinel-2 include:
          
-   - Sentinel-2:
-     - bands: B8,B4,B3,
-     - min: 450,
-     - max: 3000,
-     - Cloud Score: 10
+   - bands: B8,B4,B3,
+   - min: 450,
+   - max: 3000,
+   - Cloud Score: 10
 
 10. Click **[Create].**
 11. Reposition and resize to your liking.
