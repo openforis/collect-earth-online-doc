@@ -27,6 +27,8 @@ As with Standard Projects, the Simplified Project overview page for Simplified P
     :align: center
     :width: 50%
 
+    Project Overview Wizard for a simplified project.
+
 Use a Project Template (Optional)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

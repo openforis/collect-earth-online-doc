@@ -17,8 +17,19 @@ General
 Feature additions/changes:
 - Simplified Project management?
 - New error text
+    [x]Error in plot file (missing column, repeated PLOTID)
+    [x]Error in sample file (missing column, repeated SAMPLEID)
+    [x]Samples don't end up inside a PLOT when using CSV/SHP/geoJSON files
+    [?]Missing plot information
+    []Malformed payload
+      - Ask Arthur
+    []Error when writing files (usually due to the application losing permission to run a command line tool called 7zip)
+      - If you receive an error like this, email us. It's a problem on our end. 
+    [NEED PICTURE]What happens when you use letters for a PLOTID
 - Added a column for interpreter names in the downloaded CSV files
 - Repurposing the Planet NICFI imagery to point to the Tropical Forest Observatory
 - Add “View Plot in Collection Window” in the QAQC Module
-- Allow different boundary types in Simplified Projects
+- [in development] Allow different boundary types in Simplified Projects
 - File upload for specifying reviewers and users? I still can't get this to work.
+- Select All button
+- 

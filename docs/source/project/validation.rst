@@ -50,9 +50,9 @@ Precision & accuracy goals for a project help us decide on the sample size and s
 
 In this example, A is neither precise nor accurate. B is precise, but not accurate. C is accurate, but not precise, and D is both precise and accurate. This is of course where we would like to be ideally.
 
-Accuracy and precision influence the necessary sample size. Detecting small changes in outcome (e.g. 4% decrease in forest cover) with high certainty requires large sample sizes. 
+Accuracy and precision influence the necessary sample size. Detecting small changes in outcome (e.g. 4% decrease in forest cover) with high certainty requires large sample sizes.
 
-When you are determining your sample size, you will want to consider the primary goals of the project, along with the resources available for data collection. 
+When you are determining your sample size, you will want to consider the primary goals of the project, along with the resources available for data collection.
 
 There are many different formulas for determining sample sizes. Which one you want to use is based in part on your sampling method (simple random sample, stratified random sample, etc.). For example, from `SEPAL.io <sepal.io>`__:
 
