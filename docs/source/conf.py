@@ -9,7 +9,7 @@
 project = 'Collect Earth Online'
 copyright = '2025, Collect Earth Online team'
 author = 'Collect Earth Online team'
-release = 'v 1.0.0'
+release = 'v prod-2025-11-26'
 
 # -- Path setup ----------------------------------------------------------------
 import sys, os
@@ -126,7 +126,7 @@ html_theme_options = {
 
 }
 
-# -- option for the favicon extention ------------------------------------------
+# -- option for the favicon extension ------------------------------------------
 
 favicons = [
     {"rel": "apple-touch-icon", "href": "apple-touch-icon.png"},

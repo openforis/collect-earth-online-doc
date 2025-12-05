@@ -84,7 +84,7 @@ Some of these options may not be available, depending on the settings of your pr
 **External Tools Options**
 
 - Click **[Re-Zoom]** to return your focus to the focus plot
-- **Click [GeoDash]** to open the **GeoDash** pane with additional information about the plot, if it is available for the project (For more detail see :doc:`geodash`).
+- **Click [GeoDash]** to open the **Geo-Dash** pane with additional information about the plot, if it is available for the project (For more detail see :doc:`geodash`).
 - **[Hide Samples]**: This button will hide the sample points in the map window. This can be useful if you want to see the plot without the sample points obscuring the imagery.
 - **[Hide Boundary]**: This button will hide the boundary of the plot in the map window.
 - You can click **[Download Plot KML]** to download a KML file with the plot information. Downloading the KML allows you to transfer the plot information to another program, such as Google Earth Desktop. Importantly, the KML functionality allows users to determine the coordinates (latitude and longitude) at which points of interest are located.
@@ -172,7 +172,7 @@ If your administrator has set up the project to include plot information, you wi
 Geo-Dash
 ^^^^^^^^
 
-The **GeoDash** pop-up window will also open with information about the plot if it has been configured for the project. This window contains information to help identify land cover and land use attributes compiled from Google Earth Engine. Depending on the project, Geo-Dash can include plots of time series data (such as how NDVI values have varied over time), Landsat image chips, and more. See :doc:`/collection/geodash` for more information.
+The **Geo-Dash** pop-up window will also open with information about the plot if it has been configured for the project. This window contains information to help identify land cover and land use attributes compiled from Google Earth Engine. Depending on the project, Geo-Dash can include plots of time series data (such as how NDVI values have varied over time), Landsat image chips, and more. See :doc:`/collection/geodash` for more information.
 
 
 Analyze plots

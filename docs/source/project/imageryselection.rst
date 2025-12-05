@@ -18,7 +18,7 @@ You can change the Default Imagery, which specifies the imagery that users will 
 
     Maxar has deprecated multiple data products previously available in CEO, including: DigitalGlobeRecentIMagery; DigitalGlobeRecentImagery+Streets; DigitalGlobeWMSImagery; and EarthWatch.
 
-Public Imagery
+Platform Imagery
 --------------
 
  - This imagery is available for all institutions. If you have a public project, all users (including those not logged in) can see the imagery. 
@@ -30,5 +30,17 @@ Private Institution Imagery
  - This imagery will only be visible to institution members, even if you have your project set to public.
  - Click the checkbox next to each imagery source you would like to have available for your project.
  - You will need to first set up the imagery under the institution imagery management panel. Refer to instructions in :doc:`../institution/imagery`.
+
+Public Institution Imagery
+---------------------------
+
+ - This imagery will be visible to all CEO users who have access to your project.
+ - Click the checkbox next to each imagery source you would like to have available for your project.
+ - You will need to first set up the imagery under the institution imagery management panel. Refer to instructions in :doc:`../institution/imagery`.
+
+.. figure:: ../_images/imageryselection1.png
+    :alt: Dropdown to add basemap imagery.
+    :align: center
+    :width: 70%
 
 Click **[Next]** when you are finished.

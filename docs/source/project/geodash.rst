@@ -33,7 +33,7 @@ Some of the widgets provide access to common indices and data sources. These inc
 
 The normalized difference vegetation index (NDVI) is used to determine if the cell contains live green vegetation. In map based representations, dead plants and inanimate objects are represented as red, while live healthy plants are represented as green. In numerical representations (e.g. time series graphs), values below 0 represent dead plants or inanimate objects, 0-0.33 represents unhealthy plants, 0.33-0.66 represents moderately healthy plants, and 0.66-1 represents very healthy plants. For more information, see e.g. https://www.usgs.gov/land-resources/nli/landsat/landsat-normalized-difference-vegetation-index
 
-The enhanced vegetation index (EVI) and two-band EVI (EVI 2) are optimized vegetation indexs. They are designed to have higher sensitivity in high biomass regions e.g. along the equator, correct for canopy background signals, and reduce atmospheric influence on index values. In doing so, these indices addresses some of the key limitations of NDVI, however EVI requires more data to calculate and therefore has its own limitations. EVI 2 is in development and can be calculated just from red and near infrared bands. As with NDVI, red is used to represent dead plants/inanimate objects and green to represent healthy plants. The index varies between 0-1, with 0 representing dead plants and 1 representing very healthy plants. For more information on EVI see e.g. https://www.usgs.gov/land-resources/nli/landsat/landsat-enhanced-vegetation-index.
+The enhanced vegetation index (EVI) and two-band EVI (EVI 2) are optimized vegetation indices. They are designed to have higher sensitivity in high biomass regions e.g. along the equator, correct for canopy background signals, and reduce atmospheric influence on index values. In doing so, these indices addresses some of the key limitations of NDVI, however EVI requires more data to calculate and therefore has its own limitations. EVI 2 is in development and can be calculated just from red and near infrared bands. As with NDVI, red is used to represent dead plants/inanimate objects and green to represent healthy plants. The index varies between 0-1, with 0 representing dead plants and 1 representing very healthy plants. For more information on EVI see e.g. https://www.usgs.gov/land-resources/nli/landsat/landsat-enhanced-vegetation-index.
 
 The normalized difference moisture index (NDMI) is used to determine the water content of vegetation. NDMI can be used for drought monitoring and for determining fuel loads (combustibility) for wildfire hazard assessments. Values near -1 indicate plants with low moisture while values near 1 indicate plants with high moisture. More information on NDMI can be found at e.g. https://www.usgs.gov/land-resources/nli/landsat/normalized-difference-moisture-index.
 
@@ -57,7 +57,7 @@ Move & Resize Widgets
 
    - Drag and drop to change widget position.
    - Resize by dragging from the bottom right corner.
-   - Widgets will autotomatically align to a grid.
+   - Widgets will automatically align to a grid.
 
 2. In the Geo-Dash collection page view, widget positions are are updated in real time.
 
@@ -267,7 +267,7 @@ Preloaded Image Collection widgets are commonly used widgets that the Collect Ea
 7. Select **Date Range**. If the end date is longer than the period of record, only the available data will be displayed.
 8. If you have select Index, you can now choose a **Band to graph**. 
 
-   - **NDVI, EVI, EVI 2, NDMI**, and **NDWI** are preconfigured with the correct bands and image parameters. The index displayed will be the mean for the selected date range.
+   - **NDVI, EVI, EVI 2, NDMI**, and **NDWI** are pre-configured with the correct bands and image parameters. The index displayed will be the mean for the selected date range.
 
 9. If you have selected **Composite** you can now choose the bands, min, max, and cloud score, depending on which options are available for the **Imagery Source** you selected. Available bands for each are:
 
@@ -309,7 +309,7 @@ Time Series Graphs, particularly for the vegetation indices, can help users diff
 4. Select the **Imagery Source**. This will determine what **Band to graph** options you have.
 
    - **Landsat** allows you to graph **NDVI, EVI, EVI 2, NDMI**, and **NDWI**. These are preconfigured with the correct Landsat band calculations and image parameters. 
-   - **NICFI** allows you to graph **NDVI, B, R, G**, and **N**. These are preconfigured with the correct band calculations.
+   - **NICFI** allows you to graph **NDVI, B, R, G**, and **N**. These are pre-configured with the correct band calculations.
    - **Custom** allows you to create a time series graph using any GEE image collection. An image collection from Google Earth Engine can be added here. You simply need to know the **GEE Image Collection Asset ID**, the **Band to graph**, the **Reducer** you would like to use, and the **Spatial scale**. For example:
 
      - GEE Image Collection Asset ID- COPERNICUS/S5P/OFFL/L3_CO.

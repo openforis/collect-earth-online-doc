@@ -6,7 +6,7 @@ You can add Imagery to your Institution in Collect Earth Online (CEO) to use in 
 The Imagery tab of your Institution page allows you to add new imagery sources, view existing imagery sources, and manage the visibility of your institution's imagery. 
 
 - You can add new imagery sources by clicking on the **[Add New Imagery]** button. More information on this process is available in the section below.
-- You can Change the visibility of your institution's imagery by clicking on the **[Change Visibility]** button after selecting one or multiple imagery sources. The default is for imagery you add to be Private and only available to be used by projects from this institution. You can make imagery public, which allows you to make the imagery available to any project in CEO. **USE THIS AT YOUR OWN RISK**
+- You can Change the visibility of your institution's imagery by clicking on the **[Change Visibility]** button after selecting one or multiple imagery sources. The default is for imagery you add to be Private Institution Imagery and only available to be used by projects from this institution. 
 - You can also delete imagery sources by clicking on the **[Delete]** button after selecting one or multiple imagery sources. This will permanently delete the imagery source from your Institution and all Projects that use it.
 - The **[Edit]** button brings up the form to edit the imagery source. You can change the alt, attribution, and other settings for the imagery source.
 
@@ -25,6 +25,45 @@ There are two main ways to add background, or basemap imagery to your Institutio
     Maxar has eliminated multiple data products that were previously available on CEO, including: DigitalGlobeRecentIMagery; DigitalGlobeRecentImagery+Streets; DigitalGlobeWMSImagery; and EarthWatch. 
     
     In addition, SecureWatch is now MGP Pro. You can connect to MGP Pro through their WMS server and XYZ services.
+
+
+Imagery Permission Levels
+-------------------------
+
+There are three permission levels available in CEO: one built-in and two institution-based options that can be customized for your needs. These settings help institutions manage imagery more effectively, enabling open sharing when appropriate while maintaining security for sensitive datasets.
+
+**Platform Imagery:** This is CEO’s built-in imagery, curated and maintained by the CEO development team. It includes commonly used datasets such as Mapbox Satellite, OpenStreetMap, Landsat, and Sentinel-2.
+
+Platform imagery is always available to all users, whether or not they are logged in or part of an institution.
+
+**Private Institution Imagery:** CEO’s traditional custom imagery, Private Institution Imagery is visible only to logged-in members of your institution, regardless of the project’s visibility setting.
+
+Even if a project is open to all CEO users, only your institution’s members will see this imagery.
+
+This option is useful for sensitive or licensed imagery that requires controlled access.
+
+**Public Institution Imagery:** As CEO’s new imagery permissions option, Public Institution Imagery is available to anyone collecting data on your projects in CEO, while remaining managed within your institution.
+
+If your project is public, this imagery will be visible to all users.
+
+This setting works well for community mapping or citizen science projects that benefit from open access.
+
+Changing Imagery Permissions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To change the visibility of your imagery: 
+
+1. Go to the Imagery tab on your institution page.
+2. Select the imagery layers you want to update by checking the boxes next to them.
+3. Click **[Change Imagery Visibility]**, then choose your preferred permission level.
+4. Click **[Change]** to apply your new settings.
+
+Your imagery permissions will update immediately.
+
+.. figure:: ../_images/imagery0.png
+    :alt: Dropdown to add basemap imagery.
+    :align: center
+    :width: 70%
 
 Built-in base imagery sources
 -----------------------------

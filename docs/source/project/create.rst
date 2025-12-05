@@ -1,7 +1,7 @@
 Project Creation
 ================
 
-After you have created an Institution or joined an Institution with Admin privleges and loaded any desired imagery into your INstitution, you are ready to create a new project.
+After you have created an Institution or joined an Institution with Admin privileges and loaded any desired imagery into your Institution, you are ready to create a new project.
 
 Setting project goals
 ---------------------
