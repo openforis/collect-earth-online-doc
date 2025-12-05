@@ -1,24 +1,22 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, Collect Earth Online team
-# This file is distributed under the same license as the Collect Earth
-# Online package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Collect Earth Online \n"
+"Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2024-09-25 20:10\n"
+"Last-Translator: \n"
 "Language: es\n"
-"Language-Team: es <LL@li.org>\n"
+"Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
+"X-Crowdin-Project: collect-earth-online-doc\n"
+"X-Crowdin-Project-ID: 647276\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /main/docs/source/_locale/en/LC_MESSAGES/collection/advanced.po\n"
+"X-Crowdin-File-ID: 34\n"
 
 #: ../../collection/advanced.rst:2 d21401061a8a472283ba0f0b73c6e053
 msgid "Advanced plot analysis"
@@ -29,27 +27,19 @@ msgid "Multiple time periods"
 msgstr ""
 
 #: ../../collection/advanced.rst:7 e84be2ff3d97486b8f72ee8a0ba13b72
-msgid ""
-"For analyses comparing two or more time periods, you may need to toggle "
-"between imagery from different dates."
+msgid "For analyses comparing two or more time periods, you may need to toggle between imagery from different dates."
 msgstr ""
 
 #: ../../collection/advanced.rst:9 71fba1df9fb848739b89b14ce625ff77
-msgid ""
-"You may need to click **[Update Imagery]** when toggling between "
-"different imagery sources."
+msgid "You may need to click **[Update Imagery]** when toggling between different imagery sources."
 msgstr ""
 
 #: ../../collection/advanced.rst:10 bf9769bf9f30482d9a0753626fb4bb87
-msgid ""
-"Your institution should have set up the project with two labeled imagery "
-"options for the time periods of interest."
+msgid "Your institution should have set up the project with two labeled imagery options for the time periods of interest."
 msgstr ""
 
 #: ../../collection/advanced.rst:11 16f3a9f6d300448385ebb0a4daa1b32b
-msgid ""
-"Click the **drop-down menu** under **IMAGERY OPTIONS** and select the "
-"earlier of the two time periods."
+msgid "Click the **drop-down menu** under **IMAGERY OPTIONS** and select the earlier of the two time periods."
 msgstr ""
 
 #: ../../collection/advanced.rst:12 8e18bc4da626467881256b2e445e22a2
@@ -61,51 +51,23 @@ msgid "Some imagery options allow you to enter imagery start and end dates."
 msgstr ""
 
 #: ../../collection/advanced.rst:20 425bd25867a04ff99bc9f15051afa3ef
-msgid ""
-"Some imagery options also allow you to choose a feature profile for the "
-"imagery. This is essentially a filter that the imagery provider puts on "
-"their data. For example, the Cloud Cover Profile filters out imagery with"
-" too much cloud cover."
+msgid "Some imagery options also allow you to choose a feature profile for the imagery. This is essentially a filter that the imagery provider puts on their data. For example, the Cloud Cover Profile filters out imagery with too much cloud cover."
 msgstr ""
 
 #: ../../collection/advanced.rst:27 6dc3c6e8365f4170a93099a97e0f3ab2
-msgid ""
-"For the Planet Daily data, you will see a list of checkboxes pop up just "
-"to the left of the **Imagery Options**. You can use these checkboxes to "
-"refine the dates of the map data you want to see displayed. Planet Daily "
-"imagery is received as a stack of images. CEO displays the imagery and "
-"the checkboxes in the same order that Planet Daily provides this imagery "
-"stack. That is, the top date is also the top layer in the imagery stack. "
-"If you turn the top image off by unchecking the box, you will see the "
-"next date’s image is now on top. It is like looking through a stack of "
-"photographs, removing the top one reveals the photo underneath."
+msgid "For the Planet Daily data, you will see a list of checkboxes pop up just to the left of the **Imagery Options**. You can use these checkboxes to refine the dates of the map data you want to see displayed. Planet Daily imagery is received as a stack of images. CEO displays the imagery and the checkboxes in the same order that Planet Daily provides this imagery stack. That is, the top date is also the top layer in the imagery stack. If you turn the top image off by unchecking the box, you will see the next date’s image is now on top. It is like looking through a stack of photographs, removing the top one reveals the photo underneath."
 msgstr ""
 
 #: ../../collection/advanced.rst:34 ec70f8c5a3d343598bcea984af16d911
-msgid ""
-"If your project uses SecureWatch Imagery, you will be able to select a "
-"range of dates (under **Select Range**) or specific dates (under **Select"
-" Dates**). Your institution will have set a default range of dates when "
-"the project was created. The list of **Available Dates** will "
-"automatically    populate with the available dates for the sample plot "
-"you are looking at. When you answer a question, the date or range of "
-"dates will be recorded. Please refer to any specific instructions your "
-"institution has given you regarding which imagery options to use for "
-"SecureWatch."
+msgid "If your project uses SecureWatch Imagery, you will be able to select a range of dates (under **Select Range**) or specific dates (under **Select Dates**). Your institution will have set a default range of dates when the project was created. The list of **Available Dates** will automatically    populate with the available dates for the sample plot you are looking at. When you answer a question, the date or range of dates will be recorded. Please refer to any specific instructions your institution has given you regarding which imagery options to use for SecureWatch."
 msgstr ""
 
 #: ../../collection/advanced.rst:41 e2f9787862064b40965d45a1ae2fed33
-msgid ""
-"Make sure you also refer to the second tab, where the Geo-Dash "
-"information is presented. The time series information that is presented "
-"in the Geo-Dash window is also helpful in determining if change has "
-"occurred on the landscape."
+msgid "Make sure you also refer to the second tab, where the Geo-Dash information is presented. The time series information that is presented in the Geo-Dash window is also helpful in determining if change has occurred on the landscape."
 msgstr ""
 
 #: ../../collection/advanced.rst:42 9c5f23fe715d4fa08389895ae70b4975
-msgid ""
-"If both images look the same, no change occurred, so we select all points"
-" and label them as no change or stable."
+msgid "If both images look the same, no change occurred, so we select all points and label them as no change or stable."
 msgstr ""
 
 #: ../../collection/advanced.rst:43 5aad3d6924c647bbb4c890caa568bade
@@ -121,32 +83,19 @@ msgid "Seasonality"
 msgstr ""
 
 #: ../../collection/advanced.rst:51 b2c65ef24aae49a0990c5dac700955be
-msgid ""
-"Seasonality issues can occur when different land uses appear different "
-"between seasons. For example, a grassland might be bright green in spring"
-" but look brown in the summer. If you saw just the brown imagery, you "
-"might think the brown is dirt and incorrectly classify the grassland as "
-"barren dirt."
+msgid "Seasonality issues can occur when different land uses appear different between seasons. For example, a grassland might be bright green in spring but look brown in the summer. If you saw just the brown imagery, you might think the brown is dirt and incorrectly classify the grassland as barren dirt."
 msgstr ""
 
 #: ../../collection/advanced.rst:53 ef0aaa99595648ba8df3f9235eec8464
-msgid ""
-"To avoid this issue, try switching between different imagery that is "
-"available to you. Look to see if there is imagery available from "
-"different seasons to help with your decision."
+msgid "To avoid this issue, try switching between different imagery that is available to you. Look to see if there is imagery available from different seasons to help with your decision."
 msgstr ""
 
 #: ../../collection/advanced.rst:54 fbed72e5d2894fc2b3a199717b95d4a3
-msgid ""
-"You can also look at the Geo-Dash page for the plot to see if there is "
-"any NDVI or other additional information that could help you."
+msgid "You can also look at the Geo-Dash page for the plot to see if there is any NDVI or other additional information that could help you."
 msgstr ""
 
 #: ../../collection/advanced.rst:55 b4171c7170534bf6aef840712099a8d7
-msgid ""
-"You can also click on **Download Plot KML** to download a .kml file to "
-"view in Google Earth. Google Earth has multiple current and historic "
-"imagery sources that can help you identify a plot."
+msgid "You can also click on **Download Plot KML** to download a .kml file to view in Google Earth. Google Earth has multiple current and historic imagery sources that can help you identify a plot."
 msgstr ""
 
 #: ../../collection/advanced.rst:58 e4cc4da9aebd4c29ada5b97fb5b0723d
@@ -154,21 +103,15 @@ msgid "Adjusting the zoom level"
 msgstr ""
 
 #: ../../collection/advanced.rst:60 c87fa333073548449f4171adc2aeaa12
-msgid ""
-"Zooming in and out to gather contextual clues from the landscape is "
-"important for multiple land use and land cover types. For example:"
+msgid "Zooming in and out to gather contextual clues from the landscape is important for multiple land use and land cover types. For example:"
 msgstr ""
 
 #: ../../collection/advanced.rst:62 aad276bb1e7e4ba59e2e6dff48fd128b
-msgid ""
-"Water in larger waterbodies often appears black or dark until you zoom "
-"out."
+msgid "Water in larger waterbodies often appears black or dark until you zoom out."
 msgstr ""
 
 #: ../../collection/advanced.rst:63 5b399110598d43629cdb15c1d80a4092
-msgid ""
-"Tree plantations may look like forests until you zoom out and see the "
-"regular pattern of planted trees."
+msgid "Tree plantations may look like forests until you zoom out and see the regular pattern of planted trees."
 msgstr ""
 
 #: ../../collection/advanced.rst:66 a84b44f5ba954ab294bcb674af8b817b
@@ -176,30 +119,19 @@ msgid "Flag a plot"
 msgstr ""
 
 #: ../../collection/advanced.rst:68 76562c6e4f8f4dcca980cef3d0c4aaf1
-msgid ""
-"You can click **[Flag Plot]** if the imagery is insufficient (missing, "
-"low resolution, etc.) to accurately label the plot attributes. It will "
-"automatically reload the next plot for your project."
+msgid "You can click **[Flag Plot]** if the imagery is insufficient (missing, low resolution, etc.) to accurately label the plot attributes. It will automatically reload the next plot for your project."
 msgstr ""
 
 #: ../../collection/advanced.rst:70 7b961eba4b6b42d8909a05373fa07e4a
-msgid ""
-"**Flag Plot** will delete any attributes that have been assigned to the "
-"points/plots."
+msgid "**Flag Plot** will delete any attributes that have been assigned to the points/plots."
 msgstr ""
 
 #: ../../collection/advanced.rst:71 9f9051d7e016426fbbe8b318886f23d3
-msgid ""
-"Using **Navigate Through** set to **My Analyzed Plots** you can return to"
-" the flagged plot and try to answer the questions again. The **flag "
-"plot** button will be disabled because the plot has already been flagged "
-"and you cannot flag it again."
+msgid "Using **Navigate Through** set to **My Analyzed Plots** you can return to the flagged plot and try to answer the questions again. The **flag plot** button will be disabled because the plot has already been flagged and you cannot flag it again."
 msgstr ""
 
 #: ../../collection/advanced.rst:72 34ee5bdc00504d6aab9f3bc56e0cc3d1
-msgid ""
-"Your responses will be recorded, and the plot will be unflagged if you "
-"click **Save**."
+msgid "Your responses will be recorded, and the plot will be unflagged if you click **Save**."
 msgstr ""
 
 #: ../../collection/advanced.rst:73 b13fc3e9d5b94efe8e6a7c5c8b6bde70
@@ -211,29 +143,19 @@ msgid "Difficult plots"
 msgstr ""
 
 #: ../../collection/advanced.rst:78 dd48c8e6141f4f43b2ab449104752d0f
-msgid ""
-"Sometimes plots are hard to interpret, even with good imagery! These "
-"plots can only be reliably and accurately classified by having knowledge "
-"of local agricultural systems, local vegetation types, and landscape "
-"patterns."
+msgid "Sometimes plots are hard to interpret, even with good imagery! These plots can only be reliably and accurately classified by having knowledge of local agricultural systems, local vegetation types, and landscape patterns."
 msgstr ""
 
 #: ../../collection/advanced.rst:80 10b286b20fc048eb80cd6bab818fddb5
-msgid ""
-"Try making use of the surroundings of the plot to glean as much "
-"information as you can before making a best guess."
+msgid "Try making use of the surroundings of the plot to glean as much information as you can before making a best guess."
 msgstr ""
 
 #: ../../collection/advanced.rst:81 eac8f2c2f5b144c6b249d891421abfcd
-msgid ""
-"If different users identify the plot differently, it will be flagged "
-"internally as a difficult plot."
+msgid "If different users identify the plot differently, it will be flagged internally as a difficult plot."
 msgstr ""
 
 #: ../../collection/advanced.rst:82 d1d0c20ee1d4490f995c1c63a6866737
-msgid ""
-"If you do not feel comfortable interpreting the plot, you should click "
-"**[Flag Plot]**."
+msgid "If you do not feel comfortable interpreting the plot, you should click **[Flag Plot]**."
 msgstr ""
 
 #: ../../collection/advanced.rst:85 fb8c16c698d64e8dbb3e3a38d09317e7
@@ -241,10 +163,7 @@ msgid "Skip a plot"
 msgstr ""
 
 #: ../../collection/advanced.rst:87 0542d7c33c0c440692e49371a6b7c29f
-msgid ""
-"At any time, you can skip a plot for later analysis by clicking the "
-"**[Next Plot Arrow]** in the **Plot Navigation** tab. Alternatively, "
-"click on **[Previous Plot Arrow]** to revisit the previous plot"
+msgid "At any time, you can skip a plot for later analysis by clicking the **[Next Plot Arrow]** in the **Plot Navigation** tab. Alternatively, click on **[Previous Plot Arrow]** to revisit the previous plot."
 msgstr ""
 
 #: ../../collection/advanced.rst:90 3a7497fa2f4d434eb1351d3e3905d03f
@@ -252,10 +171,6 @@ msgid "Project information"
 msgstr ""
 
 #: ../../collection/advanced.rst:92 5a5100f1ef58447b8668b13cbd973d14
-msgid ""
-"If you click on the project name, it will show the number and percent of "
-"plots completed, the number and percent of plots flagged as bad, and the "
-"total number of plots. An accuracy score based on the project’s training "
-"data will also be available soon."
+msgid "If you click on the project name, it will show the number and percent of plots completed, the number and percent of plots flagged as bad, and the total number of plots. An accuracy score based on the project’s training data will also be available soon."
 msgstr ""
 

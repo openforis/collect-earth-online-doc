@@ -14,4 +14,3 @@ Style guide:
     - Make numbers vs. bullet points consistent
     - Fix pdf formatting issues with index, chapters.
 
- 
