@@ -10,15 +10,15 @@ Navigating the list of institutions & institution pages
 
 A list of all institutions is displayed on the **Home** page. If you are logged in, this list is broken into two: **Your Affiliations** and **Other Institutions**. **Your Affiliations** are institutions to which you belong.
 
-1. Clicking on an institutions' name expands a list of all active **Projects** for the Institution. Clicking on these projects will take you to the project's Data Collection page.
+- Clicking on an institutions' name expands a list of all active **Projects** for the Institution. Clicking on these projects will take you to the project's Data Collection page.
 
 .. figure:: ../_images/joining1.png
    :alt: Clicking on an institution's name.
    :width: 75%
    :align: center
 
-2. Next to each institution’s name is the **[VISIT]** button. Clicking on this will open the **Institution** page.
-3. On any Institution info page, you can find:
+- Next to each institution’s name is the **[VISIT]** button. Clicking on this will open the **Institution** page.
+- On any Institution info page, you can find:
 
    - The institution’s logo, which when clicked will take you to the institution’s website link,
    - The institution’s name,
@@ -29,6 +29,8 @@ A list of all institutions is displayed on the **Home** page. If you are logged 
 
 Request to join an institution
 ------------------------------
+
+To join an institution:
 
 1. If your institution already has an account on CEO and you would like to request to be a member, start by navigating to the Institution page via the **[VISIT]** button.
 2. The list of Users can be found under the **Users tab**. Click on this tab.

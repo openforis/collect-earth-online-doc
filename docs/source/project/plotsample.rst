@@ -16,6 +16,8 @@ Another type of sampling is **systematic gridded sampling**. This is a grid of p
 
 There are two main approaches for specifying an area of interest (AOI) and sampling design: 1. using CEO’s built-in system and 2. Creating a sample in another program (QGIS, ArcGIS, etc.) and importing it into CEO. We will first discuss the built-in sampling design, and then discuss uploading your own sample as a .csv or .shp file. 
 
+.. split document here
+
 Plot Design: CEO’s built in system
 ----------------------------------
 
@@ -91,6 +93,36 @@ In the Plot Generation section, you can specify the type and number of sample pl
 .. note:: 
    
    Using CEO’s sampling, the maximum number of plots for a project is 5,000. For gridded sampling, you may need to increase the space between plots to avoid exceeding 5,000 plots.
+
+**Plot Similarity Configuration**
+
+Project administrators can enable the feature during project setup by selecting “Enable navigation by similarity”, then choosing which plot to use as the reference plot and which year to use as a baseline.
+
+Once enabled:
+
+- Data collectors can switch to “Similar Plot Navigation” from any plot.
+- CEO will automatically serve the most similar available plot next.
+- Users can switch back to standard navigation at any time.
+
+.. figure:: ../_images/project14-1.png
+    :alt: Enable the plot similarity assistant.
+    :align: center
+    :width: 70%
+
+The Plot Similarity Assistant uses the Google Satellite Embeddings (GSE) dataset, which provides 10-meter resolution embeddings representing millions of features extracted from satellite imagery. These embeddings capture visual and spectral similarities that aren’t obvious from raw imagery alone.
+
+.. figure:: ../_images/project14-2.png
+    :alt: Behind the scenes, CEO determines which plots are most similar to one another.
+    :align: center
+    :width: 70%
+
+Here’s what happens behind the scenes:
+
+1. When an administrator enables similarity mode, CEO requests Google Earth Engine to process embeddings for each plot location, storing plot-level embeddings in BigQuery
+2. Similarity scores are computed between a target plot and all other project plots.
+3. CEO stores these results for quick access during data collection.
+4. When a data collector turns on Similar Plot Navigation, CEO uses these stored distances to determine which plot is most similar to the one currently on screen.
+
 
 **Assign Plots & Quality Control**
 
