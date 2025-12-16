@@ -53,6 +53,7 @@ Below this, you can see three options for managing your Institution's projects.
    :width: 50%
 
 In addition to these options, there are individual options for each project in the list:
+
 1. **[Selection Checkbox]**: This allows you to select a project for bulk actions, such as deleting or downloading data.
 2. **[Project Visibility Level]**: This indicates the visibility level of the project. The visibility levels are Public, Users, Institution, and Private. You can change the visibility level of a project using the bulk action menu above or in the Project's Management page.
 3. **[Project Name]**: This is the name of the project. Clicking on the project name will take you to the project's data collection page, where you can collect data for the project.
@@ -75,10 +76,12 @@ As an Administrator, you can manage the imagery available for your Institution i
 At the top of the **Imagery** tab is the **[+ Add New Imagery]** button. This allows you to add a new imagery feed to your Institution. Clicking this button will take you to the **Add Imagery** interface, where you can specify the imagery feed details. For more information on adding imagery, see :doc:`imagery`.
 
 At the top of the page are bulk actions for managing imagery feeds:
-1. **[Change Imagery Visibility]**: This allows you to change the visibility of your Institutions imagery feeds. There are two levels of visibility: Public and Institution. Institution imagery feeds are only available to the Institution that created them. This is the default.Public imagery feeds are available to all Institutions in CEO. **USE THIS AT YOUR OWN RISK** You can change the visibility of an imagery feed by selecting it from the list and clicking the **[Change Visibility]** button. CEO will ask you to confirm your changes. Click **[OK]** to confirm. 
+
+1. **[Change Imagery Visibility]**: This allows you to change the visibility of your Institutions imagery feeds. There are two levels of visibility: Public Institution Imagery and Private Institution Imagery. Private Institution imagery feeds are only available to the Institution that created them, even if used for a project open to all CEO users. Public Instituion Imagery feeds are available to anyone collecting data for your project. **USE THIS AT YOUR OWN RISK** If your project is public, the imagery is visible to all users. You can change the visibility of an imagery feed by selecting it from the list and clicking the **[Change Visibility]** button. CEO will ask you to confirm your changes. Click **[OK]** to confirm. 
 2. **[Delete Selected]**: This allows you to delete selected imagery feeds from your Institution. You can select multiple imagery feeds by checking the boxes next to their names. Once you have selected the imagery feeds you want to delete, click the **[Delete Selected]** button. CEO will ask you to confirm your changes. Click **[OK]** to confirm. **IMAGERY DELETION IS PERMANENT** and cannot be undone.
 
 Next to each imagery feed in the list are individual options for managing that feed:
+
 1. **[Selection Checkbox]**: This allows you to select an imagery feed for bulk actions, such as changing visibility or deleting.
 2. **[Imagery Name]**: This is the name of the imagery feed.
 3. **[Edit]**: This allows you to edit the imagery feed details.

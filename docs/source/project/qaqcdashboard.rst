@@ -23,7 +23,7 @@ The Project AOI pane displays either the entire project area of interest (AOI) o
     :align: center
     :width: 100%
 
-The QAQC Information pane contains space to upload a your external data file and three tabs: **Project Statistics**, **Plot Statistics**, and **User Statistics**. Each of these will be described in more detail below.
+The QAQC Information pane contains space to upload your external data file and three tabs: **Project Statistics**, **Plot Statistics**, and **User Statistics**. Each of these will be described in more detail below.
 
 Uploading External Data
 -----------------------
@@ -79,6 +79,8 @@ The **Plot Statistics** tab starts with plot navigation tools and specific infor
     :width: 100%
 
 The table on this page shows information for every interpretation of all the samples available in that plot. Note that for projects in which guest users without CEO accounts can interpret, this feature will not be available.
+
+At the bottom of this pane is a button **[View Plot in Collection Page]**. Clicking this button opens a new window with the collection page for the corresponding plot. This gives easy access to the plot for Admin Review. 
 
 User Statistics
 ^^^^^^^^^^^^^^^
