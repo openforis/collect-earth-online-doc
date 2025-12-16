@@ -135,6 +135,24 @@ To create a Dual Imagery Widget:
 7. Click **[Create]**.
 8. Reposition and resize to your liking.
 
+Add a Dynamic World Comparison Widget
+----------------------------------------------
+
+The Dynamic World widget connects Dynamic World -- which provides a near-real-time global landcover dataset (https://dynamicworld.app/) -- with another basemap, such as Mapbox or OpenStreetMap. It features an opacity slider that can be used to compare the Dynamic World dataset against Basemap, to review and compare changes in the landscape. 
+.. link blog when published
+To create the Dynamic World Widget:
+
+1. Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
+2. Select **Dynamic World** in the Widget Type drop down.
+3. Give the widget a **Title**. 
+4. Add **Image Parameters**. Recommended parameters are below. 
+5. Add the Date Range of interest. 
+6. Select a Basemap.
+7. Click **[Create]**.
+
+.. code::
+   {"bands": ["label"], "min": 0, "max": 8, "palette": ["419bdf", "397d49", "88b053", "7a87c6", "e49635", "dfc35a", "c4281b", "a59b8f", "b39fe1"]}
+
 Institutional Imagery
 ---------------------
 

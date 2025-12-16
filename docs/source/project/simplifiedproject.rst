@@ -69,16 +69,16 @@ Plot Design
 
 In Simplified Projects, you do not need to define plots or samples. Instead, you can directly collect data on the area of interest you select.
 
-You will notice that the **Spatial Distribution** section is greyed out in the Simplified Project wizard, as are the **Boundary type, Number of plots, Plot shape, and Plot width (m)** fields.
+Similar to Plot Design for Regular Projects, you can use CEO's built-in system to create a Simplified AOI, or upload your own CSV, SHP, or GeoJSON. For details about Plot Design in Regular Projects, see :doc:`plotsample`.
+
+.. ---- TODO: REPLACE PICTURE----
 
 .. figure:: ../_images/simplifiedproject2.png
     :alt: Plot Design in a Simplified Project.
     :align: center
     :width: 80%
 
-The only input you will need to provide is the **Area of Interest** bounding box. 
-
-The easiest way to select your project AOI is by drawing a box in the map window in the right hand pane (Collection Map Preview).
+The easiest way to select your project AOI is by drawing a box in the map window in the right-hand pane (Collection Map Preview). The only input you will need to provide is the **Area of Interest** bounding box. 
 
  1. Locate your area of interest by zooming in/out using the scroll wheel of your mouse, or the + and – boxes in the map window. You can pan the map by clicking on it and dragging the map window.
  2. Hold the CRTL-key (command key on a Mac) down and draw a box while keeping the left mouse key pressed down.
@@ -96,6 +96,36 @@ You can also manually enter your Boundary Coordinates into the boxes provided.
         :alt: Manually add coordinates
         :align: center
         :width: 50%
+
+You can also upload your own file using a CSV, Shapefile, or GeoJSON. This option is useful for when you have a specific area you are interested in collecting data for.
+
+.. note::
+   Unlike using files for Plot Design in Regular Projects, your file should only have **one Plot**. If you upload a file with multiple plot polygons, CEO will automatically draw a bounding box around all plots as your Simplified Project Area of Interest.
+
+Adding plots using SHP, .csv, or GeoJSON
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+For .shp files, you can specify your own plot boundaries by uploading a zipped Shapefile (containing SHP, SHX, DBF, and PRJ files) of a single polygon feature. It must have a unique PLOTID field. LON and LAT are not required for polygons.
+
+For .csv files, specify the plot center by uploading a .csv with these columns: LON, LAT, PLOTID. LON and LAT can also be LONGITUDE and LATITUDE. You can have additional columns with data, but they MUST come after these key fields.
+
+If you do not specify the column names correctly (spelling or order), you will get the following error:
+
+.. figure:: ../_images/project16.png
+    :alt: Error box
+    :align: center
+    :width: 70%
+
+When your file fits the above specifications, follow the directions below.
+
+1. Under Plot Generation, select **CSV File, SHP File, or GeoJSON File**.
+2. Then, click on **[Upload plot file]** and navigate to the file on your computer with your plot
+3. After you upload the file, the file name will appear next to **File:**.
+4. If using a CSV, you will need to specify the **Plot Shape** and corresponding **Diameter**.
+
+.. figure:: ../_images/project17.png
+    :alt: Uploading a CSV File
+    :align: center
+    :width: 60%
 
 Survey Questions
 ----------------
