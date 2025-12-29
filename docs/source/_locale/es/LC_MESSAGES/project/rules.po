@@ -1,33 +1,29 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023, Collect Earth Online team
-# This file is distributed under the same license as the Collect Earth
-# Online package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Collect Earth Online \n"
+"Project-Id-Version: collect-earth-online-doc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 15:21-0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2024-02-17 01:32\n"
+"Last-Translator: \n"
 "Language: es\n"
-"Language-Team: es <LL@li.org>\n"
+"Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
+"X-Crowdin-Project: collect-earth-online-doc\n"
+"X-Crowdin-Project-ID: 647276\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /main/docs/source/_locale/en/LC_MESSAGES/project/rules.po\n"
+"X-Crowdin-File-ID: 72\n"
 
 #: ../../project/rules.rst:2 beaa7b7852de4e68999298f3e1712de1
 msgid "Survey Rules"
 msgstr ""
 
 #: ../../project/rules.rst:4 3824fbf184bb4a23bf8113068b904148
-msgid ""
-"Survey rules help ensure users collect logical and correct answers. If "
-"you do not want to add any rules, you can just click **[Next]**."
+msgid "Survey rules help ensure users collect logical and correct answers. If you do not want to add any rules, you can just click **[Next]**."
 msgstr ""
 
 #: ../../project/rules.rst:7 f070e3104efa4b07ab4e5c46a9ec652c
@@ -35,87 +31,55 @@ msgid "Rule Types"
 msgstr ""
 
 #: ../../project/rules.rst:9 0c5bd6522f184347a871c62b64b07f69
-msgid ""
-"You can select one of multiple different rule types, depending on your "
-"needs and the types of questions you have included in your Survey."
+msgid "You can select one of multiple different rule types, depending on your needs and the types of questions you have included in your Survey."
 msgstr ""
 
 #: ../../project/rules.rst:16 97f41cff2118405abdd7db697535d232
-msgid ""
-"**Text Regex Match**: This rule applies only to **Input—text** questions "
-"& their answers. It allows you to verify if the entered value fits, using"
-" regular expressions."
+msgid "**Text Regex Match**: This rule applies only to **Input—text** questions & their answers. It allows you to verify if the entered value fits, using regular expressions."
 msgstr ""
 
 #: ../../project/rules.rst:19 7559fd85ee29406e9c7006fa30667936
-msgid ""
-"Unless you have a specific reason to use the **Input—text** question "
-"type, consider using **Button—text** or **Radiobutton—text** instead. "
-"These options are easier for users and will always provide exact text."
+msgid "Unless you have a specific reason to use the **Input—text** question type, consider using **Button—text** or **Radiobutton—text** instead. These options are easier for users and will always provide exact text."
 msgstr ""
 
 #: ../../project/rules.rst:21 99553c5ef9f444329c1dc59094c2114c
-msgid ""
-"This rule uses the JavaScript RegExp function, documentation for writing "
-"a regular expression can be found here: https://developer.mozilla.org/en-"
-"US/docs/Web/JavaScript/Guide/Regular_Expressions."
+msgid "This rule uses the JavaScript RegExp function, documentation for writing a regular expression can be found here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions."
 msgstr ""
 
 #: ../../project/rules.rst:23 6f736e66318b438e8148d35d5e6468fc
-msgid ""
-"**Numeric Range:** This rule applies to **Input—number** questions & "
-"their answers. With this rule, you can verify that the numeric input "
-"falls within a predefined range."
+msgid "**Numeric Range:** This rule applies to **Input—number** questions & their answers. With this rule, you can verify that the numeric input falls within a predefined range."
 msgstr ""
 
 #: ../../project/rules.rst:25 e9ed2f42691a41a49089ed3179f9be69
-msgid ""
-"For example, if you are asking about the proportion of points in the plot"
-" that contain trees, you could constrain the answers between 0 and 1."
+msgid "For example, if you are asking about the proportion of points in the plot that contain trees, you could constrain the answers between 0 and 1."
 msgstr ""
 
 #: ../../project/rules.rst:27 c01ca2fe34a446e191e21da4f88abcef
-msgid ""
-"**Sum of Answers:** This rule applies to any **number** type questions & "
-"their answers. You select multiple questions (2 or more) and specify what"
-" the questions should sum to."
+msgid "**Sum of Answers:** This rule applies to any **number** type questions & their answers. You select multiple questions (2 or more) and specify what the questions should sum to."
 msgstr ""
 
 #: ../../project/rules.rst:29 35cfcb67b21d43ebb65ac65ff47e8ee2
-msgid ""
-"For example, this is helpful if you have multiple questions asking about "
-"percent of land cover, where the sum should be 100%."
+msgid "For example, this is helpful if you have multiple questions asking about percent of land cover, where the sum should be 100%."
 msgstr ""
 
 #: ../../project/rules.rst:31 59615397907c4b4ca0ea24a4edc25aff
-msgid ""
-"**Matching sums:** This rule applies to any **number** type questions & "
-"their answers. With this rule, you specify two sets of multiple questions"
-" (2 or more) that should have equal sums."
+msgid "**Matching sums:** This rule applies to any **number** type questions & their answers. With this rule, you specify two sets of multiple questions (2 or more) that should have equal sums."
 msgstr ""
 
 #: ../../project/rules.rst:33 3bfce10ef26e49119009ccd8841cf548
-msgid ""
-"**Incompatible answers:** This rule can apply to any type of question. It"
-" allows the user to define incompatible sets of answers."
+msgid "**Incompatible answers:** This rule can apply to any type of question. It allows the user to define incompatible sets of answers."
 msgstr ""
 
 #: ../../project/rules.rst:35 55aee37c6d9a475b80c19a0aaabde0bf
-msgid ""
-"For example, if the answer to one question is land cover = “Water”, the "
-"answer to another question could not be land use = “Industrial”."
+msgid "For example, if the answer to one question is land cover = “Water”, the answer to another question could not be land use = “Industrial”."
 msgstr ""
 
 #: ../../project/rules.rst:37 823586918cb543faaf603937cbd5121c
-msgid ""
-"**Multiple incompatable answers:** This rule limits what answers can be "
-"chosen based on the answers for multiple other questions."
+msgid "**Multiple incompatable answers:** This rule limits what answers can be chosen based on the answers for multiple other questions."
 msgstr ""
 
 #: ../../project/rules.rst:39 204016f075874d16b4a6baa867954a98
-msgid ""
-"For example, if you answer \"landcover start = forest\" and \"change "
-"event = deforestation\", then \"landcover end\" CANNOT equal \"forest\"."
+msgid "For example, if you answer \"landcover start = forest\" and \"change event = deforestation\", then \"landcover end\" CANNOT equal \"forest\"."
 msgstr ""
 
 #: ../../project/rules.rst:42 a7923221081c4aca834779663264115c
@@ -123,10 +87,7 @@ msgid "Rule Preview"
 msgstr ""
 
 #: ../../project/rules.rst:44 1eaf1972da9747ac9b947356a891c10c
-msgid ""
-"You can preview how the rules will look for users in the **Question "
-"Preview** pane by mousing over and clicking on the **[Rule]** icon "
-"(clipboard)."
+msgid "You can preview how the rules will look for users in the **Question Preview** pane by mousing over and clicking on the **[Rule]** icon (clipboard)."
 msgstr ""
 
 #: ../../project/rules.rst:51 c414ccf02e874afb9b21e07fe92c4960
@@ -134,21 +95,14 @@ msgid "Clicking on the **[Rule]** icon will show a list of rules."
 msgstr ""
 
 #: ../../project/rules.rst:58 0d05bfd20dd64f698c0470d008ff8cb1
-msgid ""
-"Navigating back to the Survey Questions tab will also show when questions"
-" have Rules associated with them. Mousing over the **[Rule]** icon will "
-"display the rule text."
+msgid "Navigating back to the Survey Questions tab will also show when questions have Rules associated with them. Mousing over the **[Rule]** icon will display the rule text."
 msgstr ""
 
 #: ../../project/rules.rst:65 25c236e4ff7644c2b9da4ae1eed46d67
-msgid ""
-"Data collectors will be able to view any rules you implement by mousing "
-"over the **[Rule]** icon."
+msgid "Data collectors will be able to view any rules you implement by mousing over the **[Rule]** icon."
 msgstr ""
 
 #: ../../project/rules.rst:72 bf8bf70176ce44498eee5069a361e540
-msgid ""
-"They will see an error if they try to enter an answer that conflicts with"
-" the rules."
+msgid "They will see an error if they try to enter an answer that conflicts with the rules."
 msgstr ""
 

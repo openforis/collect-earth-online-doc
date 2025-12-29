@@ -265,3 +265,15 @@ The **Dropdown** questions function similarly to the **Button** and **Radiobutto
 .. tip::
    
     Dropdowns may encourage assigning only one answer to all the sample points. Overall, choose the option that will be easiest for your users to understand.
+
+Adding Questions to Published Projects
+--------------------------------------
+
+If you have a published project that has already had data collected on it, you can add new questions to that project. 
+
+To add new questions to an active project, select **[Edit Project]** and navigate to the **Survey Questions** step in the Project Wizard. You will be able to follow the same process as adding questions during the original project creation to update the survey questions of any type, including child (nested) questions. 
+
+If you would like to make more significant updates to the project, you can also copy the entire project. See :doc:`/project/management`.
+
+.. note::
+   When you update an active project, CEO will **not** calculate the project completion percentage. Therefore, if all requirements for the original plots have been met before updating the project, then the project will show as 100% complete.

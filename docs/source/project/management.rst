@@ -121,7 +121,7 @@ Downloaded .csv data from Download Sample Data will have the following columns:
 - **sampleid**: the CEO-assigned unique sample point number or the user provided Sample ID (for .csv and .shp files).
 - **sample_internal_id**: the internal sample ID used by CEO.
 - **lon** and **lat** are the geographic coordinates of the center of your sample points.
-- **email** is the user id (email address) of the person that classified the plot.
+- **email** is the user id (email address) of the person that classified the plot. If the interpreter was not logged in, this field will say "guest".
 - **flagged**: This will be FALSE for plots where data was collected and for plots where data has not been collected yet. It will be TRUE when a user has flagged the quality of the background map as not good enough to analyze the samples (e.g. due to clouds or poor image resolution).
 - **collection_time**: The date and time when the user classified the plot. *Time zone is UTC.*
 - **analysis_duration**: Time in seconds that the user took to analyze the plot.
@@ -153,9 +153,11 @@ Downloaded .csv data from Download Sample Data will have the following columns:
 
 Using this information, you can join the shapefile with the plot or sample .csv information using a desktop GIS application such as QGIS or ArcGIS. You could also use a web-based application such as Google Earth Engine.
 
-**[Copy Entire Project]** creates a new project based on the current project. This is useful if you want to make substantial changes to a published project without losing the original project and its data. When you click this button, you will be taken to the project creation wizard with all the settings from the original project pre-loaded. You can then make any desired changes and create the new project. The new project will be in draft mode, and you will need to publish it before users can collect data.
+**Copy Entire Project** lets you create an exact copy of the project, including plots, widgets, and existing answers. This creates a brand new project in your Institution under the name of the original project with "- COPY" appended to the end. You can then edit any portion of the project within the Project Setup Wizard. By default, the copied project is unpublished. 
 
+If you _unselect_ the option to **Use Existing Plots**, the original plots will still appear in the Plot Design, however, you will be able to use any of CEO’s systems to generate new plots, including drawing a new AOI on the map and using the built-in random spatial distribution. You can also change the number and size of plots.
 
+If you _unselect_ the option to **Copy Answers**, only the questions will be copied. Collections will begin at the first plot. Regardless of your choice, you can edit Survey Questions before publishing. 
 
 Digital Object Identifier
 -------------------------
@@ -194,3 +196,4 @@ In addition, CEO uploads a zip file containing:
 
 .. warning::
    This metadata cannot easily be modified once the DOI is published. Please check your information to make sure it is accurate before publishing your DOI.
+   

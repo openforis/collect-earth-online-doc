@@ -135,6 +135,24 @@ To create a Dual Imagery Widget:
 7. Click **[Create]**.
 8. Reposition and resize to your liking.
 
+Add a Dynamic World Comparison Widget
+----------------------------------------------
+
+The Dynamic World widget connects Dynamic World -- which provides a near-real-time global landcover dataset (https://dynamicworld.app/) -- with another basemap, such as Mapbox or OpenStreetMap. It features an opacity slider that can be used to compare the Dynamic World dataset against Basemap, to review and compare changes in the landscape. 
+.. link blog when published
+To create the Dynamic World Widget:
+
+1. Click **[Add Widget]** in the upper right hand of the Geo-Dash layout screen.
+2. Select **Dynamic World** in the Widget Type drop down.
+3. Give the widget a **Title**. 
+4. Add **Image Parameters**. Recommended parameters are below. 
+5. Add the Date Range of interest. 
+6. Select a Basemap.
+7. Click **[Create]**.
+
+.. code::
+   {"bands": ["label"], "min": 0, "max": 8, "palette": ["419bdf", "397d49", "88b053", "7a87c6", "e49635", "dfc35a", "c4281b", "a59b8f", "b39fe1"]}
+
 Institutional Imagery
 ---------------------
 
@@ -277,13 +295,12 @@ Preloaded Image Collection widgets are commonly used widgets that the Collect Ea
    
    Min, Max, and Cloud Score will be determined by the user's needs. Min and Max are the values for the bands, while cloud score is a max percent of clouds in the image. Min and max can have one or three values.
          
-   Example values include:
+   Example values for Sentinel-2 include:
          
-   - Sentinel-2:
-     - bands: B8,B4,B3,
-     - min: 450,
-     - max: 3000,
-     - Cloud Score: 10
+   - bands: B8,B4,B3,
+   - min: 450,
+   - max: 3000,
+   - Cloud Score: 10
 
 10. Click **[Create].**
 11. Reposition and resize to your liking.
