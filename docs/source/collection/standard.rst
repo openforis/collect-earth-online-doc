@@ -55,9 +55,10 @@ As an institution Member, the **Navigate:** dropdown menu allows you to choose b
 - **Default**: This will navigate through plots assigned to you and any available unanalyzed plots. In general, you will not need to switch the navigation mode from this option.
 - **Unanalyzed Plots**: This option allows you to collect data on unanalyzed plots to contribute to your project.
 - **Analyzed plots**: Review your previously analyzed plots. This option will allow you to correct mistakes etc. for previously analyzed plots.
-- **Flagged plots**: Review plots you have flagged. 
+- **Flagged plots**: Review plots you have flagged.
+- **Similar Plots**: If enabled by your administrator, this option allows you to navigate to plots that are similar to the current plot based on satellite imagery from the reference year. When enabled, CEO will automatically serve the most similar available plot next. Users can switch back to standard navigation at any time. This option may not be available for all projects. 
 
-.. figure:: ../_images/preparing7-1.png
+.. figure:: ../_images/preparing7v2.png
    :alt: Institution member navigation options.
    :width: 60%
    :align: center
