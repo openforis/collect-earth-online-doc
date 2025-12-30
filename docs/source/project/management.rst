@@ -50,13 +50,13 @@ Next, examine the important links for your project:
 - **Edit Project**: This button will take you back to the project creation wizard (see :doc:`create`).
 
   - When your project is in DRAFT MODE, you can change all aspects of your project.
-  - When your project is PUBLISHED, you can change the **Project Name, Description, Privacy Level,** along with **Project Options** and **Imagery**.
+  - When your project is PUBLISHED, you can change the **Project Overview** options, **Imagery** options, Add New Plots in **Plot Design**, and add new **Survey Questions**. If you need to make more substantial changes, we suggest using the **Copy Entire Project** feature to create a new project based on the existing one.
 
 - **Delete Project**: This will **permanently delete** your project.
 
 .. tip:: 
       
-      If you accidentally publish a faulty project, you can use it as the template for a revised project and not lose all your work.
+      If you accidentally publish a faulty project, you can either revise it or use it as the template for a revised project and not lose all your work.
 
 External Links
 ^^^^^^^^^^^^^^
@@ -73,18 +73,16 @@ External Links
 - **QAQC Dashboard:** Clicking on **[QAQC Dashboard]** will take you to the QAQC dashboard. This dashboard is only available if you have implemented QAQC in your project. Learn more about the QAQC dashboard, please see :doc:`/project/qaqcdashboard`. For more detail on how to implement QAQC, please see :doc:`/project/qaqc`.
 
 
-
-
 Export Data
 ^^^^^^^^^^^
 
-There are three data download options, **Download Plot Data**, **Download Sample Data**, and **Download SHP**.
+There are four data download options, **Download Plot Data**, **Download QA/QC Data**, **Download Sample Data**, and **Download Shape Files** as well as the option to **Copy Entire Project**
 
 .. note:: 
       
       Data downloaded from CEO will be in WGS84 EPSG:4326 format.
 
-**Download Plot Data** downloads your data with all samples summarized by plot. It is downloaded in .csv, which can be opened in programs like Microsoft Excel or imported into data analysis software. Downloaded columns will be: 
+**[Download Plot Data]** downloads your data with all samples summarized by plot. It is downloaded in .csv, which can be opened in programs like Microsoft Excel or imported into data analysis software. Downloaded columns will be: 
   
 - **plotid:** the CEO-assigned unique sample plot number or the user provided Plot ID (for .csv and .shp files).
 - **center_lon** and **center_lat** are the geographic coordinates of the center of your sample plots.
@@ -104,7 +102,7 @@ There are three data download options, **Download Plot Data**, **Download Sample
 - **total_securewatch_date**: Number of SecureWatch dates used.
 
 .. note:: 
-     If you used SecureWatch imagery, this will be the date that was most commonly used by the user when classifying the plot. If you did not use SecureWatch imagery, this will be blank. Now that SecureWatch imagery is depricated, this column will not be populated in new projects.
+     If you used SecureWatch imagery, this will be the date that was most commonly used by the user when classifying the plot. If you did not use SecureWatch imagery, this will be blank. Now that SecureWatch imagery is deprecated, this column will not be populated in new projects.
 
 - If you used a .csv or .shp file for plot design, any additional data columns you uploaded will be preserved in the .csv download. They will be preceded by pl_(column name). 
 - All the following columns will have information about each of the survey questions broken down by answer. They are labeled **QUESTION TEXT:ANSWER TEXT**. For example, LULC:Built Surface would indicate that “LULC” was the question and “Built Surface” was the answer. 
@@ -112,8 +110,10 @@ There are three data download options, **Download Plot Data**, **Download Sample
   - In the plot summary download, these are quantified as percent (max 100) of the sample points in the plot that were assigned that answer.
   - For example, suppose you have four sample points within your plot and two answers (e.g. land cover class) to choose from. If one sample point is assigned to one answer and the other three points to the second answer, the data when downloaded will say ‘25’ for the first answer and ‘75’ for the second answer. 
   - For proactive sampling, percentages are based on sample count, *NOT AREA.*
-  
-**Download Sample Data** downloads your raw data, with information for each sample point within each plot as its own row. If you would like your plot data analyzed differently, the Download Sample Data option is a better fit.Downloaded in .csv, which can be opened in programs like Microsoft Excel or imported into data analysis software.
+
+**[Download QA/QC Data]** is only shown when multiple data collectors have collected data for the same plot(s). This option downloads only the duplicated plot data for QA/QC review in .csv format. The columns included are the same as those described in **Download Plot Data** above, but only data for the duplicated plots will be included.
+
+**[Download Sample Data]** downloads your raw data, with information for each sample point within each plot as its own row. If you would like your plot data analyzed differently, the Download Sample Data option is a better fit. Sample data is downloaded in .csv, which can be opened in programs like Microsoft Excel or imported into data analysis software.
 
 Downloaded .csv data from Download Sample Data will have the following columns:
 
@@ -136,12 +136,15 @@ Downloaded .csv data from Download Sample Data will have the following columns:
       
       Note that imagery properties are associated with samples (not plots) because users are free to change these properties while classifying samples. Thus, any given plot may have some of its samples classified with one map image and other samples classified with a different map image.
 
-- **sample_geometry**: The geometry of the sample point in WKT format.
+- **sample_geom**: The geometry of the sample point in WKT format.
+- **confidence**: Collected user confidence, if enabled.
+- **confidence_comment**: Collected user confidence comment, if enabled.
 - If you used a .csv or .shp file for sample plot design, any additional data columns you uploaded will be preserved in the .csv download. They will be preceded by PL_(column name).
 - If you used a .csv or .shp file for sample point design, any additional data columns you uploaded will be preserved in the .csv download. They will be preceded by SMPL_(column name).
 - All the following columns will have information about each of the survey questions. They will be labeled **QUESTION TEXT**, where question text is the literal text of the question.
+- **Guest Interpreters**: If your project allowed guest interpreters (users not registered with an account), their data will be included in both the plot and sample data downloads. This column indicates TRUE if the data was collected by a guest interpreter and FALSE if it was collected by a registered user.
 
-**Download Shape File** downloads a zip file with two folders: plot-shape-file and sample-shape-file. Each file contains a corresponding shapefile, consisting of .shp, .cpg, .dbf, .prj, and .shx files. Column (feature) information includes:
+**[Download Shape File]** downloads a zip file with two folders: plot-shape-file and sample-shape-file. Each file contains a corresponding shapefile, consisting of .shp, .cpg, .dbf, .prj, and .shx files. Column (feature) information includes:
 
 - **PROJECT_ID**: The project ID number from CEO.
 - **PLOT_ID**: This is the internal plot ID used by CEO. It corresponds with the **plotid** column in the .csv download.

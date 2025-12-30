@@ -96,9 +96,9 @@ In the Plot Generation section, you can specify the type and number of sample pl
 
 **Plot Similarity Configuration**
 
-Project administrators can enable the feature during project setup by selecting “Enable navigation by similarity”, then choosing which plot to use as the reference plot and which year to use as a baseline.
+Project administrators can enable the feature during project setup by selecting “Enable navigation by similarity”, then choosing which plot to use as the reference plot and which year to use as a baseline. The reference plot can either be the first plot in the project or a specific plot selected by its Plot ID. The baseline year can be any year between 2017 and the current year, and should be a year that makes sense in the context of the project (e.g., the baseline year, the reference year, or the most current year).
 
-Once enabled:
+When the feature is enabled:
 
 - Data collectors can switch to “Similar Plot Navigation” from any plot.
 - CEO will automatically serve the most similar available plot next.
@@ -123,6 +123,9 @@ Here’s what happens behind the scenes:
 3. CEO stores these results for quick access during data collection.
 4. When a data collector turns on Similar Plot Navigation, CEO uses these stored distances to determine which plot is most similar to the one currently on screen.
 
+.. note::
+   
+   The Plot Similarity Assistant is an optional feature and should be enabled based on project objectives. Grouping visually similar plots can improve interpretation efficiency and labeling consistency, particularly for use cases such as generating training or validation data for models. For projects focused on unbiased monitoring or area estimation, users should carefully consider whether viewing plots in a similarity-based sequence aligns with their methodological requirements.
 
 **Assign Plots & Quality Control**
 
@@ -240,12 +243,14 @@ You will also need to upload a second file where you specify your own sample poi
 
 As with .csv files, you can have additional fields with information about your plots and points if and only if they come after these key fields.
 
-If you do not specify your PLOTID in the .shp zip file, you will get the following error:
+If you do not specify your PLOTID in the shapefile, you will get the following error:
 
 .. figure:: ../_images/project20.png
     :alt: Error for malformed Shapefile
     :align: center
     :width: 50%
+
+Additionally, shapefiles must conform to the ESRI Shapefile technical description. In particular, field names must be 10 characters or less, contain only numbers, letters, and underscores (_). You cannot start a field name with a number. If your field names are longer than 10 characters or if they violate any other rules, you will get an error when you try to upload your shapefile. 
 
 .. tip::
    You can zip your files easily in Windows by selecting the relevant files, right clicking on one, and the clicking **[Send to] -> [Compressed (zipped) folder]**.
