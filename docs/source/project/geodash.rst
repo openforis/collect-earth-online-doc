@@ -151,6 +151,7 @@ To create the Dynamic World Widget:
 7. Click **[Create]**.
 
 .. code::
+   
    {"bands": ["label"], "min": 0, "max": 8, "palette": ["419bdf", "397d49", "88b053", "7a87c6", "e49635", "dfc35a", "c4281b", "a59b8f", "b39fe1"]}
 
 Institutional Imagery

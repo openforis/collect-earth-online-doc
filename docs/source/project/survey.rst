@@ -273,7 +273,14 @@ If you have a published project that has already had data collected on it, you c
 
 To add new questions to an active project, select **[Edit Project]** and navigate to the **Survey Questions** step in the Project Wizard. You will be able to follow the same process as adding questions during the original project creation to update the survey questions of any type, including child (nested) questions. 
 
-If you would like to make more significant updates to the project, you can also copy the entire project. See :doc:`/project/management`.
+If you would like to make more significant updates to the project, you can also copy the entire project. See :doc:`/project/management` under Export Data. 
 
 .. note::
-   When you update an active project, CEO will **not** calculate the project completion percentage. Therefore, if all requirements for the original plots have been met before updating the project, then the project will show as 100% complete.
+   When you update an active project and add new questions, CEO will **not recalculate the project completion percentage**. Therefore, if all requirements for the original plots have been met before updating the project, then the project will show as 100% complete.
+
+After you add questions and are ready to save changes, you will be asked if you want to reset the project data. To keep data that has already been collected, unselect the checkbox and click Confirm.
+
+.. figure:: ../_images/warning_clear_collection_data1.png
+    :alt: Collection data will be cleared to reset the project.
+    :align: center
+    :width: 70%
