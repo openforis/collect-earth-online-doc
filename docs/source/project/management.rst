@@ -153,11 +153,27 @@ Downloaded .csv data from Download Sample Data will have the following columns:
 
 Using this information, you can join the shapefile with the plot or sample .csv information using a desktop GIS application such as QGIS or ArcGIS. You could also use a web-based application such as Google Earth Engine.
 
-**Copy Entire Project** lets you create an exact copy of the project, including plots, widgets, and existing answers. This creates a brand new project in your Institution under the name of the original project with "- COPY" appended to the end. You can then edit any portion of the project within the Project Setup Wizard. By default, the copied project is unpublished. 
+**[Copy Entire Project]** lets you create an exact copy of the project, including plots, widgets, and existing answers. You are then able to edit any part of the new project. 
 
-If you _unselect_ the option to **Use Existing Plots**, the original plots will still appear in the Plot Design, however, you will be able to use any of CEO’s systems to generate new plots, including drawing a new AOI on the map and using the built-in random spatial distribution. You can also change the number and size of plots.
+Copy Entire Project creates a brand new project in your Institution under the name of the original project with "- COPY" appended to the end. You can then edit any portion of the project within the Project Setup Wizard. By default, the copied project is unpublished. 
 
-If you _unselect_ the option to **Copy Answers**, only the questions will be copied. Collections will begin at the first plot. Regardless of your choice, you can edit Survey Questions before publishing. 
+You will be given three options:
+
+- Use Existing Plots: Keep this selected (marked with the checkbox) if you do NOT what to change any of the plots. *Unselect* this option to generate new plots, including using CEO's built in system. 
+- Use Existing Widgets: Keep this selected to maintain all Geo-Dash widgets from the original projects
+- Copy Answers: Keep this selected if you would like all original answers to also be copied to the new project. If you *unselect* this option, only the Survey Questions are copied. Collections will begin at the first plot. 
+
+.. figure:: ../_images/copy_projects1.png
+    :alt: Copy project options
+    :align: center
+    :width: 70%
+
+When you are finished making any desired changes, select **[Revew]** and **[Update Project]**. You will be asked if you want to clear the collection data. **Unselect the checkbox if you do not want to clear the data**. Then click Confirm. 
+
+.. figure:: ../_images/warning_clear_collection_data1.png
+    :alt: Collection data will be cleared to reset the project.
+    :align: center
+    :width: 90%
 
 Digital Object Identifier
 -------------------------
