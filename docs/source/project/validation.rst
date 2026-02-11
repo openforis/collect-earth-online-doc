@@ -5,7 +5,7 @@ Creating a project in CEO to validate a spatial model—for example, a land cove
 
 Many resources provide a more in-depth review of this subject. Consider looking at:
 
--  CEO’s Theoretical Manual, available here: https://collect.earth/downloads/CEO_Theoretical_Manual.pdf
+-  CEO’s Theoretical Manual, available here: https://www.collect.earth/wp-content/uploads/2022/11/CEO_Theoretical_Manual.pdf
 -  the FAO’s *Map Accuracy Assessment and Area Estimation: A Practical Guide* available online here: http://www.fao.org/3/a-i5601e.pdf
 -  Documentation in AREA\ :sup:`2`, available online here: https://area2.readthedocs.io/en/latest/background.html
 -  A great overview on confusion matrixes here: http://spatial-analyst.net/ILWIS/htm/ilwismen/confusion_matrix.htm
