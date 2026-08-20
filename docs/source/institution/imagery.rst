@@ -120,19 +120,19 @@ We will now talk about how to add imagery for each of these options.
 
 .. _wms:
 
-WMS Imagery
-^^^^^^^^^^^
+WMS & WMTS Imagery
+^^^^^^^^^^^^^^^^^^
 
-This option can be used to access data your Institution hosts or data services that use WMS or WTMS. Imagery must be accessible using WMS or WTMS. Images stored locally on a user's computer cannot be added to a CEO project, although they can be accessed if you upload them to a WMS or WTMS (as a basemap), or as a Google Earth Engine Asset (for Geo-Dash and/or basemap).
+These options can be used to access data your Institution hosts or data services that use WMS or WMTS. There is a separate drop-down option for WMS and WMTS. Select the one that fits your imagery. Imagery must be accessible using WMS or WMTS. Images stored locally on a user's computer cannot be added to a CEO project, although they can be accessed if you upload them to a WMS (as a basemap), or as a Google Earth Engine Asset (for Geo-Dash and/or basemap).
 
-The information needed to set up the WMS server will differ based on the specific imagery you are.
+The information needed to set up the WMS server will differ based on the specific imagery you are using.
 
-1. The first step of preparing to connect to your WMS with CEO is checking that your WMS is compatible with CEO.
+1. The first step of preparing to connect to your WMS/WMTS with CEO is checking that your WMS/WMTS is compatible with CEO.
 
-   - CEO requests data in EPSG:3857. Your WMS server is responsible for reprojecting the imagery it hosts into this requested projection.
+   - CEO requests data in EPSG:3857. Your WMS/WMTS server is responsible for reprojecting the imagery it hosts into this requested projection.
    - CEO requires the servers to use the https protocol.
 
-2. Second, to connect your web map service (WMS) to CEO, you need to gather three pieces of information: the base URL for your WMS, the layer name that you want, and any parameters your WMS requires to serve imagery.
+2. Second, to connect your web map service (WMS) or web map tile service (WMTS) to CEO, you need to gather three pieces of information: the base URL for your WMS/WMTS, the layer name that you want, and any parameters your WMS/WMTS requires to serve imagery.
 
    - **Title:** This will be the displayed name of the imagery.
    - **Attribution**: This is the displayed attribution for your imagery. It will appear at the top of the map while users perform data collection tasks.
@@ -148,7 +148,7 @@ The information needed to set up the WMS server will differ based on the specifi
      
        Quotes **MUST BE** ASCII/neutral/vertical quotation marks. Using “” smart/typographic/curved quotation marks will cause errors. Use only Unicode U+0022 and U+0027.
 
-   - If you need to proxy your imagery for your WMS, please check **Proxy Imagery**. You may need this option if you need to obfuscate a key for your WMS or WTMS.
+   - If you need to proxy your imagery for your WMS or WMTS, check **Proxy Imagery**. You may need this option if you need to obfuscate a key for your WMS or WTMS.
    - If you want to add this imagery source to all of your institution's projects, check the box next to **Add Imagery to All Projects When Saving.**
 
 3. When all fields are filled out, click on **[Add New Imagery]**.
@@ -159,6 +159,7 @@ The information needed to set up the WMS server will differ based on the specifi
     :width: 50%
 
 If you are having trouble, we have posted an extensive how-to and troubleshooting guide on the CEO blog. You can view that guide here: https://collect.earth/blog/add-wms-to-ceo/.
+
 
 XYZ Tiles
 ^^^^^^^^^
