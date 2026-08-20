@@ -36,13 +36,13 @@ Project templates allow you to quickly copy another project's questions and sett
 
 .. note:: Simplified Projects can only use other Simplified Projects as templates.
 
-For a template, you may use any available published or closed project from your institution. You cannot use deleted projects. You cannot use another institution’s private project but you can use another institution’s public project. For more on project privacy settings, see `the section on Visibility <visibility>`__.
+For a template, you may use any available published or closed project from your institution. You cannot use deleted projects. You cannot use another institution’s private project but you can use another institution’s public project. For more on project privacy settings, see `the section on Visibility <https://collect-earth-online-doc.readthedocs.io/en/latest/project/projectoverview.html#visibility>`__.
 
 .. tip::
 
    If you do not want to copy another project, simply skip this section.
 
-For more information on using templates, see `Project Templates <templates>`__.
+For more information on using templates, see `Project Templates <https://collect-earth-online-doc.readthedocs.io/en/latest/project/projectoverview.html#use-a-project-template-optional>`__.
 
 Import Collect Earth Project
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
